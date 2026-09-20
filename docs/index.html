@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Radar — 2026-09-21</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ccircle cx='8' cy='8' r='7' fill='none' stroke='%232563eb' stroke-width='1.5'/%3E%3Ccircle cx='8' cy='8' r='2.5' fill='%232563eb'/%3E%3C/svg%3E">
+<style>
+  :root {
+    --bg: #ffffff; --surface: #f6f7f9; --border: #e3e6ea;
+    --text: #15181c; --muted: #646d78; --accent: #2563eb; --shadow: rgba(15,23,42,.06);
+  }
+  :root:not([data-theme="light"]) { }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0d1013; --surface: #161a1f; --border: #262c34;
+      --text: #e8ebee; --muted: #8b95a1; --accent: #60a5fa; --shadow: rgba(0,0,0,.4);
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0d1013; --surface: #161a1f; --border: #262c34;
+    --text: #e8ebee; --muted: #8b95a1; --accent: #60a5fa; --shadow: rgba(0,0,0,.4);
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 16px/1.55 ui-sans-serif, -apple-system, "Segoe UI", Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 780px; margin: 0 auto; padding: 32px 16px 80px; }
+  header { border-bottom: 1px solid var(--border); padding-bottom: 20px; margin-bottom: 8px; }
+  h1 { font-size: 22px; margin: 0 0 4px; letter-spacing: -.02em; }
+  h1 span { color: var(--muted); font-weight: 400; }
+  .meta { color: var(--muted); font-size: 13px; display: flex; flex-wrap: wrap; gap: 6px 14px; margin-top: 10px; }
+  .meta b { color: var(--text); font-weight: 600; }
+  .tools { display: flex; gap: 8px; margin: 18px 0 8px; flex-wrap: wrap; }
+  input[type=search], select {
+    background: var(--surface); color: var(--text); border: 1px solid var(--border);
+    border-radius: 8px; padding: 8px 11px; font: inherit; font-size: 14px;
+  }
+  input[type=search] { flex: 1; min-width: 180px; }
+  ol { list-style: none; padding: 0; margin: 12px 0 0; }
+  li.item {
+    border: 1px solid var(--border); border-radius: 12px; background: var(--surface);
+    padding: 14px 16px; margin-bottom: 10px; box-shadow: 0 1px 2px var(--shadow);
+  }
+  li.item.marked-yes { border-color: #22c55e55; }
+  li.item.marked-no { opacity: .45; }
+  .title { font-size: 16px; font-weight: 600; line-height: 1.4; margin: 0 0 6px; }
+  .title a { color: var(--text); text-decoration: none; }
+  .title a:hover { color: var(--accent); text-decoration: underline; }
+  .sub { color: var(--muted); font-size: 12.5px; display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: center; }
+  .chip {
+    font-size: 11px; font-weight: 600; padding: 2px 7px; border-radius: 999px;
+    border: 1px solid currentColor; letter-spacing: .01em;
+  }
+  .summary { color: var(--muted); font-size: 13.5px; margin: 8px 0 0; }
+  .why { color: var(--text); font-size: 13.5px; margin: 8px 0 0; padding-left: 10px; border-left: 2px solid var(--accent); }
+  .row { display: flex; justify-content: space-between; align-items: center; gap: 10px; margin-top: 10px; }
+  .marks { display: flex; gap: 6px; }
+  .marks button {
+    background: transparent; border: 1px solid var(--border); color: var(--muted);
+    border-radius: 7px; padding: 3px 10px; font: inherit; font-size: 13px; cursor: pointer;
+  }
+  .marks button:hover { border-color: var(--accent); color: var(--accent); }
+  .marks button[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+  details.parts { font-size: 12px; color: var(--muted); }
+  details.parts summary { cursor: pointer; list-style: none; }
+  details.parts summary::-webkit-details-marker { display: none; }
+  details.parts table { border-collapse: collapse; margin-top: 6px; font-variant-numeric: tabular-nums; }
+  details.parts td { padding: 1px 12px 1px 0; }
+  footer { margin-top: 36px; padding-top: 18px; border-top: 1px solid var(--border); color: var(--muted); font-size: 12.5px; }
+  footer a { color: var(--accent); }
+  .empty { color: var(--muted); padding: 30px 0; text-align: center; }
+  .fails { color: #ef4444; font-size: 12.5px; margin-top: 6px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>AI Radar <span>— 2026-09-21</span></h1>
+  <div class="meta">
+    <span><b>12</b> madde</span>
+    <span><b>29</b>/<b>31</b> kaynak</span>
+    <span><b>203</b> taranan</span>
+    <span><b>0</b> tekrar elendi</span>
+    <span id="precision"></span>
+  </div>
+  <div class="fails">Düşen kaynak: reddit-aivideo (HTTPError), reddit-gamedev (HTTPError)</div>
+</header>
+
+<div class="tools">
+  <input type="search" id="q" placeholder="Arşivde ara (başlık, kaynak, eksen)…" autocomplete="off">
+  <select id="axis"><option value="">Tüm eksenler</option><option value="model">Yeni modeller</option><option value="image">Görsel üretim</option><option value="video">Video üretim</option><option value="game">Oyun üretimi</option><option value="threed">3D / rigging / asset</option><option value="infra">Araç & altyapı</option><option value="people">Kişiler & şirketler</option></select>
+  <select id="scope"><option value="today">Bugün</option><option value="all">Tüm arşiv</option></select>
+</div>
+
+<ol id="list"><li class="item" data-key="e6852101baf6df58" data-axes="image,model" data-hay="sol-pi: recursively scaling auto-research loops for efficient agent harness hf-papers image model"><p class="title"><a href="https://huggingface.co/papers/2609.20519" target="_blank" rel="noopener">SoL-Pi: Recursively Scaling Auto-Research Loops for Efficient Agent Harness</a></p><div class="sub"><span class="chip" style="color:#c084fc">Görsel üretim</span> <span class="chip" style="color:#fbbf24">Yeni modeller</span><span>hf-papers</span><span>100 saat önce</span><span>94 oy</span></div><p class="summary">As coding agents move from supervised code completion to unattended, around-the-clock exploration, their work expands from isolated predictions into long trajectories of reasoning, tool use, and feedback. Token efficiency therefore becomes important for scalin</p><div class="row"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>skor 7.10</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+2.00</td></tr><tr><td>eksen</td><td>+4.24</td></tr><tr><td>sinyal</td><td>+0.81</td></tr><tr><td>tazelik</td><td>+0.06</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr></table></details></div></li><li class="item" data-key="ff76ed52869f3177" data-axes="image,model" data-hay="qwen team also released two fine-tuned qwen3.5-vl 9b models (llm+vision) for image edit and text to image prompt enhancement + system prompts reddit-stablediffusion image model"><p class="title"><a href="https://www.reddit.com/r/StableDiffusion/comments/1wlqwqn/qwen_team_also_released_two_finetuned_qwen35vl_9b/" target="_blank" rel="noopener">Qwen team also released two fine-tuned Qwen3.5-VL 9B models (LLM+Vision) for image edit and text to image prompt enhancement + system prompts</a></p><div class="sub"><span class="chip" style="color:#c084fc">Görsel üretim</span> <span class="chip" style="color:#fbbf24">Yeni modeller</span><span>reddit-stablediffusion</span><span>4 saat önce</span></div><p class="summary">Their original Gihub repo suggests prompt enhancer model should guess aspect ratio and resolution from user input and pass it inside JSON for generation along with enhanced prompt Original prompts Text 2 image Image 2 image edit Model Weights Two fine-tuned Qw</p><div class="row"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>skor 6.96</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+1.50</td></tr><tr><td>eksen</td><td>+4.24</td></tr><tr><td>sinyal</td><td>+0.00</td></tr><tr><td>tazelik</td><td>+1.22</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr></table></details></div></li><li class="item" data-key="840d2f1ce9405667" data-axes="model,video" data-hay="jepa-anything: learning predictive models across different worlds hf-papers model video"><p class="title"><a href="https://huggingface.co/papers/2609.20800" target="_blank" rel="noopener">JEPA-Anything: Learning Predictive Models across Different Worlds</a></p><div class="sub"><span class="chip" style="color:#fbbf24">Yeni modeller</span> <span class="chip" style="color:#f472b6">Video üretim</span><span>hf-papers</span><span>100 saat önce</span><span>56 oy</span></div><p class="summary">World modeling enables intelligence to anticipate consequences, guide interventions, and learn from interaction. Yet predictive models remain domain-specific: can a common learning principle support world modeling across radically different systems? We introdu</p><div class="row"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>skor 6.79</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+2.00</td></tr><tr><td>eksen</td><td>+4.01</td></tr><tr><td>sinyal</td><td>+0.72</td></tr><tr><td>tazelik</td><td>+0.06</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr></table></details></div></li><li class="item" data-key="8ce90c3dbed5d4ea" data-axes="model,people,video" data-hay="h3 max: built with fal inference and training fal model people video"><p class="title"><a href="https://blog.fal.ai/h3-max-built-with-fal-inference-and-training/" target="_blank" rel="noopener">H3 Max: Built with fal Inference and Training</a></p><div class="sub"><span class="chip" style="color:#fbbf24">Yeni modeller</span> <span class="chip" style="color:#fb923c">Kişiler &amp; şirketler</span> <span class="chip" style="color:#f472b6">Video üretim</span><span>fal</span><span>72 saat önce</span></div><p class="summary">H3 Max generates a 5-second video in under 3 seconds. In our human preference evaluations against twelve leading video models, it ranks first on quality, prompt understanding, and aesthetics. Independent benchmarks from Artificial Analysis and Design Arena ran</p><div class="row"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>skor 6.64</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+2.50</td></tr><tr><td>eksen</td><td>+4.01</td></tr><tr><td>sinyal</td><td>+0.00</td></tr><tr><td>tazelik</td><td>+0.13</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr></table></details></div></li><li class="item" data-key="222ace23a9b00cf0" data-axes="image" data-hay="hex turns complex analysis into visual reports with gpt‑6 astra openai image"><p class="title"><a href="https://openai.com/index/hex-gpt-6-astra" target="_blank" rel="noopener">Hex turns complex analysis into visual reports with GPT‑6 Astra</a></p><div class="sub"><span class="chip" style="color:#c084fc">Görsel üretim</span><span>openai</span><span>108 saat önce</span></div><p class="summary">GPT-6 Astra helps Hex’s data agents turn answers into interactive visualizations that employees are proud to share.</p><div class="row"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>skor 6.58</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+3.00</td></tr><tr><td>eksen</td><td>+3.52</td></tr><tr><td>sinyal</td><td>+0.00</td></tr><tr><td>tazelik</td><td>+0.06</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr></table></details></div></li><li class="item" data-key="070e076552ccb12f" data-axes="model" data-hay="pirate face rescues llm models from deletion hackernews model"><p class="title"><a href="https://pirateface.co/" target="_blank" rel="noopener">Pirate Face Rescues LLM Models from Deletion</a></p><div class="sub"><span class="chip" style="color:#fbbf24">Yeni modeller</span><span>hackernews</span><span>9 saat önce</span><span>412 oy</span></div><div class="row"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>skor 6.48</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+1.50</td></tr><tr><td>eksen</td><td>+2.86</td></tr><tr><td>sinyal</td><td>+1.07</td></tr><tr><td>tazelik</td><td>+1.05</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr></table></details></div></li><li class="item" data-key="2a48cbefd5c9888f" data-axes="infra,model" data-hay="our framework for reporting model misalignment openai infra model"><p class="title"><a href="https://openai.com/index/model-misalignment-reporting-framework" target="_blank" rel="noopener">Our framework for reporting model misalignment</a></p><div class="sub"><span class="chip" style="color:#94a3b8">Araç &amp; altyapı</span> <span class="chip" style="color:#fbbf24">Yeni modeller</span><span>openai</span><span>103 saat önce</span></div><p class="summary">OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.</p><div class="row"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>skor 6.41</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+3.00</td></tr><tr><td>eksen</td><td>+3.35</td></tr><tr><td>sinyal</td><td>+0.00</td></tr><tr><td>tazelik</td><td>+0.06</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr></table></details></div></li><li class="item" data-key="87c9c924dfec92d9" data-axes="model,video" data-hay="splashsplat: reconstructing splashing liquids from real-world multi-view videos arxiv-cv model video"><p class="title"><a href="https://arxiv.org/abs/2609.20818v1" target="_blank" rel="noopener">SplashSplat: Reconstructing Splashing Liquids from Real-World Multi-View Videos</a></p><div class="sub"><span class="chip" style="color:#fbbf24">Yeni modeller</span> <span class="chip" style="color:#f472b6">Video üretim</span><span>arxiv-cv</span><span>78 saat önce</span><span>+1 kaynak</span></div><p class="summary">A splash lives for a fraction of a second: sheets tear into ligaments and droplets, appearance is view-dependent and nearly textureless, and little persists long enough to track. Reconstruction research has consequently focused on smoke, synthetic liquids, or </p><div class="row"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>skor 6.32</summary><table><tr><td>corroboration</td><td>+1.00</td></tr><tr><td>kaynak</td><td>+1.00</td></tr><tr><td>eksen</td><td>+4.01</td></tr><tr><td>sinyal</td><td>+0.00</td></tr><tr><td>tazelik</td><td>+0.10</td></tr><tr><td>capraz_kaynak</td><td>+1.20</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr></table></details></div></li><li class="item" data-key="30a3cb4d8b9d35cb" data-axes="game" data-hay="qwen3.8-flash-next cosmic arcade oneshot slop game reddit-localllama game"><p class="title"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1wlqxeu/qwen38flashnext_cosmic_arcade_oneshot_slop_game/" target="_blank" rel="noopener">Qwen3.8-Flash-Next Cosmic Arcade oneshot slop game</a></p><div class="sub"><span class="chip" style="color:#4ade80">Oyun üretimi</span><span>reddit-localllama</span><span>4 saat önce</span></div><p class="summary">To test what it can do. Qwen3.8-Flash-Next Intel Autoround W4A16 running locally on 4xV620 ~2k prefill and 70ts decode.. Were running around 3 hours. Harness is OMP (I think it made a big difference). Most of the time model was running 2 browsers simultaneousl</p><div class="row"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>skor 6.25</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+1.50</td></tr><tr><td>eksen</td><td>+3.52</td></tr><tr><td>sinyal</td><td>+0.00</td></tr><tr><td>tazelik</td><td>+1.23</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr></table></details></div></li><li class="item" data-key="c9d1ef147fb9b59f" data-axes="model,threed" data-hay="famos: feed-forward 3d articulation modeling from sparse observations arxiv-cv model threed"><p class="title"><a href="https://arxiv.org/abs/2609.20817v1" target="_blank" rel="noopener">FAMOS: Feed-Forward 3D Articulation Modeling from Sparse Observations</a></p><div class="sub"><span class="chip" style="color:#fbbf24">Yeni modeller</span> <span class="chip" style="color:#38bdf8">3D / rigging / asset</span><span>arxiv-cv</span><span>78 saat önce</span></div><p class="summary">Modeling articulated objects from sparse monocular views is challenging because each observation reveals only partial geometry and motion evidence. Most feed-forward methods infer articulation from a single observation and therefore rely heavily on learned cat</p><div class="row"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>skor 5.12</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+1.00</td></tr><tr><td>eksen</td><td>+4.01</td></tr><tr><td>sinyal</td><td>+0.00</td></tr><tr><td>tazelik</td><td>+0.10</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr></table></details></div></li><li class="item" data-key="44249775de04908d" data-axes="infra" data-hay="6 days left to save up to $200 to techcrunch disrupt 2026 techcrunch-ai infra"><p class="title"><a href="https://techcrunch.com/2026/09/20/6-days-left-to-get-ahead-at-techcrunch-disrupt-2026/" target="_blank" rel="noopener">6 days left to save up to $200 to TechCrunch Disrupt 2026</a></p><div class="sub"><span class="chip" style="color:#94a3b8">Araç &amp; altyapı</span><span>techcrunch-ai</span><span>2 saat önce</span></div><p class="summary">Current ticket pricing ends in 6 days on Sept. 25 at 11:59 p.m. PT. Join 10,000+ founders, investors and tech leaders at Disrupt and save up to $200 on your ticket until then.</p><div class="row"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>skor 3.78</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+0.50</td></tr><tr><td>eksen</td><td>+1.98</td></tr><tr><td>sinyal</td><td>+0.00</td></tr><tr><td>tazelik</td><td>+1.30</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr></table></details></div></li><li class="item" data-key="fcddef2fddf6fb5b" data-axes="people" data-hay="an elementary expression for multiple scattering in homogeneous microflake media arxiv-gr people"><p class="title"><a href="https://arxiv.org/abs/2609.20394v1" target="_blank" rel="noopener">An Elementary Expression for Multiple Scattering in Homogeneous Microflake Media</a></p><div class="sub"><span class="chip" style="color:#fb923c">Kişiler &amp; şirketler</span><span>arxiv-gr</span><span>82 saat önce</span></div><p class="summary">We derive a novel diffuse-like BRDF based on microfacet theory. Its main novelty lies in the fact that it admits an elementary expression for both evaluation and importance sampling, while accounting exactly for all scattering orders under the Smith shadowing </p><div class="row"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>skor 2.85</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+1.00</td></tr><tr><td>eksen</td><td>+1.76</td></tr><tr><td>sinyal</td><td>+0.00</td></tr><tr><td>tazelik</td><td>+0.09</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr></table></details></div></li></ol>
+<div class="empty" id="empty" hidden>Eşleşen madde yok.</div>
+
+<footer>
+  <div>Arşiv: <b>2026-09-21</b></div>
+  <div style="margin-top:8px">
+    Üretim: <b>2026-09-20 23:50 UTC</b> · Faydalı/faydasız işaretleri yalnız bu tarayıcıda saklanır.
+    <a href="#" id="reset">işaretleri sıfırla</a>
+  </div>
+</footer>
+</div>
+
+<script>
+const ARCHIVE_URL = "data/index.json";
+const store = {
+  read() { try { return JSON.parse(localStorage.getItem("radar.marks") || "{}"); } catch (e) { return {}; } },
+  write(v) { try { localStorage.setItem("radar.marks", JSON.stringify(v)); } catch (e) {} }
+};
+
+function renderPrecision() {
+  const marks = store.read();
+  const vals = Object.values(marks);
+  const yes = vals.filter(v => v === "yes").length;
+  const el = document.getElementById("precision");
+  if (!vals.length) { el.textContent = "işaretlenmemiş"; return; }
+  el.innerHTML = "faydalı oranı <b>" + Math.round(100 * yes / vals.length) + "%</b> (" + yes + "/" + vals.length + ")";
+}
+
+function wireMarks(root) {
+  const marks = store.read();
+  root.querySelectorAll("li.item").forEach(li => {
+    const key = li.dataset.key;
+    const current = marks[key];
+    if (current) li.classList.add("marked-" + current);
+    li.querySelectorAll(".marks button").forEach(btn => {
+      const val = btn.dataset.mark;
+      btn.setAttribute("aria-pressed", String(current === val));
+      btn.onclick = () => {
+        const m = store.read();
+        if (m[key] === val) { delete m[key]; } else { m[key] = val; }
+        store.write(m);
+        li.classList.remove("marked-yes", "marked-no");
+        if (m[key]) li.classList.add("marked-" + m[key]);
+        li.querySelectorAll(".marks button").forEach(b =>
+          b.setAttribute("aria-pressed", String(m[key] === b.dataset.mark)));
+        renderPrecision();
+      };
+    });
+  });
+}
+
+let archive = null;
+async function loadArchive() {
+  if (archive) return archive;
+  try { archive = await (await fetch(ARCHIVE_URL)).json(); } catch (e) { archive = { items: [] }; }
+  return archive;
+}
+
+function itemHTML(it) {
+  const chips = (it.axes || []).map(a =>
+    '<span class="chip" style="color:' + (AXIS_COLOR[a] || "#94a3b8") + '">' + (AXIS_LABEL[a] || a) + '</span>').join(" ");
+  return '<li class="item" data-key="' + it.key + '">' +
+    '<p class="title"><a href="' + it.url + '" target="_blank" rel="noopener">' + it.title + '</a></p>' +
+    '<div class="sub">' + chips + '<span>' + it.source + '</span><span>' + (it.date || "") + '</span></div>' +
+    '<div class="row"><div class="marks">' +
+      '<button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button>' +
+    '</div><span class="sub">skor ' + it.score + '</span></div></li>';
+}
+
+const AXIS_COLOR = {"image": "#c084fc", "video": "#f472b6", "game": "#4ade80", "threed": "#38bdf8", "model": "#fbbf24", "infra": "#94a3b8", "people": "#fb923c"};
+const AXIS_LABEL = {"model": "Yeni modeller", "image": "Görsel üretim", "video": "Video üretim", "game": "Oyun üretimi", "threed": "3D / rigging / asset", "infra": "Araç & altyapı", "people": "Kişiler & şirketler"};
+
+async function applyFilter() {
+  const q = document.getElementById("q").value.trim().toLowerCase();
+  const axis = document.getElementById("axis").value;
+  const scope = document.getElementById("scope").value;
+  const list = document.getElementById("list");
+  const empty = document.getElementById("empty");
+
+  if (scope === "today") {
+    let shown = 0;
+    list.querySelectorAll("li.item").forEach(li => {
+      const hay = li.dataset.hay || "";
+      const ok = (!q || hay.includes(q)) && (!axis || (li.dataset.axes || "").includes(axis));
+      li.hidden = !ok; if (ok) shown++;
+    });
+    empty.hidden = shown > 0;
+    return;
+  }
+
+  const data = await loadArchive();
+  const rows = data.items.filter(it =>
+    (!q || (it.title + " " + it.source + " " + (it.axes || []).join(" ")).toLowerCase().includes(q)) &&
+    (!axis || (it.axes || []).includes(axis)));
+  list.innerHTML = rows.slice(0, 300).map(itemHTML).join("");
+  empty.hidden = rows.length > 0;
+  wireMarks(list);
+}
+
+document.getElementById("q").addEventListener("input", applyFilter);
+document.getElementById("axis").addEventListener("change", applyFilter);
+document.getElementById("scope").addEventListener("change", applyFilter);
+document.getElementById("reset").addEventListener("click", e => {
+  e.preventDefault();
+  store.write({});
+  document.querySelectorAll("li.item").forEach(li => li.classList.remove("marked-yes", "marked-no"));
+  document.querySelectorAll(".marks button").forEach(b => b.setAttribute("aria-pressed", "false"));
+  renderPrecision();
+});
+
+wireMarks(document);
+renderPrecision();
+</script>
+</body>
+</html>

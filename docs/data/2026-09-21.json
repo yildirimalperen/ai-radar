@@ -1,0 +1,142 @@
+[
+ {
+  "key": "e6852101baf6df58",
+  "title": "SoL-Pi: Recursively Scaling Auto-Research Loops for Efficient Agent Harness",
+  "url": "https://huggingface.co/papers/2609.20519",
+  "source": "hf-papers",
+  "axes": [
+   "image",
+   "model"
+  ],
+  "score": 7.1,
+  "date": "2026-09-21"
+ },
+ {
+  "key": "ff76ed52869f3177",
+  "title": "Qwen team also released two fine-tuned Qwen3.5-VL 9B models (LLM+Vision) for image edit and text to image prompt enhancement + system prompts",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wlqwqn/qwen_team_also_released_two_finetuned_qwen35vl_9b/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image",
+   "model"
+  ],
+  "score": 6.96,
+  "date": "2026-09-21"
+ },
+ {
+  "key": "840d2f1ce9405667",
+  "title": "JEPA-Anything: Learning Predictive Models across Different Worlds",
+  "url": "https://huggingface.co/papers/2609.20800",
+  "source": "hf-papers",
+  "axes": [
+   "model",
+   "video"
+  ],
+  "score": 6.79,
+  "date": "2026-09-21"
+ },
+ {
+  "key": "8ce90c3dbed5d4ea",
+  "title": "H3 Max: Built with fal Inference and Training",
+  "url": "https://blog.fal.ai/h3-max-built-with-fal-inference-and-training/",
+  "source": "fal",
+  "axes": [
+   "model",
+   "people",
+   "video"
+  ],
+  "score": 6.64,
+  "date": "2026-09-21"
+ },
+ {
+  "key": "222ace23a9b00cf0",
+  "title": "Hex turns complex analysis into visual reports with GPT‑6 Astra",
+  "url": "https://openai.com/index/hex-gpt-6-astra",
+  "source": "openai",
+  "axes": [
+   "image"
+  ],
+  "score": 6.58,
+  "date": "2026-09-21"
+ },
+ {
+  "key": "070e076552ccb12f",
+  "title": "Pirate Face Rescues LLM Models from Deletion",
+  "url": "https://pirateface.co/",
+  "source": "hackernews",
+  "axes": [
+   "model"
+  ],
+  "score": 6.48,
+  "date": "2026-09-21"
+ },
+ {
+  "key": "2a48cbefd5c9888f",
+  "title": "Our framework for reporting model misalignment",
+  "url": "https://openai.com/index/model-misalignment-reporting-framework",
+  "source": "openai",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 6.41,
+  "date": "2026-09-21"
+ },
+ {
+  "key": "87c9c924dfec92d9",
+  "title": "SplashSplat: Reconstructing Splashing Liquids from Real-World Multi-View Videos",
+  "url": "https://arxiv.org/abs/2609.20818v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "model",
+   "video"
+  ],
+  "score": 6.32,
+  "date": "2026-09-21"
+ },
+ {
+  "key": "30a3cb4d8b9d35cb",
+  "title": "Qwen3.8-Flash-Next Cosmic Arcade oneshot slop game",
+  "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlqxeu/qwen38flashnext_cosmic_arcade_oneshot_slop_game/",
+  "source": "reddit-localllama",
+  "axes": [
+   "game"
+  ],
+  "score": 6.25,
+  "date": "2026-09-21"
+ },
+ {
+  "key": "c9d1ef147fb9b59f",
+  "title": "FAMOS: Feed-Forward 3D Articulation Modeling from Sparse Observations",
+  "url": "https://arxiv.org/abs/2609.20817v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "model",
+   "threed"
+  ],
+  "score": 5.12,
+  "date": "2026-09-21"
+ },
+ {
+  "key": "44249775de04908d",
+  "title": "6 days left to save up to $200 to TechCrunch Disrupt 2026",
+  "url": "https://techcrunch.com/2026/09/20/6-days-left-to-get-ahead-at-techcrunch-disrupt-2026/",
+  "source": "techcrunch-ai",
+  "axes": [
+   "infra"
+  ],
+  "score": 3.78,
+  "date": "2026-09-21"
+ },
+ {
+  "key": "fcddef2fddf6fb5b",
+  "title": "An Elementary Expression for Multiple Scattering in Homogeneous Microflake Media",
+  "url": "https://arxiv.org/abs/2609.20394v1",
+  "source": "arxiv-gr",
+  "axes": [
+   "people"
+  ],
+  "score": 2.85,
+  "date": "2026-09-21"
+ }
+]

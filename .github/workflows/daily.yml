@@ -1,0 +1,53 @@
+name: Günlük radar
+
+on:
+  schedule:
+    # 03:00 UTC = 06:00 Europe/Istanbul. GitHub cron yalnız UTC kabul eder.
+    - cron: "0 3 * * *"
+  workflow_dispatch:        # elle tetikleme (ilk kurulum ve hata ayıklama için)
+
+permissions:
+  contents: write           # üretilen sayfayı ve arşiv durumunu geri yazmak için
+
+concurrency:
+  group: radar-daily
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Bağımlılıklar
+        run: pip install --quiet feedparser PyYAML pytest
+
+      - name: Testler
+        run: python -m pytest tests/ -q
+
+      - name: Radar koşusu
+        env:
+          # İsteğe bağlı. Yoksa boru hattı çalışır, yalnız "neden önemli"
+          # notları üretilmez.
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # İsteğe bağlı. Yoksa Reddit kimliksiz RSS'e düşer ve 429 alabilir.
+          REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
+          REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
+        run: python -m radar.cli run --site docs --archive archive
+
+      - name: Sonucu yaz
+        run: |
+          git config user.name  "ai-radar"
+          git config user.email "actions@github.com"
+          git add docs archive
+          if git diff --cached --quiet; then
+            echo "değişiklik yok, commit atlanıyor"
+          else
+            git commit -m "radar: $(date -u +%Y-%m-%d) bülteni"
+            git push
+          fi

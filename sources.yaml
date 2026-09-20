@@ -1,0 +1,225 @@
+# Kaynak kayit defteri.
+# Buradaki her URL tools/probe_sources.py ile canli dogrulandi (2026-09-21).
+# weight : kaynagin taban guveni (0-3). Skorun sabit bileseni.
+# cap    : bir kosuda bu kaynaktan alinacak azami madde. Yuksek hacimli
+#          kaynaklar (techcrunch, itch.io, gamesindustry) bulteni bogmasin diye.
+# axes   : kaynagin dogal ekseni. Madde bazli eksen tespiti score.py'de yapilir;
+#          buradaki liste yalnizca on-egilim.
+
+defaults:
+  cap: 12
+
+sources:
+  # --- laboratuvar / saglayici duyurulari (en yuksek guven) ---
+  - id: openai
+    kind: rss
+    url: https://openai.com/news/rss.xml
+    axes: [model, people]
+    weight: 3.0
+  - id: deepmind
+    kind: rss
+    url: https://deepmind.google/blog/rss.xml
+    axes: [model, people]
+    weight: 3.0
+  - id: google-ai
+    kind: rss
+    url: https://blog.google/technology/ai/rss/
+    axes: [model, people]
+    weight: 2.5
+  - id: nvidia-genai
+    kind: rss
+    url: https://blogs.nvidia.com/blog/category/generative-ai/feed/
+    axes: [model, threed, infra]
+    weight: 2.0
+  - id: huggingface-blog
+    kind: rss
+    url: https://huggingface.co/blog/feed.xml
+    axes: [model, infra]
+    weight: 2.5
+    cap: 8
+  - id: replicate
+    kind: rss
+    url: https://replicate.com/blog/rss
+    axes: [image, video, infra]
+    weight: 2.0
+  - id: fal
+    kind: rss
+    url: https://blog.fal.ai/rss/
+    axes: [image, video, infra]
+    weight: 2.5
+
+  # --- gorsel / video / 3D uretim araclari ---
+  - id: comfyui
+    kind: rss
+    url: https://github.com/comfyanonymous/ComfyUI/releases.atom
+    axes: [image, infra]
+    weight: 2.0
+    cap: 4
+  - id: threejs
+    ai_native: false
+    kind: rss
+    url: https://github.com/mrdoob/three.js/releases.atom
+    axes: [threed, infra]
+    weight: 1.5
+    cap: 3
+  - id: blender
+    ai_native: false
+    kind: rss
+    url: https://github.com/blender/blender/tags.atom
+    axes: [threed]
+    weight: 1.5
+    cap: 3
+
+  # --- oyun uretimi ---
+  - id: 80lv
+    ai_native: false
+    kind: rss
+    url: https://80.lv/feed/
+    axes: [game, threed, image]
+    weight: 2.0
+    cap: 10
+  - id: gamesindustry
+    ai_native: false
+    kind: rss
+    url: https://www.gamesindustry.biz/feed
+    axes: [game, people]
+    weight: 1.0
+    cap: 8
+  - id: unity
+    ai_native: false
+    kind: rss
+    url: https://blog.unity.com/feed
+    axes: [game, threed]
+    weight: 1.5
+    cap: 5
+  - id: godot
+    ai_native: false
+    kind: rss
+    url: https://github.com/godotengine/godot/releases.atom
+    axes: [game]
+    weight: 1.5
+    cap: 3
+  - id: itchio
+    ai_native: false
+    kind: rss
+    url: https://itch.io/blog.rss
+    axes: [game]
+    weight: 0.5
+    cap: 5
+
+  # --- analiz / bulten (yuksek sinyal, dusuk hacim) ---
+  - id: import-ai
+    kind: rss
+    url: https://importai.substack.com/feed
+    axes: [model, people]
+    weight: 3.0
+    cap: 3
+  - id: last-week-in-ai
+    kind: rss
+    url: https://lastweekin.ai/feed
+    axes: [model, people]
+    weight: 2.0
+    cap: 3
+  - id: ahead-of-ai
+    kind: rss
+    url: https://magazine.sebastianraschka.com/feed
+    axes: [model]
+    weight: 2.5
+    cap: 3
+  - id: simonwillison
+    kind: rss
+    url: https://simonwillison.net/atom/everything/
+    axes: [model, infra]
+    weight: 2.5
+    cap: 8
+
+  # --- genel basin (dusuk guven, siki tavan) ---
+  - id: techcrunch-ai
+    kind: rss
+    url: https://techcrunch.com/category/artificial-intelligence/feed/
+    axes: [people, model]
+    weight: 0.5
+    cap: 6
+  - id: verge-ai
+    kind: rss
+    url: https://www.theverge.com/rss/ai-artificial-intelligence/index.xml
+    axes: [people, model]
+    weight: 0.5
+    cap: 6
+  - id: marktechpost
+    kind: rss
+    url: https://www.marktechpost.com/feed/
+    axes: [model]
+    weight: 0.5
+    cap: 6
+
+  # --- topluluk (oylanmis, sinyal tasiyor) ---
+  - id: hackernews
+    ai_native: false
+    kind: hn
+    url: https://hn.algolia.com/api/v1/search_by_date?tags=story&numericFilters=points%3E60&hitsPerPage=60
+    axes: [model, infra, people]
+    weight: 1.5
+    cap: 12
+  - id: lobsters
+    kind: rss
+    url: https://lobste.rs/t/ai.rss
+    axes: [model, infra]
+    weight: 1.0
+    cap: 5
+  - id: reddit-stablediffusion
+    kind: reddit
+    url: https://www.reddit.com/r/StableDiffusion/top.rss?t=day
+    axes: [image]
+    weight: 1.5
+    cap: 6
+  - id: reddit-localllama
+    kind: reddit
+    url: https://www.reddit.com/r/LocalLLaMA/top.rss?t=day
+    axes: [model]
+    weight: 1.5
+    cap: 6
+  - id: reddit-aivideo
+    kind: reddit
+    url: https://www.reddit.com/r/aivideo/top.rss?t=day
+    axes: [video]
+    weight: 1.0
+    cap: 4
+  - id: reddit-gamedev
+    kind: reddit
+    url: https://www.reddit.com/r/gamedev/top.rss?t=day
+    axes: [game]
+    weight: 1.0
+    cap: 4
+
+  # --- arastirma (agir filtre sart) ---
+  - id: hf-papers
+    kind: hf_papers
+    url: https://huggingface.co/api/daily_papers?limit=40
+    axes: [model, image, video, threed]
+    weight: 2.0
+    cap: 8
+  - id: arxiv-cv
+    kind: arxiv
+    url: "http://export.arxiv.org/api/query?search_query=cat:cs.CV&max_results=40&sortBy=submittedDate&sortOrder=descending"
+    axes: [image, video]
+    weight: 1.0
+    cap: 5
+  - id: arxiv-gr
+    kind: arxiv
+    url: "http://export.arxiv.org/api/query?search_query=cat:cs.GR&max_results=40&sortBy=submittedDate&sortOrder=descending"
+    axes: [threed, game]
+    weight: 1.0
+    cap: 5
+
+# RSS yayini OLMAYAN, bu yuzden kapsanamayan kaynaklar. Duyurulari genelde
+# HN / Simon Willison / basin uzerinden dolayli yakalaniyor. Dogrudan izlemek
+# icin HTML fark-takibi gerekir -- pilot kapsaminin disinda.
+known_gaps:
+  - anthropic.com/news
+  - mistral.ai/news
+  - ai.meta.com/blog
+  - runwayml.com/blog
+  - bfl.ai (Black Forest Labs / FLUX)
+  - stability.ai/news
+  - lumalabs.ai/blog
