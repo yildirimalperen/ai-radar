@@ -23,8 +23,30 @@ sources.yaml → collect → dedup → score → select → render → docs/ (Gi
 | Toplama | `radar/collect.py` | 5 kaynak türü (rss, reddit, hn, hf_papers, arxiv), paralel; tek kaynağın ölmesi koşuyu düşürmez |
 | Dedup | `radar/normalize.py` | Yaş sınırı (10 gün) → çapraz-kaynak birleştirme → 7 günlük tekrar elemesi |
 | Skorlama | `radar/score.py` | 6 bileşenli açıklanabilir skor; her kırılım sayfada görünür |
-| Seçim | `radar/score.py` | Günlük kota 12; eksen başına ≤4, kaynak başına ≤2 |
-| Yayın | `radar/render.py` | Tek statik sayfa + günlük arşiv + istemci tarafı arama |
+| Seçim | `radar/score.py` | Kota ≤12; kategori/eksen başına ≤4, kaynak başına ≤2, puan tabanı 4.5 |
+| Yayın | `radar/render.py` | Dört kategoriye ayrılmış statik sayfa + kısa kısa + arşiv + arama |
+
+### Sayfa tasarımı
+
+Dört kaba kategori, madde üstünde ince eksen etiketi:
+
+| Bölüm | Kapsadığı eksenler |
+|---|---|
+| **Üretim** | görsel, video, 3D / rigging |
+| **Oyun** | oyun üretimi |
+| **Modeller & Araştırma** | yeni modeller, makaleler |
+| **Ekosistem** | araç & altyapı, şirketler, etkinlikler |
+
+Yedi ekseni doğrudan bölüm yapmak 12 maddeyi yedi parçaya bölüp okuma ritmini
+kırıyordu; bölümler kaba, hassasiyet etiketlerde. Kategorisi boş kalan bölüm
+sayfada görünmez.
+
+En altta **Kısa kısa**: kotanın altında kalan 8 madde tek satır. "Faydalı ama
+öncelikli değil" olan şeyler (etkinlik duyuruları, ikincil sürüm notları)
+buraya düşer -- elenmezler, sadece yer kaplamazlar.
+
+Kart yığını yerine editoryal düzen (beyaz alan + saç teli ayraç), web yazı tipi
+yok (sistem yığını anında boyanır), tek vurgu rengi, açık/koyu tema.
 
 ### Skor bileşenleri
 
@@ -37,10 +59,10 @@ sources.yaml → collect → dedup → score → select → render → docs/ (Gi
 | `capraz_kaynak` | Kaç bağımsız kaynak aynı haberi verdi |
 | `gurultu_cezasi` | Düşük özlü kalıplar + AI-alaka kapısı |
 
-Skor **tamamen açıklanabilir**: sayfadaki her maddenin altında "skor 6.90"a
+Skor **tamamen açıklanabilir**: sayfadaki her maddenin sağ altındaki puana
 tıklayınca kırılım tablosu açılıyor. Bir madde neden üstte, görülebiliyor.
 
-### İki koruma kapısı
+### Üç koruma kapısı
 
 **AI-alaka kapısı.** 80lv, gamesindustry, Hacker News, Unity, Godot gibi
 kaynaklar AI'a özel değil (`ai_native: false`). Oradan gelen bir madde AI ile
@@ -49,8 +71,14 @@ ilgili olduğunu kendi metninde göstermek zorunda, yoksa −4.0 ceza alıyor.
 **Çıkarımsal eksen sönümü.** Metinden eksen okunamazsa kaynağın ön-eğilimine
 düşülür, ama bu bir tahmindir ve 0.5 katsayıyla sönümlenir.
 
-Her ikisi de ilk gerçek koşuda ölçülen somut hatalara karşı eklendi; gerekçeler
-kodun içinde yazılı, testleri `tests/test_pipeline.py` içinde.
+**Puan tabanı (4.5).** 126 adaylık gerçek bir günün dağılımı ölçülerek seçildi:
+bu bandın altı neredeyse tamamen dolgu (müşteri referans hikâyeleri, kişisel
+blog notları), üstü gerçek haber. Taban oransal değil mutlak -- oransal taban
+sakin bir günde gürültünün girmesine izin veriyor. **Sonuç: sakin bir günde
+liste kotadan kısa çıkar. Bu bir arıza değil, tasarım.**
+
+Üçü de gerçek koşularda ölçülen somut hatalara karşı eklendi; gerekçeler kodun
+içinde yazılı, regresyonları `tests/test_pipeline.py` içinde (28 test).
 
 ---
 
@@ -112,6 +140,12 @@ basın üzerinden dolaylı yakalanıyor. Doğrudan izlemek HTML fark-takibi gere
 hacimde ~$150/ay, Nitter Ağustos 2026'da kapatıldı. Üçüncü-parti okuma API'leri
 ~$2-5/ay ile mümkün ama ToS-gri. X'in benzersiz katkısı "ne oldu" değil "kim ne
 diyor"; pilot çalıştıktan sonra ölçüme dayanarak yeniden değerlendirilecek.
+
+**Eksen tespiti kelime listesine dayalı.** Kelime sınırıyla eşleşiyor (düz
+altdizi araması "ipo"yu "dipole" içinde bulup bir saçılım makalesine "şirket"
+ekseni takmıştı), ama yine de elle bakımlı bir liste. Yeni bir terim dalgası
+(yeni model adları) `AXIS_STRONG` içine eklenmezse o maddeler kaynak eğilimine
+düşer.
 
 **Reddit kimliksiz güvenilmez.** Yerel ölçüm: 4 subreddit'lik koşuda 20 saniye
 aralıkla bile yalnız 2/4 geçti. GitHub Actions üzerinde de 4'ün 2'si 429 aldı.

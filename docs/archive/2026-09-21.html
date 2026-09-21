@@ -3,142 +3,236 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>AI Radar — 2026-09-21</title>
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ccircle cx='8' cy='8' r='7' fill='none' stroke='%232563eb' stroke-width='1.5'/%3E%3Ccircle cx='8' cy='8' r='2.5' fill='%232563eb'/%3E%3C/svg%3E">
+<title>AI Radar — 21 Eylül 2026</title>
+<meta name="description" content="Görsel üretimi, oyun üretimi, 3D ve yeni modeller ekseninde günlük brief.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ccircle cx='8' cy='8' r='6.5' fill='none' stroke='%232563eb' stroke-width='1.4'/%3E%3Ccircle cx='8' cy='8' r='2.2' fill='%232563eb'/%3E%3C/svg%3E">
 <style>
   :root {
-    --bg: #ffffff; --surface: #f6f7f9; --border: #e3e6ea;
-    --text: #15181c; --muted: #646d78; --accent: #2563eb; --shadow: rgba(15,23,42,.06);
+    --bg: #ffffff;
+    --text: #101418;
+    --muted: #6b7280;
+    --faint: #9aa2ad;
+    --rule: #ebedf0;
+    --rule-strong: #d9dde2;
+    --accent: #2563eb;
+    --mark-yes: #16a34a;
+    --mark-no: #9aa2ad;
+    --chip-bg: rgba(16,20,24,.045);
   }
-  :root:not([data-theme="light"]) { }
   @media (prefers-color-scheme: dark) {
     :root:not([data-theme="light"]) {
-      --bg: #0d1013; --surface: #161a1f; --border: #262c34;
-      --text: #e8ebee; --muted: #8b95a1; --accent: #60a5fa; --shadow: rgba(0,0,0,.4);
+      --bg: #0b0d10;
+      --text: #e7eaee;
+      --muted: #8b93a0;
+      --faint: #667080;
+      --rule: #1c2127;
+      --rule-strong: #2b323a;
+      --accent: #7aa7ff;
+      --mark-yes: #4ade80;
+      --mark-no: #667080;
+      --chip-bg: rgba(255,255,255,.06);
     }
   }
   :root[data-theme="dark"] {
-    --bg: #0d1013; --surface: #161a1f; --border: #262c34;
-    --text: #e8ebee; --muted: #8b95a1; --accent: #60a5fa; --shadow: rgba(0,0,0,.4);
+    --bg: #0b0d10; --text: #e7eaee; --muted: #8b93a0; --faint: #667080;
+    --rule: #1c2127; --rule-strong: #2b323a; --accent: #7aa7ff;
+    --mark-yes: #4ade80; --mark-no: #667080; --chip-bg: rgba(255,255,255,.06);
   }
+
   * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
   body {
-    margin: 0; background: var(--bg); color: var(--text);
-    font: 16px/1.55 ui-sans-serif, -apple-system, "Segoe UI", Roboto, sans-serif;
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 400 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", "Inter",
+          ui-sans-serif, Roboto, "Helvetica Neue", Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
   }
-  .wrap { max-width: 780px; margin: 0 auto; padding: 32px 16px 80px; }
-  header { border-bottom: 1px solid var(--border); padding-bottom: 20px; margin-bottom: 8px; }
-  h1 { font-size: 22px; margin: 0 0 4px; letter-spacing: -.02em; }
-  h1 span { color: var(--muted); font-weight: 400; }
-  .meta { color: var(--muted); font-size: 13px; display: flex; flex-wrap: wrap; gap: 6px 14px; margin-top: 10px; }
-  .meta b { color: var(--text); font-weight: 600; }
-  .tools { display: flex; gap: 8px; margin: 18px 0 8px; flex-wrap: wrap; }
-  input[type=search], select {
-    background: var(--surface); color: var(--text); border: 1px solid var(--border);
-    border-radius: 8px; padding: 8px 11px; font: inherit; font-size: 14px;
+  .wrap { max-width: 700px; margin: 0 auto; padding: 56px 16px 96px; }
+
+  /* --- başlık --- */
+  .mast { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+  .mast h1 {
+    font-size: 19px; font-weight: 640; letter-spacing: -.015em; margin: 0;
+    display: flex; align-items: center; gap: 9px;
   }
-  input[type=search] { flex: 1; min-width: 180px; }
-  ol { list-style: none; padding: 0; margin: 12px 0 0; }
-  li.item {
-    border: 1px solid var(--border); border-radius: 12px; background: var(--surface);
-    padding: 14px 16px; margin-bottom: 10px; box-shadow: 0 1px 2px var(--shadow);
+  .dot { width: 9px; height: 9px; border-radius: 50%; background: var(--accent); flex: none; }
+  .mast time { color: var(--muted); font-size: 14px; font-variant-numeric: tabular-nums; }
+  .stats {
+    margin-top: 12px; color: var(--faint); font-size: 12.5px;
+    display: flex; flex-wrap: wrap; gap: 4px 16px; font-variant-numeric: tabular-nums;
   }
-  li.item.marked-yes { border-color: #22c55e55; }
-  li.item.marked-no { opacity: .45; }
-  .title { font-size: 16px; font-weight: 600; line-height: 1.4; margin: 0 0 6px; }
-  .title a { color: var(--text); text-decoration: none; }
-  .title a:hover { color: var(--accent); text-decoration: underline; }
-  .sub { color: var(--muted); font-size: 12.5px; display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: center; }
-  .chip {
-    font-size: 11px; font-weight: 600; padding: 2px 7px; border-radius: 999px;
-    border: 1px solid currentColor; letter-spacing: .01em;
+  .stats b { color: var(--muted); font-weight: 600; }
+  .warn { color: #dc2626; }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .warn { color: #f87171; } }
+
+  /* --- araç çubuğu --- */
+  .tools { display: flex; gap: 8px; margin: 26px 0 8px; flex-wrap: wrap; }
+  .tools input, .tools select {
+    font: inherit; font-size: 13.5px; color: var(--text);
+    background: transparent; border: 1px solid var(--rule-strong);
+    border-radius: 9px; padding: 8px 11px; min-width: 0;
+    transition: border-color .15s ease;
   }
-  .summary { color: var(--muted); font-size: 13.5px; margin: 8px 0 0; }
-  .why { color: var(--text); font-size: 13.5px; margin: 8px 0 0; padding-left: 10px; border-left: 2px solid var(--accent); }
-  .row { display: flex; justify-content: space-between; align-items: center; gap: 10px; margin-top: 10px; }
-  .marks { display: flex; gap: 6px; }
+  .tools input { flex: 1 1 200px; }
+  .tools input:focus, .tools select:focus { outline: none; border-color: var(--accent); }
+  .tools input::placeholder { color: var(--faint); }
+
+  /* --- kategori bölümü --- */
+  section { margin-top: 42px; }
+  .cat {
+    display: flex; align-items: center; gap: 10px; margin: 0 0 4px;
+    font-size: 11.5px; font-weight: 680; letter-spacing: .09em; text-transform: uppercase;
+    color: var(--muted);
+  }
+  .cat::after { content: ""; flex: 1; height: 1px; background: var(--rule); }
+  .cat i { width: 6px; height: 6px; border-radius: 50%; flex: none; }
+  .cat u { text-decoration: none; color: var(--faint); font-weight: 600; letter-spacing: .04em; }
+
+  /* --- madde --- */
+  article { padding: 20px 0; border-bottom: 1px solid var(--rule); }
+  article:last-child { border-bottom: none; }
+  article.hidden { display: none; }
+  article.no { opacity: .38; }
+  h2 { margin: 0; font-size: 16.5px; line-height: 1.42; font-weight: 600; letter-spacing: -.008em; }
+  article.lead h2 { font-size: 20.5px; line-height: 1.34; letter-spacing: -.017em; }
+  h2 a { color: inherit; text-decoration: none; }
+  h2 a:hover { color: var(--accent); }
+  h2 a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 3px; }
+
+  .meta {
+    margin-top: 7px; display: flex; flex-wrap: wrap; align-items: center;
+    gap: 4px 9px; font-size: 12.5px; color: var(--faint);
+  }
+  .meta .sep { color: var(--rule-strong); }
+  .ax { display: inline-flex; align-items: center; gap: 5px; color: var(--muted); }
+  .ax i { width: 5px; height: 5px; border-radius: 50%; flex: none; }
+
+  p.sum {
+    margin: 9px 0 0; color: var(--muted); font-size: 14px; line-height: 1.58;
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+  }
+  article.lead p.sum { -webkit-line-clamp: 3; }
+  p.why {
+    margin: 10px 0 0; font-size: 14px; line-height: 1.55; color: var(--text);
+    padding-left: 12px; border-left: 2px solid var(--accent);
+  }
+
+  .foot { margin-top: 12px; display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+  .marks { display: flex; gap: 2px; }
   .marks button {
-    background: transparent; border: 1px solid var(--border); color: var(--muted);
-    border-radius: 7px; padding: 3px 10px; font: inherit; font-size: 13px; cursor: pointer;
+    font: inherit; font-size: 12.5px; line-height: 1; cursor: pointer;
+    background: transparent; border: 1px solid transparent; border-radius: 7px;
+    padding: 6px 9px; color: var(--faint); transition: all .13s ease;
   }
-  .marks button:hover { border-color: var(--accent); color: var(--accent); }
-  .marks button[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
-  details.parts { font-size: 12px; color: var(--muted); }
-  details.parts summary { cursor: pointer; list-style: none; }
+  .marks button:hover { color: var(--text); background: var(--chip-bg); }
+  .marks button[aria-pressed="true"][data-mark="yes"] { color: var(--mark-yes); background: var(--chip-bg); }
+  .marks button[aria-pressed="true"][data-mark="no"] { color: var(--mark-no); background: var(--chip-bg); }
+  .marks button:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+
+  details.parts { font-size: 12px; color: var(--faint); font-variant-numeric: tabular-nums; }
+  details.parts summary { cursor: pointer; list-style: none; padding: 4px 0; }
   details.parts summary::-webkit-details-marker { display: none; }
-  details.parts table { border-collapse: collapse; margin-top: 6px; font-variant-numeric: tabular-nums; }
-  details.parts td { padding: 1px 12px 1px 0; }
-  footer { margin-top: 36px; padding-top: 18px; border-top: 1px solid var(--border); color: var(--muted); font-size: 12.5px; }
-  footer a { color: var(--accent); }
-  .empty { color: var(--muted); padding: 30px 0; text-align: center; }
-  .fails { color: #ef4444; font-size: 12.5px; margin-top: 6px; }
+  details.parts summary:hover { color: var(--muted); }
+  details.parts table { border-collapse: collapse; margin: 6px 0 2px; font-size: 11.5px; }
+  details.parts td { padding: 1px 0; }
+  details.parts td:last-child { text-align: right; padding-left: 18px; }
+
+  /* --- kısa kısa --- */
+  .brief li { padding: 9px 0; border-bottom: 1px solid var(--rule); font-size: 14px; line-height: 1.5; }
+  .brief li:last-child { border-bottom: none; }
+  .brief a { color: var(--text); text-decoration: none; }
+  .brief a:hover { color: var(--accent); }
+  .brief span { color: var(--faint); font-size: 12.5px; }
+  ul, ol { list-style: none; margin: 0; padding: 0; }
+
+  .empty { color: var(--faint); font-size: 14px; padding: 36px 0; text-align: center; }
+
+  footer {
+    margin-top: 56px; padding-top: 20px; border-top: 1px solid var(--rule);
+    color: var(--faint); font-size: 12.5px; line-height: 1.8;
+  }
+  footer a { color: var(--muted); text-decoration: none; }
+  footer a:hover { color: var(--accent); }
+  footer nav { display: flex; flex-wrap: wrap; gap: 4px 12px; font-variant-numeric: tabular-nums; }
+  footer nav b { color: var(--text); }
+
+  @media (max-width: 480px) {
+    .wrap { padding: 36px 16px 72px; }
+    article.lead h2 { font-size: 18.5px; }
+  }
 </style>
 </head>
 <body>
 <div class="wrap">
+
 <header>
-  <h1>AI Radar <span>— 2026-09-21</span></h1>
-  <div class="meta">
-    <span><b>12</b> madde</span>
+  <div class="mast">
+    <h1><span class="dot"></span>AI Radar</h1>
+    <time datetime="2026-09-21">21 Eylül 2026</time>
+  </div>
+  <div class="stats">
+    <span><b>10</b> madde</span>
     <span><b>28</b>/<b>31</b> kaynak</span>
-    <span><b>198</b> taranan</span>
-    <span><b>0</b> tekrar elendi</span>
+    <span><b>195</b> tarandı</span>
     <span id="precision"></span>
   </div>
-  <div class="fails">Düşen kaynak: import-ai (HTTPError), reddit-localllama (HTTPError), reddit-gamedev (HTTPError)</div>
+  <div class="stats"><span class="warn">düşen kaynak: reddit-stablediffusion, reddit-localllama, reddit-gamedev</span></div>
 </header>
 
 <div class="tools">
-  <input type="search" id="q" placeholder="Arşivde ara (başlık, kaynak, eksen)…" autocomplete="off">
-  <select id="axis"><option value="">Tüm eksenler</option><option value="model">Yeni modeller</option><option value="image">Görsel üretim</option><option value="video">Video üretim</option><option value="game">Oyun üretimi</option><option value="threed">3D / rigging / asset</option><option value="infra">Araç & altyapı</option><option value="people">Kişiler & şirketler</option></select>
-  <select id="scope"><option value="today">Bugün</option><option value="all">Tüm arşiv</option></select>
+  <input type="search" id="q" placeholder="Ara…" autocomplete="off" aria-label="Ara">
+  <select id="axis" aria-label="Eksen"><option value="">Tüm eksenler</option><option value="model">Yeni modeller</option><option value="image">Görsel üretim</option><option value="video">Video üretim</option><option value="game">Oyun üretimi</option><option value="threed">3D / rigging / asset</option><option value="infra">Araç & altyapı</option><option value="people">Kişiler & şirketler</option></select>
+  <select id="scope" aria-label="Kapsam"><option value="today">Bugün</option><option value="all">Tüm arşiv</option></select>
 </div>
 
-<ol id="list"><li class="item" data-key="e6852101baf6df58" data-axes="image,model" data-hay="sol-pi: recursively scaling auto-research loops for efficient agent harness hf-papers image model"><p class="title"><a href="https://huggingface.co/papers/2609.20519" target="_blank" rel="noopener">SoL-Pi: Recursively Scaling Auto-Research Loops for Efficient Agent Harness</a></p><div class="sub"><span class="chip" style="color:#c084fc">Görsel üretim</span> <span class="chip" style="color:#fbbf24">Yeni modeller</span><span>hf-papers</span><span>107 saat önce</span><span>95 oy</span></div><p class="summary">As coding agents move from supervised code completion to unattended, around-the-clock exploration, their work expands from isolated predictions into long trajectories of reasoning, tool use, and feedback. Token efficiency therefore becomes important for scalin</p><div class="row"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>skor 7.10</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+2.00</td></tr><tr><td>eksen</td><td>+4.24</td></tr><tr><td>sinyal</td><td>+0.81</td></tr><tr><td>tazelik</td><td>+0.06</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr></table></details></div></li><li class="item" data-key="a1f71d47c986cbeb" data-axes="image,video" data-hay="integration of jev into minimax h3 video generation reddit-stablediffusion image video"><p class="title"><a href="https://www.reddit.com/r/StableDiffusion/comments/1wm1mgy/integration_of_jev_into_minimax_h3_video/" target="_blank" rel="noopener">Integration of Jev into Minimax H3 Video Generation</a></p><div class="sub"><span class="chip" style="color:#c084fc">Görsel üretim</span> <span class="chip" style="color:#f472b6">Video üretim</span><span>reddit-stablediffusion</span><span>3 saat önce</span></div><p class="summary">Apparently, someone genius came up with this brilliant idea of using Jev for sparsification of attention processing. The result was speed up of generation time over 40 percent, 06:07 to 03:34. Here is the github page of the author: https://github.com/sepiablue</p><div class="row"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>skor 7.09</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+1.50</td></tr><tr><td>eksen</td><td>+4.34</td></tr><tr><td>sinyal</td><td>+0.00</td></tr><tr><td>tazelik</td><td>+1.25</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr></table></details></div></li><li class="item" data-key="e49df3af4d4e6351" data-axes="image,video" data-hay="change the camera movement/angle for your existing video clip - minimax h3 v2v crossview-warp lora reddit-stablediffusion image video"><p class="title"><a href="https://www.reddit.com/r/StableDiffusion/comments/1wls094/change_the_camera_movementangle_for_your_existing/" target="_blank" rel="noopener">Change the camera movement/angle for your existing video clip - Minimax H3 V2V CrossView-Warp LoRA</a></p><div class="sub"><span class="chip" style="color:#c084fc">Görsel üretim</span> <span class="chip" style="color:#f472b6">Video üretim</span><span>reddit-stablediffusion</span><span>11 saat önce</span></div><p class="summary">Hello Everyone, I&#x27;m glad to announce that I&#x27;m finished the H3 version of my CrossView-Warp LoRA. You can use it to change the camera movement of you existing video clip. Link to the LoRA and training details: https://huggingface.co/Cseti/MiniMax-H3_Ref2VA-LoRA</p><div class="row"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>skor 6.83</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+1.50</td></tr><tr><td>eksen</td><td>+4.34</td></tr><tr><td>sinyal</td><td>+0.00</td></tr><tr><td>tazelik</td><td>+0.98</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr></table></details></div></li><li class="item" data-key="840d2f1ce9405667" data-axes="model,video" data-hay="jepa-anything: learning predictive models across different worlds hf-papers model video"><p class="title"><a href="https://huggingface.co/papers/2609.20800" target="_blank" rel="noopener">JEPA-Anything: Learning Predictive Models across Different Worlds</a></p><div class="sub"><span class="chip" style="color:#fbbf24">Yeni modeller</span> <span class="chip" style="color:#f472b6">Video üretim</span><span>hf-papers</span><span>107 saat önce</span><span>58 oy</span></div><p class="summary">World modeling enables intelligence to anticipate consequences, guide interventions, and learn from interaction. Yet predictive models remain domain-specific: can a common learning principle support world modeling across radically different systems? We introdu</p><div class="row"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>skor 6.79</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+2.00</td></tr><tr><td>eksen</td><td>+4.01</td></tr><tr><td>sinyal</td><td>+0.72</td></tr><tr><td>tazelik</td><td>+0.06</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr></table></details></div></li><li class="item" data-key="8ce90c3dbed5d4ea" data-axes="model,people,video" data-hay="h3 max: built with fal inference and training fal model people video"><p class="title"><a href="https://blog.fal.ai/h3-max-built-with-fal-inference-and-training/" target="_blank" rel="noopener">H3 Max: Built with fal Inference and Training</a></p><div class="sub"><span class="chip" style="color:#fbbf24">Yeni modeller</span> <span class="chip" style="color:#fb923c">Kişiler &amp; şirketler</span> <span class="chip" style="color:#f472b6">Video üretim</span><span>fal</span><span>79 saat önce</span></div><p class="summary">H3 Max generates a 5-second video in under 3 seconds. In our human preference evaluations against twelve leading video models, it ranks first on quality, prompt understanding, and aesthetics. Independent benchmarks from Artificial Analysis and Design Arena ran</p><div class="row"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>skor 6.61</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+2.50</td></tr><tr><td>eksen</td><td>+4.01</td></tr><tr><td>sinyal</td><td>+0.00</td></tr><tr><td>tazelik</td><td>+0.10</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr></table></details></div></li><li class="item" data-key="222ace23a9b00cf0" data-axes="image" data-hay="hex turns complex analysis into visual reports with gpt‑6 astra openai image"><p class="title"><a href="https://openai.com/index/hex-gpt-6-astra" target="_blank" rel="noopener">Hex turns complex analysis into visual reports with GPT‑6 Astra</a></p><div class="sub"><span class="chip" style="color:#c084fc">Görsel üretim</span><span>openai</span><span>115 saat önce</span></div><p class="summary">GPT-6 Astra helps Hex’s data agents turn answers into interactive visualizations that employees are proud to share.</p><div class="row"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>skor 6.58</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+3.00</td></tr><tr><td>eksen</td><td>+3.52</td></tr><tr><td>sinyal</td><td>+0.00</td></tr><tr><td>tazelik</td><td>+0.06</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr></table></details></div></li><li class="item" data-key="2a48cbefd5c9888f" data-axes="infra,model" data-hay="our framework for reporting model misalignment openai infra model"><p class="title"><a href="https://openai.com/index/model-misalignment-reporting-framework" target="_blank" rel="noopener">Our framework for reporting model misalignment</a></p><div class="sub"><span class="chip" style="color:#94a3b8">Araç &amp; altyapı</span> <span class="chip" style="color:#fbbf24">Yeni modeller</span><span>openai</span><span>110 saat önce</span></div><p class="summary">OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.</p><div class="row"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>skor 6.41</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+3.00</td></tr><tr><td>eksen</td><td>+3.35</td></tr><tr><td>sinyal</td><td>+0.00</td></tr><tr><td>tazelik</td><td>+0.06</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr></table></details></div></li><li class="item" data-key="070e076552ccb12f" data-axes="model" data-hay="pirate face rescues llm models from deletion hackernews model"><p class="title"><a href="https://pirateface.co/" target="_blank" rel="noopener">Pirate Face Rescues LLM Models from Deletion</a></p><div class="sub"><span class="chip" style="color:#fbbf24">Yeni modeller</span><span>hackernews</span><span>16 saat önce</span><span>524 oy</span></div><div class="row"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>skor 6.30</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+1.50</td></tr><tr><td>eksen</td><td>+2.86</td></tr><tr><td>sinyal</td><td>+1.11</td></tr><tr><td>tazelik</td><td>+0.83</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr></table></details></div></li><li class="item" data-key="ef862fdb166cf319" data-axes="game" data-hay="over 85% of japanese game developers now use generative ai, according to tgs report 80lv game"><p class="title"><a href="https://80.lv/articles/over-85-of-japanese-game-developers-now-use-generative-ai-according-to-tgs-report/" target="_blank" rel="noopener">Over 85% of Japanese Game Developers Now Use Generative AI, According to TGS Report</a></p><div class="sub"><span class="chip" style="color:#4ade80">Oyun üretimi</span><span>80lv</span><span>58 saat önce</span></div><p class="summary">CESA reports that over 85% of Japanese game developers use generative AI at least occasionally, while studios are prioritizing human review, restricted tools, and policies against using raw outputs unchanged.</p><div class="row"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>skor 5.72</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+2.00</td></tr><tr><td>eksen</td><td>+3.52</td></tr><tr><td>sinyal</td><td>+0.00</td></tr><tr><td>tazelik</td><td>+0.20</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr></table></details></div></li><li class="item" data-key="2fcf3987f4d0a671" data-axes="threed" data-hay="s4r: scaling for rigid-body interpenetration resolution arxiv-gr threed"><p class="title"><a href="https://arxiv.org/abs/2609.20524v1" target="_blank" rel="noopener">S4R: Scaling for Rigid-Body Interpenetration Resolution</a></p><div class="sub"><span class="chip" style="color:#38bdf8">3D / rigging / asset</span><span>arxiv-gr</span><span>88 saat önce</span></div><p class="summary">Rigid-body interpenetration frequently occurs in procedurally assembled and generated scenes and must be removed before downstream applications such as physical simulation. We present S4R (Scaling for Rigid-Body Interpenetration Resolution), a scale-continuati</p><div class="row"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>skor 4.37</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+1.00</td></tr><tr><td>eksen</td><td>+3.30</td></tr><tr><td>sinyal</td><td>+0.00</td></tr><tr><td>tazelik</td><td>+0.07</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr></table></details></div></li><li class="item" data-key="44249775de04908d" data-axes="infra" data-hay="6 days left to save up to $200 to techcrunch disrupt 2026 techcrunch-ai infra"><p class="title"><a href="https://techcrunch.com/2026/09/20/6-days-left-to-get-ahead-at-techcrunch-disrupt-2026/" target="_blank" rel="noopener">6 days left to save up to $200 to TechCrunch Disrupt 2026</a></p><div class="sub"><span class="chip" style="color:#94a3b8">Araç &amp; altyapı</span><span>techcrunch-ai</span><span>9 saat önce</span></div><p class="summary">Current ticket pricing ends in 6 days on Sept. 25 at 11:59 p.m. PT. Join 10,000+ founders, investors and tech leaders at Disrupt and save up to $200 on your ticket until then.</p><div class="row"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>skor 3.50</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+0.50</td></tr><tr><td>eksen</td><td>+1.98</td></tr><tr><td>sinyal</td><td>+0.00</td></tr><tr><td>tazelik</td><td>+1.02</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr></table></details></div></li><li class="item" data-key="fcddef2fddf6fb5b" data-axes="people" data-hay="an elementary expression for multiple scattering in homogeneous microflake media arxiv-gr people"><p class="title"><a href="https://arxiv.org/abs/2609.20394v1" target="_blank" rel="noopener">An Elementary Expression for Multiple Scattering in Homogeneous Microflake Media</a></p><div class="sub"><span class="chip" style="color:#fb923c">Kişiler &amp; şirketler</span><span>arxiv-gr</span><span>89 saat önce</span></div><p class="summary">We derive a novel diffuse-like BRDF based on microfacet theory. Its main novelty lies in the fact that it admits an elementary expression for both evaluation and importance sampling, while accounting exactly for all scattering orders under the Smith shadowing </p><div class="row"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>skor 2.83</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+1.00</td></tr><tr><td>eksen</td><td>+1.76</td></tr><tr><td>sinyal</td><td>+0.00</td></tr><tr><td>tazelik</td><td>+0.07</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr></table></details></div></li></ol>
+<main id="content"><section data-kind="cat"><h3 class="cat"><i style="background:#a855f7"></i>Üretim<u>4</u></h3><article class="lead" data-key="222ace23a9b00cf0" data-axes="image" data-hay="hex turns complex analysis into visual reports with gpt‑6 astra openai image"><h2><a href="https://openai.com/index/hex-gpt-6-astra" target="_blank" rel="noopener">Hex turns complex analysis into visual reports with GPT‑6 Astra</a></h2><div class="meta"><span class="ax"><i style="background:#a855f7"></i>görsel</span><span class="sep">·</span><span>openai</span><span class="sep">·</span><span>5 gün önce</span></div><p class="sum">GPT-6 Astra helps Hex’s data agents turn answers into interactive visualizations that employees are proud to share.</p><div class="foot"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>6.58</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+3.00</td></tr><tr><td>eksen</td><td>+3.52</td></tr><tr><td>sinyal</td><td>+0.00</td></tr><tr><td>tazelik</td><td>+0.06</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr></table></details></div></article><article class="" data-key="7a66acabc43ce49b" data-axes="model,video" data-hay="world model companies are keeping a lot of secrets techcrunch-ai model video"><h2><a href="https://techcrunch.com/2026/09/20/world-model-companies-are-keeping-a-lot-of-secrets/" target="_blank" rel="noopener">World model companies are keeping a lot of secrets</a></h2><div class="meta"><span class="ax"><i style="background:#f59e0b"></i>model</span><span class="ax"><i style="background:#ec4899"></i>video</span><span class="sep">·</span><span>techcrunch-ai</span><span class="sep">·</span><span>11 saat önce</span></div><p class="sum">Everyone in the world-models space is sitting on a pile of cash and a ton of buzz, but good luck getting anyone — from the founders to their own data suppliers — to tell you what they&#x27;re actually building.</p><div class="foot"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>5.48</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+0.50</td></tr><tr><td>eksen</td><td>+4.01</td></tr><tr><td>sinyal</td><td>+0.00</td></tr><tr><td>tazelik</td><td>+0.96</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr></table></details></div></article><article class="" data-key="783891950d10f2ed" data-axes="image,model" data-hay="mintact: a unified visual agent for digital environments arxiv-cv image model"><h2><a href="https://arxiv.org/abs/2609.22083v1" target="_blank" rel="noopener">MintAct: A Unified Visual Agent for Digital Environments</a></h2><div class="meta"><span class="ax"><i style="background:#a855f7"></i>görsel</span><span class="ax"><i style="background:#f59e0b"></i>model</span><span class="sep">·</span><span>arxiv-cv</span><span class="sep">·</span><span>3 gün önce</span></div><p class="sum">We present MintAct, a family of vision-language models that unifies UI grounding, multi-step navigation across mobile, desktop, and web, and visual tool use, trained at 2B, 4B, and 8B scales. Through careful design of our environments, data, and training recipes, MintAct models match the performance of per-domain specialists across all of these capabilities. To enable this, we develop a scalable environment and reinforcement learning (RL) infrastructure. On the environment side, we host hundreds of concurrent instances across heterogeneous per-domain backends, serving both trajectory data…</p><div class="foot"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>5.41</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+1.00</td></tr><tr><td>eksen</td><td>+4.24</td></tr><tr><td>sinyal</td><td>+0.00</td></tr><tr><td>tazelik</td><td>+0.18</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr></table></details></div></article><article class="" data-key="61144806426d4d94" data-axes="model,video" data-hay="omnivbench: a benchmark and large-scale dataset for omni reference-to-video generation arxiv-cv model video"><h2><a href="https://arxiv.org/abs/2609.22069v1" target="_blank" rel="noopener">OmniVBench: A Benchmark and Large-Scale Dataset for Omni Reference-to-Video Generation</a></h2><div class="meta"><span class="ax"><i style="background:#f59e0b"></i>model</span><span class="ax"><i style="background:#ec4899"></i>video</span><span class="sep">·</span><span>arxiv-cv</span><span class="sep">·</span><span>3 gün önce</span></div><p class="sum">Reference-to-video (R2V) generation is evolving toward increasingly general and versatile reference control, giving rise to the emerging paradigm of omni R2V generation. However, existing benchmarks fall short of these emerging capabilities: their test cases cover limited reference types and compositions, and their evaluation protocols largely assess holistic reference consistency, overlooking whether reference factors are properly preserved, disentangled, and routed. Meanwhile, the high cost of constructing omni R2V training data makes suitable training resources scarce. To address these…</p><div class="foot"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>5.19</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+1.00</td></tr><tr><td>eksen</td><td>+4.01</td></tr><tr><td>sinyal</td><td>+0.00</td></tr><tr><td>tazelik</td><td>+0.18</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr></table></details></div></article></section><section data-kind="cat"><h3 class="cat"><i style="background:#22c55e"></i>Oyun<u>2</u></h3><article class="" data-key="ef862fdb166cf319" data-axes="game" data-hay="over 85% of japanese game developers now use generative ai, according to tgs report 80lv game"><h2><a href="https://80.lv/articles/over-85-of-japanese-game-developers-now-use-generative-ai-according-to-tgs-report/" target="_blank" rel="noopener">Over 85% of Japanese Game Developers Now Use Generative AI, According to TGS Report</a></h2><div class="meta"><span class="ax"><i style="background:#22c55e"></i>oyun</span><span class="sep">·</span><span>80lv</span><span class="sep">·</span><span>2 gün önce</span></div><p class="sum">CESA reports that over 85% of Japanese game developers use generative AI at least occasionally, while studios are prioritizing human review, restricted tools, and policies against using raw outputs unchanged.</p><div class="foot"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>5.72</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+2.00</td></tr><tr><td>eksen</td><td>+3.52</td></tr><tr><td>sinyal</td><td>+0.00</td></tr><tr><td>tazelik</td><td>+0.20</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr></table></details></div></article><article class="" data-key="53870dc65208d9f0" data-axes="game" data-hay="the official unity plugin for codex unity game"><h2><a href="https://unity.com/blog/unity-plugin-codex" target="_blank" rel="noopener">The Official Unity Plugin for Codex</a></h2><div class="meta"><span class="ax"><i style="background:#22c55e"></i>oyun</span><span class="sep">·</span><span>unity</span><span class="sep">·</span><span>5 gün önce</span></div><p class="sum">Unity&#x27;s official plugin for Codex is an official plugin that gives OpenAI&#x27;s Codex Unity-written skills, so the agent works from Unity&#x27;s own guidance for jobs like sprite atlases, URP renderer features, in-app purchases, and localization instead of from whatever it absorbed about Unity elsewhere.</p><div class="foot"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>5.08</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+1.50</td></tr><tr><td>eksen</td><td>+3.52</td></tr><tr><td>sinyal</td><td>+0.00</td></tr><tr><td>tazelik</td><td>+0.06</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr></table></details></div></article></section><section data-kind="cat"><h3 class="cat"><i style="background:#f59e0b"></i>Modeller &amp; Araştırma<u>4</u></h3><article class="" data-key="2a48cbefd5c9888f" data-axes="infra,model" data-hay="our framework for reporting model misalignment openai infra model"><h2><a href="https://openai.com/index/model-misalignment-reporting-framework" target="_blank" rel="noopener">Our framework for reporting model misalignment</a></h2><div class="meta"><span class="ax"><i style="background:#64748b"></i>araç</span><span class="ax"><i style="background:#f59e0b"></i>model</span><span class="sep">·</span><span>openai</span><span class="sep">·</span><span>5 gün önce</span></div><p class="sum">OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.</p><div class="foot"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>6.41</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+3.00</td></tr><tr><td>eksen</td><td>+3.35</td></tr><tr><td>sinyal</td><td>+0.00</td></tr><tr><td>tazelik</td><td>+0.06</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr></table></details></div></article><article class="" data-key="070e076552ccb12f" data-axes="model" data-hay="pirate face rescues llm models from deletion hackernews model"><h2><a href="https://pirateface.co/" target="_blank" rel="noopener">Pirate Face Rescues LLM Models from Deletion</a></h2><div class="meta"><span class="ax"><i style="background:#f59e0b"></i>model</span><span class="sep">·</span><span>hackernews</span><span class="sep">·</span><span>16 saat önce</span><span class="sep">·</span><span>531 oy</span></div><div class="foot"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>6.28</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+1.50</td></tr><tr><td>eksen</td><td>+2.86</td></tr><tr><td>sinyal</td><td>+1.11</td></tr><tr><td>tazelik</td><td>+0.81</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr></table></details></div></article><article class="" data-key="8b339323dc73657a" data-axes="model,people" data-hay="can minimax-h3 reason about the physical world? an evaluation of omni-modal generative model hf-papers model people"><h2><a href="https://huggingface.co/papers/2609.18323" target="_blank" rel="noopener">Can MiniMax-H3 Reason About the Physical World? An Evaluation of Omni-Modal Generative Model</a></h2><div class="meta"><span class="ax"><i style="background:#f59e0b"></i>model</span><span class="ax"><i style="background:#f97316"></i>şirket</span><span class="sep">·</span><span>hf-papers</span><span class="sep">·</span><span>5 gün önce</span><span class="sep">·</span><span>114 oy</span></div><p class="sum">Recent Omni-Modal Generative Models (Omni-Models) have advanced content generation toward unified modeling of text, images, video, and audio. MiniMax-H3 exemplifies this transition by combining multimodal context understanding with joint audio-visual generation in a shared latent framework. Its unified architecture raises a fundamental question: Can multimodal alignment improve the model&#x27;s world reasoning, and what new evaluation paradigms do omni-modal inputs enable? To investigate this question, this work introduces a comprehensive evaluation framework organized around four complementary…</p><div class="foot"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>6.20</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+2.00</td></tr><tr><td>eksen</td><td>+3.30</td></tr><tr><td>sinyal</td><td>+0.84</td></tr><tr><td>tazelik</td><td>+0.06</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr></table></details></div></article><article class="" data-key="6c525d6ab246aec7" data-axes="model" data-hay="introducing gemini 3.8 live and 3.8 live extended thinking deepmind model"><h2><a href="https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/" target="_blank" rel="noopener">Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking</a></h2><div class="meta"><span class="ax"><i style="background:#f59e0b"></i>model</span><span class="sep">·</span><span>deepmind</span><span class="sep">·</span><span>6 gün önce</span></div><div class="foot"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>5.92</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+3.00</td></tr><tr><td>eksen</td><td>+2.86</td></tr><tr><td>sinyal</td><td>+0.00</td></tr><tr><td>tazelik</td><td>+0.06</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr></table></details></div></article></section><section data-kind="brief"><h3 class="cat"><i style="background:var(--rule-strong)"></i>Kısa kısa<u>8</u></h3><ul class="brief"><li><a href="https://openai.com/index/australian-youth-safety-blueprint" target="_blank" rel="noopener">Introducing the Australian Youth Safety Blueprint</a> <span>· openai</span></li><li><a href="https://openai.com/index/astra-for-law" target="_blank" rel="noopener">Introducing Astra for Law</a> <span>· openai</span></li><li><a href="https://huggingface.co/papers/2609.19969" target="_blank" rel="noopener">DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression</a> <span>· hf-papers</span></li><li><a href="https://huggingface.co/papers/2609.20519" target="_blank" rel="noopener">SoL-Pi: Recursively Scaling Auto-Research Loops for Efficient Agent Harness</a> <span>· hf-papers</span></li><li><a href="https://blog.fal.ai/h3-max-built-with-fal-inference-and-training/" target="_blank" rel="noopener">H3 Max: Built with fal Inference and Training</a> <span>· fal</span></li><li><a href="https://blogs.nvidia.com/blog/jensen-huang-dreamforce/" target="_blank" rel="noopener">‘Now We Can Know Everything and Do Anything,’ Jensen Huang Says at Dreamforce</a> <span>· nvidia-genai</span></li><li><a href="https://qwen.ai/blog?id=qwen-image-2.1" target="_blank" rel="noopener">Qwen Image 2.1</a> <span>· hackernews</span></li><li><a href="https://www.marktechpost.com/2026/09/20/stepfun-launches-step-5-preview/" target="_blank" rel="noopener">StepFun Launches Step 5 Preview: A 600B-Total, 27B-Active MoE Model With 1M Context for Long-Horizon Agentic Work</a> <span>· marktechpost</span></li></ul></section></main>
+<div id="flat" hidden></div>
 <div class="empty" id="empty" hidden>Eşleşen madde yok.</div>
 
 <footer>
-  <div>Arşiv: <b>2026-09-21</b></div>
-  <div style="margin-top:8px">
-    Üretim: <b>2026-09-21 07:04 UTC</b> · Faydalı/faydasız işaretleri yalnız bu tarayıcıda saklanır.
-    <a href="#" id="reset">işaretleri sıfırla</a>
+  <nav><b>21 Eylül 2026</b></nav>
+  <div style="margin-top:10px">
+    2026-09-21 07:38 UTC · işaretler yalnız bu tarayıcıda saklanır ·
+    <a href="#" id="reset">sıfırla</a>
   </div>
 </footer>
+
 </div>
 
 <script>
-const ARCHIVE_URL = "../data/index.json";
+const AXIS_COLOR = {"image": "#a855f7", "video": "#ec4899", "game": "#22c55e", "threed": "#0ea5e9", "model": "#f59e0b", "infra": "#64748b", "people": "#f97316"};
+const AXIS_SHORT = {"image": "görsel", "video": "video", "game": "oyun", "threed": "3D", "model": "model", "infra": "araç", "people": "şirket"};
+
 const store = {
   read() { try { return JSON.parse(localStorage.getItem("radar.marks") || "{}"); } catch (e) { return {}; } },
   write(v) { try { localStorage.setItem("radar.marks", JSON.stringify(v)); } catch (e) {} }
 };
 
 function renderPrecision() {
-  const marks = store.read();
-  const vals = Object.values(marks);
-  const yes = vals.filter(v => v === "yes").length;
+  const vals = Object.values(store.read());
   const el = document.getElementById("precision");
-  if (!vals.length) { el.textContent = "işaretlenmemiş"; return; }
-  el.innerHTML = "faydalı oranı <b>" + Math.round(100 * yes / vals.length) + "%</b> (" + yes + "/" + vals.length + ")";
+  if (!vals.length) { el.textContent = ""; return; }
+  const yes = vals.filter(v => v === "yes").length;
+  el.innerHTML = "faydalı <b>%" + Math.round(100 * yes / vals.length) + "</b> (" + yes + "/" + vals.length + ")";
 }
 
 function wireMarks(root) {
   const marks = store.read();
-  root.querySelectorAll("li.item").forEach(li => {
-    const key = li.dataset.key;
-    const current = marks[key];
-    if (current) li.classList.add("marked-" + current);
-    li.querySelectorAll(".marks button").forEach(btn => {
-      const val = btn.dataset.mark;
-      btn.setAttribute("aria-pressed", String(current === val));
+  root.querySelectorAll("article").forEach(card => {
+    const key = card.dataset.key;
+    if (marks[key] === "no") card.classList.add("no");
+    card.querySelectorAll(".marks button").forEach(btn => {
+      btn.setAttribute("aria-pressed", String(marks[key] === btn.dataset.mark));
       btn.onclick = () => {
         const m = store.read();
+        const val = btn.dataset.mark;
         if (m[key] === val) { delete m[key]; } else { m[key] = val; }
         store.write(m);
-        li.classList.remove("marked-yes", "marked-no");
-        if (m[key]) li.classList.add("marked-" + m[key]);
-        li.querySelectorAll(".marks button").forEach(b =>
+        card.classList.toggle("no", m[key] === "no");
+        card.querySelectorAll(".marks button").forEach(b =>
           b.setAttribute("aria-pressed", String(m[key] === b.dataset.mark)));
         renderPrecision();
       };
@@ -148,59 +242,72 @@ function wireMarks(root) {
 
 let archive = null;
 async function loadArchive() {
-  if (archive) return archive;
-  try { archive = await (await fetch(ARCHIVE_URL)).json(); } catch (e) { archive = { items: [] }; }
+  if (!archive) {
+    try { archive = await (await fetch("../data/index.json")).json(); }
+    catch (e) { archive = { items: [] }; }
+  }
   return archive;
 }
 
-function itemHTML(it) {
-  const chips = (it.axes || []).map(a =>
-    '<span class="chip" style="color:' + (AXIS_COLOR[a] || "#94a3b8") + '">' + (AXIS_LABEL[a] || a) + '</span>').join(" ");
-  return '<li class="item" data-key="' + it.key + '">' +
-    '<p class="title"><a href="' + it.url + '" target="_blank" rel="noopener">' + it.title + '</a></p>' +
-    '<div class="sub">' + chips + '<span>' + it.source + '</span><span>' + (it.date || "") + '</span></div>' +
-    '<div class="row"><div class="marks">' +
-      '<button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button>' +
-    '</div><span class="sub">skor ' + it.score + '</span></div></li>';
+function flatRow(it) {
+  const ax = (it.axes || []).slice(0, 2).map(a =>
+    '<span class="ax"><i style="background:' + (AXIS_COLOR[a] || "#64748b") + '"></i>' +
+    (AXIS_SHORT[a] || a) + "</span>").join("");
+  return '<article data-key="' + it.key + '">' +
+    '<h2><a href="' + it.url + '" target="_blank" rel="noopener">' + it.title + "</a></h2>" +
+    '<div class="meta">' + ax + '<span class="sep">·</span><span>' + it.source +
+    '</span><span class="sep">·</span><span>' + (it.date || "") + "</span></div>" +
+    '<div class="foot"><div class="marks">' +
+    '<button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button>' +
+    "</div></div></article>";
 }
-
-const AXIS_COLOR = {"image": "#c084fc", "video": "#f472b6", "game": "#4ade80", "threed": "#38bdf8", "model": "#fbbf24", "infra": "#94a3b8", "people": "#fb923c"};
-const AXIS_LABEL = {"model": "Yeni modeller", "image": "Görsel üretim", "video": "Video üretim", "game": "Oyun üretimi", "threed": "3D / rigging / asset", "infra": "Araç & altyapı", "people": "Kişiler & şirketler"};
 
 async function applyFilter() {
   const q = document.getElementById("q").value.trim().toLowerCase();
   const axis = document.getElementById("axis").value;
   const scope = document.getElementById("scope").value;
-  const list = document.getElementById("list");
+  const content = document.getElementById("content");
+  const flat = document.getElementById("flat");
   const empty = document.getElementById("empty");
 
-  if (scope === "today") {
-    let shown = 0;
-    list.querySelectorAll("li.item").forEach(li => {
-      const hay = li.dataset.hay || "";
-      const ok = (!q || hay.includes(q)) && (!axis || (li.dataset.axes || "").includes(axis));
-      li.hidden = !ok; if (ok) shown++;
-    });
-    empty.hidden = shown > 0;
+  if (scope === "all") {
+    const data = await loadArchive();
+    const rows = data.items.filter(it =>
+      (!q || (it.title + " " + it.source + " " + (it.axes || []).join(" ")).toLowerCase().includes(q)) &&
+      (!axis || (it.axes || []).includes(axis)));
+    content.hidden = true;
+    flat.hidden = false;
+    flat.innerHTML = rows.slice(0, 200).map(flatRow).join("");
+    wireMarks(flat);
+    empty.hidden = rows.length > 0;
     return;
   }
 
-  const data = await loadArchive();
-  const rows = data.items.filter(it =>
-    (!q || (it.title + " " + it.source + " " + (it.axes || []).join(" ")).toLowerCase().includes(q)) &&
-    (!axis || (it.axes || []).includes(axis)));
-  list.innerHTML = rows.slice(0, 300).map(itemHTML).join("");
-  empty.hidden = rows.length > 0;
-  wireMarks(list);
+  flat.hidden = true;
+  content.hidden = false;
+  let shown = 0;
+  content.querySelectorAll("article").forEach(card => {
+    const ok = (!q || (card.dataset.hay || "").includes(q)) &&
+               (!axis || (card.dataset.axes || "").split(",").includes(axis));
+    card.classList.toggle("hidden", !ok);
+    if (ok) shown++;
+  });
+  // Tüm maddeleri gizlenen bölüm başlığı ortada kalmasın.
+  content.querySelectorAll("section").forEach(sec => {
+    const live = sec.querySelectorAll("article:not(.hidden)").length;
+    const briefHit = !q && !axis;
+    sec.hidden = sec.dataset.kind === "brief" ? !briefHit : live === 0;
+  });
+  empty.hidden = shown > 0;
 }
 
-document.getElementById("q").addEventListener("input", applyFilter);
-document.getElementById("axis").addEventListener("change", applyFilter);
-document.getElementById("scope").addEventListener("change", applyFilter);
+["q", "axis", "scope"].forEach(id =>
+  document.getElementById(id).addEventListener(id === "q" ? "input" : "change", applyFilter));
+
 document.getElementById("reset").addEventListener("click", e => {
   e.preventDefault();
   store.write({});
-  document.querySelectorAll("li.item").forEach(li => li.classList.remove("marked-yes", "marked-no"));
+  document.querySelectorAll("article").forEach(c => c.classList.remove("no"));
   document.querySelectorAll(".marks button").forEach(b => b.setAttribute("aria-pressed", "false"));
   renderPrecision();
 });

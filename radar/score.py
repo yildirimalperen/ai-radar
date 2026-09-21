@@ -13,6 +13,7 @@ from __future__ import annotations
 
 import math
 import re
+from functools import lru_cache
 
 from .models import AXES, Item
 
@@ -131,13 +132,29 @@ MAX_AGE_HOURS = 96.0
 INFERRED_AXIS_CONFIDENCE = 0.5
 
 
+@lru_cache(maxsize=2048)
+def _term_pattern(term: str) -> re.Pattern[str]:
+    """Terimi kelime sınırıyla arayan desen.
+
+    Düz altdizi araması sessiz yanlış-pozitif üretiyordu: "ipo" terimi
+    "dipole" içinde eşleşip bir ışık saçılımı makalesine "şirket" ekseni
+    taktı. Sınır sınıfı harf/rakam; "3d" ve "rig " gibi terimler bozulmasın
+    diye kenarlarda yalnız harf-rakam engelleniyor.
+    """
+    return re.compile(rf"(?<![a-z0-9]){re.escape(term.strip())}(?![a-z0-9])")
+
+
+def _matches(text: str, words: tuple[str, ...]) -> bool:
+    return any(_term_pattern(w).search(text) for w in words)
+
+
 def detect_axes(item: Item) -> tuple[list[str], bool]:
     """Eksenleri çıkarır. Döner: (eksenler, metinden_mi_bulundu)."""
     title = item.title.lower()
     full = f"{item.title} {item.summary}".lower()
 
-    found = {axis for axis, words in AXIS_STRONG.items() if any(w in full for w in words)}
-    found |= {axis for axis, words in AXIS_WEAK.items() if any(w in title for w in words)}
+    found = {axis for axis, words in AXIS_STRONG.items() if _matches(full, words)}
+    found |= {axis for axis, words in AXIS_WEAK.items() if _matches(title, words)}
     if found:
         return sorted(found), True
     return sorted(set(item.source_axes) or {"model"}), False
@@ -150,8 +167,7 @@ def noise_penalty(item: Item) -> float:
 
 def is_ai_relevant(item: Item) -> bool:
     """Metin AI ile ilgili olduğunu gösteriyor mu? Kelime sınırıyla aranır."""
-    haystack = f" {item.title} {item.summary} ".lower()
-    return any(re.search(rf"(?<![a-z]){re.escape(term)}(?![a-z])", haystack) for term in AI_TERMS)
+    return _matches(f"{item.title} {item.summary}".lower(), AI_TERMS)
 
 
 def score_item(item: Item) -> Item:
@@ -195,45 +211,128 @@ def score_all(items: list[Item]) -> list[Item]:
     return scored
 
 
-def select_daily(
-    items: list[Item], limit: int = 12, max_per_axis: int = 4, max_per_source: int = 2
-) -> list[Item]:
-    """Günün listesini seçer: sabit kota + eksen çeşitliliği.
+# Puan tabanı. 126 adaylık gerçek bir günün dağılımı ölçülerek seçildi:
+# 4.5 altındaki bant neredeyse tamamen dolgu (müşteri referans hikâyeleri,
+# kişisel blog notları), 4.5 üstü gerçek haber. Taban oran değil mutlak,
+# çünkü oransal taban sakin bir günde gürültünün girmesine izin veriyor.
+# Sonuç: sakin günde liste kotadan kısa çıkar -- bu doğru davranış.
+SCORE_FLOOR = 4.5
+BRIEF_SCORE_FLOOR = 3.0   # etkinlik duyuruları gibi "faydalı ama öncelikli değil" maddeler burada kalsın
 
-    Ham sıralamayı olduğu gibi kesmek listeyi tek eksene boğuyor (ör. bir gün
-    yalnız model duyuruları). Eksen başına tavan koyup her eksenin en iyisine
-    yer açıyoruz; kalan yerler ham skora göre doluyor.
+
+def select_daily(
+    items: list[Item],
+    limit: int = 12,
+    max_per_axis: int = 4,
+    max_per_source: int = 2,
+    max_per_category: int = 4,
+) -> list[Item]:
+    """Günün listesini seçer: sabit kota + kategori/eksen/kaynak çeşitliliği.
+
+    Ham sıralamayı olduğu gibi kesmek listeyi tek konuya boğuyor. İki turlu
+    seçim var: önce her kategorinin en iyisi (puan tabanını geçiyorsa), sonra
+    kalan yerler ham skora göre, üç tavana saygıyla.
     """
+    if not items:
+        return []
+
+    eligible = [i for i in items if i.score >= SCORE_FLOOR]
     chosen: list[Item] = []
     per_axis: dict[str, int] = {}
     per_source: dict[str, int] = {}
+    per_category: dict[str, int] = {}
 
-    def primary(item: Item) -> str:
-        return max(item.axes, key=lambda a: AXIS_PRIORITY.get(a, 0.5), default="model")
+    def take(item: Item) -> None:
+        chosen.append(item)
+        per_axis[primary_axis(item)] = per_axis.get(primary_axis(item), 0) + 1
+        per_source[item.source] = per_source.get(item.source, 0) + 1
+        per_category[category_of(item)] = per_category.get(category_of(item), 0) + 1
 
-    # 1. tur: her eksenin en iyisi listeye girer (temsil garantisi).
-    for axis in sorted(AXES, key=lambda a: -AXIS_PRIORITY.get(a, 0.5)):
-        best = next((i for i in items if primary(i) == axis and i not in chosen), None)
-        if best is not None and len(chosen) < limit:
-            chosen.append(best)
-            per_axis[axis] = 1
-            per_source[best.source] = per_source.get(best.source, 0) + 1
+    def fits(item: Item) -> bool:
+        return (
+            per_axis.get(primary_axis(item), 0) < max_per_axis
+            and per_source.get(item.source, 0) < max_per_source
+            and per_category.get(category_of(item), 0) < max_per_category
+        )
 
-    # 2. tur: kalan yerler ham skora göre, eksen tavanına saygıyla.
-    for item in items:
+    seen_keys: set[str] = set()
+
+    # 1. tur: her kategorinin en iyisi (puan tabanının üstündeyse).
+    for key, _, _ in CATEGORIES:
         if len(chosen) >= limit:
             break
-        if item in chosen:
+        best = next(
+            (i for i in eligible if category_of(i) == key and i.key not in seen_keys),
+            None,
+        )
+        if best is not None:
+            take(best)
+            seen_keys.add(best.key)
+
+    # 2. tur: kalan yerler ham skora göre (taban yine geçerli).
+    for item in eligible:
+        if len(chosen) >= limit:
+            break
+        if item.key in seen_keys or not fits(item):
             continue
-        axis = primary(item)
-        if per_axis.get(axis, 0) >= max_per_axis:
-            continue
-        # Tek kaynağın günü ele geçirmesini engeller (ör. bir gün 5 arXiv makalesi).
-        if per_source.get(item.source, 0) >= max_per_source:
-            continue
-        chosen.append(item)
-        per_axis[axis] = per_axis.get(axis, 0) + 1
-        per_source[item.source] = per_source.get(item.source, 0) + 1
+        take(item)
+        seen_keys.add(item.key)
 
     chosen.sort(key=lambda i: i.score, reverse=True)
     return chosen
+
+
+# --- kategoriler ---------------------------------------------------------------
+# Yedi eksen doğrudan bölüm yapılırsa 12 madde yedi parçaya dağılıyor ve okuma
+# ritmi kırılıyor. Bölümler kaba tutuluyor, hassasiyet madde üstündeki eksen
+# etiketinde korunuyor.
+CATEGORIES: tuple[tuple[str, str, tuple[str, ...]], ...] = (
+    ("uretim", "Üretim", ("image", "video", "threed")),
+    ("oyun", "Oyun", ("game",)),
+    ("arastirma", "Modeller & Araştırma", ("model",)),
+    ("ekosistem", "Ekosistem", ("infra", "people")),
+)
+
+CATEGORY_OF_AXIS: dict[str, str] = {
+    axis: key for key, _, axes in CATEGORIES for axis in axes
+}
+
+
+def primary_axis(item: Item) -> str:
+    """Maddenin baskın ekseni: en yüksek öncelikli olan."""
+    return max(item.axes, key=lambda a: AXIS_PRIORITY.get(a, 0.5), default="model")
+
+
+def category_of(item: Item) -> str:
+    return CATEGORY_OF_AXIS.get(primary_axis(item), "ekosistem")
+
+
+def group_by_category(items: list[Item]) -> list[tuple[str, str, list[Item]]]:
+    """Maddeleri sabit kategori sırasına göre gruplar. Boş kategoriler düşer."""
+    grouped: list[tuple[str, str, list[Item]]] = []
+    for key, label, _ in CATEGORIES:
+        members = [i for i in items if category_of(i) == key]
+        if members:
+            grouped.append((key, label, members))
+    return grouped
+
+
+def select_secondary(items: list[Item], chosen: list[Item], limit: int = 8) -> list[Item]:
+    """Kotanın altında kalan maddelerden kısa liste.
+
+    Ana listeye girmeyen ama tamamen atılması yazık olan maddeler (ör. etkinlik
+    duyuruları, ikincil sürüm notları) burada tek satır olarak görünür. Sayfayı
+    şişirmeden kapsamı genişletir.
+    """
+    taken = {i.key for i in chosen}
+    rest = [i for i in items if i.key not in taken and i.score >= BRIEF_SCORE_FLOOR]
+    per_source: dict[str, int] = {}
+    out: list[Item] = []
+    for item in rest:
+        if len(out) >= limit:
+            break
+        if per_source.get(item.source, 0) >= 2:
+            continue
+        out.append(item)
+        per_source[item.source] = per_source.get(item.source, 0) + 1
+    return out
