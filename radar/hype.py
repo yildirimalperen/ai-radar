@@ -61,6 +61,13 @@ COMBO_MULTIPLIER = 1.35
 # onunla ezilir; buradakiler yalnız veri azken kullanılan emniyet değerleri.
 VELOCITY_FALLBACK = {"hackernews": 30.0, "hf-papers": 3.0}
 VELOCITY_DEFAULT = 15.0
+# Referansın düşebileceği taban. Az örnekli bir kaynakta referans o kaynağın
+# kendi maksimumuna iniyor ve saatte 1 oy alan bir makale "tam hızlı" (1.0)
+# sayılıp gerekçeye "1 oy/saat" diye yazılıyordu. Saatte birkaç oy bir hype
+# dalgası değil; taban bunu engelliyor.
+VELOCITY_FLOOR = 6.0
+# Gerekçe metnine yazmak için asgari ham hız.
+VELOCITY_LABEL_MIN = 6.0
 
 
 @dataclass
@@ -315,7 +322,7 @@ def _velocity_references(items: list[Item]) -> dict[str, float]:
             reference = statistics.quantiles(values, n=4)[-1]   # üst çeyrek
         else:
             reference = max(values)
-        references[source] = max(reference, 1.0)
+        references[source] = max(reference, VELOCITY_FLOOR)
     return references
 
 
@@ -347,11 +354,19 @@ def trend_score(this_week: int, previous: int) -> float:
     return round(min(1.0, growth * 0.5 + volume * 0.5), 3)
 
 
+EXTERNAL_REFERENCE = 1200.0
+
 def external_score(raw: float) -> float:
-    """HF trendingScore'u 0-1'e indirger. 1000 civarı tavana yakın."""
+    """HF trendingScore'u 0-1'e indirger.
+
+    Logaritmik eğri fazla cömertti: orta sıradaki bir model (213) 0.76 alıp
+    yükseliş eşiğini tek başına geçiyordu ve 120 maddenin 14'ü "yükselişte"
+    çıkıyordu. Üstel eğri ayrımı keskinleştiriyor: 213 → 0.35 (tek başına
+    yetmez), 1013 → 0.90 (gerçekten hype).
+    """
     if raw <= 0:
         return 0.0
-    return round(min(1.0, math.log1p(raw) / math.log(1200)), 3)
+    return round(min(1.0, (raw / EXTERNAL_REFERENCE) ** 0.6), 3)
 
 
 # --- orkestrasyon ---------------------------------------------------------------
@@ -399,8 +414,8 @@ def compute(
     for item in items:
         signal = HypeSignal()
         signal.velocity = round(velocity_score(item, references), 3)
-        if signal.velocity >= 0.5:
-            rate = item.signal / max(item.age_hours, 1.0)
+        rate = item.signal / max(item.age_hours, 1.0) if item.signal else 0.0
+        if signal.velocity >= 0.5 and rate >= VELOCITY_LABEL_MIN:
             signal.reasons.append(f"{rate:.0f} oy/saat")
 
         title_norm = _normalize(item.title)
