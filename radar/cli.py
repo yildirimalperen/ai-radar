@@ -15,7 +15,7 @@ from . import llm
 from .collect import collect_all
 from .normalize import dedup, record_seen
 from .render import render_site
-from .score import score_all, select_daily
+from .score import score_all, select_daily, select_secondary
 
 
 def run(args: argparse.Namespace) -> int:
@@ -39,7 +39,8 @@ def run(args: argparse.Namespace) -> int:
     print("[3/5] skorlama")
     items = score_all(items)
     selected = select_daily(items, limit=args.limit)
-    print(f"      {len(selected)} madde seçildi (kota {args.limit})")
+    secondary = select_secondary(items, selected, limit=args.brief)
+    print(f"      {len(selected)} madde + {len(secondary)} kısa kısa (kota {args.limit})")
 
     print("[4/5] LLM notları")
     selected, llm_status = llm.annotate(selected) if not args.no_llm else (selected, "kapalı (--no-llm)")
@@ -59,8 +60,10 @@ def run(args: argparse.Namespace) -> int:
         stats=stats,
         failures=failures,
         sources_total=total_sources,
+        secondary=secondary,
     )
-    record_seen(selected, args.archive)
+    # Kısa kısa listesi de gösterilmiş sayılır, yarın tekrar çıkmamalı.
+    record_seen(selected + secondary, args.archive)
     print(f"      {page} ({time.time() - started:.1f}s)")
     return 0
 
@@ -74,6 +77,7 @@ def main(argv: list[str] | None = None) -> int:
     run_parser.add_argument("--site", default="docs")
     run_parser.add_argument("--archive", default="archive")
     run_parser.add_argument("--limit", type=int, default=12, help="günlük madde kotası")
+    run_parser.add_argument("--brief", type=int, default=8, help="kısa kısa listesi uzunluğu")
     run_parser.add_argument("--date", help="YYYY-MM-DD (varsayılan: bugün)")
     run_parser.add_argument("--timezone", default="Europe/Istanbul", help="gün sınırı için saat dilimi")
     run_parser.add_argument("--no-llm", action="store_true", help="LLM not katmanını atla")

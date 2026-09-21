@@ -12,7 +12,10 @@ import pytest
 
 from radar.models import Item, canonical_url, clean_text, title_fingerprint
 from radar.normalize import drop_seen, drop_stale, merge_duplicates, record_seen, load_seen
-from radar.score import detect_axes, is_ai_relevant, noise_penalty, score_all, select_daily
+from radar.score import (
+    category_of, detect_axes, group_by_category, is_ai_relevant, noise_penalty,
+    score_all, select_daily, select_secondary,
+)
 
 
 def make(title: str, **kwargs) -> Item:
@@ -184,3 +187,64 @@ def test_onceki_gun_gosterilen_madde_bastirilir(tmp_path):
         json.dumps({"key": item.key, "first_seen": dun}) + "\n", encoding="utf-8")
     fresh, dropped = drop_seen([item], load_seen(tmp_path))
     assert dropped == 1 and fresh == []
+
+
+# --- kategorili tasarım turu ----------------------------------------------------
+
+def test_eksen_eslestirmesi_kelime_siniri_kullanir():
+    """Regresyon: 'ipo' terimi 'dipole' içinde eşleşip bir ışık saçılımı
+    makalesine 'şirket' ekseni taktı. Düz altdizi araması yetmiyor."""
+    item = make("An Elementary Expression for Multiple Scattering in Microflake Media",
+                summary="We derive a diffuse-like BRDF using a dipole approximation",
+                source_axes=["threed", "game"])
+    axes, from_text = detect_axes(item)
+    assert "people" not in axes
+    assert from_text is False
+
+
+def test_kelime_siniri_gercek_eslesmeyi_bozmaz():
+    """Sınır kuralı '3d' ve 'ipo' gibi kısa terimleri kullanılamaz hale
+    getirmemeli."""
+    axes, from_text = detect_axes(make("Startup raises Series B after IPO rumors"))
+    assert from_text and "people" in axes
+    axes, _ = detect_axes(make("New 3D model generator ships today"))
+    assert "threed" in axes
+
+
+def test_kategori_tavani_tek_bolumu_sismekten_korur():
+    """Regresyon: görsel+video+3D aynı kategoriye düştüğü için Üretim bölümü
+    12 maddenin 7'sini aldı, kategorize etmenin anlamı kalmadı."""
+    items = score_all(
+        [make(f"New text-to-video model release {n}", source=f"vid{n}") for n in range(8)]
+        + [make(f"Unreal engine gamedev AI tool {n}", source=f"game{n}") for n in range(4)]
+    )
+    chosen = select_daily(items, limit=12, max_per_category=4)
+    counts: dict[str, int] = {}
+    for item in chosen:
+        counts[category_of(item)] = counts.get(category_of(item), 0) + 1
+    assert max(counts.values()) <= 4
+
+
+def test_temsil_garantisi_zayif_maddeyi_listeye_sokmaz():
+    """Regresyon: kategori temsili uğruna 2.83 puanlı bir madde, çok daha
+    yüksek puanlı maddeler dururken ana listeye girdi."""
+    strong = [make(f"New text-to-3D rigging model {n}", source=f"s{n}", source_weight=3.0)
+              for n in range(6)]
+    weak = make("We are hiring for a webinar coupon deal", source="zayif", source_weight=0.5)
+    items = score_all(strong + [weak])
+    chosen = select_daily(items, limit=6)
+    assert weak not in chosen, "puan tabanının altındaki madde temsil için alınmamalı"
+
+
+def test_kisa_kisa_ana_listeyle_cakismaz():
+    items = score_all([make(f"AI model release {n}", source=f"src{n}") for n in range(20)])
+    main = select_daily(items, limit=8)
+    brief = select_secondary(items, main, limit=6)
+    assert not ({i.key for i in main} & {i.key for i in brief})
+    assert len(brief) == 6
+
+
+def test_gruplama_bos_kategoriyi_dusurur():
+    items = score_all([make("New text-to-video model", source="a")])
+    groups = group_by_category(items)
+    assert len(groups) == 1 and groups[0][0] == "uretim"
