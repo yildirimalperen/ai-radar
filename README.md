@@ -113,9 +113,14 @@ hacimde ~$150/ay, Nitter Ağustos 2026'da kapatıldı. Üçüncü-parti okuma AP
 ~$2-5/ay ile mümkün ama ToS-gri. X'in benzersiz katkısı "ne oldu" değil "kim ne
 diyor"; pilot çalıştıktan sonra ölçüme dayanarak yeniden değerlendirilecek.
 
-**Reddit kimliksiz güvenilmez.** Ölçüldü: 4 subreddit'lik koşuda 20 saniye
-aralıkla bile yalnız 2/4 geçti. OAuth kimliği tek güvenilir yol.
-`fetch_reddit`'in OAuth dalı **kimlik olmadığı için henüz canlı doğrulanmadı.**
+**Reddit kimliksiz güvenilmez.** Yerel ölçüm: 4 subreddit'lik koşuda 20 saniye
+aralıkla bile yalnız 2/4 geçti. GitHub Actions üzerinde de 4'ün 2'si 429 aldı.
+OAuth kimliği tek güvenilir yol. `fetch_reddit`'in OAuth dalı **kimlik
+olmadığı için henüz canlı doğrulanmadı.**
+
+**Substack CI'da 403 veriyor.** Import AI yerelde sorunsuz çekiliyor ama
+GitHub Actions'ın datacenter IP'sinden 403 dönüyor (ilk CI koşusunda ölçüldü).
+Substack tabanlı diğer kaynaklar da aynı riski taşıyor.
 
 **İşaretler cihaz-yerel.** Yukarıda açıklandı.
 
