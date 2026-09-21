@@ -68,9 +68,14 @@ def test_bayat_maddeler_elenir():
 
 
 def test_gecmiste_gorulen_madde_tekrar_cikmaz(tmp_path):
-    items = [make("tek sefer gosterilecek baslik")]
-    record_seen(items, tmp_path)
-    fresh, dropped = drop_seen(items, load_seen(tmp_path))
+    """Kayıt-sonra-eleme döngüsü. Bastırma önceki günler için geçerli olduğundan
+    kaydı dün tarihiyle yazıyoruz; aynı gün davranışı ayrı testte."""
+    import json
+    item = make("tek sefer gosterilecek baslik")
+    dun = (datetime.now(timezone.utc) - timedelta(days=1)).isoformat()
+    (tmp_path / "seen.jsonl").write_text(
+        json.dumps({"key": item.key, "first_seen": dun}) + "\n", encoding="utf-8")
+    fresh, dropped = drop_seen([item], load_seen(tmp_path))
     assert fresh == [] and dropped == 1
 
 
@@ -156,3 +161,26 @@ def test_skorlar_ayrisir():
     ])
     spread = items[0].score - items[-1].score
     assert spread > 2.0, f"skor aralığı çok dar: {spread:.2f}"
+
+
+def test_gun_ici_ikinci_kosu_ayni_listeyi_uretir(tmp_path):
+    """Regresyon: workflow gün içinde ikinci kez koşunca sabahki 12 madde
+    'görülmüş' sayılıp eleniyor, sayfa çok daha zayıf maddelerle yeniden
+    yazılıyordu. Bastırma yalnız önceki günler için geçerli olmalı."""
+    items = [make(f"AI model release number {n}", source=f"src{n}") for n in range(5)]
+    record_seen(items, tmp_path)
+    fresh, dropped = drop_seen(items, load_seen(tmp_path))
+    assert dropped == 0, "bugün kaydedilenler aynı gün bastırılmamalı"
+    assert len(fresh) == 5
+
+
+def test_onceki_gun_gosterilen_madde_bastirilir(tmp_path):
+    """Gün içi korumasının önceki gün elemesini bozmadığını doğrular."""
+    import json
+    from datetime import datetime, timedelta, timezone
+    dun = (datetime.now(timezone.utc) - timedelta(days=2)).isoformat()
+    item = make("dun gosterilen bir baslik")
+    (tmp_path / "seen.jsonl").write_text(
+        json.dumps({"key": item.key, "first_seen": dun}) + "\n", encoding="utf-8")
+    fresh, dropped = drop_seen([item], load_seen(tmp_path))
+    assert dropped == 1 and fresh == []

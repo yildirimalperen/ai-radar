@@ -54,13 +54,19 @@ def _seen_path(archive_dir: str | Path) -> Path:
     return Path(archive_dir) / SEEN_FILE
 
 
-def load_seen(archive_dir: str | Path) -> dict[str, str]:
-    """Son SEEN_WINDOW_DAYS içinde gösterilmiş madde anahtarları -> ilk görülme."""
+def load_seen(archive_dir: str | Path, *, exclude_today: bool = True) -> dict[str, str]:
+    """Bastırma kümesi: son SEEN_WINDOW_DAYS içinde gösterilmiş madde anahtarları.
+
+    exclude_today, aynı gün içindeki ikinci koşuyu korur. Onsuz sabah yayınlanan
+    12 madde "görülmüş" sayılıp elenir ve gün içi yeniden koşu sayfayı çok daha
+    zayıf maddelerle baştan yazar. Bastırma yalnız ÖNCEKİ günler için anlamlı.
+    """
     path = _seen_path(archive_dir)
     if not path.exists():
         return {}
 
     cutoff = datetime.now(timezone.utc) - timedelta(days=SEEN_WINDOW_DAYS)
+    today = datetime.now(timezone.utc).date()
     seen: dict[str, str] = {}
     for line in path.read_text(encoding="utf-8").splitlines():
         if not line.strip():
@@ -70,8 +76,11 @@ def load_seen(archive_dir: str | Path) -> dict[str, str]:
             when = datetime.fromisoformat(row["first_seen"])
         except (ValueError, KeyError, json.JSONDecodeError):
             continue
-        if when >= cutoff:
-            seen[row["key"]] = row["first_seen"]
+        if when < cutoff:
+            continue
+        if exclude_today and when.date() == today:
+            continue
+        seen[row["key"]] = row["first_seen"]
     return seen
 
 
@@ -87,7 +96,9 @@ def record_seen(items: list[Item], archive_dir: str | Path) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     now = datetime.now(timezone.utc).isoformat()
 
-    existing = load_seen(archive_dir)
+    # Yazarken tam geçmişi okuyoruz (bugünküler dahil), yoksa aynı gün ikinci
+    # koşuda bugünün kayıtları dosyadan düşer.
+    existing = load_seen(archive_dir, exclude_today=False)
     rows = [{"key": key, "first_seen": when} for key, when in existing.items()]
     for item in items:
         if item.key in existing:
