@@ -340,3 +340,26 @@ def test_ayni_konu_listeyi_ele_geciremez():
         i.topic_key = "minimaxh3"
     chosen = select_daily(items, limit=5, max_per_topic=2)
     assert len(chosen) <= 2
+
+
+def test_yavas_kaynak_tam_hiz_sayilmaz():
+    """Regresyon: az örnekli kaynakta referans kendi maksimumuna inip saatte
+    1 oy alan makaleyi 'tam hızlı' yapıyor, gerekçeye '1 oy/saat' yazıyordu."""
+    from radar.hype import _velocity_references
+    yavas = [
+        make(f"paper {n}", source="hf-papers", signal=s,
+             published=(datetime.now(timezone.utc) - timedelta(hours=100)).isoformat())
+        for n, s in enumerate((90, 100, 110, 140))
+    ]
+    refs = _velocity_references(yavas)
+    assert refs["hf-papers"] >= 6.0, "referans tabanın altına inmemeli"
+    assert max(velocity_score(i, refs) for i in yavas) < 0.5
+
+
+def test_dis_metrik_orta_siradaki_modeli_yukselis_saymaz():
+    """Regresyon: logaritmik eğri orta sıradaki modeli (213) tek başına
+    yükseliş sayıyordu; 120 maddenin 14'ü 'yükselişte' çıkmıştı."""
+    from radar.hype import PROMOTION_THRESHOLD, external_score
+    assert external_score(213) < PROMOTION_THRESHOLD
+    assert external_score(1013) > PROMOTION_THRESHOLD
+    assert external_score(0) == 0.0
