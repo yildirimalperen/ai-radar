@@ -22,6 +22,7 @@ sources.yaml → collect → dedup → score → select → render → docs/ (Gi
 |---|---|---|
 | Toplama | `radar/collect.py` | 5 kaynak türü (rss, reddit, hn, hf_papers, arxiv), paralel; tek kaynağın ölmesi koşuyu düşürmez |
 | Dedup | `radar/normalize.py` | Yaş sınırı (10 gün) → çapraz-kaynak birleştirme → 7 günlük tekrar elemesi |
+| Hype | `radar/hype.py` | Yükseliş ölçümü: hız + HN konu eğimi + HF trendingScore/ivme |
 | Skorlama | `radar/score.py` | 6 bileşenli açıklanabilir skor; her kırılım sayfada görünür |
 | Seçim | `radar/score.py` | Kota ≤12; kategori/eksen başına ≤4, kaynak başına ≤2, puan tabanı 4.5 |
 | Yayın | `radar/render.py` | Dört kategoriye ayrılmış statik sayfa + kısa kısa + arşiv + arama |
@@ -61,6 +62,51 @@ yok (sistem yığını anında boyanır), tek vurgu rengi, açık/koyu tema.
 
 Skor **tamamen açıklanabilir**: sayfadaki her maddenin sağ altındaki puana
 tıklayınca kırılım tablosu açılıyor. Bir madde neden üstte, görülebiliyor.
+
+### Yükseliş (hype) katmanı
+
+Bir maddenin *kendi* özellikleri (kaynak, eksen, tazelik) ile *dünyanın ona
+verdiği tepki* farklı şeyler. İkincisi ayrı bir katman ve **toplanarak değil,
+ayrı bir kapı olarak** kullanılıyor:
+
+- **İlgi yolu** — çekirdek eksende (oyun/görsel/video/3D) ise sıfır ilgiyle girer.
+- **Yükseliş yolu** — yükseliş eşiğini (0.60) geçerse ekseni ne olursa olsun girer,
+  puan tabanını atlar.
+- **İkisi birden** ise çarpan alır (×1.35). "Oyun yapan **ve** trend olan Qwen
+  kopyası" durumu tam olarak bu.
+
+Üç sinyal:
+
+| Sinyal | Ne | Durum |
+|---|---|---|
+| **Hız** | oy / yaş, kaynak bazında normalize | Çalışıyor, ama akışın yalnız %16'sı oy taşıyor |
+| **HN konu eğimi** | konunun haftalık hikâye sayısındaki büyüme | Çalışıyor ama **nadiren ateşler** (aşağıya bak) |
+| **HF trendingScore** | HuggingFace'in bakımlı hype metriği + günlük ivmesi | En güçlü sinyal |
+
+Sayfada yükselen maddede `↑ yükselişte` rozeti ve gerekçesi görünür
+(`HF trend 1015`, `32 oy/saat`). Böylece eşiğin doğru olup olmadığını ✓/✗ ile
+denetleyebiliyorsun.
+
+**Bastırma artık yükselişi engellemiyor.** Daha önce gösterilen bir madde
+eleniyordu; yani bir konu tam dalgaya dönüşürken susuyorduk. Artık havuzda
+kalıp skorlanıyor ve yükselişteyse `↑ yükselişte · yeniden` etiketiyle dönüyor.
+
+### Ölçümle ELENEN yaklaşımlar
+
+Bunlar denendi ve veriyle çürütüldü; tekrar denenmesin diye yazılı:
+
+**"Kaç bağımsız kaynak aynı şeyi söyledi" bir hype ölçüsü olamaz.** Gerçek bir
+günde 122 maddenin **0'ı** birden fazla kaynakta geçti; varlık seviyesinde de
+274 addan yalnız 2'si (ikisi de "Google"/"ChatGPT" gibi jenerik) eşleşti. Kök
+neden: 31 kaynağımız birbiriyle örtüşmeyen nişler, aynı gün içinde ölçülecek
+artıklık yok.
+
+**HN konu eğimi niş konularımız için yetersiz.** Ayrıca HN Algolia varsayılan
+olarak yazım-hatası toleranslı: `rigging` sorgusu "Rising Fuel Prices"i, `veo`
+sorgusu "Voodoo"yu eşleştiriyor. Sonuçları kendimiz süzüyoruz, ve süzdükten
+sonra gerçek hacim çok küçük: `rigging` ham 53 → gerçek 1, `veo` ham 815 →
+gerçek 0. Yalnız ana-akım model adları sayı üretiyor (`qwen` 5→12). Sinyal
+tutuldu ama nadiren ateşleyeceği biliniyor.
 
 ### Üç koruma kapısı
 

@@ -53,6 +53,13 @@ class Item:
     source_weight: float = 1.0
     ai_native: bool = True   # kaynak AI'a özel mi; değilse madde alakasını kanıtlamalı
 
+    # hype katmanı doldurur
+    topic_key: str = ""      # kanonik ürün konusu (ör. "minimaxh3")
+    hype_score: float = 0.0
+    hype_label: str = ""
+    hype_rising: bool = False
+    previously_shown: bool = False   # daha önce yayınlandı; yalnız yükselişteyse geri döner
+
     # skorlama aşamasında doldurulur
     axes: list[str] = field(default_factory=list)
     score: float = 0.0
