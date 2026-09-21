@@ -16,6 +16,7 @@ import re
 from functools import lru_cache
 
 from .models import AXES, Item
+from .hype import COMBO_MULTIPLIER, canonical_topic, extract_topics
 
 # Eksen öncelikleri. Niş eksenler genel olanların önünde -- tasarım kararı.
 AXIS_PRIORITY: dict[str, float] = {
@@ -205,6 +206,58 @@ def score_item(item: Item) -> Item:
     return item
 
 
+def assign_topics(items: list[Item]) -> list[Item]:
+    """Her maddeye kanonik ürün konusu atar.
+
+    İki aşamalı: önce başlıktan doğrudan çıkarılanlar, sonra koşu genelinde
+    toplanan sözlükle küçük harfli/serbest geçişler ("Minimax h3") yakalanır.
+    Tek aşamada regex büyük harf istediği için aynı model farklı maddelerde
+    farklı anahtarlara düşüyor ve konu tavanı delinebiliyordu.
+    """
+    vocabulary: set[str] = set()
+    for item in items:
+        for topic in extract_topics(item.title):
+            key = canonical_topic(topic)
+            if key:
+                item.topic_key = item.topic_key or key
+                vocabulary.add(key)
+
+    for item in items:
+        if item.topic_key:
+            continue
+        flat = re.sub(r"[^a-z0-9]+", "", item.title.lower())
+        for key in vocabulary:
+            if len(key) >= 6 and key in flat:
+                item.topic_key = key
+                break
+    return items
+
+
+def apply_hype(items: list[Item], signals: dict) -> list[Item]:
+    """Hype sinyalini skora işler ve maddeyi etiketler.
+
+    Hem çekirdek eksende hem yükselişte olan madde çarpan alır: "oyun yapan VE
+    trend olan Qwen kopyası" senaryosu tam olarak bu.
+    """
+    for item in items:
+        signal = signals.get(item.key)
+        if signal is None:
+            continue
+        boost = W_HYPE * signal.score
+        combo = signal.is_rising and bool(CORE_AXES & set(item.axes))
+        if combo:
+            boost *= COMBO_MULTIPLIER
+        item.hype_score = signal.score
+        item.hype_rising = signal.is_rising
+        item.hype_label = signal.label
+        item.score = round(item.score + boost, 3)
+        item.score_parts["hype"] = round(boost, 3)
+        if combo:
+            item.score_parts["_combo"] = 1.0
+    items.sort(key=lambda i: i.score, reverse=True)
+    return items
+
+
 def score_all(items: list[Item]) -> list[Item]:
     scored = [score_item(i) for i in items]
     scored.sort(key=lambda i: i.score, reverse=True)
@@ -217,6 +270,13 @@ def score_all(items: list[Item]) -> list[Item]:
 # çünkü oransal taban sakin bir günde gürültünün girmesine izin veriyor.
 # Sonuç: sakin günde liste kotadan kısa çıkar -- bu doğru davranış.
 SCORE_FLOOR = 4.5
+
+# Yükseliş kapısı. Kullanıcı gözlemi: "başka bir hype yapmayan Qwen kopyası
+# normalde önemsiz ama oyunla ilgiliyse VEYA hype yapmışsa önemli." Bu bir OR,
+# toplam değil -- o yüzden yükselişte olan madde puan tabanını atlayabiliyor,
+# çekirdek eksendeki madde ise sıfır ilgiyle bile girebiliyor.
+W_HYPE = 2.5
+CORE_AXES = frozenset({"image", "video", "game", "threed"})
 BRIEF_SCORE_FLOOR = 3.0   # etkinlik duyuruları gibi "faydalı ama öncelikli değil" maddeler burada kalsın
 
 
@@ -226,6 +286,7 @@ def select_daily(
     max_per_axis: int = 4,
     max_per_source: int = 2,
     max_per_category: int = 4,
+    max_per_topic: int = 2,
 ) -> list[Item]:
     """Günün listesini seçer: sabit kota + kategori/eksen/kaynak çeşitliliği.
 
@@ -236,23 +297,34 @@ def select_daily(
     if not items:
         return []
 
-    eligible = [i for i in items if i.score >= SCORE_FLOOR]
+    # İki kabul yolu: puan tabanını geçen VEYA yükselişte olan.
+    eligible = [i for i in items if i.score >= SCORE_FLOOR or i.hype_rising]
     chosen: list[Item] = []
     per_axis: dict[str, int] = {}
     per_source: dict[str, int] = {}
     per_category: dict[str, int] = {}
+    per_topic: dict[str, int] = {}
+
+    def topic_of(item: Item) -> str:
+        """Aynı modelin listeyi ele geçirmesini engeller. Ölçüm: tek bir model
+        duyurusu ilk üç sırayı birden almıştı."""
+        return item.topic_key
 
     def take(item: Item) -> None:
         chosen.append(item)
         per_axis[primary_axis(item)] = per_axis.get(primary_axis(item), 0) + 1
         per_source[item.source] = per_source.get(item.source, 0) + 1
         per_category[category_of(item)] = per_category.get(category_of(item), 0) + 1
+        topic = topic_of(item)
+        if topic:
+            per_topic[topic] = per_topic.get(topic, 0) + 1
 
     def fits(item: Item) -> bool:
         return (
             per_axis.get(primary_axis(item), 0) < max_per_axis
             and per_source.get(item.source, 0) < max_per_source
             and per_category.get(category_of(item), 0) < max_per_category
+            and (not topic_of(item) or per_topic.get(topic_of(item), 0) < max_per_topic)
         )
 
     seen_keys: set[str] = set()
@@ -325,7 +397,10 @@ def select_secondary(items: list[Item], chosen: list[Item], limit: int = 8) -> l
     şişirmeden kapsamı genişletir.
     """
     taken = {i.key for i in chosen}
-    rest = [i for i in items if i.key not in taken and i.score >= BRIEF_SCORE_FLOOR]
+    rest = [
+        i for i in items
+        if i.key not in taken and (i.score >= BRIEF_SCORE_FLOOR or i.hype_rising)
+    ]
     per_source: dict[str, int] = {}
     out: list[Item] = []
     for item in rest:

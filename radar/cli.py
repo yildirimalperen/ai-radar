@@ -11,11 +11,11 @@ from pathlib import Path
 
 import yaml
 
-from . import llm
+from . import hype, llm
 from .collect import collect_all
-from .normalize import dedup, record_seen
+from .normalize import dedup, drop_shown_unless_rising, record_seen
 from .render import render_site
-from .score import score_all, select_daily, select_secondary
+from .score import apply_hype, assign_topics, score_all, select_daily, select_secondary
 
 
 def run(args: argparse.Namespace) -> int:
@@ -26,27 +26,43 @@ def run(args: argparse.Namespace) -> int:
     # okunan sayfa bir önceki günün tarihini taşıyor.
     date = args.date or datetime.now(ZoneInfo(args.timezone)).strftime("%Y-%m-%d")
 
-    print(f"[1/5] toplama — {total_sources} kaynak")
+    print(f"[1/6] toplama — {total_sources} kaynak")
     items, failures = collect_all(config)
     print(f"      {len(items)} madde, {len(failures)} kaynak düştü")
     for source_id, error in failures:
         print(f"      FAIL {source_id}: {error[:100]}")
 
-    print("[2/5] dedup")
+    print("[2/6] dedup")
     items, stats = dedup(items, args.archive)
     print(f"      {stats}")
 
-    print("[3/5] skorlama")
+    print("[3/6] skorlama")
     items = score_all(items)
+
+    print("[4/6] hype sinyali")
+    items = assign_topics(items)
+    signals = hype.compute(items, args.archive, offline=args.no_hype)
+    items = apply_hype(items, signals)
+    rising = [i for i in items if i.hype_rising]
+    print(f"      {len(rising)} madde yükselişte")
+    for item in rising[:5]:
+        print(f"      ↑ {item.hype_label} — {item.title[:58]}")
+
+    # Daha önce gösterilenler ancak yükselişteyse geri döner.
+    items, suppressed = drop_shown_unless_rising(items)
+    returning = [i for i in items if i.previously_shown]
+    if suppressed or returning:
+        print(f"      {suppressed} tekrar elendi, {len(returning)} yükselerek geri döndü")
+
     selected = select_daily(items, limit=args.limit)
     secondary = select_secondary(items, selected, limit=args.brief)
     print(f"      {len(selected)} madde + {len(secondary)} kısa kısa (kota {args.limit})")
 
-    print("[4/5] LLM notları")
+    print("[5/6] LLM notları")
     selected, llm_status = llm.annotate(selected) if not args.no_llm else (selected, "kapalı (--no-llm)")
     print(f"      {llm_status}")
 
-    print("[5/5] yayın")
+    print("[6/6] yayın")
     if args.dry_run:
         for rank, item in enumerate(selected, 1):
             print(f"  {rank:2}. {item.score:5.2f} [{','.join(item.axes)}] {item.source} — {item.title[:70]}")
@@ -81,6 +97,8 @@ def main(argv: list[str] | None = None) -> int:
     run_parser.add_argument("--date", help="YYYY-MM-DD (varsayılan: bugün)")
     run_parser.add_argument("--timezone", default="Europe/Istanbul", help="gün sınırı için saat dilimi")
     run_parser.add_argument("--no-llm", action="store_true", help="LLM not katmanını atla")
+    run_parser.add_argument("--no-hype", action="store_true",
+                            help="hype katmanını çevrimdışı çalıştır (ağ sorgusu yok)")
     run_parser.add_argument("--dry-run", action="store_true", help="dosya yazma, listeyi bas")
     run_parser.set_defaults(func=run)
 

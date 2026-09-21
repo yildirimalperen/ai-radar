@@ -165,6 +165,15 @@ TEMPLATE = """<!DOCTYPE html>
   .meta .sep { color: var(--rule-strong); }
   .ax { display: inline-flex; align-items: center; gap: 5px; color: var(--muted); }
   .ax i { width: 5px; height: 5px; border-radius: 50%; flex: none; }
+  .rise {
+    display: inline-flex; align-items: center; gap: 4px; font-weight: 640;
+    color: #d97706; background: rgba(217,119,6,.10); border-radius: 999px;
+    padding: 2px 8px; font-size: 11.5px; letter-spacing: .01em;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) .rise { color: #fbbf24; background: rgba(251,191,36,.12); }
+  }
+  .rise-why { color: var(--faint); font-size: 12px; }
 
   p.sum {
     margin: 9px 0 0; color: var(--muted); font-size: 14px; line-height: 1.58;
@@ -386,12 +395,19 @@ def _article(item: Item, *, lead: bool = False) -> str:
         f'{_esc(AXIS_SHORT.get(a, a))}</span>'
         for a in item.axes[:3]
     )
+    rise = ""
+    if item.hype_rising:
+        geri = " · yeniden" if item.previously_shown else ""
+        rise = f'<span class="rise">↑ yükselişte{geri}</span>'
+        if item.hype_label:
+            rise += f'<span class="rise-why">{_esc(item.hype_label)}</span>'
+
     bits = [f"<span>{_esc(item.source)}</span>", f"<span>{yas_metni(item.age_hours)}</span>"]
     if item.signal:
         bits.append(f"<span>{item.signal} oy</span>")
     if getattr(item, "also_in", None):
         bits.append(f'<span>+{len(item.also_in)} kaynak</span>')
-    meta = axes + "".join(f'<span class="sep">·</span>{b}' for b in bits)
+    meta = rise + axes + "".join(f'<span class="sep">·</span>{b}' for b in bits)
 
     rows = "".join(
         f"<tr><td>{_esc(k)}</td><td>{v:+.2f}</td></tr>"

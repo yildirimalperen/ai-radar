@@ -11,10 +11,15 @@ from datetime import datetime, timedelta, timezone
 import pytest
 
 from radar.models import Item, canonical_url, clean_text, title_fingerprint
-from radar.normalize import drop_seen, drop_stale, merge_duplicates, record_seen, load_seen
+from radar.hype import (
+    _is_product_like, canonical_topic, extract_topics, trend_score, velocity_score,
+)
+from radar.normalize import (
+    drop_seen, drop_shown_unless_rising, drop_stale, load_seen, merge_duplicates, record_seen,
+)
 from radar.score import (
-    category_of, detect_axes, group_by_category, is_ai_relevant, noise_penalty,
-    score_all, select_daily, select_secondary,
+    apply_hype, assign_topics, category_of, detect_axes, group_by_category,
+    is_ai_relevant, noise_penalty, score_all, select_daily, select_secondary,
 )
 
 
@@ -248,3 +253,90 @@ def test_gruplama_bos_kategoriyi_dusurur():
     items = score_all([make("New text-to-video model", source="a")])
     groups = group_by_category(items)
     assert len(groups) == 1 and groups[0][0] == "uretim"
+
+
+# --- hype katmanı ---------------------------------------------------------------
+
+def test_konu_cikarimi_surum_numarasi_ister():
+    """Regresyon: 'çok parçalı büyük harfli ad' kuralı 'Reason About' ve
+    'LLM Models' gibi jenerik ifadeleri model adı sanıyordu."""
+    urun = lambda t: [e for e in extract_topics(t) if _is_product_like(e)]
+    assert urun("Pirate Face Rescues LLM Models from Deletion") == []
+    assert "Qwen Image 2.1" in urun("Qwen Image 2.1 ships today")
+
+
+def test_konu_cikarimi_bastaki_durak_kelimeyi_yutmaz():
+    """Regresyon: açgözlü eşleşme 'Can MiniMax-H3 Reason' üretiyor, baş token
+    durak kelime olduğu için gerçek model adı tamamen kayboluyordu."""
+    topics = extract_topics("Can MiniMax-H3 Reason About the Physical World")
+    assert any("MiniMax-H3" in t for t in topics)
+
+
+def test_kanonik_konu_ayni_modeli_birlestirir():
+    """Regresyon: aynı model üç farklı dizgeye çıkıp konu tavanını deldi ve
+    tek duyuru listenin ilk üç sırasını birden aldı."""
+    assert canonical_topic("Minimax H3 Video") == canonical_topic("MiniMax-H3 Reason")
+    assert canonical_topic("Qwen Image 2.1") != canonical_topic("Kling 3.0")
+    assert canonical_topic("Pirate Face") == ""
+
+
+def test_trend_puani_kucuk_sayilarda_susar():
+    """Ölçümle kalibre edildi: 1→3 hikâye dalga değil, 15→36 dalga."""
+    assert trend_score(3, 1) == 0.0
+    assert trend_score(36, 15) >= 0.6
+    assert trend_score(17, 22) == 0.0, "düşüşte olan konu yükseliş sayılmamalı"
+
+
+def test_hiz_kaynak_bazinda_normalize_edilir():
+    """HN'de 30 oy/saat ile HF Papers'ta 3 oy/saat aynı anlama geliyor."""
+    refs = {"hackernews": 30.0, "hf-papers": 3.0}
+    hizli_hn = make("a", source="hackernews", signal=300,
+                    published=(datetime.now(timezone.utc) - timedelta(hours=10)).isoformat())
+    hizli_hf = make("b", source="hf-papers", signal=30,
+                    published=(datetime.now(timezone.utc) - timedelta(hours=10)).isoformat())
+    assert velocity_score(hizli_hn, refs) == pytest.approx(velocity_score(hizli_hf, refs))
+    assert velocity_score(hizli_hn, refs) == pytest.approx(1.0)
+
+
+class _Sinyal:
+    def __init__(self, score, rising=True, label="test"):
+        self.score, self.label = score, label
+        self.is_rising = rising
+
+
+def test_yukselisteki_madde_puan_tabanini_atlar():
+    """Kullanıcı kuralı bir OR: hype yapmışsa ekseni ne olursa olsun girer."""
+    dusuk = make("Some offbeat corporate note", source="techcrunch-ai", source_weight=0.5)
+    items = score_all([dusuk])
+    assert items[0].score < 4.5, "önce taban altında olduğunu doğrula"
+    apply_hype(items, {dusuk.key: _Sinyal(0.9)})
+    assert select_daily(items, limit=5) == [dusuk]
+
+
+def test_cekirdek_eksen_ve_yukselis_birlikte_carpan_alir():
+    """'Oyun yapan VE trend olan Qwen kopyası' senaryosu."""
+    oyun = make("New text-to-3D rigging model for games", source="fal", source_weight=2.0)
+    genel = make("Some corporate reorg announcement", source="fal", source_weight=2.0)
+    items = score_all([oyun, genel])
+    taban = {i.key: i.score for i in items}
+    apply_hype(items, {oyun.key: _Sinyal(0.8), genel.key: _Sinyal(0.8)})
+    artis_oyun = oyun.score - taban[oyun.key]
+    artis_genel = genel.score - taban[genel.key]
+    assert artis_oyun > artis_genel, "çekirdek eksen + yükseliş kombosu çarpan almalı"
+
+
+def test_gosterilmis_madde_ancak_yukselisteyse_geri_doner():
+    """Bastırma bir konu tam dalgaya dönüşürken susmamıza yol açıyordu."""
+    yukselen = make("rising topic"); yukselen.previously_shown = True; yukselen.hype_rising = True
+    sonen = make("quiet topic"); sonen.previously_shown = True
+    kept, dropped = drop_shown_unless_rising([yukselen, sonen])
+    assert kept == [yukselen] and dropped == 1
+
+
+def test_ayni_konu_listeyi_ele_geciremez():
+    items = score_all([make(f"Minimax H3 update number {n}", source=f"s{n}") for n in range(5)])
+    assign_topics(items)
+    for i in items:
+        i.topic_key = "minimaxh3"
+    chosen = select_daily(items, limit=5, max_per_topic=2)
+    assert len(chosen) <= 2

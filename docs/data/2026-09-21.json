@@ -1,5 +1,75 @@
 [
  {
+  "key": "a1f71d47c986cbeb",
+  "title": "Integration of Jev into Minimax H3 Video Generation",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wm1mgy/integration_of_jev_into_minimax_h3_video/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image",
+   "video"
+  ],
+  "score": 9.6,
+  "date": "2026-09-21"
+ },
+ {
+  "key": "8b339323dc73657a",
+  "title": "Can MiniMax-H3 Reason About the Physical World? An Evaluation of Omni-Modal Generative Model",
+  "url": "https://huggingface.co/papers/2609.18323",
+  "source": "hf-papers",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 8.7,
+  "date": "2026-09-21"
+ },
+ {
+  "key": "baeea2b05071c880",
+  "title": "DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression",
+  "url": "https://huggingface.co/papers/2609.19969",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 8.29,
+  "date": "2026-09-21"
+ },
+ {
+  "key": "070e076552ccb12f",
+  "title": "Pirate Face Rescues LLM Models from Deletion",
+  "url": "https://pirateface.co/",
+  "source": "hackernews",
+  "axes": [
+   "model"
+  ],
+  "score": 8.15,
+  "date": "2026-09-21"
+ },
+ {
+  "key": "0f3001674450c2b0",
+  "title": "Some of my tests with qwen image 2.1",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wltp85/some_of_my_tests_with_qwen_image_21/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 7.54,
+  "date": "2026-09-21"
+ },
+ {
+  "key": "0fbba40f0ec04ce2",
+  "title": "Qwen Image 2.1",
+  "url": "https://qwen.ai/blog?id=qwen-image-2.1",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 7.31,
+  "date": "2026-09-21"
+ },
+ {
   "key": "222ace23a9b00cf0",
   "title": "Hex turns complex analysis into visual reports with GPT‑6 Astra",
   "url": "https://openai.com/index/hex-gpt-6-astra",
@@ -8,6 +78,87 @@
    "image"
   ],
   "score": 6.58,
+  "date": "2026-09-21"
+ },
+ {
+  "key": "ef862fdb166cf319",
+  "title": "Over 85% of Japanese Game Developers Now Use Generative AI, According to TGS Report",
+  "url": "https://80.lv/articles/over-85-of-japanese-game-developers-now-use-generative-ai-according-to-tgs-report/",
+  "source": "80lv",
+  "axes": [
+   "game"
+  ],
+  "score": 5.71,
+  "date": "2026-09-21"
+ },
+ {
+  "key": "7a66acabc43ce49b",
+  "title": "World model companies are keeping a lot of secrets",
+  "url": "https://techcrunch.com/2026/09/20/world-model-companies-are-keeping-a-lot-of-secrets/",
+  "source": "techcrunch-ai",
+  "axes": [
+   "model",
+   "video"
+  ],
+  "score": 5.46,
+  "date": "2026-09-21"
+ },
+ {
+  "key": "53870dc65208d9f0",
+  "title": "The Official Unity Plugin for Codex",
+  "url": "https://unity.com/blog/unity-plugin-codex",
+  "source": "unity",
+  "axes": [
+   "game"
+  ],
+  "score": 5.08,
+  "date": "2026-09-21"
+ },
+ {
+  "key": "b6568f17d1d0be59",
+  "title": "A PSA to anyone trying to use Minimax h3 to inpaint",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wlt4ue/a_psa_to_anyone_trying_to_use_minimax_h3_to/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 8.54,
+  "date": "2026-09-21"
+ },
+ {
+  "key": "e6852101baf6df58",
+  "title": "SoL-Pi: Recursively Scaling Auto-Research Loops for Efficient Agent Harness",
+  "url": "https://huggingface.co/papers/2609.20519",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 7.92,
+  "date": "2026-09-21"
+ },
+ {
+  "key": "61496b36d3b31142",
+  "title": "When EOS Tokens Disagree: Understanding Length Inflation in On-Policy Distillation",
+  "url": "https://huggingface.co/papers/2609.20511",
+  "source": "hf-papers",
+  "axes": [
+   "image",
+   "model",
+   "threed",
+   "video"
+  ],
+  "score": 7.59,
+  "date": "2026-09-21"
+ },
+ {
+  "key": "5d9e6ee3484e126a",
+  "title": "QWEN Image 2.1 Edit tips",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wlt9t9/qwen_image_21_edit_tips/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.73,
   "date": "2026-09-21"
  },
  {
@@ -23,26 +174,14 @@
   "date": "2026-09-21"
  },
  {
-  "key": "070e076552ccb12f",
-  "title": "Pirate Face Rescues LLM Models from Deletion",
-  "url": "https://pirateface.co/",
-  "source": "hackernews",
+  "key": "2d4a996ff003ef62",
+  "title": "Introducing the Australian Youth Safety Blueprint",
+  "url": "https://openai.com/index/australian-youth-safety-blueprint",
+  "source": "openai",
   "axes": [
    "model"
   ],
-  "score": 6.28,
-  "date": "2026-09-21"
- },
- {
-  "key": "8b339323dc73657a",
-  "title": "Can MiniMax-H3 Reason About the Physical World? An Evaluation of Omni-Modal Generative Model",
-  "url": "https://huggingface.co/papers/2609.18323",
-  "source": "hf-papers",
-  "axes": [
-   "model",
-   "people"
-  ],
-  "score": 6.2,
+  "score": 6.0,
   "date": "2026-09-21"
  },
  {
@@ -57,108 +196,6 @@
   "date": "2026-09-21"
  },
  {
-  "key": "ef862fdb166cf319",
-  "title": "Over 85% of Japanese Game Developers Now Use Generative AI, According to TGS Report",
-  "url": "https://80.lv/articles/over-85-of-japanese-game-developers-now-use-generative-ai-according-to-tgs-report/",
-  "source": "80lv",
-  "axes": [
-   "game"
-  ],
-  "score": 5.72,
-  "date": "2026-09-21"
- },
- {
-  "key": "7a66acabc43ce49b",
-  "title": "World model companies are keeping a lot of secrets",
-  "url": "https://techcrunch.com/2026/09/20/world-model-companies-are-keeping-a-lot-of-secrets/",
-  "source": "techcrunch-ai",
-  "axes": [
-   "model",
-   "video"
-  ],
-  "score": 5.48,
-  "date": "2026-09-21"
- },
- {
-  "key": "783891950d10f2ed",
-  "title": "MintAct: A Unified Visual Agent for Digital Environments",
-  "url": "https://arxiv.org/abs/2609.22083v1",
-  "source": "arxiv-cv",
-  "axes": [
-   "image",
-   "model"
-  ],
-  "score": 5.41,
-  "date": "2026-09-21"
- },
- {
-  "key": "61144806426d4d94",
-  "title": "OmniVBench: A Benchmark and Large-Scale Dataset for Omni Reference-to-Video Generation",
-  "url": "https://arxiv.org/abs/2609.22069v1",
-  "source": "arxiv-cv",
-  "axes": [
-   "model",
-   "video"
-  ],
-  "score": 5.19,
-  "date": "2026-09-21"
- },
- {
-  "key": "53870dc65208d9f0",
-  "title": "The Official Unity Plugin for Codex",
-  "url": "https://unity.com/blog/unity-plugin-codex",
-  "source": "unity",
-  "axes": [
-   "game"
-  ],
-  "score": 5.08,
-  "date": "2026-09-21"
- },
- {
-  "key": "2d4a996ff003ef62",
-  "title": "Introducing the Australian Youth Safety Blueprint",
-  "url": "https://openai.com/index/australian-youth-safety-blueprint",
-  "source": "openai",
-  "axes": [
-   "model"
-  ],
-  "score": 6.01,
-  "date": "2026-09-21"
- },
- {
-  "key": "5c4ad25f7fe2b412",
-  "title": "Introducing Astra for Law",
-  "url": "https://openai.com/index/astra-for-law",
-  "source": "openai",
-  "axes": [
-   "model"
-  ],
-  "score": 5.92,
-  "date": "2026-09-21"
- },
- {
-  "key": "baeea2b05071c880",
-  "title": "DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression",
-  "url": "https://huggingface.co/papers/2609.19969",
-  "source": "hf-papers",
-  "axes": [
-   "model"
-  ],
-  "score": 5.79,
-  "date": "2026-09-21"
- },
- {
-  "key": "e6852101baf6df58",
-  "title": "SoL-Pi: Recursively Scaling Auto-Research Loops for Efficient Agent Harness",
-  "url": "https://huggingface.co/papers/2609.20519",
-  "source": "hf-papers",
-  "axes": [
-   "model"
-  ],
-  "score": 5.72,
-  "date": "2026-09-21"
- },
- {
   "key": "8ce90c3dbed5d4ea",
   "title": "H3 Max: Built with fal Inference and Training",
   "url": "https://blog.fal.ai/h3-max-built-with-fal-inference-and-training/",
@@ -167,41 +204,6 @@
    "model"
   ],
   "score": 5.46,
-  "date": "2026-09-21"
- },
- {
-  "key": "5f04577cb51ed8f2",
-  "title": "‘Now We Can Know Everything and Do Anything,’ Jensen Huang Says at Dreamforce",
-  "url": "https://blogs.nvidia.com/blog/jensen-huang-dreamforce/",
-  "source": "nvidia-genai",
-  "axes": [
-   "model"
-  ],
-  "score": 4.92,
-  "date": "2026-09-21"
- },
- {
-  "key": "0fbba40f0ec04ce2",
-  "title": "Qwen Image 2.1",
-  "url": "https://qwen.ai/blog?id=qwen-image-2.1",
-  "source": "hackernews",
-  "axes": [
-   "infra",
-   "model",
-   "people"
-  ],
-  "score": 4.82,
-  "date": "2026-09-21"
- },
- {
-  "key": "595819451a5ed0b7",
-  "title": "StepFun Launches Step 5 Preview: A 600B-Total, 27B-Active MoE Model With 1M Context for Long-Horizon Agentic Work",
-  "url": "https://www.marktechpost.com/2026/09/20/stepfun-launches-step-5-preview/",
-  "source": "marktechpost",
-  "axes": [
-   "model"
-  ],
-  "score": 4.71,
   "date": "2026-09-21"
  }
 ]

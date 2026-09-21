@@ -90,6 +90,27 @@ def drop_seen(items: list[Item], seen: dict[str, str]) -> tuple[list[Item], int]
     return fresh, len(items) - len(fresh)
 
 
+def mark_seen(items: list[Item], seen: dict[str, str]) -> int:
+    """Gösterilmişleri elemek yerine işaretler. Döner: işaretlenen sayısı.
+
+    Neden elemiyoruz: bastırma, bir konu tam dalgaya dönüşürken susmamıza yol
+    açıyordu. İşaretlenen madde havuzda kalıp skorlanıyor ve hype katmanı onu
+    "yükselişte" bulursa geri dönebiliyor.
+    """
+    marked = 0
+    for item in items:
+        if item.key in seen or title_fingerprint(item.title) in seen:
+            item.previously_shown = True
+            marked += 1
+    return marked
+
+
+def drop_shown_unless_rising(items: list[Item]) -> tuple[list[Item], int]:
+    """Daha önce gösterilmişleri eler; yükselişte olanları tutar."""
+    kept = [i for i in items if not i.previously_shown or i.hype_rising]
+    return kept, len(items) - len(kept)
+
+
 def record_seen(items: list[Item], archive_dir: str | Path) -> None:
     """Yayına giren maddeleri arşive yazar. Pencere dışı satırlar budanır."""
     path = _seen_path(archive_dir)
@@ -122,11 +143,11 @@ def dedup(items: list[Item], archive_dir: str | Path) -> tuple[list[Item], dict[
     recent, stale = drop_stale(items)
     merged = merge_duplicates(recent)
     seen = load_seen(archive_dir)
-    fresh, dropped = drop_seen(merged, seen)
-    return fresh, {
+    marked = mark_seen(merged, seen)
+    return merged, {
         "toplanan": before,
         "bayat_elendi": stale,
         "birlestirme_sonrasi": len(merged),
-        "gecmiste_gorulmus": dropped,
-        "kalan": len(fresh),
+        "gecmiste_gorulmus": marked,
+        "kalan": len(merged),
     }
