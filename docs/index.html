@@ -172,9 +172,92 @@
     .wrap { padding: 36px 16px 72px; }
     article.lead h2 { font-size: 18.5px; }
   }
+
+  /* --- yan panel: liste sola kayar, hedef sayfa sağdan açılır --- */
+  .shell {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 0fr;
+    transition: grid-template-columns .42s cubic-bezier(.32, .72, 0, 1);
+    min-height: 100vh;
+  }
+  .shell.open { grid-template-columns: minmax(0, 42fr) minmax(0, 58fr); }
+  .shell.open .wrap {
+    margin-left: max(20px, 3vw); margin-right: 0; padding-top: 40px;
+    transition: margin .42s cubic-bezier(.32, .72, 0, 1);
+  }
+  .wrap { transition: margin .42s cubic-bezier(.32, .72, 0, 1); }
+
+  .pane {
+    position: sticky; top: 0; height: 100vh; overflow: hidden;
+    border-left: 1px solid var(--rule); background: var(--bg);
+    display: flex; flex-direction: column;
+    opacity: 0; transform: translateX(28px);
+    transition: opacity .3s ease .08s, transform .42s cubic-bezier(.32, .72, 0, 1);
+  }
+  .shell.open .pane { opacity: 1; transform: none; }
+  .pane[hidden] { display: none; }
+
+  .pane-bar {
+    display: flex; align-items: center; gap: 8px; padding: 12px 14px;
+    border-bottom: 1px solid var(--rule); flex: none; min-height: 54px;
+  }
+  .pane-bar .who { flex: 1; min-width: 0; }
+  .pane-bar .who b { display: block; font-size: 13.5px; font-weight: 600;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .pane-bar .who span { font-size: 11.5px; color: var(--faint); }
+  .pane-bar button, .pane-bar a.btn {
+    font: inherit; font-size: 13px; line-height: 1; cursor: pointer; text-decoration: none;
+    background: transparent; border: 1px solid var(--rule-strong); color: var(--muted);
+    border-radius: 8px; padding: 7px 10px; transition: all .13s ease; flex: none;
+  }
+  .pane-bar button:hover, .pane-bar a.btn:hover { color: var(--accent); border-color: var(--accent); }
+  .pane-bar button:disabled { opacity: .35; cursor: default; }
+  .pane-bar .marks button { border-color: transparent; }
+
+  .pane-body { flex: 1; position: relative; overflow: auto; background: var(--bg); }
+  .pane-body iframe { width: 100%; height: 100%; border: 0; display: block; background: #fff; }
+
+  .preview { max-width: 620px; margin: 0 auto; padding: 48px 28px 64px; }
+  .preview h2 { font-size: 24px; line-height: 1.3; letter-spacing: -.02em; margin: 0 0 12px; }
+  .preview .pmeta { color: var(--faint); font-size: 13px; margin-bottom: 22px; }
+  .preview p { font-size: 15.5px; line-height: 1.7; color: var(--muted); margin: 0 0 16px; }
+  .preview .note {
+    font-size: 12.5px; color: var(--faint); background: var(--chip-bg);
+    border-radius: 9px; padding: 11px 13px; margin-top: 26px; line-height: 1.55;
+  }
+  .preview .go {
+    display: inline-flex; align-items: center; gap: 7px; margin-top: 22px;
+    background: var(--accent); color: #fff; text-decoration: none; font-size: 14.5px;
+    font-weight: 560; border-radius: 10px; padding: 11px 17px;
+  }
+  .preview .go:hover { filter: brightness(1.08); }
+
+  article.active { position: relative; }
+  article.active::before {
+    content: ""; position: absolute; left: -14px; top: 18px; bottom: 18px;
+    width: 2px; border-radius: 2px; background: var(--accent);
+  }
+
+  /* Dar ekranda bölme yerine tam ekran katman. */
+  @media (max-width: 900px) {
+    .shell, .shell.open { grid-template-columns: minmax(0, 1fr); }
+    .shell.open .wrap { margin: 0 auto; }
+    .pane {
+      position: fixed; inset: 0; height: 100dvh; z-index: 50; border-left: 0;
+      transform: translateY(100%); opacity: 1;
+      transition: transform .38s cubic-bezier(.32, .72, 0, 1);
+    }
+    .shell.open .pane { transform: none; }
+    article.active::before { display: none; }
+  }
+  /* Çok dar ekranda başlığa yer açmak için gezinme oklarını gizle. */
+  @media (max-width: 430px) {
+    #pane-prev, #pane-next { display: none; }
+  }
 </style>
 </head>
 <body>
+<div class="shell" id="shell">
 <div class="wrap">
 
 <header>
@@ -197,17 +280,33 @@
   <select id="scope" aria-label="Kapsam"><option value="today">Bugün</option><option value="all">Tüm arşiv</option></select>
 </div>
 
-<main id="content"><section data-kind="cat"><h3 class="cat"><i style="background:#a855f7"></i>Üretim<u>4</u></h3><article class="lead" data-key="a1f71d47c986cbeb" data-axes="image,video" data-hay="integration of jev into minimax h3 video generation reddit-stablediffusion image video"><h2><a href="https://www.reddit.com/r/StableDiffusion/comments/1wm1mgy/integration_of_jev_into_minimax_h3_video/" target="_blank" rel="noopener">Integration of Jev into Minimax H3 Video Generation</a></h2><div class="meta"><span class="ax"><i style="background:#a855f7"></i>görsel</span><span class="ax"><i style="background:#ec4899"></i>video</span><span class="sep">·</span><span>reddit-stablediffusion</span><span class="sep">·</span><span>5 saat önce</span></div><p class="sum">Apparently, someone genius came up with this brilliant idea of using Jev for sparsification of attention processing. The result was speed up of generation time over 40 percent, 06:07 to 03:34. Here is the github page of the author: https://github.com/sepiablue-ai/ComfyUI-MiniMax-H3-W4A4-VSA/tree/exp/jev-adaptive-vsa Since there are many open-source alternatives of jev at the moment, I guess we will soon have further optimizations made soon. Has anyone tried the repo? submitted by /u/Repulsive_Gap_1678 [link] [comments]</p><div class="foot"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>7.92</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+1.50</td></tr><tr><td>eksen</td><td>+4.34</td></tr><tr><td>sinyal</td><td>+0.00</td></tr><tr><td>tazelik</td><td>+1.20</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr><tr><td>hype</td><td>+0.89</td></tr></table></details></div></article><article class="" data-key="0f3001674450c2b0" data-axes="image" data-hay="some of my tests with qwen image 2.1 reddit-stablediffusion image"><h2><a href="https://www.reddit.com/r/StableDiffusion/comments/1wltp85/some_of_my_tests_with_qwen_image_21/" target="_blank" rel="noopener">Some of my tests with qwen image 2.1</a></h2><div class="meta"><span class="rise">↑ yükselişte</span><span class="rise-why">HF trend 1017</span><span class="ax"><i style="background:#a855f7"></i>görsel</span><span class="sep">·</span><span>reddit-stablediffusion</span><span class="sep">·</span><span>11 saat önce</span></div><p class="sum">I highly recommend to read the official documentations for better output The lighting and details are nuclear Downsides as i noticed: Limited style diversity, too much hellucination, bad understanding of physics, limited multi-languages support submitted by /u/CosmicTurtle44 [link] [comments]</p><div class="foot"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>7.29</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+1.50</td></tr><tr><td>eksen</td><td>+1.76</td></tr><tr><td>sinyal</td><td>+0.00</td></tr><tr><td>tazelik</td><td>+0.98</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr><tr><td>hype</td><td>+3.05</td></tr></table></details></div></article><article class="" data-key="222ace23a9b00cf0" data-axes="image" data-hay="hex turns complex analysis into visual reports with gpt‑6 astra openai image"><h2><a href="https://openai.com/index/hex-gpt-6-astra" target="_blank" rel="noopener">Hex turns complex analysis into visual reports with GPT‑6 Astra</a></h2><div class="meta"><span class="ax"><i style="background:#a855f7"></i>görsel</span><span class="sep">·</span><span>openai</span><span class="sep">·</span><span>5 gün önce</span></div><p class="sum">GPT-6 Astra helps Hex’s data agents turn answers into interactive visualizations that employees are proud to share.</p><div class="foot"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>6.58</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+3.00</td></tr><tr><td>eksen</td><td>+3.52</td></tr><tr><td>sinyal</td><td>+0.00</td></tr><tr><td>tazelik</td><td>+0.06</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr><tr><td>hype</td><td>+0.00</td></tr></table></details></div></article><article class="" data-key="7a66acabc43ce49b" data-axes="model,video" data-hay="world model companies are keeping a lot of secrets techcrunch-ai model video"><h2><a href="https://techcrunch.com/2026/09/20/world-model-companies-are-keeping-a-lot-of-secrets/" target="_blank" rel="noopener">World model companies are keeping a lot of secrets</a></h2><div class="meta"><span class="ax"><i style="background:#f59e0b"></i>model</span><span class="ax"><i style="background:#ec4899"></i>video</span><span class="sep">·</span><span>techcrunch-ai</span><span class="sep">·</span><span>12 saat önce</span></div><p class="sum">Everyone in the world-models space is sitting on a pile of cash and a ton of buzz, but good luck getting anyone — from the founders to their own data suppliers — to tell you what they&#x27;re actually building.</p><div class="foot"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>5.46</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+0.50</td></tr><tr><td>eksen</td><td>+4.01</td></tr><tr><td>sinyal</td><td>+0.00</td></tr><tr><td>tazelik</td><td>+0.94</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr><tr><td>hype</td><td>+0.00</td></tr></table></details></div></article></section><section data-kind="cat"><h3 class="cat"><i style="background:#22c55e"></i>Oyun<u>2</u></h3><article class="" data-key="ef862fdb166cf319" data-axes="game" data-hay="over 85% of japanese game developers now use generative ai, according to tgs report 80lv game"><h2><a href="https://80.lv/articles/over-85-of-japanese-game-developers-now-use-generative-ai-according-to-tgs-report/" target="_blank" rel="noopener">Over 85% of Japanese Game Developers Now Use Generative AI, According to TGS Report</a></h2><div class="meta"><span class="ax"><i style="background:#22c55e"></i>oyun</span><span class="sep">·</span><span>80lv</span><span class="sep">·</span><span>2 gün önce</span></div><p class="sum">CESA reports that over 85% of Japanese game developers use generative AI at least occasionally, while studios are prioritizing human review, restricted tools, and policies against using raw outputs unchanged.</p><div class="foot"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>5.71</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+2.00</td></tr><tr><td>eksen</td><td>+3.52</td></tr><tr><td>sinyal</td><td>+0.00</td></tr><tr><td>tazelik</td><td>+0.20</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr><tr><td>hype</td><td>+0.00</td></tr></table></details></div></article><article class="" data-key="53870dc65208d9f0" data-axes="game" data-hay="the official unity plugin for codex unity game"><h2><a href="https://unity.com/blog/unity-plugin-codex" target="_blank" rel="noopener">The Official Unity Plugin for Codex</a></h2><div class="meta"><span class="ax"><i style="background:#22c55e"></i>oyun</span><span class="sep">·</span><span>unity</span><span class="sep">·</span><span>5 gün önce</span></div><p class="sum">Unity&#x27;s official plugin for Codex is an official plugin that gives OpenAI&#x27;s Codex Unity-written skills, so the agent works from Unity&#x27;s own guidance for jobs like sprite atlases, URP renderer features, in-app purchases, and localization instead of from whatever it absorbed about Unity elsewhere.</p><div class="foot"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>5.08</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+1.50</td></tr><tr><td>eksen</td><td>+3.52</td></tr><tr><td>sinyal</td><td>+0.00</td></tr><tr><td>tazelik</td><td>+0.06</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr><tr><td>hype</td><td>+0.00</td></tr></table></details></div></article></section><section data-kind="cat"><h3 class="cat"><i style="background:#f59e0b"></i>Modeller &amp; Araştırma<u>4</u></h3><article class="" data-key="070e076552ccb12f" data-axes="model" data-hay="pirate face rescues llm models from deletion hackernews model"><h2><a href="https://pirateface.co/" target="_blank" rel="noopener">Pirate Face Rescues LLM Models from Deletion</a></h2><div class="meta"><span class="rise">↑ yükselişte</span><span class="rise-why">31 oy/saat</span><span class="ax"><i style="background:#f59e0b"></i>model</span><span class="sep">·</span><span>hackernews</span><span class="sep">·</span><span>17 saat önce</span><span class="sep">·</span><span>534 oy</span></div><div class="foot"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>8.15</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+1.50</td></tr><tr><td>eksen</td><td>+2.86</td></tr><tr><td>sinyal</td><td>+1.11</td></tr><tr><td>tazelik</td><td>+0.79</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr><tr><td>hype</td><td>+1.88</td></tr></table></details></div></article><article class="" data-key="baeea2b05071c880" data-axes="model" data-hay="deepseek-v4.1-flash: pushing the limits of kv cache compression hf-papers model"><h2><a href="https://huggingface.co/papers/2609.19969" target="_blank" rel="noopener">DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression</a></h2><div class="meta"><span class="rise">↑ yükselişte</span><span class="rise-why">HF trend 848</span><span class="ax"><i style="background:#f59e0b"></i>model</span><span class="sep">·</span><span>hf-papers</span><span class="sep">·</span><span>5 gün önce</span><span class="sep">·</span><span>140 oy</span></div><p class="sum">The widespread adoption of long-horizon agents has made model workloads increasingly input-heavy. Although prior work has substantially reduced the cost of long-context computation, prefill remains computationally expensive, and large KV caches continue to strain HBM and SSD capacity and data-transfer bandwidth. Together, these compute, storage, and bandwidth demands constitute the primary bottleneck to further lowering deployment costs. To address this challenge, we introduce DeepSeek-V4.1-Flash, a multimodal Mixture-of-Experts (MoE) model with 552B backbone parameters and support for…</p><div class="foot"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>7.96</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+2.00</td></tr><tr><td>eksen</td><td>+2.86</td></tr><tr><td>sinyal</td><td>+0.88</td></tr><tr><td>tazelik</td><td>+0.06</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr><tr><td>hype</td><td>+2.17</td></tr></table></details></div></article><article class="" data-key="0fbba40f0ec04ce2" data-axes="infra,model,people" data-hay="qwen image 2.1 hackernews infra model people"><h2><a href="https://qwen.ai/blog?id=qwen-image-2.1" target="_blank" rel="noopener">Qwen Image 2.1</a></h2><div class="meta"><span class="rise">↑ yükselişte</span><span class="rise-why">33 oy/saat · HF trend 1017</span><span class="ax"><i style="background:#64748b"></i>araç</span><span class="ax"><i style="background:#f59e0b"></i>model</span><span class="ax"><i style="background:#f97316"></i>şirket</span><span class="sep">·</span><span>hackernews</span><span class="sep">·</span><span>19 saat önce</span><span class="sep">·</span><span>629 oy</span></div><div class="foot"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>7.31</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+1.50</td></tr><tr><td>eksen</td><td>+1.43</td></tr><tr><td>sinyal</td><td>+1.14</td></tr><tr><td>tazelik</td><td>+0.74</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr><tr><td>hype</td><td>+2.50</td></tr></table></details></div></article><article class="" data-key="8b339323dc73657a" data-axes="model,people" data-hay="can minimax-h3 reason about the physical world? an evaluation of omni-modal generative model hf-papers model people"><h2><a href="https://huggingface.co/papers/2609.18323" target="_blank" rel="noopener">Can MiniMax-H3 Reason About the Physical World? An Evaluation of Omni-Modal Generative Model</a></h2><div class="meta"><span class="ax"><i style="background:#f59e0b"></i>model</span><span class="ax"><i style="background:#f97316"></i>şirket</span><span class="sep">·</span><span>hf-papers</span><span class="sep">·</span><span>6 gün önce</span><span class="sep">·</span><span>114 oy</span></div><p class="sum">Recent Omni-Modal Generative Models (Omni-Models) have advanced content generation toward unified modeling of text, images, video, and audio. MiniMax-H3 exemplifies this transition by combining multimodal context understanding with joint audio-visual generation in a shared latent framework. Its unified architecture raises a fundamental question: Can multimodal alignment improve the model&#x27;s world reasoning, and what new evaluation paradigms do omni-modal inputs enable? To investigate this question, this work introduces a comprehensive evaluation framework organized around four complementary…</p><div class="foot"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>7.17</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+2.00</td></tr><tr><td>eksen</td><td>+3.30</td></tr><tr><td>sinyal</td><td>+0.84</td></tr><tr><td>tazelik</td><td>+0.06</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr><tr><td>hype</td><td>+0.97</td></tr></table></details></div></article></section><section data-kind="brief"><h3 class="cat"><i style="background:var(--rule-strong)"></i>Kısa kısa<u>8</u></h3><ul class="brief"><li><a href="https://www.reddit.com/r/StableDiffusion/comments/1wlt4ue/a_psa_to_anyone_trying_to_use_minimax_h3_to/" target="_blank" rel="noopener">A PSA to anyone trying to use Minimax h3 to inpaint</a> <span>· reddit-stablediffusion</span></li><li><a href="https://www.reddit.com/r/StableDiffusion/comments/1wlt9t9/qwen_image_21_edit_tips/" target="_blank" rel="noopener">QWEN Image 2.1 Edit tips</a> <span>· reddit-stablediffusion</span></li><li><a href="https://openai.com/index/model-misalignment-reporting-framework" target="_blank" rel="noopener">Our framework for reporting model misalignment</a> <span>· openai</span></li><li><a href="https://huggingface.co/papers/2609.20519" target="_blank" rel="noopener">SoL-Pi: Recursively Scaling Auto-Research Loops for Efficient Agent Harness</a> <span>· hf-papers</span></li><li><a href="https://openai.com/index/australian-youth-safety-blueprint" target="_blank" rel="noopener">Introducing the Australian Youth Safety Blueprint</a> <span>· openai</span></li><li><a href="https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/" target="_blank" rel="noopener">Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking</a> <span>· deepmind</span></li><li><a href="https://huggingface.co/papers/2609.17496" target="_blank" rel="noopener">Verifiable Social Reasoning for LLM Assistants</a> <span>· hf-papers</span></li><li><a href="https://blog.fal.ai/h3-max-built-with-fal-inference-and-training/" target="_blank" rel="noopener">H3 Max: Built with fal Inference and Training</a> <span>· fal</span></li></ul></section></main>
+<main id="content"><section data-kind="cat"><h3 class="cat"><i style="background:#a855f7"></i>Üretim<u>4</u></h3><article class="lead" data-key="a1f71d47c986cbeb" data-axes="image,video" data-hay="integration of jev into minimax h3 video generation reddit-stablediffusion image video" data-url="https://www.reddit.com/r/StableDiffusion/comments/1wm1mgy/integration_of_jev_into_minimax_h3_video/" data-title="Integration of Jev into Minimax H3 Video Generation" data-source="reddit-stablediffusion" data-embed="0" data-extract="Apparently, someone genius came up with this brilliant idea of using Jev for sparsification of attention processing. The result was speed up of generation time over 40 percent, 06:07 to 03:34. Here is the github page of the author: https://github.com/sepiablue-ai/ComfyUI-MiniMax-H3-W4A4-VSA/tree/exp/jev-adaptive-vsa Since there are many open-source alternatives of jev at the moment, I guess we will soon have further optimizations made soon. Has anyone tried the repo? submitted by /u/Repulsive_Gap_1678 [link] [comments]"><h2><a href="https://www.reddit.com/r/StableDiffusion/comments/1wm1mgy/integration_of_jev_into_minimax_h3_video/" target="_blank" rel="noopener">Integration of Jev into Minimax H3 Video Generation</a></h2><div class="meta"><span class="ax"><i style="background:#a855f7"></i>görsel</span><span class="ax"><i style="background:#ec4899"></i>video</span><span class="sep">·</span><span>reddit-stablediffusion</span><span class="sep">·</span><span>5 saat önce</span></div><p class="sum">Apparently, someone genius came up with this brilliant idea of using Jev for sparsification of attention processing. The result was speed up of generation time over 40 percent, 06:07 to 03:34. Here is the github page of the author: https://github.com/sepiablue-ai/ComfyUI-MiniMax-H3-W4A4-VSA/tree/exp/jev-adaptive-vsa Since there are many open-source alternatives of jev at the moment, I guess we will soon have further optimizations made soon. Has anyone tried the repo? submitted by /u/Repulsive_Gap_1678 [link] [comments]</p><div class="foot"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>7.92</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+1.50</td></tr><tr><td>eksen</td><td>+4.34</td></tr><tr><td>sinyal</td><td>+0.00</td></tr><tr><td>tazelik</td><td>+1.19</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr><tr><td>hype</td><td>+0.89</td></tr></table></details></div></article><article class="" data-key="0f3001674450c2b0" data-axes="image" data-hay="some of my tests with qwen image 2.1 reddit-stablediffusion image" data-url="https://www.reddit.com/r/StableDiffusion/comments/1wltp85/some_of_my_tests_with_qwen_image_21/" data-title="Some of my tests with qwen image 2.1" data-source="reddit-stablediffusion" data-embed="0" data-extract="I highly recommend to read the official documentations for better output The lighting and details are nuclear Downsides as i noticed: Limited style diversity, too much hellucination, bad understanding of physics, limited multi-languages support submitted by /u/CosmicTurtle44 [link] [comments]"><h2><a href="https://www.reddit.com/r/StableDiffusion/comments/1wltp85/some_of_my_tests_with_qwen_image_21/" target="_blank" rel="noopener">Some of my tests with qwen image 2.1</a></h2><div class="meta"><span class="rise">↑ yükselişte</span><span class="rise-why">HF trend 1017</span><span class="ax"><i style="background:#a855f7"></i>görsel</span><span class="sep">·</span><span>reddit-stablediffusion</span><span class="sep">·</span><span>11 saat önce</span></div><p class="sum">I highly recommend to read the official documentations for better output The lighting and details are nuclear Downsides as i noticed: Limited style diversity, too much hellucination, bad understanding of physics, limited multi-languages support submitted by /u/CosmicTurtle44 [link] [comments]</p><div class="foot"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>7.29</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+1.50</td></tr><tr><td>eksen</td><td>+1.76</td></tr><tr><td>sinyal</td><td>+0.00</td></tr><tr><td>tazelik</td><td>+0.97</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr><tr><td>hype</td><td>+3.05</td></tr></table></details></div></article><article class="" data-key="222ace23a9b00cf0" data-axes="image" data-hay="hex turns complex analysis into visual reports with gpt‑6 astra openai image" data-url="https://openai.com/index/hex-gpt-6-astra" data-title="Hex turns complex analysis into visual reports with GPT‑6 Astra" data-source="openai" data-embed="0" data-extract="GPT-6 Astra helps Hex’s data agents turn answers into interactive visualizations that employees are proud to share."><h2><a href="https://openai.com/index/hex-gpt-6-astra" target="_blank" rel="noopener">Hex turns complex analysis into visual reports with GPT‑6 Astra</a></h2><div class="meta"><span class="ax"><i style="background:#a855f7"></i>görsel</span><span class="sep">·</span><span>openai</span><span class="sep">·</span><span>5 gün önce</span></div><p class="sum">GPT-6 Astra helps Hex’s data agents turn answers into interactive visualizations that employees are proud to share.</p><div class="foot"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>6.58</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+3.00</td></tr><tr><td>eksen</td><td>+3.52</td></tr><tr><td>sinyal</td><td>+0.00</td></tr><tr><td>tazelik</td><td>+0.06</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr><tr><td>hype</td><td>+0.00</td></tr></table></details></div></article><article class="" data-key="7a66acabc43ce49b" data-axes="model,video" data-hay="world model companies are keeping a lot of secrets techcrunch-ai model video" data-url="https://techcrunch.com/2026/09/20/world-model-companies-are-keeping-a-lot-of-secrets/" data-title="World model companies are keeping a lot of secrets" data-source="techcrunch-ai" data-embed="0" data-extract="Everyone in the world-models space is sitting on a pile of cash and a ton of buzz, but good luck getting anyone — from the founders to their own data suppliers — to tell you what they&#x27;re actually building."><h2><a href="https://techcrunch.com/2026/09/20/world-model-companies-are-keeping-a-lot-of-secrets/" target="_blank" rel="noopener">World model companies are keeping a lot of secrets</a></h2><div class="meta"><span class="ax"><i style="background:#f59e0b"></i>model</span><span class="ax"><i style="background:#ec4899"></i>video</span><span class="sep">·</span><span>techcrunch-ai</span><span class="sep">·</span><span>12 saat önce</span></div><p class="sum">Everyone in the world-models space is sitting on a pile of cash and a ton of buzz, but good luck getting anyone — from the founders to their own data suppliers — to tell you what they&#x27;re actually building.</p><div class="foot"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>5.45</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+0.50</td></tr><tr><td>eksen</td><td>+4.01</td></tr><tr><td>sinyal</td><td>+0.00</td></tr><tr><td>tazelik</td><td>+0.94</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr><tr><td>hype</td><td>+0.00</td></tr></table></details></div></article></section><section data-kind="cat"><h3 class="cat"><i style="background:#22c55e"></i>Oyun<u>2</u></h3><article class="" data-key="ef862fdb166cf319" data-axes="game" data-hay="over 85% of japanese game developers now use generative ai, according to tgs report 80lv game" data-url="https://80.lv/articles/over-85-of-japanese-game-developers-now-use-generative-ai-according-to-tgs-report/" data-title="Over 85% of Japanese Game Developers Now Use Generative AI, According to TGS Report" data-source="80lv" data-embed="1" data-extract="CESA reports that over 85% of Japanese game developers use generative AI at least occasionally, while studios are prioritizing human review, restricted tools, and policies against using raw outputs unchanged."><h2><a href="https://80.lv/articles/over-85-of-japanese-game-developers-now-use-generative-ai-according-to-tgs-report/" target="_blank" rel="noopener">Over 85% of Japanese Game Developers Now Use Generative AI, According to TGS Report</a></h2><div class="meta"><span class="ax"><i style="background:#22c55e"></i>oyun</span><span class="sep">·</span><span>80lv</span><span class="sep">·</span><span>2 gün önce</span></div><p class="sum">CESA reports that over 85% of Japanese game developers use generative AI at least occasionally, while studios are prioritizing human review, restricted tools, and policies against using raw outputs unchanged.</p><div class="foot"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>5.71</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+2.00</td></tr><tr><td>eksen</td><td>+3.52</td></tr><tr><td>sinyal</td><td>+0.00</td></tr><tr><td>tazelik</td><td>+0.19</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr><tr><td>hype</td><td>+0.00</td></tr></table></details></div></article><article class="" data-key="53870dc65208d9f0" data-axes="game" data-hay="the official unity plugin for codex unity game" data-url="https://unity.com/blog/unity-plugin-codex" data-title="The Official Unity Plugin for Codex" data-source="unity" data-embed="1" data-extract="Unity&#x27;s official plugin for Codex is an official plugin that gives OpenAI&#x27;s Codex Unity-written skills, so the agent works from Unity&#x27;s own guidance for jobs like sprite atlases, URP renderer features, in-app purchases, and localization instead of from whatever it absorbed about Unity elsewhere."><h2><a href="https://unity.com/blog/unity-plugin-codex" target="_blank" rel="noopener">The Official Unity Plugin for Codex</a></h2><div class="meta"><span class="ax"><i style="background:#22c55e"></i>oyun</span><span class="sep">·</span><span>unity</span><span class="sep">·</span><span>5 gün önce</span></div><p class="sum">Unity&#x27;s official plugin for Codex is an official plugin that gives OpenAI&#x27;s Codex Unity-written skills, so the agent works from Unity&#x27;s own guidance for jobs like sprite atlases, URP renderer features, in-app purchases, and localization instead of from whatever it absorbed about Unity elsewhere.</p><div class="foot"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>5.08</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+1.50</td></tr><tr><td>eksen</td><td>+3.52</td></tr><tr><td>sinyal</td><td>+0.00</td></tr><tr><td>tazelik</td><td>+0.06</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr><tr><td>hype</td><td>+0.00</td></tr></table></details></div></article></section><section data-kind="cat"><h3 class="cat"><i style="background:#f59e0b"></i>Modeller &amp; Araştırma<u>4</u></h3><article class="" data-key="070e076552ccb12f" data-axes="model" data-hay="pirate face rescues llm models from deletion hackernews model" data-url="https://pirateface.co/" data-title="Pirate Face Rescues LLM Models from Deletion" data-source="hackernews" data-embed="1" data-extract=""><h2><a href="https://pirateface.co/" target="_blank" rel="noopener">Pirate Face Rescues LLM Models from Deletion</a></h2><div class="meta"><span class="rise">↑ yükselişte</span><span class="rise-why">31 oy/saat</span><span class="ax"><i style="background:#f59e0b"></i>model</span><span class="sep">·</span><span>hackernews</span><span class="sep">·</span><span>17 saat önce</span><span class="sep">·</span><span>534 oy</span></div><div class="foot"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>8.13</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+1.50</td></tr><tr><td>eksen</td><td>+2.86</td></tr><tr><td>sinyal</td><td>+1.11</td></tr><tr><td>tazelik</td><td>+0.79</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr><tr><td>hype</td><td>+1.88</td></tr></table></details></div></article><article class="" data-key="baeea2b05071c880" data-axes="model" data-hay="deepseek-v4.1-flash: pushing the limits of kv cache compression hf-papers model" data-url="https://huggingface.co/papers/2609.19969" data-title="DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression" data-source="hf-papers" data-embed="0" data-extract="The widespread adoption of long-horizon agents has made model workloads increasingly input-heavy. Although prior work has substantially reduced the cost of long-context computation, prefill remains computationally expensive, and large KV caches continue to strain HBM and SSD capacity and data-transfer bandwidth. Together, these compute, storage, and bandwidth demands constitute the primary bottleneck to further lowering deployment costs. To address this challenge, we introduce DeepSeek-V4.1-Flash, a multimodal Mixture-of-Experts (MoE) model with 552B backbone parameters and support for…"><h2><a href="https://huggingface.co/papers/2609.19969" target="_blank" rel="noopener">DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression</a></h2><div class="meta"><span class="rise">↑ yükselişte</span><span class="rise-why">HF trend 848</span><span class="ax"><i style="background:#f59e0b"></i>model</span><span class="sep">·</span><span>hf-papers</span><span class="sep">·</span><span>5 gün önce</span><span class="sep">·</span><span>140 oy</span></div><p class="sum">The widespread adoption of long-horizon agents has made model workloads increasingly input-heavy. Although prior work has substantially reduced the cost of long-context computation, prefill remains computationally expensive, and large KV caches continue to strain HBM and SSD capacity and data-transfer bandwidth. Together, these compute, storage, and bandwidth demands constitute the primary bottleneck to further lowering deployment costs. To address this challenge, we introduce DeepSeek-V4.1-Flash, a multimodal Mixture-of-Experts (MoE) model with 552B backbone parameters and support for…</p><div class="foot"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>7.96</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+2.00</td></tr><tr><td>eksen</td><td>+2.86</td></tr><tr><td>sinyal</td><td>+0.88</td></tr><tr><td>tazelik</td><td>+0.06</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr><tr><td>hype</td><td>+2.17</td></tr></table></details></div></article><article class="" data-key="0fbba40f0ec04ce2" data-axes="infra,model,people" data-hay="qwen image 2.1 hackernews infra model people" data-url="https://qwen.ai/blog?id=qwen-image-2.1" data-title="Qwen Image 2.1" data-source="hackernews" data-embed="1" data-extract=""><h2><a href="https://qwen.ai/blog?id=qwen-image-2.1" target="_blank" rel="noopener">Qwen Image 2.1</a></h2><div class="meta"><span class="rise">↑ yükselişte</span><span class="rise-why">33 oy/saat · HF trend 1017</span><span class="ax"><i style="background:#64748b"></i>araç</span><span class="ax"><i style="background:#f59e0b"></i>model</span><span class="ax"><i style="background:#f97316"></i>şirket</span><span class="sep">·</span><span>hackernews</span><span class="sep">·</span><span>19 saat önce</span><span class="sep">·</span><span>634 oy</span></div><div class="foot"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>7.30</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+1.50</td></tr><tr><td>eksen</td><td>+1.43</td></tr><tr><td>sinyal</td><td>+1.14</td></tr><tr><td>tazelik</td><td>+0.73</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr><tr><td>hype</td><td>+2.50</td></tr></table></details></div></article><article class="" data-key="8b339323dc73657a" data-axes="model,people" data-hay="can minimax-h3 reason about the physical world? an evaluation of omni-modal generative model hf-papers model people" data-url="https://huggingface.co/papers/2609.18323" data-title="Can MiniMax-H3 Reason About the Physical World? An Evaluation of Omni-Modal Generative Model" data-source="hf-papers" data-embed="0" data-extract="Recent Omni-Modal Generative Models (Omni-Models) have advanced content generation toward unified modeling of text, images, video, and audio. MiniMax-H3 exemplifies this transition by combining multimodal context understanding with joint audio-visual generation in a shared latent framework. Its unified architecture raises a fundamental question: Can multimodal alignment improve the model&#x27;s world reasoning, and what new evaluation paradigms do omni-modal inputs enable? To investigate this question, this work introduces a comprehensive evaluation framework organized around four complementary…"><h2><a href="https://huggingface.co/papers/2609.18323" target="_blank" rel="noopener">Can MiniMax-H3 Reason About the Physical World? An Evaluation of Omni-Modal Generative Model</a></h2><div class="meta"><span class="ax"><i style="background:#f59e0b"></i>model</span><span class="ax"><i style="background:#f97316"></i>şirket</span><span class="sep">·</span><span>hf-papers</span><span class="sep">·</span><span>6 gün önce</span><span class="sep">·</span><span>114 oy</span></div><p class="sum">Recent Omni-Modal Generative Models (Omni-Models) have advanced content generation toward unified modeling of text, images, video, and audio. MiniMax-H3 exemplifies this transition by combining multimodal context understanding with joint audio-visual generation in a shared latent framework. Its unified architecture raises a fundamental question: Can multimodal alignment improve the model&#x27;s world reasoning, and what new evaluation paradigms do omni-modal inputs enable? To investigate this question, this work introduces a comprehensive evaluation framework organized around four complementary…</p><div class="foot"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>7.17</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+2.00</td></tr><tr><td>eksen</td><td>+3.30</td></tr><tr><td>sinyal</td><td>+0.84</td></tr><tr><td>tazelik</td><td>+0.06</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr><tr><td>hype</td><td>+0.97</td></tr></table></details></div></article></section><section data-kind="brief"><h3 class="cat"><i style="background:var(--rule-strong)"></i>Kısa kısa<u>8</u></h3><ul class="brief"><li><a href="https://www.reddit.com/r/StableDiffusion/comments/1wlt4ue/a_psa_to_anyone_trying_to_use_minimax_h3_to/" target="_blank" rel="noopener">A PSA to anyone trying to use Minimax h3 to inpaint</a> <span>· reddit-stablediffusion</span></li><li><a href="https://www.reddit.com/r/StableDiffusion/comments/1wlt9t9/qwen_image_21_edit_tips/" target="_blank" rel="noopener">QWEN Image 2.1 Edit tips</a> <span>· reddit-stablediffusion</span></li><li><a href="https://openai.com/index/model-misalignment-reporting-framework" target="_blank" rel="noopener">Our framework for reporting model misalignment</a> <span>· openai</span></li><li><a href="https://huggingface.co/papers/2609.20519" target="_blank" rel="noopener">SoL-Pi: Recursively Scaling Auto-Research Loops for Efficient Agent Harness</a> <span>· hf-papers</span></li><li><a href="https://openai.com/index/australian-youth-safety-blueprint" target="_blank" rel="noopener">Introducing the Australian Youth Safety Blueprint</a> <span>· openai</span></li><li><a href="https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/" target="_blank" rel="noopener">Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking</a> <span>· deepmind</span></li><li><a href="https://huggingface.co/papers/2609.17496" target="_blank" rel="noopener">Verifiable Social Reasoning for LLM Assistants</a> <span>· hf-papers</span></li><li><a href="https://blog.fal.ai/h3-max-built-with-fal-inference-and-training/" target="_blank" rel="noopener">H3 Max: Built with fal Inference and Training</a> <span>· fal</span></li></ul></section></main>
 <div id="flat" hidden></div>
 <div class="empty" id="empty" hidden>Eşleşen madde yok.</div>
 
 <footer>
   <nav><b>21 Eylül 2026</b></nav>
   <div style="margin-top:10px">
-    2026-09-21 08:20 UTC · işaretler yalnız bu tarayıcıda saklanır ·
+    2026-09-21 08:35 UTC · işaretler yalnız bu tarayıcıda saklanır ·
     <a href="#" id="reset">sıfırla</a>
   </div>
 </footer>
+
+</div>
+
+<aside class="pane" id="pane" hidden aria-label="Okuma paneli">
+  <div class="pane-bar">
+    <button id="pane-close" title="Kapat (Esc)" aria-label="Kapat">✕</button>
+    <div class="who"><b id="pane-title"></b><span id="pane-source"></span></div>
+    <div class="marks" id="pane-marks">
+      <button data-mark="yes">✓</button><button data-mark="no">✗</button>
+    </div>
+    <button id="pane-prev" title="Önceki (←)" aria-label="Önceki">‹</button>
+    <button id="pane-next" title="Sonraki (→)" aria-label="Sonraki">›</button>
+    <a class="btn" id="pane-open" href="#" target="_blank" rel="noopener" title="Yeni sekmede aç">↗</a>
+  </div>
+  <div class="pane-body" id="pane-body"></div>
+</aside>
 
 </div>
 
@@ -319,6 +418,116 @@ document.getElementById("reset").addEventListener("click", e => {
   document.querySelectorAll("article").forEach(c => c.classList.remove("no"));
   document.querySelectorAll(".marks button").forEach(b => b.setAttribute("aria-pressed", "false"));
   renderPrecision();
+});
+
+// --- yan panel -------------------------------------------------------------
+const shell = document.getElementById("shell");
+const pane = document.getElementById("pane");
+const paneBody = document.getElementById("pane-body");
+let current = null;
+
+function paneList() {
+  const flat = document.getElementById("flat");
+  const root = flat.hidden ? document.getElementById("content") : flat;
+  return [...root.querySelectorAll("article")].filter(a => !a.classList.contains("hidden"));
+}
+
+function esc(t) {
+  const d = document.createElement("div"); d.textContent = t || ""; return d.innerHTML;
+}
+
+function paneMarkup(card) {
+  const url = card.dataset.url;
+  if (card.dataset.embed === "1") {
+    return '<iframe src="' + esc(url) + '" title="' + esc(card.dataset.title) +
+      '" referrerpolicy="no-referrer" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>';
+  }
+  return '<div class="preview">' +
+    "<h2>" + esc(card.dataset.title) + "</h2>" +
+    '<div class="pmeta">' + esc(card.dataset.source) + "</div>" +
+    (card.dataset.extract ? "<p>" + esc(card.dataset.extract) + "</p>" : "") +
+    '<a class="go" href="' + esc(url) + '" target="_blank" rel="noopener">Sitede aç ↗</a>' +
+    '<div class="note">Bu kaynak, sayfasının başka bir sitede gömülmesine izin vermiyor ' +
+    "(X-Frame-Options), bu yüzden burada tam metin gösterilemiyor.</div></div>";
+}
+
+function syncPaneMarks(key) {
+  const marks = store.read();
+  document.querySelectorAll("#pane-marks button").forEach(b =>
+    b.setAttribute("aria-pressed", String(marks[key] === b.dataset.mark)));
+}
+
+function openPane(card) {
+  current = card;
+  document.querySelectorAll("article.active").forEach(a => a.classList.remove("active"));
+  card.classList.add("active");
+
+  document.getElementById("pane-title").textContent = card.dataset.title;
+  document.getElementById("pane-source").textContent =
+    card.dataset.source + (card.dataset.embed === "1" ? "" : " · önizleme");
+  document.getElementById("pane-open").href = card.dataset.url;
+  paneBody.innerHTML = paneMarkup(card);
+  paneBody.scrollTop = 0;
+  syncPaneMarks(card.dataset.key);
+
+  const list = paneList();
+  const at = list.indexOf(card);
+  document.getElementById("pane-prev").disabled = at <= 0;
+  document.getElementById("pane-next").disabled = at < 0 || at >= list.length - 1;
+
+  pane.hidden = false;
+  requestAnimationFrame(() => shell.classList.add("open"));
+}
+
+function closePane() {
+  shell.classList.remove("open");
+  document.querySelectorAll("article.active").forEach(a => a.classList.remove("active"));
+  current = null;
+  setTimeout(() => {
+    if (!shell.classList.contains("open")) { pane.hidden = true; paneBody.innerHTML = ""; }
+  }, 420);
+}
+
+function step(delta) {
+  if (!current) return;
+  const list = paneList();
+  const next = list[list.indexOf(current) + delta];
+  if (next) { openPane(next); next.scrollIntoView({ block: "nearest", behavior: "smooth" }); }
+}
+
+// Başlık linkleri panelde açılır; cmd/ctrl/shift/orta tık normal davranışında kalır.
+document.addEventListener("click", e => {
+  const link = e.target.closest("article h2 a");
+  if (!link || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+  const card = link.closest("article");
+  if (!card || !card.dataset.url) return;
+  e.preventDefault();
+  openPane(card);
+});
+
+document.getElementById("pane-close").onclick = closePane;
+document.getElementById("pane-prev").onclick = () => step(-1);
+document.getElementById("pane-next").onclick = () => step(1);
+document.querySelectorAll("#pane-marks button").forEach(btn => {
+  btn.onclick = () => {
+    if (!current) return;
+    const key = current.dataset.key;
+    const m = store.read();
+    if (m[key] === btn.dataset.mark) { delete m[key]; } else { m[key] = btn.dataset.mark; }
+    store.write(m);
+    current.classList.toggle("no", m[key] === "no");
+    current.querySelectorAll(".marks button").forEach(b =>
+      b.setAttribute("aria-pressed", String(m[key] === b.dataset.mark)));
+    syncPaneMarks(key);
+    renderPrecision();
+  };
+});
+
+document.addEventListener("keydown", e => {
+  if (!current) return;
+  if (e.key === "Escape") { closePane(); }
+  else if (e.key === "ArrowRight") { e.preventDefault(); step(1); }
+  else if (e.key === "ArrowLeft") { e.preventDefault(); step(-1); }
 });
 
 wireMarks(document);

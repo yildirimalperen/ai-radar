@@ -363,3 +363,35 @@ def test_dis_metrik_orta_siradaki_modeli_yukselis_saymaz():
     assert external_score(213) < PROMOTION_THRESHOLD
     assert external_score(1013) > PROMOTION_THRESHOLD
     assert external_score(0) == 0.0
+
+
+# --- yan panel / gömülebilirlik -------------------------------------------------
+
+@pytest.mark.parametrize("xfo,csp,engelli", [
+    ("DENY", "", True),
+    ("SAMEORIGIN", "", True),
+    ("", "default-src 'self'; frame-ancestors 'none'", True),
+    ("", "frame-ancestors 'self' https://x.test", True),
+    ("", "frame-ancestors *", False),
+    ("", "", False),
+    ("", "default-src 'self'", False),
+])
+def test_gomulebilirlik_basliklari_dogru_okunur(xfo, csp, engelli):
+    """Ölçüm (gerçek günün 18 linki): 6'sı gömülebiliyor. HuggingFace DENY,
+    Reddit/OpenAI/TechCrunch SAMEORIGIN veya frame-ancestors 'none'."""
+    from radar.embed import _blocks_framing
+    assert _blocks_framing(xfo, csp) is engelli
+
+
+def test_host_normalize_edilir():
+    from radar.embed import host_of
+    assert host_of("https://www.Reddit.com/r/x") == host_of("https://reddit.com/r/y")
+
+
+def test_gomulemeyen_maddede_bayrak_kapali(tmp_path):
+    """Yoklama çevrimdışıyken hiçbir link gömülebilir sayılmamalı: panel boş
+    iframe göstermektense önizlemeye düşsün."""
+    from radar.embed import annotate
+    items = [make("x", url="https://reddit.com/a"), make("y", url="https://80.lv/b")]
+    count = annotate(items, tmp_path, offline=True)
+    assert count == 0 and all(not i.embeddable for i in items)

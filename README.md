@@ -25,6 +25,7 @@ sources.yaml → collect → dedup → score → select → render → docs/ (Gi
 | Hype | `radar/hype.py` | Yükseliş ölçümü: hız + HN konu eğimi + HF trendingScore/ivme |
 | Skorlama | `radar/score.py` | 6 bileşenli açıklanabilir skor; her kırılım sayfada görünür |
 | Seçim | `radar/score.py` | Kota ≤12; kategori/eksen başına ≤4, kaynak başına ≤2, puan tabanı 4.5 |
+| Gömülebilirlik | `radar/embed.py` | Linkin iframe'de açılabildiğini inşa zamanında yoklar |
 | Yayın | `radar/render.py` | Dört kategoriye ayrılmış statik sayfa + kısa kısa + arşiv + arama |
 
 ### Sayfa tasarımı
@@ -48,6 +49,26 @@ buraya düşer -- elenmezler, sadece yer kaplamazlar.
 
 Kart yığını yerine editoryal düzen (beyaz alan + saç teli ayraç), web yazı tipi
 yok (sistem yığını anında boyanır), tek vurgu rengi, açık/koyu tema.
+
+### Yan panel (okuma)
+
+Bir başlığa tıklayınca sayfadan çıkmıyorsun: liste sola kayıyor, hedef sayfa
+sağda açılıyor. Panelde ✓/✗ işaretleyebilir, `←` `→` ile maddeler arasında
+gezinebilir, `Esc` ile kapatabilirsin. Cmd/Ctrl/orta tık normal davranışında
+kalır (yeni sekme). 900px altında panel tam ekran katmana dönüşüyor.
+
+**Ama linklerin çoğu iframe'e gömülemiyor** ve bu ölçüldü: gerçek bir günün
+18 linkinden yalnız **6'sı** gömülebiliyor. HuggingFace `DENY`, Reddit/OpenAI/
+TechCrunch `SAMEORIGIN` ya da `frame-ancestors 'none'`.
+
+Bu engel çalışma zamanında yakalanamaz — engellenen yükleme `error` değil `load`
+olayı üretir, yani panel sessizce boş kalırdı. Bu yüzden gömülebilirlik **inşa
+zamanında** yoklanıp maddeye yazılıyor (alan adı başına, 14 gün önbellekli):
+
+- **Gömülebiliyorsa** → panelde canlı sayfa.
+- **Gömülemiyorsa** → panelde okuma önizlemesi (başlık, kaynak, özet) + "Sitede aç"
+  düğmesi + nedenini açıklayan not. Akıştan çıkmadan triyaj yapılır, tam sayfa
+  ancak karar verince açılır.
 
 ### Skor bileşenleri
 

@@ -11,7 +11,7 @@ from pathlib import Path
 
 import yaml
 
-from . import hype, llm
+from . import embed, hype, llm
 from .collect import collect_all
 from .normalize import dedup, drop_shown_unless_rising, record_seen
 from .render import render_site
@@ -57,6 +57,9 @@ def run(args: argparse.Namespace) -> int:
     selected = select_daily(items, limit=args.limit)
     secondary = select_secondary(items, selected, limit=args.brief)
     print(f"      {len(selected)} madde + {len(secondary)} kısa kısa (kota {args.limit})")
+
+    embeddable = embed.annotate(selected + secondary, args.archive, offline=args.no_hype)
+    print(f"      {embeddable}/{len(selected) + len(secondary)} link panelde gömülebilir")
 
     print("[5/6] LLM notları")
     selected, llm_status = llm.annotate(selected) if not args.no_llm else (selected, "kapalı (--no-llm)")

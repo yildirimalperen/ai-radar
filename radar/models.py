@@ -54,6 +54,7 @@ class Item:
     ai_native: bool = True   # kaynak AI'a özel mi; değilse madde alakasını kanıtlamalı
 
     # hype katmanı doldurur
+    embeddable: bool = False  # iframe'de açılabiliyor mu (inşa zamanında ölçülür)
     topic_key: str = ""      # kanonik ürün konusu (ör. "minimaxh3")
     hype_score: float = 0.0
     hype_label: str = ""

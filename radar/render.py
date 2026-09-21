@@ -228,9 +228,92 @@ TEMPLATE = """<!DOCTYPE html>
     .wrap { padding: 36px 16px 72px; }
     article.lead h2 { font-size: 18.5px; }
   }
+
+  /* --- yan panel: liste sola kayar, hedef sayfa sağdan açılır --- */
+  .shell {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 0fr;
+    transition: grid-template-columns .42s cubic-bezier(.32, .72, 0, 1);
+    min-height: 100vh;
+  }
+  .shell.open { grid-template-columns: minmax(0, 42fr) minmax(0, 58fr); }
+  .shell.open .wrap {
+    margin-left: max(20px, 3vw); margin-right: 0; padding-top: 40px;
+    transition: margin .42s cubic-bezier(.32, .72, 0, 1);
+  }
+  .wrap { transition: margin .42s cubic-bezier(.32, .72, 0, 1); }
+
+  .pane {
+    position: sticky; top: 0; height: 100vh; overflow: hidden;
+    border-left: 1px solid var(--rule); background: var(--bg);
+    display: flex; flex-direction: column;
+    opacity: 0; transform: translateX(28px);
+    transition: opacity .3s ease .08s, transform .42s cubic-bezier(.32, .72, 0, 1);
+  }
+  .shell.open .pane { opacity: 1; transform: none; }
+  .pane[hidden] { display: none; }
+
+  .pane-bar {
+    display: flex; align-items: center; gap: 8px; padding: 12px 14px;
+    border-bottom: 1px solid var(--rule); flex: none; min-height: 54px;
+  }
+  .pane-bar .who { flex: 1; min-width: 0; }
+  .pane-bar .who b { display: block; font-size: 13.5px; font-weight: 600;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .pane-bar .who span { font-size: 11.5px; color: var(--faint); }
+  .pane-bar button, .pane-bar a.btn {
+    font: inherit; font-size: 13px; line-height: 1; cursor: pointer; text-decoration: none;
+    background: transparent; border: 1px solid var(--rule-strong); color: var(--muted);
+    border-radius: 8px; padding: 7px 10px; transition: all .13s ease; flex: none;
+  }
+  .pane-bar button:hover, .pane-bar a.btn:hover { color: var(--accent); border-color: var(--accent); }
+  .pane-bar button:disabled { opacity: .35; cursor: default; }
+  .pane-bar .marks button { border-color: transparent; }
+
+  .pane-body { flex: 1; position: relative; overflow: auto; background: var(--bg); }
+  .pane-body iframe { width: 100%; height: 100%; border: 0; display: block; background: #fff; }
+
+  .preview { max-width: 620px; margin: 0 auto; padding: 48px 28px 64px; }
+  .preview h2 { font-size: 24px; line-height: 1.3; letter-spacing: -.02em; margin: 0 0 12px; }
+  .preview .pmeta { color: var(--faint); font-size: 13px; margin-bottom: 22px; }
+  .preview p { font-size: 15.5px; line-height: 1.7; color: var(--muted); margin: 0 0 16px; }
+  .preview .note {
+    font-size: 12.5px; color: var(--faint); background: var(--chip-bg);
+    border-radius: 9px; padding: 11px 13px; margin-top: 26px; line-height: 1.55;
+  }
+  .preview .go {
+    display: inline-flex; align-items: center; gap: 7px; margin-top: 22px;
+    background: var(--accent); color: #fff; text-decoration: none; font-size: 14.5px;
+    font-weight: 560; border-radius: 10px; padding: 11px 17px;
+  }
+  .preview .go:hover { filter: brightness(1.08); }
+
+  article.active { position: relative; }
+  article.active::before {
+    content: ""; position: absolute; left: -14px; top: 18px; bottom: 18px;
+    width: 2px; border-radius: 2px; background: var(--accent);
+  }
+
+  /* Dar ekranda bölme yerine tam ekran katman. */
+  @media (max-width: 900px) {
+    .shell, .shell.open { grid-template-columns: minmax(0, 1fr); }
+    .shell.open .wrap { margin: 0 auto; }
+    .pane {
+      position: fixed; inset: 0; height: 100dvh; z-index: 50; border-left: 0;
+      transform: translateY(100%); opacity: 1;
+      transition: transform .38s cubic-bezier(.32, .72, 0, 1);
+    }
+    .shell.open .pane { transform: none; }
+    article.active::before { display: none; }
+  }
+  /* Çok dar ekranda başlığa yer açmak için gezinme oklarını gizle. */
+  @media (max-width: 430px) {
+    #pane-prev, #pane-next { display: none; }
+  }
 </style>
 </head>
 <body>
+<div class="shell" id="shell">
 <div class="wrap">
 
 <header>
@@ -264,6 +347,22 @@ TEMPLATE = """<!DOCTYPE html>
     <a href="#" id="reset">sıfırla</a>
   </div>
 </footer>
+
+</div>
+
+<aside class="pane" id="pane" hidden aria-label="Okuma paneli">
+  <div class="pane-bar">
+    <button id="pane-close" title="Kapat (Esc)" aria-label="Kapat">✕</button>
+    <div class="who"><b id="pane-title"></b><span id="pane-source"></span></div>
+    <div class="marks" id="pane-marks">
+      <button data-mark="yes">✓</button><button data-mark="no">✗</button>
+    </div>
+    <button id="pane-prev" title="Önceki (←)" aria-label="Önceki">‹</button>
+    <button id="pane-next" title="Sonraki (→)" aria-label="Sonraki">›</button>
+    <a class="btn" id="pane-open" href="#" target="_blank" rel="noopener" title="Yeni sekmede aç">↗</a>
+  </div>
+  <div class="pane-body" id="pane-body"></div>
+</aside>
 
 </div>
 
@@ -377,6 +476,116 @@ document.getElementById("reset").addEventListener("click", e => {
   renderPrecision();
 });
 
+// --- yan panel -------------------------------------------------------------
+const shell = document.getElementById("shell");
+const pane = document.getElementById("pane");
+const paneBody = document.getElementById("pane-body");
+let current = null;
+
+function paneList() {
+  const flat = document.getElementById("flat");
+  const root = flat.hidden ? document.getElementById("content") : flat;
+  return [...root.querySelectorAll("article")].filter(a => !a.classList.contains("hidden"));
+}
+
+function esc(t) {
+  const d = document.createElement("div"); d.textContent = t || ""; return d.innerHTML;
+}
+
+function paneMarkup(card) {
+  const url = card.dataset.url;
+  if (card.dataset.embed === "1") {
+    return '<iframe src="' + esc(url) + '" title="' + esc(card.dataset.title) +
+      '" referrerpolicy="no-referrer" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>';
+  }
+  return '<div class="preview">' +
+    "<h2>" + esc(card.dataset.title) + "</h2>" +
+    '<div class="pmeta">' + esc(card.dataset.source) + "</div>" +
+    (card.dataset.extract ? "<p>" + esc(card.dataset.extract) + "</p>" : "") +
+    '<a class="go" href="' + esc(url) + '" target="_blank" rel="noopener">Sitede aç ↗</a>' +
+    '<div class="note">Bu kaynak, sayfasının başka bir sitede gömülmesine izin vermiyor ' +
+    "(X-Frame-Options), bu yüzden burada tam metin gösterilemiyor.</div></div>";
+}
+
+function syncPaneMarks(key) {
+  const marks = store.read();
+  document.querySelectorAll("#pane-marks button").forEach(b =>
+    b.setAttribute("aria-pressed", String(marks[key] === b.dataset.mark)));
+}
+
+function openPane(card) {
+  current = card;
+  document.querySelectorAll("article.active").forEach(a => a.classList.remove("active"));
+  card.classList.add("active");
+
+  document.getElementById("pane-title").textContent = card.dataset.title;
+  document.getElementById("pane-source").textContent =
+    card.dataset.source + (card.dataset.embed === "1" ? "" : " · önizleme");
+  document.getElementById("pane-open").href = card.dataset.url;
+  paneBody.innerHTML = paneMarkup(card);
+  paneBody.scrollTop = 0;
+  syncPaneMarks(card.dataset.key);
+
+  const list = paneList();
+  const at = list.indexOf(card);
+  document.getElementById("pane-prev").disabled = at <= 0;
+  document.getElementById("pane-next").disabled = at < 0 || at >= list.length - 1;
+
+  pane.hidden = false;
+  requestAnimationFrame(() => shell.classList.add("open"));
+}
+
+function closePane() {
+  shell.classList.remove("open");
+  document.querySelectorAll("article.active").forEach(a => a.classList.remove("active"));
+  current = null;
+  setTimeout(() => {
+    if (!shell.classList.contains("open")) { pane.hidden = true; paneBody.innerHTML = ""; }
+  }, 420);
+}
+
+function step(delta) {
+  if (!current) return;
+  const list = paneList();
+  const next = list[list.indexOf(current) + delta];
+  if (next) { openPane(next); next.scrollIntoView({ block: "nearest", behavior: "smooth" }); }
+}
+
+// Başlık linkleri panelde açılır; cmd/ctrl/shift/orta tık normal davranışında kalır.
+document.addEventListener("click", e => {
+  const link = e.target.closest("article h2 a");
+  if (!link || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+  const card = link.closest("article");
+  if (!card || !card.dataset.url) return;
+  e.preventDefault();
+  openPane(card);
+});
+
+document.getElementById("pane-close").onclick = closePane;
+document.getElementById("pane-prev").onclick = () => step(-1);
+document.getElementById("pane-next").onclick = () => step(1);
+document.querySelectorAll("#pane-marks button").forEach(btn => {
+  btn.onclick = () => {
+    if (!current) return;
+    const key = current.dataset.key;
+    const m = store.read();
+    if (m[key] === btn.dataset.mark) { delete m[key]; } else { m[key] = btn.dataset.mark; }
+    store.write(m);
+    current.classList.toggle("no", m[key] === "no");
+    current.querySelectorAll(".marks button").forEach(b =>
+      b.setAttribute("aria-pressed", String(m[key] === b.dataset.mark)));
+    syncPaneMarks(key);
+    renderPrecision();
+  };
+});
+
+document.addEventListener("keydown", e => {
+  if (!current) return;
+  if (e.key === "Escape") { closePane(); }
+  else if (e.key === "ArrowRight") { e.preventDefault(); step(1); }
+  else if (e.key === "ArrowLeft") { e.preventDefault(); step(-1); }
+});
+
 wireMarks(document);
 renderPrecision();
 </script>
@@ -418,7 +627,10 @@ def _article(item: Item, *, lead: bool = False) -> str:
 
     return (
         f'<article class="{"lead" if lead else ""}" data-key="{item.key}" '
-        f'data-axes="{_esc(",".join(item.axes))}" data-hay="{hay}">'
+        f'data-axes="{_esc(",".join(item.axes))}" data-hay="{hay}" '
+        f'data-url="{_esc(item.url)}" data-title="{_esc(item.title)}" '
+        f'data-source="{_esc(item.source)}" data-embed="{int(item.embeddable)}" '
+        f'data-extract="{_esc(item.summary)}">'
         f'<h2><a href="{_esc(item.url)}" target="_blank" rel="noopener">{_esc(item.title)}</a></h2>'
         f'<div class="meta">{meta}</div>'
         + (f'<p class="sum">{_esc(item.summary)}</p>' if item.summary else "")
