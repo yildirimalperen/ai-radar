@@ -285,7 +285,7 @@
 <div class="empty" id="empty" hidden>Eşleşen madde yok.</div>
 
 <footer>
-  <nav><b>22 Eylül 2026</b> <a href="archive/2026-09-21.html">21 Eylül 2026</a></nav>
+  <nav><b>22 Eylül 2026</b> <a href="2026-09-21.html">21 Eylül 2026</a></nav>
   <div style="margin-top:10px">
     2026-09-22 08:22 UTC · işaretler yalnız bu tarayıcıda saklanır ·
     <a href="#" id="reset">sıfırla</a>
@@ -351,7 +351,7 @@ function wireMarks(root) {
 let archive = null;
 async function loadArchive() {
   if (!archive) {
-    try { archive = await (await fetch("data/index.json")).json(); }
+    try { archive = await (await fetch("../data/index.json")).json(); }
     catch (e) { archive = { items: [] }; }
   }
   return archive;
