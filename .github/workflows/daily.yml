@@ -2,8 +2,12 @@ name: Günlük radar
 
 on:
   schedule:
-    # 03:00 UTC = 06:00 Europe/Istanbul. GitHub cron yalnız UTC kabul eder.
-    - cron: "0 3 * * *"
+    # GitHub cron yalnız UTC kabul eder ve zamanlamayı garanti etmez: tam saat
+    # başı yoğun olduğundan koşular saatlerce gecikebiliyor ya da hiç gelmiyor.
+    # Bu yüzden dakika kaydırıldı ve bir yedek tetikleme eklendi; aynı gün
+    # ikinci koşu sayfayı bozmaz.
+    - cron: "17 2 * * *"    # 05:17 Europe/Istanbul
+    - cron: "47 6 * * *"    # 09:47 Europe/Istanbul, ilk koşu düşerse yedek
   workflow_dispatch:        # elle tetikleme (ilk kurulum ve hata ayıklama için)
 
 permissions:
