@@ -23,6 +23,11 @@ jobs:
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
+        with:
+          # Varsayılan, tetiklenme anındaki commit'tir. Sırada bekleyen koşu
+          # öndekinin push'undan sonra başlarsa eski commit'ten push reddedilir;
+          # dalın o anki ucunu çek.
+          ref: ${{ github.ref_name }}
 
       - uses: actions/setup-python@v5
         with:
