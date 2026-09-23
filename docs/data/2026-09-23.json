@@ -1,0 +1,202 @@
+[
+ {
+  "key": "ebe6c51863f18faf",
+  "title": "Introducing GPT-6 Sol and Luna",
+  "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+  "source": "openai",
+  "axes": [
+   "model"
+  ],
+  "score": 9.23,
+  "date": "2026-09-23"
+ },
+ {
+  "key": "ef3189186c18a603",
+  "title": "Ming-Image-0.1-Design New image model coming",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wnu2sj/mingimage01design_new_image_model_coming/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image",
+   "model"
+  ],
+  "score": 8.15,
+  "date": "2026-09-23"
+ },
+ {
+  "key": "b1a0f7cdf69c273a",
+  "title": "Qwen Image 2.1 Not Bad",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wnr5u8/qwen_image_21_not_bad/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 7.72,
+  "date": "2026-09-23"
+ },
+ {
+  "key": "81692b4aa648dc43",
+  "title": "Claude Opus 5.5",
+  "url": "https://www.anthropic.com/claude-opus-5-5",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 7.55,
+  "date": "2026-09-23"
+ },
+ {
+  "key": "2171f7cb71c582ad",
+  "title": "Pentagon says overreliance on AI contributed to missile strike on Iran school",
+  "url": "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 7.46,
+  "date": "2026-09-23"
+ },
+ {
+  "key": "570174a9d13965ed",
+  "title": "Grounded Action Model: 3D Grounding as a Foundation for Robotics",
+  "url": "https://huggingface.co/papers/2609.23863",
+  "source": "hf-papers",
+  "axes": [
+   "model",
+   "threed",
+   "video"
+  ],
+  "score": 7.34,
+  "date": "2026-09-23"
+ },
+ {
+  "key": "afe337d2cdfcb2f9",
+  "title": "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war",
+  "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
+  "source": "simonwillison",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 7.04,
+  "date": "2026-09-23"
+ },
+ {
+  "key": "1c92351d7a93549e",
+  "title": "GAE: Learning a Geometry-Native Latent Space for 3D-Consistent World Generation",
+  "url": "https://huggingface.co/papers/2609.24981",
+  "source": "hf-papers",
+  "axes": [
+   "model",
+   "threed"
+  ],
+  "score": 7.03,
+  "date": "2026-09-23"
+ },
+ {
+  "key": "6b1ed85c88441ae8",
+  "title": "Better prompt caching for GPT-6",
+  "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+  "source": "openai",
+  "axes": [
+   "infra"
+  ],
+  "score": 5.94,
+  "date": "2026-09-23"
+ },
+ {
+  "key": "3806821060e04faf",
+  "title": "OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005",
+  "url": "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 6.79,
+  "date": "2026-09-23"
+ },
+ {
+  "key": "4a57d32c4e31f2ad",
+  "title": "Anthropic launches Claude Opus 5.5 with stricter safeguards for cybersecurity",
+  "url": "https://www.theverge.com/ai-artificial-intelligence/998868/anthropic-claude-opus-5-5-cybersecurity",
+  "source": "verge-ai",
+  "axes": [
+   "model"
+  ],
+  "score": 6.25,
+  "date": "2026-09-23"
+ },
+ {
+  "key": "b2e6ac8799c09d2b",
+  "title": "OpenAI launches GPT-6 Sol and Luna, boasting lower cost and fewer mistakes",
+  "url": "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/",
+  "source": "techcrunch-ai",
+  "axes": [
+   "model"
+  ],
+  "score": 6.18,
+  "date": "2026-09-23"
+ },
+ {
+  "key": "54eaace628c994ee",
+  "title": "llm-typesafe 0.1a0",
+  "url": "https://simonwillison.net/2026/Sep/22/llm-typesafe/",
+  "source": "simonwillison",
+  "axes": [
+   "model"
+  ],
+  "score": 6.17,
+  "date": "2026-09-23"
+ },
+ {
+  "key": "2ba54115ad6aef1a",
+  "title": "Any uncensored prompt enhancer for Qwen Image 2.1?",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wnx29s/any_uncensored_prompt_enhancer_for_qwen_image_21/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.1,
+  "date": "2026-09-23"
+ },
+ {
+  "key": "db2fadddce344a38",
+  "title": "Document Retrieval-Aware Chunking (D-RAC): Universal Retrieval-Aware Ingestion of Enterprise Documents via PDF Normalization and Multimodal Markdown Conversion",
+  "url": "https://huggingface.co/papers/2609.24220",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 6.1,
+  "date": "2026-09-23"
+ },
+ {
+  "key": "74960a5a891b5770",
+  "title": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
+  "url": "https://huggingface.co/blog/evaleval-aisi",
+  "source": "huggingface-blog",
+  "axes": [
+   "model"
+  ],
+  "score": 5.83,
+  "date": "2026-09-23"
+ },
+ {
+  "key": "b33c31310bd91e63",
+  "title": "AI Has No Wisdom and Neither Will You",
+  "url": "https://alexn.org/blog/2026/09/22/ai-has-no-wisdom-and-neither-will-you/",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 5.73,
+  "date": "2026-09-23"
+ }
+]
