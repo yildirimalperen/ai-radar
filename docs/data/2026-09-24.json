@@ -1,0 +1,196 @@
+[
+ {
+  "key": "ebe6c51863f18faf",
+  "title": "Introducing GPT-6 Sol and Luna",
+  "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+  "source": "openai",
+  "axes": [
+   "model"
+  ],
+  "score": 8.32,
+  "date": "2026-09-24"
+ },
+ {
+  "key": "ebee5335af4c6c92",
+  "title": "Qwen Image 2.1 is an EDITING Beast",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wokni7/qwen_image_21_is_an_editing_beast/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "model"
+  ],
+  "score": 7.9,
+  "date": "2026-09-24"
+ },
+ {
+  "key": "58baccefbbe114a6",
+  "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+  "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 7.46,
+  "date": "2026-09-24"
+ },
+ {
+  "key": "3b437f186220629c",
+  "title": "Adobe Completes Acquisition of AI Image & Video Upscaling Company Topaz Labs",
+  "url": "https://80.lv/articles/adobe-completes-acquisition-of-ai-image-video-upscaling-company-topaz-labs/",
+  "source": "80lv",
+  "axes": [
+   "people",
+   "video"
+  ],
+  "score": 7.13,
+  "date": "2026-09-24"
+ },
+ {
+  "key": "dbda4661dca9a291",
+  "title": "The Past Frames the Future: Memory for Autoregressive Video Generation",
+  "url": "https://huggingface.co/papers/2609.28466",
+  "source": "hf-papers",
+  "axes": [
+   "video"
+  ],
+  "score": 6.72,
+  "date": "2026-09-24"
+ },
+ {
+  "key": "ce66982598d167a1",
+  "title": "The Tasteful Agent: Measuring and Improving Taste in Long-Horizon Tasks",
+  "url": "https://huggingface.co/papers/2609.25804",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 6.7,
+  "date": "2026-09-24"
+ },
+ {
+  "key": "398f85aa56401f51",
+  "title": "Lossless compression for AI models",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wop7p5/lossless_compression_for_ai_models/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.18,
+  "date": "2026-09-24"
+ },
+ {
+  "key": "74c3199dad1e073c",
+  "title": "The EU KIDS Act: What game developers need to know",
+  "url": "https://www.gamesindustry.biz/the-eu-kids-act-what-game-developers-need-to-know",
+  "source": "gamesindustry",
+  "axes": [
+   "game"
+  ],
+  "score": 5.29,
+  "date": "2026-09-24"
+ },
+ {
+  "key": "8922d0c5323d94e7",
+  "title": "Meta is making Muse more powerful and will let you video chat with it, too",
+  "url": "https://www.theverge.com/tech/999454/meta-muse-ai-agent-video-chat-connect-2026",
+  "source": "verge-ai",
+  "axes": [
+   "video"
+  ],
+  "score": 4.86,
+  "date": "2026-09-24"
+ },
+ {
+  "key": "1438e0c55160f39a",
+  "title": "Introducing MentalHealthBench",
+  "url": "https://openai.com/index/introducing-mentalhealthbench",
+  "source": "openai",
+  "axes": [
+   "model"
+  ],
+  "score": 6.54,
+  "date": "2026-09-24"
+ },
+ {
+  "key": "afe337d2cdfcb2f9",
+  "title": "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war",
+  "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
+  "source": "simonwillison",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 6.53,
+  "date": "2026-09-24"
+ },
+ {
+  "key": "cbdb48a48cb8bc2d",
+  "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
+  "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 6.42,
+  "date": "2026-09-24"
+ },
+ {
+  "key": "73e6510c3e2bcdc6",
+  "title": "Circuit Hypernetworks for Quantum-Augmented Diffusion Language Models",
+  "url": "https://huggingface.co/papers/2609.24657",
+  "source": "hf-papers",
+  "axes": [
+   "image"
+  ],
+  "score": 6.3,
+  "date": "2026-09-24"
+ },
+ {
+  "key": "dc69e8608a51cdb4",
+  "title": "Claude Code reads AGENTS.md only when telemetry is on [fixed]",
+  "url": "https://blog.szypowi.cz/p/claude-code-reads-agents.md-only-when-telemetry-is-on/",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 6.11,
+  "date": "2026-09-24"
+ },
+ {
+  "key": "13cae34f756fc48a",
+  "title": "My First Qwen 2.1 Character Loras.",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1worox0/my_first_qwen_21_character_loras/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "threed"
+  ],
+  "score": 6.05,
+  "date": "2026-09-24"
+ },
+ {
+  "key": "0f8fec72ea2cce4d",
+  "title": "HappyWorld-Bench",
+  "url": "https://huggingface.co/papers/2609.24308",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 5.74,
+  "date": "2026-09-24"
+ },
+ {
+  "key": "24e2fcef2f5e6576",
+  "title": "Minimax H3 - Sailor Moon - Mina's New Phrase",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wojghp/minimax_h3_sailor_moon_minas_new_phrase/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 5.09,
+  "date": "2026-09-24"
+ }
+]
