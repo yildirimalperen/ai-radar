@@ -1,5 +1,29 @@
 [
  {
+  "key": "1fd6e7dfca7637a3",
+  "title": "Qwen Image 2.1's editing capabilities are mind-blowing! Generating Character Design Sheets without any LoRAs",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wowztq/qwen_image_21s_editing_capabilities_are/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image",
+   "model",
+   "threed"
+  ],
+  "score": 10.5,
+  "date": "2026-09-24"
+ },
+ {
+  "key": "fc752b134dea6387",
+  "title": "Sharing my Qwen Image 2.1 workflow for generating character reference sheets",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1woy07n/sharing_my_qwen_image_21_workflow_for_generating/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "threed"
+  ],
+  "score": 9.5,
+  "date": "2026-09-24"
+ },
+ {
   "key": "ebe6c51863f18faf",
   "title": "Introducing GPT-6 Sol and Luna",
   "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
@@ -7,18 +31,7 @@
   "axes": [
    "model"
   ],
-  "score": 8.32,
-  "date": "2026-09-24"
- },
- {
-  "key": "ebee5335af4c6c92",
-  "title": "Qwen Image 2.1 is an EDITING Beast",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wokni7/qwen_image_21_is_an_editing_beast/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "model"
-  ],
-  "score": 7.9,
+  "score": 8.27,
   "date": "2026-09-24"
  },
  {
@@ -31,7 +44,19 @@
    "model",
    "people"
   ],
-  "score": 7.46,
+  "score": 7.35,
+  "date": "2026-09-24"
+ },
+ {
+  "key": "2b1586a089b94ef3",
+  "title": "StableVQ: Practical Guidelines for Stable Vector-Quantized Tokenizer Training",
+  "url": "https://huggingface.co/papers/2609.26774",
+  "source": "hf-papers",
+  "axes": [
+   "image",
+   "model"
+  ],
+  "score": 7.14,
   "date": "2026-09-24"
  },
  {
@@ -43,18 +68,7 @@
    "people",
    "video"
   ],
-  "score": 7.13,
-  "date": "2026-09-24"
- },
- {
-  "key": "dbda4661dca9a291",
-  "title": "The Past Frames the Future: Memory for Autoregressive Video Generation",
-  "url": "https://huggingface.co/papers/2609.28466",
-  "source": "hf-papers",
-  "axes": [
-   "video"
-  ],
-  "score": 6.72,
+  "score": 6.93,
   "date": "2026-09-24"
  },
  {
@@ -65,51 +79,7 @@
   "axes": [
    "model"
   ],
-  "score": 6.7,
-  "date": "2026-09-24"
- },
- {
-  "key": "398f85aa56401f51",
-  "title": "Lossless compression for AI models",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wop7p5/lossless_compression_for_ai_models/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image"
-  ],
-  "score": 6.18,
-  "date": "2026-09-24"
- },
- {
-  "key": "74c3199dad1e073c",
-  "title": "The EU KIDS Act: What game developers need to know",
-  "url": "https://www.gamesindustry.biz/the-eu-kids-act-what-game-developers-need-to-know",
-  "source": "gamesindustry",
-  "axes": [
-   "game"
-  ],
-  "score": 5.29,
-  "date": "2026-09-24"
- },
- {
-  "key": "8922d0c5323d94e7",
-  "title": "Meta is making Muse more powerful and will let you video chat with it, too",
-  "url": "https://www.theverge.com/tech/999454/meta-muse-ai-agent-video-chat-connect-2026",
-  "source": "verge-ai",
-  "axes": [
-   "video"
-  ],
-  "score": 4.86,
-  "date": "2026-09-24"
- },
- {
-  "key": "1438e0c55160f39a",
-  "title": "Introducing MentalHealthBench",
-  "url": "https://openai.com/index/introducing-mentalhealthbench",
-  "source": "openai",
-  "axes": [
-   "model"
-  ],
-  "score": 6.54,
+  "score": 6.63,
   "date": "2026-09-24"
  },
  {
@@ -121,7 +91,51 @@
    "infra",
    "model"
   ],
-  "score": 6.53,
+  "score": 6.47,
+  "date": "2026-09-24"
+ },
+ {
+  "key": "74c3199dad1e073c",
+  "title": "The EU KIDS Act: What game developers need to know",
+  "url": "https://www.gamesindustry.biz/the-eu-kids-act-what-game-developers-need-to-know",
+  "source": "gamesindustry",
+  "axes": [
+   "game"
+  ],
+  "score": 5.18,
+  "date": "2026-09-24"
+ },
+ {
+  "key": "b1e348308ee69800",
+  "title": "Qwen Image 2.1 unnecessarily saves images with alpha channels, inflating file size by 15-20%",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1woud0l/qwen_image_21_unnecessarily_saves_images_with/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 7.8,
+  "date": "2026-09-24"
+ },
+ {
+  "key": "dbda4661dca9a291",
+  "title": "The Past Frames the Future: Memory for Autoregressive Video Generation",
+  "url": "https://huggingface.co/papers/2609.28466",
+  "source": "hf-papers",
+  "axes": [
+   "video"
+  ],
+  "score": 6.65,
+  "date": "2026-09-24"
+ },
+ {
+  "key": "1438e0c55160f39a",
+  "title": "Introducing MentalHealthBench",
+  "url": "https://openai.com/index/introducing-mentalhealthbench",
+  "source": "openai",
+  "axes": [
+   "model"
+  ],
+  "score": 6.44,
   "date": "2026-09-24"
  },
  {
@@ -133,18 +147,18 @@
    "model",
    "people"
   ],
-  "score": 6.42,
+  "score": 6.32,
   "date": "2026-09-24"
  },
  {
-  "key": "73e6510c3e2bcdc6",
-  "title": "Circuit Hypernetworks for Quantum-Augmented Diffusion Language Models",
-  "url": "https://huggingface.co/papers/2609.24657",
-  "source": "hf-papers",
+  "key": "f135260b05bdfe63",
+  "title": "Prompt Composer, now with RefMod and Lora Support.",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wotubr/prompt_composer_now_with_refmod_and_lora_support/",
+  "source": "reddit-stablediffusion",
   "axes": [
    "image"
   ],
-  "score": 6.3,
+  "score": 6.17,
   "date": "2026-09-24"
  },
  {
@@ -157,18 +171,20 @@
    "model",
    "people"
   ],
-  "score": 6.11,
+  "score": 6.08,
   "date": "2026-09-24"
  },
  {
-  "key": "13cae34f756fc48a",
-  "title": "My First Qwen 2.1 Character Loras.",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1worox0/my_first_qwen_21_character_loras/",
-  "source": "reddit-stablediffusion",
+  "key": "7c1d00666bb8c8db",
+  "title": "Gemini 3.8 text-to-speech",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/",
+  "source": "hackernews",
   "axes": [
-   "threed"
+   "infra",
+   "model",
+   "people"
   ],
-  "score": 6.05,
+  "score": 5.75,
   "date": "2026-09-24"
  },
  {
@@ -180,17 +196,6 @@
    "model"
   ],
   "score": 5.74,
-  "date": "2026-09-24"
- },
- {
-  "key": "24e2fcef2f5e6576",
-  "title": "Minimax H3 - Sailor Moon - Mina's New Phrase",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wojghp/minimax_h3_sailor_moon_minas_new_phrase/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image"
-  ],
-  "score": 5.09,
   "date": "2026-09-24"
  }
 ]
