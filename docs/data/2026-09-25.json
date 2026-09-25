@@ -7,7 +7,18 @@
   "axes": [
    "video"
   ],
-  "score": 9.95,
+  "score": 9.87,
+  "date": "2026-09-25"
+ },
+ {
+  "key": "1bae856f0f596867",
+  "title": "Qwen Image 2.1 + new BSF lora head swap test results.",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wpt3lp/qwen_image_21_new_bsf_lora_head_swap_test_results/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 9.73,
   "date": "2026-09-25"
  },
  {
@@ -18,19 +29,7 @@
   "axes": [
    "model"
   ],
-  "score": 8.1,
-  "date": "2026-09-25"
- },
- {
-  "key": "f6fce89e1a27aee2",
-  "title": "Introducing Gemini 3.8 Live with Live Avatar",
-  "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
-  "source": "deepmind",
-  "axes": [
-   "model",
-   "threed"
-  ],
-  "score": 7.85,
+  "score": 8.08,
   "date": "2026-09-25"
  },
  {
@@ -42,19 +41,19 @@
    "model",
    "video"
   ],
-  "score": 7.32,
+  "score": 7.82,
   "date": "2026-09-25"
  },
  {
-  "key": "4e170ed50fa196ee",
-  "title": "Check Out This Fascinating 3D Model That Looks Like an Oil Painting",
-  "url": "https://80.lv/articles/check-out-this-fascinating-3d-model-that-looks-like-an-oil-painting/",
-  "source": "80lv",
+  "key": "f6fce89e1a27aee2",
+  "title": "Introducing Gemini 3.8 Live with Live Avatar",
+  "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+  "source": "deepmind",
   "axes": [
    "model",
    "threed"
   ],
-  "score": 6.96,
+  "score": 7.74,
   "date": "2026-09-25"
  },
  {
@@ -66,7 +65,7 @@
    "infra",
    "model"
   ],
-  "score": 6.26,
+  "score": 6.24,
   "date": "2026-09-25"
  },
  {
@@ -78,7 +77,7 @@
    "model",
    "people"
   ],
-  "score": 5.92,
+  "score": 5.89,
   "date": "2026-09-25"
  },
  {
@@ -89,7 +88,19 @@
   "axes": [
    "model"
   ],
-  "score": 5.92,
+  "score": 5.87,
+  "date": "2026-09-25"
+ },
+ {
+  "key": "e1191f45c6979aa0",
+  "title": "Former Intel CEO: \"HBM is lousy\". High Bandwidth Flash Is Coming",
+  "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wpprlr/former_intel_ceo_hbm_is_lousy_high_bandwidth/",
+  "source": "reddit-localllama",
+  "axes": [
+   "infra",
+   "people"
+  ],
+  "score": 5.11,
   "date": "2026-09-25"
  },
  {
@@ -100,7 +111,31 @@
   "axes": [
    "game"
   ],
-  "score": 4.9,
+  "score": 4.78,
+  "date": "2026-09-25"
+ },
+ {
+  "key": "4e170ed50fa196ee",
+  "title": "Check Out This Fascinating 3D Model That Looks Like an Oil Painting",
+  "url": "https://80.lv/articles/check-out-this-fascinating-3d-model-that-looks-like-an-oil-painting/",
+  "source": "80lv",
+  "axes": [
+   "model",
+   "threed"
+  ],
+  "score": 6.83,
+  "date": "2026-09-25"
+ },
+ {
+  "key": "e3197a9138a0380c",
+  "title": "Agent-Editing World Model: Rethinking World Modeling for LLM Agents",
+  "url": "https://huggingface.co/papers/2609.28416",
+  "source": "hf-papers",
+  "axes": [
+   "model",
+   "video"
+  ],
+  "score": 6.73,
   "date": "2026-09-25"
  },
  {
@@ -111,7 +146,19 @@
   "axes": [
    "threed"
   ],
-  "score": 6.75,
+  "score": 6.6,
+  "date": "2026-09-25"
+ },
+ {
+  "key": "7d57a9ea73753028",
+  "title": "OmniFabric: Coherent UV Space Texture Synthesis for 3D Garment Reconstruction",
+  "url": "https://arxiv.org/abs/2609.30234v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "image",
+   "threed"
+  ],
+  "score": 6.11,
   "date": "2026-09-25"
  },
  {
@@ -135,65 +182,29 @@
    "model",
    "people"
   ],
-  "score": 5.77,
+  "score": 5.62,
   "date": "2026-09-25"
  },
  {
-  "key": "99fd0faf302edaaf",
-  "title": "OmniEcho: Spatial Audio Understanding for Embodied Agents",
-  "url": "https://huggingface.co/papers/2609.23407",
-  "source": "hf-papers",
+  "key": "525017c747a1073e",
+  "title": "Gemma 4 Developer Agent Competition",
+  "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wpqyaz/gemma_4_developer_agent_competition/",
+  "source": "reddit-localllama",
   "axes": [
    "model"
   ],
-  "score": 5.47,
+  "score": 5.6,
   "date": "2026-09-25"
  },
  {
-  "key": "10de08f99c0b1fd4",
-  "title": "Introducing Lev",
-  "url": "https://yogthos.net/posts/2026-09-24-introducing-lev.html",
-  "source": "lobsters",
+  "key": "51583783c1f899b1",
+  "title": "Towards Practical Compression of 3D Gaussian Splatting",
+  "url": "https://arxiv.org/abs/2609.30245v1",
+  "source": "arxiv-cv",
   "axes": [
-   "model"
+   "threed"
   ],
-  "score": 4.91,
-  "date": "2026-09-25"
- },
- {
-  "key": "ef01aa56b3a5e223",
-  "title": "datasette 1.0a41",
-  "url": "https://simonwillison.net/2026/Sep/24/datasette/",
-  "source": "simonwillison",
-  "axes": [
-   "infra",
-   "model"
-  ],
-  "score": 4.85,
-  "date": "2026-09-25"
- },
- {
-  "key": "4c566462e3165967",
-  "title": "Two years of OpenAI Academy",
-  "url": "https://openai.com/index/two-years-of-openai-academy",
-  "source": "openai",
-  "axes": [
-   "model",
-   "people"
-  ],
-  "score": 4.8,
-  "date": "2026-09-25"
- },
- {
-  "key": "dec85cd629708b44",
-  "title": "Advancing Private AI Compute with secure, server-side memory",
-  "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
-  "source": "deepmind",
-  "axes": [
-   "model",
-   "people"
-  ],
-  "score": 4.8,
+  "score": 5.06,
   "date": "2026-09-25"
  }
 ]
