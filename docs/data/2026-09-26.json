@@ -1,16 +1,5 @@
 [
  {
-  "key": "296ab482f61fb4f5",
-  "title": "Qwen Image 2.1 + Turbo Lora - A curious case (settings)",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wqdazi/qwen_image_21_turbo_lora_a_curious_case_settings/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image"
-  ],
-  "score": 9.34,
-  "date": "2026-09-26"
- },
- {
   "key": "cb984d9c58d917fa",
   "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
   "url": "https://swarmtraces.org/",
@@ -20,7 +9,31 @@
    "model",
    "people"
   ],
-  "score": 7.49,
+  "score": 7.4,
+  "date": "2026-09-26"
+ },
+ {
+  "key": "5dbc98bdc1435748",
+  "title": "Added Character LoRA — Image Only (Krea2)",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wqg116/added_character_lora_image_only_krea2/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image",
+   "threed"
+  ],
+  "score": 6.91,
+  "date": "2026-09-26"
+ },
+ {
+  "key": "5e88d293a70f9dda",
+  "title": "New uncensored image model! Nanosaur 2 full release!",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wqh0ti/new_uncensored_image_model_nanosaur_2_full_release/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image",
+   "model"
+  ],
+  "score": 6.83,
   "date": "2026-09-26"
  },
  {
@@ -33,19 +46,7 @@
    "model",
    "people"
   ],
-  "score": 7.02,
-  "date": "2026-09-26"
- },
- {
-  "key": "5e88d293a70f9dda",
-  "title": "New uncensored image model! Nanosaur 2 full release!",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wqh0ti/new_uncensored_image_model_nanosaur_2_full_release/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image",
-   "model"
-  ],
-  "score": 6.98,
+  "score": 6.77,
   "date": "2026-09-26"
  },
  {
@@ -56,18 +57,7 @@
   "axes": [
    "video"
   ],
-  "score": 6.31,
-  "date": "2026-09-26"
- },
- {
-  "key": "880f61b5cca0f25e",
-  "title": "PSA for devs getting cold-pitched by Switch publishers: our experience with RedDeer.Games, and a free way to check whether your build was ever actually reviewed.",
-  "url": "https://www.reddit.com/r/gamedev/comments/1wqiboq/psa_for_devs_getting_coldpitched_by_switch/",
-  "source": "reddit-gamedev",
-  "axes": [
-   "game"
-  ],
-  "score": 5.82,
+  "score": 6.28,
   "date": "2026-09-26"
  },
  {
@@ -79,18 +69,18 @@
    "game",
    "people"
   ],
-  "score": 5.71,
+  "score": 5.62,
   "date": "2026-09-26"
  },
  {
-  "key": "4b7b53fb314a72b9",
-  "title": "Trailer quality on steam dropping",
-  "url": "https://www.reddit.com/r/gamedev/comments/1wqf3eo/trailer_quality_on_steam_dropping/",
-  "source": "reddit-gamedev",
+  "key": "481da5622ff294d2",
+  "title": "Blog En la Guerra - Seedance 2",
+  "url": "https://www.reddit.com/r/aivideo/comments/1wqbbd0/blog_en_la_guerra_seedance_2/",
+  "source": "reddit-aivideo",
   "axes": [
-   "game"
+   "video"
   ],
-  "score": 5.7,
+  "score": 5.23,
   "date": "2026-09-26"
  },
  {
@@ -102,7 +92,41 @@
    "model",
    "people"
   ],
-  "score": 5.34,
+  "score": 5.23,
+  "date": "2026-09-26"
+ },
+ {
+  "key": "5fc27252254d9dc9",
+  "title": "OpenAI extends cyber access to Ukraine for civilian defense",
+  "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 4.56,
+  "date": "2026-09-26"
+ },
+ {
+  "key": "d663aff329e953c1",
+  "title": "I trained a Krea 2 LoRA on 356 real portraits with a multi-parameter face vocabulary - you can prompt face features directly",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wqmsmn/i_trained_a_krea_2_lora_on_356_real_portraits/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.34,
+  "date": "2026-09-26"
+ },
+ {
+  "key": "6d4cd773725cb969",
+  "title": "Add Micro Details – Concept (MiniMax-H3 v1) Releasing soon",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wqmjc9/add_micro_details_concept_minimaxh3_v1_releasing/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 5.39,
   "date": "2026-09-26"
  },
  {
@@ -116,53 +140,7 @@
    "threed",
    "video"
   ],
-  "score": 5.08,
-  "date": "2026-09-26"
- },
- {
-  "key": "020ee0849d44b151",
-  "title": "End-to-End Multimodal Data Augmentation and Adversarial Robustness Benchmark with AugLy for Images, Text, Audio, and PyTorch",
-  "url": "https://www.marktechpost.com/2026/09/26/end-to-end-multimodal-data-augmentation-and-adversarial-robustness-benchmark-with-augly-for-images-text-audio-and-pytorch/",
-  "source": "marktechpost",
-  "axes": [
-   "model"
-  ],
-  "score": 4.74,
-  "date": "2026-09-26"
- },
- {
-  "key": "f2efdde243490898",
-  "title": "A new Stills mode for MiniMax with a new Latent & VAE Decode node.",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wq9dnt/a_new_stills_mode_for_minimax_with_a_new_latent/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image",
-   "model"
-  ],
-  "score": 6.75,
-  "date": "2026-09-26"
- },
- {
-  "key": "71bdca22778657f7",
-  "title": "Character Design Sheet V2.0 Update: A Practical Approach to Character Sheet Generation.",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wq9jyt/character_design_sheet_v20_update_a_practical/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "threed",
-   "video"
-  ],
-  "score": 6.64,
-  "date": "2026-09-26"
- },
- {
-  "key": "92c5ff6f770464e2",
-  "title": "Aikido Security Releases Altar-1: An Open-Weight Security Model Pruned From GLM-5.3 to 328 GB",
-  "url": "https://www.marktechpost.com/2026/09/25/aikido-security-releases-altar-1-an-open-weight-security-model-pruned-from-glm-5-3-to-328-gb/",
-  "source": "marktechpost",
-  "axes": [
-   "model"
-  ],
-  "score": 4.73,
+  "score": 5.04,
   "date": "2026-09-26"
  },
  {
@@ -176,31 +154,7 @@
    "threed",
    "video"
   ],
-  "score": 4.6,
-  "date": "2026-09-26"
- },
- {
-  "key": "1d1efaa98bfc4423",
-  "title": "Gemini 3.8 text-to-speech says hello",
-  "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
-  "source": "deepmind",
-  "axes": [
-   "model",
-   "people"
-  ],
-  "score": 4.59,
-  "date": "2026-09-26"
- },
- {
-  "key": "5fc27252254d9dc9",
-  "title": "OpenAI extends cyber access to Ukraine for civilian defense",
-  "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
-  "source": "openai",
-  "axes": [
-   "model",
-   "people"
-  ],
-  "score": 4.58,
+  "score": 4.61,
   "date": "2026-09-26"
  },
  {
@@ -212,7 +166,19 @@
    "model",
    "people"
   ],
-  "score": 4.58,
+  "score": 4.56,
+  "date": "2026-09-26"
+ },
+ {
+  "key": "2ecc4c80f8ecb2c5",
+  "title": "How invideo improves color grading 3x with GPT‑6 Astra",
+  "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 4.56,
   "date": "2026-09-26"
  },
  {
@@ -224,7 +190,19 @@
    "infra",
    "model"
   ],
-  "score": 4.45,
+  "score": 4.39,
+  "date": "2026-09-26"
+ },
+ {
+  "key": "fd14d465c83d5158",
+  "title": "Note on 24th September 2026",
+  "url": "https://simonwillison.net/2026/Sep/24/harder/",
+  "source": "simonwillison",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 4.35,
   "date": "2026-09-26"
  }
 ]
