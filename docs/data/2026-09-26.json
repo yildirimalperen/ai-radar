@@ -1,0 +1,230 @@
+[
+ {
+  "key": "296ab482f61fb4f5",
+  "title": "Qwen Image 2.1 + Turbo Lora - A curious case (settings)",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wqdazi/qwen_image_21_turbo_lora_a_curious_case_settings/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 9.34,
+  "date": "2026-09-26"
+ },
+ {
+  "key": "cb984d9c58d917fa",
+  "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
+  "url": "https://swarmtraces.org/",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 7.49,
+  "date": "2026-09-26"
+ },
+ {
+  "key": "b24f2fe3448fe642",
+  "title": "U.S. appeals court upholds designation of Anthropic as supply chain risk",
+  "url": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 7.02,
+  "date": "2026-09-26"
+ },
+ {
+  "key": "5e88d293a70f9dda",
+  "title": "New uncensored image model! Nanosaur 2 full release!",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wqh0ti/new_uncensored_image_model_nanosaur_2_full_release/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image",
+   "model"
+  ],
+  "score": 6.98,
+  "date": "2026-09-26"
+ },
+ {
+  "key": "c7f0f93c15bf268b",
+  "title": "WanPE: Towards Cinematic Prompt Enhancement for Modern Text-to-Video Generation",
+  "url": "https://huggingface.co/papers/2609.30221",
+  "source": "hf-papers",
+  "axes": [
+   "video"
+  ],
+  "score": 6.31,
+  "date": "2026-09-26"
+ },
+ {
+  "key": "880f61b5cca0f25e",
+  "title": "PSA for devs getting cold-pitched by Switch publishers: our experience with RedDeer.Games, and a free way to check whether your build was ever actually reviewed.",
+  "url": "https://www.reddit.com/r/gamedev/comments/1wqiboq/psa_for_devs_getting_coldpitched_by_switch/",
+  "source": "reddit-gamedev",
+  "axes": [
+   "game"
+  ],
+  "score": 5.82,
+  "date": "2026-09-26"
+ },
+ {
+  "key": "4649069cb0dac091",
+  "title": "Meta unveils AI-powered game tools for mobile devices and browsers; announces VR Glasses with day-one Unity support",
+  "url": "https://www.gamesindustry.biz/meta-unveils-ai-powered-game-tools-for-mobile-devices-and-browsers-announces-vr-glasses-with-day-one-unity-support",
+  "source": "gamesindustry",
+  "axes": [
+   "game",
+   "people"
+  ],
+  "score": 5.71,
+  "date": "2026-09-26"
+ },
+ {
+  "key": "4b7b53fb314a72b9",
+  "title": "Trailer quality on steam dropping",
+  "url": "https://www.reddit.com/r/gamedev/comments/1wqf3eo/trailer_quality_on_steam_dropping/",
+  "source": "reddit-gamedev",
+  "axes": [
+   "game"
+  ],
+  "score": 5.7,
+  "date": "2026-09-26"
+ },
+ {
+  "key": "5a8c9eef3f0531b8",
+  "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+  "url": "https://openai.com/index/proaction",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 5.34,
+  "date": "2026-09-26"
+ },
+ {
+  "key": "36354a373380acde",
+  "title": "Your Transformer Can Hold Two Thoughts at Once: Evidence of Linear Superposition in LLMs",
+  "url": "https://huggingface.co/papers/2609.29845",
+  "source": "hf-papers",
+  "axes": [
+   "image",
+   "model",
+   "threed",
+   "video"
+  ],
+  "score": 5.08,
+  "date": "2026-09-26"
+ },
+ {
+  "key": "020ee0849d44b151",
+  "title": "End-to-End Multimodal Data Augmentation and Adversarial Robustness Benchmark with AugLy for Images, Text, Audio, and PyTorch",
+  "url": "https://www.marktechpost.com/2026/09/26/end-to-end-multimodal-data-augmentation-and-adversarial-robustness-benchmark-with-augly-for-images-text-audio-and-pytorch/",
+  "source": "marktechpost",
+  "axes": [
+   "model"
+  ],
+  "score": 4.74,
+  "date": "2026-09-26"
+ },
+ {
+  "key": "f2efdde243490898",
+  "title": "A new Stills mode for MiniMax with a new Latent & VAE Decode node.",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wq9dnt/a_new_stills_mode_for_minimax_with_a_new_latent/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image",
+   "model"
+  ],
+  "score": 6.75,
+  "date": "2026-09-26"
+ },
+ {
+  "key": "71bdca22778657f7",
+  "title": "Character Design Sheet V2.0 Update: A Practical Approach to Character Sheet Generation.",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wq9jyt/character_design_sheet_v20_update_a_practical/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "threed",
+   "video"
+  ],
+  "score": 6.64,
+  "date": "2026-09-26"
+ },
+ {
+  "key": "92c5ff6f770464e2",
+  "title": "Aikido Security Releases Altar-1: An Open-Weight Security Model Pruned From GLM-5.3 to 328 GB",
+  "url": "https://www.marktechpost.com/2026/09/25/aikido-security-releases-altar-1-an-open-weight-security-model-pruned-from-glm-5-3-to-328-gb/",
+  "source": "marktechpost",
+  "axes": [
+   "model"
+  ],
+  "score": 4.73,
+  "date": "2026-09-26"
+ },
+ {
+  "key": "c9e725d01f50f81e",
+  "title": "Spatial-Interactor: Learning Spatial Reasoning through Interaction with the Observable Physical World",
+  "url": "https://huggingface.co/papers/2609.23038",
+  "source": "hf-papers",
+  "axes": [
+   "image",
+   "model",
+   "threed",
+   "video"
+  ],
+  "score": 4.6,
+  "date": "2026-09-26"
+ },
+ {
+  "key": "1d1efaa98bfc4423",
+  "title": "Gemini 3.8 text-to-speech says hello",
+  "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
+  "source": "deepmind",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 4.59,
+  "date": "2026-09-26"
+ },
+ {
+  "key": "5fc27252254d9dc9",
+  "title": "OpenAI extends cyber access to Ukraine for civilian defense",
+  "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 4.58,
+  "date": "2026-09-26"
+ },
+ {
+  "key": "91ef14bc746956a7",
+  "title": "Sam Altman’s remarks at the United Nations Security Council",
+  "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 4.58,
+  "date": "2026-09-26"
+ },
+ {
+  "key": "bd756b5748b703c9",
+  "title": "Northern Gannet, Great Blue Heron, California Brown Pelican",
+  "url": "https://simonwillison.net/2026/Sep/25/sighting-403293902/",
+  "source": "simonwillison",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 4.45,
+  "date": "2026-09-26"
+ }
+]
