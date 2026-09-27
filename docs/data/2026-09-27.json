@@ -1,5 +1,41 @@
 [
  {
+  "key": "71e62da8f89b7c1d",
+  "title": "OpenAI Feared \"Optics\" of what might appear on Hacker News",
+  "url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 7.59,
+  "date": "2026-09-27"
+ },
+ {
+  "key": "9bf2e0a4eca99ce4",
+  "title": "Artist here, Minimax H3 is amazing for creating images for my OCs in ref2v using Fizgig H3 Still custom node.",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wreoey/artist_here_minimax_h3_is_amazing_for_creating/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.97,
+  "date": "2026-09-27"
+ },
+ {
+  "key": "940a41d7fcf687f9",
+  "title": "Speed-up comparisons page updated with new raw baseline video and a new 15-second video comparison",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wrbw4m/speedup_comparisons_page_updated_with_new_raw/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image",
+   "video"
+  ],
+  "score": 6.96,
+  "date": "2026-09-27"
+ },
+ {
   "key": "cb984d9c58d917fa",
   "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
   "url": "https://swarmtraces.org/",
@@ -9,51 +45,7 @@
    "model",
    "people"
   ],
-  "score": 7.03,
-  "date": "2026-09-27"
- },
- {
-  "key": "e7b58a2905061623",
-  "title": "Yet another 1girl realism LoRA for Krea 2 (details in comments)",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wrd580/yet_another_1girl_realism_lora_for_krea_2_details/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image"
-  ],
-  "score": 6.87,
-  "date": "2026-09-27"
- },
- {
-  "key": "7d902a3a03fc4bda",
-  "title": "I LOVE QWEN-2.1!",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wr7086/i_love_qwen21/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image"
-  ],
-  "score": 6.13,
-  "date": "2026-09-27"
- },
- {
-  "key": "d1c143da7bd6c112",
-  "title": "Turn GLM-5.3-Flash into a Jev-like System One model",
-  "url": "https://www.privatemode.ai/blog/system-one-from-glm-flash",
-  "source": "lobsters",
-  "axes": [
-   "model"
-  ],
-  "score": 5.47,
-  "date": "2026-09-27"
- },
- {
-  "key": "ab6be954dd769cc5",
-  "title": "Supersonic Labs Releases Julia 1: A 144.3M-Parameter Open Decision Model That Runs on a CPU",
-  "url": "https://www.marktechpost.com/2026/09/26/supersonic-labs-releases-julia-1-a-144-3m-parameter-open-decision-model-that-runs-on-a-cpu/",
-  "source": "marktechpost",
-  "axes": [
-   "model"
-  ],
-  "score": 5.38,
+  "score": 6.4,
   "date": "2026-09-27"
  },
  {
@@ -65,52 +57,29 @@
    "infra",
    "model"
   ],
-  "score": 4.98,
+  "score": 4.84,
   "date": "2026-09-27"
  },
  {
-  "key": "e92cf834cb6dbeff",
-  "title": "I created an interactive digital avatar of myself — and you can talk to it",
-  "url": "https://techcrunch.com/2026/09/26/i-created-an-interactive-digital-avatar-of-myself-and-you-can-talk-to-it/",
-  "source": "techcrunch-ai",
-  "axes": [
-   "threed"
-  ],
-  "score": 4.56,
-  "date": "2026-09-27"
- },
- {
-  "key": "790eb063fb367379",
-  "title": "For me, Krea 2 is still the best model out there today for generating full HD images",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wr820b/for_me_krea_2_is_still_the_best_model_out_there/",
+  "key": "ef7fd0b763a01941",
+  "title": "Most important tip I've learned so far with MiniMax-H3",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wrdhbr/most_important_tip_ive_learned_so_far_with/",
   "source": "reddit-stablediffusion",
   "axes": [
-   "model"
+   "video"
   ],
-  "score": 6.02,
+  "score": 6.7,
   "date": "2026-09-27"
  },
  {
-  "key": "cbb04689b393482c",
-  "title": "Ming Image is truly great at generating text and deserves more attention.",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wr6a3t/ming_image_is_truly_great_at_generating_text_and/",
+  "key": "e7b58a2905061623",
+  "title": "Yet another 1girl realism LoRA for Krea 2 (details in comments)",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wrd580/yet_another_1girl_realism_lora_for_krea_2_details/",
   "source": "reddit-stablediffusion",
   "axes": [
-   "model"
+   "image"
   ],
-  "score": 5.74,
-  "date": "2026-09-27"
- },
- {
-  "key": "083894e46b0c4be2",
-  "title": "Sarvam AI Releases Saaras V4: A Speech-to-Text Model for All 22 Indian Languages and Global English",
-  "url": "https://www.marktechpost.com/2026/09/26/sarvam-ai-releases-saaras-v4-a-speech-to-text-model-for-all-22-indian-languages-and-global-english/",
-  "source": "marktechpost",
-  "axes": [
-   "infra",
-   "model"
-  ],
-  "score": 4.85,
+  "score": 6.7,
   "date": "2026-09-27"
  },
  {
@@ -122,7 +91,7 @@
    "model",
    "people"
   ],
-  "score": 4.5,
+  "score": 4.49,
   "date": "2026-09-27"
  },
  {
@@ -138,15 +107,14 @@
   "date": "2026-09-27"
  },
  {
-  "key": "492f3d60800ccac1",
-  "title": "Exa Launches Agent Ultra: A Subagent Swarm Deep Research API Built for Exhaustive List Building",
-  "url": "https://www.marktechpost.com/2026/09/26/exa-launches-agent-ultra-a-subagent-swarm-deep-research-api-built-for-exhaustive-list-building/",
-  "source": "marktechpost",
+  "key": "e92cf834cb6dbeff",
+  "title": "I created an interactive digital avatar of myself — and you can talk to it",
+  "url": "https://techcrunch.com/2026/09/26/i-created-an-interactive-digital-avatar-of-myself-and-you-can-talk-to-it/",
+  "source": "techcrunch-ai",
   "axes": [
-   "infra",
-   "model"
+   "threed"
   ],
-  "score": 4.48,
+  "score": 4.46,
   "date": "2026-09-27"
  },
  {
@@ -157,7 +125,7 @@
   "axes": [
    "model"
   ],
-  "score": 4.19,
+  "score": 4.08,
   "date": "2026-09-27"
  },
  {
@@ -169,7 +137,19 @@
    "infra",
    "model"
   ],
-  "score": 4.08,
+  "score": 4.06,
+  "date": "2026-09-27"
+ },
+ {
+  "key": "aeb62e7da78f5869",
+  "title": "Google Beam expands with new regions, partners, and customers",
+  "url": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/",
+  "source": "google-ai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 4.0,
   "date": "2026-09-27"
  }
 ]
