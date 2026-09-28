@@ -1,5 +1,16 @@
 [
  {
+  "key": "6373505ba37eb580",
+  "title": "Qwen-Image 2.1 Inpainting with LanPaint — alpha channel included",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wsd1xa/qwenimage_21_inpainting_with_lanpaint_alpha/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 9.7,
+  "date": "2026-09-28"
+ },
+ {
   "key": "045e54a75c6d8c0e",
   "title": "A LoRA I made: AnyAngle LoRA for Qwen Image 2.1. Style-Aligned Arbitrary Camera Angles",
   "url": "https://www.reddit.com/r/StableDiffusion/comments/1ws7phv/a_lora_i_made_anyangle_lora_for_qwen_image_21/",
@@ -7,18 +18,18 @@
   "axes": [
    "image"
   ],
-  "score": 9.72,
+  "score": 9.49,
   "date": "2026-09-28"
  },
  {
-  "key": "73118f00a112765f",
-  "title": "Krea-2 — Qwen-Image-2.1 study",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1ws6fib/krea2_qwenimage21_study/",
-  "source": "reddit-stablediffusion",
+  "key": "b87fb66b4de7618c",
+  "title": "AI companies in race to demonstrate their model most threatening to humanity",
+  "url": "https://thecivilian.co.nz/2026/09/27/ai-companies-in-fierce-arms-race-to-demonstrate-their-model-is-the-most-existentially-threatening-to-humanity/",
+  "source": "hackernews",
   "axes": [
-   "image"
+   "model"
   ],
-  "score": 7.91,
+  "score": 9.05,
   "date": "2026-09-28"
  },
  {
@@ -31,7 +42,7 @@
    "model",
    "people"
   ],
-  "score": 7.69,
+  "score": 7.56,
   "date": "2026-09-28"
  },
  {
@@ -42,20 +53,7 @@
   "axes": [
    "image"
   ],
-  "score": 6.85,
-  "date": "2026-09-28"
- },
- {
-  "key": "638eeb7654a82d7c",
-  "title": "There are no \"rogue\" AI agents",
-  "url": "https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents",
-  "source": "hackernews",
-  "axes": [
-   "infra",
-   "model",
-   "people"
-  ],
-  "score": 6.77,
+  "score": 6.93,
   "date": "2026-09-28"
  },
  {
@@ -82,9 +80,9 @@
   "date": "2026-09-28"
  },
  {
-  "key": "c69e4fb8665ae5f7",
-  "title": "Rufus-Air: An Open LLM Post-Training Recipe",
-  "url": "https://huggingface.co/papers/2609.29421",
+  "key": "d7070e1c6d8407f4",
+  "title": "InternW0-Δ: A World Action Model Bridging Predictive Dynamics and Actions with 20K+ Hours of Open Data",
+  "url": "https://huggingface.co/papers/2609.31394",
   "source": "hf-papers",
   "axes": [
    "model"
@@ -100,42 +98,29 @@
   "axes": [
    "video"
   ],
-  "score": 4.95,
+  "score": 4.75,
   "date": "2026-09-28"
  },
  {
-  "key": "204d03ff272a334d",
-  "title": "I still can't believe I can generate this all locally (Minimax H3)",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wrzcwy/i_still_cant_believe_i_can_generate_this_all/",
+  "key": "26e5e81518965012",
+  "title": "Layer Extract & Layer Remove Loras For Qwen Image 2.1",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wsctqz/layer_extract_layer_remove_loras_for_qwen_image_21/",
   "source": "reddit-stablediffusion",
   "axes": [
    "image"
   ],
-  "score": 6.74,
+  "score": 7.93,
   "date": "2026-09-28"
  },
  {
-  "key": "71e62da8f89b7c1d",
-  "title": "Unsealed Briefs in Authors’ Case v. Microsoft/OpenAI",
-  "url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/",
-  "source": "hackernews",
-  "axes": [
-   "infra",
-   "model",
-   "people"
-  ],
-  "score": 6.73,
-  "date": "2026-09-28"
- },
- {
-  "key": "1f63630097cc494f",
-  "title": "Two nodes to fix Qwen 2.1 pixel drift during edit operations",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1ws3oy0/two_nodes_to_fix_qwen_21_pixel_drift_during_edit/",
+  "key": "73118f00a112765f",
+  "title": "Krea-2 — Qwen-Image-2.1 study",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1ws6fib/krea2_qwenimage21_study/",
   "source": "reddit-stablediffusion",
   "axes": [
    "image"
   ],
-  "score": 6.19,
+  "score": 7.68,
   "date": "2026-09-28"
  },
  {
@@ -151,51 +136,62 @@
   "date": "2026-09-28"
  },
  {
-  "key": "05f576c02b868eca",
-  "title": "2026 in LLMs (so far)",
-  "url": "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/",
-  "source": "simonwillison",
+  "key": "c69e4fb8665ae5f7",
+  "title": "Rufus-Air: An Open LLM Post-Training Recipe",
+  "url": "https://huggingface.co/papers/2609.29421",
+  "source": "hf-papers",
   "axes": [
-   "infra",
    "model"
   ],
-  "score": 4.97,
+  "score": 5.52,
   "date": "2026-09-28"
  },
  {
-  "key": "26087c940aef208b",
-  "title": "S3 Is the Future, S3 Is the Past",
-  "url": "https://simonwillison.net/2026/Sep/27/hn-49871741/",
-  "source": "simonwillison",
+  "key": "638eeb7654a82d7c",
+  "title": "There are no \"rogue\" AI agents",
+  "url": "https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents",
+  "source": "hackernews",
   "axes": [
    "infra",
-   "model"
+   "model",
+   "people"
   ],
-  "score": 4.95,
+  "score": 5.48,
   "date": "2026-09-28"
  },
  {
-  "key": "c72c5d513a447278",
-  "title": "Grab and OpenAI bring practical AI skills to Southeast Asia",
-  "url": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
-  "source": "openai",
+  "key": "203b8955954ad006",
+  "title": "Viral AI agent Instinct raises $1B Series C at a $10B valuation",
+  "url": "https://techcrunch.com/2026/09/28/viral-ai-agent-instinct-raises-1b-series-c-at-a-10b-valuation/",
+  "source": "techcrunch-ai",
   "axes": [
    "model",
    "people"
   ],
-  "score": 4.49,
+  "score": 5.16,
   "date": "2026-09-28"
  },
  {
-  "key": "79b8f50adf23bb35",
-  "title": "New experts join Google’s AI & Economy team",
-  "url": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/",
-  "source": "google-ai",
+  "key": "6f84183aa12d1915",
+  "title": "Holo4: powering generalist computer-use agents",
+  "url": "https://huggingface.co/blog/Hcompany/holo4",
+  "source": "huggingface-blog",
   "axes": [
-   "model",
-   "people"
+   "infra",
+   "model"
   ],
-  "score": 3.99,
+  "score": 5.12,
+  "date": "2026-09-28"
+ },
+ {
+  "key": "2e5eed887dbe226f",
+  "title": "Microsoft boss Nadella says Xbox has to invent \"sustainable business model\"",
+  "url": "https://www.gamesindustry.biz/microsoft-boss-nadella-says-xbox-has-to-invent-sustainable-business-model",
+  "source": "gamesindustry",
+  "axes": [
+   "model"
+  ],
+  "score": 5.03,
   "date": "2026-09-28"
  }
 ]
