@@ -1,0 +1,201 @@
+[
+ {
+  "key": "045e54a75c6d8c0e",
+  "title": "A LoRA I made: AnyAngle LoRA for Qwen Image 2.1. Style-Aligned Arbitrary Camera Angles",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1ws7phv/a_lora_i_made_anyangle_lora_for_qwen_image_21/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 9.72,
+  "date": "2026-09-28"
+ },
+ {
+  "key": "73118f00a112765f",
+  "title": "Krea-2 — Qwen-Image-2.1 study",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1ws6fib/krea2_qwenimage21_study/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 7.91,
+  "date": "2026-09-28"
+ },
+ {
+  "key": "22c2e569366c7dc8",
+  "title": "Owed a billion dollars in Nvidia stock",
+  "url": "https://colo.to/nvidia-stock-narrative.html",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 7.69,
+  "date": "2026-09-28"
+ },
+ {
+  "key": "f2ce42bcca42cff1",
+  "title": "FuseReg: Regularizing Layer Fusion Mitigates the Reconstruction-Generation Gap in Representation Autoencoders",
+  "url": "https://huggingface.co/papers/2609.31620",
+  "source": "hf-papers",
+  "axes": [
+   "image"
+  ],
+  "score": 6.85,
+  "date": "2026-09-28"
+ },
+ {
+  "key": "638eeb7654a82d7c",
+  "title": "There are no \"rogue\" AI agents",
+  "url": "https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 6.77,
+  "date": "2026-09-28"
+ },
+ {
+  "key": "6b1ed85c88441ae8",
+  "title": "Better prompt caching for GPT-6",
+  "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+  "source": "openai",
+  "axes": [
+   "infra"
+  ],
+  "score": 6.67,
+  "date": "2026-09-28"
+ },
+ {
+  "key": "cbdb48a48cb8bc2d",
+  "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
+  "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 6.11,
+  "date": "2026-09-28"
+ },
+ {
+  "key": "c69e4fb8665ae5f7",
+  "title": "Rufus-Air: An Open LLM Post-Training Recipe",
+  "url": "https://huggingface.co/papers/2609.29421",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 5.52,
+  "date": "2026-09-28"
+ },
+ {
+  "key": "7e06697899be0aea",
+  "title": "Google Research Introduces an AI Video Co-Director: 4 Agentic Frameworks for Coherent, Minutes-Long Video Generation",
+  "url": "https://www.marktechpost.com/2026/09/27/google-research-introduces-an-ai-video-co-director-4-agentic-frameworks-for-coherent-minutes-long-video-generation/",
+  "source": "marktechpost",
+  "axes": [
+   "video"
+  ],
+  "score": 4.95,
+  "date": "2026-09-28"
+ },
+ {
+  "key": "204d03ff272a334d",
+  "title": "I still can't believe I can generate this all locally (Minimax H3)",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wrzcwy/i_still_cant_believe_i_can_generate_this_all/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.74,
+  "date": "2026-09-28"
+ },
+ {
+  "key": "71e62da8f89b7c1d",
+  "title": "Unsealed Briefs in Authors’ Case v. Microsoft/OpenAI",
+  "url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 6.73,
+  "date": "2026-09-28"
+ },
+ {
+  "key": "1f63630097cc494f",
+  "title": "Two nodes to fix Qwen 2.1 pixel drift during edit operations",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1ws3oy0/two_nodes_to_fix_qwen_21_pixel_drift_during_edit/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.19,
+  "date": "2026-09-28"
+ },
+ {
+  "key": "b0321f0ea916068b",
+  "title": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
+  "url": "https://openai.com/index/airbnb-gpt-6-astra",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 6.11,
+  "date": "2026-09-28"
+ },
+ {
+  "key": "05f576c02b868eca",
+  "title": "2026 in LLMs (so far)",
+  "url": "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/",
+  "source": "simonwillison",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 4.97,
+  "date": "2026-09-28"
+ },
+ {
+  "key": "26087c940aef208b",
+  "title": "S3 Is the Future, S3 Is the Past",
+  "url": "https://simonwillison.net/2026/Sep/27/hn-49871741/",
+  "source": "simonwillison",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 4.95,
+  "date": "2026-09-28"
+ },
+ {
+  "key": "c72c5d513a447278",
+  "title": "Grab and OpenAI bring practical AI skills to Southeast Asia",
+  "url": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 4.49,
+  "date": "2026-09-28"
+ },
+ {
+  "key": "79b8f50adf23bb35",
+  "title": "New experts join Google’s AI & Economy team",
+  "url": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/",
+  "source": "google-ai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 3.99,
+  "date": "2026-09-28"
+ }
+]
