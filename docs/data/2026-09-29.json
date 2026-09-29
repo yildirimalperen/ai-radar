@@ -1,16 +1,5 @@
 [
  {
-  "key": "bb4b4472ee7fa26c",
-  "title": "Train Edit Loras for Qwen image 2.1 in Fizgig 6.6.0",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wsxbzi/train_edit_loras_for_qwen_image_21_in_fizgig_660/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image"
-  ],
-  "score": 9.51,
-  "date": "2026-09-29"
- },
- {
   "key": "fc67a4ac0ccb9294",
   "title": "Learning Native Reflection in Unified Models with Interleaved Reinforcement Learning",
   "url": "https://huggingface.co/papers/2609.35767",
@@ -19,19 +8,7 @@
    "image",
    "model"
   ],
-  "score": 8.69,
-  "date": "2026-09-29"
- },
- {
-  "key": "ae2e3b1bffbdb39d",
-  "title": "You do need character swap LoRA for MiniMax H3",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wt2pd3/you_do_need_character_swap_lora_for_minimax_h3/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image",
-   "threed"
-  ],
-  "score": 7.83,
+  "score": 8.7,
   "date": "2026-09-29"
  },
  {
@@ -43,7 +20,19 @@
    "image",
    "model"
   ],
-  "score": 7.56,
+  "score": 7.79,
+  "date": "2026-09-29"
+ },
+ {
+  "key": "ae2e3b1bffbdb39d",
+  "title": "You do need character swap LoRA for MiniMax H3",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wt2pd3/you_do_need_character_swap_lora_for_minimax_h3/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image",
+   "threed"
+  ],
+  "score": 7.64,
   "date": "2026-09-29"
  },
  {
@@ -56,20 +45,19 @@
    "model",
    "people"
   ],
-  "score": 7.43,
+  "score": 7.31,
   "date": "2026-09-29"
  },
  {
-  "key": "22c2e569366c7dc8",
-  "title": "Owed a billion dollars in Nvidia stock",
-  "url": "https://colo.to/nvidia-stock-narrative.html",
-  "source": "hackernews",
+  "key": "f200e88834686caf",
+  "title": "Qwen 2.1: Easy way to create a consistent face character. No lora. Only prompt and reference image.",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wt6gbh/qwen_21_easy_way_to_create_a_consistent_face/",
+  "source": "reddit-stablediffusion",
   "axes": [
-   "infra",
-   "model",
-   "people"
+   "image",
+   "threed"
   ],
-  "score": 7.09,
+  "score": 7.11,
   "date": "2026-09-29"
  },
  {
@@ -80,7 +68,7 @@
   "axes": [
    "model"
   ],
-  "score": 6.75,
+  "score": 6.62,
   "date": "2026-09-29"
  },
  {
@@ -92,7 +80,18 @@
    "model",
    "people"
   ],
-  "score": 6.53,
+  "score": 6.46,
+  "date": "2026-09-29"
+ },
+ {
+  "key": "10f6d8c9b845f6ee",
+  "title": "Claude Sonnet 5.5",
+  "url": "https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/",
+  "source": "simonwillison",
+  "axes": [
+   "model"
+  ],
+  "score": 6.2,
   "date": "2026-09-29"
  },
  {
@@ -107,6 +106,18 @@
   "date": "2026-09-29"
  },
  {
+  "key": "9853f7d010619c45",
+  "title": "Motion transfer demo with my experimental lora and workflow",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wt5bv8/motion_transfer_demo_with_my_experimental_lora/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image",
+   "video"
+  ],
+  "score": 7.07,
+  "date": "2026-09-29"
+ },
+ {
   "key": "ddb17b48d2c97304",
   "title": "WorldPlay2: Extending Real-Time Interactive World Models in Control and Horizon",
   "url": "https://huggingface.co/papers/2609.35560",
@@ -114,7 +125,7 @@
   "axes": [
    "video"
   ],
-  "score": 6.52,
+  "score": 6.43,
   "date": "2026-09-29"
  },
  {
@@ -125,68 +136,31 @@
   "axes": [
    "threed"
   ],
-  "score": 6.36,
+  "score": 6.24,
   "date": "2026-09-29"
  },
  {
-  "key": "10f6d8c9b845f6ee",
-  "title": "Claude Sonnet 5.5",
-  "url": "https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/",
-  "source": "simonwillison",
-  "axes": [
-   "model"
-  ],
-  "score": 6.34,
-  "date": "2026-09-29"
- },
- {
-  "key": "ad93d53f2decfda9",
-  "title": "The problem is not AI code, but not knowing about system architecture or intent",
-  "url": "https://www.ssp.sh/brain/the-problem-is-not-the-ai-code-but-nobody-knows-anything-anymore/",
-  "source": "hackernews",
+  "key": "66bd5903958c2649",
+  "title": "[RELEASE UPDATE] Agate-003-preview / better than SD 1.5 performance at 3x less parameters (<300M param including text encoder & VAE) with only 5000 EUR GPU cost.",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wt8z9j/release_update_agate003preview_better_than_sd_15/",
+  "source": "reddit-stablediffusion",
   "axes": [
    "infra",
-   "model",
-   "people"
-  ],
-  "score": 6.31,
-  "date": "2026-09-29"
- },
- {
-  "key": "c7192a563eab4bcf",
-  "title": "PDMD: Projected Distribution Matching Distillation for Video Diffusion Models",
-  "url": "https://arxiv.org/abs/2609.35768v1",
-  "source": "arxiv-cv",
-  "axes": [
-   "image",
-   "video"
-  ],
-  "score": 6.2,
-  "date": "2026-09-29"
- },
- {
-  "key": "0fc90368cab44ec2",
-  "title": "NVIDIA Unveils an Open Platform for AI Agent Safety",
-  "url": "https://80.lv/articles/nvidia-unveils-an-open-platform-for-ai-agent-safety/",
-  "source": "80lv",
-  "axes": [
    "model"
   ],
-  "score": 6.18,
+  "score": 6.22,
   "date": "2026-09-29"
  },
  {
-  "key": "1e3bdc39d553cdb2",
-  "title": "A.D.A.M.O. (Agent for language-Driven Actions with Multimodal Observations): A Visual-Symbolic Framework for Virtual Humans",
-  "url": "https://arxiv.org/abs/2609.35463v1",
-  "source": "arxiv-gr",
+  "key": "76f69c618a170777",
+  "title": "QwenGyre: An Elastic Reinforcement Learning Framework for Training xLong-Horizon Agents",
+  "url": "https://huggingface.co/papers/2609.33848",
+  "source": "hf-papers",
   "axes": [
-   "image",
    "infra",
-   "model",
-   "video"
+   "model"
   ],
-  "score": 6.14,
+  "score": 6.16,
   "date": "2026-09-29"
  },
  {
@@ -199,6 +173,31 @@
    "people"
   ],
   "score": 6.11,
+  "date": "2026-09-29"
+ },
+ {
+  "key": "c7192a563eab4bcf",
+  "title": "PDMD: Projected Distribution Matching Distillation for Video Diffusion Models",
+  "url": "https://arxiv.org/abs/2609.35768v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "image",
+   "video"
+  ],
+  "score": 6.08,
+  "date": "2026-09-29"
+ },
+ {
+  "key": "ad93d53f2decfda9",
+  "title": "The problem is not AI code, but not knowing about system architecture or intent",
+  "url": "https://www.ssp.sh/brain/the-problem-is-not-the-ai-code-but-nobody-knows-anything-anymore/",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 6.07,
   "date": "2026-09-29"
  }
 ]
