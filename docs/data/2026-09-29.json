@@ -1,0 +1,204 @@
+[
+ {
+  "key": "bb4b4472ee7fa26c",
+  "title": "Train Edit Loras for Qwen image 2.1 in Fizgig 6.6.0",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wsxbzi/train_edit_loras_for_qwen_image_21_in_fizgig_660/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 9.51,
+  "date": "2026-09-29"
+ },
+ {
+  "key": "fc67a4ac0ccb9294",
+  "title": "Learning Native Reflection in Unified Models with Interleaved Reinforcement Learning",
+  "url": "https://huggingface.co/papers/2609.35767",
+  "source": "hf-papers",
+  "axes": [
+   "image",
+   "model"
+  ],
+  "score": 8.69,
+  "date": "2026-09-29"
+ },
+ {
+  "key": "ae2e3b1bffbdb39d",
+  "title": "You do need character swap LoRA for MiniMax H3",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wt2pd3/you_do_need_character_swap_lora_for_minimax_h3/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image",
+   "threed"
+  ],
+  "score": 7.83,
+  "date": "2026-09-29"
+ },
+ {
+  "key": "a351ba31889d0df9",
+  "title": "How Far Are We from Removing the Visual Encoder? Scaling Laws for Encoder-Free Multimodal Pretraining",
+  "url": "https://huggingface.co/papers/2609.35457",
+  "source": "hf-papers",
+  "axes": [
+   "image",
+   "model"
+  ],
+  "score": 7.56,
+  "date": "2026-09-29"
+ },
+ {
+  "key": "0b5a8c662aef65c0",
+  "title": "It's Time to Investigate the AI Labs",
+  "url": "https://calnewport.com/its-time-to-investigate-the-ai-labs/",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 7.43,
+  "date": "2026-09-29"
+ },
+ {
+  "key": "22c2e569366c7dc8",
+  "title": "Owed a billion dollars in Nvidia stock",
+  "url": "https://colo.to/nvidia-stock-narrative.html",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 7.09,
+  "date": "2026-09-29"
+ },
+ {
+  "key": "85b1d59bb818b916",
+  "title": "Towards safety cases for frontier AI training",
+  "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+  "source": "openai",
+  "axes": [
+   "model"
+  ],
+  "score": 6.75,
+  "date": "2026-09-29"
+ },
+ {
+  "key": "d5b206f3a7781a0f",
+  "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
+  "url": "https://openai.com/index/basis-tax-workbook-with-astra",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 6.53,
+  "date": "2026-09-29"
+ },
+ {
+  "key": "86c79a60a7b4b180",
+  "title": "From simulation to real-world deployment: Unity Simulation Pro early access",
+  "url": "https://unity.com/blog/unity-simulation-pro-early-access",
+  "source": "unity",
+  "axes": [
+   "game"
+  ],
+  "score": 5.08,
+  "date": "2026-09-29"
+ },
+ {
+  "key": "ddb17b48d2c97304",
+  "title": "WorldPlay2: Extending Real-Time Interactive World Models in Control and Horizon",
+  "url": "https://huggingface.co/papers/2609.35560",
+  "source": "hf-papers",
+  "axes": [
+   "video"
+  ],
+  "score": 6.52,
+  "date": "2026-09-29"
+ },
+ {
+  "key": "c79319caa3f29f71",
+  "title": "FurE: Efficient Instance-Specific 3D Fur Reconstruction without Animal-Fur Datasets",
+  "url": "https://arxiv.org/abs/2609.35770v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "threed"
+  ],
+  "score": 6.36,
+  "date": "2026-09-29"
+ },
+ {
+  "key": "10f6d8c9b845f6ee",
+  "title": "Claude Sonnet 5.5",
+  "url": "https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/",
+  "source": "simonwillison",
+  "axes": [
+   "model"
+  ],
+  "score": 6.34,
+  "date": "2026-09-29"
+ },
+ {
+  "key": "ad93d53f2decfda9",
+  "title": "The problem is not AI code, but not knowing about system architecture or intent",
+  "url": "https://www.ssp.sh/brain/the-problem-is-not-the-ai-code-but-nobody-knows-anything-anymore/",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 6.31,
+  "date": "2026-09-29"
+ },
+ {
+  "key": "c7192a563eab4bcf",
+  "title": "PDMD: Projected Distribution Matching Distillation for Video Diffusion Models",
+  "url": "https://arxiv.org/abs/2609.35768v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "image",
+   "video"
+  ],
+  "score": 6.2,
+  "date": "2026-09-29"
+ },
+ {
+  "key": "0fc90368cab44ec2",
+  "title": "NVIDIA Unveils an Open Platform for AI Agent Safety",
+  "url": "https://80.lv/articles/nvidia-unveils-an-open-platform-for-ai-agent-safety/",
+  "source": "80lv",
+  "axes": [
+   "model"
+  ],
+  "score": 6.18,
+  "date": "2026-09-29"
+ },
+ {
+  "key": "1e3bdc39d553cdb2",
+  "title": "A.D.A.M.O. (Agent for language-Driven Actions with Multimodal Observations): A Visual-Symbolic Framework for Virtual Humans",
+  "url": "https://arxiv.org/abs/2609.35463v1",
+  "source": "arxiv-gr",
+  "axes": [
+   "image",
+   "infra",
+   "model",
+   "video"
+  ],
+  "score": 6.14,
+  "date": "2026-09-29"
+ },
+ {
+  "key": "cbdb48a48cb8bc2d",
+  "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
+  "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 6.11,
+  "date": "2026-09-29"
+ }
+]
