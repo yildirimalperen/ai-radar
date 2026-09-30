@@ -9,7 +9,7 @@
    "model",
    "people"
   ],
-  "score": 9.71,
+  "score": 9.61,
   "date": "2026-09-30"
  },
  {
@@ -20,7 +20,7 @@
   "axes": [
    "model"
   ],
-  "score": 8.83,
+  "score": 8.77,
   "date": "2026-09-30"
  },
  {
@@ -31,18 +31,19 @@
   "axes": [
    "model"
   ],
-  "score": 8.47,
+  "score": 8.38,
   "date": "2026-09-30"
  },
  {
-  "key": "af8ff3091cb57c7f",
-  "title": "Qwen Image 2.1 adding a grid i don't like !!",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wts33a/qwen_image_21_adding_a_grid_i_dont_like/",
+  "key": "1addb33b3e4b2694",
+  "title": "Improved H3 Refmods - Better accuracy and low identity bleed with fewer images. Oh and I added edit masking for video edits. Fantastic MiniMax-H3 Prompt Builder",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wtu82e/improved_h3_refmods_better_accuracy_and_low/",
   "source": "reddit-stablediffusion",
   "axes": [
-   "image"
+   "image",
+   "video"
   ],
-  "score": 7.74,
+  "score": 7.54,
   "date": "2026-09-30"
  },
  {
@@ -55,19 +56,18 @@
    "model",
    "people"
   ],
-  "score": 7.16,
+  "score": 6.75,
   "date": "2026-09-30"
  },
  {
-  "key": "bd9becc5e9a08c4d",
-  "title": "LEGO-Anything: Coding Agents for 3D Scene Reconstruction",
-  "url": "https://huggingface.co/papers/2609.36380",
+  "key": "d493bdb77edbd48b",
+  "title": "SoL-Refiner: Speed-of-Light One-Step Refinement for High-Resolution Video",
+  "url": "https://huggingface.co/papers/2609.37969",
   "source": "hf-papers",
   "axes": [
-   "model",
-   "threed"
+   "video"
   ],
-  "score": 6.83,
+  "score": 6.32,
   "date": "2026-09-30"
  },
  {
@@ -78,41 +78,7 @@
   "axes": [
    "video"
   ],
-  "score": 6.36,
-  "date": "2026-09-30"
- },
- {
-  "key": "aaa51867af5042e6",
-  "title": "Learn Complete Retopology Workflow For Animation-Ready Character Heads",
-  "url": "https://80.lv/articles/learn-complete-retopology-workflow-for-animation-ready-character-heads/",
-  "source": "80lv",
-  "axes": [
-   "threed"
-  ],
-  "score": 6.13,
-  "date": "2026-09-30"
- },
- {
-  "key": "bf7eb50a07d95ad7",
-  "title": "Krea 2 saved me $3k USD generating thousands of watercolor images for my Android app on a cheap rented GPU",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wtqk20/krea_2_saved_me_3k_usd_generating_thousands_of/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "infra"
-  ],
-  "score": 4.81,
-  "date": "2026-09-30"
- },
- {
-  "key": "1addb33b3e4b2694",
-  "title": "Improved H3 Refmods - Better accuracy and low identity bleed with fewer images. Oh and I added edit masking for video edits. Fantastic MiniMax-H3 Prompt Builder",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wtu82e/improved_h3_refmods_better_accuracy_and_low/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image",
-   "video"
-  ],
-  "score": 7.69,
+  "score": 6.24,
   "date": "2026-09-30"
  },
  {
@@ -123,7 +89,29 @@
   "axes": [
    "image"
   ],
-  "score": 6.3,
+  "score": 6.13,
+  "date": "2026-09-30"
+ },
+ {
+  "key": "4b8b5b2a0177dd5e",
+  "title": "Need help: Is it worth continuing development on my solo game/engine? (multiple years of work)",
+  "url": "https://www.reddit.com/r/gamedev/comments/1wu3px4/need_help_is_it_worth_continuing_development_on/",
+  "source": "reddit-gamedev",
+  "axes": [
+   "game"
+  ],
+  "score": 5.9,
+  "date": "2026-09-30"
+ },
+ {
+  "key": "19d472d60f8e5d25",
+  "title": "Valve is apparently ending curated events on Steam starting early 2027",
+  "url": "https://www.reddit.com/r/gamedev/comments/1wu2nm3/valve_is_apparently_ending_curated_events_on/",
+  "source": "reddit-gamedev",
+  "axes": [
+   "game"
+  ],
+  "score": 5.86,
   "date": "2026-09-30"
  },
  {
@@ -135,7 +123,29 @@
    "model",
    "people"
   ],
-  "score": 6.27,
+  "score": 6.24,
+  "date": "2026-09-30"
+ },
+ {
+  "key": "1073e739e4358ec9",
+  "title": "VoxMem: Benchmarking Multimodal Memory in Large Audio Language Models",
+  "url": "https://huggingface.co/papers/2609.32607",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 6.16,
+  "date": "2026-09-30"
+ },
+ {
+  "key": "6f55bfbc8fdeee7c",
+  "title": "Omni-IO Skills: Harnessing Your Agent Omni-Native",
+  "url": "https://huggingface.co/papers/2609.31847",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 6.03,
   "date": "2026-09-30"
  },
  {
@@ -147,7 +157,7 @@
    "image",
    "model"
   ],
-  "score": 6.09,
+  "score": 5.98,
   "date": "2026-09-30"
  },
  {
@@ -159,7 +169,18 @@
    "model",
    "threed"
   ],
-  "score": 5.87,
+  "score": 5.76,
+  "date": "2026-09-30"
+ },
+ {
+  "key": "ba25eb6c6be3689a",
+  "title": "I aggregated Steam metrics across 168k+ developers/publishers - here are a few interesting findings",
+  "url": "https://www.reddit.com/r/gamedev/comments/1wtzy4x/i_aggregated_steam_metrics_across_168k/",
+  "source": "reddit-gamedev",
+  "axes": [
+   "game"
+  ],
+  "score": 5.74,
   "date": "2026-09-30"
  },
  {
@@ -172,29 +193,18 @@
    "model",
    "people"
   ],
-  "score": 5.84,
+  "score": 5.67,
   "date": "2026-09-30"
  },
  {
-  "key": "1073e739e4358ec9",
-  "title": "VoxMem: Benchmarking Multimodal Memory in Large Audio Language Models",
-  "url": "https://huggingface.co/papers/2609.32607",
-  "source": "hf-papers",
+  "key": "74960a5a891b5770",
+  "title": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
+  "url": "https://huggingface.co/blog/evaleval-aisi",
+  "source": "huggingface-blog",
   "axes": [
    "model"
   ],
-  "score": 5.82,
-  "date": "2026-09-30"
- },
- {
-  "key": "6f55bfbc8fdeee7c",
-  "title": "Omni-IO Skills: Harnessing Your Agent Omni-Native",
-  "url": "https://huggingface.co/papers/2609.31847",
-  "source": "hf-papers",
-  "axes": [
-   "model"
-  ],
-  "score": 5.76,
+  "score": 5.42,
   "date": "2026-09-30"
  }
 ]
