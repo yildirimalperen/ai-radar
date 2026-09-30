@@ -1,0 +1,200 @@
+[
+ {
+  "key": "da7cb3a7a1b2b977",
+  "title": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
+  "url": "https://simonwillison.net/2026/Sep/29/hn-49898129/",
+  "source": "simonwillison",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 9.71,
+  "date": "2026-09-30"
+ },
+ {
+  "key": "e584b3b1231973ca",
+  "title": "Introducing dots",
+  "url": "https://openai.com/index/introducing-dots",
+  "source": "openai",
+  "axes": [
+   "model"
+  ],
+  "score": 8.83,
+  "date": "2026-09-30"
+ },
+ {
+  "key": "9814af4d45675220",
+  "title": "Introducing GPT-6.1 Sol",
+  "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+  "source": "openai",
+  "axes": [
+   "model"
+  ],
+  "score": 8.47,
+  "date": "2026-09-30"
+ },
+ {
+  "key": "af8ff3091cb57c7f",
+  "title": "Qwen Image 2.1 adding a grid i don't like !!",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wts33a/qwen_image_21_adding_a_grid_i_dont_like/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 7.74,
+  "date": "2026-09-30"
+ },
+ {
+  "key": "180514f7a050dd0c",
+  "title": "DraftKings is using AI to behaviorally target chronic gamblers",
+  "url": "https://www.eff.org/deeplinks/2026/09/draftkings-using-ai-supercharge-harms-online-behavioral-advertising",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 7.16,
+  "date": "2026-09-30"
+ },
+ {
+  "key": "bd9becc5e9a08c4d",
+  "title": "LEGO-Anything: Coding Agents for 3D Scene Reconstruction",
+  "url": "https://huggingface.co/papers/2609.36380",
+  "source": "hf-papers",
+  "axes": [
+   "model",
+   "threed"
+  ],
+  "score": 6.83,
+  "date": "2026-09-30"
+ },
+ {
+  "key": "9dd598eb5177777a",
+  "title": "Counterfactual Video Generation Enables Scalable Humanoid Loco-Manipulation",
+  "url": "https://arxiv.org/abs/2609.38172v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "video"
+  ],
+  "score": 6.36,
+  "date": "2026-09-30"
+ },
+ {
+  "key": "aaa51867af5042e6",
+  "title": "Learn Complete Retopology Workflow For Animation-Ready Character Heads",
+  "url": "https://80.lv/articles/learn-complete-retopology-workflow-for-animation-ready-character-heads/",
+  "source": "80lv",
+  "axes": [
+   "threed"
+  ],
+  "score": 6.13,
+  "date": "2026-09-30"
+ },
+ {
+  "key": "bf7eb50a07d95ad7",
+  "title": "Krea 2 saved me $3k USD generating thousands of watercolor images for my Android app on a cheap rented GPU",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wtqk20/krea_2_saved_me_3k_usd_generating_thousands_of/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "infra"
+  ],
+  "score": 4.81,
+  "date": "2026-09-30"
+ },
+ {
+  "key": "1addb33b3e4b2694",
+  "title": "Improved H3 Refmods - Better accuracy and low identity bleed with fewer images. Oh and I added edit masking for video edits. Fantastic MiniMax-H3 Prompt Builder",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wtu82e/improved_h3_refmods_better_accuracy_and_low/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image",
+   "video"
+  ],
+  "score": 7.69,
+  "date": "2026-09-30"
+ },
+ {
+  "key": "cf8dcab81854ccc3",
+  "title": "UltraReal Upscaling LoRA for Klein9B (New Version)",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wtx71n/ultrareal_upscaling_lora_for_klein9b_new_version/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.3,
+  "date": "2026-09-30"
+ },
+ {
+  "key": "d5b206f3a7781a0f",
+  "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
+  "url": "https://openai.com/index/basis-tax-workbook-with-astra",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 6.27,
+  "date": "2026-09-30"
+ },
+ {
+  "key": "0970c79327d5d743",
+  "title": "Adversarial Training for Pixel Diffusion",
+  "url": "https://arxiv.org/abs/2609.38170v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "image",
+   "model"
+  ],
+  "score": 6.09,
+  "date": "2026-09-30"
+ },
+ {
+  "key": "ec0c9cac1da47e94",
+  "title": "Imagine3D-LLM: Teaching MLLMs to Imagine 3D Scenes Before Answering",
+  "url": "https://arxiv.org/abs/2609.38177v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "model",
+   "threed"
+  ],
+  "score": 5.87,
+  "date": "2026-09-30"
+ },
+ {
+  "key": "51690e2ac15aa032",
+  "title": "A Privacy Analysis of Web and Mobile Conversational AI Agents [pdf]",
+  "url": "https://jorgegarciaherrero.com/wp-content/interactivos/20260916-Prompt-like-a-butterfly-sting-like-a-tracker-(clean).pdf",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 5.84,
+  "date": "2026-09-30"
+ },
+ {
+  "key": "1073e739e4358ec9",
+  "title": "VoxMem: Benchmarking Multimodal Memory in Large Audio Language Models",
+  "url": "https://huggingface.co/papers/2609.32607",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 5.82,
+  "date": "2026-09-30"
+ },
+ {
+  "key": "6f55bfbc8fdeee7c",
+  "title": "Omni-IO Skills: Harnessing Your Agent Omni-Native",
+  "url": "https://huggingface.co/papers/2609.31847",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 5.76,
+  "date": "2026-09-30"
+ }
+]
