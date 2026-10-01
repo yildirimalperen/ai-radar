@@ -1,0 +1,207 @@
+[
+ {
+  "key": "9814af4d45675220",
+  "title": "Introducing GPT-6.1 Sol",
+  "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+  "source": "openai",
+  "axes": [
+   "model"
+  ],
+  "score": 8.15,
+  "date": "2026-10-01"
+ },
+ {
+  "key": "e09787ee5f268200",
+  "title": "Viggle turbo v0.3 for Qwen image 2.1: less grain and cleaner surfaces",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wuqgkh/viggle_turbo_v03_for_qwen_image_21_less_grain_and/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 7.72,
+  "date": "2026-10-01"
+ },
+ {
+  "key": "ad9d0d8c484a2408",
+  "title": "Gemini 4 Argon",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 7.62,
+  "date": "2026-10-01"
+ },
+ {
+  "key": "b4e2bb60610c3083",
+  "title": "UniEvo-VL: An On-policy Self-Distillation Training Recipe for Multimodal Model Self-improvement",
+  "url": "https://huggingface.co/papers/2609.38721",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 7.39,
+  "date": "2026-10-01"
+ },
+ {
+  "key": "05b6a699c04c730c",
+  "title": "The AI Race Just Got Awkward",
+  "url": "https://insufferable.dev/posts/the-ai-race-just-got-awkward/",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 7.0,
+  "date": "2026-10-01"
+ },
+ {
+  "key": "1266eec843e6edb9",
+  "title": "Simple Temporal Upscaling for Better Results in MinimaxH3",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wuq5pg/simple_temporal_upscaling_for_better_results_in/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "video"
+  ],
+  "score": 6.57,
+  "date": "2026-10-01"
+ },
+ {
+  "key": "e9b579519735777b",
+  "title": "Multimodal Flow: Unified Flow Modeling of Language and Vision in Embedding Spaces",
+  "url": "https://arxiv.org/abs/2609.40362v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "image",
+   "model"
+  ],
+  "score": 6.08,
+  "date": "2026-10-01"
+ },
+ {
+  "key": "c1311a82fcabe197",
+  "title": "Physis-Lang: Self-Evolving Language as a Physical Representation for Video World Model",
+  "url": "https://arxiv.org/abs/2609.40358v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "model",
+   "video"
+  ],
+  "score": 5.86,
+  "date": "2026-10-01"
+ },
+ {
+  "key": "23394f73cab48f91",
+  "title": "More Choices, Fewer Decisions: Ordinal-Scale Bias in JEV-like Direct-Decision Models",
+  "url": "https://huggingface.co/papers/2609.38827",
+  "source": "hf-papers",
+  "axes": [
+   "infra"
+  ],
+  "score": 5.31,
+  "date": "2026-10-01"
+ },
+ {
+  "key": "f42e5aefc0dd5d13",
+  "title": "Google announces Gemini 4 and says it’s so capable that only ‘trusted cyber defenders’ can have it right now",
+  "url": "https://www.theverge.com/tech/1002980/google-gemini-4-argon",
+  "source": "verge-ai",
+  "axes": [
+   "people"
+  ],
+  "score": 5.14,
+  "date": "2026-10-01"
+ },
+ {
+  "key": "4e53a43bdb421059",
+  "title": "EvoDuet: Bilevel Co-Evolution of Web Searching and Task Solving for Scientific Discovery",
+  "url": "https://huggingface.co/papers/2609.40340",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 6.66,
+  "date": "2026-10-01"
+ },
+ {
+  "key": "02aea0b67e5568a8",
+  "title": "Introducing SynthID Bio",
+  "url": "https://deepmind.google/blog/introducing-synthid-bio/",
+  "source": "deepmind",
+  "axes": [
+   "model"
+  ],
+  "score": 6.63,
+  "date": "2026-10-01"
+ },
+ {
+  "key": "ae9d2ff91a9a11e9",
+  "title": "Mid-Harness: Scaling Actions Between Model and Harness for Terminal Agents",
+  "url": "https://huggingface.co/papers/2609.39982",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 6.61,
+  "date": "2026-10-01"
+ },
+ {
+  "key": "29237daf9ee77a10",
+  "title": "Disrupting a coordinated model-distillation campaign",
+  "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+  "source": "openai",
+  "axes": [
+   "model"
+  ],
+  "score": 6.52,
+  "date": "2026-10-01"
+ },
+ {
+  "key": "5c8562bf80b6e007",
+  "title": "I am blown away by RefMods for MH3",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wumahn/i_am_blown_away_by_refmods_for_mh3/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.1,
+  "date": "2026-10-01"
+ },
+ {
+  "key": "934f1cdd43e14f0a",
+  "title": "Gemini 4 Argon: our next era of frontier intelligence",
+  "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+  "source": "deepmind",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 5.34,
+  "date": "2026-10-01"
+ },
+ {
+  "key": "60c4604e3230247f",
+  "title": "ViTeX-Bench: Benchmarking High-Fidelity Video Scene Text Editing",
+  "url": "https://arxiv.org/abs/2609.40356v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "video"
+  ],
+  "score": 5.15,
+  "date": "2026-10-01"
+ },
+ {
+  "key": "f13def90c7b038e1",
+  "title": "AssemblyWorld: Rethinking 3D Assembly with General-Purpose Agents",
+  "url": "https://arxiv.org/abs/2609.40353v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "threed"
+  ],
+  "score": 5.15,
+  "date": "2026-10-01"
+ }
+]
