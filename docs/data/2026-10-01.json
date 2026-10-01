@@ -1,5 +1,17 @@
 [
  {
+  "key": "0e46a25ab381c2bc",
+  "title": "Continuity update: screen replacement, image to 3D, Qwen Image 2.1, and a lot more since 3.0",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wuukck/continuity_update_screen_replacement_image_to_3d/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image",
+   "threed"
+  ],
+  "score": 8.52,
+  "date": "2026-10-01"
+ },
+ {
   "key": "9814af4d45675220",
   "title": "Introducing GPT-6.1 Sol",
   "url": "https://openai.com/index/introducing-gpt-6-1-sol",
@@ -7,18 +19,18 @@
   "axes": [
    "model"
   ],
-  "score": 8.15,
+  "score": 8.1,
   "date": "2026-10-01"
  },
  {
-  "key": "e09787ee5f268200",
-  "title": "Viggle turbo v0.3 for Qwen image 2.1: less grain and cleaner surfaces",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wuqgkh/viggle_turbo_v03_for_qwen_image_21_less_grain_and/",
-  "source": "reddit-stablediffusion",
+  "key": "b4e2bb60610c3083",
+  "title": "UniEvo-VL: An On-policy Self-Distillation Training Recipe for Multimodal Model Self-improvement",
+  "url": "https://huggingface.co/papers/2609.38721",
+  "source": "hf-papers",
   "axes": [
-   "image"
+   "model"
   ],
-  "score": 7.72,
+  "score": 7.67,
   "date": "2026-10-01"
  },
  {
@@ -31,18 +43,64 @@
    "model",
    "people"
   ],
-  "score": 7.62,
+  "score": 7.5,
   "date": "2026-10-01"
  },
  {
-  "key": "b4e2bb60610c3083",
-  "title": "UniEvo-VL: An On-policy Self-Distillation Training Recipe for Multimodal Model Self-improvement",
-  "url": "https://huggingface.co/papers/2609.38721",
+  "key": "ae9d2ff91a9a11e9",
+  "title": "Mid-Harness: Scaling Actions Between Model and Harness for Terminal Agents",
+  "url": "https://huggingface.co/papers/2609.39982",
   "source": "hf-papers",
   "axes": [
    "model"
   ],
-  "score": 7.39,
+  "score": 6.64,
+  "date": "2026-10-01"
+ },
+ {
+  "key": "9cdfa75a55d72bea",
+  "title": "Why am I like this? (Image generation on a 286 Tandy 1000 TL/3)",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wuw8as/why_am_i_like_this_image_generation_on_a_286/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.28,
+  "date": "2026-10-01"
+ },
+ {
+  "key": "e9b579519735777b",
+  "title": "Multimodal Flow: Unified Flow Modeling of Language and Vision in Embedding Spaces",
+  "url": "https://arxiv.org/abs/2609.40362v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "image",
+   "model"
+  ],
+  "score": 5.96,
+  "date": "2026-10-01"
+ },
+ {
+  "key": "c1311a82fcabe197",
+  "title": "Physis-Lang: Self-Evolving Language as a Physical Representation for Video World Model",
+  "url": "https://arxiv.org/abs/2609.40358v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "model",
+   "video"
+  ],
+  "score": 5.74,
+  "date": "2026-10-01"
+ },
+ {
+  "key": "f42e5aefc0dd5d13",
+  "title": "Google announces Gemini 4 and says it’s so capable that only ‘trusted cyber defenders’ can have it right now",
+  "url": "https://www.theverge.com/tech/1002980/google-gemini-4-argon",
+  "source": "verge-ai",
+  "axes": [
+   "people"
+  ],
+  "score": 5.0,
   "date": "2026-10-01"
  },
  {
@@ -55,75 +113,7 @@
    "model",
    "people"
   ],
-  "score": 7.0,
-  "date": "2026-10-01"
- },
- {
-  "key": "1266eec843e6edb9",
-  "title": "Simple Temporal Upscaling for Better Results in MinimaxH3",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wuq5pg/simple_temporal_upscaling_for_better_results_in/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "video"
-  ],
-  "score": 6.57,
-  "date": "2026-10-01"
- },
- {
-  "key": "e9b579519735777b",
-  "title": "Multimodal Flow: Unified Flow Modeling of Language and Vision in Embedding Spaces",
-  "url": "https://arxiv.org/abs/2609.40362v1",
-  "source": "arxiv-cv",
-  "axes": [
-   "image",
-   "model"
-  ],
-  "score": 6.08,
-  "date": "2026-10-01"
- },
- {
-  "key": "c1311a82fcabe197",
-  "title": "Physis-Lang: Self-Evolving Language as a Physical Representation for Video World Model",
-  "url": "https://arxiv.org/abs/2609.40358v1",
-  "source": "arxiv-cv",
-  "axes": [
-   "model",
-   "video"
-  ],
-  "score": 5.86,
-  "date": "2026-10-01"
- },
- {
-  "key": "23394f73cab48f91",
-  "title": "More Choices, Fewer Decisions: Ordinal-Scale Bias in JEV-like Direct-Decision Models",
-  "url": "https://huggingface.co/papers/2609.38827",
-  "source": "hf-papers",
-  "axes": [
-   "infra"
-  ],
-  "score": 5.31,
-  "date": "2026-10-01"
- },
- {
-  "key": "f42e5aefc0dd5d13",
-  "title": "Google announces Gemini 4 and says it’s so capable that only ‘trusted cyber defenders’ can have it right now",
-  "url": "https://www.theverge.com/tech/1002980/google-gemini-4-argon",
-  "source": "verge-ai",
-  "axes": [
-   "people"
-  ],
-  "score": 5.14,
-  "date": "2026-10-01"
- },
- {
-  "key": "4e53a43bdb421059",
-  "title": "EvoDuet: Bilevel Co-Evolution of Web Searching and Task Solving for Scientific Discovery",
-  "url": "https://huggingface.co/papers/2609.40340",
-  "source": "hf-papers",
-  "axes": [
-   "model"
-  ],
-  "score": 6.66,
+  "score": 6.59,
   "date": "2026-10-01"
  },
  {
@@ -134,18 +124,7 @@
   "axes": [
    "model"
   ],
-  "score": 6.63,
-  "date": "2026-10-01"
- },
- {
-  "key": "ae9d2ff91a9a11e9",
-  "title": "Mid-Harness: Scaling Actions Between Model and Harness for Terminal Agents",
-  "url": "https://huggingface.co/papers/2609.39982",
-  "source": "hf-papers",
-  "axes": [
-   "model"
-  ],
-  "score": 6.61,
+  "score": 6.51,
   "date": "2026-10-01"
  },
  {
@@ -156,18 +135,43 @@
   "axes": [
    "model"
   ],
-  "score": 6.52,
+  "score": 6.42,
   "date": "2026-10-01"
  },
  {
-  "key": "5c8562bf80b6e007",
-  "title": "I am blown away by RefMods for MH3",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wumahn/i_am_blown_away_by_refmods_for_mh3/",
+  "key": "b0d6332475078e4b",
+  "title": "False Frontiers: Diagnosing and Mitigating Co-Cheating in Self-Evolving Search Agents",
+  "url": "https://huggingface.co/papers/2609.39102",
+  "source": "hf-papers",
+  "axes": [
+   "image",
+   "model",
+   "threed",
+   "video"
+  ],
+  "score": 6.19,
+  "date": "2026-10-01"
+ },
+ {
+  "key": "6bc8fd0ab81f7de5",
+  "title": "Agent Error Dataset: Scaling 50,000 Error--Diagnosis Pairs for Failure Analysis and Error-Aware Post-Training",
+  "url": "https://huggingface.co/papers/2609.40111",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 5.96,
+  "date": "2026-10-01"
+ },
+ {
+  "key": "d3c617e7564c0001",
+  "title": "I hate LTX bots",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wuv4sd/i_hate_ltx_bots/",
   "source": "reddit-stablediffusion",
   "axes": [
-   "image"
+   "model"
   ],
-  "score": 6.1,
+  "score": 5.58,
   "date": "2026-10-01"
  },
  {
@@ -179,29 +183,19 @@
    "model",
    "people"
   ],
-  "score": 5.34,
+  "score": 5.2,
   "date": "2026-10-01"
  },
  {
-  "key": "60c4604e3230247f",
-  "title": "ViTeX-Bench: Benchmarking High-Fidelity Video Scene Text Editing",
-  "url": "https://arxiv.org/abs/2609.40356v1",
-  "source": "arxiv-cv",
+  "key": "878563b1a4b3b9cf",
+  "title": "Hearing tech startup Legato launches its AI hearing glasses",
+  "url": "https://techcrunch.com/2026/10/01/hearing-tech-startup-legato-launches-its-ai-hearing-glasses/",
+  "source": "techcrunch-ai",
   "axes": [
-   "video"
+   "model",
+   "people"
   ],
-  "score": 5.15,
-  "date": "2026-10-01"
- },
- {
-  "key": "f13def90c7b038e1",
-  "title": "AssemblyWorld: Rethinking 3D Assembly with General-Purpose Agents",
-  "url": "https://arxiv.org/abs/2609.40353v1",
-  "source": "arxiv-cv",
-  "axes": [
-   "threed"
-  ],
-  "score": 5.15,
+  "score": 5.16,
   "date": "2026-10-01"
  }
 ]
