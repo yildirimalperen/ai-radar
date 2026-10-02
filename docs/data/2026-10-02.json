@@ -7,32 +7,18 @@
   "axes": [
    "model"
   ],
-  "score": 7.99,
+  "score": 7.97,
   "date": "2026-10-02"
  },
  {
-  "key": "ad9d0d8c484a2408",
-  "title": "Gemini 4 Argon",
-  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
-  "source": "hackernews",
-  "axes": [
-   "infra",
-   "model",
-   "people"
-  ],
-  "score": 7.16,
-  "date": "2026-10-02"
- },
- {
-  "key": "2bed4dbaa5561582",
-  "title": "4Director: Controlling Video World Models with Rigid 3D Geometry",
-  "url": "https://huggingface.co/papers/2610.02160",
+  "key": "79fe58f48729e18c",
+  "title": "OneStreamer: Unifying Perception, Memory, and Proactive Response in Streaming Video Interaction",
+  "url": "https://huggingface.co/papers/2610.01762",
   "source": "hf-papers",
   "axes": [
-   "threed",
    "video"
   ],
-  "score": 7.13,
+  "score": 7.27,
   "date": "2026-10-02"
  },
  {
@@ -48,6 +34,17 @@
   "date": "2026-10-02"
  },
  {
+  "key": "376d2a4c01dc4763",
+  "title": "I made my own cybersecurity benchmark and ran Qwen3.8 27B, here's how a local model actually does at hacking",
+  "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvs8va/i_made_my_own_cybersecurity_benchmark_and_ran/",
+  "source": "reddit-localllama",
+  "axes": [
+   "model"
+  ],
+  "score": 6.93,
+  "date": "2026-10-02"
+ },
+ {
   "key": "7826ee634e5b2f54",
   "title": "Full AI Music video - NCT 127 'Blingy (rom&BAAWLA Remix)' MV",
   "url": "https://www.reddit.com/r/StableDiffusion/comments/1wvkcnb/full_ai_music_video_nct_127_blingy_rombaawla/",
@@ -56,7 +53,7 @@
    "image",
    "video"
   ],
-  "score": 7.06,
+  "score": 6.88,
   "date": "2026-10-02"
  },
  {
@@ -68,18 +65,7 @@
    "image",
    "model"
   ],
-  "score": 6.83,
-  "date": "2026-10-02"
- },
- {
-  "key": "a30e2317ea69174a",
-  "title": "Perplexity Decider 27B: Open weights decision model fine tune of Qwen3.8 27B",
-  "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvfz9n/perplexity_decider_27b_open_weights_decision/",
-  "source": "reddit-localllama",
-  "axes": [
-   "model"
-  ],
-  "score": 6.65,
+  "score": 6.67,
   "date": "2026-10-02"
  },
  {
@@ -90,7 +76,44 @@
   "axes": [
    "model"
   ],
-  "score": 6.56,
+  "score": 6.39,
+  "date": "2026-10-02"
+ },
+ {
+  "key": "8c98a2a4283880c7",
+  "title": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs",
+  "url": "https://huggingface.co/blog/allenai/olmocore3",
+  "source": "huggingface-blog",
+  "axes": [
+   "model"
+  ],
+  "score": 6.03,
+  "date": "2026-10-02"
+ },
+ {
+  "key": "3847813a9dac4060",
+  "title": "InterEvolve: Test-Time Evolution of Reward Programs for Humanoid Loco-Manipulation",
+  "url": "https://huggingface.co/papers/2610.02196",
+  "source": "hf-papers",
+  "axes": [
+   "game",
+   "image",
+   "model",
+   "threed",
+   "video"
+  ],
+  "score": 5.84,
+  "date": "2026-10-02"
+ },
+ {
+  "key": "43af0f6def151e42",
+  "title": "llama, server: add /v1/systemone API (models: laya, julia-1, lev, openjev, kev) by ngxson · Pull Request #29818 · ggml-org/llama.cpp",
+  "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvqbrz/llama_server_add_v1systemone_api_models_laya/",
+  "source": "reddit-localllama",
+  "axes": [
+   "infra"
+  ],
+  "score": 4.76,
   "date": "2026-10-02"
  },
  {
@@ -103,29 +126,7 @@
    "image",
    "threed"
   ],
-  "score": 4.67,
-  "date": "2026-10-02"
- },
- {
-  "key": "f42e5aefc0dd5d13",
-  "title": "Google announces Gemini 4 and says it’s so capable that only ‘trusted cyber defenders’ can have it right now",
-  "url": "https://www.theverge.com/tech/1002980/google-gemini-4-argon",
-  "source": "verge-ai",
-  "axes": [
-   "people"
-  ],
-  "score": 4.64,
-  "date": "2026-10-02"
- },
- {
-  "key": "e2dad12217101e9c",
-  "title": "Micron CEO Says Memory Supply Will Be Much Tighter in 2027 and 2028 Than in 2026",
-  "url": "https://www.techpowerup.com/353296/micron-ceo-says-memory-supply-will-be-much-tighter-in-2027-and-2028-than-in-2026",
-  "source": "hackernews",
-  "axes": [
-   "people"
-  ],
-  "score": 2.53,
+  "score": 4.54,
   "date": "2026-10-02"
  },
  {
@@ -136,7 +137,29 @@
   "axes": [
    "video"
   ],
-  "score": 6.73,
+  "score": 6.7,
+  "date": "2026-10-02"
+ },
+ {
+  "key": "ade0cb04ccd64581",
+  "title": "HDR LOCALLY NOW.",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wvsg1q/hdr_locally_now/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.38,
+  "date": "2026-10-02"
+ },
+ {
+  "key": "371402e6fc060bdb",
+  "title": "E-MoE: Enhanced Mixture-of-Experts for Non-Factorized Diffusion Language Models",
+  "url": "https://huggingface.co/papers/2609.37533",
+  "source": "hf-papers",
+  "axes": [
+   "image"
+  ],
+  "score": 6.21,
   "date": "2026-10-02"
  },
  {
@@ -147,40 +170,7 @@
   "axes": [
    "image"
   ],
-  "score": 6.29,
-  "date": "2026-10-02"
- },
- {
-  "key": "ce6ad51cddad9510",
-  "title": "Sharpening Tax in Post-Training",
-  "url": "https://huggingface.co/papers/2610.01509",
-  "source": "hf-papers",
-  "axes": [
-   "model"
-  ],
-  "score": 6.24,
-  "date": "2026-10-02"
- },
- {
-  "key": "8c98a2a4283880c7",
-  "title": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs",
-  "url": "https://huggingface.co/blog/allenai/olmocore3",
-  "source": "huggingface-blog",
-  "axes": [
-   "model"
-  ],
-  "score": 6.14,
-  "date": "2026-10-02"
- },
- {
-  "key": "6d0985b5a20509d1",
-  "title": "RDNA4 owners on ComfyUI: I made SageAttention actually fast on the 9070 XT, here's the build plus every caveat",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wve3q3/rdna4_owners_on_comfyui_i_made_sageattention/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image"
-  ],
-  "score": 6.04,
+  "score": 6.12,
   "date": "2026-10-02"
  },
  {
@@ -192,7 +182,7 @@
    "model",
    "video"
   ],
-  "score": 5.87,
+  "score": 5.75,
   "date": "2026-10-02"
  },
  {
@@ -204,18 +194,29 @@
    "model",
    "threed"
   ],
-  "score": 5.8,
+  "score": 5.69,
   "date": "2026-10-02"
  },
  {
-  "key": "37801b2a77926872",
-  "title": "I \"built\" a local LLM radio like the Pharaohs built the pyramids",
-  "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvg5hn/i_built_a_local_llm_radio_like_the_pharaohs_built/",
-  "source": "reddit-localllama",
+  "key": "49c0bb5d036155b0",
+  "title": "Moore, Escher, Penrose: A Conformal Golden Braid",
+  "url": "https://arxiv.org/abs/2610.02210v1",
+  "source": "arxiv-cv",
   "axes": [
-   "model"
+   "image"
   ],
-  "score": 5.44,
+  "score": 5.26,
+  "date": "2026-10-02"
+ },
+ {
+  "key": "065fea91f8665a0b",
+  "title": "Embedding Prediction Helps Image Generation",
+  "url": "https://arxiv.org/abs/2610.02203v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "image"
+  ],
+  "score": 5.26,
   "date": "2026-10-02"
  }
 ]
