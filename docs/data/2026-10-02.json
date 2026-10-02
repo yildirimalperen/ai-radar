@@ -1,0 +1,221 @@
+[
+ {
+  "key": "9814af4d45675220",
+  "title": "Introducing GPT-6.1 Sol",
+  "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+  "source": "openai",
+  "axes": [
+   "model"
+  ],
+  "score": 7.99,
+  "date": "2026-10-02"
+ },
+ {
+  "key": "ad9d0d8c484a2408",
+  "title": "Gemini 4 Argon",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 7.16,
+  "date": "2026-10-02"
+ },
+ {
+  "key": "2bed4dbaa5561582",
+  "title": "4Director: Controlling Video World Models with Rigid 3D Geometry",
+  "url": "https://huggingface.co/papers/2610.02160",
+  "source": "hf-papers",
+  "axes": [
+   "threed",
+   "video"
+  ],
+  "score": 7.13,
+  "date": "2026-10-02"
+ },
+ {
+  "key": "f6fce89e1a27aee2",
+  "title": "Introducing Gemini 3.8 Live with Live Avatar",
+  "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+  "source": "deepmind",
+  "axes": [
+   "model",
+   "threed"
+  ],
+  "score": 7.07,
+  "date": "2026-10-02"
+ },
+ {
+  "key": "7826ee634e5b2f54",
+  "title": "Full AI Music video - NCT 127 'Blingy (rom&BAAWLA Remix)' MV",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wvkcnb/full_ai_music_video_nct_127_blingy_rombaawla/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image",
+   "video"
+  ],
+  "score": 7.06,
+  "date": "2026-10-02"
+ },
+ {
+  "key": "ca8445e0c3d957b3",
+  "title": "Introducing FLUX 3 Image.",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wvgsg7/introducing_flux_3_image/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image",
+   "model"
+  ],
+  "score": 6.83,
+  "date": "2026-10-02"
+ },
+ {
+  "key": "a30e2317ea69174a",
+  "title": "Perplexity Decider 27B: Open weights decision model fine tune of Qwen3.8 27B",
+  "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvfz9n/perplexity_decider_27b_open_weights_decision/",
+  "source": "reddit-localllama",
+  "axes": [
+   "model"
+  ],
+  "score": 6.65,
+  "date": "2026-10-02"
+ },
+ {
+  "key": "7e512e6f1b744e63",
+  "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
+  "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+  "source": "huggingface-blog",
+  "axes": [
+   "model"
+  ],
+  "score": 6.56,
+  "date": "2026-10-02"
+ },
+ {
+  "key": "35d38235e533aa0f",
+  "title": "Base PS5 Finally Gets Its Own Version of PSSR Upscaling",
+  "url": "https://80.lv/articles/base-ps5-finally-gets-its-own-version-of-pssr-upscaling/",
+  "source": "80lv",
+  "axes": [
+   "game",
+   "image",
+   "threed"
+  ],
+  "score": 4.67,
+  "date": "2026-10-02"
+ },
+ {
+  "key": "f42e5aefc0dd5d13",
+  "title": "Google announces Gemini 4 and says it’s so capable that only ‘trusted cyber defenders’ can have it right now",
+  "url": "https://www.theverge.com/tech/1002980/google-gemini-4-argon",
+  "source": "verge-ai",
+  "axes": [
+   "people"
+  ],
+  "score": 4.64,
+  "date": "2026-10-02"
+ },
+ {
+  "key": "e2dad12217101e9c",
+  "title": "Micron CEO Says Memory Supply Will Be Much Tighter in 2027 and 2028 Than in 2026",
+  "url": "https://www.techpowerup.com/353296/micron-ceo-says-memory-supply-will-be-much-tighter-in-2027-and-2028-than-in-2026",
+  "source": "hackernews",
+  "axes": [
+   "people"
+  ],
+  "score": 2.53,
+  "date": "2026-10-02"
+ },
+ {
+  "key": "f2cd8b0d1ba78ca0",
+  "title": "World Observer: Joint Actor-Observer Generation for Persistent World Modeling",
+  "url": "https://huggingface.co/papers/2610.02162",
+  "source": "hf-papers",
+  "axes": [
+   "video"
+  ],
+  "score": 6.73,
+  "date": "2026-10-02"
+ },
+ {
+  "key": "c5d101ce017de199",
+  "title": "H3 ref2v MV \"I Know What You Are\"",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wvly4n/h3_ref2v_mv_i_know_what_you_are/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.29,
+  "date": "2026-10-02"
+ },
+ {
+  "key": "ce6ad51cddad9510",
+  "title": "Sharpening Tax in Post-Training",
+  "url": "https://huggingface.co/papers/2610.01509",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 6.24,
+  "date": "2026-10-02"
+ },
+ {
+  "key": "8c98a2a4283880c7",
+  "title": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs",
+  "url": "https://huggingface.co/blog/allenai/olmocore3",
+  "source": "huggingface-blog",
+  "axes": [
+   "model"
+  ],
+  "score": 6.14,
+  "date": "2026-10-02"
+ },
+ {
+  "key": "6d0985b5a20509d1",
+  "title": "RDNA4 owners on ComfyUI: I made SageAttention actually fast on the 9070 XT, here's the build plus every caveat",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wve3q3/rdna4_owners_on_comfyui_i_made_sageattention/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.04,
+  "date": "2026-10-02"
+ },
+ {
+  "key": "570f34714ef2134c",
+  "title": "MosaiChunk: Compositing Spatio-Temporal Memory for Autoregressive Video Generation",
+  "url": "https://arxiv.org/abs/2610.02153v1",
+  "source": "arxiv-gr",
+  "axes": [
+   "model",
+   "video"
+  ],
+  "score": 5.87,
+  "date": "2026-10-02"
+ },
+ {
+  "key": "e486569a6fff66c8",
+  "title": "LiteReality-Agent: An Agentic System for Interactable 3D Indoor Scene Reconstruction",
+  "url": "https://arxiv.org/abs/2610.01863v1",
+  "source": "arxiv-gr",
+  "axes": [
+   "model",
+   "threed"
+  ],
+  "score": 5.8,
+  "date": "2026-10-02"
+ },
+ {
+  "key": "37801b2a77926872",
+  "title": "I \"built\" a local LLM radio like the Pharaohs built the pyramids",
+  "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvg5hn/i_built_a_local_llm_radio_like_the_pharaohs_built/",
+  "source": "reddit-localllama",
+  "axes": [
+   "model"
+  ],
+  "score": 5.44,
+  "date": "2026-10-02"
+ }
+]
