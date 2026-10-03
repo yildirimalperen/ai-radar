@@ -1,0 +1,209 @@
+[
+ {
+  "key": "38157a22a7f8a9fc",
+  "title": "Use Qwen-Image-2.1-viggle-turbo to generate character sheets in ComfyUI",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wwddm2/use_qwenimage21viggleturbo_to_generate_character/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image",
+   "threed"
+  ],
+  "score": 8.53,
+  "date": "2026-10-03"
+ },
+ {
+  "key": "9814af4d45675220",
+  "title": "Introducing GPT-6.1 Sol",
+  "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+  "source": "openai",
+  "axes": [
+   "model"
+  ],
+  "score": 7.92,
+  "date": "2026-10-03"
+ },
+ {
+  "key": "fce4a0e491ac9c43",
+  "title": "Video Generation Models: A Survey of Post-Training and Alignment",
+  "url": "https://huggingface.co/papers/2610.00812",
+  "source": "hf-papers",
+  "axes": [
+   "model",
+   "video"
+  ],
+  "score": 6.86,
+  "date": "2026-10-03"
+ },
+ {
+  "key": "1ef8b8f07254cad4",
+  "title": "Transformers Stop Thinking Too Early, and a Tiny LoRA Fixes It",
+  "url": "https://huggingface.co/papers/2609.36585",
+  "source": "hf-papers",
+  "axes": [
+   "image"
+  ],
+  "score": 6.5,
+  "date": "2026-10-03"
+ },
+ {
+  "key": "d47652e0eb4232fe",
+  "title": "The latest AI news we announced in September 2026",
+  "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
+  "source": "google-ai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 6.49,
+  "date": "2026-10-03"
+ },
+ {
+  "key": "614a41a120772993",
+  "title": "Camera Control for AI Images in ComfyUI with QI 2.1",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wwcx3c/camera_control_for_ai_images_in_comfyui_with_qi_21/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.21,
+  "date": "2026-10-03"
+ },
+ {
+  "key": "5b8e25ffb7b2da36",
+  "title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+  "url": "https://huggingface.co/blog/allenai/astabrief",
+  "source": "huggingface-blog",
+  "axes": [
+   "model"
+  ],
+  "score": 6.16,
+  "date": "2026-10-03"
+ },
+ {
+  "key": "2576d610d4d053df",
+  "title": "A model guide for the GPT-6 family",
+  "url": "https://openai.com/index/practical-guide-building-gpt-6",
+  "source": "openai",
+  "axes": [
+   "model"
+  ],
+  "score": 5.88,
+  "date": "2026-10-03"
+ },
+ {
+  "key": "d681858aef0571f1",
+  "title": "\"Quite often it's given me more to do\" – Why AI might be creating more work for games companies, rather than saving time",
+  "url": "https://www.gamesindustry.biz/quite-often-its-given-me-more-to-do-why-ai-might-be-creating-more-work-for-games-companies-rather-than-saving-time",
+  "source": "gamesindustry",
+  "axes": [
+   "game"
+  ],
+  "score": 5.29,
+  "date": "2026-10-03"
+ },
+ {
+  "key": "06db2ceced570e2a",
+  "title": "Games made with Unity: September 2026 in review",
+  "url": "https://unity.com/blog/games-made-with-unity-september-2026-releases",
+  "source": "unity",
+  "axes": [
+   "game"
+  ],
+  "score": 3.62,
+  "date": "2026-10-03"
+ },
+ {
+  "key": "4483a87e4b6672af",
+  "title": "Qwen2.1 is actually very good.",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wwbfqz/qwen21_is_actually_very_good/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.16,
+  "date": "2026-10-03"
+ },
+ {
+  "key": "4ed6a2efc97766ab",
+  "title": "EgoTools: Towards Tool-Centric Reasoning in Real-World Egocentric Videos",
+  "url": "https://huggingface.co/papers/2609.39378",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 5.77,
+  "date": "2026-10-03"
+ },
+ {
+  "key": "407275640221b4b9",
+  "title": "Decentralized Master-Mind: Joint Action Refinement through Iterative Intent Denoising in Multi-Agent Pathfinding",
+  "url": "https://huggingface.co/papers/2609.32019",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 5.63,
+  "date": "2026-10-03"
+ },
+ {
+  "key": "e05cdc39ce04f131",
+  "title": "LWiAI Podcast #258 - Opus 5.5, Sol and Luna, Muse, DeepSeek-V4.1-Flash, Xi",
+  "url": "https://lastweekin.ai/p/lwiai-podcast-258-opus-55-sol-and",
+  "source": "last-week-in-ai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 5.58,
+  "date": "2026-10-03"
+ },
+ {
+  "key": "46b7eef637ccdfb8",
+  "title": "What Builds the Scene? Luminance Dominates Geometry Formation in 3D Gaussian Splatting",
+  "url": "https://arxiv.org/abs/2610.00749v1",
+  "source": "arxiv-gr",
+  "axes": [
+   "model",
+   "threed"
+  ],
+  "score": 5.21,
+  "date": "2026-10-03"
+ },
+ {
+  "key": "e478401bb49a819e",
+  "title": "What image model was used here?",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wwabjk/what_image_model_was_used_here/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image",
+   "model",
+   "video"
+  ],
+  "score": 5.15,
+  "date": "2026-10-03"
+ },
+ {
+  "key": "caa32c3fdff1b561",
+  "title": "Chatham scales its capital markets expertise with OpenAI",
+  "url": "https://openai.com/index/chatham-financial",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 4.91,
+  "date": "2026-10-03"
+ },
+ {
+  "key": "645f8982255cc4d6",
+  "title": "The eternal complement",
+  "url": "https://openai.com/index/the-eternal-complement",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 4.81,
+  "date": "2026-10-03"
+ }
+]
