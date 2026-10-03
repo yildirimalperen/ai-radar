@@ -8,7 +8,7 @@
    "image",
    "threed"
   ],
-  "score": 8.53,
+  "score": 8.39,
   "date": "2026-10-03"
  },
  {
@@ -19,7 +19,7 @@
   "axes": [
    "model"
   ],
-  "score": 7.92,
+  "score": 7.91,
   "date": "2026-10-03"
  },
  {
@@ -31,7 +31,7 @@
    "model",
    "video"
   ],
-  "score": 6.86,
+  "score": 6.85,
   "date": "2026-10-03"
  },
  {
@@ -42,7 +42,7 @@
   "axes": [
    "image"
   ],
-  "score": 6.5,
+  "score": 6.49,
   "date": "2026-10-03"
  },
  {
@@ -54,18 +54,29 @@
    "model",
    "people"
   ],
-  "score": 6.49,
+  "score": 6.39,
   "date": "2026-10-03"
  },
  {
-  "key": "614a41a120772993",
-  "title": "Camera Control for AI Images in ComfyUI with QI 2.1",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wwcx3c/camera_control_for_ai_images_in_comfyui_with_qi_21/",
+  "key": "bbb74d3d6568a1ed",
+  "title": "I'm liking Qwen 2.1—Midjourney style.",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wwkhd9/im_liking_qwen_21midjourney_style/",
   "source": "reddit-stablediffusion",
   "axes": [
    "image"
   ],
-  "score": 6.21,
+  "score": 6.37,
+  "date": "2026-10-03"
+ },
+ {
+  "key": "315e60c4e508489e",
+  "title": "Newgrounds.com – A community of games, music, and art",
+  "url": "https://www.newgrounds.com/",
+  "source": "hackernews",
+  "axes": [
+   "game"
+  ],
+  "score": 6.35,
   "date": "2026-10-03"
  },
  {
@@ -76,7 +87,7 @@
   "axes": [
    "model"
   ],
-  "score": 6.16,
+  "score": 6.06,
   "date": "2026-10-03"
  },
  {
@@ -87,7 +98,7 @@
   "axes": [
    "model"
   ],
-  "score": 5.88,
+  "score": 5.78,
   "date": "2026-10-03"
  },
  {
@@ -98,7 +109,7 @@
   "axes": [
    "game"
   ],
-  "score": 5.29,
+  "score": 5.2,
   "date": "2026-10-03"
  },
  {
@@ -109,18 +120,29 @@
   "axes": [
    "game"
   ],
-  "score": 3.62,
+  "score": 3.6,
   "date": "2026-10-03"
  },
  {
-  "key": "4483a87e4b6672af",
-  "title": "Qwen2.1 is actually very good.",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wwbfqz/qwen21_is_actually_very_good/",
+  "key": "614a41a120772993",
+  "title": "Camera Control for AI Images in ComfyUI with QI 2.1",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wwcx3c/camera_control_for_ai_images_in_comfyui_with_qi_21/",
   "source": "reddit-stablediffusion",
   "axes": [
    "image"
   ],
-  "score": 6.16,
+  "score": 6.07,
+  "date": "2026-10-03"
+ },
+ {
+  "key": "bec4efb4a9cc0035",
+  "title": "Qwen Image 2.1 fix v2.0 (updated due to feedback), plus a new sampler",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wwi34c/qwen_image_21_fix_v20_updated_due_to_feedback/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 5.99,
   "date": "2026-10-03"
  },
  {
@@ -131,7 +153,7 @@
   "axes": [
    "model"
   ],
-  "score": 5.77,
+  "score": 5.76,
   "date": "2026-10-03"
  },
  {
@@ -154,7 +176,7 @@
    "model",
    "people"
   ],
-  "score": 5.58,
+  "score": 5.42,
   "date": "2026-10-03"
  },
  {
@@ -166,20 +188,7 @@
    "model",
    "threed"
   ],
-  "score": 5.21,
-  "date": "2026-10-03"
- },
- {
-  "key": "e478401bb49a819e",
-  "title": "What image model was used here?",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wwabjk/what_image_model_was_used_here/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image",
-   "model",
-   "video"
-  ],
-  "score": 5.15,
+  "score": 5.19,
   "date": "2026-10-03"
  },
  {
@@ -191,7 +200,7 @@
    "model",
    "people"
   ],
-  "score": 4.91,
+  "score": 4.85,
   "date": "2026-10-03"
  },
  {
@@ -203,7 +212,7 @@
    "model",
    "people"
   ],
-  "score": 4.81,
+  "score": 4.76,
   "date": "2026-10-03"
  }
 ]
