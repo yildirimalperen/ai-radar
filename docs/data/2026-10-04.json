@@ -9,7 +9,7 @@
    "model",
    "people"
   ],
-  "score": 9.73,
+  "score": 9.62,
   "date": "2026-10-04"
  },
  {
@@ -20,7 +20,7 @@
   "axes": [
    "model"
   ],
-  "score": 8.65,
+  "score": 8.56,
   "date": "2026-10-04"
  },
  {
@@ -42,7 +42,7 @@
   "axes": [
    "model"
   ],
-  "score": 7.9,
+  "score": 7.74,
   "date": "2026-10-04"
  },
  {
@@ -53,17 +53,16 @@
   "axes": [
    "image"
   ],
-  "score": 7.44,
+  "score": 7.28,
   "date": "2026-10-04"
  },
  {
-  "key": "002a9f339c927bf7",
-  "title": "New update on my 3D pose editor 🤩",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wx2r1p/new_update_on_my_3d_pose_editor/",
+  "key": "d07aa357cacafd28",
+  "title": "Anone, Soredene.. Minimax H3 R2V Test",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wxd3qg/anone_soredene_minimax_h3_r2v_test/",
   "source": "reddit-stablediffusion",
   "axes": [
-   "image",
-   "threed"
+   "image"
   ],
   "score": 6.93,
   "date": "2026-10-04"
@@ -77,7 +76,7 @@
    "model",
    "threed"
   ],
-  "score": 6.75,
+  "score": 6.65,
   "date": "2026-10-04"
  },
  {
@@ -89,7 +88,7 @@
    "infra",
    "threed"
   ],
-  "score": 6.68,
+  "score": 6.55,
   "date": "2026-10-04"
  },
  {
@@ -100,7 +99,7 @@
   "axes": [
    "game"
   ],
-  "score": 4.85,
+  "score": 4.74,
   "date": "2026-10-04"
  },
  {
@@ -111,18 +110,7 @@
   "axes": [
    "game"
   ],
-  "score": 3.51,
-  "date": "2026-10-04"
- },
- {
-  "key": "45aeb713339a4a87",
-  "title": "From the creator of Redis; run LLM locally with ds4",
-  "url": "https://dwarfstar.sh/",
-  "source": "hackernews",
-  "axes": [
-   "model"
-  ],
-  "score": 6.64,
+  "score": 3.49,
   "date": "2026-10-04"
  },
  {
@@ -133,7 +121,7 @@
   "axes": [
    "image"
   ],
-  "score": 6.63,
+  "score": 6.47,
   "date": "2026-10-04"
  },
  {
@@ -144,18 +132,18 @@
   "axes": [
    "model"
   ],
-  "score": 6.38,
+  "score": 6.24,
   "date": "2026-10-04"
  },
  {
-  "key": "312f2d966b9aef59",
-  "title": "Looking at Seedance 2.5 videos made me realize we need the 2K update for Minimax H3",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wx3xlk/looking_at_seedance_25_videos_made_me_realize_we/",
+  "key": "da43bf23bee075f8",
+  "title": "Looped Diffusion Transformer",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wx73ei/looped_diffusion_transformer/",
   "source": "reddit-stablediffusion",
   "axes": [
-   "video"
+   "image"
   ],
-  "score": 6.34,
+  "score": 6.09,
   "date": "2026-10-04"
  },
  {
@@ -167,7 +155,20 @@
    "model",
    "people"
   ],
-  "score": 6.05,
+  "score": 6.0,
+  "date": "2026-10-04"
+ },
+ {
+  "key": "db78f351f1623f09",
+  "title": "I quit OpenAI because its culture is broken",
+  "url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/?gift=v5U_UzUTothfWXsPxtvNVAh7esWToMRD6XnbXmc5WgA",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 5.92,
   "date": "2026-10-04"
  },
  {
@@ -178,7 +179,7 @@
   "axes": [
    "model"
   ],
-  "score": 5.66,
+  "score": 5.67,
   "date": "2026-10-04"
  },
  {
@@ -191,7 +192,7 @@
    "model",
    "threed"
   ],
-  "score": 5.23,
+  "score": 5.2,
   "date": "2026-10-04"
  },
  {
@@ -205,7 +206,7 @@
    "threed",
    "video"
   ],
-  "score": 5.12,
+  "score": 5.14,
   "date": "2026-10-04"
  }
 ]
