@@ -1,0 +1,211 @@
+[
+ {
+  "key": "e55db5c9fb031369",
+  "title": "We're going to need default hard budget caps on pretty much everything",
+  "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
+  "source": "simonwillison",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 9.73,
+  "date": "2026-10-04"
+ },
+ {
+  "key": "91f762e5821ecaaa",
+  "title": "Kolibri: A Sovereign Open-Weight Model",
+  "url": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/",
+  "source": "hackernews",
+  "axes": [
+   "model"
+  ],
+  "score": 8.65,
+  "date": "2026-10-04"
+ },
+ {
+  "key": "9814af4d45675220",
+  "title": "Introducing GPT-6.1 Sol",
+  "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+  "source": "openai",
+  "axes": [
+   "model"
+  ],
+  "score": 7.91,
+  "date": "2026-10-04"
+ },
+ {
+  "key": "ff5d62078c475841",
+  "title": "Aleph Alpha Kolibri: How the sovereign German LLM works",
+  "url": "https://tej.as/blog/aleph-alpha-kolibri",
+  "source": "hackernews",
+  "axes": [
+   "model"
+  ],
+  "score": 7.9,
+  "date": "2026-10-04"
+ },
+ {
+  "key": "98e3cf0e3cc2ff40",
+  "title": "ComfyUI Qwen image 2.1 Enhancer (Two nodes)",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wx6t0v/comfyui_qwen_image_21_enhancer_two_nodes/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 7.44,
+  "date": "2026-10-04"
+ },
+ {
+  "key": "002a9f339c927bf7",
+  "title": "New update on my 3D pose editor 🤩",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wx2r1p/new_update_on_my_3d_pose_editor/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image",
+   "threed"
+  ],
+  "score": 6.93,
+  "date": "2026-10-04"
+ },
+ {
+  "key": "a957db386d80e387",
+  "title": "Check Out Astridr's Character Model From Senua's Saga: Hellblade 2",
+  "url": "https://80.lv/articles/check-out-astridr-s-character-model-from-senua-s-saga-hellblade-2/",
+  "source": "80lv",
+  "axes": [
+   "model",
+   "threed"
+  ],
+  "score": 6.75,
+  "date": "2026-10-04"
+ },
+ {
+  "key": "d3d2efa2bc3a7487",
+  "title": "September sponsors-only newsletter",
+  "url": "https://simonwillison.net/2026/Oct/3/newsletter/",
+  "source": "simonwillison",
+  "axes": [
+   "infra",
+   "threed"
+  ],
+  "score": 6.68,
+  "date": "2026-10-04"
+ },
+ {
+  "key": "bfe7776ad3f8a35c",
+  "title": "Capcom is preparing for a ‘future where we create games together with AI’",
+  "url": "https://www.theverge.com/games/1004418/capcom-ai-game-development",
+  "source": "verge-ai",
+  "axes": [
+   "game"
+  ],
+  "score": 4.85,
+  "date": "2026-10-04"
+ },
+ {
+  "key": "06db2ceced570e2a",
+  "title": "Games made with Unity: September 2026 in review",
+  "url": "https://unity.com/blog/games-made-with-unity-september-2026-releases",
+  "source": "unity",
+  "axes": [
+   "game"
+  ],
+  "score": 3.51,
+  "date": "2026-10-04"
+ },
+ {
+  "key": "45aeb713339a4a87",
+  "title": "From the creator of Redis; run LLM locally with ds4",
+  "url": "https://dwarfstar.sh/",
+  "source": "hackernews",
+  "axes": [
+   "model"
+  ],
+  "score": 6.64,
+  "date": "2026-10-04"
+ },
+ {
+  "key": "3da2c67c5e11f3a3",
+  "title": "The Museum of Lost Things | Short Film by Claude (Minimax H3) NO user input.",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wx5tqn/the_museum_of_lost_things_short_film_by_claude/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.63,
+  "date": "2026-10-04"
+ },
+ {
+  "key": "13ad492ef1cde60d",
+  "title": "The Agent Said It Was Done. The Database Disagreed.",
+  "url": "https://huggingface.co/blog/microsoft/thinkingbox",
+  "source": "huggingface-blog",
+  "axes": [
+   "model"
+  ],
+  "score": 6.38,
+  "date": "2026-10-04"
+ },
+ {
+  "key": "312f2d966b9aef59",
+  "title": "Looking at Seedance 2.5 videos made me realize we need the 2K update for Minimax H3",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wx3xlk/looking_at_seedance_25_videos_made_me_realize_we/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "video"
+  ],
+  "score": 6.34,
+  "date": "2026-10-04"
+ },
+ {
+  "key": "d47652e0eb4232fe",
+  "title": "The latest AI news we announced in September 2026",
+  "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
+  "source": "google-ai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 6.05,
+  "date": "2026-10-04"
+ },
+ {
+  "key": "eee1364296907665",
+  "title": "X-Tree: Tokenizing Reusable Experience for Efficient Agent Generalization",
+  "url": "https://huggingface.co/papers/2609.32993",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 5.66,
+  "date": "2026-10-04"
+ },
+ {
+  "key": "fde0d4ff8fcc93ed",
+  "title": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
+  "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
+  "source": "nvidia-genai",
+  "axes": [
+   "infra",
+   "model",
+   "threed"
+  ],
+  "score": 5.23,
+  "date": "2026-10-04"
+ },
+ {
+  "key": "05ca774607db5bd1",
+  "title": "On-Policy or Off-Policy Learning? A Systematic Study of Distillation Dynamics",
+  "url": "https://huggingface.co/papers/2609.35259",
+  "source": "hf-papers",
+  "axes": [
+   "image",
+   "model",
+   "threed",
+   "video"
+  ],
+  "score": 5.12,
+  "date": "2026-10-04"
+ }
+]
