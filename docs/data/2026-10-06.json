@@ -1,0 +1,200 @@
+[
+ {
+  "key": "00fcc367a62f25ba",
+  "title": "Beam: Reflection's 501B open-weight model",
+  "url": "https://reflection.ai/blog/introducing-beam",
+  "source": "hackernews",
+  "axes": [
+   "model"
+  ],
+  "score": 8.82,
+  "date": "2026-10-06"
+ },
+ {
+  "key": "9814af4d45675220",
+  "title": "Introducing GPT-6.1 Sol",
+  "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+  "source": "openai",
+  "axes": [
+   "model"
+  ],
+  "score": 7.91,
+  "date": "2026-10-06"
+ },
+ {
+  "key": "283217585fec065e",
+  "title": "Kandinsky 6.0 Video: Foundation Models for Synchronized Video and Audio Generation",
+  "url": "https://huggingface.co/papers/2610.05608",
+  "source": "hf-papers",
+  "axes": [
+   "model",
+   "people",
+   "video"
+  ],
+  "score": 7.56,
+  "date": "2026-10-06"
+ },
+ {
+  "key": "d2948d50e301b941",
+  "title": "Learning to Read the Contextual Tokens in Diffusion Transformers",
+  "url": "https://arxiv.org/abs/2610.06844v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "image",
+   "model"
+  ],
+  "score": 7.28,
+  "date": "2026-10-06"
+ },
+ {
+  "key": "c5d659ef41b9822e",
+  "title": "New Audio video model : Kandinsky 6 from their lab",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wyvnga/new_audio_video_model_kandinsky_6_from_their_lab/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "model",
+   "video"
+  ],
+  "score": 6.81,
+  "date": "2026-10-06"
+ },
+ {
+  "key": "9ea16ae8b75b0d95",
+  "title": "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance",
+  "url": "https://huggingface.co/blog/tiiuae/falcon-emirati",
+  "source": "huggingface-blog",
+  "axes": [
+   "model"
+  ],
+  "score": 6.66,
+  "date": "2026-10-06"
+ },
+ {
+  "key": "33e5070ace3e5585",
+  "title": "A benchmark for LLMs playing Civilization V. GLM-5.3 is ahead of Opus-5.5, and Qwen-3.8-27B holds up surprisingly well.",
+  "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wynbvq/a_benchmark_for_llms_playing_civilization_v_glm53/",
+  "source": "reddit-localllama",
+  "axes": [
+   "model"
+  ],
+  "score": 6.54,
+  "date": "2026-10-06"
+ },
+ {
+  "key": "e105756c1a22ebe0",
+  "title": "Rethinking Long-Video Efficiency: A Joint Allocation Perspective on Frames, Pixels, and Front-End Latency",
+  "url": "https://huggingface.co/papers/2610.04318",
+  "source": "hf-papers",
+  "axes": [
+   "infra",
+   "model",
+   "video"
+  ],
+  "score": 6.53,
+  "date": "2026-10-06"
+ },
+ {
+  "key": "5209bbd6b939812e",
+  "title": "Web Search API",
+  "url": "https://developers.cloudflare.com/changelog/post/2026-10-02-introducing-web-search-api/",
+  "source": "hackernews",
+  "axes": [
+   "infra"
+  ],
+  "score": 3.43,
+  "date": "2026-10-06"
+ },
+ {
+  "key": "df6d14660eb0a7c0",
+  "title": "Anthropic reported diary entry to police, woman faces felony charge",
+  "url": "https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 7.0,
+  "date": "2026-10-06"
+ },
+ {
+  "key": "ea08431af22072d1",
+  "title": "ALoDLM: Adaptively Looped Diffusion Language Models",
+  "url": "https://huggingface.co/papers/2610.04198",
+  "source": "hf-papers",
+  "axes": [
+   "image"
+  ],
+  "score": 6.43,
+  "date": "2026-10-06"
+ },
+ {
+  "key": "5717dbe2ac57fbb1",
+  "title": "Noise Out, Bias In: Targeted Bias Injection in Diffusion Language Models via Closed-Loop Activation Steering",
+  "url": "https://huggingface.co/papers/2610.05894",
+  "source": "hf-papers",
+  "axes": [
+   "image"
+  ],
+  "score": 6.37,
+  "date": "2026-10-06"
+ },
+ {
+  "key": "a3f33bff5fc73770",
+  "title": "InterMimicGen: Scaling Humanoid Loco-Manipulation through Self-Evolving Motion Imitation",
+  "url": "https://arxiv.org/abs/2610.06850v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "video"
+  ],
+  "score": 6.35,
+  "date": "2026-10-06"
+ },
+ {
+  "key": "7c6f06a33307cc5e",
+  "title": "S2PD: Serial-to-Parallel Diffusion for Physically and Logically Consistent Video Generation",
+  "url": "https://arxiv.org/abs/2610.06847v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "image",
+   "video"
+  ],
+  "score": 6.19,
+  "date": "2026-10-06"
+ },
+ {
+  "key": "a621c3f77fba123d",
+  "title": "Prism (Tencent Hunyuan + Fudan) just dropped a preview: native 2K video + audio, MIT license",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wywpt7/prism_tencent_hunyuan_fudan_just_dropped_a/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "video"
+  ],
+  "score": 6.14,
+  "date": "2026-10-06"
+ },
+ {
+  "key": "a0ba6b9344a3f80c",
+  "title": "Reka Releases Rho-1: A 19B Omni-Reasoning Model That Understands, Generates Video and Outputs Robot Actions in One",
+  "url": "https://www.marktechpost.com/2026/10/05/reka-releases-rho-1-a-19b-omni-reasoning-model-that-understands-generates-video-and-outputs-robot-actions-in-one/",
+  "source": "marktechpost",
+  "axes": [
+   "model",
+   "video"
+  ],
+  "score": 5.81,
+  "date": "2026-10-06"
+ },
+ {
+  "key": "807dfc6266ccba90",
+  "title": "Qwen3.8 27B addition in words",
+  "url": "https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words/",
+  "source": "simonwillison",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 5.56,
+  "date": "2026-10-06"
+ }
+]
