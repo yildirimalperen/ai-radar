@@ -7,7 +7,7 @@
   "axes": [
    "model"
   ],
-  "score": 8.82,
+  "score": 8.71,
   "date": "2026-10-06"
  },
  {
@@ -22,19 +22,6 @@
   "date": "2026-10-06"
  },
  {
-  "key": "283217585fec065e",
-  "title": "Kandinsky 6.0 Video: Foundation Models for Synchronized Video and Audio Generation",
-  "url": "https://huggingface.co/papers/2610.05608",
-  "source": "hf-papers",
-  "axes": [
-   "model",
-   "people",
-   "video"
-  ],
-  "score": 7.56,
-  "date": "2026-10-06"
- },
- {
   "key": "d2948d50e301b941",
   "title": "Learning to Read the Contextual Tokens in Diffusion Transformers",
   "url": "https://arxiv.org/abs/2610.06844v1",
@@ -43,19 +30,19 @@
    "image",
    "model"
   ],
-  "score": 7.28,
+  "score": 7.16,
   "date": "2026-10-06"
  },
  {
-  "key": "c5d659ef41b9822e",
-  "title": "New Audio video model : Kandinsky 6 from their lab",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wyvnga/new_audio_video_model_kandinsky_6_from_their_lab/",
-  "source": "reddit-stablediffusion",
+  "key": "88b29860e572e39c",
+  "title": "Tutorial: How To Model & Rig Umbrella In Blender",
+  "url": "https://80.lv/articles/tutorial-how-to-model-rig-umbrella-in-blender/",
+  "source": "80lv",
   "axes": [
    "model",
-   "video"
+   "threed"
   ],
-  "score": 6.81,
+  "score": 6.61,
   "date": "2026-10-06"
  },
  {
@@ -66,31 +53,41 @@
   "axes": [
    "model"
   ],
-  "score": 6.66,
+  "score": 6.47,
   "date": "2026-10-06"
  },
  {
-  "key": "33e5070ace3e5585",
-  "title": "A benchmark for LLMs playing Civilization V. GLM-5.3 is ahead of Opus-5.5, and Qwen-3.8-27B holds up surprisingly well.",
-  "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wynbvq/a_benchmark_for_llms_playing_civilization_v_glm53/",
-  "source": "reddit-localllama",
+  "key": "9687cd2652a34aeb",
+  "title": "I made a tiny (~8MB) photo editor for AI images with batch editing, LUTs, and ComfyUI workflow preservation [Free & Open Source]",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wz0t47/i_made_a_tiny_8mb_photo_editor_for_ai_images_with/",
+  "source": "reddit-stablediffusion",
   "axes": [
-   "model"
+   "image"
   ],
-  "score": 6.54,
+  "score": 6.35,
   "date": "2026-10-06"
  },
  {
-  "key": "e105756c1a22ebe0",
-  "title": "Rethinking Long-Video Efficiency: A Joint Allocation Perspective on Frames, Pixels, and Front-End Latency",
-  "url": "https://huggingface.co/papers/2610.04318",
-  "source": "hf-papers",
+  "key": "934f1cdd43e14f0a",
+  "title": "Gemini 4 Argon: our next era of frontier intelligence",
+  "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+  "source": "deepmind",
   "axes": [
-   "infra",
    "model",
-   "video"
+   "people"
   ],
-  "score": 6.53,
+  "score": 6.34,
+  "date": "2026-10-06"
+ },
+ {
+  "key": "8ab174a54ce5f0c1",
+  "title": "KREA 2 Realism Workflow",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wyzdjy/krea_2_realism_workflow/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.29,
   "date": "2026-10-06"
  },
  {
@@ -101,7 +98,18 @@
   "axes": [
    "infra"
   ],
-  "score": 3.43,
+  "score": 3.37,
+  "date": "2026-10-06"
+ },
+ {
+  "key": "ff642036c12cff1c",
+  "title": "OpenAI \"rogue\" agent activities found on Wikimedia projects",
+  "url": "https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/",
+  "source": "hackernews",
+  "axes": [
+   "model"
+  ],
+  "score": 7.6,
   "date": "2026-10-06"
  },
  {
@@ -114,29 +122,18 @@
    "model",
    "people"
   ],
-  "score": 7.0,
+  "score": 7.04,
   "date": "2026-10-06"
  },
  {
-  "key": "ea08431af22072d1",
-  "title": "ALoDLM: Adaptively Looped Diffusion Language Models",
-  "url": "https://huggingface.co/papers/2610.04198",
-  "source": "hf-papers",
+  "key": "0f90dc5de46f2308",
+  "title": "ComfyUI v0.39.0 released",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wyyolz/comfyui_v0390_released/",
+  "source": "reddit-stablediffusion",
   "axes": [
    "image"
   ],
-  "score": 6.43,
-  "date": "2026-10-06"
- },
- {
-  "key": "5717dbe2ac57fbb1",
-  "title": "Noise Out, Bias In: Targeted Bias Injection in Diffusion Language Models via Closed-Loop Activation Steering",
-  "url": "https://huggingface.co/papers/2610.05894",
-  "source": "hf-papers",
-  "axes": [
-   "image"
-  ],
-  "score": 6.37,
+  "score": 6.26,
   "date": "2026-10-06"
  },
  {
@@ -147,7 +144,7 @@
   "axes": [
    "video"
   ],
-  "score": 6.35,
+  "score": 6.23,
   "date": "2026-10-06"
  },
  {
@@ -159,7 +156,19 @@
    "image",
    "video"
   ],
-  "score": 6.19,
+  "score": 6.07,
+  "date": "2026-10-06"
+ },
+ {
+  "key": "754efcd307696881",
+  "title": "SearchJev: A Fast and Calibrated System-1 Model for Search Agents",
+  "url": "https://huggingface.co/papers/2610.05107",
+  "source": "hf-papers",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 6.0,
   "date": "2026-10-06"
  },
  {
@@ -170,31 +179,18 @@
   "axes": [
    "video"
   ],
-  "score": 6.14,
+  "score": 5.95,
   "date": "2026-10-06"
  },
  {
-  "key": "a0ba6b9344a3f80c",
-  "title": "Reka Releases Rho-1: A 19B Omni-Reasoning Model That Understands, Generates Video and Outputs Robot Actions in One",
-  "url": "https://www.marktechpost.com/2026/10/05/reka-releases-rho-1-a-19b-omni-reasoning-model-that-understands-generates-video-and-outputs-robot-actions-in-one/",
-  "source": "marktechpost",
+  "key": "9be588a025c1e1d3",
+  "title": "In-Distribution Forcing for Long Video Generation at Test Time",
+  "url": "https://huggingface.co/papers/2610.03120",
+  "source": "hf-papers",
   "axes": [
-   "model",
    "video"
   ],
-  "score": 5.81,
-  "date": "2026-10-06"
- },
- {
-  "key": "807dfc6266ccba90",
-  "title": "Qwen3.8 27B addition in words",
-  "url": "https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words/",
-  "source": "simonwillison",
-  "axes": [
-   "infra",
-   "model"
-  ],
-  "score": 5.56,
+  "score": 5.94,
   "date": "2026-10-06"
  }
 ]
