@@ -1,0 +1,214 @@
+[
+ {
+  "key": "bde955b18de5bcc5",
+  "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+  "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
+  "source": "deepmind",
+  "axes": [
+   "model"
+  ],
+  "score": 11.49,
+  "date": "2026-10-07"
+ },
+ {
+  "key": "909dcd83a07c4ad5",
+  "title": "Sharing AI progress in mathematics",
+  "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+  "source": "openai",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 10.03,
+  "date": "2026-10-07"
+ },
+ {
+  "key": "90b8d6ac8035810b",
+  "title": "Mistral Large 4",
+  "url": "https://mistral.ai/news/mistral-large-4/\\",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 7.49,
+  "date": "2026-10-07"
+ },
+ {
+  "key": "dd84b96c13f042f2",
+  "title": "ReDetail 2.0: LTX-2.5's Refine Details LoRA to 4K Upscale (workflow + CLI)",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wzo33v/redetail_20_ltx25s_refine_details_lora_to_4k/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 7.45,
+  "date": "2026-10-07"
+ },
+ {
+  "key": "d8c74e9a0880305e",
+  "title": "Qwen-Image-2.1-Multiple-Angles-LoRA",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wzoz9g/qwenimage21multipleangleslora/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 7.37,
+  "date": "2026-10-07"
+ },
+ {
+  "key": "9f31576a1da1c5ee",
+  "title": "Mistral Large 4: \"Le Chonk\"",
+  "url": "https://mistral.ai/news/mistral-large-4/",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 7.27,
+  "date": "2026-10-07"
+ },
+ {
+  "key": "6a1252fccd95ccf3",
+  "title": "DuoMatching: Joint-Marginal Distribution Matching for Few-Step Video Generation",
+  "url": "https://huggingface.co/papers/2610.03543",
+  "source": "hf-papers",
+  "axes": [
+   "video"
+  ],
+  "score": 6.21,
+  "date": "2026-10-07"
+ },
+ {
+  "key": "df3bc264c1471ea5",
+  "title": "DepthWorld: 3D World Model for Robot Manipulation",
+  "url": "https://arxiv.org/abs/2610.08780v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "model",
+   "threed",
+   "video"
+  ],
+  "score": 5.98,
+  "date": "2026-10-07"
+ },
+ {
+  "key": "cb79d64031eed9b2",
+  "title": "Sega won't \"entrust the creative aspect of games to AI,\" but is using tech to \"improve efficiency\" in other departments",
+  "url": "https://www.gamesindustry.biz/sega-wont-entrust-the-creative-aspect-of-games-to-ai-but-is-using-tech-to-improve-efficiency-in-other-departments",
+  "source": "gamesindustry",
+  "axes": [
+   "game"
+  ],
+  "score": 5.26,
+  "date": "2026-10-07"
+ },
+ {
+  "key": "c7e310a536b7e36f",
+  "title": "4D-HOF: Hand-Object Flow Matching for Feed-Forward 4D Interaction Reconstruction",
+  "url": "https://arxiv.org/abs/2610.08782v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "game",
+   "image",
+   "threed",
+   "video"
+  ],
+  "score": 4.81,
+  "date": "2026-10-07"
+ },
+ {
+  "key": "81e275ec33ee833c",
+  "title": "llm-openai-decisions 0.1a0",
+  "url": "https://simonwillison.net/2026/Oct/6/llm-openai-decisions/",
+  "source": "simonwillison",
+  "axes": [
+   "model"
+  ],
+  "score": 6.37,
+  "date": "2026-10-07"
+ },
+ {
+  "key": "0140b36e50dc71b8",
+  "title": "OpenTPU – An open-source AI accelerator, developed by AI",
+  "url": "https://github.com/FeSens/openTPU",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 6.37,
+  "date": "2026-10-07"
+ },
+ {
+  "key": "29375d59578e5dab",
+  "title": "TRACE: Rollout-Guided Quantization-Aware Training for FP4 Reinforcement Learning of MoE Language Models",
+  "url": "https://huggingface.co/papers/2610.07767",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 6.35,
+  "date": "2026-10-07"
+ },
+ {
+  "key": "934f1cdd43e14f0a",
+  "title": "Gemini 4 Argon: our next era of frontier intelligence",
+  "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+  "source": "deepmind",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 6.34,
+  "date": "2026-10-07"
+ },
+ {
+  "key": "a5901c0a3450c421",
+  "title": "Introducing Mistral Large 4: Le chonk",
+  "url": "https://simonwillison.net/2026/Oct/6/le-chonk/",
+  "source": "simonwillison",
+  "axes": [
+   "model"
+  ],
+  "score": 6.28,
+  "date": "2026-10-07"
+ },
+ {
+  "key": "165ceb89c83d8f88",
+  "title": "ComfyUI-qwen_img_2_1_enhancer added ref mask support",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wzmhxs/comfyuiqwen_img_2_1_enhancer_added_ref_mask/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.2,
+  "date": "2026-10-07"
+ },
+ {
+  "key": "53f00589a5ec4694",
+  "title": "Mistral AI Releases Mistral Large 4 (Le Chonk): A 1.05T Parameter Multimodal MoE Model",
+  "url": "https://www.marktechpost.com/2026/10/06/mistral-ai-releases-mistral-large-4-le-chonk-a-1-05t-parameter-open-weight-multimodal-moe/",
+  "source": "marktechpost",
+  "axes": [
+   "model"
+  ],
+  "score": 6.16,
+  "date": "2026-10-07"
+ },
+ {
+  "key": "9fd18b69fbc47c61",
+  "title": "EVISKILL: Grounding Skill Evolution in Replayable Evidence",
+  "url": "https://huggingface.co/papers/2610.05030",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 5.68,
+  "date": "2026-10-07"
+ }
+]
