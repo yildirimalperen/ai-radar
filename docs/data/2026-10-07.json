@@ -7,7 +7,7 @@
   "axes": [
    "model"
   ],
-  "score": 11.49,
+  "score": 11.38,
   "date": "2026-10-07"
  },
  {
@@ -20,7 +20,19 @@
    "model",
    "people"
   ],
-  "score": 10.03,
+  "score": 9.95,
+  "date": "2026-10-07"
+ },
+ {
+  "key": "8766c600e51ac42f",
+  "title": "Introducing Playground: Create and play custom games",
+  "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
+  "source": "google-ai",
+  "axes": [
+   "game",
+   "model"
+  ],
+  "score": 8.05,
   "date": "2026-10-07"
  },
  {
@@ -33,18 +45,7 @@
    "model",
    "people"
   ],
-  "score": 7.49,
-  "date": "2026-10-07"
- },
- {
-  "key": "dd84b96c13f042f2",
-  "title": "ReDetail 2.0: LTX-2.5's Refine Details LoRA to 4K Upscale (workflow + CLI)",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wzo33v/redetail_20_ltx25s_refine_details_lora_to_4k/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image"
-  ],
-  "score": 7.45,
+  "score": 7.38,
   "date": "2026-10-07"
  },
  {
@@ -55,31 +56,43 @@
   "axes": [
    "image"
   ],
-  "score": 7.37,
+  "score": 7.17,
   "date": "2026-10-07"
  },
  {
-  "key": "9f31576a1da1c5ee",
-  "title": "Mistral Large 4: \"Le Chonk\"",
-  "url": "https://mistral.ai/news/mistral-large-4/",
-  "source": "hackernews",
+  "key": "ff338fb99e293d5e",
+  "title": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
+  "url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
+  "source": "huggingface-blog",
   "axes": [
-   "infra",
-   "model",
-   "people"
+   "model"
   ],
-  "score": 7.27,
+  "score": 6.71,
   "date": "2026-10-07"
  },
  {
-  "key": "6a1252fccd95ccf3",
-  "title": "DuoMatching: Joint-Marginal Distribution Matching for Few-Step Video Generation",
-  "url": "https://huggingface.co/papers/2610.03543",
+  "key": "494696a0a08df386",
+  "title": "Naruto Shippuden – Hero’s Come Back!! | AI Fanmade MV | MiniMax H3",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wzsucm/naruto_shippuden_heros_come_back_ai_fanmade_mv/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.63,
+  "date": "2026-10-07"
+ },
+ {
+  "key": "59fc5a0e75697071",
+  "title": "Rethinking Cross-Tokenizer On-Policy Distillation: From Alignment Coverage to Supervision Reliability",
+  "url": "https://huggingface.co/papers/2610.08448",
   "source": "hf-papers",
   "axes": [
+   "image",
+   "model",
+   "threed",
    "video"
   ],
-  "score": 6.21,
+  "score": 6.45,
   "date": "2026-10-07"
  },
  {
@@ -92,7 +105,18 @@
    "threed",
    "video"
   ],
-  "score": 5.98,
+  "score": 5.84,
+  "date": "2026-10-07"
+ },
+ {
+  "key": "b064f55914b74a98",
+  "title": "Unity unveils a web-based AI game creation platform",
+  "url": "https://www.gamesindustry.biz/unity-unveils-a-web-based-ai-game-creation-platform",
+  "source": "gamesindustry",
+  "axes": [
+   "game"
+  ],
+  "score": 5.83,
   "date": "2026-10-07"
  },
  {
@@ -103,32 +127,42 @@
   "axes": [
    "game"
   ],
-  "score": 5.26,
+  "score": 5.15,
   "date": "2026-10-07"
  },
  {
-  "key": "c7e310a536b7e36f",
-  "title": "4D-HOF: Hand-Object Flow Matching for Feed-Forward 4D Interaction Reconstruction",
-  "url": "https://arxiv.org/abs/2610.08782v1",
-  "source": "arxiv-cv",
+  "key": "aacebf1e3bb3d1e9",
+  "title": "Decisions API is in public beta",
+  "url": "https://developers.openai.com/api/docs/guides/decisions",
+  "source": "hackernews",
   "axes": [
-   "game",
-   "image",
-   "threed",
-   "video"
+   "infra"
   ],
-  "score": 4.81,
+  "score": 3.73,
   "date": "2026-10-07"
  },
  {
-  "key": "81e275ec33ee833c",
-  "title": "llm-openai-decisions 0.1a0",
-  "url": "https://simonwillison.net/2026/Oct/6/llm-openai-decisions/",
-  "source": "simonwillison",
+  "key": "9f31576a1da1c5ee",
+  "title": "Mistral Large 4: \"Le Chonk\"",
+  "url": "https://mistral.ai/news/mistral-large-4/",
+  "source": "hackernews",
   "axes": [
-   "model"
+   "infra",
+   "model",
+   "people"
   ],
-  "score": 6.37,
+  "score": 7.16,
+  "date": "2026-10-07"
+ },
+ {
+  "key": "add14d1b0d98829b",
+  "title": "VEDA Sparse Attention is now available for MiniMax H3 in ComfyUI",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wzskwy/veda_sparse_attention_is_now_available_for/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.62,
   "date": "2026-10-07"
  },
  {
@@ -140,17 +174,6 @@
    "infra",
    "model",
    "people"
-  ],
-  "score": 6.37,
-  "date": "2026-10-07"
- },
- {
-  "key": "29375d59578e5dab",
-  "title": "TRACE: Rollout-Guided Quantization-Aware Training for FP4 Reinforcement Learning of MoE Language Models",
-  "url": "https://huggingface.co/papers/2610.07767",
-  "source": "hf-papers",
-  "axes": [
-   "model"
   ],
   "score": 6.35,
   "date": "2026-10-07"
@@ -168,10 +191,10 @@
   "date": "2026-10-07"
  },
  {
-  "key": "a5901c0a3450c421",
-  "title": "Introducing Mistral Large 4: Le chonk",
-  "url": "https://simonwillison.net/2026/Oct/6/le-chonk/",
-  "source": "simonwillison",
+  "key": "29375d59578e5dab",
+  "title": "TRACE: Rollout-Guided Quantization-Aware Training for FP4 Reinforcement Learning of MoE Language Models",
+  "url": "https://huggingface.co/papers/2610.07767",
+  "source": "hf-papers",
   "axes": [
    "model"
   ],
@@ -179,14 +202,25 @@
   "date": "2026-10-07"
  },
  {
-  "key": "165ceb89c83d8f88",
-  "title": "ComfyUI-qwen_img_2_1_enhancer added ref mask support",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1wzmhxs/comfyuiqwen_img_2_1_enhancer_added_ref_mask/",
-  "source": "reddit-stablediffusion",
+  "key": "81e275ec33ee833c",
+  "title": "llm-openai-decisions 0.1a0",
+  "url": "https://simonwillison.net/2026/Oct/6/llm-openai-decisions/",
+  "source": "simonwillison",
   "axes": [
-   "image"
+   "model"
   ],
-  "score": 6.2,
+  "score": 6.21,
+  "date": "2026-10-07"
+ },
+ {
+  "key": "a5901c0a3450c421",
+  "title": "Introducing Mistral Large 4: Le chonk",
+  "url": "https://simonwillison.net/2026/Oct/6/le-chonk/",
+  "source": "simonwillison",
+  "axes": [
+   "model"
+  ],
+  "score": 6.14,
   "date": "2026-10-07"
  },
  {
@@ -197,18 +231,7 @@
   "axes": [
    "model"
   ],
-  "score": 6.16,
-  "date": "2026-10-07"
- },
- {
-  "key": "9fd18b69fbc47c61",
-  "title": "EVISKILL: Grounding Skill Evolution in Replayable Evidence",
-  "url": "https://huggingface.co/papers/2610.05030",
-  "source": "hf-papers",
-  "axes": [
-   "model"
-  ],
-  "score": 5.68,
+  "score": 6.02,
   "date": "2026-10-07"
  }
 ]
