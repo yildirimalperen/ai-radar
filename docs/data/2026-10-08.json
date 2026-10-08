@@ -1,0 +1,237 @@
+[
+ {
+  "key": "909dcd83a07c4ad5",
+  "title": "Sharing AI progress in mathematics",
+  "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+  "source": "openai",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 9.71,
+  "date": "2026-10-08"
+ },
+ {
+  "key": "557417b3d3b35d57",
+  "title": "GPT-6 and Intelligent UI for everyone",
+  "url": "https://openai.com/index/gpt-6-for-everyone",
+  "source": "openai",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 9.23,
+  "date": "2026-10-08"
+ },
+ {
+  "key": "63f264c4a096c6fa",
+  "title": "GRACE: Generation-aware latent compression for efficient video generation",
+  "url": "https://huggingface.co/papers/2610.10524",
+  "source": "hf-papers",
+  "axes": [
+   "video"
+  ],
+  "score": 8.24,
+  "date": "2026-10-08"
+ },
+ {
+  "key": "e52d2e2f5509dc6f",
+  "title": "Claude Haiku 5.5",
+  "url": "https://www.anthropic.com/claude-haiku-5-5",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 7.47,
+  "date": "2026-10-08"
+ },
+ {
+  "key": "b781f81c848c1fae",
+  "title": "minimax h3 person remover lora is out",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x0kokb/minimax_h3_person_remover_lora_is_out/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.94,
+  "date": "2026-10-08"
+ },
+ {
+  "key": "fb05c4da1d8a7a4e",
+  "title": "Recursive Game Creator: An Agentic Product-Level Experience-Oriented Game Harness",
+  "url": "https://huggingface.co/papers/2610.08621",
+  "source": "hf-papers",
+  "axes": [
+   "game"
+  ],
+  "score": 6.85,
+  "date": "2026-10-08"
+ },
+ {
+  "key": "92e11ed1f5033420",
+  "title": "Unity Spark Puts Artist-Made Assets Inside an AI-Assisted Game Editor",
+  "url": "https://80.lv/articles/unity-spark-puts-artist-made-assets-inside-an-ai-assisted-game-editor/",
+  "source": "80lv",
+  "axes": [
+   "game"
+  ],
+  "score": 6.46,
+  "date": "2026-10-08"
+ },
+ {
+  "key": "61a1bebfa79e5ab8",
+  "title": "Meta and Microsoft take steps to reduce employee usage of Claude AI",
+  "url": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 6.44,
+  "date": "2026-10-08"
+ },
+ {
+  "key": "1ca2b4003af84a32",
+  "title": "Mastering Stylized Characters with Character Creator 5 & Headshot 3",
+  "url": "https://80.lv/articles/mastering-stylized-characters-with-character-creator-5-headshot-3/",
+  "source": "80lv",
+  "axes": [
+   "threed"
+  ],
+  "score": 6.18,
+  "date": "2026-10-08"
+ },
+ {
+  "key": "6c50624c38e284fb",
+  "title": "DynaConTalk: Wavelet-Constrained Diffusion for Long-Form and Controllable Holistic Co-Speech 3D Motion",
+  "url": "https://arxiv.org/abs/2610.09846v1",
+  "source": "arxiv-gr",
+  "axes": [
+   "image",
+   "model",
+   "threed",
+   "video"
+  ],
+  "score": 6.02,
+  "date": "2026-10-08"
+ },
+ {
+  "key": "3c6a9ff5380fb3b0",
+  "title": "TRACK: Telemetry-Based Racing Analysis and Coaching Kit in Sim Racing Games",
+  "url": "https://arxiv.org/abs/2610.10061v1",
+  "source": "arxiv-gr",
+  "axes": [
+   "game"
+  ],
+  "score": 5.25,
+  "date": "2026-10-08"
+ },
+ {
+  "key": "e332d106dd91eb81",
+  "title": "H3 Long Shot API",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x0hzgl/h3_long_shot_api/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "infra"
+  ],
+  "score": 4.69,
+  "date": "2026-10-08"
+ },
+ {
+  "key": "b12c7a2ea515a366",
+  "title": "SGF+: Decoupling Gradient Flows for Autoregressive Video Generation",
+  "url": "https://huggingface.co/papers/2610.10429",
+  "source": "hf-papers",
+  "axes": [
+   "model",
+   "video"
+  ],
+  "score": 7.62,
+  "date": "2026-10-08"
+ },
+ {
+  "key": "a998f81542c7f698",
+  "title": "VepAgent: Bridging Causal-Transition via Tool-Augmented Reinforcement Learning for Video Event Prediction",
+  "url": "https://huggingface.co/papers/2610.06293",
+  "source": "hf-papers",
+  "axes": [
+   "model",
+   "video"
+  ],
+  "score": 7.05,
+  "date": "2026-10-08"
+ },
+ {
+  "key": "934f1cdd43e14f0a",
+  "title": "Gemini 4 Argon: our next era of frontier intelligence",
+  "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+  "source": "deepmind",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 6.34,
+  "date": "2026-10-08"
+ },
+ {
+  "key": "dbc98e98b38fd668",
+  "title": "I’ve trained 100+ Krea 2 character LoRAs. Here’s what actually determines likeness.",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x0imbp/ive_trained_100_krea_2_character_loras_heres_what/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "threed"
+  ],
+  "score": 6.32,
+  "date": "2026-10-08"
+ },
+ {
+  "key": "202f45056277a9ab",
+  "title": "My Workflow for realism with Qwen 2.1",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x0jmuw/my_workflow_for_realism_with_qwen_21/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.3,
+  "date": "2026-10-08"
+ },
+ {
+  "key": "7ceb638528a59b33",
+  "title": "Multimodal open d1 decision models for the edge",
+  "url": "https://huggingface.co/blog/LiquidAI/open-d1",
+  "source": "huggingface-blog",
+  "axes": [
+   "model"
+  ],
+  "score": 6.18,
+  "date": "2026-10-08"
+ },
+ {
+  "key": "894cc5c8f4e13e9d",
+  "title": "Video-Conditioned Generative Joint 2D-3D Hand Motion Recovery",
+  "url": "https://arxiv.org/abs/2610.10512v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "threed",
+   "video"
+  ],
+  "score": 5.97,
+  "date": "2026-10-08"
+ },
+ {
+  "key": "02aea0b67e5568a8",
+  "title": "Introducing SynthID Bio",
+  "url": "https://deepmind.google/blog/introducing-synthid-bio/",
+  "source": "deepmind",
+  "axes": [
+   "model"
+  ],
+  "score": 5.92,
+  "date": "2026-10-08"
+ }
+]
