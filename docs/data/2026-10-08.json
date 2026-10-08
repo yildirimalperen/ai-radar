@@ -9,7 +9,7 @@
    "model",
    "people"
   ],
-  "score": 9.71,
+  "score": 9.66,
   "date": "2026-10-08"
  },
  {
@@ -22,7 +22,7 @@
    "model",
    "people"
   ],
-  "score": 9.23,
+  "score": 9.29,
   "date": "2026-10-08"
  },
  {
@@ -33,7 +33,7 @@
   "axes": [
    "video"
   ],
-  "score": 8.24,
+  "score": 8.13,
   "date": "2026-10-08"
  },
  {
@@ -46,18 +46,7 @@
    "model",
    "people"
   ],
-  "score": 7.47,
-  "date": "2026-10-08"
- },
- {
-  "key": "b781f81c848c1fae",
-  "title": "minimax h3 person remover lora is out",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x0kokb/minimax_h3_person_remover_lora_is_out/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image"
-  ],
-  "score": 6.94,
+  "score": 7.34,
   "date": "2026-10-08"
  },
  {
@@ -68,102 +57,29 @@
   "axes": [
    "game"
   ],
-  "score": 6.85,
+  "score": 6.9,
   "date": "2026-10-08"
  },
  {
-  "key": "92e11ed1f5033420",
-  "title": "Unity Spark Puts Artist-Made Assets Inside an AI-Assisted Game Editor",
-  "url": "https://80.lv/articles/unity-spark-puts-artist-made-assets-inside-an-ai-assisted-game-editor/",
+  "key": "c70b11b1e49efcf0",
+  "title": "Google Released Its Own Game Creation Platform",
+  "url": "https://80.lv/articles/google-released-its-own-game-creation-platform/",
   "source": "80lv",
   "axes": [
    "game"
   ],
-  "score": 6.46,
+  "score": 6.83,
   "date": "2026-10-08"
  },
  {
-  "key": "61a1bebfa79e5ab8",
-  "title": "Meta and Microsoft take steps to reduce employee usage of Claude AI",
-  "url": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/",
-  "source": "hackernews",
-  "axes": [
-   "infra",
-   "model",
-   "people"
-  ],
-  "score": 6.44,
-  "date": "2026-10-08"
- },
- {
-  "key": "1ca2b4003af84a32",
-  "title": "Mastering Stylized Characters with Character Creator 5 & Headshot 3",
-  "url": "https://80.lv/articles/mastering-stylized-characters-with-character-creator-5-headshot-3/",
-  "source": "80lv",
-  "axes": [
-   "threed"
-  ],
-  "score": 6.18,
-  "date": "2026-10-08"
- },
- {
-  "key": "6c50624c38e284fb",
-  "title": "DynaConTalk: Wavelet-Constrained Diffusion for Long-Form and Controllable Holistic Co-Speech 3D Motion",
-  "url": "https://arxiv.org/abs/2610.09846v1",
-  "source": "arxiv-gr",
-  "axes": [
-   "image",
-   "model",
-   "threed",
-   "video"
-  ],
-  "score": 6.02,
-  "date": "2026-10-08"
- },
- {
-  "key": "3c6a9ff5380fb3b0",
-  "title": "TRACK: Telemetry-Based Racing Analysis and Coaching Kit in Sim Racing Games",
-  "url": "https://arxiv.org/abs/2610.10061v1",
-  "source": "arxiv-gr",
-  "axes": [
-   "game"
-  ],
-  "score": 5.25,
-  "date": "2026-10-08"
- },
- {
-  "key": "e332d106dd91eb81",
-  "title": "H3 Long Shot API",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x0hzgl/h3_long_shot_api/",
+  "key": "b781f81c848c1fae",
+  "title": "minimax h3 person remover lora is out",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x0kokb/minimax_h3_person_remover_lora_is_out/",
   "source": "reddit-stablediffusion",
   "axes": [
-   "infra"
+   "image"
   ],
-  "score": 4.69,
-  "date": "2026-10-08"
- },
- {
-  "key": "b12c7a2ea515a366",
-  "title": "SGF+: Decoupling Gradient Flows for Autoregressive Video Generation",
-  "url": "https://huggingface.co/papers/2610.10429",
-  "source": "hf-papers",
-  "axes": [
-   "model",
-   "video"
-  ],
-  "score": 7.62,
-  "date": "2026-10-08"
- },
- {
-  "key": "a998f81542c7f698",
-  "title": "VepAgent: Bridging Causal-Transition via Tool-Augmented Reinforcement Learning for Video Event Prediction",
-  "url": "https://huggingface.co/papers/2610.06293",
-  "source": "hf-papers",
-  "axes": [
-   "model",
-   "video"
-  ],
-  "score": 7.05,
+  "score": 6.74,
   "date": "2026-10-08"
  },
  {
@@ -179,25 +95,78 @@
   "date": "2026-10-08"
  },
  {
-  "key": "dbc98e98b38fd668",
-  "title": "I’ve trained 100+ Krea 2 character LoRAs. Here’s what actually determines likeness.",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x0imbp/ive_trained_100_krea_2_character_loras_heres_what/",
+  "key": "5216133f997d92e7",
+  "title": "[H3 Degradation] My turn! attempts to fixing motion-context degradation.",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x0nbr5/h3_degradation_my_turn_attempts_to_fixing/",
   "source": "reddit-stablediffusion",
   "axes": [
-   "threed"
+   "video"
   ],
-  "score": 6.32,
+  "score": 6.04,
   "date": "2026-10-08"
  },
  {
-  "key": "202f45056277a9ab",
-  "title": "My Workflow for realism with Qwen 2.1",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x0jmuw/my_workflow_for_realism_with_qwen_21/",
-  "source": "reddit-stablediffusion",
+  "key": "6c50624c38e284fb",
+  "title": "DynaConTalk: Wavelet-Constrained Diffusion for Long-Form and Controllable Holistic Co-Speech 3D Motion",
+  "url": "https://arxiv.org/abs/2610.09846v1",
+  "source": "arxiv-gr",
   "axes": [
-   "image"
+   "image",
+   "model",
+   "threed",
+   "video"
   ],
-  "score": 6.3,
+  "score": 5.92,
+  "date": "2026-10-08"
+ },
+ {
+  "key": "3c6a9ff5380fb3b0",
+  "title": "TRACK: Telemetry-Based Racing Analysis and Coaching Kit in Sim Racing Games",
+  "url": "https://arxiv.org/abs/2610.10061v1",
+  "source": "arxiv-gr",
+  "axes": [
+   "game"
+  ],
+  "score": 5.14,
+  "date": "2026-10-08"
+ },
+ {
+  "key": "8ea4f1e3b45b0576",
+  "title": "Minecraft Meets Deadlock In This Ambitious Mod & It's Not AI",
+  "url": "https://80.lv/articles/minecraft-meets-deadlock-in-this-ambitious-mod-it-s-not-ai/",
+  "source": "80lv",
+  "axes": [
+   "game",
+   "image",
+   "threed"
+  ],
+  "score": 5.01,
+  "date": "2026-10-08"
+ },
+ {
+  "key": "a998f81542c7f698",
+  "title": "VepAgent: Bridging Causal-Transition via Tool-Augmented Reinforcement Learning for Video Event Prediction",
+  "url": "https://huggingface.co/papers/2610.06293",
+  "source": "hf-papers",
+  "axes": [
+   "model",
+   "video"
+  ],
+  "score": 7.02,
+  "date": "2026-10-08"
+ },
+ {
+  "key": "33a160bb46ad7f6e",
+  "title": "Long-WAM: Scaling the Context of World-Action Models",
+  "url": "https://huggingface.co/papers/2610.10528",
+  "source": "hf-papers",
+  "axes": [
+   "image",
+   "model",
+   "threed",
+   "video"
+  ],
+  "score": 6.91,
   "date": "2026-10-08"
  },
  {
@@ -208,17 +177,27 @@
   "axes": [
    "model"
   ],
-  "score": 6.18,
+  "score": 6.05,
   "date": "2026-10-08"
  },
  {
-  "key": "894cc5c8f4e13e9d",
-  "title": "Video-Conditioned Generative Joint 2D-3D Hand Motion Recovery",
-  "url": "https://arxiv.org/abs/2610.10512v1",
-  "source": "arxiv-cv",
+  "key": "14358a4b9aae771d",
+  "title": "Qwen 2.1 image character sheet experiment",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x0mu0k/qwen_21_image_character_sheet_experiment/",
+  "source": "reddit-stablediffusion",
   "axes": [
-   "threed",
-   "video"
+   "threed"
+  ],
+  "score": 6.02,
+  "date": "2026-10-08"
+ },
+ {
+  "key": "511bf76a4df55a79",
+  "title": "Introducing Falcon ASR",
+  "url": "https://huggingface.co/blog/tiiuae/falcon-asr",
+  "source": "huggingface-blog",
+  "axes": [
+   "model"
   ],
   "score": 5.97,
   "date": "2026-10-08"
@@ -232,6 +211,31 @@
    "model"
   ],
   "score": 5.92,
+  "date": "2026-10-08"
+ },
+ {
+  "key": "894cc5c8f4e13e9d",
+  "title": "Video-Conditioned Generative Joint 2D-3D Hand Motion Recovery",
+  "url": "https://arxiv.org/abs/2610.10512v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "threed",
+   "video"
+  ],
+  "score": 5.84,
+  "date": "2026-10-08"
+ },
+ {
+  "key": "61a1bebfa79e5ab8",
+  "title": "Meta and Microsoft take steps to reduce employee usage of Claude AI",
+  "url": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 5.67,
   "date": "2026-10-08"
  }
 ]
