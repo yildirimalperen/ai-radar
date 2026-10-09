@@ -285,7 +285,7 @@
 <div class="empty" id="empty" hidden>Eşleşen madde yok.</div>
 
 <footer>
-  <nav><b>9 Ekim 2026</b> <a href="archive/2026-10-08.html">8 Ekim 2026</a> <a href="archive/2026-10-07.html">7 Ekim 2026</a> <a href="archive/2026-10-06.html">6 Ekim 2026</a> <a href="archive/2026-10-05.html">5 Ekim 2026</a> <a href="archive/2026-10-04.html">4 Ekim 2026</a> <a href="archive/2026-10-03.html">3 Ekim 2026</a> <a href="archive/2026-10-02.html">2 Ekim 2026</a> <a href="archive/2026-10-01.html">1 Ekim 2026</a> <a href="archive/2026-09-30.html">30 Eylül 2026</a></nav>
+  <nav><b>9 Ekim 2026</b> <a href="2026-10-08.html">8 Ekim 2026</a> <a href="2026-10-07.html">7 Ekim 2026</a> <a href="2026-10-06.html">6 Ekim 2026</a> <a href="2026-10-05.html">5 Ekim 2026</a> <a href="2026-10-04.html">4 Ekim 2026</a> <a href="2026-10-03.html">3 Ekim 2026</a> <a href="2026-10-02.html">2 Ekim 2026</a> <a href="2026-10-01.html">1 Ekim 2026</a> <a href="2026-09-30.html">30 Eylül 2026</a></nav>
   <div style="margin-top:10px">
     2026-10-09 09:13 UTC · işaretler yalnız bu tarayıcıda saklanır ·
     <a href="#" id="reset">sıfırla</a>
@@ -351,7 +351,7 @@ function wireMarks(root) {
 let archive = null;
 async function loadArchive() {
   if (!archive) {
-    try { archive = await (await fetch("data/index.json")).json(); }
+    try { archive = await (await fetch("../data/index.json")).json(); }
     catch (e) { archive = { items: [] }; }
   }
   return archive;
