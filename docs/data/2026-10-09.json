@@ -8,44 +8,44 @@
    "threed",
    "video"
   ],
-  "score": 9.79,
+  "score": 9.77,
   "date": "2026-10-09"
  },
  {
-  "key": "557417b3d3b35d57",
-  "title": "GPT-6 and Intelligent UI for everyone",
-  "url": "https://openai.com/index/gpt-6-for-everyone",
-  "source": "openai",
+  "key": "de91d1d76f2738e8",
+  "title": "I'm learning inference engineering, so I tried to run a 22B video model (LTX-2.5, unquantized, with audio) on my laptop's integrated GPU",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x1fe3c/im_learning_inference_engineering_so_i_tried_to/",
+  "source": "reddit-stablediffusion",
   "axes": [
    "infra",
    "model",
-   "people"
-  ],
-  "score": 9.51,
-  "date": "2026-10-09"
- },
- {
-  "key": "6145da01f4aa03b5",
-  "title": "DreamTrue: Action-Faithful Robot World Model with Counterfactual Post-Training",
-  "url": "https://huggingface.co/papers/2610.12468",
-  "source": "hf-papers",
-  "axes": [
-   "model",
    "video"
   ],
-  "score": 8.6,
+  "score": 8.07,
   "date": "2026-10-09"
  },
  {
-  "key": "0e24a7c40959a01d",
-  "title": "Vigglorious Studio : better character accuracy through attention-masked swapped guided keyframes and multiple reference pics for long chunked-videos",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x16oy5/vigglorious_studio_better_character_accuracy/",
+  "key": "5f8b9ae1c4d8ded1",
+  "title": "Update on my Asian Character LoRA for Krea 2",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x1gerw/update_on_my_asian_character_lora_for_krea_2/",
   "source": "reddit-stablediffusion",
   "axes": [
    "image",
    "threed"
   ],
-  "score": 6.87,
+  "score": 7.32,
+  "date": "2026-10-09"
+ },
+ {
+  "key": "8ff5e882a027225a",
+  "title": "MiMo-V2.6: Scaling Reinforcement Learning Towards Self-Improvement",
+  "url": "https://huggingface.co/papers/2610.11959",
+  "source": "hf-papers",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 6.92,
   "date": "2026-10-09"
  },
  {
@@ -56,7 +56,7 @@
   "axes": [
    "game"
   ],
-  "score": 6.85,
+  "score": 6.66,
   "date": "2026-10-09"
  },
  {
@@ -72,12 +72,14 @@
   "date": "2026-10-09"
  },
  {
-  "key": "015afe08c066b7a5",
-  "title": "Last Week in AI #346 - 719 math manuscripts, 2 Western open models, 1 more safety resignation",
-  "url": "https://lastweekin.ai/p/last-week-in-ai-346-719-math-manuscripts",
-  "source": "last-week-in-ai",
+  "key": "e52d2e2f5509dc6f",
+  "title": "Claude Haiku 5.5",
+  "url": "https://www.anthropic.com/claude-haiku-5-5",
+  "source": "hackernews",
   "axes": [
-   "model"
+   "infra",
+   "model",
+   "people"
   ],
   "score": 6.08,
   "date": "2026-10-09"
@@ -92,7 +94,7 @@
    "model",
    "people"
   ],
-  "score": 6.08,
+  "score": 5.99,
   "date": "2026-10-09"
  },
  {
@@ -104,18 +106,19 @@
    "model",
    "video"
   ],
-  "score": 5.86,
+  "score": 5.74,
   "date": "2026-10-09"
  },
  {
-  "key": "a9c4fe471be7f7ef",
-  "title": "Experience with 3DGS in GameDev",
-  "url": "https://www.reddit.com/r/gamedev/comments/1x1ebs4/experience_with_3dgs_in_gamedev/",
-  "source": "reddit-gamedev",
+  "key": "6145da01f4aa03b5",
+  "title": "DreamTrue: Action-Faithful Robot World Model with Counterfactual Post-Training",
+  "url": "https://huggingface.co/papers/2610.12468",
+  "source": "hf-papers",
   "axes": [
-   "game"
+   "model",
+   "video"
   ],
-  "score": 5.81,
+  "score": 8.52,
   "date": "2026-10-09"
  },
  {
@@ -127,29 +130,29 @@
    "model",
    "video"
   ],
-  "score": 7.46,
+  "score": 7.41,
   "date": "2026-10-09"
  },
  {
-  "key": "cada38b23c49f73a",
-  "title": "TokenRouter: Efficient Serving System for Token-Level LLM Routing",
-  "url": "https://huggingface.co/papers/2610.12242",
-  "source": "hf-papers",
-  "axes": [
-   "model"
-  ],
-  "score": 6.95,
-  "date": "2026-10-09"
- },
- {
-  "key": "c69d1385fe0e294b",
-  "title": "In Minimax H3 Reference Mode: If your model not following prompt - copy/paste prompt several times",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x19pqm/in_minimax_h3_reference_mode_if_your_model_not/",
+  "key": "1c22ab3f43d04455",
+  "title": "MiniMax H3: Create More, Fix Less | OBVPM",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x1inah/minimax_h3_create_more_fix_less_obvpm/",
   "source": "reddit-stablediffusion",
   "axes": [
+   "image"
+  ],
+  "score": 6.9,
+  "date": "2026-10-09"
+ },
+ {
+  "key": "015afe08c066b7a5",
+  "title": "Last Week in AI #346 - 719 math manuscripts, 2 Western open models, 1 more safety resignation",
+  "url": "https://lastweekin.ai/p/last-week-in-ai-346-719-math-manuscripts",
+  "source": "last-week-in-ai",
+  "axes": [
    "model"
   ],
-  "score": 6.07,
+  "score": 5.91,
   "date": "2026-10-09"
  },
  {
@@ -160,7 +163,31 @@
   "axes": [
    "model"
   ],
-  "score": 5.82,
+  "score": 5.76,
+  "date": "2026-10-09"
+ },
+ {
+  "key": "2e629c11927132c4",
+  "title": "Qwen Image 2.1 isn't really great to use, but I still have a special soft spot for it.",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x1iqaw/qwen_image_21_isnt_really_great_to_use_but_i/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 5.62,
+  "date": "2026-10-09"
+ },
+ {
+  "key": "46c71ac229c0d728",
+  "title": "I gave Opus 5.5 one prompt and six hours to visualize Invisible Cities",
+  "url": "https://quesma.com/blog/invisible-cities-one-shot/",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 5.6,
   "date": "2026-10-09"
  },
  {
@@ -172,40 +199,7 @@
    "model",
    "people"
   ],
-  "score": 5.73,
-  "date": "2026-10-09"
- },
- {
-  "key": "db5b0d42d60c487b",
-  "title": "Hunyuan Image 3 vs Qwen Image 2.1 vs Krea 2 Turbo",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x194ir/hunyuan_image_3_vs_qwen_image_21_vs_krea_2_turbo/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image"
-  ],
-  "score": 5.43,
-  "date": "2026-10-09"
- },
- {
-  "key": "7e512e6f1b744e63",
-  "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
-  "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
-  "source": "huggingface-blog",
-  "axes": [
-   "model"
-  ],
-  "score": 5.42,
-  "date": "2026-10-09"
- },
- {
-  "key": "7a34a217f5d62f99",
-  "title": "Rubric-CEPR: Self-Evolving Image Editing via Reward-Verified Self-Distillation",
-  "url": "https://arxiv.org/abs/2610.12469v1",
-  "source": "arxiv-cv",
-  "axes": [
-   "image"
-  ],
-  "score": 5.36,
+  "score": 5.55,
   "date": "2026-10-09"
  }
 ]
