@@ -7,18 +7,7 @@
   "axes": [
    "model"
   ],
-  "score": 8.45,
-  "date": "2026-10-10"
- },
- {
-  "key": "f185e34686c260a9",
-  "title": "Another Set of Qwen Image 2.1 vs Qwen Image 2.1 Turbo Comparisons",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x21m29/another_set_of_qwen_image_21_vs_qwen_image_21/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image"
-  ],
-  "score": 7.16,
+  "score": 8.37,
   "date": "2026-10-10"
  },
  {
@@ -31,18 +20,7 @@
    "infra",
    "model"
   ],
-  "score": 6.96,
-  "date": "2026-10-10"
- },
- {
-  "key": "c0c78904022d8dc8",
-  "title": "MiniMax H3: Remove People from Videos in ComfyUI",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x2481c/minimax_h3_remove_people_from_videos_in_comfyui/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image"
-  ],
-  "score": 6.77,
+  "score": 6.93,
   "date": "2026-10-10"
  },
  {
@@ -54,7 +32,29 @@
    "image",
    "model"
   ],
-  "score": 6.74,
+  "score": 6.62,
+  "date": "2026-10-10"
+ },
+ {
+  "key": "c0c78904022d8dc8",
+  "title": "MiniMax H3: Remove People from Videos in ComfyUI",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x2481c/minimax_h3_remove_people_from_videos_in_comfyui/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.61,
+  "date": "2026-10-10"
+ },
+ {
+  "key": "180a7c704ae0cd78",
+  "title": "Beyond Spatio-Temporal Priors: A Generalizable Approach for Dense Correspondence Matching",
+  "url": "https://huggingface.co/papers/2610.12421",
+  "source": "hf-papers",
+  "axes": [
+   "image"
+  ],
+  "score": 6.53,
   "date": "2026-10-10"
  },
  {
@@ -77,18 +77,18 @@
   "axes": [
    "people"
   ],
-  "score": 6.34,
+  "score": 6.26,
   "date": "2026-10-10"
  },
  {
-  "key": "916e1e6f30911840",
-  "title": "Memento 3: Model-Based Recursive Self-Improvement through Reflective Rulebooks",
-  "url": "https://huggingface.co/papers/2610.11794",
-  "source": "hf-papers",
+  "key": "4bcea9bb62c00743",
+  "title": "A 3-billion-parameter model that paints every pixel directly without a VAE",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x2bsk1/a_3billionparameter_model_that_paints_every_pixel/",
+  "source": "reddit-stablediffusion",
   "axes": [
    "model"
   ],
-  "score": 5.82,
+  "score": 5.64,
   "date": "2026-10-10"
  },
  {
@@ -101,7 +101,7 @@
    "model",
    "people"
   ],
-  "score": 5.63,
+  "score": 5.55,
   "date": "2026-10-10"
  },
  {
@@ -112,40 +112,18 @@
   "axes": [
    "infra"
   ],
-  "score": 5.27,
+  "score": 5.16,
   "date": "2026-10-10"
  },
  {
-  "key": "253a8bf9dbb810d3",
-  "title": "Qwen 3.8 27B 4bit, prompting H3 MiniMax",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x212il/qwen_38_27b_4bit_prompting_h3_minimax/",
-  "source": "reddit-stablediffusion",
+  "key": "916e1e6f30911840",
+  "title": "Memento 3: Model-Based Recursive Self-Improvement through Reflective Rulebooks",
+  "url": "https://huggingface.co/papers/2610.11794",
+  "source": "hf-papers",
   "axes": [
    "model"
   ],
-  "score": 6.58,
-  "date": "2026-10-10"
- },
- {
-  "key": "180a7c704ae0cd78",
-  "title": "Beyond Spatio-Temporal Priors: A Generalizable Approach for Dense Correspondence Matching",
-  "url": "https://huggingface.co/papers/2610.12421",
-  "source": "hf-papers",
-  "axes": [
-   "image"
-  ],
-  "score": 6.56,
-  "date": "2026-10-10"
- },
- {
-  "key": "4003bc3ce1b9579a",
-  "title": "ComfyUI/Minimax Cheat Sheet for Beginners - now with 83% less slop!",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x22omv/comfyuiminimax_cheat_sheet_for_beginners_now_with/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image"
-  ],
-  "score": 6.12,
+  "score": 5.8,
   "date": "2026-10-10"
  },
  {
@@ -156,7 +134,7 @@
   "axes": [
    "model"
   ],
-  "score": 5.64,
+  "score": 5.61,
   "date": "2026-10-10"
  },
  {
@@ -172,14 +150,38 @@
   "date": "2026-10-10"
  },
  {
-  "key": "95c3de4b8a6ca7dd",
-  "title": "Microsoft AI Releases Microsoft-Decision-1: A Qwen3.5-9B Decision-Scoring Model",
-  "url": "https://www.marktechpost.com/2026/10/09/microsoft-ai-releases-microsoft-decision-1-a-qwen3-5-9b-decision-scoring-model/",
-  "source": "marktechpost",
+  "key": "651058e7e5dbccb6",
+  "title": "OpenAI fires three safety researchers for \"mishandling research information\"",
+  "url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 5.33,
+  "date": "2026-10-10"
+ },
+ {
+  "key": "eded4997af125c1a",
+  "title": "Hello folks ! I made this ads with Minimax H3 native workflow",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x2aqmw/hello_folks_i_made_this_ads_with_minimax_h3/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 5.08,
+  "date": "2026-10-10"
+ },
+ {
+  "key": "465b94db3975a27d",
+  "title": "Voxlocal: a minimal voice agent written in Rust",
+  "url": "https://samkhawase.com/blog/voxlocal-minimal-voice-agent/",
+  "source": "lobsters",
   "axes": [
    "model"
   ],
-  "score": 4.96,
+  "score": 5.07,
   "date": "2026-10-10"
  },
  {
@@ -191,17 +193,16 @@
    "infra",
    "model"
   ],
-  "score": 4.94,
+  "score": 4.8,
   "date": "2026-10-10"
  },
  {
-  "key": "ea25b02bccf5b793",
-  "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
-  "url": "https://openai.com/index/oracle",
-  "source": "openai",
+  "key": "95c3de4b8a6ca7dd",
+  "title": "Microsoft AI Releases Microsoft-Decision-1: A Qwen3.5-9B Decision-Scoring Model",
+  "url": "https://www.marktechpost.com/2026/10/09/microsoft-ai-releases-microsoft-decision-1-a-qwen3-5-9b-decision-scoring-model/",
+  "source": "marktechpost",
   "axes": [
-   "model",
-   "people"
+   "model"
   ],
   "score": 4.79,
   "date": "2026-10-10"
