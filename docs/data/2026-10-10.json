@@ -1,0 +1,209 @@
+[
+ {
+  "key": "38bcfa95acf11e00",
+  "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+  "url": "https://openai.com/index/asana-browser-agent",
+  "source": "openai",
+  "axes": [
+   "model"
+  ],
+  "score": 8.45,
+  "date": "2026-10-10"
+ },
+ {
+  "key": "f185e34686c260a9",
+  "title": "Another Set of Qwen Image 2.1 vs Qwen Image 2.1 Turbo Comparisons",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x21m29/another_set_of_qwen_image_21_vs_qwen_image_21/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 7.16,
+  "date": "2026-10-10"
+ },
+ {
+  "key": "bf5ba4b39c676017",
+  "title": "OmniCapBench: A Deep-Structured Evaluation Framework for Fine-Grained Audio-Visual Captioning",
+  "url": "https://huggingface.co/papers/2610.12458",
+  "source": "hf-papers",
+  "axes": [
+   "image",
+   "infra",
+   "model"
+  ],
+  "score": 6.96,
+  "date": "2026-10-10"
+ },
+ {
+  "key": "c0c78904022d8dc8",
+  "title": "MiniMax H3: Remove People from Videos in ComfyUI",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x2481c/minimax_h3_remove_people_from_videos_in_comfyui/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.77,
+  "date": "2026-10-10"
+ },
+ {
+  "key": "f6a033d1d378415b",
+  "title": "Alibaba Qwen Releases Qwen-Image-2.1-Turbo, an 8-Step 7B Image Model",
+  "url": "https://www.marktechpost.com/2026/10/09/alibaba-qwen-releases-qwen-image-2-1-turbo-an-8-step-7b-image-model/",
+  "source": "marktechpost",
+  "axes": [
+   "image",
+   "model"
+  ],
+  "score": 6.74,
+  "date": "2026-10-10"
+ },
+ {
+  "key": "934f1cdd43e14f0a",
+  "title": "Gemini 4 Argon: our next era of frontier intelligence",
+  "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+  "source": "deepmind",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 6.34,
+  "date": "2026-10-10"
+ },
+ {
+  "key": "d3f028d48d5839d0",
+  "title": "Typesafe AI raises $870M at $7.5B",
+  "url": "https://typesafe.ai/blog/series-ai",
+  "source": "hackernews",
+  "axes": [
+   "people"
+  ],
+  "score": 6.34,
+  "date": "2026-10-10"
+ },
+ {
+  "key": "916e1e6f30911840",
+  "title": "Memento 3: Model-Based Recursive Self-Improvement through Reflective Rulebooks",
+  "url": "https://huggingface.co/papers/2610.11794",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 5.82,
+  "date": "2026-10-10"
+ },
+ {
+  "key": "301664c196bdc19b",
+  "title": "Show HN: Let your AI agents paint big arrows, boxes and text on your screen",
+  "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 5.63,
+  "date": "2026-10-10"
+ },
+ {
+  "key": "f6364f33ab5fc9b5",
+  "title": "Impactful scheduling for GPU clusters",
+  "url": "https://huggingface.co/blog/allenai/impactful-scheduling",
+  "source": "huggingface-blog",
+  "axes": [
+   "infra"
+  ],
+  "score": 5.27,
+  "date": "2026-10-10"
+ },
+ {
+  "key": "253a8bf9dbb810d3",
+  "title": "Qwen 3.8 27B 4bit, prompting H3 MiniMax",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x212il/qwen_38_27b_4bit_prompting_h3_minimax/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "model"
+  ],
+  "score": 6.58,
+  "date": "2026-10-10"
+ },
+ {
+  "key": "180a7c704ae0cd78",
+  "title": "Beyond Spatio-Temporal Priors: A Generalizable Approach for Dense Correspondence Matching",
+  "url": "https://huggingface.co/papers/2610.12421",
+  "source": "hf-papers",
+  "axes": [
+   "image"
+  ],
+  "score": 6.56,
+  "date": "2026-10-10"
+ },
+ {
+  "key": "4003bc3ce1b9579a",
+  "title": "ComfyUI/Minimax Cheat Sheet for Beginners - now with 83% less slop!",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x22omv/comfyuiminimax_cheat_sheet_for_beginners_now_with/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.12,
+  "date": "2026-10-10"
+ },
+ {
+  "key": "2b21333bde61ba25",
+  "title": "Pumpire: Unified Benchmark for Metric Distance Estimation",
+  "url": "https://huggingface.co/papers/2610.12423",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 5.64,
+  "date": "2026-10-10"
+ },
+ {
+  "key": "d47652e0eb4232fe",
+  "title": "The latest AI news we announced in September 2026",
+  "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
+  "source": "google-ai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 5.36,
+  "date": "2026-10-10"
+ },
+ {
+  "key": "95c3de4b8a6ca7dd",
+  "title": "Microsoft AI Releases Microsoft-Decision-1: A Qwen3.5-9B Decision-Scoring Model",
+  "url": "https://www.marktechpost.com/2026/10/09/microsoft-ai-releases-microsoft-decision-1-a-qwen3-5-9b-decision-scoring-model/",
+  "source": "marktechpost",
+  "axes": [
+   "model"
+  ],
+  "score": 4.96,
+  "date": "2026-10-10"
+ },
+ {
+  "key": "9477bcaa8a3e52c2",
+  "title": "Deno is joining Cloudflare",
+  "url": "https://simonwillison.net/2026/Oct/9/deno-is-joining-cloudflare/",
+  "source": "simonwillison",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 4.94,
+  "date": "2026-10-10"
+ },
+ {
+  "key": "ea25b02bccf5b793",
+  "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+  "url": "https://openai.com/index/oracle",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 4.79,
+  "date": "2026-10-10"
+ }
+]
