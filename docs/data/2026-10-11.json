@@ -1,0 +1,201 @@
+[
+ {
+  "key": "2d13a3c49765725a",
+  "title": "Bitwarden Dual License Model",
+  "url": "https://community.bitwarden.com/t/published-version-update-in-app-stores/102750",
+  "source": "hackernews",
+  "axes": [
+   "model"
+  ],
+  "score": 8.29,
+  "date": "2026-10-11"
+ },
+ {
+  "key": "38bcfa95acf11e00",
+  "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+  "url": "https://openai.com/index/asana-browser-agent",
+  "source": "openai",
+  "axes": [
+   "model"
+  ],
+  "score": 8.12,
+  "date": "2026-10-11"
+ },
+ {
+  "key": "fa56fee40ac8465b",
+  "title": "TensorSharp now supports Qwen Image 2.1 Turbo + LoRA — Here's a quick image editing demo",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x2u28t/tensorsharp_now_supports_qwen_image_21_turbo_lora/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 7.14,
+  "date": "2026-10-11"
+ },
+ {
+  "key": "b69c46733d135bbf",
+  "title": "A city-building game in which the city would prefer you didn't",
+  "url": "https://housing.over.pizza/",
+  "source": "hackernews",
+  "axes": [
+   "game"
+  ],
+  "score": 6.35,
+  "date": "2026-10-11"
+ },
+ {
+  "key": "54ce294435799394",
+  "title": "Need help with Illustrious inage gens",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x2z9s4/need_help_with_illustrious_inage_gens/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.24,
+  "date": "2026-10-11"
+ },
+ {
+  "key": "419f3a49889fa8a7",
+  "title": "REMORY: Learning Residual Memory for Context Compaction",
+  "url": "https://huggingface.co/papers/2610.11287",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 5.79,
+  "date": "2026-10-11"
+ },
+ {
+  "key": "13ad492ef1cde60d",
+  "title": "The Agent Said It Was Done. The Database Disagreed.",
+  "url": "https://huggingface.co/blog/microsoft/thinkingbox",
+  "source": "huggingface-blog",
+  "axes": [
+   "model"
+  ],
+  "score": 5.42,
+  "date": "2026-10-11"
+ },
+ {
+  "key": "fde0d4ff8fcc93ed",
+  "title": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
+  "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
+  "source": "nvidia-genai",
+  "axes": [
+   "infra",
+   "model",
+   "threed"
+  ],
+  "score": 5.11,
+  "date": "2026-10-11"
+ },
+ {
+  "key": "026f183feb2e3fe3",
+  "title": "Foundations of Large Language Models",
+  "url": "https://huggingface.co/papers/2501.09223",
+  "source": "hf-papers",
+  "axes": [
+   "image",
+   "model",
+   "threed",
+   "video"
+  ],
+  "score": 4.71,
+  "date": "2026-10-11"
+ },
+ {
+  "key": "ff1e70e0c8748960",
+  "title": "Qwen Image 2.1 Turbo - extend 'magic' 8 steps sigmas further",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x2v049/qwen_image_21_turbo_extend_magic_8_steps_sigmas/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 5.41,
+  "date": "2026-10-11"
+ },
+ {
+  "key": "1e8022703d0f90e8",
+  "title": "4090 VS 5090 MINIMAX H3 SPEED",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x31em8/4090_vs_5090_minimax_h3_speed/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 5.16,
+  "date": "2026-10-11"
+ },
+ {
+  "key": "0e582578f8a15bfc",
+  "title": "Dwarf Fortress uses version control now",
+  "url": "https://simonwillison.net/2026/Oct/11/dwarf-fortress/",
+  "source": "simonwillison",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 5.0,
+  "date": "2026-10-11"
+ },
+ {
+  "key": "56d12b8bd474b665",
+  "title": "Python 3.15.0 added to actions/python-versions",
+  "url": "https://simonwillison.net/2026/Oct/10/python-actions/",
+  "source": "simonwillison",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 4.97,
+  "date": "2026-10-11"
+ },
+ {
+  "key": "d0a5335954e8dc78",
+  "title": "OrcaRouter Releases OrcaCyber Zero 1.5 Cybersecurity Model With 1M Context",
+  "url": "https://www.marktechpost.com/2026/10/10/orcarouter-releases-orcacyber-zero-1-5-cybersecurity-model-with-1m-context/",
+  "source": "marktechpost",
+  "axes": [
+   "model"
+  ],
+  "score": 4.64,
+  "date": "2026-10-11"
+ },
+ {
+  "key": "b74befde0c3e3a56",
+  "title": "U-Space: Uncovering When and Why Uncertainty Arises in Language Models",
+  "url": "https://huggingface.co/papers/2610.09087",
+  "source": "hf-papers",
+  "axes": [
+   "image",
+   "model",
+   "threed",
+   "video"
+  ],
+  "score": 4.58,
+  "date": "2026-10-11"
+ },
+ {
+  "key": "0fe740b3b6b442bd",
+  "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
+  "url": "https://openai.com/index/pollo-ai",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 4.57,
+  "date": "2026-10-11"
+ },
+ {
+  "key": "4f08d798573513a9",
+  "title": "LegalOn halves Codex costs while maintaining development speed",
+  "url": "https://openai.com/index/legalon-halves-codex-costs",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 4.57,
+  "date": "2026-10-11"
+ }
+]
