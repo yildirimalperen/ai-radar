@@ -7,19 +7,7 @@
   "axes": [
    "model"
   ],
-  "score": 8.85,
-  "date": "2026-10-12"
- },
- {
-  "key": "439fb8432c4645ab",
-  "title": "epGen: open LoRA for LTX-2.5 that gives every sound in the video its own audio track (generation + separation, weights on HF)",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x3t05j/epgen_open_lora_for_ltx25_that_gives_every_sound/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image",
-   "video"
-  ],
-  "score": 8.46,
+  "score": 8.53,
   "date": "2026-10-12"
  },
  {
@@ -30,19 +18,41 @@
   "axes": [
    "model"
   ],
-  "score": 7.97,
+  "score": 7.95,
   "date": "2026-10-12"
  },
  {
-  "key": "a50ce2d767cdf96c",
-  "title": "VisionWeave: Weaving Elastic Visual Representations as a Native Capability of MLLMs",
-  "url": "https://huggingface.co/papers/2610.07987",
+  "key": "b99a9442708a1b1a",
+  "title": "A short horror video I made with Minimax h3, Kroma, Vibevoice and LLM magic",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x42pkx/a_short_horror_video_i_made_with_minimax_h3_kroma/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "model",
+   "video"
+  ],
+  "score": 7.41,
+  "date": "2026-10-12"
+ },
+ {
+  "key": "3c58a8ea6bfe219b",
+  "title": "DiffusionART: Efficient, Stable and Scalable Reinforcement of Diffusion Models",
+  "url": "https://huggingface.co/papers/2610.12572",
   "source": "hf-papers",
   "axes": [
-   "image",
-   "model"
+   "image"
   ],
-  "score": 7.11,
+  "score": 7.2,
+  "date": "2026-10-12"
+ },
+ {
+  "key": "fb3db90158aefd46",
+  "title": "Same scene, 30 art styles, 8 local models on a Mac (mflux): Qwen-Image 2.1, FLUX.2 Klein, Krea 2, Z-Image, Ming-Image, FIBO 1.5, ERNIE, Boogu",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x3wwd6/same_scene_30_art_styles_8_local_models_on_a_mac/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 7.2,
   "date": "2026-10-12"
  },
  {
@@ -58,14 +68,26 @@
   "date": "2026-10-12"
  },
  {
-  "key": "a949b90bc0a8623a",
-  "title": "Accidentally chose 2 megapixels instead of .2 megapixels on render before bed last night",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x3or1i/accidentally_chose_2_megapixels_instead_of_2/",
-  "source": "reddit-stablediffusion",
+  "key": "42f2930d9fc79a33",
+  "title": "Qwen released QwenGyre - RL framework for training AI agents on extremely long complex tasks",
+  "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x41myz/qwen_released_qwengyre_rl_framework_for_training/",
+  "source": "reddit-localllama",
   "axes": [
-   "image"
+   "infra",
+   "model"
   ],
-  "score": 6.09,
+  "score": 6.13,
+  "date": "2026-10-12"
+ },
+ {
+  "key": "4ff22285dc5c475e",
+  "title": "Boole-1.7B: A 1-bit Qwen3-1.7B model that outperforms Bonsai-1.7B",
+  "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x452zj/boole17b_a_1bit_qwen317b_model_that_outperforms/",
+  "source": "reddit-localllama",
+  "axes": [
+   "model"
+  ],
+  "score": 5.74,
   "date": "2026-10-12"
  },
  {
@@ -77,65 +99,53 @@
    "model",
    "video"
   ],
-  "score": 5.51,
+  "score": 5.31,
   "date": "2026-10-12"
  },
  {
-  "key": "5d0589921578ca6a",
-  "title": "TII Releases Falcon-ASR: 1.6B Arabic Speech Model Hits 20.92% WER",
-  "url": "https://www.marktechpost.com/2026/10/11/tii-falcon-asr-arabic-speech-recognition/",
-  "source": "marktechpost",
+  "key": "a50ce2d767cdf96c",
+  "title": "VisionWeave: Weaving Elastic Visual Representations as a Native Capability of MLLMs",
+  "url": "https://huggingface.co/papers/2610.07987",
+  "source": "hf-papers",
+  "axes": [
+   "image",
+   "model"
+  ],
+  "score": 7.15,
+  "date": "2026-10-12"
+ },
+ {
+  "key": "31a4abdf1de82087",
+  "title": "NVIDIA RTX Video Super Resolution for ComfyUI, optimized for long videos with disk-backed processing and low RAM usage. Supports AI upscaling, denoising, deblurring, H.264/HEVC NVENC encoding, audio preservation, and an integrated video preview.",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x3y8ot/nvidia_rtx_video_super_resolution_for_comfyui/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image",
+   "video"
+  ],
+  "score": 7.0,
+  "date": "2026-10-12"
+ },
+ {
+  "key": "5de65b3176b454ed",
+  "title": "S-Space: Exploring Spatial Workspace in Multimodal Language Models",
+  "url": "https://huggingface.co/papers/2610.13527",
+  "source": "hf-papers",
   "axes": [
    "model"
   ],
-  "score": 4.5,
+  "score": 6.93,
   "date": "2026-10-12"
  },
  {
-  "key": "338f5b9437656a09",
-  "title": "Passkeys are a trap",
-  "url": "https://nonfunctional.substack.com/p/passkeys-are-a-trap-do-not-use-them",
-  "source": "hackernews",
+  "key": "349279209da073ee",
+  "title": "A \"free\" multi-modal \"embedding\" model (already) included with your LLM: vLLM plugin + upstream PR",
+  "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x416s0/a_free_multimodal_embedding_model_already/",
+  "source": "reddit-localllama",
   "axes": [
-   "infra",
-   "model",
-   "people"
+   "model"
   ],
-  "score": 3.52,
-  "date": "2026-10-12"
- },
- {
-  "key": "980b4f97b9337dc1",
-  "title": "SepGen: Multi-Stem Audio-Video Separation and Generation in a Single Model",
-  "url": "https://huggingface.co/papers/2610.11361",
-  "source": "hf-papers",
-  "axes": [
-   "model",
-   "video"
-  ],
-  "score": 6.82,
-  "date": "2026-10-12"
- },
- {
-  "key": "3c58a8ea6bfe219b",
-  "title": "DiffusionART: Efficient, Stable and Scalable Reinforcement of Diffusion Models",
-  "url": "https://huggingface.co/papers/2610.12572",
-  "source": "hf-papers",
-  "axes": [
-   "image"
-  ],
-  "score": 6.81,
-  "date": "2026-10-12"
- },
- {
-  "key": "b9a43bb4334c2775",
-  "title": "AI Image alignment solution for Qwen Image 2.1 Edits",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x3r7yp/ai_image_alignment_solution_for_qwen_image_21/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image"
-  ],
-  "score": 5.48,
+  "score": 5.62,
   "date": "2026-10-12"
  },
  {
@@ -147,18 +157,7 @@
    "model",
    "threed"
   ],
-  "score": 5.18,
-  "date": "2026-10-12"
- },
- {
-  "key": "e66bc862f11bc75c",
-  "title": "Sailor Moon Vs Godzilla- Minimax H3",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x3tgql/sailor_moon_vs_godzilla_minimax_h3/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image"
-  ],
-  "score": 5.08,
+  "score": 5.15,
   "date": "2026-10-12"
  },
  {
@@ -170,7 +169,7 @@
    "people",
    "threed"
   ],
-  "score": 4.91,
+  "score": 4.87,
   "date": "2026-10-12"
  },
  {
@@ -181,19 +180,18 @@
   "axes": [
    "image"
   ],
-  "score": 4.69,
+  "score": 4.66,
   "date": "2026-10-12"
  },
  {
-  "key": "028d2a32a8461c26",
-  "title": "Disrupting AI-enabled “false front” operations",
-  "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
-  "source": "openai",
+  "key": "f7d810ed3952b78f",
+  "title": "People wanted to see the result of simple Sketches to the previous Post",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x42smz/people_wanted_to_see_the_result_of_simple/",
+  "source": "reddit-stablediffusion",
   "axes": [
-   "model",
-   "people"
+   "image"
   ],
-  "score": 4.49,
+  "score": 4.57,
   "date": "2026-10-12"
  }
 ]
