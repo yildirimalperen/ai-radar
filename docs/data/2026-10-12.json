@@ -1,0 +1,199 @@
+[
+ {
+  "key": "de120023d0dac0e2",
+  "title": "The gap in shared understanding of LLM capability is widening",
+  "url": "https://twitter.com/karpathy/status/2109361546505966046",
+  "source": "hackernews",
+  "axes": [
+   "model"
+  ],
+  "score": 8.85,
+  "date": "2026-10-12"
+ },
+ {
+  "key": "439fb8432c4645ab",
+  "title": "epGen: open LoRA for LTX-2.5 that gives every sound in the video its own audio track (generation + separation, weights on HF)",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x3t05j/epgen_open_lora_for_ltx25_that_gives_every_sound/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image",
+   "video"
+  ],
+  "score": 8.46,
+  "date": "2026-10-12"
+ },
+ {
+  "key": "38bcfa95acf11e00",
+  "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+  "url": "https://openai.com/index/asana-browser-agent",
+  "source": "openai",
+  "axes": [
+   "model"
+  ],
+  "score": 7.97,
+  "date": "2026-10-12"
+ },
+ {
+  "key": "a50ce2d767cdf96c",
+  "title": "VisionWeave: Weaving Elastic Visual Representations as a Native Capability of MLLMs",
+  "url": "https://huggingface.co/papers/2610.07987",
+  "source": "hf-papers",
+  "axes": [
+   "image",
+   "model"
+  ],
+  "score": 7.11,
+  "date": "2026-10-12"
+ },
+ {
+  "key": "4899815aa602f655",
+  "title": "Can AI Agents Learn Their Way to the Top? Evaluating Heuristic Learning in a Long-Running Game Agent Competition",
+  "url": "https://huggingface.co/papers/2610.12341",
+  "source": "hf-papers",
+  "axes": [
+   "game",
+   "model"
+  ],
+  "score": 7.1,
+  "date": "2026-10-12"
+ },
+ {
+  "key": "a949b90bc0a8623a",
+  "title": "Accidentally chose 2 megapixels instead of .2 megapixels on render before bed last night",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x3or1i/accidentally_chose_2_megapixels_instead_of_2/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.09,
+  "date": "2026-10-12"
+ },
+ {
+  "key": "15d1b9a8815ea575",
+  "title": "Meet Cloudflare Clef-omni: A 30B-A3B Multimodal Decision Model for Audio, Video, Image and Text",
+  "url": "https://www.marktechpost.com/2026/10/11/cloudflare-clef-omni-multimodal-decision-model/",
+  "source": "marktechpost",
+  "axes": [
+   "model",
+   "video"
+  ],
+  "score": 5.51,
+  "date": "2026-10-12"
+ },
+ {
+  "key": "5d0589921578ca6a",
+  "title": "TII Releases Falcon-ASR: 1.6B Arabic Speech Model Hits 20.92% WER",
+  "url": "https://www.marktechpost.com/2026/10/11/tii-falcon-asr-arabic-speech-recognition/",
+  "source": "marktechpost",
+  "axes": [
+   "model"
+  ],
+  "score": 4.5,
+  "date": "2026-10-12"
+ },
+ {
+  "key": "338f5b9437656a09",
+  "title": "Passkeys are a trap",
+  "url": "https://nonfunctional.substack.com/p/passkeys-are-a-trap-do-not-use-them",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 3.52,
+  "date": "2026-10-12"
+ },
+ {
+  "key": "980b4f97b9337dc1",
+  "title": "SepGen: Multi-Stem Audio-Video Separation and Generation in a Single Model",
+  "url": "https://huggingface.co/papers/2610.11361",
+  "source": "hf-papers",
+  "axes": [
+   "model",
+   "video"
+  ],
+  "score": 6.82,
+  "date": "2026-10-12"
+ },
+ {
+  "key": "3c58a8ea6bfe219b",
+  "title": "DiffusionART: Efficient, Stable and Scalable Reinforcement of Diffusion Models",
+  "url": "https://huggingface.co/papers/2610.12572",
+  "source": "hf-papers",
+  "axes": [
+   "image"
+  ],
+  "score": 6.81,
+  "date": "2026-10-12"
+ },
+ {
+  "key": "b9a43bb4334c2775",
+  "title": "AI Image alignment solution for Qwen Image 2.1 Edits",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x3r7yp/ai_image_alignment_solution_for_qwen_image_21/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 5.48,
+  "date": "2026-10-12"
+ },
+ {
+  "key": "8e10b656980f6a8f",
+  "title": "Towards Physically Grounded Articulated 3D Assets: A Multi-Agent Pipeline and Benchmark",
+  "url": "https://arxiv.org/abs/2610.13947v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "model",
+   "threed"
+  ],
+  "score": 5.18,
+  "date": "2026-10-12"
+ },
+ {
+  "key": "e66bc862f11bc75c",
+  "title": "Sailor Moon Vs Godzilla- Minimax H3",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x3tgql/sailor_moon_vs_godzilla_minimax_h3/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 5.08,
+  "date": "2026-10-12"
+ },
+ {
+  "key": "259d089d9e8da815",
+  "title": "Make It Flow: Animating Water in 3D Gaussian Splatting Scenes",
+  "url": "https://arxiv.org/abs/2610.13860v1",
+  "source": "arxiv-gr",
+  "axes": [
+   "people",
+   "threed"
+  ],
+  "score": 4.91,
+  "date": "2026-10-12"
+ },
+ {
+  "key": "71188a5a03b22abd",
+  "title": "InstantFusion: A Shared Latent Interface for Heterogeneous Image Generators",
+  "url": "https://arxiv.org/abs/2610.13944v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "image"
+  ],
+  "score": 4.69,
+  "date": "2026-10-12"
+ },
+ {
+  "key": "028d2a32a8461c26",
+  "title": "Disrupting AI-enabled “false front” operations",
+  "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 4.49,
+  "date": "2026-10-12"
+ }
+]
