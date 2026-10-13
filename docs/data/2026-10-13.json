@@ -1,0 +1,236 @@
+[
+ {
+  "key": "38bcfa95acf11e00",
+  "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+  "url": "https://openai.com/index/asana-browser-agent",
+  "source": "openai",
+  "axes": [
+   "model"
+  ],
+  "score": 7.91,
+  "date": "2026-10-13"
+ },
+ {
+  "key": "c0117723059410c4",
+  "title": "AI is a tool and using it well takes skill",
+  "url": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 7.44,
+  "date": "2026-10-13"
+ },
+ {
+  "key": "89ad12de0894d835",
+  "title": "Epic Games Tells Devs \"No More Hand-Written Code\" to Adopt an \"AI-First\" Production Model",
+  "url": "https://80.lv/articles/epic-games-tells-devs-no-more-hand-written-code-to-adopt-an-ai-first-production-model/",
+  "source": "80lv",
+  "axes": [
+   "game",
+   "model"
+  ],
+  "score": 7.21,
+  "date": "2026-10-13"
+ },
+ {
+  "key": "3439d01b1d96b3a6",
+  "title": "madebyollin/texture-fix-vae-for-qwen-image-2.1 · Hugging Face",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x4l2nk/madebyollintexturefixvaeforqwenimage21_hugging/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 7.2,
+  "date": "2026-10-13"
+ },
+ {
+  "key": "0e90bde57b31ee61",
+  "title": "Free Krea2 Character & Style Catalog v0.9 — 3,919 samples, reusable prompts, and ComfyUI workflows",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x4p3ot/free_krea2_character_style_catalog_v09_3919/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image",
+   "threed"
+  ],
+  "score": 7.1,
+  "date": "2026-10-13"
+ },
+ {
+  "key": "18dce6df6a8ca88c",
+  "title": "AI coding agents generate more code, but not more software",
+  "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 6.29,
+  "date": "2026-10-13"
+ },
+ {
+  "key": "e4d1b6e6cc910b09",
+  "title": "Epic Games delays Disney game and tells developers to go \"AI first\"",
+  "url": "https://www.gamesindustry.biz/epic-games-delays-disney-game-and-tells-developers-to-go-ai-first",
+  "source": "gamesindustry",
+  "axes": [
+   "game"
+  ],
+  "score": 5.41,
+  "date": "2026-10-13"
+ },
+ {
+  "key": "4856790f0bb346d9",
+  "title": "Dragon Quest creator Yuji Horii releases game he says he made with AI in about 30 minutes",
+  "url": "https://www.gamesindustry.biz/dragon-quest-creator-yuji-horii-releases-game-he-says-he-made-with-ai-in-about-30-minutes",
+  "source": "gamesindustry",
+  "axes": [
+   "game"
+  ],
+  "score": 5.38,
+  "date": "2026-10-13"
+ },
+ {
+  "key": "cae03acffd14c86d",
+  "title": "Scaling Agentic Data for Long-Horizon Terminal Intelligence",
+  "url": "https://huggingface.co/papers/2610.13166",
+  "source": "hf-papers",
+  "axes": [
+   "image",
+   "model",
+   "threed",
+   "video"
+  ],
+  "score": 4.92,
+  "date": "2026-10-13"
+ },
+ {
+  "key": "4fbd638ffac1f1f8",
+  "title": "From Earth to Orbit, France’s Ecosystem Delivers Agentic Computing at Scale With NVIDIA",
+  "url": "https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing/",
+  "source": "nvidia-genai",
+  "axes": [
+   "infra",
+   "model",
+   "threed"
+  ],
+  "score": 4.85,
+  "date": "2026-10-13"
+ },
+ {
+  "key": "fa13ab9b441104e7",
+  "title": "Hello Python 3.15, goodbye 3.10, and now I can use 3.11",
+  "url": "https://simonwillison.net/2026/Oct/12/python-3-15/",
+  "source": "simonwillison",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 4.77,
+  "date": "2026-10-13"
+ },
+ {
+  "key": "3e58c3eea9d7ba42",
+  "title": "I trained two Anima ControlNet-LLLite models using 3D body poses and color regions",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x4ozt5/i_trained_two_anima_controlnetlllite_models_using/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image",
+   "threed"
+  ],
+  "score": 7.09,
+  "date": "2026-10-13"
+ },
+ {
+  "key": "408834832d8b1173",
+  "title": "Do any local models come close to chatgpts ability to generate sample character images? (2nd image is original)",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x4ms5d/do_any_local_models_come_close_to_chatgpts/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image",
+   "threed"
+  ],
+  "score": 7.01,
+  "date": "2026-10-13"
+ },
+ {
+  "key": "9fcf704459e8223d",
+  "title": "QGIS enacts moratorium on AI contributions",
+  "url": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 5.9,
+  "date": "2026-10-13"
+ },
+ {
+  "key": "10505a0c824b25ab",
+  "title": "web-edit 0.1a0",
+  "url": "https://simonwillison.net/2026/Oct/12/web-edit/",
+  "source": "simonwillison",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 4.71,
+  "date": "2026-10-13"
+ },
+ {
+  "key": "d770a25e73670c6a",
+  "title": "Meta releases its first frontier model, Muse Wonder",
+  "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
+  "source": "techcrunch-ai",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 4.69,
+  "date": "2026-10-13"
+ },
+ {
+  "key": "ac4c3dff98dd3253",
+  "title": "Thinking Inertia: LLMs Keep Thinking When Told Not To",
+  "url": "https://huggingface.co/papers/2610.11765",
+  "source": "hf-papers",
+  "axes": [
+   "image",
+   "model",
+   "threed",
+   "video"
+  ],
+  "score": 4.62,
+  "date": "2026-10-13"
+ },
+ {
+  "key": "85d9616405ce0dd0",
+  "title": "Multi-Stream Attention Residuals",
+  "url": "https://huggingface.co/papers/2610.13630",
+  "source": "hf-papers",
+  "axes": [
+   "image",
+   "model",
+   "threed",
+   "video"
+  ],
+  "score": 4.55,
+  "date": "2026-10-13"
+ },
+ {
+  "key": "0ead11c1e0f00e64",
+  "title": "Helping teens learn, plan, and shape the future of AI",
+  "url": "https://openai.com/index/teens-learn-and-plan",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 4.49,
+  "date": "2026-10-13"
+ }
+]
