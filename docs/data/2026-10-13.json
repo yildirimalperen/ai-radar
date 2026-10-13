@@ -11,6 +11,30 @@
   "date": "2026-10-13"
  },
  {
+  "key": "9d876b5b8c0cb4d8",
+  "title": "Did a quick anime-to-realism test in MiniMax H3 with just a video reference + lora",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x4txte/did_a_quick_animetorealism_test_in_minimax_h3/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image",
+   "video"
+  ],
+  "score": 7.69,
+  "date": "2026-10-13"
+ },
+ {
+  "key": "ddde55de6fdc4a27",
+  "title": "Portable .char consistent characters(same face, body, cloths & voice) - MinimaxH3, Flux2 & Krea2",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x4s1l0/portable_char_consistent_characterssame_face_body/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image",
+   "video"
+  ],
+  "score": 7.62,
+  "date": "2026-10-13"
+ },
+ {
   "key": "c0117723059410c4",
   "title": "AI is a tool and using it well takes skill",
   "url": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
@@ -20,7 +44,7 @@
    "model",
    "people"
   ],
-  "score": 7.44,
+  "score": 7.33,
   "date": "2026-10-13"
  },
  {
@@ -32,43 +56,52 @@
    "game",
    "model"
   ],
-  "score": 7.21,
+  "score": 7.06,
   "date": "2026-10-13"
  },
  {
-  "key": "3439d01b1d96b3a6",
-  "title": "madebyollin/texture-fix-vae-for-qwen-image-2.1 · Hugging Face",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x4l2nk/madebyollintexturefixvaeforqwenimage21_hugging/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image"
-  ],
-  "score": 7.2,
-  "date": "2026-10-13"
- },
- {
-  "key": "0e90bde57b31ee61",
-  "title": "Free Krea2 Character & Style Catalog v0.9 — 3,919 samples, reusable prompts, and ComfyUI workflows",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x4p3ot/free_krea2_character_style_catalog_v09_3919/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image",
-   "threed"
-  ],
-  "score": 7.1,
-  "date": "2026-10-13"
- },
- {
-  "key": "18dce6df6a8ca88c",
-  "title": "AI coding agents generate more code, but not more software",
-  "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+  "key": "4e74c629ed7ce1f6",
+  "title": "Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X",
+  "url": "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html",
   "source": "hackernews",
   "axes": [
-   "infra",
-   "model",
-   "people"
+   "infra"
   ],
-  "score": 6.29,
+  "score": 6.64,
+  "date": "2026-10-13"
+ },
+ {
+  "key": "055c5bdb47aa0e58",
+  "title": "Video game industry believes EU Kids Act will drive small creators and old games into extinction",
+  "url": "https://www.reddit.com/r/gamedev/comments/1x4sfqz/video_game_industry_believes_eu_kids_act_will/",
+  "source": "reddit-gamedev",
+  "axes": [
+   "game",
+   "video"
+  ],
+  "score": 6.54,
+  "date": "2026-10-13"
+ },
+ {
+  "key": "e1b941d24900e3c2",
+  "title": "VIS-Ground: Video Interactive Storytelling with Contextual Grounding",
+  "url": "https://huggingface.co/papers/2610.09326",
+  "source": "hf-papers",
+  "axes": [
+   "video"
+  ],
+  "score": 6.25,
+  "date": "2026-10-13"
+ },
+ {
+  "key": "f277bc23e35a8a3d",
+  "title": "Defender’s Advantage is Bad for Player Agency Strategy Games.",
+  "url": "https://www.reddit.com/r/gamedev/comments/1x4x8tm/defenders_advantage_is_bad_for_player_agency/",
+  "source": "reddit-gamedev",
+  "axes": [
+   "game"
+  ],
+  "score": 5.89,
   "date": "2026-10-13"
  },
  {
@@ -79,18 +112,7 @@
   "axes": [
    "game"
   ],
-  "score": 5.41,
-  "date": "2026-10-13"
- },
- {
-  "key": "4856790f0bb346d9",
-  "title": "Dragon Quest creator Yuji Horii releases game he says he made with AI in about 30 minutes",
-  "url": "https://www.gamesindustry.biz/dragon-quest-creator-yuji-horii-releases-game-he-says-he-made-with-ai-in-about-30-minutes",
-  "source": "gamesindustry",
-  "axes": [
-   "game"
-  ],
-  "score": 5.38,
+  "score": 5.27,
   "date": "2026-10-13"
  },
  {
@@ -104,32 +126,30 @@
    "threed",
    "video"
   ],
-  "score": 4.92,
+  "score": 5.15,
   "date": "2026-10-13"
  },
  {
-  "key": "4fbd638ffac1f1f8",
-  "title": "From Earth to Orbit, France’s Ecosystem Delivers Agentic Computing at Scale With NVIDIA",
-  "url": "https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing/",
-  "source": "nvidia-genai",
+  "key": "5824cacd12d0215d",
+  "title": "Z.ai GLM-Legal Beats Claude Fable 5 and Kimi K3 on Harvey LAB",
+  "url": "https://www.marktechpost.com/2026/10/13/zai-glm-legal-harvey-lab-legal-ai-model/",
+  "source": "marktechpost",
   "axes": [
-   "infra",
-   "model",
-   "threed"
-  ],
-  "score": 4.85,
-  "date": "2026-10-13"
- },
- {
-  "key": "fa13ab9b441104e7",
-  "title": "Hello Python 3.15, goodbye 3.10, and now I can use 3.11",
-  "url": "https://simonwillison.net/2026/Oct/12/python-3-15/",
-  "source": "simonwillison",
-  "axes": [
-   "infra",
    "model"
   ],
-  "score": 4.77,
+  "score": 4.84,
+  "date": "2026-10-13"
+ },
+ {
+  "key": "0e90bde57b31ee61",
+  "title": "Free Krea2 Character & Style Catalog v0.9 — 3,919 samples, reusable prompts, and ComfyUI workflows",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x4p3ot/free_krea2_character_style_catalog_v09_3919/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image",
+   "threed"
+  ],
+  "score": 6.91,
   "date": "2026-10-13"
  },
  {
@@ -141,56 +161,55 @@
    "image",
    "threed"
   ],
-  "score": 7.09,
+  "score": 6.9,
   "date": "2026-10-13"
  },
  {
-  "key": "408834832d8b1173",
-  "title": "Do any local models come close to chatgpts ability to generate sample character images? (2nd image is original)",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x4ms5d/do_any_local_models_come_close_to_chatgpts/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image",
-   "threed"
-  ],
-  "score": 7.01,
-  "date": "2026-10-13"
- },
- {
-  "key": "9fcf704459e8223d",
-  "title": "QGIS enacts moratorium on AI contributions",
-  "url": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387",
+  "key": "18dce6df6a8ca88c",
+  "title": "AI coding agents generate more code, but not more software",
+  "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
   "source": "hackernews",
   "axes": [
    "infra",
    "model",
    "people"
   ],
-  "score": 5.9,
+  "score": 6.02,
   "date": "2026-10-13"
  },
  {
-  "key": "10505a0c824b25ab",
-  "title": "web-edit 0.1a0",
-  "url": "https://simonwillison.net/2026/Oct/12/web-edit/",
-  "source": "simonwillison",
+  "key": "fa5e52ed2d88f207",
+  "title": "'AI' Is Not a Tool by Rich Hickey",
+  "url": "https://www.linkedin.com/pulse/ai-tool-rich-hickey-kjl8e",
+  "source": "hackernews",
   "axes": [
    "infra",
-   "model"
+   "model",
+   "people"
   ],
-  "score": 4.71,
+  "score": 5.82,
   "date": "2026-10-13"
  },
  {
-  "key": "d770a25e73670c6a",
-  "title": "Meta releases its first frontier model, Muse Wonder",
-  "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
+  "key": "4856790f0bb346d9",
+  "title": "Dragon Quest creator Yuji Horii releases game he says he made with AI in about 30 minutes",
+  "url": "https://www.gamesindustry.biz/dragon-quest-creator-yuji-horii-releases-game-he-says-he-made-with-ai-in-about-30-minutes",
+  "source": "gamesindustry",
+  "axes": [
+   "game"
+  ],
+  "score": 5.25,
+  "date": "2026-10-13"
+ },
+ {
+  "key": "2c4378ce483887f1",
+  "title": "Just 5 years in, interactive chatbot platform Character.AI files for bankruptcy",
+  "url": "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/",
   "source": "techcrunch-ai",
   "axes": [
-   "infra",
-   "model"
+   "threed"
   ],
-  "score": 4.69,
+  "score": 5.1,
   "date": "2026-10-13"
  },
  {
@@ -204,33 +223,18 @@
    "threed",
    "video"
   ],
-  "score": 4.62,
+  "score": 5.08,
   "date": "2026-10-13"
  },
  {
-  "key": "85d9616405ce0dd0",
-  "title": "Multi-Stream Attention Residuals",
-  "url": "https://huggingface.co/papers/2610.13630",
-  "source": "hf-papers",
+  "key": "2162d439c18c3386",
+  "title": "Character.AI files for bankruptcy",
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney",
+  "source": "verge-ai",
   "axes": [
-   "image",
-   "model",
-   "threed",
-   "video"
+   "threed"
   ],
-  "score": 4.55,
-  "date": "2026-10-13"
- },
- {
-  "key": "0ead11c1e0f00e64",
-  "title": "Helping teens learn, plan, and shape the future of AI",
-  "url": "https://openai.com/index/teens-learn-and-plan",
-  "source": "openai",
-  "axes": [
-   "model",
-   "people"
-  ],
-  "score": 4.49,
+  "score": 5.02,
   "date": "2026-10-13"
  }
 ]
