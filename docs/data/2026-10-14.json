@@ -1,0 +1,234 @@
+[
+ {
+  "key": "0e747d205c27d84c",
+  "title": "Redesigning source control at Anthropic",
+  "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
+  "source": "simonwillison",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 9.84,
+  "date": "2026-10-14"
+ },
+ {
+  "key": "e7602a7eef2ac024",
+  "title": "Gemini 4 Argon: Built to solve your hardest problems",
+  "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
+  "source": "deepmind",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 8.32,
+  "date": "2026-10-14"
+ },
+ {
+  "key": "38bcfa95acf11e00",
+  "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+  "url": "https://openai.com/index/asana-browser-agent",
+  "source": "openai",
+  "axes": [
+   "model"
+  ],
+  "score": 7.91,
+  "date": "2026-10-14"
+ },
+ {
+  "key": "4796d037405ee92c",
+  "title": "Gemini 4 Argon",
+  "url": "https://deepmind.google/models/gemini/",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 7.52,
+  "date": "2026-10-14"
+ },
+ {
+  "key": "8c05f1988394d75e",
+  "title": "VideoJev: System One Model for Video Understanding and Interaction",
+  "url": "https://huggingface.co/papers/2610.18615",
+  "source": "hf-papers",
+  "axes": [
+   "model",
+   "video"
+  ],
+  "score": 7.4,
+  "date": "2026-10-14"
+ },
+ {
+  "key": "e3e2e64eb112ce3d",
+  "title": "Multics: Generative Multi-Player World Model with Hierarchical Communication",
+  "url": "https://huggingface.co/papers/2610.17201",
+  "source": "hf-papers",
+  "axes": [
+   "game",
+   "model",
+   "video"
+  ],
+  "score": 7.38,
+  "date": "2026-10-14"
+ },
+ {
+  "key": "2e498c95fe486d59",
+  "title": "Higgsfield takes AI video from 1 minute to over 10",
+  "url": "https://openai.com/index/higgsfield-longer-videos-voice",
+  "source": "openai",
+  "axes": [
+   "video"
+  ],
+  "score": 7.03,
+  "date": "2026-10-14"
+ },
+ {
+  "key": "06549e98dd997870",
+  "title": "Aziib Pixel Style (pixel art lora for minimax h3)",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x5c9bz/aziib_pixel_style_pixel_art_lora_for_minimax_h3/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.68,
+  "date": "2026-10-14"
+ },
+ {
+  "key": "e979ffee9ed2f979",
+  "title": "Kroma (Chroma + Krea 2) Simple Workflow with Amateur Slider and 2x Upscale",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x5dbnz/kroma_chroma_krea_2_simple_workflow_with_amateur/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.4,
+  "date": "2026-10-14"
+ },
+ {
+  "key": "5c48b0fae5308305",
+  "title": "Jeva: System One Models from First Principles",
+  "url": "https://huggingface.co/papers/2610.18773",
+  "source": "hf-papers",
+  "axes": [
+   "infra"
+  ],
+  "score": 5.43,
+  "date": "2026-10-14"
+ },
+ {
+  "key": "ca3ebd51e483b4a7",
+  "title": "European Cities Deploy NVIDIA-Powered AI Agents to Run Smarter Urban Operations",
+  "url": "https://blogs.nvidia.com/blog/european-cities-agents-urban-operations/",
+  "source": "nvidia-genai",
+  "axes": [
+   "infra"
+  ],
+  "score": 5.3,
+  "date": "2026-10-14"
+ },
+ {
+  "key": "1808b688157776a5",
+  "title": "Xbox is officially embracing the chaos of AI-powered game ports",
+  "url": "https://www.theverge.com/news/1010406/xbox-labs-game-decompiling-emulation-exploration",
+  "source": "verge-ai",
+  "axes": [
+   "game"
+  ],
+  "score": 4.93,
+  "date": "2026-10-14"
+ },
+ {
+  "key": "f113c94f0b66d4a2",
+  "title": "OpenAI engineer arrested in bugging of executive conference room",
+  "url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 7.5,
+  "date": "2026-10-14"
+ },
+ {
+  "key": "875801f684f1306b",
+  "title": "We turned EmbeddingGemma 2 into a speech-to-text model",
+  "url": "https://eg2.haku.sh/",
+  "source": "hackernews",
+  "axes": [
+   "model"
+  ],
+  "score": 7.46,
+  "date": "2026-10-14"
+ },
+ {
+  "key": "bce8eeb8c16e85dc",
+  "title": "Gemini 4 Argon for Robotics",
+  "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+  "source": "deepmind",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 7.12,
+  "date": "2026-10-14"
+ },
+ {
+  "key": "c6d52b5e667a1dd1",
+  "title": "Urbex: Agentic Spatial Grounding for City-Scale 3D Scenes",
+  "url": "https://huggingface.co/papers/2610.18356",
+  "source": "hf-papers",
+  "axes": [
+   "threed"
+  ],
+  "score": 7.08,
+  "date": "2026-10-14"
+ },
+ {
+  "key": "ad4c1a608e7956d7",
+  "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
+  "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+  "source": "deepmind",
+  "axes": [
+   "model"
+  ],
+  "score": 7.02,
+  "date": "2026-10-14"
+ },
+ {
+  "key": "7b0e438eeaa69b45",
+  "title": "Cepheid: Decoupling Scale from Structure for Cross-Family Motion Completion",
+  "url": "https://arxiv.org/abs/2610.18871v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "video"
+  ],
+  "score": 6.38,
+  "date": "2026-10-14"
+ },
+ {
+  "key": "24ee5d84ea4843fe",
+  "title": "Profiling web-edit with Python 3.15: flame graphs and source heatmaps",
+  "url": "https://simonwillison.net/2026/Oct/12/python-3-15-web-edit-profiling/",
+  "source": "simonwillison",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 6.34,
+  "date": "2026-10-14"
+ },
+ {
+  "key": "67deb1c8624d77f9",
+  "title": "20 steps, 720p, RTX 3090: A narrative video experiment with Wan2GP",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x5gcki/20_steps_720p_rtx_3090_a_narrative_video/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "video"
+  ],
+  "score": 5.99,
+  "date": "2026-10-14"
+ }
+]
