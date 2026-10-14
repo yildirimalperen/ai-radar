@@ -9,7 +9,7 @@
    "model",
    "people"
   ],
-  "score": 9.84,
+  "score": 9.71,
   "date": "2026-10-14"
  },
  {
@@ -21,7 +21,19 @@
    "model",
    "people"
   ],
-  "score": 8.32,
+  "score": 8.2,
+  "date": "2026-10-14"
+ },
+ {
+  "key": "8c05f1988394d75e",
+  "title": "VideoJev: System One Model for Video Understanding and Interaction",
+  "url": "https://huggingface.co/papers/2610.18615",
+  "source": "hf-papers",
+  "axes": [
+   "model",
+   "video"
+  ],
+  "score": 8.03,
   "date": "2026-10-14"
  },
  {
@@ -36,28 +48,15 @@
   "date": "2026-10-14"
  },
  {
-  "key": "4796d037405ee92c",
-  "title": "Gemini 4 Argon",
-  "url": "https://deepmind.google/models/gemini/",
-  "source": "hackernews",
+  "key": "b2a4142c7f4caa2a",
+  "title": "Minimax H3 Character Swap: Time Consumption and Performance Test Across Different Acceleration Schemes",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x5olxa/minimax_h3_character_swap_time_consumption_and/",
+  "source": "reddit-stablediffusion",
   "axes": [
-   "infra",
-   "model",
-   "people"
+   "image",
+   "threed"
   ],
-  "score": 7.52,
-  "date": "2026-10-14"
- },
- {
-  "key": "8c05f1988394d75e",
-  "title": "VideoJev: System One Model for Video Understanding and Interaction",
-  "url": "https://huggingface.co/papers/2610.18615",
-  "source": "hf-papers",
-  "axes": [
-   "model",
-   "video"
-  ],
-  "score": 7.4,
+  "score": 7.79,
   "date": "2026-10-14"
  },
  {
@@ -70,7 +69,20 @@
    "model",
    "video"
   ],
-  "score": 7.38,
+  "score": 7.48,
+  "date": "2026-10-14"
+ },
+ {
+  "key": "4796d037405ee92c",
+  "title": "Gemini 4 Argon",
+  "url": "https://deepmind.google/models/gemini/",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 7.42,
   "date": "2026-10-14"
  },
  {
@@ -81,29 +93,18 @@
   "axes": [
    "video"
   ],
-  "score": 7.03,
+  "score": 6.92,
   "date": "2026-10-14"
  },
  {
-  "key": "06549e98dd997870",
-  "title": "Aziib Pixel Style (pixel art lora for minimax h3)",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x5c9bz/aziib_pixel_style_pixel_art_lora_for_minimax_h3/",
+  "key": "0a2903a7166a8d9a",
+  "title": "Immersive Exhibition made with Minimax H3",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x5no7y/immersive_exhibition_made_with_minimax_h3/",
   "source": "reddit-stablediffusion",
   "axes": [
-   "image"
+   "video"
   ],
-  "score": 6.68,
-  "date": "2026-10-14"
- },
- {
-  "key": "e979ffee9ed2f979",
-  "title": "Kroma (Chroma + Krea 2) Simple Workflow with Amateur Slider and 2x Upscale",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x5dbnz/kroma_chroma_krea_2_simple_workflow_with_amateur/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image"
-  ],
-  "score": 6.4,
+  "score": 6.71,
   "date": "2026-10-14"
  },
  {
@@ -114,7 +115,7 @@
   "axes": [
    "infra"
   ],
-  "score": 5.43,
+  "score": 6.19,
   "date": "2026-10-14"
  },
  {
@@ -125,7 +126,7 @@
   "axes": [
    "infra"
   ],
-  "score": 5.3,
+  "score": 5.11,
   "date": "2026-10-14"
  },
  {
@@ -136,7 +137,30 @@
   "axes": [
    "game"
   ],
-  "score": 4.93,
+  "score": 4.8,
+  "date": "2026-10-14"
+ },
+ {
+  "key": "c6d52b5e667a1dd1",
+  "title": "Urbex: Agentic Spatial Grounding for City-Scale 3D Scenes",
+  "url": "https://huggingface.co/papers/2610.18356",
+  "source": "hf-papers",
+  "axes": [
+   "threed"
+  ],
+  "score": 7.53,
+  "date": "2026-10-14"
+ },
+ {
+  "key": "8130e6b57e049ed5",
+  "title": "GreenWAM: A World Foundation Model for Robotics",
+  "url": "https://huggingface.co/papers/2610.18774",
+  "source": "hf-papers",
+  "axes": [
+   "model",
+   "video"
+  ],
+  "score": 7.49,
   "date": "2026-10-14"
  },
  {
@@ -149,7 +173,7 @@
    "model",
    "people"
   ],
-  "score": 7.5,
+  "score": 7.39,
   "date": "2026-10-14"
  },
  {
@@ -160,7 +184,7 @@
   "axes": [
    "model"
   ],
-  "score": 7.46,
+  "score": 7.36,
   "date": "2026-10-14"
  },
  {
@@ -172,18 +196,7 @@
    "model",
    "people"
   ],
-  "score": 7.12,
-  "date": "2026-10-14"
- },
- {
-  "key": "c6d52b5e667a1dd1",
-  "title": "Urbex: Agentic Spatial Grounding for City-Scale 3D Scenes",
-  "url": "https://huggingface.co/papers/2610.18356",
-  "source": "hf-papers",
-  "axes": [
-   "threed"
-  ],
-  "score": 7.08,
+  "score": 7.0,
   "date": "2026-10-14"
  },
  {
@@ -194,18 +207,18 @@
   "axes": [
    "model"
   ],
-  "score": 7.02,
+  "score": 6.85,
   "date": "2026-10-14"
  },
  {
-  "key": "7b0e438eeaa69b45",
-  "title": "Cepheid: Decoupling Scale from Structure for Cross-Family Motion Completion",
-  "url": "https://arxiv.org/abs/2610.18871v1",
-  "source": "arxiv-cv",
+  "key": "e8a5fa96c7a44b2f",
+  "title": "ComfyUI v0.40.0 released",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x5nv5u/comfyui_v0400_released/",
+  "source": "reddit-stablediffusion",
   "axes": [
-   "video"
+   "image"
   ],
-  "score": 6.38,
+  "score": 6.34,
   "date": "2026-10-14"
  },
  {
@@ -217,18 +230,7 @@
    "infra",
    "model"
   ],
-  "score": 6.34,
-  "date": "2026-10-14"
- },
- {
-  "key": "67deb1c8624d77f9",
-  "title": "20 steps, 720p, RTX 3090: A narrative video experiment with Wan2GP",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x5gcki/20_steps_720p_rtx_3090_a_narrative_video/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "video"
-  ],
-  "score": 5.99,
+  "score": 6.29,
   "date": "2026-10-14"
  }
 ]
