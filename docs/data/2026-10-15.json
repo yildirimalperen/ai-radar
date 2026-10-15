@@ -1,0 +1,235 @@
+[
+ {
+  "key": "dcfc51fc28f58203",
+  "title": "LTX 2.5 on CMP 170HX after 0.5 unlock and 5090 comparison",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x6d1op/ltx_25_on_cmp_170hx_after_05_unlock_and_5090/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image",
+   "model",
+   "video"
+  ],
+  "score": 8.54,
+  "date": "2026-10-15"
+ },
+ {
+  "key": "c8afc64f911f98e7",
+  "title": "Player-1: Learning to Play from Synthetic Experience",
+  "url": "https://huggingface.co/papers/2610.20584",
+  "source": "hf-papers",
+  "axes": [
+   "game"
+  ],
+  "score": 8.14,
+  "date": "2026-10-15"
+ },
+ {
+  "key": "38bcfa95acf11e00",
+  "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+  "url": "https://openai.com/index/asana-browser-agent",
+  "source": "openai",
+  "axes": [
+   "model"
+  ],
+  "score": 7.91,
+  "date": "2026-10-15"
+ },
+ {
+  "key": "ac01a4254b2b534e",
+  "title": "Containment and monitoring failures are to blame for AI hacking reports: experts",
+  "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 7.51,
+  "date": "2026-10-15"
+ },
+ {
+  "key": "d42a8ec6104cead7",
+  "title": "AI is mass decompiling games. That's both awesome and scary.",
+  "url": "https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games/",
+  "source": "simonwillison",
+  "axes": [
+   "game"
+  ],
+  "score": 6.87,
+  "date": "2026-10-15"
+ },
+ {
+  "key": "8766c600e51ac42f",
+  "title": "Introducing Playground: Create and play custom games",
+  "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
+  "source": "google-ai",
+  "axes": [
+   "game",
+   "model"
+  ],
+  "score": 6.79,
+  "date": "2026-10-15"
+ },
+ {
+  "key": "b13286f3b0921c96",
+  "title": "[Sad] Zelda & Link don't want to be toys anymore / MiniMax H3 Video",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x69oce/sad_zelda_link_dont_want_to_be_toys_anymore/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "video"
+  ],
+  "score": 6.56,
+  "date": "2026-10-15"
+ },
+ {
+  "key": "f423210c6822ffce",
+  "title": "Banks are now trying to offload the AI data center debt they just underwrote",
+  "url": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 6.36,
+  "date": "2026-10-15"
+ },
+ {
+  "key": "e1bae9fab31f25a9",
+  "title": "VITAL: From Visual Motion to Precise Action",
+  "url": "https://arxiv.org/abs/2610.20604v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "image",
+   "video"
+  ],
+  "score": 6.24,
+  "date": "2026-10-15"
+ },
+ {
+  "key": "3b2d86fc93dbf612",
+  "title": "Gemini 4 Argon: Built to solve your hardest problems",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+  "source": "google-ai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 6.16,
+  "date": "2026-10-15"
+ },
+ {
+  "key": "cd191e0ed366e05e",
+  "title": "CommerceGen-Studio: An End-to-End Framework for Commercial-Grade Main-Image Generation",
+  "url": "https://arxiv.org/abs/2610.20603v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "image",
+   "infra"
+  ],
+  "score": 5.91,
+  "date": "2026-10-15"
+ },
+ {
+  "key": "584c31a75ea968e5",
+  "title": "ActionOPD: Distilling Decisions, Not Tokens",
+  "url": "https://huggingface.co/papers/2610.19820",
+  "source": "hf-papers",
+  "axes": [
+   "people"
+  ],
+  "score": 5.38,
+  "date": "2026-10-15"
+ },
+ {
+  "key": "3ffb8bcfb7927324",
+  "title": "Doc2Harness: Benchmarking LLMs on Long-Horizon Harness Engineering of Coding Agents",
+  "url": "https://huggingface.co/papers/2610.20344",
+  "source": "hf-papers",
+  "axes": [
+   "model",
+   "threed"
+  ],
+  "score": 7.47,
+  "date": "2026-10-15"
+ },
+ {
+  "key": "7f40502a1b60f510",
+  "title": "Seeing, Maintaining, and Learning: The Evolution of Multimodal Agent Memory",
+  "url": "https://huggingface.co/papers/2610.19366",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 6.29,
+  "date": "2026-10-15"
+ },
+ {
+  "key": "ff338fb99e293d5e",
+  "title": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
+  "url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
+  "source": "huggingface-blog",
+  "axes": [
+   "model"
+  ],
+  "score": 5.42,
+  "date": "2026-10-15"
+ },
+ {
+  "key": "dfc987afeaf73e7f",
+  "title": "DynThinker: Unifying Static 3D and Dynamic 4D Spatial Reasoning",
+  "url": "https://arxiv.org/abs/2610.20598v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "threed"
+  ],
+  "score": 5.19,
+  "date": "2026-10-15"
+ },
+ {
+  "key": "3df8ce6330496845",
+  "title": "Amp puts AI agents to work beyond code with OpenAI models",
+  "url": "https://openai.com/index/amp-beyond-coding",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 5.16,
+  "date": "2026-10-15"
+ },
+ {
+  "key": "339f5cf44a72cc17",
+  "title": "SentinelOne cuts malware analysis from weeks to hours",
+  "url": "https://openai.com/index/sentinelone",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 5.16,
+  "date": "2026-10-15"
+ },
+ {
+  "key": "0c1b2fa399678811",
+  "title": "VisibilitySplat: Ray-Traced Occlusion for Relighting with 3D Gaussian Splatting",
+  "url": "https://arxiv.org/abs/2610.19847v1",
+  "source": "arxiv-gr",
+  "axes": [
+   "threed"
+  ],
+  "score": 4.97,
+  "date": "2026-10-15"
+ },
+ {
+  "key": "ea99889e94cafe55",
+  "title": "Q-MAGIC: Quad-only Mesh Autoregressive Generation via Singularity-Aware Circular Relative Offset Tokenization",
+  "url": "https://arxiv.org/abs/2610.19777v1",
+  "source": "arxiv-gr",
+  "axes": [
+   "threed"
+  ],
+  "score": 4.95,
+  "date": "2026-10-15"
+ }
+]
