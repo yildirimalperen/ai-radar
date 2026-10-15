@@ -1,29 +1,5 @@
 [
  {
-  "key": "dcfc51fc28f58203",
-  "title": "LTX 2.5 on CMP 170HX after 0.5 unlock and 5090 comparison",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x6d1op/ltx_25_on_cmp_170hx_after_05_unlock_and_5090/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image",
-   "model",
-   "video"
-  ],
-  "score": 8.54,
-  "date": "2026-10-15"
- },
- {
-  "key": "c8afc64f911f98e7",
-  "title": "Player-1: Learning to Play from Synthetic Experience",
-  "url": "https://huggingface.co/papers/2610.20584",
-  "source": "hf-papers",
-  "axes": [
-   "game"
-  ],
-  "score": 8.14,
-  "date": "2026-10-15"
- },
- {
   "key": "38bcfa95acf11e00",
   "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
   "url": "https://openai.com/index/asana-browser-agent",
@@ -32,6 +8,30 @@
    "model"
   ],
   "score": 7.91,
+  "date": "2026-10-15"
+ },
+ {
+  "key": "e7602a7eef2ac024",
+  "title": "Gemini 4 Argon: Built to solve your hardest problems",
+  "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
+  "source": "deepmind",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 7.81,
+  "date": "2026-10-15"
+ },
+ {
+  "key": "a2018039e1a05559",
+  "title": "MiniMax H3 + Fizgig Nodes: As Stylized Illustrations GEN (Txt2Img) True Image Generation Model, Native 3072x1536 in 1 Minute, WF + Prompt for Every Example.",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x6ibin/minimax_h3_fizgig_nodes_as_stylized_illustrations/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image",
+   "model"
+  ],
+  "score": 7.66,
   "date": "2026-10-15"
  },
  {
@@ -44,18 +44,7 @@
    "model",
    "people"
   ],
-  "score": 7.51,
-  "date": "2026-10-15"
- },
- {
-  "key": "d42a8ec6104cead7",
-  "title": "AI is mass decompiling games. That's both awesome and scary.",
-  "url": "https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games/",
-  "source": "simonwillison",
-  "axes": [
-   "game"
-  ],
-  "score": 6.87,
+  "score": 7.4,
   "date": "2026-10-15"
  },
  {
@@ -71,27 +60,37 @@
   "date": "2026-10-15"
  },
  {
-  "key": "b13286f3b0921c96",
-  "title": "[Sad] Zelda & Link don't want to be toys anymore / MiniMax H3 Video",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x69oce/sad_zelda_link_dont_want_to_be_toys_anymore/",
-  "source": "reddit-stablediffusion",
+  "key": "d42a8ec6104cead7",
+  "title": "AI is mass decompiling games. That's both awesome and scary.",
+  "url": "https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games/",
+  "source": "simonwillison",
   "axes": [
-   "video"
+   "game"
   ],
-  "score": 6.56,
+  "score": 6.75,
   "date": "2026-10-15"
  },
  {
-  "key": "f423210c6822ffce",
-  "title": "Banks are now trying to offload the AI data center debt they just underwrote",
-  "url": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/",
-  "source": "hackernews",
+  "key": "72f12fe5716b8cb8",
+  "title": "Sorry, I‘m Wrong. Minimax H3 BFS character swap so good",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x6g3fw/sorry_im_wrong_minimax_h3_bfs_character_swap_so/",
+  "source": "reddit-stablediffusion",
   "axes": [
-   "infra",
+   "threed"
+  ],
+  "score": 6.63,
+  "date": "2026-10-15"
+ },
+ {
+  "key": "bce8eeb8c16e85dc",
+  "title": "Gemini 4 Argon for Robotics",
+  "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+  "source": "deepmind",
+  "axes": [
    "model",
    "people"
   ],
-  "score": 6.36,
+  "score": 6.61,
   "date": "2026-10-15"
  },
  {
@@ -103,19 +102,7 @@
    "image",
    "video"
   ],
-  "score": 6.24,
-  "date": "2026-10-15"
- },
- {
-  "key": "3b2d86fc93dbf612",
-  "title": "Gemini 4 Argon: Built to solve your hardest problems",
-  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
-  "source": "google-ai",
-  "axes": [
-   "model",
-   "people"
-  ],
-  "score": 6.16,
+  "score": 6.11,
   "date": "2026-10-15"
  },
  {
@@ -127,7 +114,7 @@
    "image",
    "infra"
   ],
-  "score": 5.91,
+  "score": 5.78,
   "date": "2026-10-15"
  },
  {
@@ -138,30 +125,51 @@
   "axes": [
    "people"
   ],
-  "score": 5.38,
+  "score": 5.29,
   "date": "2026-10-15"
  },
  {
-  "key": "3ffb8bcfb7927324",
-  "title": "Doc2Harness: Benchmarking LLMs on Long-Horizon Harness Engineering of Coding Agents",
-  "url": "https://huggingface.co/papers/2610.20344",
-  "source": "hf-papers",
-  "axes": [
-   "model",
-   "threed"
-  ],
-  "score": 7.47,
-  "date": "2026-10-15"
- },
- {
-  "key": "7f40502a1b60f510",
-  "title": "Seeing, Maintaining, and Learning: The Evolution of Multimodal Agent Memory",
-  "url": "https://huggingface.co/papers/2610.19366",
+  "key": "13c3e90940d47801",
+  "title": "RuleTrek: Benchmarking Agentic Rule Reasoning in Complex Scenarios",
+  "url": "https://huggingface.co/papers/2610.19698",
   "source": "hf-papers",
   "axes": [
    "model"
   ],
-  "score": 6.29,
+  "score": 6.5,
+  "date": "2026-10-15"
+ },
+ {
+  "key": "8e133ed47d26c9f8",
+  "title": "New H3 Turbo Neat lora is good",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x6hmbu/new_h3_turbo_neat_lora_is_good/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.32,
+  "date": "2026-10-15"
+ },
+ {
+  "key": "bde955b18de5bcc5",
+  "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+  "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
+  "source": "deepmind",
+  "axes": [
+   "model"
+  ],
+  "score": 5.92,
+  "date": "2026-10-15"
+ },
+ {
+  "key": "3aa358d5e8f461bb",
+  "title": "τ-Emotion-Bench: Exposing the Interaction Fragility of LLM Agents through Real-World User Emotions",
+  "url": "https://huggingface.co/papers/2610.19560",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 5.8,
   "date": "2026-10-15"
  },
  {
@@ -176,6 +184,19 @@
   "date": "2026-10-15"
  },
  {
+  "key": "9eedc1ff716e4c10",
+  "title": "I’m thinking of building a visual character prompt builder, like a game’s outfit screen. Would you use it?",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x6fpk2/im_thinking_of_building_a_visual_character_prompt/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "game",
+   "image",
+   "threed"
+  ],
+  "score": 5.32,
+  "date": "2026-10-15"
+ },
+ {
   "key": "dfc987afeaf73e7f",
   "title": "DynThinker: Unifying Static 3D and Dynamic 4D Spatial Reasoning",
   "url": "https://arxiv.org/abs/2610.20598v1",
@@ -183,7 +204,7 @@
   "axes": [
    "threed"
   ],
-  "score": 5.19,
+  "score": 5.07,
   "date": "2026-10-15"
  },
  {
@@ -195,41 +216,7 @@
    "model",
    "people"
   ],
-  "score": 5.16,
-  "date": "2026-10-15"
- },
- {
-  "key": "339f5cf44a72cc17",
-  "title": "SentinelOne cuts malware analysis from weeks to hours",
-  "url": "https://openai.com/index/sentinelone",
-  "source": "openai",
-  "axes": [
-   "model",
-   "people"
-  ],
-  "score": 5.16,
-  "date": "2026-10-15"
- },
- {
-  "key": "0c1b2fa399678811",
-  "title": "VisibilitySplat: Ray-Traced Occlusion for Relighting with 3D Gaussian Splatting",
-  "url": "https://arxiv.org/abs/2610.19847v1",
-  "source": "arxiv-gr",
-  "axes": [
-   "threed"
-  ],
-  "score": 4.97,
-  "date": "2026-10-15"
- },
- {
-  "key": "ea99889e94cafe55",
-  "title": "Q-MAGIC: Quad-only Mesh Autoregressive Generation via Singularity-Aware Circular Relative Offset Tokenization",
-  "url": "https://arxiv.org/abs/2610.19777v1",
-  "source": "arxiv-gr",
-  "axes": [
-   "threed"
-  ],
-  "score": 4.95,
+  "score": 5.06,
   "date": "2026-10-15"
  }
 ]
