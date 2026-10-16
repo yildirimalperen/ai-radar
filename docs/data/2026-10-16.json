@@ -1,0 +1,229 @@
+[
+ {
+  "key": "38bcfa95acf11e00",
+  "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+  "url": "https://openai.com/index/asana-browser-agent",
+  "source": "openai",
+  "axes": [
+   "model"
+  ],
+  "score": 7.91,
+  "date": "2026-10-16"
+ },
+ {
+  "key": "e7602a7eef2ac024",
+  "title": "Gemini 4 Argon: Built to solve your hardest problems",
+  "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
+  "source": "deepmind",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 7.66,
+  "date": "2026-10-16"
+ },
+ {
+  "key": "aada3f7fb7f369b8",
+  "title": "Chirp Pong",
+  "url": "https://simonwillison.net/2026/Oct/15/chirp-pong/",
+  "source": "simonwillison",
+  "axes": [
+   "game"
+  ],
+  "score": 6.97,
+  "date": "2026-10-16"
+ },
+ {
+  "key": "eb006333352e9714",
+  "title": "3DCodeVerse: Exploring 3D Worlds as Code",
+  "url": "https://huggingface.co/papers/2610.22341",
+  "source": "hf-papers",
+  "axes": [
+   "threed"
+  ],
+  "score": 6.89,
+  "date": "2026-10-16"
+ },
+ {
+  "key": "cb657be36f0f1c7d",
+  "title": "It's not mine but I'm gonna shill Kroma as being by far the best image model so far.",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x6zi5l/its_not_mine_but_im_gonna_shill_kroma_as_being_by/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image",
+   "model"
+  ],
+  "score": 6.78,
+  "date": "2026-10-16"
+ },
+ {
+  "key": "e794e625e9ca16c0",
+  "title": "Waypoint-OPD: Transferring RL-Induced Policy Shifts via Gated On-Policy Distillation",
+  "url": "https://huggingface.co/papers/2610.21601",
+  "source": "hf-papers",
+  "axes": [
+   "image",
+   "model",
+   "threed",
+   "video"
+  ],
+  "score": 6.5,
+  "date": "2026-10-16"
+ },
+ {
+  "key": "bce8eeb8c16e85dc",
+  "title": "Gemini 4 Argon for Robotics",
+  "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+  "source": "deepmind",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 6.46,
+  "date": "2026-10-16"
+ },
+ {
+  "key": "0e23fc1a199bf64f",
+  "title": "Surjo-Image-Preview",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x77a3x/surjoimagepreview/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.31,
+  "date": "2026-10-16"
+ },
+ {
+  "key": "f552f1092ffcf480",
+  "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
+  "url": "https://huggingface.co/blog/meta-muse-spark-open",
+  "source": "huggingface-blog",
+  "axes": [
+   "model"
+  ],
+  "score": 5.85,
+  "date": "2026-10-16"
+ },
+ {
+  "key": "d43547a143b9604e",
+  "title": "Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO",
+  "url": "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/",
+  "source": "simonwillison",
+  "axes": [
+   "people"
+  ],
+  "score": 5.02,
+  "date": "2026-10-16"
+ },
+ {
+  "key": "9e2d5bf27ff78cf4",
+  "title": "Bluesky’s AI tool now lets you make games and apps to share on social",
+  "url": "https://www.theverge.com/tech/1012374/bluesky-ai-attie-small-social-games-apps",
+  "source": "verge-ai",
+  "axes": [
+   "game"
+  ],
+  "score": 4.98,
+  "date": "2026-10-16"
+ },
+ {
+  "key": "beab5a27ac25c97c",
+  "title": "Bluesky expands its AI-powered Attie app to let anyone build websites, games, and more",
+  "url": "https://techcrunch.com/2026/10/15/bluesky-expands-its-ai-powered-attie-app-to-let-anyone-build-websites-games-and-more/",
+  "source": "techcrunch-ai",
+  "axes": [
+   "game"
+  ],
+  "score": 4.95,
+  "date": "2026-10-16"
+ },
+ {
+  "key": "bbeb4ccbba6bcbe1",
+  "title": "RoTA-Bench: Evaluating 3D Spatial Reasoning through Interactive Projection Alignment",
+  "url": "https://huggingface.co/papers/2610.17665",
+  "source": "hf-papers",
+  "axes": [
+   "threed"
+  ],
+  "score": 6.31,
+  "date": "2026-10-16"
+ },
+ {
+  "key": "b3ee4a4151601d31",
+  "title": "DeltaStreamer: Towards Human-Like Agentic Streaming Video Understanding",
+  "url": "https://huggingface.co/papers/2610.19849",
+  "source": "hf-papers",
+  "axes": [
+   "video"
+  ],
+  "score": 6.31,
+  "date": "2026-10-16"
+ },
+ {
+  "key": "2e2893751f575f2f",
+  "title": "Krea2 Realism is back — this time as a full checkpoint! And yes, things got a little wilder",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x76buu/krea2_realism_is_back_this_time_as_a_full/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.28,
+  "date": "2026-10-16"
+ },
+ {
+  "key": "406f51a93008ef5c",
+  "title": "SUPRA-TEX: 3D Generation with Super-Aligned Texture",
+  "url": "https://arxiv.org/abs/2610.22352v1",
+  "source": "arxiv-gr",
+  "axes": [
+   "image",
+   "threed"
+  ],
+  "score": 6.24,
+  "date": "2026-10-16"
+ },
+ {
+  "key": "9045514d656ac46f",
+  "title": "Which Tokens to Merge? Diffusion Dynamics for Efficient Image Generation",
+  "url": "https://arxiv.org/abs/2610.22370v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "image"
+  ],
+  "score": 5.42,
+  "date": "2026-10-16"
+ },
+ {
+  "key": "3e4096cf328fdc9b",
+  "title": "SoftCache: Adaptive Step Size Caching for Diffusion Transformers",
+  "url": "https://arxiv.org/abs/2610.22369v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "image"
+  ],
+  "score": 5.42,
+  "date": "2026-10-16"
+ },
+ {
+  "key": "511bf76a4df55a79",
+  "title": "Introducing Falcon ASR",
+  "url": "https://huggingface.co/blog/tiiuae/falcon-asr",
+  "source": "huggingface-blog",
+  "axes": [
+   "model"
+  ],
+  "score": 5.42,
+  "date": "2026-10-16"
+ },
+ {
+  "key": "4ed2c6a4e8161a0a",
+  "title": "ACEdit: Stable Multi-Turn Image Editing via Asymmetric Conditioning",
+  "url": "https://arxiv.org/abs/2610.22328v1",
+  "source": "arxiv-gr",
+  "axes": [
+   "image"
+  ],
+  "score": 5.42,
+  "date": "2026-10-16"
+ }
+]
