@@ -10,18 +10,18 @@
    "threed",
    "video"
   ],
-  "score": 8.48,
+  "score": 8.45,
   "date": "2026-10-17"
  },
  {
-  "key": "e67b96684ff1c8e5",
-  "title": "FDE-Gym: The Last Mile of AI Delivery",
-  "url": "https://huggingface.co/papers/2610.22350",
+  "key": "a002f68f91f35af0",
+  "title": "MJev-Spatial: System One Spatial Intelligence via Native Attention Matching",
+  "url": "https://huggingface.co/papers/2610.22276",
   "source": "hf-papers",
   "axes": [
    "model"
   ],
-  "score": 8.04,
+  "score": 8.36,
   "date": "2026-10-17"
  },
  {
@@ -33,7 +33,7 @@
    "model",
    "people"
   ],
-  "score": 7.56,
+  "score": 7.55,
   "date": "2026-10-17"
  },
  {
@@ -46,7 +46,7 @@
    "model",
    "people"
   ],
-  "score": 7.55,
+  "score": 7.45,
   "date": "2026-10-17"
  },
  {
@@ -59,29 +59,74 @@
    "model",
    "people"
   ],
-  "score": 7.4,
+  "score": 7.3,
   "date": "2026-10-17"
  },
  {
-  "key": "09cb214e374303c4",
-  "title": "MOSS-Image Some first impressions",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x80yc2/mossimage_some_first_impressions/",
+  "key": "7872509a459f9e1d",
+  "title": "I made a custom node that turns illustrations into screentone manga panels",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x86cki/i_made_a_custom_node_that_turns_illustrations/",
   "source": "reddit-stablediffusion",
   "axes": [
    "image"
   ],
-  "score": 6.3,
+  "score": 6.36,
   "date": "2026-10-17"
  },
  {
-  "key": "88a1b0c6f945bcc5",
-  "title": "Hey guys! I'm one of the core developers of MOSS-Image. AMA!",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x7zf1r/hey_guys_im_one_of_the_core_developers_of/",
+  "key": "49d3fa67d1f1863e",
+  "title": "T2i Moss vs. Flux3 Klein vs. Krea2",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x85fx8/t2i_moss_vs_flux3_klein_vs_krea2/",
   "source": "reddit-stablediffusion",
   "axes": [
    "image"
   ],
-  "score": 6.24,
+  "score": 6.32,
+  "date": "2026-10-17"
+ },
+ {
+  "key": "63502c591c63bb7f",
+  "title": "DeepSeek Just Released V4.1-Flash-1017, Scores 77.0 on DeepSWE, Opens Search API",
+  "url": "https://www.marktechpost.com/2026/10/17/deepseek-just-released-v4-1-flash-1017-scores-77-0-on-deepswe-opens-search-api/",
+  "source": "marktechpost",
+  "axes": [
+   "infra"
+  ],
+  "score": 5.69,
+  "date": "2026-10-17"
+ },
+ {
+  "key": "115d9c8457f4fc1f",
+  "title": "Is sharing gameplay before release a bad idea now?",
+  "url": "https://www.reddit.com/r/gamedev/comments/1x84ylb/is_sharing_gameplay_before_release_a_bad_idea_now/",
+  "source": "reddit-gamedev",
+  "axes": [
+   "game",
+   "model"
+  ],
+  "score": 4.71,
+  "date": "2026-10-17"
+ },
+ {
+  "key": "0f9f3595981a2d94",
+  "title": "Gen4P: Video Generators are 4D Perceivers",
+  "url": "https://arxiv.org/abs/2610.22371v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "video"
+  ],
+  "score": 4.66,
+  "date": "2026-10-17"
+ },
+ {
+  "key": "e67b96684ff1c8e5",
+  "title": "FDE-Gym: The Last Mile of AI Delivery",
+  "url": "https://huggingface.co/papers/2610.22350",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 7.88,
   "date": "2026-10-17"
  },
  {
@@ -95,18 +140,7 @@
    "threed",
    "video"
   ],
-  "score": 7.9,
-  "date": "2026-10-17"
- },
- {
-  "key": "a002f68f91f35af0",
-  "title": "MJev-Spatial: System One Spatial Intelligence via Native Attention Matching",
-  "url": "https://huggingface.co/papers/2610.22276",
-  "source": "hf-papers",
-  "axes": [
-   "model"
-  ],
-  "score": 7.56,
+  "score": 7.75,
   "date": "2026-10-17"
  },
  {
@@ -119,7 +153,7 @@
    "model",
    "people"
   ],
-  "score": 6.94,
+  "score": 6.86,
   "date": "2026-10-17"
  },
  {
@@ -131,7 +165,29 @@
    "model",
    "people"
   ],
-  "score": 6.36,
+  "score": 6.35,
+  "date": "2026-10-17"
+ },
+ {
+  "key": "ffefdde8dde9322e",
+  "title": "Make Perfect Seamless Vlog Videos with 1 Click",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x84uym/make_perfect_seamless_vlog_videos_with_1_click/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.29,
+  "date": "2026-10-17"
+ },
+ {
+  "key": "09cb214e374303c4",
+  "title": "MOSS-Image Some first impressions",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x80yc2/mossimage_some_first_impressions/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.14,
   "date": "2026-10-17"
  },
  {
@@ -142,42 +198,18 @@
   "axes": [
    "model"
   ],
-  "score": 5.86,
+  "score": 5.79,
   "date": "2026-10-17"
  },
  {
-  "key": "a370189d229d13d8",
-  "title": "Moss is an incredible model - Been doing some early testing and I really like the results",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x7t5v0/moss_is_an_incredible_model_been_doing_some_early/",
-  "source": "reddit-stablediffusion",
+  "key": "015afe08c066b7a5",
+  "title": "Last Week in AI #346 - 719 math manuscripts, 2 Western open models, 1 more safety resignation",
+  "url": "https://lastweekin.ai/p/last-week-in-ai-346-719-math-manuscripts",
+  "source": "last-week-in-ai",
   "axes": [
    "model"
   ],
-  "score": 5.39,
-  "date": "2026-10-17"
- },
- {
-  "key": "c510a34ca921c6b5",
-  "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
-  "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
-  "source": "openai",
-  "axes": [
-   "model",
-   "people"
-  ],
-  "score": 4.93,
-  "date": "2026-10-17"
- },
- {
-  "key": "6f649019bd427328",
-  "title": "Benefit Street Partners answers questions faster with Codex",
-  "url": "https://openai.com/index/benefit-street-partners",
-  "source": "openai",
-  "axes": [
-   "model",
-   "people"
-  ],
-  "score": 4.93,
+  "score": 4.92,
   "date": "2026-10-17"
  }
 ]
