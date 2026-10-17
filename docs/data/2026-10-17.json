@@ -1,0 +1,183 @@
+[
+ {
+  "key": "e794e625e9ca16c0",
+  "title": "Waypoint-OPD: Transferring RL-Induced Policy Shifts via Gated On-Policy Distillation",
+  "url": "https://huggingface.co/papers/2610.21601",
+  "source": "hf-papers",
+  "axes": [
+   "image",
+   "model",
+   "threed",
+   "video"
+  ],
+  "score": 8.48,
+  "date": "2026-10-17"
+ },
+ {
+  "key": "e67b96684ff1c8e5",
+  "title": "FDE-Gym: The Last Mile of AI Delivery",
+  "url": "https://huggingface.co/papers/2610.22350",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 8.04,
+  "date": "2026-10-17"
+ },
+ {
+  "key": "e7602a7eef2ac024",
+  "title": "Gemini 4 Argon: Built to solve your hardest problems",
+  "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
+  "source": "deepmind",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 7.56,
+  "date": "2026-10-17"
+ },
+ {
+  "key": "420f6dd0600e8e21",
+  "title": "Claude reveals ECDSA curve origins",
+  "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 7.55,
+  "date": "2026-10-17"
+ },
+ {
+  "key": "762dfc61f93f6715",
+  "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
+  "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 7.4,
+  "date": "2026-10-17"
+ },
+ {
+  "key": "09cb214e374303c4",
+  "title": "MOSS-Image Some first impressions",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x80yc2/mossimage_some_first_impressions/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.3,
+  "date": "2026-10-17"
+ },
+ {
+  "key": "88a1b0c6f945bcc5",
+  "title": "Hey guys! I'm one of the core developers of MOSS-Image. AMA!",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x7zf1r/hey_guys_im_one_of_the_core_developers_of/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.24,
+  "date": "2026-10-17"
+ },
+ {
+  "key": "175db9215e90b38c",
+  "title": "OpenGCUA: Toward a Fully Open Stack for Generalist Computer Use",
+  "url": "https://huggingface.co/papers/2610.22200",
+  "source": "hf-papers",
+  "axes": [
+   "image",
+   "model",
+   "threed",
+   "video"
+  ],
+  "score": 7.9,
+  "date": "2026-10-17"
+ },
+ {
+  "key": "a002f68f91f35af0",
+  "title": "MJev-Spatial: System One Spatial Intelligence via Native Attention Matching",
+  "url": "https://huggingface.co/papers/2610.22276",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 7.56,
+  "date": "2026-10-17"
+ },
+ {
+  "key": "6358fd1b0467d98d",
+  "title": "How the Claude Code team does code review",
+  "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 6.94,
+  "date": "2026-10-17"
+ },
+ {
+  "key": "bce8eeb8c16e85dc",
+  "title": "Gemini 4 Argon for Robotics",
+  "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+  "source": "deepmind",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 6.36,
+  "date": "2026-10-17"
+ },
+ {
+  "key": "2f5c1d3ace404bec",
+  "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
+  "url": "https://huggingface.co/blog/reflection-beam",
+  "source": "huggingface-blog",
+  "axes": [
+   "model"
+  ],
+  "score": 5.86,
+  "date": "2026-10-17"
+ },
+ {
+  "key": "a370189d229d13d8",
+  "title": "Moss is an incredible model - Been doing some early testing and I really like the results",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x7t5v0/moss_is_an_incredible_model_been_doing_some_early/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "model"
+  ],
+  "score": 5.39,
+  "date": "2026-10-17"
+ },
+ {
+  "key": "c510a34ca921c6b5",
+  "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+  "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 4.93,
+  "date": "2026-10-17"
+ },
+ {
+  "key": "6f649019bd427328",
+  "title": "Benefit Street Partners answers questions faster with Codex",
+  "url": "https://openai.com/index/benefit-street-partners",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 4.93,
+  "date": "2026-10-17"
+ }
+]
