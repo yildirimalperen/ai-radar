@@ -10,7 +10,7 @@
    "threed",
    "video"
   ],
-  "score": 8.37,
+  "score": 8.36,
   "date": "2026-10-18"
  },
  {
@@ -21,30 +21,7 @@
   "axes": [
    "model"
   ],
-  "score": 7.75,
-  "date": "2026-10-18"
- },
- {
-  "key": "c72ef757fa29cdc1",
-  "title": "Most successful MiniMax H3 reference-to-video prompt structure so far (3 img + 1 vid example)",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x8scrg/most_successful_minimax_h3_referencetovideo/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image",
-   "video"
-  ],
-  "score": 7.4,
-  "date": "2026-10-18"
- },
- {
-  "key": "bd528cc7e269c6b2",
-  "title": "MOSS-Image comes to Fizgig",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x8qh5c/mossimage_comes_to_fizgig/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image"
-  ],
-  "score": 6.88,
+  "score": 7.65,
   "date": "2026-10-18"
  },
  {
@@ -57,18 +34,7 @@
    "model",
    "people"
   ],
-  "score": 6.58,
-  "date": "2026-10-18"
- },
- {
-  "key": "a66db8c59f963bd3",
-  "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
-  "url": "https://github.com/cobanov/PS5LM",
-  "source": "hackernews",
-  "axes": [
-   "model"
-  ],
-  "score": 6.52,
+  "score": 6.5,
   "date": "2026-10-18"
  },
  {
@@ -84,6 +50,40 @@
   "date": "2026-10-18"
  },
  {
+  "key": "f2e5fa43bbf9d7eb",
+  "title": "First time using ComfyUI. Tried Moss",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x8wm25/first_time_using_comfyui_tried_moss/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.22,
+  "date": "2026-10-18"
+ },
+ {
+  "key": "a23a3e4f9917dd57",
+  "title": "Having fun with the H3 orbit lora",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x8vz9q/having_fun_with_the_h3_orbit_lora/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.19,
+  "date": "2026-10-18"
+ },
+ {
+  "key": "526749dc4a4de6e1",
+  "title": "Welcome FLUX.3 Image Klein in Diffusers",
+  "url": "https://huggingface.co/blog/flux-3",
+  "source": "huggingface-blog",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 5.36,
+  "date": "2026-10-18"
+ },
+ {
   "key": "63502c591c63bb7f",
   "title": "DeepSeek Just Released V4.1-Flash-1017, Scores 77.0 on DeepSWE, Opens Search API",
   "url": "https://www.marktechpost.com/2026/10/17/deepseek-just-released-v4-1-flash-1017-scores-77-0-on-deepswe-opens-search-api/",
@@ -91,7 +91,7 @@
   "axes": [
    "infra"
   ],
-  "score": 5.05,
+  "score": 4.96,
   "date": "2026-10-18"
  },
  {
@@ -105,7 +105,7 @@
    "threed",
    "video"
   ],
-  "score": 6.99,
+  "score": 6.88,
   "date": "2026-10-18"
  },
  {
@@ -116,18 +116,18 @@
   "axes": [
    "model"
   ],
-  "score": 6.4,
+  "score": 6.38,
   "date": "2026-10-18"
  },
  {
-  "key": "a23a3e4f9917dd57",
-  "title": "Having fun with the H3 orbit lora",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x8vz9q/having_fun_with_the_h3_orbit_lora/",
+  "key": "14b61dbd40281cee",
+  "title": "T2I Comparison (~4MP): Qwen Image 2.1 Turbo vs. MOSS-Image-SFT vs. Krea 2 Turbo vs. Flux 3 Klein (🤮)",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x8v4gx/t2i_comparison_4mp_qwen_image_21_turbo_vs/",
   "source": "reddit-stablediffusion",
   "axes": [
-   "image"
+   "model"
   ],
-  "score": 6.38,
+  "score": 6.11,
   "date": "2026-10-18"
  },
  {
@@ -138,19 +138,7 @@
   "axes": [
    "image"
   ],
-  "score": 6.26,
-  "date": "2026-10-18"
- },
- {
-  "key": "526749dc4a4de6e1",
-  "title": "Welcome FLUX.3 Image Klein in Diffusers",
-  "url": "https://huggingface.co/blog/flux-3",
-  "source": "huggingface-blog",
-  "axes": [
-   "infra",
-   "model"
-  ],
-  "score": 5.37,
+  "score": 6.09,
   "date": "2026-10-18"
  },
  {
@@ -166,6 +154,18 @@
   "date": "2026-10-18"
  },
  {
+  "key": "42a3fe34fe3eca4a",
+  "title": "Google Open-Sources Harness2, a Recursive Agent Harnessing Framework",
+  "url": "https://www.marktechpost.com/2026/10/18/google-harness2-recursive-agent-harnessing-framework/",
+  "source": "marktechpost",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 5.1,
+  "date": "2026-10-18"
+ },
+ {
   "key": "de075a7a7c887c2d",
   "title": "Inline rendering with document​.currentScript",
   "url": "https://simonwillison.net/2026/Oct/17/document-currentscript/",
@@ -174,19 +174,19 @@
    "infra",
    "model"
   ],
-  "score": 4.93,
+  "score": 4.79,
   "date": "2026-10-18"
  },
  {
-  "key": "3265f95de65f294e",
-  "title": "web-edit 0.1a2",
-  "url": "https://simonwillison.net/2026/Oct/17/web-edit/",
-  "source": "simonwillison",
+  "key": "fa9c6f97adb5723e",
+  "title": "Bringing GPT-Rosalind to academic research labs",
+  "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+  "source": "openai",
   "axes": [
-   "infra",
-   "model"
+   "model",
+   "people"
   ],
-  "score": 4.7,
+  "score": 4.59,
   "date": "2026-10-18"
  }
 ]
