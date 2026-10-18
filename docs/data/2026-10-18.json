@@ -1,0 +1,192 @@
+[
+ {
+  "key": "e794e625e9ca16c0",
+  "title": "Waypoint-OPD: Transferring RL-Induced Policy Shifts via Gated On-Policy Distillation",
+  "url": "https://huggingface.co/papers/2610.21601",
+  "source": "hf-papers",
+  "axes": [
+   "image",
+   "model",
+   "threed",
+   "video"
+  ],
+  "score": 8.37,
+  "date": "2026-10-18"
+ },
+ {
+  "key": "a002f68f91f35af0",
+  "title": "MJev-Spatial: System One Spatial Intelligence via Native Attention Matching",
+  "url": "https://huggingface.co/papers/2610.22276",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 7.75,
+  "date": "2026-10-18"
+ },
+ {
+  "key": "c72ef757fa29cdc1",
+  "title": "Most successful MiniMax H3 reference-to-video prompt structure so far (3 img + 1 vid example)",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x8scrg/most_successful_minimax_h3_referencetovideo/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image",
+   "video"
+  ],
+  "score": 7.4,
+  "date": "2026-10-18"
+ },
+ {
+  "key": "bd528cc7e269c6b2",
+  "title": "MOSS-Image comes to Fizgig",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x8qh5c/mossimage_comes_to_fizgig/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.88,
+  "date": "2026-10-18"
+ },
+ {
+  "key": "420f6dd0600e8e21",
+  "title": "Claude reveals ECDSA curve origins",
+  "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 6.58,
+  "date": "2026-10-18"
+ },
+ {
+  "key": "a66db8c59f963bd3",
+  "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+  "url": "https://github.com/cobanov/PS5LM",
+  "source": "hackernews",
+  "axes": [
+   "model"
+  ],
+  "score": 6.52,
+  "date": "2026-10-18"
+ },
+ {
+  "key": "3b2d86fc93dbf612",
+  "title": "Gemini 4 Argon: Built to solve your hardest problems",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+  "source": "google-ai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 6.25,
+  "date": "2026-10-18"
+ },
+ {
+  "key": "63502c591c63bb7f",
+  "title": "DeepSeek Just Released V4.1-Flash-1017, Scores 77.0 on DeepSWE, Opens Search API",
+  "url": "https://www.marktechpost.com/2026/10/17/deepseek-just-released-v4-1-flash-1017-scores-77-0-on-deepswe-opens-search-api/",
+  "source": "marktechpost",
+  "axes": [
+   "infra"
+  ],
+  "score": 5.05,
+  "date": "2026-10-18"
+ },
+ {
+  "key": "175db9215e90b38c",
+  "title": "OpenGCUA: Toward a Fully Open Stack for Generalist Computer Use",
+  "url": "https://huggingface.co/papers/2610.22200",
+  "source": "hf-papers",
+  "axes": [
+   "image",
+   "model",
+   "threed",
+   "video"
+  ],
+  "score": 6.99,
+  "date": "2026-10-18"
+ },
+ {
+  "key": "165f93f9975ddee5",
+  "title": "MAI-Gym: An Open All-in-One Platform for GUI Agent Evaluation and RL Training across Mobile and Computer Environments",
+  "url": "https://huggingface.co/papers/2610.20939",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 6.4,
+  "date": "2026-10-18"
+ },
+ {
+  "key": "a23a3e4f9917dd57",
+  "title": "Having fun with the H3 orbit lora",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x8vz9q/having_fun_with_the_h3_orbit_lora/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.38,
+  "date": "2026-10-18"
+ },
+ {
+  "key": "571a02899e297dc8",
+  "title": "moss is uncensored!",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x8t1v2/moss_is_uncensored/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.26,
+  "date": "2026-10-18"
+ },
+ {
+  "key": "526749dc4a4de6e1",
+  "title": "Welcome FLUX.3 Image Klein in Diffusers",
+  "url": "https://huggingface.co/blog/flux-3",
+  "source": "huggingface-blog",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 5.37,
+  "date": "2026-10-18"
+ },
+ {
+  "key": "5b83aa239ac7736c",
+  "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+  "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+  "source": "huggingface-blog",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 5.35,
+  "date": "2026-10-18"
+ },
+ {
+  "key": "de075a7a7c887c2d",
+  "title": "Inline rendering with document​.currentScript",
+  "url": "https://simonwillison.net/2026/Oct/17/document-currentscript/",
+  "source": "simonwillison",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 4.93,
+  "date": "2026-10-18"
+ },
+ {
+  "key": "3265f95de65f294e",
+  "title": "web-edit 0.1a2",
+  "url": "https://simonwillison.net/2026/Oct/17/web-edit/",
+  "source": "simonwillison",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 4.7,
+  "date": "2026-10-18"
+ }
+]
