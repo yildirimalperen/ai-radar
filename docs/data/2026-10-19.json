@@ -1,5 +1,16 @@
 [
  {
+  "key": "74875deefcde44c8",
+  "title": "Documents: Police officer gave her Flock login to her ICE agent husband",
+  "url": "https://www.wjcl.com/article/savannah-police-officer-ice-agent-flock-access/74135816",
+  "source": "hackernews",
+  "axes": [
+   "model"
+  ],
+  "score": 9.17,
+  "date": "2026-10-19"
+ },
+ {
   "key": "395bffefd6334fc4",
   "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
   "url": "https://arxiv.org/abs/2610.18861",
@@ -7,7 +18,19 @@
   "axes": [
    "model"
   ],
-  "score": 8.87,
+  "score": 8.56,
+  "date": "2026-10-19"
+ },
+ {
+  "key": "e7602a7eef2ac024",
+  "title": "Gemini 4 Argon: Built to solve your hardest problems",
+  "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
+  "source": "deepmind",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 7.95,
   "date": "2026-10-19"
  },
  {
@@ -18,31 +41,30 @@
   "axes": [
    "image"
   ],
-  "score": 7.55,
+  "score": 7.3,
   "date": "2026-10-19"
  },
  {
-  "key": "9878788fd608b056",
-  "title": "MOSS Character LoRas",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x9jz3r/moss_character_loras/",
+  "key": "be4f99c69d092654",
+  "title": "Uncensored prompt upsampler for Moss image",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x9s4ey/uncensored_prompt_upsampler_for_moss_image/",
   "source": "reddit-stablediffusion",
   "axes": [
-   "image",
-   "threed"
+   "image"
   ],
-  "score": 6.97,
+  "score": 7.07,
   "date": "2026-10-19"
  },
  {
-  "key": "1fac1d66606f52a4",
-  "title": "Speculative Sampling in Interactive Video Generation",
-  "url": "https://huggingface.co/papers/2610.20556",
-  "source": "hf-papers",
+  "key": "bce8eeb8c16e85dc",
+  "title": "Gemini 4 Argon for Robotics",
+  "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+  "source": "deepmind",
   "axes": [
-   "infra",
-   "video"
+   "model",
+   "people"
   ],
-  "score": 6.47,
+  "score": 6.75,
   "date": "2026-10-19"
  },
  {
@@ -53,54 +75,52 @@
   "axes": [
    "threed"
   ],
-  "score": 6.36,
+  "score": 6.75,
   "date": "2026-10-19"
  },
  {
-  "key": "3b2d86fc93dbf612",
-  "title": "Gemini 4 Argon: Built to solve your hardest problems",
-  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
-  "source": "google-ai",
+  "key": "e064f260ce9a3744",
+  "title": "Scene-Designer: Learning Design Intelligence for Agentic 3D Scene Generation",
+  "url": "https://huggingface.co/papers/2610.23121",
+  "source": "hf-papers",
   "axes": [
-   "model",
-   "people"
+   "threed"
   ],
-  "score": 6.25,
+  "score": 6.29,
   "date": "2026-10-19"
  },
  {
-  "key": "234e3c3044852f47",
-  "title": "Namecheap just seized and disabled all my domains",
-  "url": "https://www.reddit.com/r/sysadmin/comments/1x8cycd/namecheap_just_seized_and_disabled_all_my_domains/",
-  "source": "hackernews",
+  "key": "a2321916f68bbd8e",
+  "title": "The AI state of play: AI laws and game development",
+  "url": "https://www.gamesindustry.biz/the-ai-state-of-play-ai-laws-and-game-development",
+  "source": "gamesindustry",
   "axes": [
-   "infra",
-   "model",
-   "people"
+   "game"
   ],
-  "score": 3.4,
+  "score": 5.67,
   "date": "2026-10-19"
  },
  {
-  "key": "557a3977152083e7",
-  "title": "Basic Workflow Simple Prompt Testing: Krea2 vs MOSS vs Qwen2.1 vs Flux3",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x9oi6x/basic_workflow_simple_prompt_testing_krea2_vs/",
+  "key": "9a8b592022069c55",
+  "title": "How good is FLUX.3 Klein at editing? A 12-task comparison that surprised me",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x9qq05/how_good_is_flux3_klein_at_editing_a_12task/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image",
+   "model"
+  ],
+  "score": 6.88,
+  "date": "2026-10-19"
+ },
+ {
+  "key": "cc9639b44cc8b32d",
+  "title": "More than just talking head videos with Clown Anchoring",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x9r2r7/more_than_just_talking_head_videos_with_clown/",
   "source": "reddit-stablediffusion",
   "axes": [
    "image"
   ],
-  "score": 6.31,
-  "date": "2026-10-19"
- },
- {
-  "key": "42038938cb2aa6ca",
-  "title": "A comparison of 6 open source models. Krea2, Qwen2.1, Flux3 Klein, Flux 2 Klein, ZIT, & Moss. Same prompt used for all.",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x9ioew/a_comparison_of_6_open_source_models_krea2_qwen21/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image"
-  ],
-  "score": 6.11,
+  "score": 6.18,
   "date": "2026-10-19"
  },
  {
@@ -111,7 +131,18 @@
   "axes": [
    "video"
   ],
-  "score": 6.0,
+  "score": 6.05,
+  "date": "2026-10-19"
+ },
+ {
+  "key": "ee3fb79f9b28b97f",
+  "title": "Trees to Flows and Back: Unifying Decision Trees and Diffusion Models",
+  "url": "https://arxiv.org/abs/2605.00414",
+  "source": "lobsters",
+  "axes": [
+   "image"
+  ],
+  "score": 5.84,
   "date": "2026-10-19"
  },
  {
@@ -122,7 +153,30 @@
   "axes": [
    "model"
   ],
-  "score": 5.59,
+  "score": 5.67,
+  "date": "2026-10-19"
+ },
+ {
+  "key": "3133a1a1971c8740",
+  "title": "Apertus 1.5 Release Notes",
+  "url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
+  "source": "huggingface-blog",
+  "axes": [
+   "model"
+  ],
+  "score": 5.42,
+  "date": "2026-10-19"
+ },
+ {
+  "key": "ac483d19ebb11624",
+  "title": "MiniMax Just Launched M3.1 Flash: 428B MoE Agentic Model at $0.15/M Input",
+  "url": "https://www.marktechpost.com/2026/10/19/minimax-m3-1-flash-release/",
+  "source": "marktechpost",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 5.19,
   "date": "2026-10-19"
  },
  {
@@ -134,41 +188,7 @@
    "model",
    "video"
   ],
-  "score": 5.19,
-  "date": "2026-10-19"
- },
- {
-  "key": "8c131b011442fd43",
-  "title": "X-Splat: Unified Gaussian Splatting for Joint RGB and X-ray 3D Reconstruction",
-  "url": "https://arxiv.org/abs/2610.23237v1",
-  "source": "arxiv-gr",
-  "axes": [
-   "model",
-   "threed"
-  ],
-  "score": 5.15,
-  "date": "2026-10-19"
- },
- {
-  "key": "ba0d75b1d2644f63",
-  "title": "Rethinking the design space of Vanilla Pixel Diffusion Transformers",
-  "url": "https://arxiv.org/abs/2610.23854v1",
-  "source": "arxiv-cv",
-  "axes": [
-   "image"
-  ],
-  "score": 4.7,
-  "date": "2026-10-19"
- },
- {
-  "key": "84ff3ac7696939f4",
-  "title": "Disney agrees to hire the majority of Character.AI’s workforce",
-  "url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
-  "source": "techcrunch-ai",
-  "axes": [
-   "threed"
-  ],
-  "score": 4.64,
+  "score": 5.16,
   "date": "2026-10-19"
  }
 ]
