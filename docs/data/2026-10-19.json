@@ -1,0 +1,174 @@
+[
+ {
+  "key": "395bffefd6334fc4",
+  "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
+  "url": "https://arxiv.org/abs/2610.18861",
+  "source": "hackernews",
+  "axes": [
+   "model"
+  ],
+  "score": 8.87,
+  "date": "2026-10-19"
+ },
+ {
+  "key": "c636360d88a23692",
+  "title": "Fixed the vertical colour stripes in MOSS-Image SFT with a 1.9 MB LoRA (extracted, not trained)",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x9pf60/fixed_the_vertical_colour_stripes_in_mossimage/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 7.55,
+  "date": "2026-10-19"
+ },
+ {
+  "key": "9878788fd608b056",
+  "title": "MOSS Character LoRas",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x9jz3r/moss_character_loras/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image",
+   "threed"
+  ],
+  "score": 6.97,
+  "date": "2026-10-19"
+ },
+ {
+  "key": "1fac1d66606f52a4",
+  "title": "Speculative Sampling in Interactive Video Generation",
+  "url": "https://huggingface.co/papers/2610.20556",
+  "source": "hf-papers",
+  "axes": [
+   "infra",
+   "video"
+  ],
+  "score": 6.47,
+  "date": "2026-10-19"
+ },
+ {
+  "key": "cc339683418ae731",
+  "title": "Learning to Think and Explore in 3D World",
+  "url": "https://huggingface.co/papers/2610.21783",
+  "source": "hf-papers",
+  "axes": [
+   "threed"
+  ],
+  "score": 6.36,
+  "date": "2026-10-19"
+ },
+ {
+  "key": "3b2d86fc93dbf612",
+  "title": "Gemini 4 Argon: Built to solve your hardest problems",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+  "source": "google-ai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 6.25,
+  "date": "2026-10-19"
+ },
+ {
+  "key": "234e3c3044852f47",
+  "title": "Namecheap just seized and disabled all my domains",
+  "url": "https://www.reddit.com/r/sysadmin/comments/1x8cycd/namecheap_just_seized_and_disabled_all_my_domains/",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 3.4,
+  "date": "2026-10-19"
+ },
+ {
+  "key": "557a3977152083e7",
+  "title": "Basic Workflow Simple Prompt Testing: Krea2 vs MOSS vs Qwen2.1 vs Flux3",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x9oi6x/basic_workflow_simple_prompt_testing_krea2_vs/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.31,
+  "date": "2026-10-19"
+ },
+ {
+  "key": "42038938cb2aa6ca",
+  "title": "A comparison of 6 open source models. Krea2, Qwen2.1, Flux3 Klein, Flux 2 Klein, ZIT, & Moss. Same prompt used for all.",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1x9ioew/a_comparison_of_6_open_source_models_krea2_qwen21/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.11,
+  "date": "2026-10-19"
+ },
+ {
+  "key": "d85548f53e3348e2",
+  "title": "BridgeWAM: Bridging Video and Action Experts via Latent Bridge Queries",
+  "url": "https://huggingface.co/papers/2610.14746",
+  "source": "hf-papers",
+  "axes": [
+   "video"
+  ],
+  "score": 6.0,
+  "date": "2026-10-19"
+ },
+ {
+  "key": "132d3d967335cfae",
+  "title": "From Research Goals to Scientific Closure: Evaluating Agents Through Evidence-Supported Physics Research",
+  "url": "https://huggingface.co/papers/2610.21767",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 5.59,
+  "date": "2026-10-19"
+ },
+ {
+  "key": "eda7d0ba01be5155",
+  "title": "Persistent Planar Memory for Video World Models",
+  "url": "https://arxiv.org/abs/2610.23795v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "model",
+   "video"
+  ],
+  "score": 5.19,
+  "date": "2026-10-19"
+ },
+ {
+  "key": "8c131b011442fd43",
+  "title": "X-Splat: Unified Gaussian Splatting for Joint RGB and X-ray 3D Reconstruction",
+  "url": "https://arxiv.org/abs/2610.23237v1",
+  "source": "arxiv-gr",
+  "axes": [
+   "model",
+   "threed"
+  ],
+  "score": 5.15,
+  "date": "2026-10-19"
+ },
+ {
+  "key": "ba0d75b1d2644f63",
+  "title": "Rethinking the design space of Vanilla Pixel Diffusion Transformers",
+  "url": "https://arxiv.org/abs/2610.23854v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "image"
+  ],
+  "score": 4.7,
+  "date": "2026-10-19"
+ },
+ {
+  "key": "84ff3ac7696939f4",
+  "title": "Disney agrees to hire the majority of Character.AI’s workforce",
+  "url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
+  "source": "techcrunch-ai",
+  "axes": [
+   "threed"
+  ],
+  "score": 4.64,
+  "date": "2026-10-19"
+ }
+]
