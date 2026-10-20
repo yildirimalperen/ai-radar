@@ -1,0 +1,204 @@
+[
+ {
+  "key": "c213661c5d7d222e",
+  "title": "OpenVLHarness: Real World Visual Agentic Tool-Use with Multimodal Memory",
+  "url": "https://huggingface.co/papers/2610.26860",
+  "source": "hf-papers",
+  "axes": [
+   "image",
+   "model"
+  ],
+  "score": 9.27,
+  "date": "2026-10-20"
+ },
+ {
+  "key": "74875deefcde44c8",
+  "title": "Ousted Savannah police officer gave ICE agent husband access to Flock system",
+  "url": "https://www.wjcl.com/article/savannah-police-officer-ice-agent-flock-access/74135816",
+  "source": "hackernews",
+  "axes": [
+   "model"
+  ],
+  "score": 8.7,
+  "date": "2026-10-20"
+ },
+ {
+  "key": "7800c8f137e6032e",
+  "title": "Timestral: Mistral's time-series foundation models",
+  "url": "https://mistral.ai/news/timestral/",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 8.13,
+  "date": "2026-10-20"
+ },
+ {
+  "key": "e7602a7eef2ac024",
+  "title": "Gemini 4 Argon: Built to solve your hardest problems",
+  "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
+  "source": "deepmind",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 7.95,
+  "date": "2026-10-20"
+ },
+ {
+  "key": "2ec6f99c09bdff0b",
+  "title": "MOSS-Image-SFT 3 step lora is out",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xafnmf/mossimagesft_3_step_lora_is_out/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 7.37,
+  "date": "2026-10-20"
+ },
+ {
+  "key": "0ace57d78d258909",
+  "title": "MiniMax H3 - Really is the best open-source video model.",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xahodr/minimax_h3_really_is_the_best_opensource_video/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "model",
+   "video"
+  ],
+  "score": 7.32,
+  "date": "2026-10-20"
+ },
+ {
+  "key": "6687ea73ecdf216e",
+  "title": "ScaleNav: Scalable Internet Video Pretraining for Language-Conditioned Local Navigation",
+  "url": "https://huggingface.co/papers/2610.25690",
+  "source": "hf-papers",
+  "axes": [
+   "video"
+  ],
+  "score": 6.9,
+  "date": "2026-10-20"
+ },
+ {
+  "key": "bce8eeb8c16e85dc",
+  "title": "Gemini 4 Argon for Robotics",
+  "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+  "source": "deepmind",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 6.75,
+  "date": "2026-10-20"
+ },
+ {
+  "key": "2e09ccec61151b6a",
+  "title": "Can It Actually Work? Synthesizing Functional CAD Mechanisms",
+  "url": "https://arxiv.org/abs/2610.26861v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "game",
+   "image",
+   "threed",
+   "video"
+  ],
+  "score": 4.85,
+  "date": "2026-10-20"
+ },
+ {
+  "key": "70f2c30e6c97d9c7",
+  "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
+  "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+  "source": "hackernews",
+  "axes": [
+   "model"
+  ],
+  "score": 6.75,
+  "date": "2026-10-20"
+ },
+ {
+  "key": "1c8a963cb9eb0e8c",
+  "title": "the new FastH3 OmniRef for ComfyUI realased",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xaktz0/the_new_fasth3_omniref_for_comfyui_realased/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.37,
+  "date": "2026-10-20"
+ },
+ {
+  "key": "7b0c4b6b397a4b98",
+  "title": "Text-to-Image Generative Modeling Without Language Pretraining",
+  "url": "https://arxiv.org/abs/2610.26863v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "image",
+   "model"
+  ],
+  "score": 6.12,
+  "date": "2026-10-20"
+ },
+ {
+  "key": "9a8c581818fc1454",
+  "title": "Learning from Fleet Experience: A Collective Learning Paradigm for Robots",
+  "url": "https://huggingface.co/papers/2610.25736",
+  "source": "hf-papers",
+  "axes": [
+   "image",
+   "model",
+   "threed",
+   "video"
+  ],
+  "score": 5.97,
+  "date": "2026-10-20"
+ },
+ {
+  "key": "be994ea74f214f76",
+  "title": "Inception Releases Mercury 3 Diffusion LLM at 1,068 Tokens per Second",
+  "url": "https://www.marktechpost.com/2026/10/19/inception-mercury-3-diffusion-llm/",
+  "source": "marktechpost",
+  "axes": [
+   "image",
+   "model"
+  ],
+  "score": 5.95,
+  "date": "2026-10-20"
+ },
+ {
+  "key": "017a5638d3c2644b",
+  "title": "CoworkEnv: Synthesizing Training Environments for Long-Horizon Cowork Agents",
+  "url": "https://huggingface.co/papers/2610.24960",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 5.84,
+  "date": "2026-10-20"
+ },
+ {
+  "key": "24aae54c20f7861d",
+  "title": "Solordz MOSS base versions",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xahyca/solordz_moss_base_versions/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "model"
+  ],
+  "score": 5.59,
+  "date": "2026-10-20"
+ },
+ {
+  "key": "8b471e492a88bfb1",
+  "title": "FluidGen: Physics-Aware Fluid Video Generation via Motion-Guided Post-Training",
+  "url": "https://arxiv.org/abs/2610.25660v1",
+  "source": "arxiv-gr",
+  "axes": [
+   "model",
+   "video"
+  ],
+  "score": 5.54,
+  "date": "2026-10-20"
+ }
+]
