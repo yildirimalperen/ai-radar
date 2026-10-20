@@ -8,7 +8,7 @@
    "image",
    "model"
   ],
-  "score": 9.27,
+  "score": 9.21,
   "date": "2026-10-20"
  },
  {
@@ -19,43 +19,32 @@
   "axes": [
    "model"
   ],
-  "score": 8.7,
+  "score": 8.09,
   "date": "2026-10-20"
  },
  {
-  "key": "7800c8f137e6032e",
-  "title": "Timestral: Mistral's time-series foundation models",
-  "url": "https://mistral.ai/news/timestral/",
+  "key": "140e2cbd5b0dc45c",
+  "title": "MOSS-Image-Base - LoRA - Release - Smartphone Snapshot Photo Reality v14",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xalo3h/mossimagebase_lora_release_smartphone_snapshot/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image",
+   "model"
+  ],
+  "score": 8.03,
+  "date": "2026-10-20"
+ },
+ {
+  "key": "61df3057947654d5",
+  "title": "DeepSeek just open-sourced its inference engine",
+  "url": "https://github.com/deepseek-ai/DeepInfer",
   "source": "hackernews",
   "axes": [
    "infra",
    "model",
    "people"
   ],
-  "score": 8.13,
-  "date": "2026-10-20"
- },
- {
-  "key": "e7602a7eef2ac024",
-  "title": "Gemini 4 Argon: Built to solve your hardest problems",
-  "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
-  "source": "deepmind",
-  "axes": [
-   "model",
-   "people"
-  ],
-  "score": 7.95,
-  "date": "2026-10-20"
- },
- {
-  "key": "2ec6f99c09bdff0b",
-  "title": "MOSS-Image-SFT 3 step lora is out",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xafnmf/mossimagesft_3_step_lora_is_out/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image"
-  ],
-  "score": 7.37,
+  "score": 7.83,
   "date": "2026-10-20"
  },
  {
@@ -67,30 +56,42 @@
    "model",
    "video"
   ],
-  "score": 7.32,
+  "score": 7.15,
   "date": "2026-10-20"
  },
  {
-  "key": "6687ea73ecdf216e",
-  "title": "ScaleNav: Scalable Internet Video Pretraining for Language-Conditioned Local Navigation",
-  "url": "https://huggingface.co/papers/2610.25690",
+  "key": "84d822ad05e6daba",
+  "title": "Scaling Parameter-Efficient Fine-Tuning for Brain Encoding",
+  "url": "https://huggingface.co/papers/2610.26802",
   "source": "hf-papers",
   "axes": [
-   "video"
+   "model"
   ],
-  "score": 6.9,
+  "score": 6.93,
   "date": "2026-10-20"
  },
  {
-  "key": "bce8eeb8c16e85dc",
-  "title": "Gemini 4 Argon for Robotics",
-  "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
-  "source": "deepmind",
+  "key": "3b2d86fc93dbf612",
+  "title": "Gemini 4 Argon: Built to solve your hardest problems",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+  "source": "google-ai",
   "axes": [
    "model",
    "people"
   ],
-  "score": 6.75,
+  "score": 6.25,
+  "date": "2026-10-20"
+ },
+ {
+  "key": "7b0c4b6b397a4b98",
+  "title": "Text-to-Image Generative Modeling Without Language Pretraining",
+  "url": "https://arxiv.org/abs/2610.26863v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "image",
+   "model"
+  ],
+  "score": 6.0,
   "date": "2026-10-20"
  },
  {
@@ -104,7 +105,20 @@
    "threed",
    "video"
   ],
-  "score": 4.85,
+  "score": 4.72,
+  "date": "2026-10-20"
+ },
+ {
+  "key": "7800c8f137e6032e",
+  "title": "Timestral: Mistral's time-series foundation models",
+  "url": "https://mistral.ai/news/timestral/",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 7.62,
   "date": "2026-10-20"
  },
  {
@@ -115,7 +129,21 @@
   "axes": [
    "model"
   ],
-  "score": 6.75,
+  "score": 6.68,
+  "date": "2026-10-20"
+ },
+ {
+  "key": "1de8be970190a388",
+  "title": "MemT-1.0: Towards Memory-Native Evolution",
+  "url": "https://huggingface.co/papers/2610.26825",
+  "source": "hf-papers",
+  "axes": [
+   "image",
+   "model",
+   "threed",
+   "video"
+  ],
+  "score": 6.31,
   "date": "2026-10-20"
  },
  {
@@ -126,19 +154,7 @@
   "axes": [
    "image"
   ],
-  "score": 6.37,
-  "date": "2026-10-20"
- },
- {
-  "key": "7b0c4b6b397a4b98",
-  "title": "Text-to-Image Generative Modeling Without Language Pretraining",
-  "url": "https://arxiv.org/abs/2610.26863v1",
-  "source": "arxiv-cv",
-  "axes": [
-   "image",
-   "model"
-  ],
-  "score": 6.12,
+  "score": 6.18,
   "date": "2026-10-20"
  },
  {
@@ -152,7 +168,7 @@
    "threed",
    "video"
   ],
-  "score": 5.97,
+  "score": 5.89,
   "date": "2026-10-20"
  },
  {
@@ -164,29 +180,18 @@
    "image",
    "model"
   ],
-  "score": 5.95,
+  "score": 5.78,
   "date": "2026-10-20"
  },
  {
-  "key": "017a5638d3c2644b",
-  "title": "CoworkEnv: Synthesizing Training Environments for Long-Horizon Cowork Agents",
-  "url": "https://huggingface.co/papers/2610.24960",
-  "source": "hf-papers",
-  "axes": [
-   "model"
-  ],
-  "score": 5.84,
-  "date": "2026-10-20"
- },
- {
-  "key": "24aae54c20f7861d",
-  "title": "Solordz MOSS base versions",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xahyca/solordz_moss_base_versions/",
+  "key": "1acbf716435c41a8",
+  "title": "Kratos vs Teddy bear minimax",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xalzfp/kratos_vs_teddy_bear_minimax/",
   "source": "reddit-stablediffusion",
   "axes": [
    "model"
   ],
-  "score": 5.59,
+  "score": 5.57,
   "date": "2026-10-20"
  },
  {
@@ -198,7 +203,7 @@
    "model",
    "video"
   ],
-  "score": 5.54,
+  "score": 5.46,
   "date": "2026-10-20"
  }
 ]
