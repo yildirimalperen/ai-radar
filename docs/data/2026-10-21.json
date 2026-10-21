@@ -1,0 +1,239 @@
+[
+ {
+  "key": "80b17e1b81898dd1",
+  "title": "eMudhra Intermediate CA Compromise",
+  "url": "https://simonwillison.net/2026/Oct/20/emudhra-certificates/",
+  "source": "simonwillison",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 9.9,
+  "date": "2026-10-21"
+ },
+ {
+  "key": "61df3057947654d5",
+  "title": "DeepInfer: High-performance inference framework for DeepSeek models",
+  "url": "https://github.com/deepseek-ai/DeepInfer",
+  "source": "hackernews",
+  "axes": [
+   "infra"
+  ],
+  "score": 8.0,
+  "date": "2026-10-21"
+ },
+ {
+  "key": "e7602a7eef2ac024",
+  "title": "Gemini 4 Argon: Built to solve your hardest problems",
+  "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
+  "source": "deepmind",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 7.95,
+  "date": "2026-10-21"
+ },
+ {
+  "key": "8148c10156f2bf05",
+  "title": "Matrix-Game 4.0: Harnessing Video Models for Real-Time Playable Game Worlds",
+  "url": "https://huggingface.co/papers/2610.27999",
+  "source": "hf-papers",
+  "axes": [
+   "game",
+   "infra",
+   "model",
+   "video"
+  ],
+  "score": 7.87,
+  "date": "2026-10-21"
+ },
+ {
+  "key": "db1f8085fbcf8cd2",
+  "title": "Joints, Camera, Action! Co-Generating 3D Motion and Video for Arbitrary Rigs",
+  "url": "https://arxiv.org/abs/2610.28632v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "threed",
+   "video"
+  ],
+  "score": 7.21,
+  "date": "2026-10-21"
+ },
+ {
+  "key": "13870c6370665101",
+  "title": "Tried the Kromoss model yesterday, and saw a lot of blurriness in outputs",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xben33/tried_the_kromoss_model_yesterday_and_saw_a_lot/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image",
+   "model"
+  ],
+  "score": 7.03,
+  "date": "2026-10-21"
+ },
+ {
+  "key": "1d755fc95943daf9",
+  "title": "Learning the 4D World through Point Trajectory Forecasting",
+  "url": "https://huggingface.co/papers/2610.28594",
+  "source": "hf-papers",
+  "axes": [
+   "video"
+  ],
+  "score": 6.8,
+  "date": "2026-10-21"
+ },
+ {
+  "key": "bce8eeb8c16e85dc",
+  "title": "Gemini 4 Argon for Robotics",
+  "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+  "source": "deepmind",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 6.75,
+  "date": "2026-10-21"
+ },
+ {
+  "key": "d3aff453273828d7",
+  "title": "Thoughts on Fibo 2.0 Image Editing",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xbfjik/thoughts_on_fibo_20_image_editing/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.36,
+  "date": "2026-10-21"
+ },
+ {
+  "key": "5afc4384991dd965",
+  "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
+  "url": "https://huggingface.co/blog/allenai/fairstress",
+  "source": "huggingface-blog",
+  "axes": [
+   "model"
+  ],
+  "score": 6.19,
+  "date": "2026-10-21"
+ },
+ {
+  "key": "64f2199a848ddeef",
+  "title": "OpenAI acquires Orchestra Bio",
+  "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+  "source": "openai",
+  "axes": [
+   "people"
+  ],
+  "score": 5.25,
+  "date": "2026-10-21"
+ },
+ {
+  "key": "deb0c7e0eec8a37f",
+  "title": "Learning Adaptable Dexterous Skills via Hybrid Dexterous Mimicking",
+  "url": "https://arxiv.org/abs/2610.28628v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "game",
+   "image",
+   "threed",
+   "video"
+  ],
+  "score": 4.84,
+  "date": "2026-10-21"
+ },
+ {
+  "key": "cc85684f034be0f2",
+  "title": "S-Agent 2.0: Spatial Reasoning with a General Coding Agent",
+  "url": "https://huggingface.co/papers/2610.28354",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 6.59,
+  "date": "2026-10-21"
+ },
+ {
+  "key": "524740caca5d5852",
+  "title": "SolarRenderer: Few-Step Generative Reference Rendering",
+  "url": "https://huggingface.co/papers/2610.28630",
+  "source": "hf-papers",
+  "axes": [
+   "image",
+   "model",
+   "threed",
+   "video"
+  ],
+  "score": 6.46,
+  "date": "2026-10-21"
+ },
+ {
+  "key": "739ae371862a58f0",
+  "title": "Image edit plugin for Forge Neo, supports Qwen 2.1 and Fibo",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xbc8sl/image_edit_plugin_for_forge_neo_supports_qwen_21/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.22,
+  "date": "2026-10-21"
+ },
+ {
+  "key": "1f580627e0429b5f",
+  "title": "Having a blast with MOSS 🤣",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xbay08/having_a_blast_with_moss/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.18,
+  "date": "2026-10-21"
+ },
+ {
+  "key": "393ef276cdbaf62f",
+  "title": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
+  "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
+  "source": "huggingface-blog",
+  "axes": [
+   "model"
+  ],
+  "score": 6.17,
+  "date": "2026-10-21"
+ },
+ {
+  "key": "7a9688adcbd1a89a",
+  "title": "AEON: Unifying Video and 3D World Models",
+  "url": "https://arxiv.org/abs/2610.28631v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "threed",
+   "video"
+  ],
+  "score": 6.01,
+  "date": "2026-10-21"
+ },
+ {
+  "key": "ad4c1a608e7956d7",
+  "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
+  "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+  "source": "deepmind",
+  "axes": [
+   "model"
+  ],
+  "score": 5.92,
+  "date": "2026-10-21"
+ },
+ {
+  "key": "e95fd3bae488a5c4",
+  "title": "Mistral AI Releases Voxtral 3: Speech-to-Text, TTS and a Voice Agent SDK",
+  "url": "https://www.marktechpost.com/2026/10/20/mistral-voxtral-3-speech-models-voice-agent-sdk/",
+  "source": "marktechpost",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 5.18,
+  "date": "2026-10-21"
+ }
+]
