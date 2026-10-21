@@ -9,30 +9,7 @@
    "model",
    "people"
   ],
-  "score": 9.9,
-  "date": "2026-10-21"
- },
- {
-  "key": "61df3057947654d5",
-  "title": "DeepInfer: High-performance inference framework for DeepSeek models",
-  "url": "https://github.com/deepseek-ai/DeepInfer",
-  "source": "hackernews",
-  "axes": [
-   "infra"
-  ],
-  "score": 8.0,
-  "date": "2026-10-21"
- },
- {
-  "key": "e7602a7eef2ac024",
-  "title": "Gemini 4 Argon: Built to solve your hardest problems",
-  "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
-  "source": "deepmind",
-  "axes": [
-   "model",
-   "people"
-  ],
-  "score": 7.95,
+  "score": 9.78,
   "date": "2026-10-21"
  },
  {
@@ -46,7 +23,41 @@
    "model",
    "video"
   ],
-  "score": 7.87,
+  "score": 9.64,
+  "date": "2026-10-21"
+ },
+ {
+  "key": "61df3057947654d5",
+  "title": "DeepInfer: High-performance inference framework for DeepSeek models",
+  "url": "https://github.com/deepseek-ai/DeepInfer",
+  "source": "hackernews",
+  "axes": [
+   "infra"
+  ],
+  "score": 7.91,
+  "date": "2026-10-21"
+ },
+ {
+  "key": "ed8dc131ea2bce83",
+  "title": "Announcing SimReady Central: An Open Library of Simulation-Ready 3D Assets for Robotics and AI Factories",
+  "url": "https://huggingface.co/blog/nvidia/simready-central-assets-robotics-ai-factories",
+  "source": "huggingface-blog",
+  "axes": [
+   "infra",
+   "threed"
+  ],
+  "score": 7.63,
+  "date": "2026-10-21"
+ },
+ {
+  "key": "c834c2ef3b371d93",
+  "title": "MOSS-Image Vision Text Encode (ComfyUI node + workflow)",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xbjxcr/mossimage_vision_text_encode_comfyui_node_workflow/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 7.2,
   "date": "2026-10-21"
  },
  {
@@ -58,19 +69,7 @@
    "threed",
    "video"
   ],
-  "score": 7.21,
-  "date": "2026-10-21"
- },
- {
-  "key": "13870c6370665101",
-  "title": "Tried the Kromoss model yesterday, and saw a lot of blurriness in outputs",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xben33/tried_the_kromoss_model_yesterday_and_saw_a_lot/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image",
-   "model"
-  ],
-  "score": 7.03,
+  "score": 7.08,
   "date": "2026-10-21"
  },
  {
@@ -81,41 +80,42 @@
   "axes": [
    "video"
   ],
-  "score": 6.8,
+  "score": 6.72,
   "date": "2026-10-21"
  },
  {
-  "key": "bce8eeb8c16e85dc",
-  "title": "Gemini 4 Argon for Robotics",
-  "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
-  "source": "deepmind",
+  "key": "9fcc1909f504bf18",
+  "title": "NVIDIA Agent Toolkit Expands, Grounding Enterprise Agents in Company Data",
+  "url": "https://blogs.nvidia.com/blog/enterprise-platforms-agent-toolkit/",
+  "source": "nvidia-genai",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 6.65,
+  "date": "2026-10-21"
+ },
+ {
+  "key": "f22f4e9eb7d0c736",
+  "title": "Qwen3.8-Flash-Next vs Opus 5.5: Six-way benchmark on a real Rust feature with Claude Code and Pi",
+  "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbipsl/qwen38flashnext_vs_opus_55_sixway_benchmark_on_a/",
+  "source": "reddit-localllama",
+  "axes": [
+   "model"
+  ],
+  "score": 6.43,
+  "date": "2026-10-21"
+ },
+ {
+  "key": "3b2d86fc93dbf612",
+  "title": "Gemini 4 Argon: Built to solve your hardest problems",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+  "source": "google-ai",
   "axes": [
    "model",
    "people"
   ],
-  "score": 6.75,
-  "date": "2026-10-21"
- },
- {
-  "key": "d3aff453273828d7",
-  "title": "Thoughts on Fibo 2.0 Image Editing",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xbfjik/thoughts_on_fibo_20_image_editing/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image"
-  ],
-  "score": 6.36,
-  "date": "2026-10-21"
- },
- {
-  "key": "5afc4384991dd965",
-  "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
-  "url": "https://huggingface.co/blog/allenai/fairstress",
-  "source": "huggingface-blog",
-  "axes": [
-   "model"
-  ],
-  "score": 6.19,
+  "score": 6.25,
   "date": "2026-10-21"
  },
  {
@@ -126,21 +126,18 @@
   "axes": [
    "people"
   ],
-  "score": 5.25,
+  "score": 5.18,
   "date": "2026-10-21"
  },
  {
-  "key": "deb0c7e0eec8a37f",
-  "title": "Learning Adaptable Dexterous Skills via Hybrid Dexterous Mimicking",
-  "url": "https://arxiv.org/abs/2610.28628v1",
-  "source": "arxiv-cv",
+  "key": "b200da8cb5684b0b",
+  "title": "GTC Berlin 2026: Live Updates From NVIDIA CEO Jensen Huang’s Keynote",
+  "url": "https://blogs.nvidia.com/blog/gtc-berlin-2026-keynote/",
+  "source": "nvidia-genai",
   "axes": [
-   "game",
-   "image",
-   "threed",
-   "video"
+   "people"
   ],
-  "score": 4.84,
+  "score": 5.03,
   "date": "2026-10-21"
  },
  {
@@ -151,13 +148,13 @@
   "axes": [
    "model"
   ],
-  "score": 6.59,
+  "score": 6.71,
   "date": "2026-10-21"
  },
  {
-  "key": "524740caca5d5852",
-  "title": "SolarRenderer: Few-Step Generative Reference Rendering",
-  "url": "https://huggingface.co/papers/2610.28630",
+  "key": "c4c46fa72f2187d7",
+  "title": "PAR: Progress-Aligned Recurrence for Length Generalization in State Tracking",
+  "url": "https://huggingface.co/papers/2610.27628",
   "source": "hf-papers",
   "axes": [
    "image",
@@ -165,29 +162,51 @@
    "threed",
    "video"
   ],
-  "score": 6.46,
+  "score": 6.44,
   "date": "2026-10-21"
  },
  {
-  "key": "739ae371862a58f0",
-  "title": "Image edit plugin for Forge Neo, supports Qwen 2.1 and Fibo",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xbc8sl/image_edit_plugin_for_forge_neo_supports_qwen_21/",
+  "key": "002adfbd1309989f",
+  "title": "Some simple Fibo 2.0 workflows (Dev + Edit Turbo, with and without structured prompt conversion)",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xbjies/some_simple_fibo_20_workflows_dev_edit_turbo_with/",
   "source": "reddit-stablediffusion",
   "axes": [
    "image"
   ],
-  "score": 6.22,
+  "score": 6.33,
   "date": "2026-10-21"
  },
  {
-  "key": "1f580627e0429b5f",
-  "title": "Having a blast with MOSS 🤣",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xbay08/having_a_blast_with_moss/",
+  "key": "747fcb65e18e0a72",
+  "title": "Easy BBoxes wf, MOSS.",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xbi6tw/easy_bboxes_wf_moss/",
   "source": "reddit-stablediffusion",
   "axes": [
    "image"
   ],
-  "score": 6.18,
+  "score": 6.28,
+  "date": "2026-10-21"
+ },
+ {
+  "key": "3540b6f4d6aeeded",
+  "title": "NVIDIA Confidential Computing Expands, Enabling Frontier Model Builders to Securely Scale Across Global Infrastructure",
+  "url": "https://blogs.nvidia.com/blog/confidential-computing-model-builders-infrastructure/",
+  "source": "nvidia-genai",
+  "axes": [
+   "model"
+  ],
+  "score": 6.17,
+  "date": "2026-10-21"
+ },
+ {
+  "key": "5afc4384991dd965",
+  "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
+  "url": "https://huggingface.co/blog/allenai/fairstress",
+  "source": "huggingface-blog",
+  "axes": [
+   "model"
+  ],
+  "score": 6.07,
   "date": "2026-10-21"
  },
  {
@@ -198,7 +217,7 @@
   "axes": [
    "model"
   ],
-  "score": 6.17,
+  "score": 6.05,
   "date": "2026-10-21"
  },
  {
@@ -210,30 +229,7 @@
    "threed",
    "video"
   ],
-  "score": 6.01,
-  "date": "2026-10-21"
- },
- {
-  "key": "ad4c1a608e7956d7",
-  "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
-  "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
-  "source": "deepmind",
-  "axes": [
-   "model"
-  ],
-  "score": 5.92,
-  "date": "2026-10-21"
- },
- {
-  "key": "e95fd3bae488a5c4",
-  "title": "Mistral AI Releases Voxtral 3: Speech-to-Text, TTS and a Voice Agent SDK",
-  "url": "https://www.marktechpost.com/2026/10/20/mistral-voxtral-3-speech-models-voice-agent-sdk/",
-  "source": "marktechpost",
-  "axes": [
-   "infra",
-   "model"
-  ],
-  "score": 5.18,
+  "score": 5.88,
   "date": "2026-10-21"
  }
 ]
