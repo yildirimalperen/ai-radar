@@ -7,7 +7,123 @@
   "axes": [
    "model"
   ],
-  "score": 11.13,
+  "score": 11.01,
+  "date": "2026-10-22"
+ },
+ {
+  "key": "e7602a7eef2ac024",
+  "title": "Gemini 4 Argon: Built to solve your hardest problems",
+  "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
+  "source": "deepmind",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 7.95,
+  "date": "2026-10-22"
+ },
+ {
+  "key": "a45a3f2e7190ab9c",
+  "title": "StreamEval: Evaluating Interactive Streaming Video Generation Models",
+  "url": "https://huggingface.co/papers/2610.28402",
+  "source": "hf-papers",
+  "axes": [
+   "model",
+   "video"
+  ],
+  "score": 7.71,
+  "date": "2026-10-22"
+ },
+ {
+  "key": "269238ea98477764",
+  "title": "Looking Ahead: Modeling Future Evolution in Autoregressive Video Generation",
+  "url": "https://huggingface.co/papers/2610.29989",
+  "source": "hf-papers",
+  "axes": [
+   "video"
+  ],
+  "score": 7.27,
+  "date": "2026-10-22"
+ },
+ {
+  "key": "026cd4189ea92b7c",
+  "title": "Moss Image Lora: Ultimate Digital Artwork",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xc5p3v/moss_image_lora_ultimate_digital_artwork/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.86,
+  "date": "2026-10-22"
+ },
+ {
+  "key": "bce8eeb8c16e85dc",
+  "title": "Gemini 4 Argon for Robotics",
+  "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+  "source": "deepmind",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 6.75,
+  "date": "2026-10-22"
+ },
+ {
+  "key": "cdd77caf0a21d089",
+  "title": "8 and 4-step MiniMax-H3 PTD Ref2VA Acceleration LoRAs",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xc72k3/8_and_4step_minimaxh3_ptd_ref2va_acceleration/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.62,
+  "date": "2026-10-22"
+ },
+ {
+  "key": "279f2663828c02b8",
+  "title": "How Pantaloon is curating an \"evolving library of bold and bizarre games\" with its new subscription service",
+  "url": "https://www.gamesindustry.biz/how-pantaloon-is-curating-an-evolving-library-of-bold-and-bizarre-games-with-its-new-subscription-service",
+  "source": "gamesindustry",
+  "axes": [
+   "game",
+   "infra"
+  ],
+  "score": 6.35,
+  "date": "2026-10-22"
+ },
+ {
+  "key": "aa0a8cca9cc8355b",
+  "title": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required",
+  "url": "https://huggingface.co/blog/nvidia/kumo-relational",
+  "source": "huggingface-blog",
+  "axes": [
+   "model"
+  ],
+  "score": 6.13,
+  "date": "2026-10-22"
+ },
+ {
+  "key": "aba4e975b3e196bf",
+  "title": "WorldStream: Streaming Interactive 3D Worlds with Hierarchical Planning and Persistent State",
+  "url": "https://arxiv.org/abs/2610.28827v1",
+  "source": "arxiv-gr",
+  "axes": [
+   "game",
+   "threed",
+   "video"
+  ],
+  "score": 5.69,
+  "date": "2026-10-22"
+ },
+ {
+  "key": "2acd4638356de5fe",
+  "title": "I have a question about how to do the code for my game",
+  "url": "https://www.reddit.com/r/gamedev/comments/1xcfqp8/i_have_a_question_about_how_to_do_the_code_for_my/",
+  "source": "reddit-gamedev",
+  "axes": [
+   "game"
+  ],
+  "score": 5.07,
   "date": "2026-10-22"
  },
  {
@@ -23,62 +139,6 @@
   "date": "2026-10-22"
  },
  {
-  "key": "269238ea98477764",
-  "title": "Looking Ahead: Modeling Future Evolution in Autoregressive Video Generation",
-  "url": "https://huggingface.co/papers/2610.29989",
-  "source": "hf-papers",
-  "axes": [
-   "video"
-  ],
-  "score": 7.05,
-  "date": "2026-10-22"
- },
- {
-  "key": "026cd4189ea92b7c",
-  "title": "Moss Image Lora: Ultimate Digital Artwork",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xc5p3v/moss_image_lora_ultimate_digital_artwork/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image"
-  ],
-  "score": 7.02,
-  "date": "2026-10-22"
- },
- {
-  "key": "90ef79f5261cd037",
-  "title": "Comparing both Moss Image Edit methods",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xc2dxn/comparing_both_moss_image_edit_methods/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image"
-  ],
-  "score": 6.93,
-  "date": "2026-10-22"
- },
- {
-  "key": "aa0a8cca9cc8355b",
-  "title": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required",
-  "url": "https://huggingface.co/blog/nvidia/kumo-relational",
-  "source": "huggingface-blog",
-  "axes": [
-   "model"
-  ],
-  "score": 6.26,
-  "date": "2026-10-22"
- },
- {
-  "key": "3b2d86fc93dbf612",
-  "title": "Gemini 4 Argon: Built to solve your hardest problems",
-  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
-  "source": "google-ai",
-  "axes": [
-   "model",
-   "people"
-  ],
-  "score": 6.25,
-  "date": "2026-10-22"
- },
- {
   "key": "3519f6332d84c24d",
   "title": "PHP2Shell: AI uncovers critical RCE in PHP",
   "url": "https://www.wiz.io/blog/php2shell-php-rce",
@@ -88,65 +148,7 @@
    "model",
    "people"
   ],
-  "score": 6.18,
-  "date": "2026-10-22"
- },
- {
-  "key": "aba4e975b3e196bf",
-  "title": "WorldStream: Streaming Interactive 3D Worlds with Hierarchical Planning and Persistent State",
-  "url": "https://arxiv.org/abs/2610.28827v1",
-  "source": "arxiv-gr",
-  "axes": [
-   "game",
-   "threed",
-   "video"
-  ],
-  "score": 5.75,
-  "date": "2026-10-22"
- },
- {
-  "key": "c9bd76f2b9f39b00",
-  "title": "2-bit copy in VRAM + exact residual in system RAM as the verifier: speculative decoding for models that don't fit your GPU",
-  "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xc55z3/2bit_copy_in_vram_exact_residual_in_system_ram_as/",
-  "source": "reddit-localllama",
-  "axes": [
-   "infra"
-  ],
-  "score": 4.61,
-  "date": "2026-10-22"
- },
- {
-  "key": "a45a3f2e7190ab9c",
-  "title": "StreamEval: Evaluating Interactive Streaming Video Generation Models",
-  "url": "https://huggingface.co/papers/2610.28402",
-  "source": "hf-papers",
-  "axes": [
-   "model",
-   "video"
-  ],
-  "score": 6.88,
-  "date": "2026-10-22"
- },
- {
-  "key": "cdd77caf0a21d089",
-  "title": "8 and 4-step MiniMax-H3 PTD Ref2VA Acceleration LoRAs",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xc72k3/8_and_4step_minimaxh3_ptd_ref2va_acceleration/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image"
-  ],
-  "score": 6.79,
-  "date": "2026-10-22"
- },
- {
-  "key": "c6a1bb9ff72247a4",
-  "title": "Minimax h3 Replace Background Workflow 4k 600frames+",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xbzw1o/minimax_h3_replace_background_workflow_4k/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image"
-  ],
-  "score": 6.59,
+  "score": 5.84,
   "date": "2026-10-22"
  },
  {
@@ -157,29 +159,18 @@
   "axes": [
    "model"
   ],
-  "score": 5.64,
+  "score": 5.7,
   "date": "2026-10-22"
  },
  {
-  "key": "2d723481c9c934e6",
-  "title": "What's your favorite medium to large (~50-150b params) MOE model? Aside from Qwen flash next.",
-  "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xc84ht/whats_your_favorite_medium_to_large_50150b_params/",
-  "source": "reddit-localllama",
+  "key": "c6029493f94f5787",
+  "title": "ALPS: Visual State Encoders for World Models",
+  "url": "https://arxiv.org/abs/2610.30120v1",
+  "source": "arxiv-cv",
   "axes": [
-   "model"
+   "image"
   ],
-  "score": 5.59,
-  "date": "2026-10-22"
- },
- {
-  "key": "93789d9d371e7646",
-  "title": "Open source LLM appreciation post",
-  "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xc5qac/open_source_llm_appreciation_post/",
-  "source": "reddit-localllama",
-  "axes": [
-   "model"
-  ],
-  "score": 5.51,
+  "score": 5.28,
   "date": "2026-10-22"
  },
  {
@@ -191,18 +182,42 @@
    "model",
    "people"
   ],
-  "score": 5.41,
+  "score": 5.27,
   "date": "2026-10-22"
  },
  {
-  "key": "c6029493f94f5787",
-  "title": "ALPS: Visual State Encoders for World Models",
-  "url": "https://arxiv.org/abs/2610.30120v1",
-  "source": "arxiv-cv",
+  "key": "d0a04b4e0783c2b1",
+  "title": "How AT&T is rethinking in-house legal work with OpenAI",
+  "url": "https://openai.com/index/att-legal",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 5.16,
+  "date": "2026-10-22"
+ },
+ {
+  "key": "6497f13d50e4859a",
+  "title": "How to Add Legs (Used to Be Outpaint)",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xc41ns/how_to_add_legs_used_to_be_outpaint/",
+  "source": "reddit-stablediffusion",
   "axes": [
    "image"
   ],
-  "score": 5.41,
+  "score": 5.16,
+  "date": "2026-10-22"
+ },
+ {
+  "key": "4f570ee29f9150db",
+  "title": "Ensemble forecasting with IBM Granite time-series models",
+  "url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
+  "source": "huggingface-blog",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 5.13,
   "date": "2026-10-22"
  }
 ]
