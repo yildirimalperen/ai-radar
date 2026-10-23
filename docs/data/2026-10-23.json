@@ -8,7 +8,7 @@
    "model",
    "video"
   ],
-  "score": 8.86,
+  "score": 10.27,
   "date": "2026-10-23"
  },
  {
@@ -24,6 +24,28 @@
   "date": "2026-10-23"
  },
  {
+  "key": "fa6be6045caaef01",
+  "title": "WeVisOne-VL: Unified Visual Perception from Objects to Pixels",
+  "url": "https://huggingface.co/papers/2610.31329",
+  "source": "hf-papers",
+  "axes": [
+   "image"
+  ],
+  "score": 7.8,
+  "date": "2026-10-23"
+ },
+ {
+  "key": "75b91c949ccea9ce",
+  "title": "Every AI model has the same \"controversial\" take on humans",
+  "url": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans",
+  "source": "hackernews",
+  "axes": [
+   "model"
+  ],
+  "score": 7.48,
+  "date": "2026-10-23"
+ },
+ {
   "key": "ff72a17be2cd1c96",
   "title": "MOSS-Image-SFT Anime Showcase: 20 styles tested (90s Cel, Shonen Jump covers, Sugimori watercolor, Sakuga & Kanji) + ComfyUI Workflow (Its Great!)",
   "url": "https://www.reddit.com/r/StableDiffusion/comments/1xd5ypf/mossimagesft_anime_showcase_20_styles_tested_90s/",
@@ -31,7 +53,18 @@
   "axes": [
    "image"
   ],
-  "score": 7.54,
+  "score": 7.36,
+  "date": "2026-10-23"
+ },
+ {
+  "key": "33399a8f9801a7b7",
+  "title": "Moss Image Showcase – Mostly Photoreal + Some Art",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xd9o13/moss_image_showcase_mostly_photoreal_some_art/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 7.17,
   "date": "2026-10-23"
  },
  {
@@ -42,31 +75,7 @@
   "axes": [
    "model"
   ],
-  "score": 7.34,
-  "date": "2026-10-23"
- },
- {
-  "key": "3d52fd673fa50983",
-  "title": "Fizgig 8.9.0: Multiple GPUs for previews, shared training, and pod combos",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xcx77q/fizgig_890_multiple_gpus_for_previews_shared/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image",
-   "model"
-  ],
-  "score": 6.78,
-  "date": "2026-10-23"
- },
- {
-  "key": "a86b2ef74284aedc",
-  "title": "Code2Video-Compass: A Comprehensive Benchmark for General-Purpose Code-Based Video Generation across T2V, I2V, and V2V",
-  "url": "https://huggingface.co/papers/2610.28416",
-  "source": "hf-papers",
-  "axes": [
-   "model",
-   "video"
-  ],
-  "score": 6.75,
+  "score": 6.86,
   "date": "2026-10-23"
  },
  {
@@ -82,17 +91,6 @@
   "date": "2026-10-23"
  },
  {
-  "key": "f2c829666956e7bc",
-  "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
-  "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
-  "source": "huggingface-blog",
-  "axes": [
-   "model"
-  ],
-  "score": 6.39,
-  "date": "2026-10-23"
- },
- {
   "key": "a20ae9c12cfd9806",
   "title": "Build more responsive apps with the Decisions API",
   "url": "https://openai.com/index/decisions-api",
@@ -100,7 +98,7 @@
   "axes": [
    "infra"
   ],
-  "score": 5.9,
+  "score": 5.77,
   "date": "2026-10-23"
  },
  {
@@ -111,30 +109,19 @@
   "axes": [
    "game"
   ],
-  "score": 5.51,
+  "score": 5.44,
   "date": "2026-10-23"
  },
  {
-  "key": "5b6cdb827f0a9c58",
-  "title": "Pioneers Across Europe Deploy NVIDIA Earth-2 Open Models to Power Real-World Weather and Climate Prediction",
-  "url": "https://blogs.nvidia.com/blog/europe-earth-2-open-models-weather-climate-prediction/",
-  "source": "nvidia-genai",
-  "axes": [
-   "infra"
-  ],
-  "score": 4.56,
-  "date": "2026-10-23"
- },
- {
-  "key": "817f97b80de1c4cb",
-  "title": "MOSS - 1024x1024, 34 Steps (MOSS 5b) + 1 Step (Flux 2 9b), 8 CFG, 20 Secs - First Model That Can Render 100+ Rats Perfectly at 1024x1024 Without Hi-Res or Inpaint.",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xcwlz7/moss_1024x1024_34_steps_moss_5b_1_step_flux_2_9b/",
+  "key": "7cf7bb38107d8725",
+  "title": "PixText: a small, fast model for fixing text in generated images",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xd9186/pixtext_a_small_fast_model_for_fixing_text_in/",
   "source": "reddit-stablediffusion",
   "axes": [
    "image",
    "model"
   ],
-  "score": 6.76,
+  "score": 7.0,
   "date": "2026-10-23"
  },
  {
@@ -145,18 +132,29 @@
   "axes": [
    "video"
   ],
-  "score": 6.74,
+  "score": 6.61,
   "date": "2026-10-23"
  },
  {
-  "key": "1034f77d250f1a19",
-  "title": "testing minimax h3 ref2va with my ps2 style lora",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xd05y1/testing_minimax_h3_ref2va_with_my_ps2_style_lora/",
-  "source": "reddit-stablediffusion",
+  "key": "0309fa2f85cc6c11",
+  "title": "Editing Images into Reusable Layers via Compositional Edit-Prior Distillation",
+  "url": "https://huggingface.co/papers/2610.24738",
+  "source": "hf-papers",
   "axes": [
    "image"
   ],
-  "score": 6.72,
+  "score": 6.46,
+  "date": "2026-10-23"
+ },
+ {
+  "key": "d29d29ae05be7657",
+  "title": "Policy-Mask: Budget-Aware Adaptation of Diffusion Features to Discriminative Tasks",
+  "url": "https://huggingface.co/papers/2610.28889",
+  "source": "hf-papers",
+  "axes": [
+   "image"
+  ],
+  "score": 6.41,
   "date": "2026-10-23"
  },
  {
@@ -168,18 +166,18 @@
    "infra",
    "video"
   ],
-  "score": 6.37,
+  "score": 6.29,
   "date": "2026-10-23"
  },
  {
-  "key": "d29d29ae05be7657",
-  "title": "Policy-Mask: Budget-Aware Adaptation of Diffusion Features to Discriminative Tasks",
-  "url": "https://huggingface.co/papers/2610.28889",
-  "source": "hf-papers",
+  "key": "f2c829666956e7bc",
+  "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+  "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+  "source": "huggingface-blog",
   "axes": [
-   "image"
+   "model"
   ],
-  "score": 6.32,
+  "score": 6.25,
   "date": "2026-10-23"
  },
  {
@@ -190,18 +188,7 @@
   "axes": [
    "model"
   ],
-  "score": 6.25,
-  "date": "2026-10-23"
- },
- {
-  "key": "5257dd51dc3aa27f",
-  "title": "LaLa-World: Scaling Latent World Models with Natural Language Actions",
-  "url": "https://huggingface.co/papers/2610.27851",
-  "source": "hf-papers",
-  "axes": [
-   "video"
-  ],
-  "score": 6.24,
+  "score": 6.13,
   "date": "2026-10-23"
  },
  {
@@ -213,7 +200,7 @@
    "image",
    "model"
   ],
-  "score": 6.12,
+  "score": 6.0,
   "date": "2026-10-23"
  }
 ]
