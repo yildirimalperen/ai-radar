@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Radar — 23 Ekim 2026</title>
+<meta name="description" content="Görsel üretimi, oyun üretimi, 3D ve yeni modeller ekseninde günlük brief.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ccircle cx='8' cy='8' r='6.5' fill='none' stroke='%232563eb' stroke-width='1.4'/%3E%3Ccircle cx='8' cy='8' r='2.2' fill='%232563eb'/%3E%3C/svg%3E">
+<style>
+  :root {
+    --bg: #ffffff;
+    --text: #101418;
+    --muted: #6b7280;
+    --faint: #9aa2ad;
+    --rule: #ebedf0;
+    --rule-strong: #d9dde2;
+    --accent: #2563eb;
+    --mark-yes: #16a34a;
+    --mark-no: #9aa2ad;
+    --chip-bg: rgba(16,20,24,.045);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0b0d10;
+      --text: #e7eaee;
+      --muted: #8b93a0;
+      --faint: #667080;
+      --rule: #1c2127;
+      --rule-strong: #2b323a;
+      --accent: #7aa7ff;
+      --mark-yes: #4ade80;
+      --mark-no: #667080;
+      --chip-bg: rgba(255,255,255,.06);
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0b0d10; --text: #e7eaee; --muted: #8b93a0; --faint: #667080;
+    --rule: #1c2127; --rule-strong: #2b323a; --accent: #7aa7ff;
+    --mark-yes: #4ade80; --mark-no: #667080; --chip-bg: rgba(255,255,255,.06);
+  }
+
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 400 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", "Inter",
+          ui-sans-serif, Roboto, "Helvetica Neue", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  .wrap { max-width: 700px; margin: 0 auto; padding: 56px 16px 96px; }
+
+  /* --- başlık --- */
+  .mast { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+  .mast h1 {
+    font-size: 19px; font-weight: 640; letter-spacing: -.015em; margin: 0;
+    display: flex; align-items: center; gap: 9px;
+  }
+  .dot { width: 9px; height: 9px; border-radius: 50%; background: var(--accent); flex: none; }
+  .mast time { color: var(--muted); font-size: 14px; font-variant-numeric: tabular-nums; }
+  .stats {
+    margin-top: 12px; color: var(--faint); font-size: 12.5px;
+    display: flex; flex-wrap: wrap; gap: 4px 16px; font-variant-numeric: tabular-nums;
+  }
+  .stats b { color: var(--muted); font-weight: 600; }
+  .warn { color: #dc2626; }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .warn { color: #f87171; } }
+
+  /* --- araç çubuğu --- */
+  .tools { display: flex; gap: 8px; margin: 26px 0 8px; flex-wrap: wrap; }
+  .tools input, .tools select {
+    font: inherit; font-size: 13.5px; color: var(--text);
+    background: transparent; border: 1px solid var(--rule-strong);
+    border-radius: 9px; padding: 8px 11px; min-width: 0;
+    transition: border-color .15s ease;
+  }
+  .tools input { flex: 1 1 200px; }
+  .tools input:focus, .tools select:focus { outline: none; border-color: var(--accent); }
+  .tools input::placeholder { color: var(--faint); }
+
+  /* --- kategori bölümü --- */
+  section { margin-top: 42px; }
+  .cat {
+    display: flex; align-items: center; gap: 10px; margin: 0 0 4px;
+    font-size: 11.5px; font-weight: 680; letter-spacing: .09em; text-transform: uppercase;
+    color: var(--muted);
+  }
+  .cat::after { content: ""; flex: 1; height: 1px; background: var(--rule); }
+  .cat i { width: 6px; height: 6px; border-radius: 50%; flex: none; }
+  .cat u { text-decoration: none; color: var(--faint); font-weight: 600; letter-spacing: .04em; }
+
+  /* --- madde --- */
+  article { padding: 20px 0; border-bottom: 1px solid var(--rule); }
+  article:last-child { border-bottom: none; }
+  article.hidden { display: none; }
+  article.no { opacity: .38; }
+  h2 { margin: 0; font-size: 16.5px; line-height: 1.42; font-weight: 600; letter-spacing: -.008em; }
+  article.lead h2 { font-size: 20.5px; line-height: 1.34; letter-spacing: -.017em; }
+  h2 a { color: inherit; text-decoration: none; }
+  h2 a:hover { color: var(--accent); }
+  h2 a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 3px; }
+
+  .meta {
+    margin-top: 7px; display: flex; flex-wrap: wrap; align-items: center;
+    gap: 4px 9px; font-size: 12.5px; color: var(--faint);
+  }
+  .meta .sep { color: var(--rule-strong); }
+  .ax { display: inline-flex; align-items: center; gap: 5px; color: var(--muted); }
+  .ax i { width: 5px; height: 5px; border-radius: 50%; flex: none; }
+  .rise {
+    display: inline-flex; align-items: center; gap: 4px; font-weight: 640;
+    color: #d97706; background: rgba(217,119,6,.10); border-radius: 999px;
+    padding: 2px 8px; font-size: 11.5px; letter-spacing: .01em;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) .rise { color: #fbbf24; background: rgba(251,191,36,.12); }
+  }
+  .rise-why { color: var(--faint); font-size: 12px; }
+
+  p.sum {
+    margin: 9px 0 0; color: var(--muted); font-size: 14px; line-height: 1.58;
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+  }
+  article.lead p.sum { -webkit-line-clamp: 3; }
+  p.why {
+    margin: 10px 0 0; font-size: 14px; line-height: 1.55; color: var(--text);
+    padding-left: 12px; border-left: 2px solid var(--accent);
+  }
+
+  .foot { margin-top: 12px; display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+  .marks { display: flex; gap: 2px; }
+  .marks button {
+    font: inherit; font-size: 12.5px; line-height: 1; cursor: pointer;
+    background: transparent; border: 1px solid transparent; border-radius: 7px;
+    padding: 6px 9px; color: var(--faint); transition: all .13s ease;
+  }
+  .marks button:hover { color: var(--text); background: var(--chip-bg); }
+  .marks button[aria-pressed="true"][data-mark="yes"] { color: var(--mark-yes); background: var(--chip-bg); }
+  .marks button[aria-pressed="true"][data-mark="no"] { color: var(--mark-no); background: var(--chip-bg); }
+  .marks button:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+
+  details.parts { font-size: 12px; color: var(--faint); font-variant-numeric: tabular-nums; }
+  details.parts summary { cursor: pointer; list-style: none; padding: 4px 0; }
+  details.parts summary::-webkit-details-marker { display: none; }
+  details.parts summary:hover { color: var(--muted); }
+  details.parts table { border-collapse: collapse; margin: 6px 0 2px; font-size: 11.5px; }
+  details.parts td { padding: 1px 0; }
+  details.parts td:last-child { text-align: right; padding-left: 18px; }
+
+  /* --- kısa kısa --- */
+  .brief li { padding: 9px 0; border-bottom: 1px solid var(--rule); font-size: 14px; line-height: 1.5; }
+  .brief li:last-child { border-bottom: none; }
+  .brief a { color: var(--text); text-decoration: none; }
+  .brief a:hover { color: var(--accent); }
+  .brief span { color: var(--faint); font-size: 12.5px; }
+  ul, ol { list-style: none; margin: 0; padding: 0; }
+
+  .empty { color: var(--faint); font-size: 14px; padding: 36px 0; text-align: center; }
+
+  footer {
+    margin-top: 56px; padding-top: 20px; border-top: 1px solid var(--rule);
+    color: var(--faint); font-size: 12.5px; line-height: 1.8;
+  }
+  footer a { color: var(--muted); text-decoration: none; }
+  footer a:hover { color: var(--accent); }
+  footer nav { display: flex; flex-wrap: wrap; gap: 4px 12px; font-variant-numeric: tabular-nums; }
+  footer nav b { color: var(--text); }
+
+  @media (max-width: 480px) {
+    .wrap { padding: 36px 16px 72px; }
+    article.lead h2 { font-size: 18.5px; }
+  }
+
+  /* --- yan panel: liste sola kayar, hedef sayfa sağdan açılır --- */
+  .shell {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 0fr;
+    transition: grid-template-columns .42s cubic-bezier(.32, .72, 0, 1);
+    min-height: 100vh;
+  }
+  .shell.open { grid-template-columns: minmax(0, 42fr) minmax(0, 58fr); }
+  .shell.open .wrap {
+    margin-left: max(20px, 3vw); margin-right: 0; padding-top: 40px;
+    transition: margin .42s cubic-bezier(.32, .72, 0, 1);
+  }
+  .wrap { transition: margin .42s cubic-bezier(.32, .72, 0, 1); }
+
+  .pane {
+    position: sticky; top: 0; height: 100vh; overflow: hidden;
+    border-left: 1px solid var(--rule); background: var(--bg);
+    display: flex; flex-direction: column;
+    opacity: 0; transform: translateX(28px);
+    transition: opacity .3s ease .08s, transform .42s cubic-bezier(.32, .72, 0, 1);
+  }
+  .shell.open .pane { opacity: 1; transform: none; }
+  .pane[hidden] { display: none; }
+
+  .pane-bar {
+    display: flex; align-items: center; gap: 8px; padding: 12px 14px;
+    border-bottom: 1px solid var(--rule); flex: none; min-height: 54px;
+  }
+  .pane-bar .who { flex: 1; min-width: 0; }
+  .pane-bar .who b { display: block; font-size: 13.5px; font-weight: 600;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .pane-bar .who span { font-size: 11.5px; color: var(--faint); }
+  .pane-bar button, .pane-bar a.btn {
+    font: inherit; font-size: 13px; line-height: 1; cursor: pointer; text-decoration: none;
+    background: transparent; border: 1px solid var(--rule-strong); color: var(--muted);
+    border-radius: 8px; padding: 7px 10px; transition: all .13s ease; flex: none;
+  }
+  .pane-bar button:hover, .pane-bar a.btn:hover { color: var(--accent); border-color: var(--accent); }
+  .pane-bar button:disabled { opacity: .35; cursor: default; }
+  .pane-bar .marks button { border-color: transparent; }
+
+  .pane-body { flex: 1; position: relative; overflow: auto; background: var(--bg); }
+  .pane-body iframe { width: 100%; height: 100%; border: 0; display: block; background: #fff; }
+
+  .preview { max-width: 620px; margin: 0 auto; padding: 48px 28px 64px; }
+  .preview h2 { font-size: 24px; line-height: 1.3; letter-spacing: -.02em; margin: 0 0 12px; }
+  .preview .pmeta { color: var(--faint); font-size: 13px; margin-bottom: 22px; }
+  .preview p { font-size: 15.5px; line-height: 1.7; color: var(--muted); margin: 0 0 16px; }
+  .preview .note {
+    font-size: 12.5px; color: var(--faint); background: var(--chip-bg);
+    border-radius: 9px; padding: 11px 13px; margin-top: 26px; line-height: 1.55;
+  }
+  .preview .go {
+    display: inline-flex; align-items: center; gap: 7px; margin-top: 22px;
+    background: var(--accent); color: #fff; text-decoration: none; font-size: 14.5px;
+    font-weight: 560; border-radius: 10px; padding: 11px 17px;
+  }
+  .preview .go:hover { filter: brightness(1.08); }
+
+  article.active { position: relative; }
+  article.active::before {
+    content: ""; position: absolute; left: -14px; top: 18px; bottom: 18px;
+    width: 2px; border-radius: 2px; background: var(--accent);
+  }
+
+  /* Dar ekranda bölme yerine tam ekran katman. */
+  @media (max-width: 900px) {
+    .shell, .shell.open { grid-template-columns: minmax(0, 1fr); }
+    .shell.open .wrap { margin: 0 auto; }
+    .pane {
+      position: fixed; inset: 0; height: 100dvh; z-index: 50; border-left: 0;
+      transform: translateY(100%); opacity: 1;
+      transition: transform .38s cubic-bezier(.32, .72, 0, 1);
+    }
+    .shell.open .pane { transform: none; }
+    article.active::before { display: none; }
+  }
+  /* Çok dar ekranda başlığa yer açmak için gezinme oklarını gizle. */
+  @media (max-width: 430px) {
+    #pane-prev, #pane-next { display: none; }
+  }
+</style>
+</head>
+<body>
+<div class="shell" id="shell">
+<div class="wrap">
+
+<header>
+  <div class="mast">
+    <h1><span class="dot"></span>AI Radar</h1>
+    <time datetime="2026-10-23">23 Ekim 2026</time>
+  </div>
+  <div class="stats">
+    <span><b>11</b> madde</span>
+    <span><b>27</b>/<b>31</b> kaynak</span>
+    <span><b>194</b> tarandı</span>
+    <span id="precision"></span>
+  </div>
+  <div class="stats"><span class="warn">düşen kaynak: import-ai, reddit-localllama, reddit-aivideo, reddit-gamedev</span></div>
+</header>
+
+<div class="tools">
+  <input type="search" id="q" placeholder="Ara…" autocomplete="off" aria-label="Ara">
+  <select id="axis" aria-label="Eksen"><option value="">Tüm eksenler</option><option value="model">Yeni modeller</option><option value="image">Görsel üretim</option><option value="video">Video üretim</option><option value="game">Oyun üretimi</option><option value="threed">3D / rigging / asset</option><option value="infra">Araç & altyapı</option><option value="people">Kişiler & şirketler</option></select>
+  <select id="scope" aria-label="Kapsam"><option value="today">Bugün</option><option value="all">Tüm arşiv</option></select>
+</div>
+
+<main id="content"><section data-kind="cat"><h3 class="cat"><i style="background:#a855f7"></i>Üretim<u>4</u></h3><article class="lead" data-key="e767d99ea6275d72" data-axes="model,video" data-hay="making mllm latents matter: factor-aware predictive learning for cinematic video generation hf-papers model video" data-url="https://huggingface.co/papers/2610.30926" data-title="Making MLLM Latents Matter: Factor-Aware Predictive Learning for Cinematic Video Generation" data-source="hf-papers" data-embed="0" data-extract="Cinematic video generation requires both temporal inference from limited inputs (i.e., sparse rather than frame-by-frame guidance) and factor-aware control of character, scene, action, and camera. Multimodal large language models (MLLMs) offer useful priors for both capabilities, but their representations are not automatically actionable for video generation: a Video Diffusion Transformer (DiT) may bypass them through native conditioning pathways, and using them does not ensure either factor-aware control or generation-compatible temporal prediction. We propose Factor-Aware Predictive…"><h2><a href="https://huggingface.co/papers/2610.30926" target="_blank" rel="noopener">Making MLLM Latents Matter: Factor-Aware Predictive Learning for Cinematic Video Generation</a></h2><div class="meta"><span class="ax"><i style="background:#f59e0b"></i>model</span><span class="ax"><i style="background:#ec4899"></i>video</span><span class="sep">·</span><span>hf-papers</span><span class="sep">·</span><span>1 gün önce</span><span class="sep">·</span><span>95 oy</span></div><p class="sum">Cinematic video generation requires both temporal inference from limited inputs (i.e., sparse rather than frame-by-frame guidance) and factor-aware control of character, scene, action, and camera. Multimodal large language models (MLLMs) offer useful priors for both capabilities, but their representations are not automatically actionable for video generation: a Video Diffusion Transformer (DiT) may bypass them through native conditioning pathways, and using them does not ensure either factor-aware control or generation-compatible temporal prediction. We propose Factor-Aware Predictive…</p><div class="foot"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>8.86</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+2.00</td></tr><tr><td>eksen</td><td>+4.01</td></tr><tr><td>sinyal</td><td>+0.81</td></tr><tr><td>tazelik</td><td>+0.57</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr><tr><td>hype</td><td>+1.47</td></tr></table></details></div></article><article class="" data-key="ff72a17be2cd1c96" data-axes="image" data-hay="moss-image-sft anime showcase: 20 styles tested (90s cel, shonen jump covers, sugimori watercolor, sakuga &amp; kanji) + comfyui workflow (its great!) reddit-stablediffusion image" data-url="https://www.reddit.com/r/StableDiffusion/comments/1xd5ypf/mossimagesft_anime_showcase_20_styles_tested_90s/" data-title="MOSS-Image-SFT Anime Showcase: 20 styles tested (90s Cel, Shonen Jump covers, Sugimori watercolor, Sakuga &amp; Kanji) + ComfyUI Workflow (Its Great!)" data-source="reddit-stablediffusion" data-embed="0" data-extract="Here’s a showcase of MOSS-Image &#x27;s capabilities on generating anime and manga-related content across 20 distinct styles and eras. The included ComfyUI workflow uses the `SkipLayerGuidanceDiTSimple` node. Controlling SLG is crucial depending on the art style you want: SLG ON (Set `single_layers` to `22` or `24` ): - Best for: In-image typography (Kanji / Katakana onomatopoeia, magazine covers, TCG card text), technical mecha lines, modern Ufotable VFX, and high-contrast comic layouts. - Why: Layers 22–24 enhance high-frequency edge definition and glyph clarity. SLG OFF (Bypass / Mute the…"><h2><a href="https://www.reddit.com/r/StableDiffusion/comments/1xd5ypf/mossimagesft_anime_showcase_20_styles_tested_90s/" target="_blank" rel="noopener">MOSS-Image-SFT Anime Showcase: 20 styles tested (90s Cel, Shonen Jump covers, Sugimori watercolor, Sakuga &amp; Kanji) + ComfyUI Workflow (Its Great!)</a></h2><div class="meta"><span class="ax"><i style="background:#a855f7"></i>görsel</span><span class="sep">·</span><span>reddit-stablediffusion</span><span class="sep">·</span><span>2 saat önce</span></div><p class="sum">Here’s a showcase of MOSS-Image &#x27;s capabilities on generating anime and manga-related content across 20 distinct styles and eras. The included ComfyUI workflow uses the `SkipLayerGuidanceDiTSimple` node. Controlling SLG is crucial depending on the art style you want: SLG ON (Set `single_layers` to `22` or `24` ): - Best for: In-image typography (Kanji / Katakana onomatopoeia, magazine covers, TCG card text), technical mecha lines, modern Ufotable VFX, and high-contrast comic layouts. - Why: Layers 22–24 enhance high-frequency edge definition and glyph clarity. SLG OFF (Bypass / Mute the…</p><div class="foot"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>7.54</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+1.50</td></tr><tr><td>eksen</td><td>+3.52</td></tr><tr><td>sinyal</td><td>+0.00</td></tr><tr><td>tazelik</td><td>+1.33</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr><tr><td>hype</td><td>+1.19</td></tr></table></details></div></article><article class="" data-key="3d52fd673fa50983" data-axes="image,model" data-hay="fizgig 8.9.0: multiple gpus for previews, shared training, and pod combos reddit-stablediffusion image model" data-url="https://www.reddit.com/r/StableDiffusion/comments/1xcx77q/fizgig_890_multiple_gpus_for_previews_shared/" data-title="Fizgig 8.9.0: Multiple GPUs for previews, shared training, and pod combos" data-source="reddit-stablediffusion" data-embed="0" data-extract="Fizgig 8.9.0 is out. It lets your other GPUs work for your run: a second card in your PC, a laptop, another PC on your network, or a RunPod / Vast.ai pod. Train on two GPUs (experimental). Each GPU trains its own copy of the LoRA on its part of the images, and they merge every 3 epochs, so you get one LoRA that learned from every image. Its likeness matched a one-GPU run in testing, and a pod with two RTX 4090s took about 40% off each epoch. On a fast network, merge every epoch for the closest result. It pays most on long runs. Previews that never pause your run. Another computer renders them…"><h2><a href="https://www.reddit.com/r/StableDiffusion/comments/1xcx77q/fizgig_890_multiple_gpus_for_previews_shared/" target="_blank" rel="noopener">Fizgig 8.9.0: Multiple GPUs for previews, shared training, and pod combos</a></h2><div class="meta"><span class="ax"><i style="background:#a855f7"></i>görsel</span><span class="ax"><i style="background:#f59e0b"></i>model</span><span class="sep">·</span><span>reddit-stablediffusion</span><span class="sep">·</span><span>9 saat önce</span></div><p class="sum">Fizgig 8.9.0 is out. It lets your other GPUs work for your run: a second card in your PC, a laptop, another PC on your network, or a RunPod / Vast.ai pod. Train on two GPUs (experimental). Each GPU trains its own copy of the LoRA on its part of the images, and they merge every 3 epochs, so you get one LoRA that learned from every image. Its likeness matched a one-GPU run in testing, and a pod with two RTX 4090s took about 40% off each epoch. On a fast network, merge every epoch for the closest result. It pays most on long runs. Previews that never pause your run. Another computer renders them…</p><div class="foot"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>6.78</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+1.50</td></tr><tr><td>eksen</td><td>+4.24</td></tr><tr><td>sinyal</td><td>+0.00</td></tr><tr><td>tazelik</td><td>+1.04</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr><tr><td>hype</td><td>+0.00</td></tr></table></details></div></article><article class="" data-key="a86b2ef74284aedc" data-axes="model,video" data-hay="code2video-compass: a comprehensive benchmark for general-purpose code-based video generation across t2v, i2v, and v2v hf-papers model video" data-url="https://huggingface.co/papers/2610.28416" data-title="Code2Video-Compass: A Comprehensive Benchmark for General-Purpose Code-Based Video Generation across T2V, I2V, and V2V" data-source="hf-papers" data-embed="0" data-extract="Code-based video generation offers fine-grained control, targeted editing, and component reuse compared with direct video generation. This approach requires multimodal large language models (MLLMs) to translate visual and temporal requirements into executable programs that produce complete videos. However, existing code-based benchmarks primarily target specialized tasks, leaving complete video creation across diverse creative categories and input modalities insufficiently evaluated. We introduce Code2Video-Compass, a general-purpose benchmark for code-based video generation across…"><h2><a href="https://huggingface.co/papers/2610.28416" target="_blank" rel="noopener">Code2Video-Compass: A Comprehensive Benchmark for General-Purpose Code-Based Video Generation across T2V, I2V, and V2V</a></h2><div class="meta"><span class="ax"><i style="background:#f59e0b"></i>model</span><span class="ax"><i style="background:#ec4899"></i>video</span><span class="sep">·</span><span>hf-papers</span><span class="sep">·</span><span>3 gün önce</span><span class="sep">·</span><span>21 oy</span></div><p class="sum">Code-based video generation offers fine-grained control, targeted editing, and component reuse compared with direct video generation. This approach requires multimodal large language models (MLLMs) to translate visual and temporal requirements into executable programs that produce complete videos. However, existing code-based benchmarks primarily target specialized tasks, leaving complete video creation across diverse creative categories and input modalities insufficiently evaluated. We introduce Code2Video-Compass, a general-purpose benchmark for code-based video generation across…</p><div class="foot"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>6.75</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+2.00</td></tr><tr><td>eksen</td><td>+4.01</td></tr><tr><td>sinyal</td><td>+0.55</td></tr><tr><td>tazelik</td><td>+0.09</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr><tr><td>hype</td><td>+0.10</td></tr></table></details></div></article></section><section data-kind="cat"><h3 class="cat"><i style="background:#22c55e"></i>Oyun<u>1</u></h3><article class="" data-key="4106e36239e9b1c7" data-axes="game" data-hay="meeting you where you work: inside 200m+ unity cli events unity game" data-url="https://unity.com/blog/unity-cli-usage-data-ai-coding-agents" data-title="Meeting you where you work: Inside 200M+ Unity CLI events" data-source="unity" data-embed="1" data-extract="Unity CLI usage data from 200 million events: 98% of runs come from AI coding agents and automation. See the top commands, agents, and where it’s used."><h2><a href="https://unity.com/blog/unity-cli-usage-data-ai-coding-agents" target="_blank" rel="noopener">Meeting you where you work: Inside 200M+ Unity CLI events</a></h2><div class="meta"><span class="ax"><i style="background:#22c55e"></i>oyun</span><span class="sep">·</span><span>unity</span><span class="sep">·</span><span>1 gün önce</span></div><p class="sum">Unity CLI usage data from 200 million events: 98% of runs come from AI coding agents and automation. See the top commands, agents, and where it’s used.</p><div class="foot"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>5.51</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+1.50</td></tr><tr><td>eksen</td><td>+3.52</td></tr><tr><td>sinyal</td><td>+0.00</td></tr><tr><td>tazelik</td><td>+0.49</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr><tr><td>hype</td><td>+0.00</td></tr></table></details></div></article></section><section data-kind="cat"><h3 class="cat"><i style="background:#f59e0b"></i>Modeller &amp; Araştırma<u>4</u></h3><article class="" data-key="e7602a7eef2ac024" data-axes="model,people" data-hay="gemini 4 argon: built to solve your hardest problems deepmind model people" data-url="https://deepmind.google/blog/introducing-gemini-4-argon/" data-title="Gemini 4 Argon: Built to solve your hardest problems" data-source="deepmind" data-embed="1" data-extract="TBD"><h2><a href="https://deepmind.google/blog/introducing-gemini-4-argon/" target="_blank" rel="noopener">Gemini 4 Argon: Built to solve your hardest problems</a></h2><div class="meta"><span class="rise">↑ yükselişte · yeniden</span><span class="rise-why">HN&#x27;de Gemini 4 Argon 0→19 hikâye</span><span class="ax"><i style="background:#f59e0b"></i>model</span><span class="ax"><i style="background:#f97316"></i>şirket</span><span class="sep">·</span><span>deepmind</span><span class="sep">·</span><span>10 gün önce</span><span class="sep">·</span><span>+1 kaynak</span></div><p class="sum">TBD</p><div class="foot"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>7.95</summary><table><tr><td>corroboration</td><td>+1.00</td></tr><tr><td>kaynak</td><td>+3.00</td></tr><tr><td>eksen</td><td>+1.43</td></tr><tr><td>sinyal</td><td>+0.00</td></tr><tr><td>tazelik</td><td>+0.06</td></tr><tr><td>capraz_kaynak</td><td>+1.20</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr><tr><td>hype</td><td>+2.27</td></tr></table></details></div></article><article class="" data-key="6d7bb82b4bb645fa" data-axes="model" data-hay="worldtui: i trained a 360m model to pretend to be a terminal hackernews model" data-url="https://simedw.com/2026/10/21/world-model-terminal/" data-title="WorldTUI: I trained a 360M model to pretend to be a terminal" data-source="hackernews" data-embed="1" data-extract=""><h2><a href="https://simedw.com/2026/10/21/world-model-terminal/" target="_blank" rel="noopener">WorldTUI: I trained a 360M model to pretend to be a terminal</a></h2><div class="meta"><span class="ax"><i style="background:#f59e0b"></i>model</span><span class="sep">·</span><span>hackernews</span><span class="sep">·</span><span>1 gün önce</span><span class="sep">·</span><span>532 oy</span></div><div class="foot"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>7.34</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+1.50</td></tr><tr><td>eksen</td><td>+2.86</td></tr><tr><td>sinyal</td><td>+1.11</td></tr><tr><td>tazelik</td><td>+0.53</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr><tr><td>hype</td><td>+1.34</td></tr></table></details></div></article><article class="" data-key="bce8eeb8c16e85dc" data-axes="model,people" data-hay="gemini 4 argon for robotics deepmind model people" data-url="https://deepmind.google/blog/gemini-4-argon-for-robotics/" data-title="Gemini 4 Argon for Robotics" data-source="deepmind" data-embed="1" data-extract=""><h2><a href="https://deepmind.google/blog/gemini-4-argon-for-robotics/" target="_blank" rel="noopener">Gemini 4 Argon for Robotics</a></h2><div class="meta"><span class="rise">↑ yükselişte · yeniden</span><span class="rise-why">HN&#x27;de Gemini 4 Argon 0→19 hikâye</span><span class="ax"><i style="background:#f59e0b"></i>model</span><span class="ax"><i style="background:#f97316"></i>şirket</span><span class="sep">·</span><span>deepmind</span><span class="sep">·</span><span>10 gün önce</span></div><div class="foot"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>6.75</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+3.00</td></tr><tr><td>eksen</td><td>+1.43</td></tr><tr><td>sinyal</td><td>+0.00</td></tr><tr><td>tazelik</td><td>+0.06</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr><tr><td>hype</td><td>+2.27</td></tr></table></details></div></article><article class="" data-key="f2c829666956e7bc" data-axes="model" data-hay="turning database grading into rl rewards: post-training agents with thinkingbox huggingface-blog model" data-url="https://huggingface.co/blog/microsoft/thinkingbox-training" data-title="Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox" data-source="huggingface-blog" data-embed="0" data-extract=""><h2><a href="https://huggingface.co/blog/microsoft/thinkingbox-training" target="_blank" rel="noopener">Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox</a></h2><div class="meta"><span class="ax"><i style="background:#f59e0b"></i>model</span><span class="sep">·</span><span>huggingface-blog</span><span class="sep">·</span><span>9 saat önce</span></div><div class="foot"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>6.39</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+2.50</td></tr><tr><td>eksen</td><td>+2.86</td></tr><tr><td>sinyal</td><td>+0.00</td></tr><tr><td>tazelik</td><td>+1.03</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr><tr><td>hype</td><td>+0.00</td></tr></table></details></div></article></section><section data-kind="cat"><h3 class="cat"><i style="background:#64748b"></i>Ekosistem<u>2</u></h3><article class="" data-key="a20ae9c12cfd9806" data-axes="infra" data-hay="build more responsive apps with the decisions api openai infra" data-url="https://openai.com/index/decisions-api" data-title="Build more responsive apps with the Decisions API" data-source="openai" data-embed="0" data-extract="Fast, focused, low-cost decisions for any application."><h2><a href="https://openai.com/index/decisions-api" target="_blank" rel="noopener">Build more responsive apps with the Decisions API</a></h2><div class="meta"><span class="ax"><i style="background:#64748b"></i>araç</span><span class="sep">·</span><span>openai</span><span class="sep">·</span><span>13 saat önce</span></div><p class="sum">Fast, focused, low-cost decisions for any application.</p><div class="foot"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>5.90</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+3.00</td></tr><tr><td>eksen</td><td>+1.98</td></tr><tr><td>sinyal</td><td>+0.00</td></tr><tr><td>tazelik</td><td>+0.92</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr><tr><td>hype</td><td>+0.00</td></tr></table></details></div></article><article class="" data-key="5b6cdb827f0a9c58" data-axes="infra" data-hay="pioneers across europe deploy nvidia earth-2 open models to power real-world weather and climate prediction nvidia-genai infra" data-url="https://blogs.nvidia.com/blog/europe-earth-2-open-models-weather-climate-prediction/" data-title="Pioneers Across Europe Deploy NVIDIA Earth-2 Open Models to Power Real-World Weather and Climate Prediction" data-source="nvidia-genai" data-embed="1" data-extract="Weather forecasts shape more than daily plans; timely weather information is crucial for energy producers, insurers and transport operators to plan around changing conditions. A global forecast can show a storm taking shape, but decisions about solar farms, shipping routes or insured property depend on what happens locally. NVIDIA Earth-2 gives developers and researchers a […]"><h2><a href="https://blogs.nvidia.com/blog/europe-earth-2-open-models-weather-climate-prediction/" target="_blank" rel="noopener">Pioneers Across Europe Deploy NVIDIA Earth-2 Open Models to Power Real-World Weather and Climate Prediction</a></h2><div class="meta"><span class="ax"><i style="background:#64748b"></i>araç</span><span class="sep">·</span><span>nvidia-genai</span><span class="sep">·</span><span>1 gün önce</span></div><p class="sum">Weather forecasts shape more than daily plans; timely weather information is crucial for energy producers, insurers and transport operators to plan around changing conditions. A global forecast can show a storm taking shape, but decisions about solar farms, shipping routes or insured property depend on what happens locally. NVIDIA Earth-2 gives developers and researchers a […]</p><div class="foot"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>4.56</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+2.00</td></tr><tr><td>eksen</td><td>+1.98</td></tr><tr><td>sinyal</td><td>+0.00</td></tr><tr><td>tazelik</td><td>+0.58</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr><tr><td>hype</td><td>+0.00</td></tr></table></details></div></article></section><section data-kind="brief"><h3 class="cat"><i style="background:var(--rule-strong)"></i>Kısa kısa<u>8</u></h3><ul class="brief"><li><a href="https://www.reddit.com/r/StableDiffusion/comments/1xcwlz7/moss_1024x1024_34_steps_moss_5b_1_step_flux_2_9b/" target="_blank" rel="noopener">MOSS - 1024x1024, 34 Steps (MOSS 5b) + 1 Step (Flux 2 9b), 8 CFG, 20 Secs - First Model That Can Render 100+ Rats Perfectly at 1024x1024 Without Hi-Res or Inpaint.</a> <span>· reddit-stablediffusion</span></li><li><a href="https://simonwillison.net/2026/Oct/22/de-staat-freedom/" target="_blank" rel="noopener">DE STAAT - FREEDOM (Official Music Video)</a> <span>· simonwillison</span></li><li><a href="https://www.reddit.com/r/StableDiffusion/comments/1xd05y1/testing_minimax_h3_ref2va_with_my_ps2_style_lora/" target="_blank" rel="noopener">testing minimax h3 ref2va with my ps2 style lora</a> <span>· reddit-stablediffusion</span></li><li><a href="https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models/" target="_blank" rel="noopener">NVIDIA Cosmos Opens New Tools to Train, Evaluate and Deploy World Models</a> <span>· nvidia-genai</span></li><li><a href="https://huggingface.co/papers/2610.28889" target="_blank" rel="noopener">Policy-Mask: Budget-Aware Adaptation of Diffusion Features to Discriminative Tasks</a> <span>· hf-papers</span></li><li><a href="https://simonwillison.net/2026/Oct/22/donating-agent-skills/" target="_blank" rel="noopener">Donating Agent Skills to the Agentic AI Foundation</a> <span>· simonwillison</span></li><li><a href="https://huggingface.co/papers/2610.27851" target="_blank" rel="noopener">LaLa-World: Scaling Latent World Models with Natural Language Actions</a> <span>· hf-papers</span></li><li><a href="https://arxiv.org/abs/2610.31659v1" target="_blank" rel="noopener">SpectralCanary: Embarrassingly Simple Low-Frequency Traces for T2I Dataset-Use Auditing</a> <span>· arxiv-cv</span></li></ul></section></main>
+<div id="flat" hidden></div>
+<div class="empty" id="empty" hidden>Eşleşen madde yok.</div>
+
+<footer>
+  <nav><b>23 Ekim 2026</b> <a href="2026-10-22.html">22 Ekim 2026</a> <a href="2026-10-21.html">21 Ekim 2026</a> <a href="2026-10-20.html">20 Ekim 2026</a> <a href="2026-10-19.html">19 Ekim 2026</a> <a href="2026-10-18.html">18 Ekim 2026</a> <a href="2026-10-17.html">17 Ekim 2026</a> <a href="2026-10-16.html">16 Ekim 2026</a> <a href="2026-10-15.html">15 Ekim 2026</a> <a href="2026-10-14.html">14 Ekim 2026</a></nav>
+  <div style="margin-top:10px">
+    2026-10-23 07:39 UTC · işaretler yalnız bu tarayıcıda saklanır ·
+    <a href="#" id="reset">sıfırla</a>
+  </div>
+</footer>
+
+</div>
+
+<aside class="pane" id="pane" hidden aria-label="Okuma paneli">
+  <div class="pane-bar">
+    <button id="pane-close" title="Kapat (Esc)" aria-label="Kapat">✕</button>
+    <div class="who"><b id="pane-title"></b><span id="pane-source"></span></div>
+    <div class="marks" id="pane-marks">
+      <button data-mark="yes">✓</button><button data-mark="no">✗</button>
+    </div>
+    <button id="pane-prev" title="Önceki (←)" aria-label="Önceki">‹</button>
+    <button id="pane-next" title="Sonraki (→)" aria-label="Sonraki">›</button>
+    <a class="btn" id="pane-open" href="#" target="_blank" rel="noopener" title="Yeni sekmede aç">↗</a>
+  </div>
+  <div class="pane-body" id="pane-body"></div>
+</aside>
+
+</div>
+
+<script>
+const AXIS_COLOR = {"image": "#a855f7", "video": "#ec4899", "game": "#22c55e", "threed": "#0ea5e9", "model": "#f59e0b", "infra": "#64748b", "people": "#f97316"};
+const AXIS_SHORT = {"image": "görsel", "video": "video", "game": "oyun", "threed": "3D", "model": "model", "infra": "araç", "people": "şirket"};
+
+const store = {
+  read() { try { return JSON.parse(localStorage.getItem("radar.marks") || "{}"); } catch (e) { return {}; } },
+  write(v) { try { localStorage.setItem("radar.marks", JSON.stringify(v)); } catch (e) {} }
+};
+
+function renderPrecision() {
+  const vals = Object.values(store.read());
+  const el = document.getElementById("precision");
+  if (!vals.length) { el.textContent = ""; return; }
+  const yes = vals.filter(v => v === "yes").length;
+  el.innerHTML = "faydalı <b>%" + Math.round(100 * yes / vals.length) + "</b> (" + yes + "/" + vals.length + ")";
+}
+
+function wireMarks(root) {
+  const marks = store.read();
+  root.querySelectorAll("article").forEach(card => {
+    const key = card.dataset.key;
+    if (marks[key] === "no") card.classList.add("no");
+    card.querySelectorAll(".marks button").forEach(btn => {
+      btn.setAttribute("aria-pressed", String(marks[key] === btn.dataset.mark));
+      btn.onclick = () => {
+        const m = store.read();
+        const val = btn.dataset.mark;
+        if (m[key] === val) { delete m[key]; } else { m[key] = val; }
+        store.write(m);
+        card.classList.toggle("no", m[key] === "no");
+        card.querySelectorAll(".marks button").forEach(b =>
+          b.setAttribute("aria-pressed", String(m[key] === b.dataset.mark)));
+        renderPrecision();
+      };
+    });
+  });
+}
+
+let archive = null;
+async function loadArchive() {
+  if (!archive) {
+    try { archive = await (await fetch("../data/index.json")).json(); }
+    catch (e) { archive = { items: [] }; }
+  }
+  return archive;
+}
+
+function flatRow(it) {
+  const ax = (it.axes || []).slice(0, 2).map(a =>
+    '<span class="ax"><i style="background:' + (AXIS_COLOR[a] || "#64748b") + '"></i>' +
+    (AXIS_SHORT[a] || a) + "</span>").join("");
+  return '<article data-key="' + it.key + '">' +
+    '<h2><a href="' + it.url + '" target="_blank" rel="noopener">' + it.title + "</a></h2>" +
+    '<div class="meta">' + ax + '<span class="sep">·</span><span>' + it.source +
+    '</span><span class="sep">·</span><span>' + (it.date || "") + "</span></div>" +
+    '<div class="foot"><div class="marks">' +
+    '<button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button>' +
+    "</div></div></article>";
+}
+
+async function applyFilter() {
+  const q = document.getElementById("q").value.trim().toLowerCase();
+  const axis = document.getElementById("axis").value;
+  const scope = document.getElementById("scope").value;
+  const content = document.getElementById("content");
+  const flat = document.getElementById("flat");
+  const empty = document.getElementById("empty");
+
+  if (scope === "all") {
+    const data = await loadArchive();
+    const rows = data.items.filter(it =>
+      (!q || (it.title + " " + it.source + " " + (it.axes || []).join(" ")).toLowerCase().includes(q)) &&
+      (!axis || (it.axes || []).includes(axis)));
+    content.hidden = true;
+    flat.hidden = false;
+    flat.innerHTML = rows.slice(0, 200).map(flatRow).join("");
+    wireMarks(flat);
+    empty.hidden = rows.length > 0;
+    return;
+  }
+
+  flat.hidden = true;
+  content.hidden = false;
+  let shown = 0;
+  content.querySelectorAll("article").forEach(card => {
+    const ok = (!q || (card.dataset.hay || "").includes(q)) &&
+               (!axis || (card.dataset.axes || "").split(",").includes(axis));
+    card.classList.toggle("hidden", !ok);
+    if (ok) shown++;
+  });
+  // Tüm maddeleri gizlenen bölüm başlığı ortada kalmasın.
+  content.querySelectorAll("section").forEach(sec => {
+    const live = sec.querySelectorAll("article:not(.hidden)").length;
+    const briefHit = !q && !axis;
+    sec.hidden = sec.dataset.kind === "brief" ? !briefHit : live === 0;
+  });
+  empty.hidden = shown > 0;
+}
+
+["q", "axis", "scope"].forEach(id =>
+  document.getElementById(id).addEventListener(id === "q" ? "input" : "change", applyFilter));
+
+document.getElementById("reset").addEventListener("click", e => {
+  e.preventDefault();
+  store.write({});
+  document.querySelectorAll("article").forEach(c => c.classList.remove("no"));
+  document.querySelectorAll(".marks button").forEach(b => b.setAttribute("aria-pressed", "false"));
+  renderPrecision();
+});
+
+// --- yan panel -------------------------------------------------------------
+const shell = document.getElementById("shell");
+const pane = document.getElementById("pane");
+const paneBody = document.getElementById("pane-body");
+let current = null;
+
+function paneList() {
+  const flat = document.getElementById("flat");
+  const root = flat.hidden ? document.getElementById("content") : flat;
+  return [...root.querySelectorAll("article")].filter(a => !a.classList.contains("hidden"));
+}
+
+function esc(t) {
+  const d = document.createElement("div"); d.textContent = t || ""; return d.innerHTML;
+}
+
+function paneMarkup(card) {
+  const url = card.dataset.url;
+  if (card.dataset.embed === "1") {
+    return '<iframe src="' + esc(url) + '" title="' + esc(card.dataset.title) +
+      '" referrerpolicy="no-referrer" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>';
+  }
+  return '<div class="preview">' +
+    "<h2>" + esc(card.dataset.title) + "</h2>" +
+    '<div class="pmeta">' + esc(card.dataset.source) + "</div>" +
+    (card.dataset.extract ? "<p>" + esc(card.dataset.extract) + "</p>" : "") +
+    '<a class="go" href="' + esc(url) + '" target="_blank" rel="noopener">Sitede aç ↗</a>' +
+    '<div class="note">Bu kaynak, sayfasının başka bir sitede gömülmesine izin vermiyor ' +
+    "(X-Frame-Options), bu yüzden burada tam metin gösterilemiyor.</div></div>";
+}
+
+function syncPaneMarks(key) {
+  const marks = store.read();
+  document.querySelectorAll("#pane-marks button").forEach(b =>
+    b.setAttribute("aria-pressed", String(marks[key] === b.dataset.mark)));
+}
+
+function openPane(card) {
+  current = card;
+  document.querySelectorAll("article.active").forEach(a => a.classList.remove("active"));
+  card.classList.add("active");
+
+  document.getElementById("pane-title").textContent = card.dataset.title;
+  document.getElementById("pane-source").textContent =
+    card.dataset.source + (card.dataset.embed === "1" ? "" : " · önizleme");
+  document.getElementById("pane-open").href = card.dataset.url;
+  paneBody.innerHTML = paneMarkup(card);
+  paneBody.scrollTop = 0;
+  syncPaneMarks(card.dataset.key);
+
+  const list = paneList();
+  const at = list.indexOf(card);
+  document.getElementById("pane-prev").disabled = at <= 0;
+  document.getElementById("pane-next").disabled = at < 0 || at >= list.length - 1;
+
+  pane.hidden = false;
+  requestAnimationFrame(() => shell.classList.add("open"));
+}
+
+function closePane() {
+  shell.classList.remove("open");
+  document.querySelectorAll("article.active").forEach(a => a.classList.remove("active"));
+  current = null;
+  setTimeout(() => {
+    if (!shell.classList.contains("open")) { pane.hidden = true; paneBody.innerHTML = ""; }
+  }, 420);
+}
+
+function step(delta) {
+  if (!current) return;
+  const list = paneList();
+  const next = list[list.indexOf(current) + delta];
+  if (next) { openPane(next); next.scrollIntoView({ block: "nearest", behavior: "smooth" }); }
+}
+
+// Başlık linkleri panelde açılır; cmd/ctrl/shift/orta tık normal davranışında kalır.
+document.addEventListener("click", e => {
+  const link = e.target.closest("article h2 a");
+  if (!link || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+  const card = link.closest("article");
+  if (!card || !card.dataset.url) return;
+  e.preventDefault();
+  openPane(card);
+});
+
+document.getElementById("pane-close").onclick = closePane;
+document.getElementById("pane-prev").onclick = () => step(-1);
+document.getElementById("pane-next").onclick = () => step(1);
+document.querySelectorAll("#pane-marks button").forEach(btn => {
+  btn.onclick = () => {
+    if (!current) return;
+    const key = current.dataset.key;
+    const m = store.read();
+    if (m[key] === btn.dataset.mark) { delete m[key]; } else { m[key] = btn.dataset.mark; }
+    store.write(m);
+    current.classList.toggle("no", m[key] === "no");
+    current.querySelectorAll(".marks button").forEach(b =>
+      b.setAttribute("aria-pressed", String(m[key] === b.dataset.mark)));
+    syncPaneMarks(key);
+    renderPrecision();
+  };
+});
+
+document.addEventListener("keydown", e => {
+  if (!current) return;
+  if (e.key === "Escape") { closePane(); }
+  else if (e.key === "ArrowRight") { e.preventDefault(); step(1); }
+  else if (e.key === "ArrowLeft") { e.preventDefault(); step(-1); }
+});
+
+wireMarks(document);
+renderPrecision();
+</script>
+</body>
+</html>

@@ -1,0 +1,219 @@
+[
+ {
+  "key": "e767d99ea6275d72",
+  "title": "Making MLLM Latents Matter: Factor-Aware Predictive Learning for Cinematic Video Generation",
+  "url": "https://huggingface.co/papers/2610.30926",
+  "source": "hf-papers",
+  "axes": [
+   "model",
+   "video"
+  ],
+  "score": 8.86,
+  "date": "2026-10-23"
+ },
+ {
+  "key": "e7602a7eef2ac024",
+  "title": "Gemini 4 Argon: Built to solve your hardest problems",
+  "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
+  "source": "deepmind",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 7.95,
+  "date": "2026-10-23"
+ },
+ {
+  "key": "ff72a17be2cd1c96",
+  "title": "MOSS-Image-SFT Anime Showcase: 20 styles tested (90s Cel, Shonen Jump covers, Sugimori watercolor, Sakuga & Kanji) + ComfyUI Workflow (Its Great!)",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xd5ypf/mossimagesft_anime_showcase_20_styles_tested_90s/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 7.54,
+  "date": "2026-10-23"
+ },
+ {
+  "key": "6d7bb82b4bb645fa",
+  "title": "WorldTUI: I trained a 360M model to pretend to be a terminal",
+  "url": "https://simedw.com/2026/10/21/world-model-terminal/",
+  "source": "hackernews",
+  "axes": [
+   "model"
+  ],
+  "score": 7.34,
+  "date": "2026-10-23"
+ },
+ {
+  "key": "3d52fd673fa50983",
+  "title": "Fizgig 8.9.0: Multiple GPUs for previews, shared training, and pod combos",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xcx77q/fizgig_890_multiple_gpus_for_previews_shared/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image",
+   "model"
+  ],
+  "score": 6.78,
+  "date": "2026-10-23"
+ },
+ {
+  "key": "a86b2ef74284aedc",
+  "title": "Code2Video-Compass: A Comprehensive Benchmark for General-Purpose Code-Based Video Generation across T2V, I2V, and V2V",
+  "url": "https://huggingface.co/papers/2610.28416",
+  "source": "hf-papers",
+  "axes": [
+   "model",
+   "video"
+  ],
+  "score": 6.75,
+  "date": "2026-10-23"
+ },
+ {
+  "key": "bce8eeb8c16e85dc",
+  "title": "Gemini 4 Argon for Robotics",
+  "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+  "source": "deepmind",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 6.75,
+  "date": "2026-10-23"
+ },
+ {
+  "key": "f2c829666956e7bc",
+  "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+  "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+  "source": "huggingface-blog",
+  "axes": [
+   "model"
+  ],
+  "score": 6.39,
+  "date": "2026-10-23"
+ },
+ {
+  "key": "a20ae9c12cfd9806",
+  "title": "Build more responsive apps with the Decisions API",
+  "url": "https://openai.com/index/decisions-api",
+  "source": "openai",
+  "axes": [
+   "infra"
+  ],
+  "score": 5.9,
+  "date": "2026-10-23"
+ },
+ {
+  "key": "4106e36239e9b1c7",
+  "title": "Meeting you where you work: Inside 200M+ Unity CLI events",
+  "url": "https://unity.com/blog/unity-cli-usage-data-ai-coding-agents",
+  "source": "unity",
+  "axes": [
+   "game"
+  ],
+  "score": 5.51,
+  "date": "2026-10-23"
+ },
+ {
+  "key": "5b6cdb827f0a9c58",
+  "title": "Pioneers Across Europe Deploy NVIDIA Earth-2 Open Models to Power Real-World Weather and Climate Prediction",
+  "url": "https://blogs.nvidia.com/blog/europe-earth-2-open-models-weather-climate-prediction/",
+  "source": "nvidia-genai",
+  "axes": [
+   "infra"
+  ],
+  "score": 4.56,
+  "date": "2026-10-23"
+ },
+ {
+  "key": "817f97b80de1c4cb",
+  "title": "MOSS - 1024x1024, 34 Steps (MOSS 5b) + 1 Step (Flux 2 9b), 8 CFG, 20 Secs - First Model That Can Render 100+ Rats Perfectly at 1024x1024 Without Hi-Res or Inpaint.",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xcwlz7/moss_1024x1024_34_steps_moss_5b_1_step_flux_2_9b/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image",
+   "model"
+  ],
+  "score": 6.76,
+  "date": "2026-10-23"
+ },
+ {
+  "key": "1461248a9e4cacf3",
+  "title": "DE STAAT - FREEDOM (Official Music Video)",
+  "url": "https://simonwillison.net/2026/Oct/22/de-staat-freedom/",
+  "source": "simonwillison",
+  "axes": [
+   "video"
+  ],
+  "score": 6.74,
+  "date": "2026-10-23"
+ },
+ {
+  "key": "1034f77d250f1a19",
+  "title": "testing minimax h3 ref2va with my ps2 style lora",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xd05y1/testing_minimax_h3_ref2va_with_my_ps2_style_lora/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.72,
+  "date": "2026-10-23"
+ },
+ {
+  "key": "9b20798f7a0f3907",
+  "title": "NVIDIA Cosmos Opens New Tools to Train, Evaluate and Deploy World Models",
+  "url": "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models/",
+  "source": "nvidia-genai",
+  "axes": [
+   "infra",
+   "video"
+  ],
+  "score": 6.37,
+  "date": "2026-10-23"
+ },
+ {
+  "key": "d29d29ae05be7657",
+  "title": "Policy-Mask: Budget-Aware Adaptation of Diffusion Features to Discriminative Tasks",
+  "url": "https://huggingface.co/papers/2610.28889",
+  "source": "hf-papers",
+  "axes": [
+   "image"
+  ],
+  "score": 6.32,
+  "date": "2026-10-23"
+ },
+ {
+  "key": "6f0b18b520099c08",
+  "title": "Donating Agent Skills to the Agentic AI Foundation",
+  "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/",
+  "source": "simonwillison",
+  "axes": [
+   "model"
+  ],
+  "score": 6.25,
+  "date": "2026-10-23"
+ },
+ {
+  "key": "5257dd51dc3aa27f",
+  "title": "LaLa-World: Scaling Latent World Models with Natural Language Actions",
+  "url": "https://huggingface.co/papers/2610.27851",
+  "source": "hf-papers",
+  "axes": [
+   "video"
+  ],
+  "score": 6.24,
+  "date": "2026-10-23"
+ },
+ {
+  "key": "f4ee041e48cee6fe",
+  "title": "SpectralCanary: Embarrassingly Simple Low-Frequency Traces for T2I Dataset-Use Auditing",
+  "url": "https://arxiv.org/abs/2610.31659v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "image",
+   "model"
+  ],
+  "score": 6.12,
+  "date": "2026-10-23"
+ }
+]
