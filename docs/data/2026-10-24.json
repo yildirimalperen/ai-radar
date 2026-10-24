@@ -1,0 +1,209 @@
+[
+ {
+  "key": "fa6be6045caaef01",
+  "title": "WeVisOne-VL: Unified Visual Perception from Objects to Pixels",
+  "url": "https://huggingface.co/papers/2610.31329",
+  "source": "hf-papers",
+  "axes": [
+   "image"
+  ],
+  "score": 8.81,
+  "date": "2026-10-24"
+ },
+ {
+  "key": "950ce16ff7a9b05d",
+  "title": "Introducing Kimi K3.1 Pro",
+  "url": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
+  "source": "simonwillison",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 8.71,
+  "date": "2026-10-24"
+ },
+ {
+  "key": "a46b27626ab3e4de",
+  "title": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO",
+  "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdtk7m/istadaslabdeepseekv41flash1017gsqrco/",
+  "source": "reddit-localllama",
+  "axes": [
+   "model"
+  ],
+  "score": 7.94,
+  "date": "2026-10-24"
+ },
+ {
+  "key": "70494bcbd5ac6de8",
+  "title": "How Tripo P2.0 & Astra Work Together in Blender and Unity",
+  "url": "https://80.lv/articles/how-tripo-p2-0-astra-work-together-in-blender-and-unity/",
+  "source": "80lv",
+  "axes": [
+   "game",
+   "model",
+   "threed"
+  ],
+  "score": 7.11,
+  "date": "2026-10-24"
+ },
+ {
+  "key": "851103fb3bad437d",
+  "title": "I'm fine with AI video but I kinda hate AI tutorials on doing AI video. Is it just me? lol",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xdvldl/im_fine_with_ai_video_but_i_kinda_hate_ai/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image",
+   "video"
+  ],
+  "score": 6.99,
+  "date": "2026-10-24"
+ },
+ {
+  "key": "23b59f9d8e675771",
+  "title": "18 clip reel of my Minimax H3 LoRA on a 3090",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xdy95o/18_clip_reel_of_my_minimax_h3_lora_on_a_3090/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.83,
+  "date": "2026-10-24"
+ },
+ {
+  "key": "d2b474a1de9dafea",
+  "title": "Securing our frontier model training environment",
+  "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+  "source": "openai",
+  "axes": [
+   "model"
+  ],
+  "score": 6.55,
+  "date": "2026-10-24"
+ },
+ {
+  "key": "ec4c72a2bb25ac57",
+  "title": "FilmFlow: Agentic System for 3D Virtual Film Cinematography",
+  "url": "https://huggingface.co/papers/2610.30753",
+  "source": "hf-papers",
+  "axes": [
+   "threed"
+  ],
+  "score": 6.26,
+  "date": "2026-10-24"
+ },
+ {
+  "key": "a505cb2de70481b6",
+  "title": "NVIDIA Releases Nemotron 3.5 Bolt E4B 4GB: An Open Small Language Model for Local Voice Agents, Game Characters and Robots",
+  "url": "https://www.marktechpost.com/2026/10/23/nvidia-nemotron-3-5-bolt-e4b-4gb/",
+  "source": "marktechpost",
+  "axes": [
+   "game",
+   "model"
+  ],
+  "score": 5.98,
+  "date": "2026-10-24"
+ },
+ {
+  "key": "8bfe98d1d0f63456",
+  "title": "Does Your Model Run on AWS Trainium? Look It Up",
+  "url": "https://huggingface.co/blog/torch-neuronx-model-support",
+  "source": "huggingface-blog",
+  "axes": [
+   "model"
+  ],
+  "score": 5.85,
+  "date": "2026-10-24"
+ },
+ {
+  "key": "5a5d9b83d74950f9",
+  "title": "Visual Anagrams with Iris 3B Turbo on an RTX 3060 (12 GB)",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xdy81f/visual_anagrams_with_iris_3b_turbo_on_an_rtx_3060/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.25,
+  "date": "2026-10-24"
+ },
+ {
+  "key": "ee405516e2b00463",
+  "title": "IQuest-Q1: Advancing Foundation Capabilities for Agentic CLI Systems",
+  "url": "https://huggingface.co/papers/2610.30949",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 6.16,
+  "date": "2026-10-24"
+ },
+ {
+  "key": "8a5fecef81480ec4",
+  "title": "Sam Altman: OpenAI's best model \"can't responsibly be open-sourced\" until the world builds better cyberdefense and bio-security",
+  "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xe0ioz/sam_altman_openais_best_model_cant_responsibly_be/",
+  "source": "reddit-localllama",
+  "axes": [
+   "model"
+  ],
+  "score": 5.68,
+  "date": "2026-10-24"
+ },
+ {
+  "key": "130fb03995191ed8",
+  "title": "Kyutai CADRE: Video Autoencoders That Cut World Model Lag Below 230 ms",
+  "url": "https://www.marktechpost.com/2026/10/23/kyutai-cadre-video-autoencoders-interactive-world-models/",
+  "source": "marktechpost",
+  "axes": [
+   "model",
+   "video"
+  ],
+  "score": 5.59,
+  "date": "2026-10-24"
+ },
+ {
+  "key": "4c191d7bd37741f7",
+  "title": "HimmBO: High-Dimensional Interactive Model-Merging Bayesian Optimization for Image Generation",
+  "url": "https://arxiv.org/abs/2610.30875v1",
+  "source": "arxiv-gr",
+  "axes": [
+   "image",
+   "model"
+  ],
+  "score": 5.52,
+  "date": "2026-10-24"
+ },
+ {
+  "key": "8a61280f2e9c3f3a",
+  "title": "Censorship is unacceptable - Beaches are not X-rated in any decent country",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xdtg3i/censorship_is_unacceptable_beaches_are_not_xrated/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "model"
+  ],
+  "score": 5.44,
+  "date": "2026-10-24"
+ },
+ {
+  "key": "ee625a634ba74ada",
+  "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+  "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 5.3,
+  "date": "2026-10-24"
+ },
+ {
+  "key": "c053082b263287ee",
+  "title": "A Unified Framework for Image-to-3D Part Generation via Variable Granularity",
+  "url": "https://arxiv.org/abs/2610.31671v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "infra",
+   "threed"
+  ],
+  "score": 5.2,
+  "date": "2026-10-24"
+ }
+]
