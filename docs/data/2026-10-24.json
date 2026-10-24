@@ -7,7 +7,7 @@
   "axes": [
    "image"
   ],
-  "score": 8.81,
+  "score": 8.68,
   "date": "2026-10-24"
  },
  {
@@ -19,18 +19,54 @@
    "infra",
    "model"
   ],
-  "score": 8.71,
+  "score": 8.59,
   "date": "2026-10-24"
  },
  {
-  "key": "a46b27626ab3e4de",
-  "title": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO",
-  "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdtk7m/istadaslabdeepseekv41flash1017gsqrco/",
-  "source": "reddit-localllama",
+  "key": "b483741756571bac",
+  "title": "Dessa: Conversation Model trained only on speech",
+  "url": "https://block.xyz/dessa",
+  "source": "hackernews",
   "axes": [
    "model"
   ],
-  "score": 7.94,
+  "score": 8.14,
+  "date": "2026-10-24"
+ },
+ {
+  "key": "36f45f96f0c6a185",
+  "title": "I trained a LoRA that makes MOSS-Image output real transparent PNGs (proof of concept, 39 training images)",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xe1gse/i_trained_a_lora_that_makes_mossimage_output_real/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image",
+   "model"
+  ],
+  "score": 7.77,
+  "date": "2026-10-24"
+ },
+ {
+  "key": "8c65acc125e2edbb",
+  "title": "Now Google says it might use your Gmail and Google Photos data to target ads",
+  "url": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 7.73,
+  "date": "2026-10-24"
+ },
+ {
+  "key": "8896eba51e05dcf6",
+  "title": "Building Reasoning Models from the Ground Up: A Video Course",
+  "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
+  "source": "ahead-of-ai",
+  "axes": [
+   "video"
+  ],
+  "score": 7.18,
   "date": "2026-10-24"
  },
  {
@@ -43,19 +79,7 @@
    "model",
    "threed"
   ],
-  "score": 7.11,
-  "date": "2026-10-24"
- },
- {
-  "key": "851103fb3bad437d",
-  "title": "I'm fine with AI video but I kinda hate AI tutorials on doing AI video. Is it just me? lol",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xdvldl/im_fine_with_ai_video_but_i_kinda_hate_ai/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image",
-   "video"
-  ],
-  "score": 6.99,
+  "score": 7.01,
   "date": "2026-10-24"
  },
  {
@@ -66,7 +90,7 @@
   "axes": [
    "image"
   ],
-  "score": 6.83,
+  "score": 6.67,
   "date": "2026-10-24"
  },
  {
@@ -77,18 +101,18 @@
   "axes": [
    "model"
   ],
-  "score": 6.55,
+  "score": 6.46,
   "date": "2026-10-24"
  },
  {
-  "key": "ec4c72a2bb25ac57",
-  "title": "FilmFlow: Agentic System for 3D Virtual Film Cinematography",
-  "url": "https://huggingface.co/papers/2610.30753",
-  "source": "hf-papers",
+  "key": "8a422cd3e8266c2a",
+  "title": "Listening to Nina Simone in 2036",
+  "url": "https://punkx.org/jackdoe/nina.html",
+  "source": "lobsters",
   "axes": [
-   "threed"
+   "game"
   ],
-  "score": 6.26,
+  "score": 5.85,
   "date": "2026-10-24"
  },
  {
@@ -100,29 +124,7 @@
    "game",
    "model"
   ],
-  "score": 5.98,
-  "date": "2026-10-24"
- },
- {
-  "key": "8bfe98d1d0f63456",
-  "title": "Does Your Model Run on AWS Trainium? Look It Up",
-  "url": "https://huggingface.co/blog/torch-neuronx-model-support",
-  "source": "huggingface-blog",
-  "axes": [
-   "model"
-  ],
-  "score": 5.85,
-  "date": "2026-10-24"
- },
- {
-  "key": "5a5d9b83d74950f9",
-  "title": "Visual Anagrams with Iris 3B Turbo on an RTX 3060 (12 GB)",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xdy81f/visual_anagrams_with_iris_3b_turbo_on_an_rtx_3060/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image"
-  ],
-  "score": 6.25,
+  "score": 5.82,
   "date": "2026-10-24"
  },
  {
@@ -133,30 +135,53 @@
   "axes": [
    "model"
   ],
-  "score": 6.16,
+  "score": 6.26,
   "date": "2026-10-24"
  },
  {
-  "key": "8a5fecef81480ec4",
-  "title": "Sam Altman: OpenAI's best model \"can't responsibly be open-sourced\" until the world builds better cyberdefense and bio-security",
-  "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xe0ioz/sam_altman_openais_best_model_cant_responsibly_be/",
-  "source": "reddit-localllama",
+  "key": "ae14ddb973253506",
+  "title": "Self-Distilling Future Video Representations for World Action Models",
+  "url": "https://huggingface.co/papers/2610.30320",
+  "source": "hf-papers",
+  "axes": [
+   "video"
+  ],
+  "score": 6.1,
+  "date": "2026-10-24"
+ },
+ {
+  "key": "5a5d9b83d74950f9",
+  "title": "Visual Anagrams with Iris 3B Turbo on an RTX 3060 (12 GB)",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xdy81f/visual_anagrams_with_iris_3b_turbo_on_an_rtx_3060/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.09,
+  "date": "2026-10-24"
+ },
+ {
+  "key": "8bfe98d1d0f63456",
+  "title": "Does Your Model Run on AWS Trainium? Look It Up",
+  "url": "https://huggingface.co/blog/torch-neuronx-model-support",
+  "source": "huggingface-blog",
   "axes": [
    "model"
   ],
-  "score": 5.68,
+  "score": 5.79,
   "date": "2026-10-24"
  },
  {
-  "key": "130fb03995191ed8",
-  "title": "Kyutai CADRE: Video Autoencoders That Cut World Model Lag Below 230 ms",
-  "url": "https://www.marktechpost.com/2026/10/23/kyutai-cadre-video-autoencoders-interactive-world-models/",
-  "source": "marktechpost",
+  "key": "8319a63428e9ea3e",
+  "title": "Swedish government offices to ban ChatGPT and Claude",
+  "url": "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet",
+  "source": "hackernews",
   "axes": [
+   "infra",
    "model",
-   "video"
+   "people"
   ],
-  "score": 5.59,
+  "score": 5.63,
   "date": "2026-10-24"
  },
  {
@@ -168,42 +193,30 @@
    "image",
    "model"
   ],
-  "score": 5.52,
+  "score": 5.49,
   "date": "2026-10-24"
  },
  {
-  "key": "8a61280f2e9c3f3a",
-  "title": "Censorship is unacceptable - Beaches are not X-rated in any decent country",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xdtg3i/censorship_is_unacceptable_beaches_are_not_xrated/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "model"
-  ],
-  "score": 5.44,
-  "date": "2026-10-24"
- },
- {
-  "key": "ee625a634ba74ada",
-  "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
-  "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
-  "source": "openai",
+  "key": "130fb03995191ed8",
+  "title": "Kyutai CADRE: Video Autoencoders That Cut World Model Lag Below 230 ms",
+  "url": "https://www.marktechpost.com/2026/10/23/kyutai-cadre-video-autoencoders-interactive-world-models/",
+  "source": "marktechpost",
   "axes": [
    "model",
-   "people"
+   "video"
   ],
-  "score": 5.3,
+  "score": 5.45,
   "date": "2026-10-24"
  },
  {
-  "key": "c053082b263287ee",
-  "title": "A Unified Framework for Image-to-3D Part Generation via Variable Granularity",
-  "url": "https://arxiv.org/abs/2610.31671v1",
-  "source": "arxiv-cv",
+  "key": "8f65d7c420a84f13",
+  "title": "A few tips for MOSS",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xe1nmu/a_few_tips_for_moss/",
+  "source": "reddit-stablediffusion",
   "axes": [
-   "infra",
-   "threed"
+   "image"
   ],
-  "score": 5.2,
+  "score": 5.41,
   "date": "2026-10-24"
  }
 ]
