@@ -8,7 +8,7 @@
    "infra",
    "model"
   ],
-  "score": 8.23,
+  "score": 8.18,
   "date": "2026-10-25"
  },
  {
@@ -21,7 +21,7 @@
    "model",
    "people"
   ],
-  "score": 7.49,
+  "score": 7.37,
   "date": "2026-10-25"
  },
  {
@@ -32,7 +32,7 @@
   "axes": [
    "image"
   ],
-  "score": 7.39,
+  "score": 7.21,
   "date": "2026-10-25"
  },
  {
@@ -45,7 +45,7 @@
    "model",
    "threed"
   ],
-  "score": 7.18,
+  "score": 7.0,
   "date": "2026-10-25"
  },
  {
@@ -56,7 +56,20 @@
   "axes": [
    "game"
   ],
-  "score": 6.58,
+  "score": 6.5,
+  "date": "2026-10-25"
+ },
+ {
+  "key": "b10e980408b7a8c9",
+  "title": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
+  "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 5.41,
   "date": "2026-10-25"
  },
  {
@@ -70,7 +83,7 @@
    "threed",
    "video"
   ],
-  "score": 5.14,
+  "score": 5.13,
   "date": "2026-10-25"
  },
  {
@@ -81,7 +94,7 @@
   "axes": [
    "model"
   ],
-  "score": 4.98,
+  "score": 4.96,
   "date": "2026-10-25"
  },
  {
@@ -95,7 +108,18 @@
    "threed",
    "video"
   ],
-  "score": 4.76,
+  "score": 4.75,
+  "date": "2026-10-25"
+ },
+ {
+  "key": "25c5864063e08296",
+  "title": "No way!!! Apparently Flux 3 Image is #1 model",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xeykcw/no_way_apparently_flux_3_image_is_1_model/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "model"
+  ],
+  "score": 5.68,
   "date": "2026-10-25"
  },
  {
@@ -107,29 +131,7 @@
    "model",
    "people"
   ],
-  "score": 4.65,
-  "date": "2026-10-25"
- },
- {
-  "key": "5252201da831dd6d",
-  "title": "George Barbier style LoRA for Krea2",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xeobu8/george_barbier_style_lora_for_krea2/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image"
-  ],
-  "score": 6.12,
-  "date": "2026-10-25"
- },
- {
-  "key": "99eddc701c67850b",
-  "title": "The amount of LoRA Merging on Civitai is quite spectacular",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xemtyh/the_amount_of_lora_merging_on_civitai_is_quite/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image"
-  ],
-  "score": 6.08,
+  "score": 4.62,
   "date": "2026-10-25"
  },
  {
@@ -143,41 +145,7 @@
    "threed",
    "video"
   ],
-  "score": 4.62,
-  "date": "2026-10-25"
- },
- {
-  "key": "886a8a165802f618",
-  "title": "Beyond tree cover: mapping the world’s forest types",
-  "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
-  "source": "deepmind",
-  "axes": [
-   "model",
-   "people"
-  ],
-  "score": 4.59,
-  "date": "2026-10-25"
- },
- {
-  "key": "1755277de5db1052",
-  "title": "Microsoft Open-Sources Agensh: A Multi-Agent Harness for 1,024 Agents",
-  "url": "https://www.marktechpost.com/2026/10/24/microsoft-agensh-multi-agent-harness-1024-agents/",
-  "source": "marktechpost",
-  "axes": [
-   "model"
-  ],
-  "score": 4.58,
-  "date": "2026-10-25"
- },
- {
-  "key": "1778be45f41133d3",
-  "title": "Cognition Open-Sources an Agent Plugin that Helps Secure Systems against Recent Cybersecurity Threats",
-  "url": "https://www.marktechpost.com/2026/10/24/cognition-devin-vulnerability-fixes-plugin-php2shell-nodejs-gitlab/",
-  "source": "marktechpost",
-  "axes": [
-   "model"
-  ],
-  "score": 4.56,
+  "score": 4.61,
   "date": "2026-10-25"
  },
  {
@@ -189,19 +157,51 @@
    "model",
    "people"
   ],
-  "score": 4.55,
+  "score": 4.53,
   "date": "2026-10-25"
  },
  {
-  "key": "97918a8a4c48c39b",
-  "title": "Uber brings ChatGPT Work to all employees with OpenAI",
-  "url": "https://openai.com/index/uber-chatgpt-work-rollout",
-  "source": "openai",
+  "key": "851e0ad4205f2755",
+  "title": "FIBO 2 vs FLUX 3 Klein",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xewwx4/fibo_2_vs_flux_3_klein/",
+  "source": "reddit-stablediffusion",
   "axes": [
-   "model",
-   "people"
+   "image"
   ],
-  "score": 4.53,
+  "score": 4.5,
+  "date": "2026-10-25"
+ },
+ {
+  "key": "3d127d837783b6d1",
+  "title": "Reading, Writing, Sharing, and Interacting with the World through Video",
+  "url": "https://arxiv.org/abs/2610.31668v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "video"
+  ],
+  "score": 4.46,
+  "date": "2026-10-25"
+ },
+ {
+  "key": "1755277de5db1052",
+  "title": "Microsoft Open-Sources Agensh: A Multi-Agent Harness for 1,024 Agents",
+  "url": "https://www.marktechpost.com/2026/10/24/microsoft-agensh-multi-agent-harness-1024-agents/",
+  "source": "marktechpost",
+  "axes": [
+   "model"
+  ],
+  "score": 4.42,
+  "date": "2026-10-25"
+ },
+ {
+  "key": "1778be45f41133d3",
+  "title": "Cognition Open-Sources an Agent Plugin that Helps Secure Systems against Recent Cybersecurity Threats",
+  "url": "https://www.marktechpost.com/2026/10/24/cognition-devin-vulnerability-fixes-plugin-php2shell-nodejs-gitlab/",
+  "source": "marktechpost",
+  "axes": [
+   "model"
+  ],
+  "score": 4.4,
   "date": "2026-10-25"
  }
 ]
