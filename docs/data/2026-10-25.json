@@ -1,0 +1,207 @@
+[
+ {
+  "key": "950ce16ff7a9b05d",
+  "title": "Introducing Kimi K3.1 Pro",
+  "url": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
+  "source": "simonwillison",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 8.23,
+  "date": "2026-10-25"
+ },
+ {
+  "key": "5f56e2ee87365d7c",
+  "title": "No signs of AI payoff outside the tech sector",
+  "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 7.49,
+  "date": "2026-10-25"
+ },
+ {
+  "key": "8d9183cc6742cdb4",
+  "title": "Multiple characters testing with MOSS image - 12 different people in one photo",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xev9ix/multiple_characters_testing_with_moss_image_12/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 7.39,
+  "date": "2026-10-25"
+ },
+ {
+  "key": "795fc15eda292c7c",
+  "title": "My MOSS Character Lora Training Results",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xeunzs/my_moss_character_lora_training_results/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image",
+   "model",
+   "threed"
+  ],
+  "score": 7.18,
+  "date": "2026-10-25"
+ },
+ {
+  "key": "48afcb9c6b0e1ed7",
+  "title": "battledrones v14: Compass Rose, a four player map",
+  "url": "https://simonwillison.net/2026/Oct/24/battledrones/",
+  "source": "simonwillison",
+  "axes": [
+   "game"
+  ],
+  "score": 6.58,
+  "date": "2026-10-25"
+ },
+ {
+  "key": "74c2323d0705ee3a",
+  "title": "Deep Search in Real-World Web Environments",
+  "url": "https://huggingface.co/papers/2610.30181",
+  "source": "hf-papers",
+  "axes": [
+   "image",
+   "model",
+   "threed",
+   "video"
+  ],
+  "score": 5.14,
+  "date": "2026-10-25"
+ },
+ {
+  "key": "035657c35da50df7",
+  "title": "Leading European Financial Services Organizations Embrace Open Models to Build Proprietary Intelligence",
+  "url": "https://blogs.nvidia.com/blog/european-financial-services-organizations-open-models-proprietary-intelligence/",
+  "source": "nvidia-genai",
+  "axes": [
+   "model"
+  ],
+  "score": 4.98,
+  "date": "2026-10-25"
+ },
+ {
+  "key": "55ce30bfe9cbb6f8",
+  "title": "Toward Recursive Self-Improvement in Physical AI",
+  "url": "https://huggingface.co/papers/2610.29677",
+  "source": "hf-papers",
+  "axes": [
+   "image",
+   "model",
+   "threed",
+   "video"
+  ],
+  "score": 4.76,
+  "date": "2026-10-25"
+ },
+ {
+  "key": "46d9ea3640a2bca5",
+  "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+  "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 4.65,
+  "date": "2026-10-25"
+ },
+ {
+  "key": "5252201da831dd6d",
+  "title": "George Barbier style LoRA for Krea2",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xeobu8/george_barbier_style_lora_for_krea2/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.12,
+  "date": "2026-10-25"
+ },
+ {
+  "key": "99eddc701c67850b",
+  "title": "The amount of LoRA Merging on Civitai is quite spectacular",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xemtyh/the_amount_of_lora_merging_on_civitai_is_quite/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.08,
+  "date": "2026-10-25"
+ },
+ {
+  "key": "5888ddc6bdccb576",
+  "title": "Deep Fusion Memory: A Chunk-Level Parametric Memory for Large Language Models",
+  "url": "https://huggingface.co/papers/2610.25100",
+  "source": "hf-papers",
+  "axes": [
+   "image",
+   "model",
+   "threed",
+   "video"
+  ],
+  "score": 4.62,
+  "date": "2026-10-25"
+ },
+ {
+  "key": "886a8a165802f618",
+  "title": "Beyond tree cover: mapping the world’s forest types",
+  "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+  "source": "deepmind",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 4.59,
+  "date": "2026-10-25"
+ },
+ {
+  "key": "1755277de5db1052",
+  "title": "Microsoft Open-Sources Agensh: A Multi-Agent Harness for 1,024 Agents",
+  "url": "https://www.marktechpost.com/2026/10/24/microsoft-agensh-multi-agent-harness-1024-agents/",
+  "source": "marktechpost",
+  "axes": [
+   "model"
+  ],
+  "score": 4.58,
+  "date": "2026-10-25"
+ },
+ {
+  "key": "1778be45f41133d3",
+  "title": "Cognition Open-Sources an Agent Plugin that Helps Secure Systems against Recent Cybersecurity Threats",
+  "url": "https://www.marktechpost.com/2026/10/24/cognition-devin-vulnerability-fixes-plugin-php2shell-nodejs-gitlab/",
+  "source": "marktechpost",
+  "axes": [
+   "model"
+  ],
+  "score": 4.56,
+  "date": "2026-10-25"
+ },
+ {
+  "key": "b2ed62293d7ccc22",
+  "title": "What FDE means at OpenAI",
+  "url": "https://openai.com/index/forward-deployed-engineering-means",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 4.55,
+  "date": "2026-10-25"
+ },
+ {
+  "key": "97918a8a4c48c39b",
+  "title": "Uber brings ChatGPT Work to all employees with OpenAI",
+  "url": "https://openai.com/index/uber-chatgpt-work-rollout",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 4.53,
+  "date": "2026-10-25"
+ }
+]
