@@ -8,7 +8,19 @@
    "infra",
    "model"
   ],
-  "score": 8.0,
+  "score": 7.97,
+  "date": "2026-10-26"
+ },
+ {
+  "key": "789a34de0501276c",
+  "title": "Introducing Krea2/Moss-Image Manga Alpha Image Lora",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xfonos/introducing_krea2mossimage_manga_alpha_image_lora/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image",
+   "model"
+  ],
+  "score": 7.09,
   "date": "2026-10-26"
  },
  {
@@ -19,19 +31,7 @@
   "axes": [
    "model"
   ],
-  "score": 7.02,
-  "date": "2026-10-26"
- },
- {
-  "key": "9a3f8a0504619367",
-  "title": "’80s-style Flock Safety commercial",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xfez10/80sstyle_flock_safety_commercial/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image",
-   "video"
-  ],
-  "score": 6.85,
+  "score": 6.83,
   "date": "2026-10-26"
  },
  {
@@ -42,18 +42,7 @@
   "axes": [
    "threed"
   ],
-  "score": 6.7,
-  "date": "2026-10-26"
- },
- {
-  "key": "cdfac64b8ff1b9d2",
-  "title": "Krea 2 king of styles!",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xfeonr/krea_2_king_of_styles/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image"
-  ],
-  "score": 6.29,
+  "score": 6.46,
   "date": "2026-10-26"
  },
  {
@@ -64,7 +53,18 @@
   "axes": [
    "game"
   ],
-  "score": 6.28,
+  "score": 6.35,
+  "date": "2026-10-26"
+ },
+ {
+  "key": "139148dc9e8ef9ca",
+  "title": "HUGE shoutout to ShootTheSound and Fizgig! I finally nailed Moss char loras",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xfu2d6/huge_shoutout_to_shootthesound_and_fizgig_i/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.32,
   "date": "2026-10-26"
  },
  {
@@ -75,7 +75,40 @@
   "axes": [
    "image"
   ],
-  "score": 6.23,
+  "score": 6.24,
+  "date": "2026-10-26"
+ },
+ {
+  "key": "757686f5d0e7a24c",
+  "title": "I think my Game got COPIED, but i'm not sure and don't know what to do!",
+  "url": "https://www.reddit.com/r/gamedev/comments/1xfue7t/i_think_my_game_got_copied_but_im_not_sure_and/",
+  "source": "reddit-gamedev",
+  "axes": [
+   "game"
+  ],
+  "score": 5.83,
+  "date": "2026-10-26"
+ },
+ {
+  "key": "f8ba7530040184ba",
+  "title": "I’m working on a game concept and would love some ideas!",
+  "url": "https://www.reddit.com/r/gamedev/comments/1xfu1j4/im_working_on_a_game_concept_and_would_love_some/",
+  "source": "reddit-gamedev",
+  "axes": [
+   "game"
+  ],
+  "score": 5.82,
+  "date": "2026-10-26"
+ },
+ {
+  "key": "412061f29d86b188",
+  "title": "Shogun 2 – Complete Edition was \"not a Creative Assembly developed game,\" says Total War VP after it was pulled amid generative AI concerns",
+  "url": "https://www.gamesindustry.biz/shogun-2-complete-edition-was-not-a-creative-assembly-developed-game-says-total-war-vp-after-it-was-pulled-amid-generative-ai-concerns",
+  "source": "gamesindustry",
+  "axes": [
+   "game"
+  ],
+  "score": 5.71,
   "date": "2026-10-26"
  },
  {
@@ -87,7 +120,7 @@
    "infra",
    "model"
   ],
-  "score": 4.73,
+  "score": 4.59,
   "date": "2026-10-26"
  },
  {
@@ -98,7 +131,29 @@
   "axes": [
    "infra"
   ],
-  "score": 3.98,
+  "score": 3.85,
+  "date": "2026-10-26"
+ },
+ {
+  "key": "76b6023542ee2b16",
+  "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+  "url": "https://minimaxir.com/2026/10/cheap-llms/",
+  "source": "hackernews",
+  "axes": [
+   "model"
+  ],
+  "score": 6.3,
+  "date": "2026-10-26"
+ },
+ {
+  "key": "ed8a0a1ada50c35b",
+  "title": "Zipties in ComfyUI!",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xft7c1/zipties_in_comfyui/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.29,
   "date": "2026-10-26"
  },
  {
@@ -110,18 +165,7 @@
    "infra",
    "model"
   ],
-  "score": 6.13,
-  "date": "2026-10-26"
- },
- {
-  "key": "be2cfe489e63230a",
-  "title": "OpenFill now runs in PhotoCraft, free local Generative Fill, Remove and Expand on your own ComfyUI",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xfgbeu/openfill_now_runs_in_photocraft_free_local/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image"
-  ],
-  "score": 6.06,
+  "score": 6.17,
   "date": "2026-10-26"
  },
  {
@@ -132,18 +176,7 @@
   "axes": [
    "model"
   ],
-  "score": 5.65,
-  "date": "2026-10-26"
- },
- {
-  "key": "468dbb3aea851818",
-  "title": "Introducing Clown Prophecy (The only actually fix to degredation)",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xfl3al/introducing_clown_prophecy_the_only_actually_fix/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "model"
-  ],
-  "score": 5.53,
+  "score": 5.77,
   "date": "2026-10-26"
  },
  {
@@ -155,31 +188,18 @@
    "image",
    "model"
   ],
-  "score": 5.41,
+  "score": 5.38,
   "date": "2026-10-26"
  },
  {
-  "key": "b3283b2b7c9f74f4",
-  "title": "Cerebras Deploys Trillion-Parameter AI Models",
-  "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
-  "source": "hackernews",
-  "axes": [
-   "infra",
-   "model",
-   "people"
-  ],
-  "score": 5.31,
-  "date": "2026-10-26"
- },
- {
-  "key": "ce80e5c8183c0c12",
-  "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
-  "url": "https://lynchlab.net/llm-skin-cancer",
-  "source": "hackernews",
+  "key": "468dbb3aea851818",
+  "title": "Introducing Clown Prophecy (The only actually fix to degredation)",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xfl3al/introducing_clown_prophecy_the_only_actually_fix/",
+  "source": "reddit-stablediffusion",
   "axes": [
    "model"
   ],
-  "score": 4.83,
+  "score": 5.33,
   "date": "2026-10-26"
  },
  {
@@ -190,7 +210,18 @@
   "axes": [
    "image"
   ],
-  "score": 4.7,
+  "score": 4.67,
+  "date": "2026-10-26"
+ },
+ {
+  "key": "ce80e5c8183c0c12",
+  "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
+  "url": "https://lynchlab.net/llm-skin-cancer",
+  "source": "hackernews",
+  "axes": [
+   "model"
+  ],
+  "score": 4.66,
   "date": "2026-10-26"
  }
 ]
