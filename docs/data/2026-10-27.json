@@ -1,0 +1,215 @@
+[
+ {
+  "key": "098b8e780b493c1c",
+  "title": "StreamVibe: Proactive Video Agents for Evolving User Intent",
+  "url": "https://huggingface.co/papers/2610.34662",
+  "source": "hf-papers",
+  "axes": [
+   "model",
+   "video"
+  ],
+  "score": 8.74,
+  "date": "2026-10-27"
+ },
+ {
+  "key": "8896eba51e05dcf6",
+  "title": "Building Reasoning Models from the Ground Up: A Full Video Course",
+  "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
+  "source": "ahead-of-ai",
+  "axes": [
+   "video"
+  ],
+  "score": 8.33,
+  "date": "2026-10-27"
+ },
+ {
+  "key": "0dea0088908d2a11",
+  "title": "Introducing GPT-6.1 Terra",
+  "url": "https://openai.com/index/introducing-gpt-6-1-terra",
+  "source": "openai",
+  "axes": [
+   "model"
+  ],
+  "score": 8.15,
+  "date": "2026-10-27"
+ },
+ {
+  "key": "950ce16ff7a9b05d",
+  "title": "Introducing Kimi K3.1 Pro",
+  "url": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
+  "source": "simonwillison",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 7.89,
+  "date": "2026-10-27"
+ },
+ {
+  "key": "ce7c8d42cdcd339a",
+  "title": "Working with academic communities to build scientific understanding",
+  "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 7.71,
+  "date": "2026-10-27"
+ },
+ {
+  "key": "9ae271ce0bb3a0de",
+  "title": "Anthropic S-1",
+  "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 7.48,
+  "date": "2026-10-27"
+ },
+ {
+  "key": "038b4a4b4bc7ab55",
+  "title": "I created a custom node that can help you generate as many frames as you want with high motion transfer accuracy in MiniMax H3",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xgcjvw/i_created_a_custom_node_that_can_help_you/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "model",
+   "video"
+  ],
+  "score": 7.14,
+  "date": "2026-10-27"
+ },
+ {
+  "key": "7441ed233aac9ced",
+  "title": "WorldCast: World-Consistent Character Video Generation with Large-Angle Camera Control",
+  "url": "https://huggingface.co/papers/2610.33135",
+  "source": "hf-papers",
+  "axes": [
+   "model",
+   "threed",
+   "video"
+  ],
+  "score": 7.0,
+  "date": "2026-10-27"
+ },
+ {
+  "key": "5a6f2b6677b3711e",
+  "title": "Epic Games CEO calls Steam's AI disclosure policies \"a political act\"",
+  "url": "https://www.gamesindustry.biz/epic-games-ceo-calls-steams-ai-disclosure-policies-a-political-act",
+  "source": "gamesindustry",
+  "axes": [
+   "game",
+   "people"
+  ],
+  "score": 5.9,
+  "date": "2026-10-27"
+ },
+ {
+  "key": "93e2324fc5e91622",
+  "title": "This Metroidvania About Depressed Garbage Man Is Fully Hand-Painted",
+  "url": "https://80.lv/articles/this-metroidvania-about-depressed-garbage-man-is-fully-hand-painted/",
+  "source": "80lv",
+  "axes": [
+   "game",
+   "image",
+   "threed"
+  ],
+  "score": 4.56,
+  "date": "2026-10-27"
+ },
+ {
+  "key": "9094fcd07715135d",
+  "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+  "url": "https://openai.com/index/greptile-code-review-codex-astra",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 6.64,
+  "date": "2026-10-27"
+ },
+ {
+  "key": "3362f52a4b984b21",
+  "title": "Update: My 4B coding model is getting better at generating 3D scenes",
+  "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgc7uv/update_my_4b_coding_model_is_getting_better_at/",
+  "source": "reddit-localllama",
+  "axes": [
+   "model",
+   "threed"
+  ],
+  "score": 6.56,
+  "date": "2026-10-27"
+ },
+ {
+  "key": "ee5f074d9ff08ee4",
+  "title": "InteractiveWorld: A Verifiable Human-Centric Environment for Building Better Interactive MLLM Assistants",
+  "url": "https://huggingface.co/papers/2610.33966",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 6.34,
+  "date": "2026-10-27"
+ },
+ {
+  "key": "e7ffab39bbcd1d9f",
+  "title": "ComfyUI v0.43.0",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xgiqxl/comfyui_v0430/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.25,
+  "date": "2026-10-27"
+ },
+ {
+  "key": "510190ea4911a90b",
+  "title": "Trial by Trace: Benchmarking AI Agent Harnesses for Reliability and Failure Attribution",
+  "url": "https://huggingface.co/papers/2610.32285",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 6.17,
+  "date": "2026-10-27"
+ },
+ {
+  "key": "e227cc097db1ff70",
+  "title": "MOSS is pretty freaking good",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xgevam/moss_is_pretty_freaking_good/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.13,
+  "date": "2026-10-27"
+ },
+ {
+  "key": "6b45caea37fd2cf0",
+  "title": "MedVTok: A General-Purpose Medical Visual Tokenizer",
+  "url": "https://arxiv.org/abs/2610.35842v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "image",
+   "model"
+  ],
+  "score": 6.11,
+  "date": "2026-10-27"
+ },
+ {
+  "key": "c2721b5ed0c91c8d",
+  "title": "VibeVideoBench:Evaluating Multimodal Agents on Code-Driven Video Generation",
+  "url": "https://arxiv.org/abs/2610.35864v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "model",
+   "video"
+  ],
+  "score": 5.89,
+  "date": "2026-10-27"
+ }
+]
