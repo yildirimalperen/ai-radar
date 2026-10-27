@@ -8,7 +8,7 @@
    "model",
    "video"
   ],
-  "score": 8.74,
+  "score": 10.49,
   "date": "2026-10-27"
  },
  {
@@ -19,7 +19,7 @@
   "axes": [
    "video"
   ],
-  "score": 8.33,
+  "score": 8.45,
   "date": "2026-10-27"
  },
  {
@@ -30,7 +30,7 @@
   "axes": [
    "model"
   ],
-  "score": 8.15,
+  "score": 8.02,
   "date": "2026-10-27"
  },
  {
@@ -42,7 +42,7 @@
    "infra",
    "model"
   ],
-  "score": 7.89,
+  "score": 7.88,
   "date": "2026-10-27"
  },
  {
@@ -54,7 +54,7 @@
    "model",
    "people"
   ],
-  "score": 7.71,
+  "score": 7.6,
   "date": "2026-10-27"
  },
  {
@@ -67,32 +67,32 @@
    "model",
    "people"
   ],
-  "score": 7.48,
+  "score": 7.38,
   "date": "2026-10-27"
  },
  {
-  "key": "038b4a4b4bc7ab55",
-  "title": "I created a custom node that can help you generate as many frames as you want with high motion transfer accuracy in MiniMax H3",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xgcjvw/i_created_a_custom_node_that_can_help_you/",
+  "key": "79fe07cad6630031",
+  "title": "Some more examples from my Ultimate Digital Painting Moss Image Lora",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xgjqq2/some_more_examples_from_my_ultimate_digital/",
   "source": "reddit-stablediffusion",
   "axes": [
-   "model",
-   "video"
+   "image"
   ],
-  "score": 7.14,
+  "score": 7.12,
   "date": "2026-10-27"
  },
  {
-  "key": "7441ed233aac9ced",
-  "title": "WorldCast: World-Consistent Character Video Generation with Large-Angle Camera Control",
-  "url": "https://huggingface.co/papers/2610.33135",
+  "key": "608cd696bd83e8c3",
+  "title": "Trajectory2Gym: Decision-Grounded Compositional Interaction Synthesis for Tool-Use Agents",
+  "url": "https://huggingface.co/papers/2610.33568",
   "source": "hf-papers",
   "axes": [
+   "image",
    "model",
    "threed",
    "video"
   ],
-  "score": 7.0,
+  "score": 6.91,
   "date": "2026-10-27"
  },
  {
@@ -104,20 +104,29 @@
    "game",
    "people"
   ],
-  "score": 5.9,
+  "score": 5.76,
   "date": "2026-10-27"
  },
  {
-  "key": "93e2324fc5e91622",
-  "title": "This Metroidvania About Depressed Garbage Man Is Fully Hand-Painted",
-  "url": "https://80.lv/articles/this-metroidvania-about-depressed-garbage-man-is-fully-hand-painted/",
+  "key": "33ea3166f5220885",
+  "title": "Anthropic Discloses $80 Billion Loss as It Files for IPO",
+  "url": "https://80.lv/articles/anthropic-discloses-usd80-billion-loss-as-it-files-for-ipo/",
   "source": "80lv",
   "axes": [
-   "game",
-   "image",
-   "threed"
+   "people"
   ],
-  "score": 4.56,
+  "score": 4.99,
+  "date": "2026-10-27"
+ },
+ {
+  "key": "03eecda5a4bd9338",
+  "title": "DynaFlow: Learning Free-Form Multi-Agent Orchestration",
+  "url": "https://huggingface.co/papers/2610.34467",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 6.92,
   "date": "2026-10-27"
  },
  {
@@ -129,19 +138,7 @@
    "model",
    "people"
   ],
-  "score": 6.64,
-  "date": "2026-10-27"
- },
- {
-  "key": "3362f52a4b984b21",
-  "title": "Update: My 4B coding model is getting better at generating 3D scenes",
-  "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgc7uv/update_my_4b_coding_model_is_getting_better_at/",
-  "source": "reddit-localllama",
-  "axes": [
-   "model",
-   "threed"
-  ],
-  "score": 6.56,
+  "score": 6.5,
   "date": "2026-10-27"
  },
  {
@@ -152,40 +149,29 @@
   "axes": [
    "model"
   ],
-  "score": 6.34,
+  "score": 6.47,
   "date": "2026-10-27"
  },
  {
-  "key": "e7ffab39bbcd1d9f",
-  "title": "ComfyUI v0.43.0",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xgiqxl/comfyui_v0430/",
+  "key": "dccbe93d83df800f",
+  "title": "High speed speed combat",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xgp5cg/high_speed_speed_combat/",
   "source": "reddit-stablediffusion",
   "axes": [
    "image"
   ],
-  "score": 6.25,
+  "score": 6.33,
   "date": "2026-10-27"
  },
  {
-  "key": "510190ea4911a90b",
-  "title": "Trial by Trace: Benchmarking AI Agent Harnesses for Reliability and Failure Attribution",
-  "url": "https://huggingface.co/papers/2610.32285",
-  "source": "hf-papers",
+  "key": "583455913a18dfd9",
+  "title": "Microsoft Launches Voluntary Exit Program Covering Over a Quarter of Its Staff",
+  "url": "https://80.lv/articles/microsoft-launches-voluntary-exit-program-covering-over-a-quarter-of-its-staff/",
+  "source": "80lv",
   "axes": [
    "model"
   ],
-  "score": 6.17,
-  "date": "2026-10-27"
- },
- {
-  "key": "e227cc097db1ff70",
-  "title": "MOSS is pretty freaking good",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xgevam/moss_is_pretty_freaking_good/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image"
-  ],
-  "score": 6.13,
+  "score": 6.11,
   "date": "2026-10-27"
  },
  {
@@ -197,7 +183,7 @@
    "image",
    "model"
   ],
-  "score": 6.11,
+  "score": 5.98,
   "date": "2026-10-27"
  },
  {
@@ -209,7 +195,18 @@
    "model",
    "video"
   ],
-  "score": 5.89,
+  "score": 5.77,
+  "date": "2026-10-27"
+ },
+ {
+  "key": "a609de85632da2d7",
+  "title": "Today (in my timezone) marks the 1 Year Birthday of Z-Image Turbo!",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xgofv1/today_in_my_timezone_marks_the_1_year_birthday_of/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "model"
+  ],
+  "score": 5.64,
   "date": "2026-10-27"
  }
 ]
