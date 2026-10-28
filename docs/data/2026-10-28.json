@@ -9,7 +9,19 @@
    "model",
    "video"
   ],
-  "score": 8.33,
+  "score": 8.6,
+  "date": "2026-10-28"
+ },
+ {
+  "key": "7cdd9947f8ca32e2",
+  "title": "Survival LLM: AI assistant and emergency library that runs on your own computer",
+  "url": "https://www.brangus.io/survival-llm",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 8.18,
   "date": "2026-10-28"
  },
  {
@@ -20,30 +32,18 @@
   "axes": [
    "model"
   ],
-  "score": 8.15,
+  "score": 7.9,
   "date": "2026-10-28"
  },
  {
-  "key": "950ce16ff7a9b05d",
-  "title": "Introducing Kimi K3.1 Pro",
-  "url": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
-  "source": "simonwillison",
-  "axes": [
-   "infra",
-   "model"
-  ],
-  "score": 7.87,
-  "date": "2026-10-28"
- },
- {
-  "key": "bd0aa0a5fc2de576",
-  "title": "Hy-Nomas: Towards Free-form Interactive World Generation",
-  "url": "https://huggingface.co/papers/2610.36729",
+  "key": "8934ebfbad987f5e",
+  "title": "The Trinity:Capability-Driven Recursive Self-Improvement for Multimodal Agents",
+  "url": "https://huggingface.co/papers/2610.36077",
   "source": "hf-papers",
   "axes": [
-   "video"
+   "model"
   ],
-  "score": 7.46,
+  "score": 7.74,
   "date": "2026-10-28"
  },
  {
@@ -55,20 +55,20 @@
    "image",
    "threed"
   ],
-  "score": 7.12,
+  "score": 6.93,
   "date": "2026-10-28"
  },
  {
-  "key": "4821ca620f18720b",
-  "title": "Introducing H3 Relay Hires node: 0.5 → 2 MP anime upscaler, ~4x faster than native, with a full 20-step pass 1 (no turbo LoRA needed for the take)",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xhecjk/introducing_h3_relay_hires_node_05_2_mp_anime/",
-  "source": "reddit-stablediffusion",
+  "key": "e55fae4049a0973e",
+  "title": "4B 3D coding model update: much better one-shot results and visual quality",
+  "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xhfwui/4b_3d_coding_model_update_much_better_oneshot/",
+  "source": "reddit-localllama",
   "axes": [
    "image",
    "model",
-   "people"
+   "threed"
   ],
-  "score": 6.94,
+  "score": 6.92,
   "date": "2026-10-28"
  },
  {
@@ -79,7 +79,18 @@
   "axes": [
    "game"
   ],
-  "score": 6.92,
+  "score": 6.79,
+  "date": "2026-10-28"
+ },
+ {
+  "key": "1b15a9014b3aef54",
+  "title": "Recreating Marvel's Cyclops As Stylized Hand-Painted 3D Character",
+  "url": "https://80.lv/articles/recreating-marvel-s-cyclops-as-stylized-hand-painted-3d-character/",
+  "source": "80lv",
+  "axes": [
+   "threed"
+  ],
+  "score": 6.48,
   "date": "2026-10-28"
  },
  {
@@ -92,7 +103,99 @@
    "model",
    "people"
   ],
-  "score": 6.5,
+  "score": 6.27,
+  "date": "2026-10-28"
+ },
+ {
+  "key": "b6a2818b6a7bccf2",
+  "title": "How bosses and enemies decide what to do in video games",
+  "url": "https://unity.com/blog/how-enemy-ai-works-video-games",
+  "source": "unity",
+  "axes": [
+   "game",
+   "video"
+  ],
+  "score": 6.25,
+  "date": "2026-10-28"
+ },
+ {
+  "key": "84d745342225bf25",
+  "title": "Made a Game of Thrones style intro for the Texas Renaissance Faire campgrounds.",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xhhrut/made_a_game_of_thrones_style_intro_for_the_texas/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "game"
+  ],
+  "score": 6.17,
+  "date": "2026-10-28"
+ },
+ {
+  "key": "99363897a1c27f79",
+  "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+  "url": "https://openai.com/index/oracle-apps-in-chatgpt",
+  "source": "openai",
+  "axes": [
+   "people"
+  ],
+  "score": 5.27,
+  "date": "2026-10-28"
+ },
+ {
+  "key": "bd0aa0a5fc2de576",
+  "title": "Hy-Nomas: Towards Free-form Interactive World Generation",
+  "url": "https://huggingface.co/papers/2610.36729",
+  "source": "hf-papers",
+  "axes": [
+   "video"
+  ],
+  "score": 7.48,
+  "date": "2026-10-28"
+ },
+ {
+  "key": "e5a76105b1f32da5",
+  "title": "Can Discrete Tokens Serve as Semantically Lossless Representations of Visual Signals?",
+  "url": "https://huggingface.co/papers/2610.37662",
+  "source": "hf-papers",
+  "axes": [
+   "image",
+   "model"
+  ],
+  "score": 7.37,
+  "date": "2026-10-28"
+ },
+ {
+  "key": "2081ae84e23dada5",
+  "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+  "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 6.57,
+  "date": "2026-10-28"
+ },
+ {
+  "key": "ce7c8d42cdcd339a",
+  "title": "Working with academic communities to build scientific understanding",
+  "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 6.54,
+  "date": "2026-10-28"
+ },
+ {
+  "key": "d8fde9aa072780b0",
+  "title": "Update to the splat-repair-lora for qwen 2.1+ rebuilding of the old GaussianViewer node",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xhl3mf/update_to_the_splatrepairlora_for_qwen_21/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.31,
   "date": "2026-10-28"
  },
  {
@@ -105,86 +208,7 @@
    "model",
    "people"
   ],
-  "score": 6.38,
-  "date": "2026-10-28"
- },
- {
-  "key": "b6a2818b6a7bccf2",
-  "title": "How bosses and enemies decide what to do in video games",
-  "url": "https://unity.com/blog/how-enemy-ai-works-video-games",
-  "source": "unity",
-  "axes": [
-   "game",
-   "video"
-  ],
-  "score": 6.32,
-  "date": "2026-10-28"
- },
- {
-  "key": "99363897a1c27f79",
-  "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
-  "url": "https://openai.com/index/oracle-apps-in-chatgpt",
-  "source": "openai",
-  "axes": [
-   "people"
-  ],
-  "score": 5.35,
-  "date": "2026-10-28"
- },
- {
-  "key": "1b15a9014b3aef54",
-  "title": "Recreating Marvel's Cyclops As Stylized Hand-Painted 3D Character",
-  "url": "https://80.lv/articles/recreating-marvel-s-cyclops-as-stylized-hand-painted-3d-character/",
-  "source": "80lv",
-  "axes": [
-   "threed"
-  ],
-  "score": 6.69,
-  "date": "2026-10-28"
- },
- {
-  "key": "def971f6324b3409",
-  "title": "Retell uses OpenAI models to help power 100M monthly calls",
-  "url": "https://openai.com/index/retell-ai",
-  "source": "openai",
-  "axes": [
-   "model"
-  ],
-  "score": 6.64,
-  "date": "2026-10-28"
- },
- {
-  "key": "2081ae84e23dada5",
-  "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
-  "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
-  "source": "openai",
-  "axes": [
-   "model",
-   "people"
-  ],
-  "score": 6.62,
-  "date": "2026-10-28"
- },
- {
-  "key": "8934ebfbad987f5e",
-  "title": "The Trinity:Capability-Driven Recursive Self-Improvement for Multimodal Agents",
-  "url": "https://huggingface.co/papers/2610.36077",
-  "source": "hf-papers",
-  "axes": [
-   "model"
-  ],
-  "score": 6.52,
-  "date": "2026-10-28"
- },
- {
-  "key": "7d517de8715e99c6",
-  "title": "Turns out Krea 2 can do Layout control",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xhf5s5/turns_out_krea_2_can_do_layout_control/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image"
-  ],
-  "score": 6.26,
+  "score": 6.23,
   "date": "2026-10-28"
  },
  {
@@ -196,29 +220,18 @@
    "infra",
    "model"
   ],
-  "score": 6.26,
+  "score": 6.19,
   "date": "2026-10-28"
  },
  {
-  "key": "b19b25228c2b5d75",
-  "title": "Build specialized multimodal models with LFM3",
-  "url": "https://huggingface.co/blog/LiquidAI/lfm3",
-  "source": "huggingface-blog",
-  "axes": [
-   "model"
-  ],
-  "score": 6.2,
-  "date": "2026-10-28"
- },
- {
-  "key": "5742ca6792557ddd",
-  "title": "Krea 2 is amazing",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xhctgq/krea_2_is_amazing/",
+  "key": "7d517de8715e99c6",
+  "title": "Turns out Krea 2 can do Layout control",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xhf5s5/turns_out_krea_2_can_do_layout_control/",
   "source": "reddit-stablediffusion",
   "axes": [
    "image"
   ],
-  "score": 6.17,
+  "score": 6.07,
   "date": "2026-10-28"
  }
 ]
