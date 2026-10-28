@@ -1,0 +1,224 @@
+[
+ {
+  "key": "e42fd04977d52fe1",
+  "title": "PDRVLA: A Vision-Language-Action Model with Physical Dynamics Representations",
+  "url": "https://huggingface.co/papers/2610.37381",
+  "source": "hf-papers",
+  "axes": [
+   "infra",
+   "model",
+   "video"
+  ],
+  "score": 8.33,
+  "date": "2026-10-28"
+ },
+ {
+  "key": "0dea0088908d2a11",
+  "title": "Introducing GPT-6.1 Terra",
+  "url": "https://openai.com/index/introducing-gpt-6-1-terra",
+  "source": "openai",
+  "axes": [
+   "model"
+  ],
+  "score": 8.15,
+  "date": "2026-10-28"
+ },
+ {
+  "key": "950ce16ff7a9b05d",
+  "title": "Introducing Kimi K3.1 Pro",
+  "url": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
+  "source": "simonwillison",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 7.87,
+  "date": "2026-10-28"
+ },
+ {
+  "key": "bd0aa0a5fc2de576",
+  "title": "Hy-Nomas: Towards Free-form Interactive World Generation",
+  "url": "https://huggingface.co/papers/2610.36729",
+  "source": "hf-papers",
+  "axes": [
+   "video"
+  ],
+  "score": 7.46,
+  "date": "2026-10-28"
+ },
+ {
+  "key": "841a0b18547bae93",
+  "title": "Character Reference for Anima is released!",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xhfyso/character_reference_for_anima_is_released/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image",
+   "threed"
+  ],
+  "score": 7.12,
+  "date": "2026-10-28"
+ },
+ {
+  "key": "4821ca620f18720b",
+  "title": "Introducing H3 Relay Hires node: 0.5 → 2 MP anime upscaler, ~4x faster than native, with a full 20-step pass 1 (no turbo LoRA needed for the take)",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xhecjk/introducing_h3_relay_hires_node_05_2_mp_anime/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image",
+   "model",
+   "people"
+  ],
+  "score": 6.94,
+  "date": "2026-10-28"
+ },
+ {
+  "key": "58d7e6312c63a507",
+  "title": "Game Boy Color on My Conference Badge",
+  "url": "https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge/",
+  "source": "simonwillison",
+  "axes": [
+   "game"
+  ],
+  "score": 6.92,
+  "date": "2026-10-28"
+ },
+ {
+  "key": "a2fc9384c66d9312",
+  "title": "Anthropic trained Claude on illegally obtained Stanford professors' books",
+  "url": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 6.5,
+  "date": "2026-10-28"
+ },
+ {
+  "key": "88fe1c91d769e022",
+  "title": "AI promised less work. I've never worked more",
+  "url": "https://oioannou.com/blog/ai-promised-less-work/",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 6.38,
+  "date": "2026-10-28"
+ },
+ {
+  "key": "b6a2818b6a7bccf2",
+  "title": "How bosses and enemies decide what to do in video games",
+  "url": "https://unity.com/blog/how-enemy-ai-works-video-games",
+  "source": "unity",
+  "axes": [
+   "game",
+   "video"
+  ],
+  "score": 6.32,
+  "date": "2026-10-28"
+ },
+ {
+  "key": "99363897a1c27f79",
+  "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+  "url": "https://openai.com/index/oracle-apps-in-chatgpt",
+  "source": "openai",
+  "axes": [
+   "people"
+  ],
+  "score": 5.35,
+  "date": "2026-10-28"
+ },
+ {
+  "key": "1b15a9014b3aef54",
+  "title": "Recreating Marvel's Cyclops As Stylized Hand-Painted 3D Character",
+  "url": "https://80.lv/articles/recreating-marvel-s-cyclops-as-stylized-hand-painted-3d-character/",
+  "source": "80lv",
+  "axes": [
+   "threed"
+  ],
+  "score": 6.69,
+  "date": "2026-10-28"
+ },
+ {
+  "key": "def971f6324b3409",
+  "title": "Retell uses OpenAI models to help power 100M monthly calls",
+  "url": "https://openai.com/index/retell-ai",
+  "source": "openai",
+  "axes": [
+   "model"
+  ],
+  "score": 6.64,
+  "date": "2026-10-28"
+ },
+ {
+  "key": "2081ae84e23dada5",
+  "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+  "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 6.62,
+  "date": "2026-10-28"
+ },
+ {
+  "key": "8934ebfbad987f5e",
+  "title": "The Trinity:Capability-Driven Recursive Self-Improvement for Multimodal Agents",
+  "url": "https://huggingface.co/papers/2610.36077",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 6.52,
+  "date": "2026-10-28"
+ },
+ {
+  "key": "7d517de8715e99c6",
+  "title": "Turns out Krea 2 can do Layout control",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xhf5s5/turns_out_krea_2_can_do_layout_control/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.26,
+  "date": "2026-10-28"
+ },
+ {
+  "key": "9de29eb435b3ff14",
+  "title": "GPT-6.1 Terra",
+  "url": "https://simonwillison.net/2026/Oct/26/gpt-61-terra/",
+  "source": "simonwillison",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 6.26,
+  "date": "2026-10-28"
+ },
+ {
+  "key": "b19b25228c2b5d75",
+  "title": "Build specialized multimodal models with LFM3",
+  "url": "https://huggingface.co/blog/LiquidAI/lfm3",
+  "source": "huggingface-blog",
+  "axes": [
+   "model"
+  ],
+  "score": 6.2,
+  "date": "2026-10-28"
+ },
+ {
+  "key": "5742ca6792557ddd",
+  "title": "Krea 2 is amazing",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xhctgq/krea_2_is_amazing/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.17,
+  "date": "2026-10-28"
+ }
+]
