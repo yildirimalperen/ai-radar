@@ -1,5 +1,16 @@
 [
  {
+  "key": "c038ba76d470347b",
+  "title": "Claude Code regularly sends each background agent’s transcript to its model",
+  "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
+  "source": "hackernews",
+  "axes": [
+   "model"
+  ],
+  "score": 8.95,
+  "date": "2026-10-29"
+ },
+ {
   "key": "8934ebfbad987f5e",
   "title": "The Trinity:Capability-Driven Recursive Self-Improvement for Multimodal Agents",
   "url": "https://huggingface.co/papers/2610.36077",
@@ -7,7 +18,7 @@
   "axes": [
    "model"
   ],
-  "score": 8.56,
+  "score": 8.54,
   "date": "2026-10-29"
  },
  {
@@ -18,7 +29,7 @@
   "axes": [
    "image"
   ],
-  "score": 7.84,
+  "score": 7.76,
   "date": "2026-10-29"
  },
  {
@@ -31,31 +42,20 @@
    "model",
    "people"
   ],
-  "score": 7.47,
+  "score": 7.35,
   "date": "2026-10-29"
  },
  {
-  "key": "63ad26e5d1158fa3",
-  "title": "Updated Minimax Music Video Workflow",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xiajrd/updated_minimax_music_video_workflow/",
+  "key": "e857739d034df4b7",
+  "title": "Splat Edit Engine opensource toolkit for Extracting / Removing / Replacing elements in Gaussian Splat Scenes.",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xidz0n/splat_edit_engine_opensource_toolkit_for/",
   "source": "reddit-stablediffusion",
   "axes": [
    "image",
-   "video"
-  ],
-  "score": 7.07,
-  "date": "2026-10-29"
- },
- {
-  "key": "da078921ee1babb6",
-  "title": "Moss SFT character sheet",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xiag6d/moss_sft_character_sheet/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image",
+   "infra",
    "threed"
   ],
-  "score": 7.07,
+  "score": 7.01,
   "date": "2026-10-29"
  },
  {
@@ -67,7 +67,18 @@
    "game",
    "people"
   ],
-  "score": 6.89,
+  "score": 6.75,
+  "date": "2026-10-29"
+ },
+ {
+  "key": "5c575e0f30eb8799",
+  "title": "Dev Of Viral Needle In A Haystack Game Finds Creative Way To Mock AI Clones",
+  "url": "https://80.lv/articles/dev-of-viral-needle-in-a-haystack-game-finds-creative-way-to-mock-ai-clones/",
+  "source": "80lv",
+  "axes": [
+   "game"
+  ],
+  "score": 6.74,
   "date": "2026-10-29"
  },
  {
@@ -78,31 +89,29 @@
   "axes": [
    "game"
   ],
-  "score": 6.77,
+  "score": 6.65,
   "date": "2026-10-29"
  },
  {
-  "key": "2081ae84e23dada5",
-  "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
-  "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
-  "source": "openai",
+  "key": "ab056379f0d3e844",
+  "title": "Genie 4: A new generation of world simulation",
+  "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+  "source": "deepmind",
   "axes": [
-   "model",
-   "people"
+   "video"
   ],
-  "score": 6.44,
+  "score": 6.61,
   "date": "2026-10-29"
  },
  {
-  "key": "9094fcd07715135d",
-  "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
-  "url": "https://openai.com/index/greptile-code-review-codex-astra",
-  "source": "openai",
+  "key": "4b7be4e7fab9fcb6",
+  "title": "Gemini 4 Carbon: Our next frontier model",
+  "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+  "source": "deepmind",
   "axes": [
-   "model",
-   "people"
+   "model"
   ],
-  "score": 6.26,
+  "score": 6.56,
   "date": "2026-10-29"
  },
  {
@@ -114,20 +123,18 @@
    "image",
    "video"
   ],
-  "score": 5.73,
+  "score": 5.67,
   "date": "2026-10-29"
  },
  {
-  "key": "7de2ae0df1897108",
-  "title": "This New Shopkeeping Sim Is Like Cyberpunk 2077 Meets Papers, Please",
-  "url": "https://80.lv/articles/this-new-shopkeeping-sim-is-like-cyberpunk-2077-meets-papers-please/",
-  "source": "80lv",
+  "key": "a8e70ca8068941aa",
+  "title": "Just a reminder that the gpu unlock stuff in the news right now, is pointless for most of you",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xiey2s/just_a_reminder_that_the_gpu_unlock_stuff_in_the/",
+  "source": "reddit-stablediffusion",
   "axes": [
-   "game",
-   "image",
-   "threed"
+   "infra"
   ],
-  "score": 4.78,
+  "score": 4.68,
   "date": "2026-10-29"
  },
  {
@@ -138,7 +145,7 @@
   "axes": [
    "model"
   ],
-  "score": 7.84,
+  "score": 7.74,
   "date": "2026-10-29"
  },
  {
@@ -155,74 +162,74 @@
   "date": "2026-10-29"
  },
  {
-  "key": "f1c9b6fd4bc40b75",
-  "title": "Major update to ComfyUI-MOSS-QwenVL-Layout: A prompt mode",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xi7wyn/major_update_to_comfyuimossqwenvllayout_a_prompt/",
+  "key": "63ad26e5d1158fa3",
+  "title": "Updated Minimax Music Video Workflow",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xiajrd/updated_minimax_music_video_workflow/",
   "source": "reddit-stablediffusion",
   "axes": [
-   "image"
+   "image",
+   "video"
   ],
-  "score": 6.16,
+  "score": 6.88,
   "date": "2026-10-29"
  },
  {
-  "key": "ceb4b1022cd52e59",
-  "title": "I (i.e. Gemini 4 Argon) made a fix for BBox workflow for MOSS for any supported aspect ratio and resolution",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xi3apu/i_ie_gemini_4_argon_made_a_fix_for_bbox_workflow/",
+  "key": "da078921ee1babb6",
+  "title": "Moss SFT character sheet",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xiag6d/moss_sft_character_sheet/",
   "source": "reddit-stablediffusion",
   "axes": [
-   "image"
+   "image",
+   "threed"
   ],
-  "score": 6.03,
+  "score": 6.88,
   "date": "2026-10-29"
  },
  {
-  "key": "9de29eb435b3ff14",
-  "title": "GPT-6.1 Terra",
-  "url": "https://simonwillison.net/2026/Oct/26/gpt-61-terra/",
-  "source": "simonwillison",
+  "key": "2081ae84e23dada5",
+  "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+  "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+  "source": "openai",
   "axes": [
-   "infra",
-   "model"
-  ],
-  "score": 6.0,
-  "date": "2026-10-29"
- },
- {
-  "key": "faadcc3253776778",
-  "title": "Kentucky man becomes the first humanist granted religious exemption from AI",
-  "url": "https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai/",
-  "source": "hackernews",
-  "axes": [
-   "infra",
    "model",
    "people"
   ],
-  "score": 5.84,
+  "score": 6.42,
   "date": "2026-10-29"
  },
  {
-  "key": "2bc8c80f4a9ddb4b",
-  "title": "AssemblyAI Ships AssemblyAI-TTS-1: A $15 per 1M Character Text-to-Speech API for Voice Agents",
-  "url": "https://www.marktechpost.com/2026/10/29/assemblyai-tts-1-text-to-speech-api-voice-agents/",
-  "source": "marktechpost",
+  "key": "03674ae3f4585810",
+  "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+  "url": "https://huggingface.co/blog/anydecisionmodel",
+  "source": "huggingface-blog",
   "axes": [
-   "infra",
-   "threed"
+   "model"
   ],
-  "score": 5.64,
+  "score": 6.25,
   "date": "2026-10-29"
  },
  {
-  "key": "9fcc1909f504bf18",
-  "title": "NVIDIA Agent Toolkit Expands, Grounding Enterprise Agents in Company Data",
-  "url": "https://blogs.nvidia.com/blog/enterprise-platforms-agent-toolkit/",
-  "source": "nvidia-genai",
+  "key": "9094fcd07715135d",
+  "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+  "url": "https://openai.com/index/greptile-code-review-codex-astra",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 6.23,
+  "date": "2026-10-29"
+ },
+ {
+  "key": "1c2cac5872379b8a",
+  "title": "Qwenputer: a fully functioning, deterministic RISC-V CPU inside Qwen3.5",
+  "url": "https://divagr.com/blog/qwenputer",
+  "source": "lobsters",
   "axes": [
    "infra",
    "model"
   ],
-  "score": 5.41,
+  "score": 6.04,
   "date": "2026-10-29"
  }
 ]
