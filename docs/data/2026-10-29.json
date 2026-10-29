@@ -1,0 +1,228 @@
+[
+ {
+  "key": "8934ebfbad987f5e",
+  "title": "The Trinity:Capability-Driven Recursive Self-Improvement for Multimodal Agents",
+  "url": "https://huggingface.co/papers/2610.36077",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 8.56,
+  "date": "2026-10-29"
+ },
+ {
+  "key": "23719140a72ceb0d",
+  "title": "DTCA: Denoising Token Credit Assignment for Reinforcement Learning in Diffusion Language Models",
+  "url": "https://huggingface.co/papers/2610.35201",
+  "source": "hf-papers",
+  "axes": [
+   "image"
+  ],
+  "score": 7.84,
+  "date": "2026-10-29"
+ },
+ {
+  "key": "4d51abf346ce5c67",
+  "title": "Gemini 4 Carbon",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 7.47,
+  "date": "2026-10-29"
+ },
+ {
+  "key": "63ad26e5d1158fa3",
+  "title": "Updated Minimax Music Video Workflow",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xiajrd/updated_minimax_music_video_workflow/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image",
+   "video"
+  ],
+  "score": 7.07,
+  "date": "2026-10-29"
+ },
+ {
+  "key": "da078921ee1babb6",
+  "title": "Moss SFT character sheet",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xiag6d/moss_sft_character_sheet/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image",
+   "threed"
+  ],
+  "score": 7.07,
+  "date": "2026-10-29"
+ },
+ {
+  "key": "3010235f21d1fc59",
+  "title": "BioWare Co-Founder Greg Zeschuk Says Studio Was Killed by Executives Who Have Never \"Made a Game”",
+  "url": "https://80.lv/articles/bioware-co-founder-greg-zeschuk-says-studio-was-killed-by-executives-who-have-never-made-a-game/",
+  "source": "80lv",
+  "axes": [
+   "game",
+   "people"
+  ],
+  "score": 6.89,
+  "date": "2026-10-29"
+ },
+ {
+  "key": "b39a6f1d37fc9780",
+  "title": "The October inflection point for vibe game development",
+  "url": "https://simonwillison.net/2026/Oct/28/vibe-game-development/",
+  "source": "simonwillison",
+  "axes": [
+   "game"
+  ],
+  "score": 6.77,
+  "date": "2026-10-29"
+ },
+ {
+  "key": "2081ae84e23dada5",
+  "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+  "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 6.44,
+  "date": "2026-10-29"
+ },
+ {
+  "key": "9094fcd07715135d",
+  "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+  "url": "https://openai.com/index/greptile-code-review-codex-astra",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 6.26,
+  "date": "2026-10-29"
+ },
+ {
+  "key": "e84ed5ee6976f2c2",
+  "title": "Repurposing Video Diffusion Transformers for Cross-View Temporal Object Correspondence",
+  "url": "https://arxiv.org/abs/2610.37633v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "image",
+   "video"
+  ],
+  "score": 5.73,
+  "date": "2026-10-29"
+ },
+ {
+  "key": "7de2ae0df1897108",
+  "title": "This New Shopkeeping Sim Is Like Cyberpunk 2077 Meets Papers, Please",
+  "url": "https://80.lv/articles/this-new-shopkeeping-sim-is-like-cyberpunk-2077-meets-papers-please/",
+  "source": "80lv",
+  "axes": [
+   "game",
+   "image",
+   "threed"
+  ],
+  "score": 4.78,
+  "date": "2026-10-29"
+ },
+ {
+  "key": "f63b8a914fd09515",
+  "title": "Multiscale Policy Optimization for Long-Horizon LLM Agents",
+  "url": "https://huggingface.co/papers/2610.35013",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 7.84,
+  "date": "2026-10-29"
+ },
+ {
+  "key": "96eca3f239d71533",
+  "title": "Efficient Streaming Audio-Visual Target Speaker Extraction for Real-World Acoustic Scenes",
+  "url": "https://huggingface.co/papers/2610.32749",
+  "source": "hf-papers",
+  "axes": [
+   "image",
+   "infra",
+   "model"
+  ],
+  "score": 7.55,
+  "date": "2026-10-29"
+ },
+ {
+  "key": "f1c9b6fd4bc40b75",
+  "title": "Major update to ComfyUI-MOSS-QwenVL-Layout: A prompt mode",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xi7wyn/major_update_to_comfyuimossqwenvllayout_a_prompt/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.16,
+  "date": "2026-10-29"
+ },
+ {
+  "key": "ceb4b1022cd52e59",
+  "title": "I (i.e. Gemini 4 Argon) made a fix for BBox workflow for MOSS for any supported aspect ratio and resolution",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xi3apu/i_ie_gemini_4_argon_made_a_fix_for_bbox_workflow/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.03,
+  "date": "2026-10-29"
+ },
+ {
+  "key": "9de29eb435b3ff14",
+  "title": "GPT-6.1 Terra",
+  "url": "https://simonwillison.net/2026/Oct/26/gpt-61-terra/",
+  "source": "simonwillison",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 6.0,
+  "date": "2026-10-29"
+ },
+ {
+  "key": "faadcc3253776778",
+  "title": "Kentucky man becomes the first humanist granted religious exemption from AI",
+  "url": "https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai/",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 5.84,
+  "date": "2026-10-29"
+ },
+ {
+  "key": "2bc8c80f4a9ddb4b",
+  "title": "AssemblyAI Ships AssemblyAI-TTS-1: A $15 per 1M Character Text-to-Speech API for Voice Agents",
+  "url": "https://www.marktechpost.com/2026/10/29/assemblyai-tts-1-text-to-speech-api-voice-agents/",
+  "source": "marktechpost",
+  "axes": [
+   "infra",
+   "threed"
+  ],
+  "score": 5.64,
+  "date": "2026-10-29"
+ },
+ {
+  "key": "9fcc1909f504bf18",
+  "title": "NVIDIA Agent Toolkit Expands, Grounding Enterprise Agents in Company Data",
+  "url": "https://blogs.nvidia.com/blog/enterprise-platforms-agent-toolkit/",
+  "source": "nvidia-genai",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 5.41,
+  "date": "2026-10-29"
+ }
+]
