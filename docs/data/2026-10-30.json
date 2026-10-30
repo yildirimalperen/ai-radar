@@ -7,31 +7,67 @@
   "axes": [
    "image"
   ],
-  "score": 9.61,
+  "score": 9.99,
   "date": "2026-10-30"
  },
  {
-  "key": "e33e98a3f3239ebb",
-  "title": "We're releasing the weights of Mistral Large 4",
-  "url": "https://mistral.ai/news/mistral-large-4-oss/",
+  "key": "b51603ccfa865a06",
+  "title": "Free MOSS-Image Character & Style Catalog v0.1.2 — 34,251 samples, reusable prompts, and ComfyUI workflows",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xjcmqe/free_mossimage_character_style_catalog_v012_34251/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image",
+   "threed"
+  ],
+  "score": 7.94,
+  "date": "2026-10-30"
+ },
+ {
+  "key": "cb08e417986333b5",
+  "title": "Backdoors in official Claude Code extensions",
+  "url": "https://cyberplace.social/@GossiTheDog/117528831681803563",
   "source": "hackernews",
   "axes": [
    "infra",
    "model",
    "people"
   ],
-  "score": 7.47,
+  "score": 7.8,
   "date": "2026-10-30"
  },
  {
-  "key": "9dfc4c7399a2c21f",
-  "title": "LLM Voice",
-  "url": "https://martinfowler.com/bliki/LLM-Voice.html",
+  "key": "6ed71675d09bb627",
+  "title": "I created the First diffusion AI model for the Game Boy.",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xj9w8d/i_created_the_first_diffusion_ai_model_for_the/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "game",
+   "image",
+   "model"
+  ],
+  "score": 7.09,
+  "date": "2026-10-30"
+ },
+ {
+  "key": "6ca8828b1f3f8172",
+  "title": "We ran AI agent swarms in Minecraft and Mindustry",
+  "url": "https://labs.ycombinator.com/projects/games/index.html",
   "source": "hackernews",
   "axes": [
    "model"
   ],
-  "score": 7.23,
+  "score": 6.79,
+  "date": "2026-10-30"
+ },
+ {
+  "key": "c42744112c99d7e5",
+  "title": "A-RSI: Adaptive Task Refresh for Zero-Data Multimodal Self-Improvement",
+  "url": "https://huggingface.co/papers/2610.38568",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 6.78,
   "date": "2026-10-30"
  },
  {
@@ -42,30 +78,7 @@
   "axes": [
    "game"
   ],
-  "score": 6.85,
-  "date": "2026-10-30"
- },
- {
-  "key": "059bb1f5c8a4589d",
-  "title": "KreaMossMix Workflow: One model composes, the other finishes it",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xj1xxe/kreamossmix_workflow_one_model_composes_the_other/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image",
-   "model"
-  ],
-  "score": 6.82,
-  "date": "2026-10-30"
- },
- {
-  "key": "d05362844cd8665a",
-  "title": "Petunia - Harry Potter Universe, a Minimax H3 Short Film",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xj2ibe/petunia_harry_potter_universe_a_minimax_h3_short/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image"
-  ],
-  "score": 6.71,
+  "score": 6.72,
   "date": "2026-10-30"
  },
  {
@@ -76,74 +89,7 @@
   "axes": [
    "model"
   ],
-  "score": 6.69,
-  "date": "2026-10-30"
- },
- {
-  "key": "3111fbee3a130ff7",
-  "title": "Look Only When Needed: Certificate-Guided Visual Routing for Efficient Diffusion VLMs",
-  "url": "https://huggingface.co/papers/2610.36671",
-  "source": "hf-papers",
-  "axes": [
-   "image"
-  ],
-  "score": 6.65,
-  "date": "2026-10-30"
- },
- {
-  "key": "6bf295b0674158fa",
-  "title": "How we detect frontier model misalignment",
-  "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
-  "source": "openai",
-  "axes": [
-   "model"
-  ],
-  "score": 6.49,
-  "date": "2026-10-30"
- },
- {
-  "key": "bf85db1092fd15d6",
-  "title": "API credits benefit for eligible ChatGPT subscriptions",
-  "url": "https://simonwillison.net/2026/Oct/29/api-credits/",
-  "source": "simonwillison",
-  "axes": [
-   "infra"
-  ],
-  "score": 5.49,
-  "date": "2026-10-30"
- },
- {
-  "key": "e5ff625fa22ae674",
-  "title": "L3G-World: Real-Time Infinite World Generation with Latent 3D Gaussian Memory",
-  "url": "https://huggingface.co/papers/2610.40614",
-  "source": "hf-papers",
-  "axes": [
-   "threed"
-  ],
-  "score": 6.53,
-  "date": "2026-10-30"
- },
- {
-  "key": "2081ae84e23dada5",
-  "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
-  "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
-  "source": "openai",
-  "axes": [
-   "model",
-   "people"
-  ],
-  "score": 6.35,
-  "date": "2026-10-30"
- },
- {
-  "key": "1e10e4c8c350726a",
-  "title": "How I feel about the current open source image models",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xj7sk5/how_i_feel_about_the_current_open_source_image/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image"
-  ],
-  "score": 6.31,
+  "score": 6.57,
   "date": "2026-10-30"
  },
  {
@@ -155,41 +101,7 @@
    "image",
    "video"
   ],
-  "score": 6.2,
-  "date": "2026-10-30"
- },
- {
-  "key": "9094fcd07715135d",
-  "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
-  "url": "https://openai.com/index/greptile-code-review-codex-astra",
-  "source": "openai",
-  "axes": [
-   "model",
-   "people"
-  ],
-  "score": 6.15,
-  "date": "2026-10-30"
- },
- {
-  "key": "960442c027f99eb0",
-  "title": "Comfiest - Free Advance Workflows & Skills For ComfyUI",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xj2y9e/comfiest_free_advance_workflows_skills_for_comfyui/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image"
-  ],
-  "score": 6.14,
-  "date": "2026-10-30"
- },
- {
-  "key": "a2b6a8db6b856ed9",
-  "title": "Your Benchmark Is an Empirical Measure Over Difficulty",
-  "url": "https://huggingface.co/papers/2610.29927",
-  "source": "hf-papers",
-  "axes": [
-   "model"
-  ],
-  "score": 6.04,
+  "score": 6.07,
   "date": "2026-10-30"
  },
  {
@@ -202,6 +114,120 @@
    "video"
   ],
   "score": 5.85,
+  "date": "2026-10-30"
+ },
+ {
+  "key": "3ec730e4a9d4b343",
+  "title": "Gaming storefronts are facing a Slop Grenade problem | Opinion",
+  "url": "https://www.gamesindustry.biz/gaming-storefronts-are-facing-a-slop-grenade-problem-opinion",
+  "source": "gamesindustry",
+  "axes": [
+   "game"
+  ],
+  "score": 5.85,
+  "date": "2026-10-30"
+ },
+ {
+  "key": "bf85db1092fd15d6",
+  "title": "API credits benefit for eligible ChatGPT subscriptions",
+  "url": "https://simonwillison.net/2026/Oct/29/api-credits/",
+  "source": "simonwillison",
+  "axes": [
+   "infra"
+  ],
+  "score": 5.34,
+  "date": "2026-10-30"
+ },
+ {
+  "key": "f2683dbc51b0d090",
+  "title": "Rapid-H3: Super fast H3 video + audio in about 2 minutes on one DGX Spark",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xj824f/rapidh3_super_fast_h3_video_audio_in_about_2/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image",
+   "video"
+  ],
+  "score": 6.95,
+  "date": "2026-10-30"
+ },
+ {
+  "key": "9dfc4c7399a2c21f",
+  "title": "LLM Voice",
+  "url": "https://martinfowler.com/bliki/LLM-Voice.html",
+  "source": "hackernews",
+  "axes": [
+   "model"
+  ],
+  "score": 6.76,
+  "date": "2026-10-30"
+ },
+ {
+  "key": "e33e98a3f3239ebb",
+  "title": "We're releasing the weights of Mistral Large 4",
+  "url": "https://mistral.ai/news/mistral-large-4-oss/",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 6.75,
+  "date": "2026-10-30"
+ },
+ {
+  "key": "3111fbee3a130ff7",
+  "title": "Look Only When Needed: Certificate-Guided Visual Routing for Efficient Diffusion VLMs",
+  "url": "https://huggingface.co/papers/2610.36671",
+  "source": "hf-papers",
+  "axes": [
+   "image"
+  ],
+  "score": 6.74,
+  "date": "2026-10-30"
+ },
+ {
+  "key": "e5ff625fa22ae674",
+  "title": "L3G-World: Real-Time Infinite World Generation with Latent 3D Gaussian Memory",
+  "url": "https://huggingface.co/papers/2610.40614",
+  "source": "hf-papers",
+  "axes": [
+   "threed"
+  ],
+  "score": 6.54,
+  "date": "2026-10-30"
+ },
+ {
+  "key": "6bf295b0674158fa",
+  "title": "How we detect frontier model misalignment",
+  "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+  "source": "openai",
+  "axes": [
+   "model"
+  ],
+  "score": 6.4,
+  "date": "2026-10-30"
+ },
+ {
+  "key": "2081ae84e23dada5",
+  "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+  "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 6.34,
+  "date": "2026-10-30"
+ },
+ {
+  "key": "1e10e4c8c350726a",
+  "title": "How I feel about the current open source image models",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xj7sk5/how_i_feel_about_the_current_open_source_image/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.12,
   "date": "2026-10-30"
  }
 ]
