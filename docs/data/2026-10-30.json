@@ -1,0 +1,207 @@
+[
+ {
+  "key": "22a6374c94a62150",
+  "title": "Intrinsic Distribution Matching",
+  "url": "https://huggingface.co/papers/2610.39633",
+  "source": "hf-papers",
+  "axes": [
+   "image"
+  ],
+  "score": 9.61,
+  "date": "2026-10-30"
+ },
+ {
+  "key": "e33e98a3f3239ebb",
+  "title": "We're releasing the weights of Mistral Large 4",
+  "url": "https://mistral.ai/news/mistral-large-4-oss/",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 7.47,
+  "date": "2026-10-30"
+ },
+ {
+  "key": "9dfc4c7399a2c21f",
+  "title": "LLM Voice",
+  "url": "https://martinfowler.com/bliki/LLM-Voice.html",
+  "source": "hackernews",
+  "axes": [
+   "model"
+  ],
+  "score": 7.23,
+  "date": "2026-10-30"
+ },
+ {
+  "key": "1e1dc237e3ac8ce6",
+  "title": "Building a multiplayer game world with autonomous Fable-class models",
+  "url": "https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/",
+  "source": "simonwillison",
+  "axes": [
+   "game"
+  ],
+  "score": 6.85,
+  "date": "2026-10-30"
+ },
+ {
+  "key": "059bb1f5c8a4589d",
+  "title": "KreaMossMix Workflow: One model composes, the other finishes it",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xj1xxe/kreamossmix_workflow_one_model_composes_the_other/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image",
+   "model"
+  ],
+  "score": 6.82,
+  "date": "2026-10-30"
+ },
+ {
+  "key": "d05362844cd8665a",
+  "title": "Petunia - Harry Potter Universe, a Minimax H3 Short Film",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xj2ibe/petunia_harry_potter_universe_a_minimax_h3_short/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.71,
+  "date": "2026-10-30"
+ },
+ {
+  "key": "95eea5058e3a73bf",
+  "title": "An updated Model Spec for more capable and beneficial AI",
+  "url": "https://openai.com/index/updated-model-spec",
+  "source": "openai",
+  "axes": [
+   "model"
+  ],
+  "score": 6.69,
+  "date": "2026-10-30"
+ },
+ {
+  "key": "3111fbee3a130ff7",
+  "title": "Look Only When Needed: Certificate-Guided Visual Routing for Efficient Diffusion VLMs",
+  "url": "https://huggingface.co/papers/2610.36671",
+  "source": "hf-papers",
+  "axes": [
+   "image"
+  ],
+  "score": 6.65,
+  "date": "2026-10-30"
+ },
+ {
+  "key": "6bf295b0674158fa",
+  "title": "How we detect frontier model misalignment",
+  "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+  "source": "openai",
+  "axes": [
+   "model"
+  ],
+  "score": 6.49,
+  "date": "2026-10-30"
+ },
+ {
+  "key": "bf85db1092fd15d6",
+  "title": "API credits benefit for eligible ChatGPT subscriptions",
+  "url": "https://simonwillison.net/2026/Oct/29/api-credits/",
+  "source": "simonwillison",
+  "axes": [
+   "infra"
+  ],
+  "score": 5.49,
+  "date": "2026-10-30"
+ },
+ {
+  "key": "e5ff625fa22ae674",
+  "title": "L3G-World: Real-Time Infinite World Generation with Latent 3D Gaussian Memory",
+  "url": "https://huggingface.co/papers/2610.40614",
+  "source": "hf-papers",
+  "axes": [
+   "threed"
+  ],
+  "score": 6.53,
+  "date": "2026-10-30"
+ },
+ {
+  "key": "2081ae84e23dada5",
+  "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+  "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 6.35,
+  "date": "2026-10-30"
+ },
+ {
+  "key": "1e10e4c8c350726a",
+  "title": "How I feel about the current open source image models",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xj7sk5/how_i_feel_about_the_current_open_source_image/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.31,
+  "date": "2026-10-30"
+ },
+ {
+  "key": "1bb9fd64c5dbd55c",
+  "title": "SonoWorld4D: From One Video to a 4D Audio-Visual Scene via Diffusion Synchronization",
+  "url": "https://arxiv.org/abs/2610.40640v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "image",
+   "video"
+  ],
+  "score": 6.2,
+  "date": "2026-10-30"
+ },
+ {
+  "key": "9094fcd07715135d",
+  "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+  "url": "https://openai.com/index/greptile-code-review-codex-astra",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 6.15,
+  "date": "2026-10-30"
+ },
+ {
+  "key": "960442c027f99eb0",
+  "title": "Comfiest - Free Advance Workflows & Skills For ComfyUI",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xj2y9e/comfiest_free_advance_workflows_skills_for_comfyui/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.14,
+  "date": "2026-10-30"
+ },
+ {
+  "key": "a2b6a8db6b856ed9",
+  "title": "Your Benchmark Is an Empirical Measure Over Difficulty",
+  "url": "https://huggingface.co/papers/2610.29927",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 6.04,
+  "date": "2026-10-30"
+ },
+ {
+  "key": "9b20798f7a0f3907",
+  "title": "NVIDIA Cosmos Opens New Tools to Train, Evaluate and Deploy World Models",
+  "url": "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models/",
+  "source": "nvidia-genai",
+  "axes": [
+   "infra",
+   "video"
+  ],
+  "score": 5.85,
+  "date": "2026-10-30"
+ }
+]
