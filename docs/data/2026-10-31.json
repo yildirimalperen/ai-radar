@@ -1,0 +1,243 @@
+[
+ {
+  "key": "22a6374c94a62150",
+  "title": "Intrinsic Distribution Matching",
+  "url": "https://huggingface.co/papers/2610.39633",
+  "source": "hf-papers",
+  "axes": [
+   "image"
+  ],
+  "score": 8.9,
+  "date": "2026-10-31"
+ },
+ {
+  "key": "37a4dbec9ce92a9b",
+  "title": "I made tiny sliders for MiniMax H3 that control motion, emotion, and more without training a LoRA [ComfyUI]",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xjvasi/i_made_tiny_sliders_for_minimax_h3_that_control/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image",
+   "model",
+   "video"
+  ],
+  "score": 7.49,
+  "date": "2026-10-31"
+ },
+ {
+  "key": "52aeef3b98805391",
+  "title": "AI isn't replacing SREs, it's deskilling them",
+  "url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 7.36,
+  "date": "2026-10-31"
+ },
+ {
+  "key": "6c508c0d4b63d16b",
+  "title": "I Unlocked BF16 on an RTX 4090 and Compared It to an RTX 5090 (on Windows 11)",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xk3n70/i_unlocked_bf16_on_an_rtx_4090_and_compared_it_to/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image",
+   "video"
+  ],
+  "score": 7.19,
+  "date": "2026-10-31"
+ },
+ {
+  "key": "16cedcacfadf517f",
+  "title": "Anthropic may not secure investment-grade rating after IPO, Blackstone says",
+  "url": "https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f",
+  "source": "hackernews",
+  "axes": [
+   "people"
+  ],
+  "score": 6.75,
+  "date": "2026-10-31"
+ },
+ {
+  "key": "7a5a1ce3f1cd6474",
+  "title": "Making it easier for websites to express AI training preferences",
+  "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+  "source": "openai",
+  "axes": [
+   "model"
+  ],
+  "score": 6.51,
+  "date": "2026-10-31"
+ },
+ {
+  "key": "35cc3200432c981e",
+  "title": "Thin, Light and Built for Everything: NVIDIA RTX Spark Windows Laptops Gain New Models, Agent Tools and Games",
+  "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/",
+  "source": "nvidia-genai",
+  "axes": [
+   "game",
+   "model"
+  ],
+  "score": 6.39,
+  "date": "2026-10-31"
+ },
+ {
+  "key": "a3a535252bcfd256",
+  "title": "Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generative Transformers",
+  "url": "https://huggingface.co/papers/2610.40647",
+  "source": "hf-papers",
+  "axes": [
+   "image",
+   "model",
+   "threed",
+   "video"
+  ],
+  "score": 6.03,
+  "date": "2026-10-31"
+ },
+ {
+  "key": "bcc939af1d6113e6",
+  "title": "Dev who copied a popular game on Steam complains another copycat \"stole our code,\" and now it's apparently been kicked out by Valve",
+  "url": "https://www.reddit.com/r/gamedev/comments/1xk1nmm/dev_who_copied_a_popular_game_on_steam_complains/",
+  "source": "reddit-gamedev",
+  "axes": [
+   "game"
+  ],
+  "score": 5.77,
+  "date": "2026-10-31"
+ },
+ {
+  "key": "8bfe98d1d0f63456",
+  "title": "Does Your Model Run on AWS Trainium? Look It Up",
+  "url": "https://huggingface.co/blog/torch-neuronx-model-support",
+  "source": "huggingface-blog",
+  "axes": [
+   "model"
+  ],
+  "score": 5.42,
+  "date": "2026-10-31"
+ },
+ {
+  "key": "da75ccb4521942a6",
+  "title": "Community safety report and new protections for teens",
+  "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 5.07,
+  "date": "2026-10-31"
+ },
+ {
+  "key": "7adc6026e8cb0012",
+  "title": "Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals",
+  "url": "https://blogs.nvidia.com/blog/ai-joins-the-search-for-extraterrestrial-signals/",
+  "source": "nvidia-genai",
+  "axes": [
+   "people"
+  ],
+  "score": 4.54,
+  "date": "2026-10-31"
+ },
+ {
+  "key": "6d0aa1c6db13147e",
+  "title": "US Reps Lead Democratic Resolution Opposing A.I. Bubble Bailout for Big Tech",
+  "url": "https://progressives.house.gov/2026/10/reps-casar-waters-lead-democratic-resolution-opposing-a-i-bubble-bailout-for-big-tech-commit-to-protecting-american-people-instead",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 7.28,
+  "date": "2026-10-31"
+ },
+ {
+  "key": "71866c90d22a6271",
+  "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+  "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 7.23,
+  "date": "2026-10-31"
+ },
+ {
+  "key": "8277dcaf05d56b4f",
+  "title": "MOSS Image with akhaliq's 4-step LoRA and Nvidia PiD = Super-Fast High-Res (ComfyUI)",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xjw1jd/moss_image_with_akhaliqs_4step_lora_and_nvidia/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.89,
+  "date": "2026-10-31"
+ },
+ {
+  "key": "8127b897d2a914d8",
+  "title": "[Scary Future?] Codex disabled my ComfyUI (on purpose) and refused to fix it",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xk38fa/scary_future_codex_disabled_my_comfyui_on_purpose/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.34,
+  "date": "2026-10-31"
+ },
+ {
+  "key": "245c128fb8c6b643",
+  "title": "Youtu-Parsing-Omni: One Encoder, One Schema, All Modalities",
+  "url": "https://huggingface.co/papers/2610.39301",
+  "source": "hf-papers",
+  "axes": [
+   "image",
+   "model",
+   "threed",
+   "video"
+  ],
+  "score": 5.66,
+  "date": "2026-10-31"
+ },
+ {
+  "key": "12381a006b519e01",
+  "title": "Proving and Improving the Platonic Representation Hypothesis with JEPAs",
+  "url": "https://huggingface.co/papers/2610.39302",
+  "source": "hf-papers",
+  "axes": [
+   "image",
+   "model",
+   "threed",
+   "video"
+  ],
+  "score": 5.03,
+  "date": "2026-10-31"
+ },
+ {
+  "key": "3540b6f4d6aeeded",
+  "title": "NVIDIA Confidential Computing Expands, Enabling Frontier Model Builders to Securely Scale Across Global Infrastructure",
+  "url": "https://blogs.nvidia.com/blog/confidential-computing-model-builders-infrastructure/",
+  "source": "nvidia-genai",
+  "axes": [
+   "model"
+  ],
+  "score": 4.92,
+  "date": "2026-10-31"
+ },
+ {
+  "key": "9df769dfacfb8b8d",
+  "title": "dbreunig/nesformer",
+  "url": "https://simonwillison.net/2026/Oct/30/nesformer/",
+  "source": "simonwillison",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 4.92,
+  "date": "2026-10-31"
+ }
+]
