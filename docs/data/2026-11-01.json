@@ -7,19 +7,30 @@
   "axes": [
    "model"
   ],
-  "score": 7.95,
+  "score": 7.76,
   "date": "2026-11-01"
  },
  {
-  "key": "a86a3a421be192b9",
-  "title": "I trained a 1536px Krea 2 LoKr to test wardrobe & character consistency across 10 concert eras — here’s my full breakdown on LoKr vs. LoRA, epochs, and trigger tokens [Workflow Included]",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xkldof/i_trained_a_1536px_krea_2_lokr_to_test_wardrobe/",
+  "key": "47f11a9f29ea24ac",
+  "title": "Suggest a good model+turbo lora combo for ref2va for H3",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xkp4kp/suggest_a_good_modelturbo_lora_combo_for_ref2va/",
   "source": "reddit-stablediffusion",
   "axes": [
    "image",
-   "threed"
+   "model"
   ],
-  "score": 6.78,
+  "score": 6.62,
+  "date": "2026-11-01"
+ },
+ {
+  "key": "a672514aa3d3c5dc",
+  "title": "Ikimono Gakari - Blue Bird | Naruto Live Action Band MV [Fanmade AI] - Aorora",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xkztnw/ikimono_gakari_blue_bird_naruto_live_action_band/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.28,
   "date": "2026-11-01"
  },
  {
@@ -30,18 +41,22 @@
   "axes": [
    "model"
   ],
-  "score": 6.32,
+  "score": 6.19,
   "date": "2026-11-01"
  },
  {
-  "key": "6efac7ed2355ba14",
-  "title": "Happy Halloween SD!",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xkpyc9/happy_halloween_sd/",
-  "source": "reddit-stablediffusion",
+  "key": "472de3d467c246a9",
+  "title": "HairDeck: Animation-Ready Stylized Hair Cards from a Single Image",
+  "url": "https://huggingface.co/papers/2610.40599",
+  "source": "hf-papers",
   "axes": [
-   "image"
+   "game",
+   "image",
+   "model",
+   "threed",
+   "video"
   ],
-  "score": 6.07,
+  "score": 5.7,
   "date": "2026-11-01"
  },
  {
@@ -56,6 +71,29 @@
   "date": "2026-11-01"
  },
  {
+  "key": "d9fb94bced61234e",
+  "title": "How We Took Over ChatGPT Accounts",
+  "url": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
+  "source": "simonwillison",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 4.79,
+  "date": "2026-11-01"
+ },
+ {
+  "key": "6efac7ed2355ba14",
+  "title": "Happy Halloween SD!",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xkpyc9/happy_halloween_sd/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 5.93,
+  "date": "2026-11-01"
+ },
+ {
   "key": "d6de9667aab8025f",
   "title": "A Broader Look into MLLM's Retrieval Heads",
   "url": "https://huggingface.co/papers/2610.32411",
@@ -67,18 +105,6 @@
   "date": "2026-11-01"
  },
  {
-  "key": "d9fb94bced61234e",
-  "title": "How We Took Over ChatGPT Accounts",
-  "url": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
-  "source": "simonwillison",
-  "axes": [
-   "infra",
-   "model"
-  ],
-  "score": 4.93,
-  "date": "2026-11-01"
- },
- {
   "key": "40322a6c06c5093e",
   "title": "Civitarchive seems to no longer update (atleast for Minimax H3). Things I saw deleted in Civitai are not shown in Civitarchive",
   "url": "https://www.reddit.com/r/StableDiffusion/comments/1xko1m5/civitarchive_seems_to_no_longer_update_atleast/",
@@ -86,29 +112,7 @@
   "axes": [
    "image"
   ],
-  "score": 4.81,
-  "date": "2026-11-01"
- },
- {
-  "key": "3af7b9f63d7b8fb9",
-  "title": "Nace AI Open-Sources Drex Max v1: A 27B Decision Model That Runs Locally on Apple Silicon",
-  "url": "https://www.marktechpost.com/2026/11/01/nace-ai-open-sources-drex-max-v1-local-inference/",
-  "source": "marktechpost",
-  "axes": [
-   "model"
-  ],
-  "score": 4.71,
-  "date": "2026-11-01"
- },
- {
-  "key": "aa65402b47813804",
-  "title": "DeepSeek Open-Sources dsh-superagent, a Router-Worker Coding Agent",
-  "url": "https://www.marktechpost.com/2026/11/01/deepseek-dsh-superagent-router-worker-coding-agent/",
-  "source": "marktechpost",
-  "axes": [
-   "model"
-  ],
-  "score": 4.69,
+  "score": 4.67,
   "date": "2026-11-01"
  },
  {
@@ -120,7 +124,7 @@
    "model",
    "people"
   ],
-  "score": 4.64,
+  "score": 4.61,
   "date": "2026-11-01"
  },
  {
@@ -132,7 +136,29 @@
    "model",
    "people"
   ],
-  "score": 4.55,
+  "score": 4.53,
+  "date": "2026-11-01"
+ },
+ {
+  "key": "3af7b9f63d7b8fb9",
+  "title": "Nace AI Open-Sources Drex Max v1: A 27B Decision Model That Runs Locally on Apple Silicon",
+  "url": "https://www.marktechpost.com/2026/11/01/nace-ai-open-sources-drex-max-v1-local-inference/",
+  "source": "marktechpost",
+  "axes": [
+   "model"
+  ],
+  "score": 4.52,
+  "date": "2026-11-01"
+ },
+ {
+  "key": "aa65402b47813804",
+  "title": "DeepSeek Open-Sources dsh-superagent, a Router-Worker Coding Agent",
+  "url": "https://www.marktechpost.com/2026/11/01/deepseek-dsh-superagent-router-worker-coding-agent/",
+  "source": "marktechpost",
+  "axes": [
+   "model"
+  ],
+  "score": 4.51,
   "date": "2026-11-01"
  },
  {
@@ -144,18 +170,7 @@
    "infra",
    "model"
   ],
-  "score": 4.31,
-  "date": "2026-11-01"
- },
- {
-  "key": "098ae7713fb0307d",
-  "title": "Images with references",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xknlam/images_with_references/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image"
-  ],
-  "score": 4.24,
+  "score": 4.25,
   "date": "2026-11-01"
  }
 ]
