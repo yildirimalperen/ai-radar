@@ -1,0 +1,161 @@
+[
+ {
+  "key": "c5b900c398bd45a8",
+  "title": "Anthropic blocks users for anything touching training larger models",
+  "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
+  "source": "hackernews",
+  "axes": [
+   "model"
+  ],
+  "score": 7.95,
+  "date": "2026-11-01"
+ },
+ {
+  "key": "a86a3a421be192b9",
+  "title": "I trained a 1536px Krea 2 LoKr to test wardrobe & character consistency across 10 concert eras — here’s my full breakdown on LoKr vs. LoRA, epochs, and trigger tokens [Workflow Included]",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xkldof/i_trained_a_1536px_krea_2_lokr_to_test_wardrobe/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image",
+   "threed"
+  ],
+  "score": 6.78,
+  "date": "2026-11-01"
+ },
+ {
+  "key": "1ff6cd4d908eeb5f",
+  "title": "datasette-llm 0.1a9",
+  "url": "https://simonwillison.net/2026/Oct/31/datasette-llm/",
+  "source": "simonwillison",
+  "axes": [
+   "model"
+  ],
+  "score": 6.32,
+  "date": "2026-11-01"
+ },
+ {
+  "key": "6efac7ed2355ba14",
+  "title": "Happy Halloween SD!",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xkpyc9/happy_halloween_sd/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.07,
+  "date": "2026-11-01"
+ },
+ {
+  "key": "a6b19e0fcbd11424",
+  "title": "WorkFactory: Turning Professional Intents into Executable Work for Scalable Agent Training",
+  "url": "https://huggingface.co/papers/2610.37161",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 5.67,
+  "date": "2026-11-01"
+ },
+ {
+  "key": "d6de9667aab8025f",
+  "title": "A Broader Look into MLLM's Retrieval Heads",
+  "url": "https://huggingface.co/papers/2610.32411",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 5.56,
+  "date": "2026-11-01"
+ },
+ {
+  "key": "d9fb94bced61234e",
+  "title": "How We Took Over ChatGPT Accounts",
+  "url": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
+  "source": "simonwillison",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 4.93,
+  "date": "2026-11-01"
+ },
+ {
+  "key": "40322a6c06c5093e",
+  "title": "Civitarchive seems to no longer update (atleast for Minimax H3). Things I saw deleted in Civitai are not shown in Civitarchive",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xko1m5/civitarchive_seems_to_no_longer_update_atleast/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 4.81,
+  "date": "2026-11-01"
+ },
+ {
+  "key": "3af7b9f63d7b8fb9",
+  "title": "Nace AI Open-Sources Drex Max v1: A 27B Decision Model That Runs Locally on Apple Silicon",
+  "url": "https://www.marktechpost.com/2026/11/01/nace-ai-open-sources-drex-max-v1-local-inference/",
+  "source": "marktechpost",
+  "axes": [
+   "model"
+  ],
+  "score": 4.71,
+  "date": "2026-11-01"
+ },
+ {
+  "key": "aa65402b47813804",
+  "title": "DeepSeek Open-Sources dsh-superagent, a Router-Worker Coding Agent",
+  "url": "https://www.marktechpost.com/2026/11/01/deepseek-dsh-superagent-router-worker-coding-agent/",
+  "source": "marktechpost",
+  "axes": [
+   "model"
+  ],
+  "score": 4.69,
+  "date": "2026-11-01"
+ },
+ {
+  "key": "ea49054235a5138b",
+  "title": "Fair use benefits everyone",
+  "url": "https://openai.com/index/fair-use-benefits-everyone",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 4.64,
+  "date": "2026-11-01"
+ },
+ {
+  "key": "86a7c56bf65dec13",
+  "title": "How Ropes & Gray is developing AI for transactional diligence",
+  "url": "https://openai.com/index/ropes-gray-ai-diligence",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 4.55,
+  "date": "2026-11-01"
+ },
+ {
+  "key": "96cdf48266086753",
+  "title": "nemotron-halloween",
+  "url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+  "source": "huggingface-blog",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 4.31,
+  "date": "2026-11-01"
+ },
+ {
+  "key": "098ae7713fb0307d",
+  "title": "Images with references",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xknlam/images_with_references/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 4.24,
+  "date": "2026-11-01"
+ }
+]
