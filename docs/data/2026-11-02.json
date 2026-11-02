@@ -1,0 +1,199 @@
+[
+ {
+  "key": "cbb3f77bc6fb66f8",
+  "title": "Latent Reasoning in Continuous Space for Unified Multimodal Models",
+  "url": "https://huggingface.co/papers/2610.42149",
+  "source": "hf-papers",
+  "axes": [
+   "image",
+   "model"
+  ],
+  "score": 8.1,
+  "date": "2026-11-02"
+ },
+ {
+  "key": "3ed5f5454bb000f5",
+  "title": "I built a free open-source node pack for 2–3 minute videos with MiniMax H3 (1080P, one run)",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xlni9b/i_built_a_free_opensource_node_pack_for_23_minute/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image",
+   "video"
+  ],
+  "score": 7.57,
+  "date": "2026-11-02"
+ },
+ {
+  "key": "8aa1f1f00bd386d2",
+  "title": "Wizard: Manipulate Any World in Real Time via Agentic Control",
+  "url": "https://huggingface.co/papers/2610.40339",
+  "source": "hf-papers",
+  "axes": [
+   "game",
+   "video"
+  ],
+  "score": 7.04,
+  "date": "2026-11-02"
+ },
+ {
+  "key": "07bc0e55831e2225",
+  "title": "PRISM-DMAD-PDMD Merge of 10ErosB6-X-Singularity2",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xlrboh/prismdmadpdmd_merge_of_10erosb6xsingularity2/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.34,
+  "date": "2026-11-02"
+ },
+ {
+  "key": "de1667af6a131f94",
+  "title": "CEPO: A General Framework for Improving Prompt Optimization in Multi-Agent Systems",
+  "url": "https://huggingface.co/papers/2610.34722",
+  "source": "hf-papers",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 5.96,
+  "date": "2026-11-02"
+ },
+ {
+  "key": "2641fee36518b819",
+  "title": "The AI cost of JavaScript frameworks",
+  "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 5.69,
+  "date": "2026-11-02"
+ },
+ {
+  "key": "6ac5d76a6224d007",
+  "title": "If in doubt, delete the uv.lock file",
+  "url": "https://simonwillison.net/2026/Nov/1/delete-uv-lock-first/",
+  "source": "simonwillison",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 4.93,
+  "date": "2026-11-02"
+ },
+ {
+  "key": "442f930103594426",
+  "title": "NVIDIA Releases Auto Ontology: An Open Semantic Layer That Grounds AI Agent SQL",
+  "url": "https://www.marktechpost.com/2026/11/01/nvidia-auto-ontology-open-source-semantic-layer-ai-agents/",
+  "source": "marktechpost",
+  "axes": [
+   "model"
+  ],
+  "score": 4.68,
+  "date": "2026-11-02"
+ },
+ {
+  "key": "aea088630b8d13e7",
+  "title": "Altered Visual Hand Feedback in Virtual Reality: An Exploratory Study in Essential Tremor",
+  "url": "https://arxiv.org/abs/2610.41496v1",
+  "source": "arxiv-gr",
+  "axes": [
+   "image"
+  ],
+  "score": 4.65,
+  "date": "2026-11-02"
+ },
+ {
+  "key": "135436eb33d5ef51",
+  "title": "FrameForge: Harnessing Priors of Video Foundation Models for Unified Image Generation",
+  "url": "https://huggingface.co/papers/2610.36545",
+  "source": "hf-papers",
+  "axes": [
+   "image",
+   "video"
+  ],
+  "score": 7.03,
+  "date": "2026-11-02"
+ },
+ {
+  "key": "ed24f16dbf40ae0e",
+  "title": "I made a ComfyUI tool to bring back earlier scenes in H3 videos — my Open Source Higgsfield entry",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xlp0kg/i_made_a_comfyui_tool_to_bring_back_earlier/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.24,
+  "date": "2026-11-02"
+ },
+ {
+  "key": "e49d4903e04fff4c",
+  "title": "HiFOR: Hierarchical Foresight with Action-Guided World Grounding for Vision-Language-Action Model",
+  "url": "https://huggingface.co/papers/2610.40373",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 5.54,
+  "date": "2026-11-02"
+ },
+ {
+  "key": "febc2fac8a726216",
+  "title": "Why does Moss have and Krea2 Doesn't?!",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xlpoz3/why_does_moss_have_and_krea2_doesnt/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 4.51,
+  "date": "2026-11-02"
+ },
+ {
+  "key": "e397a6cc702781bc",
+  "title": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
+  "url": "https://openai.com/index/credit-saison",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 4.49,
+  "date": "2026-11-02"
+ },
+ {
+  "key": "ae837ad258a8949a",
+  "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+  "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 4.49,
+  "date": "2026-11-02"
+ },
+ {
+  "key": "6c6ce894500544fb",
+  "title": "ReLift: Dense 3D Tracking as Lifted Trajectory Repair",
+  "url": "https://arxiv.org/abs/2610.42136v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "threed"
+  ],
+  "score": 4.47,
+  "date": "2026-11-02"
+ },
+ {
+  "key": "5c20febb55a502af",
+  "title": "Dynamic Skinning: Kinematics-Driven Cartoon Effects for Articulated Characters",
+  "url": "https://arxiv.org/abs/2610.40976v1",
+  "source": "arxiv-gr",
+  "axes": [
+   "threed"
+  ],
+  "score": 4.38,
+  "date": "2026-11-02"
+ }
+]
