@@ -8,54 +8,65 @@
    "image",
    "model"
   ],
-  "score": 8.1,
+  "score": 8.18,
   "date": "2026-11-02"
  },
  {
-  "key": "3ed5f5454bb000f5",
-  "title": "I built a free open-source node pack for 2–3 minute videos with MiniMax H3 (1080P, one run)",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xlni9b/i_built_a_free_opensource_node_pack_for_23_minute/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image",
-   "video"
-  ],
-  "score": 7.57,
-  "date": "2026-11-02"
- },
- {
-  "key": "8aa1f1f00bd386d2",
-  "title": "Wizard: Manipulate Any World in Real Time via Agentic Control",
-  "url": "https://huggingface.co/papers/2610.40339",
-  "source": "hf-papers",
+  "key": "e8ec21bf52178beb",
+  "title": "Claude Code Blocks Video Game Cloning & Some Reverse Engineering Tasks",
+  "url": "https://80.lv/articles/claude-code-blocks-video-game-cloning-some-reverse-engineering-tasks/",
+  "source": "80lv",
   "axes": [
    "game",
    "video"
   ],
-  "score": 7.04,
+  "score": 7.61,
   "date": "2026-11-02"
  },
  {
-  "key": "07bc0e55831e2225",
-  "title": "PRISM-DMAD-PDMD Merge of 10ErosB6-X-Singularity2",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xlrboh/prismdmadpdmd_merge_of_10erosb6xsingularity2/",
+  "key": "135436eb33d5ef51",
+  "title": "FrameForge: Harnessing Priors of Video Foundation Models for Unified Image Generation",
+  "url": "https://huggingface.co/papers/2610.36545",
+  "source": "hf-papers",
+  "axes": [
+   "image",
+   "video"
+  ],
+  "score": 7.33,
+  "date": "2026-11-02"
+ },
+ {
+  "key": "c69402c4adf84a42",
+  "title": "Introducing the Grid Protectors Program",
+  "url": "https://openai.com/index/grid-protectors-program",
+  "source": "openai",
+  "axes": [
+   "model"
+  ],
+  "score": 7.19,
+  "date": "2026-11-02"
+ },
+ {
+  "key": "4f1ae198653af260",
+  "title": "I trained a tiny image model from scratch that draws newsprint faces with custom text — 2–4 steps, CPU-only",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xlxrqz/i_trained_a_tiny_image_model_from_scratch_that/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image",
+   "model"
+  ],
+  "score": 7.01,
+  "date": "2026-11-02"
+ },
+ {
+  "key": "0af2c86b2da20cb8",
+  "title": "Using AI to generate ComfyUI nodes",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xlz1lz/using_ai_to_generate_comfyui_nodes/",
   "source": "reddit-stablediffusion",
   "axes": [
    "image"
   ],
   "score": 6.34,
-  "date": "2026-11-02"
- },
- {
-  "key": "de1667af6a131f94",
-  "title": "CEPO: A General Framework for Improving Prompt Optimization in Multi-Agent Systems",
-  "url": "https://huggingface.co/papers/2610.34722",
-  "source": "hf-papers",
-  "axes": [
-   "infra",
-   "model"
-  ],
-  "score": 5.96,
   "date": "2026-11-02"
  },
  {
@@ -68,7 +79,19 @@
    "model",
    "people"
   ],
-  "score": 5.69,
+  "score": 5.6,
+  "date": "2026-11-02"
+ },
+ {
+  "key": "6d802e144dde6ced",
+  "title": "The U.S. Census Bureau and “Super Intelligence”",
+  "url": "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/",
+  "source": "simonwillison",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 5.2,
   "date": "2026-11-02"
  },
  {
@@ -80,18 +103,54 @@
    "infra",
    "model"
   ],
-  "score": 4.93,
+  "score": 4.72,
   "date": "2026-11-02"
  },
  {
-  "key": "442f930103594426",
-  "title": "NVIDIA Releases Auto Ontology: An Open Semantic Layer That Grounds AI Agent SQL",
-  "url": "https://www.marktechpost.com/2026/11/01/nvidia-auto-ontology-open-source-semantic-layer-ai-agents/",
-  "source": "marktechpost",
+  "key": "8aa1f1f00bd386d2",
+  "title": "Wizard: Manipulate Any World in Real Time via Agentic Control",
+  "url": "https://huggingface.co/papers/2610.40339",
+  "source": "hf-papers",
   "axes": [
+   "game",
+   "video"
+  ],
+  "score": 7.06,
+  "date": "2026-11-02"
+ },
+ {
+  "key": "6caf78dd19f509d3",
+  "title": "REA: A Routed Embodied Agent Runtime for Asynchronous Brain-Cerebellum Control",
+  "url": "https://huggingface.co/papers/2610.42053",
+  "source": "hf-papers",
+  "axes": [
+   "infra",
    "model"
   ],
-  "score": 4.68,
+  "score": 6.24,
+  "date": "2026-11-02"
+ },
+ {
+  "key": "3fbb89ab4b2c0320",
+  "title": "42AI comes out of stealth with $62.5M and a world model that can ‘predict human behavior’",
+  "url": "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior/",
+  "source": "techcrunch-ai",
+  "axes": [
+   "model",
+   "video"
+  ],
+  "score": 5.91,
+  "date": "2026-11-02"
+ },
+ {
+  "key": "b9c0c9757af0f767",
+  "title": "LTX-2.5 trains incredibly surgical LoRAs",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xlx5qu/ltx25_trains_incredibly_surgical_loras/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 5.76,
   "date": "2026-11-02"
  },
  {
@@ -102,52 +161,30 @@
   "axes": [
    "image"
   ],
-  "score": 4.65,
+  "score": 4.62,
   "date": "2026-11-02"
  },
  {
-  "key": "135436eb33d5ef51",
-  "title": "FrameForge: Harnessing Priors of Video Foundation Models for Unified Image Generation",
-  "url": "https://huggingface.co/papers/2610.36545",
-  "source": "hf-papers",
-  "axes": [
-   "image",
-   "video"
-  ],
-  "score": 7.03,
-  "date": "2026-11-02"
- },
- {
-  "key": "ed24f16dbf40ae0e",
-  "title": "I made a ComfyUI tool to bring back earlier scenes in H3 videos — my Open Source Higgsfield entry",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xlp0kg/i_made_a_comfyui_tool_to_bring_back_earlier/",
+  "key": "45ab8da5d8a9d5e4",
+  "title": "My H3 Settings that generate 15 second videos in 2 mins.",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xly4rw/my_h3_settings_that_generate_15_second_videos_in/",
   "source": "reddit-stablediffusion",
   "axes": [
    "image"
   ],
-  "score": 6.24,
+  "score": 4.55,
   "date": "2026-11-02"
  },
  {
-  "key": "e49d4903e04fff4c",
-  "title": "HiFOR: Hierarchical Foresight with Action-Guided World Grounding for Vision-Language-Action Model",
-  "url": "https://huggingface.co/papers/2610.40373",
-  "source": "hf-papers",
+  "key": "ef4ba7cbe7785a73",
+  "title": "Speeding up planning decisions with AI",
+  "url": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/",
+  "source": "deepmind",
   "axes": [
-   "model"
+   "model",
+   "people"
   ],
-  "score": 5.54,
-  "date": "2026-11-02"
- },
- {
-  "key": "febc2fac8a726216",
-  "title": "Why does Moss have and Krea2 Doesn't?!",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xlpoz3/why_does_moss_have_and_krea2_doesnt/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image"
-  ],
-  "score": 4.51,
+  "score": 4.55,
   "date": "2026-11-02"
  },
  {
@@ -160,40 +197,6 @@
    "people"
   ],
   "score": 4.49,
-  "date": "2026-11-02"
- },
- {
-  "key": "ae837ad258a8949a",
-  "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
-  "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
-  "source": "openai",
-  "axes": [
-   "model",
-   "people"
-  ],
-  "score": 4.49,
-  "date": "2026-11-02"
- },
- {
-  "key": "6c6ce894500544fb",
-  "title": "ReLift: Dense 3D Tracking as Lifted Trajectory Repair",
-  "url": "https://arxiv.org/abs/2610.42136v1",
-  "source": "arxiv-cv",
-  "axes": [
-   "threed"
-  ],
-  "score": 4.47,
-  "date": "2026-11-02"
- },
- {
-  "key": "5c20febb55a502af",
-  "title": "Dynamic Skinning: Kinematics-Driven Cartoon Effects for Articulated Characters",
-  "url": "https://arxiv.org/abs/2610.40976v1",
-  "source": "arxiv-gr",
-  "axes": [
-   "threed"
-  ],
-  "score": 4.38,
   "date": "2026-11-02"
  }
 ]
