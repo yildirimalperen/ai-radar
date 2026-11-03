@@ -1,0 +1,234 @@
+[
+ {
+  "key": "a16ace7e40c6a55e",
+  "title": "The SEC Should Block Anthropic's IPO to Protect the Public",
+  "url": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/",
+  "source": "hackernews",
+  "axes": [
+   "people"
+  ],
+  "score": 7.21,
+  "date": "2026-11-03"
+ },
+ {
+  "key": "bf0700206d96d9d6",
+  "title": "CoworkOS:Scaling Agent Coworkers for Real-world Automation",
+  "url": "https://huggingface.co/papers/2611.03178",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 7.09,
+  "date": "2026-11-03"
+ },
+ {
+  "key": "e60c4f7d2c31ed96",
+  "title": "Video Generation Meets Agent Harness: Agentic Video Generation, Agentic World Modeling and Recursive Self-Improvement",
+  "url": "https://huggingface.co/papers/2610.40191",
+  "source": "hf-papers",
+  "axes": [
+   "model",
+   "video"
+  ],
+  "score": 6.99,
+  "date": "2026-11-03"
+ },
+ {
+  "key": "80c7374d76636512",
+  "title": "October sponsors-only newsletter",
+  "url": "https://simonwillison.net/2026/Nov/3/october-newsletter/",
+  "source": "simonwillison",
+  "axes": [
+   "game"
+  ],
+  "score": 6.64,
+  "date": "2026-11-03"
+ },
+ {
+  "key": "f94917eb4a37e7a5",
+  "title": "LifeVal",
+  "url": "https://openai.com/index/lifeval",
+  "source": "openai",
+  "axes": [
+   "model"
+  ],
+  "score": 6.47,
+  "date": "2026-11-03"
+ },
+ {
+  "key": "cd36ed71cd280a55",
+  "title": "Transformers Model Integration Contracts",
+  "url": "https://huggingface.co/blog/transformers-mic",
+  "source": "huggingface-blog",
+  "axes": [
+   "model"
+  ],
+  "score": 6.37,
+  "date": "2026-11-03"
+ },
+ {
+  "key": "ee497a5152d5ca26",
+  "title": "I textured an entire street in Blender with Qwen Image 2.1, then made cyberpunk, anime and papercraft versions of it",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xmg8au/i_textured_an_entire_street_in_blender_with_qwen/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "threed"
+  ],
+  "score": 6.28,
+  "date": "2026-11-03"
+ },
+ {
+  "key": "3273127d4ba100fb",
+  "title": "The Wall Street Journal Style-A Krea 2 LoRA",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xmllmx/the_wall_street_journal_stylea_krea_2_lora/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.28,
+  "date": "2026-11-03"
+ },
+ {
+  "key": "7d88391a51f048f8",
+  "title": "Isekai3D SDG: A Platform for Diverse Synthetic Gameplay Visual Data",
+  "url": "https://arxiv.org/abs/2611.03626v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "game",
+   "image"
+  ],
+  "score": 6.25,
+  "date": "2026-11-03"
+ },
+ {
+  "key": "3130ae8cebea43b2",
+  "title": "Reviso: Not All Visual Evidence Deserves Equal Attention in Video Captioning",
+  "url": "https://arxiv.org/abs/2611.03602v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "image",
+   "model",
+   "video"
+  ],
+  "score": 6.19,
+  "date": "2026-11-03"
+ },
+ {
+  "key": "0bf0d0fe3b71b956",
+  "title": "Anthropic's internal AI use, at retail prices, now exceeds its employee pay",
+  "url": "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 5.94,
+  "date": "2026-11-03"
+ },
+ {
+  "key": "766d1659365d34fe",
+  "title": "Anthropic clamps down on Claude’s AI video game clones",
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones",
+  "source": "verge-ai",
+  "axes": [
+   "game",
+   "video"
+  ],
+  "score": 5.7,
+  "date": "2026-11-03"
+ },
+ {
+  "key": "50e314758a4b6912",
+  "title": "Wave Forcing: Towards Speed-of-Light Streaming Video Generation",
+  "url": "https://huggingface.co/papers/2611.00859",
+  "source": "hf-papers",
+  "axes": [
+   "video"
+  ],
+  "score": 6.53,
+  "date": "2026-11-03"
+ },
+ {
+  "key": "2af9c302354968c3",
+  "title": "OSWAM: An Effective World Action Model with One-Step Action Generation",
+  "url": "https://huggingface.co/papers/2610.35850",
+  "source": "hf-papers",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 6.04,
+  "date": "2026-11-03"
+ },
+ {
+  "key": "d1a97fe3f1e1ea16",
+  "title": "One Image Is Enough: Self-Generated Supervision for Personalizing Human Video Diffusion at Test Time",
+  "url": "https://arxiv.org/abs/2611.02964v1",
+  "source": "arxiv-gr",
+  "axes": [
+   "image",
+   "video"
+  ],
+  "score": 6.01,
+  "date": "2026-11-03"
+ },
+ {
+  "key": "f39ecd66afb4687e",
+  "title": "UniCross3D: Unified Cross-View and Cross-Domain Diffusion for Consistent Single-Image 3D Generation",
+  "url": "https://arxiv.org/abs/2611.02631v1",
+  "source": "arxiv-gr",
+  "axes": [
+   "image",
+   "threed"
+  ],
+  "score": 5.92,
+  "date": "2026-11-03"
+ },
+ {
+  "key": "3abc33070519864b",
+  "title": "Anthropic adds rule to stop Claude Code recreating existing games",
+  "url": "https://www.gamesindustry.biz/anthropic-adds-rule-to-stop-claude-code-recreating-existing-games",
+  "source": "gamesindustry",
+  "axes": [
+   "game"
+  ],
+  "score": 5.35,
+  "date": "2026-11-03"
+ },
+ {
+  "key": "4e4c553ee7993695",
+  "title": "Preparing our next security sprint to harden OpenAI",
+  "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 5.26,
+  "date": "2026-11-03"
+ },
+ {
+  "key": "390695a0be692272",
+  "title": "Rewarding defenders with bigger bug bounties",
+  "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 5.26,
+  "date": "2026-11-03"
+ },
+ {
+  "key": "1f145791d7077897",
+  "title": "H3 Long-Gen with Qwen 3.8 Flash Next prompting every 18sec went in a really wild direction (2min14s)",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xmnb1w/h3_longgen_with_qwen_38_flash_next_prompting/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 5.19,
+  "date": "2026-11-03"
+ }
+]
