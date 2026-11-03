@@ -1,13 +1,15 @@
 [
  {
-  "key": "a16ace7e40c6a55e",
-  "title": "The SEC Should Block Anthropic's IPO to Protect the Public",
-  "url": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/",
+  "key": "44459eb6f95b0eff",
+  "title": "The 'Astra can read and write weights to improve Qwen' post is misleading",
+  "url": "https://honnibal.dev/blog/astra-read-write-misleading",
   "source": "hackernews",
   "axes": [
+   "infra",
+   "model",
    "people"
   ],
-  "score": 7.21,
+  "score": 7.76,
   "date": "2026-11-03"
  },
  {
@@ -18,7 +20,7 @@
   "axes": [
    "model"
   ],
-  "score": 7.09,
+  "score": 7.34,
   "date": "2026-11-03"
  },
  {
@@ -30,7 +32,18 @@
    "model",
    "video"
   ],
-  "score": 6.99,
+  "score": 7.03,
+  "date": "2026-11-03"
+ },
+ {
+  "key": "1cbbeb2e946b212d",
+  "title": "Black Forest Labs updated Flux.3 Image Klein documentation to clarify that its primarily designed for image editing.",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xmqbyu/black_forest_labs_updated_flux3_image_klein/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.72,
   "date": "2026-11-03"
  },
  {
@@ -41,7 +54,7 @@
   "axes": [
    "game"
   ],
-  "score": 6.64,
+  "score": 6.45,
   "date": "2026-11-03"
  },
  {
@@ -52,7 +65,18 @@
   "axes": [
    "model"
   ],
-  "score": 6.47,
+  "score": 6.38,
+  "date": "2026-11-03"
+ },
+ {
+  "key": "9853c9b35d5a1935",
+  "title": "The 1080p pass on my 4090 added 50 minutes a clip and never threw an error",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xms34h/the_1080p_pass_on_my_4090_added_50_minutes_a_clip/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.34,
   "date": "2026-11-03"
  },
  {
@@ -63,29 +87,7 @@
   "axes": [
    "model"
   ],
-  "score": 6.37,
-  "date": "2026-11-03"
- },
- {
-  "key": "ee497a5152d5ca26",
-  "title": "I textured an entire street in Blender with Qwen Image 2.1, then made cyberpunk, anime and papercraft versions of it",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xmg8au/i_textured_an_entire_street_in_blender_with_qwen/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "threed"
-  ],
-  "score": 6.28,
-  "date": "2026-11-03"
- },
- {
-  "key": "3273127d4ba100fb",
-  "title": "The Wall Street Journal Style-A Krea 2 LoRA",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xmllmx/the_wall_street_journal_stylea_krea_2_lora/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image"
-  ],
-  "score": 6.28,
+  "score": 6.22,
   "date": "2026-11-03"
  },
  {
@@ -97,7 +99,18 @@
    "game",
    "image"
   ],
-  "score": 6.25,
+  "score": 6.12,
+  "date": "2026-11-03"
+ },
+ {
+  "key": "a16ace7e40c6a55e",
+  "title": "The SEC Should Block Anthropic's IPO to Protect the Public",
+  "url": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/",
+  "source": "hackernews",
+  "axes": [
+   "people"
+  ],
+  "score": 6.12,
   "date": "2026-11-03"
  },
  {
@@ -110,7 +123,91 @@
    "model",
    "video"
   ],
-  "score": 6.19,
+  "score": 6.06,
+  "date": "2026-11-03"
+ },
+ {
+  "key": "23c619178dcff952",
+  "title": "AppMagic: Non-gaming apps have beaten mobile games in IAP revenue since 2016",
+  "url": "https://www.gamesindustry.biz/appmagic-non-gaming-apps-have-beaten-mobile-games-in-iap-revenue-since-2016",
+  "source": "gamesindustry",
+  "axes": [
+   "game"
+  ],
+  "score": 5.82,
+  "date": "2026-11-03"
+ },
+ {
+  "key": "50e314758a4b6912",
+  "title": "Wave Forcing: Towards Speed-of-Light Streaming Video Generation",
+  "url": "https://huggingface.co/papers/2611.00859",
+  "source": "hf-papers",
+  "axes": [
+   "video"
+  ],
+  "score": 6.61,
+  "date": "2026-11-03"
+ },
+ {
+  "key": "205cd879b8bd1a81",
+  "title": "CUA-Master: Scaling Computer-use Agents through Open-World Recursive Improvements",
+  "url": "https://huggingface.co/papers/2611.03126",
+  "source": "hf-papers",
+  "axes": [
+   "image",
+   "model",
+   "threed",
+   "video"
+  ],
+  "score": 5.92,
+  "date": "2026-11-03"
+ },
+ {
+  "key": "d1a97fe3f1e1ea16",
+  "title": "One Image Is Enough: Self-Generated Supervision for Personalizing Human Video Diffusion at Test Time",
+  "url": "https://arxiv.org/abs/2611.02964v1",
+  "source": "arxiv-gr",
+  "axes": [
+   "image",
+   "video"
+  ],
+  "score": 5.91,
+  "date": "2026-11-03"
+ },
+ {
+  "key": "f39ecd66afb4687e",
+  "title": "UniCross3D: Unified Cross-View and Cross-Domain Diffusion for Consistent Single-Image 3D Generation",
+  "url": "https://arxiv.org/abs/2611.02631v1",
+  "source": "arxiv-gr",
+  "axes": [
+   "image",
+   "threed"
+  ],
+  "score": 5.83,
+  "date": "2026-11-03"
+ },
+ {
+  "key": "766d1659365d34fe",
+  "title": "Anthropic clamps down on Claude’s AI video game clones",
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones",
+  "source": "verge-ai",
+  "axes": [
+   "game",
+   "video"
+  ],
+  "score": 5.57,
+  "date": "2026-11-03"
+ },
+ {
+  "key": "bb41e66f582ecc70",
+  "title": "Heimstaden is changing residential real estate management with AI",
+  "url": "https://openai.com/index/heimstaden",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 5.55,
   "date": "2026-11-03"
  },
  {
@@ -123,66 +220,7 @@
    "model",
    "people"
   ],
-  "score": 5.94,
-  "date": "2026-11-03"
- },
- {
-  "key": "766d1659365d34fe",
-  "title": "Anthropic clamps down on Claude’s AI video game clones",
-  "url": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones",
-  "source": "verge-ai",
-  "axes": [
-   "game",
-   "video"
-  ],
-  "score": 5.7,
-  "date": "2026-11-03"
- },
- {
-  "key": "50e314758a4b6912",
-  "title": "Wave Forcing: Towards Speed-of-Light Streaming Video Generation",
-  "url": "https://huggingface.co/papers/2611.00859",
-  "source": "hf-papers",
-  "axes": [
-   "video"
-  ],
-  "score": 6.53,
-  "date": "2026-11-03"
- },
- {
-  "key": "2af9c302354968c3",
-  "title": "OSWAM: An Effective World Action Model with One-Step Action Generation",
-  "url": "https://huggingface.co/papers/2610.35850",
-  "source": "hf-papers",
-  "axes": [
-   "infra",
-   "model"
-  ],
-  "score": 6.04,
-  "date": "2026-11-03"
- },
- {
-  "key": "d1a97fe3f1e1ea16",
-  "title": "One Image Is Enough: Self-Generated Supervision for Personalizing Human Video Diffusion at Test Time",
-  "url": "https://arxiv.org/abs/2611.02964v1",
-  "source": "arxiv-gr",
-  "axes": [
-   "image",
-   "video"
-  ],
-  "score": 6.01,
-  "date": "2026-11-03"
- },
- {
-  "key": "f39ecd66afb4687e",
-  "title": "UniCross3D: Unified Cross-View and Cross-Domain Diffusion for Consistent Single-Image 3D Generation",
-  "url": "https://arxiv.org/abs/2611.02631v1",
-  "source": "arxiv-gr",
-  "axes": [
-   "image",
-   "threed"
-  ],
-  "score": 5.92,
+  "score": 5.28,
   "date": "2026-11-03"
  },
  {
@@ -193,42 +231,7 @@
   "axes": [
    "game"
   ],
-  "score": 5.35,
-  "date": "2026-11-03"
- },
- {
-  "key": "4e4c553ee7993695",
-  "title": "Preparing our next security sprint to harden OpenAI",
-  "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
-  "source": "openai",
-  "axes": [
-   "model",
-   "people"
-  ],
-  "score": 5.26,
-  "date": "2026-11-03"
- },
- {
-  "key": "390695a0be692272",
-  "title": "Rewarding defenders with bigger bug bounties",
-  "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
-  "source": "openai",
-  "axes": [
-   "model",
-   "people"
-  ],
-  "score": 5.26,
-  "date": "2026-11-03"
- },
- {
-  "key": "1f145791d7077897",
-  "title": "H3 Long-Gen with Qwen 3.8 Flash Next prompting every 18sec went in a really wild direction (2min14s)",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xmnb1w/h3_longgen_with_qwen_38_flash_next_prompting/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image"
-  ],
-  "score": 5.19,
+  "score": 5.22,
   "date": "2026-11-03"
  }
 ]
