@@ -1,0 +1,211 @@
+[
+ {
+  "key": "d7662055035a0bce",
+  "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+  "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+  "source": "simonwillison",
+  "axes": [
+   "model"
+  ],
+  "score": 10.99,
+  "date": "2026-11-04"
+ },
+ {
+  "key": "dade25dbdcd01419",
+  "title": "DreamX: Video Diffusion Model is a Universal Latent Action Learner",
+  "url": "https://huggingface.co/papers/2611.05377",
+  "source": "hf-papers",
+  "axes": [
+   "image",
+   "model",
+   "video"
+  ],
+  "score": 8.98,
+  "date": "2026-11-04"
+ },
+ {
+  "key": "602bc7792f0ef0cd",
+  "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
+  "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+  "source": "hackernews",
+  "axes": [
+   "infra"
+  ],
+  "score": 8.06,
+  "date": "2026-11-04"
+ },
+ {
+  "key": "0f6b1b2e6ce9aed5",
+  "title": "OpenAI seems to be silently re-enabling model training on Codex chats",
+  "url": "https://news.ycombinator.com/item?id=50352757",
+  "source": "hackernews",
+  "axes": [
+   "model"
+  ],
+  "score": 7.98,
+  "date": "2026-11-04"
+ },
+ {
+  "key": "26be0e011023d407",
+  "title": "Behind Video Generation: Observations and Insights on Multimodal Understanding from Kling",
+  "url": "https://huggingface.co/papers/2611.04916",
+  "source": "hf-papers",
+  "axes": [
+   "model",
+   "video"
+  ],
+  "score": 7.57,
+  "date": "2026-11-04"
+ },
+ {
+  "key": "65b1569e9f9a835c",
+  "title": "Imagineer13 Saves the Day! 0 Color drift! Degradation crisis over!",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xnhld6/imagineer13_saves_the_day_0_color_drift/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.31,
+  "date": "2026-11-04"
+ },
+ {
+  "key": "962075a81c534d51",
+  "title": "ComfyUI v0.44.0 released",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xngaid/comfyui_v0440_released/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.26,
+  "date": "2026-11-04"
+ },
+ {
+  "key": "1666872826069f49",
+  "title": "Palette: teaching a small model to build decks in your design language",
+  "url": "https://huggingface.co/blog/ibm-research/palette-deck-building",
+  "source": "huggingface-blog",
+  "axes": [
+   "model"
+  ],
+  "score": 6.16,
+  "date": "2026-11-04"
+ },
+ {
+  "key": "4c9144ff25ecb5a6",
+  "title": "Introducing Hy4 (open weights soon)",
+  "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnhzbz/introducing_hy4_open_weights_soon/",
+  "source": "reddit-localllama",
+  "axes": [
+   "model"
+  ],
+  "score": 5.67,
+  "date": "2026-11-04"
+ },
+ {
+  "key": "2817e766b2135c37",
+  "title": "Sparseal Releases AI-Assisted Retopology App For PC",
+  "url": "https://80.lv/articles/sparseal-releases-ai-assisted-retopology-app-for-pc/",
+  "source": "80lv",
+  "axes": [
+   "game",
+   "image",
+   "threed"
+  ],
+  "score": 4.57,
+  "date": "2026-11-04"
+ },
+ {
+  "key": "44459eb6f95b0eff",
+  "title": "The 'Astra can read and write weights to improve Qwen' post is misleading",
+  "url": "https://honnibal.dev/blog/astra-read-write-misleading",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 7.34,
+  "date": "2026-11-04"
+ },
+ {
+  "key": "82019f4727b6588c",
+  "title": "Google will turn off search for schools that reject AI",
+  "url": "https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 7.19,
+  "date": "2026-11-04"
+ },
+ {
+  "key": "5959340a09d0a65d",
+  "title": "Route Anything: A Study of Model and Policy Routing for General-Purpose AI Systems",
+  "url": "https://huggingface.co/papers/2611.05275",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 6.74,
+  "date": "2026-11-04"
+ },
+ {
+  "key": "50cbe23a98879edb",
+  "title": "MoviEdit: Long-form Multi-Shot Video Editing Made Easy",
+  "url": "https://huggingface.co/papers/2611.02737",
+  "source": "hf-papers",
+  "axes": [
+   "video"
+  ],
+  "score": 6.39,
+  "date": "2026-11-04"
+ },
+ {
+  "key": "eea43bcd78e563d3",
+  "title": "ND UI Builder: a free, open-source tool to build your own clean control panel for ComfyUI workflows",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xnfvei/nd_ui_builder_a_free_opensource_tool_to_build/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.24,
+  "date": "2026-11-04"
+ },
+ {
+  "key": "b4091e3d00efbac7",
+  "title": "Visibility-Aware Reference Generation for Benchmarking Visual 3D Reconstruction in Vegetation-Rich Environments",
+  "url": "https://arxiv.org/abs/2611.05361v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "image",
+   "threed"
+  ],
+  "score": 6.21,
+  "date": "2026-11-04"
+ },
+ {
+  "key": "d59870ade841f928",
+  "title": "We will take your RAM",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xni4yd/we_will_take_your_ram/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "threed"
+  ],
+  "score": 6.12,
+  "date": "2026-11-04"
+ },
+ {
+  "key": "afb404901b9aac10",
+  "title": "GSCV++: Lightweight 3D Gaussian Splatting Sequence Compression via Standard Video Codecs",
+  "url": "https://arxiv.org/abs/2611.05359v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "threed",
+   "video"
+  ],
+  "score": 5.99,
+  "date": "2026-11-04"
+ }
+]
