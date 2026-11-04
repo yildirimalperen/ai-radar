@@ -7,7 +7,7 @@
   "axes": [
    "model"
   ],
-  "score": 10.99,
+  "score": 10.88,
   "date": "2026-11-04"
  },
  {
@@ -20,7 +20,7 @@
    "model",
    "video"
   ],
-  "score": 8.98,
+  "score": 8.99,
   "date": "2026-11-04"
  },
  {
@@ -31,7 +31,7 @@
   "axes": [
    "infra"
   ],
-  "score": 8.06,
+  "score": 7.95,
   "date": "2026-11-04"
  },
  {
@@ -42,7 +42,19 @@
   "axes": [
    "model"
   ],
-  "score": 7.98,
+  "score": 7.76,
+  "date": "2026-11-04"
+ },
+ {
+  "key": "a30450d55db266d6",
+  "title": "Action LoRA for MiniMax H3 (without training)",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xnn67l/action_lora_for_minimax_h3_without_training/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image",
+   "model"
+  ],
+  "score": 7.59,
   "date": "2026-11-04"
  },
  {
@@ -54,29 +66,18 @@
    "model",
    "video"
   ],
-  "score": 7.57,
+  "score": 7.47,
   "date": "2026-11-04"
  },
  {
-  "key": "65b1569e9f9a835c",
-  "title": "Imagineer13 Saves the Day! 0 Color drift! Degradation crisis over!",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xnhld6/imagineer13_saves_the_day_0_color_drift/",
+  "key": "4381c2b0152f72ec",
+  "title": "Nvidia 2000 series owners: double your performance of Qwen 2.1, Fibo 2.0, MOSS with 1 line edit.",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xnkt82/nvidia_2000_series_owners_double_your_performance/",
   "source": "reddit-stablediffusion",
   "axes": [
    "image"
   ],
-  "score": 6.31,
-  "date": "2026-11-04"
- },
- {
-  "key": "962075a81c534d51",
-  "title": "ComfyUI v0.44.0 released",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xngaid/comfyui_v0440_released/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image"
-  ],
-  "score": 6.26,
+  "score": 6.55,
   "date": "2026-11-04"
  },
  {
@@ -87,31 +88,18 @@
   "axes": [
    "model"
   ],
-  "score": 6.16,
+  "score": 6.03,
   "date": "2026-11-04"
  },
  {
-  "key": "4c9144ff25ecb5a6",
-  "title": "Introducing Hy4 (open weights soon)",
-  "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnhzbz/introducing_hy4_open_weights_soon/",
+  "key": "1b60f03f2f164ea2",
+  "title": "Deepseek V4.1 flash 1017 on 4rtx3090 + 256ddr4 ( Maya - engine )",
+  "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnkr5q/deepseek_v41_flash_1017_on_4rtx3090_256ddr4_maya/",
   "source": "reddit-localllama",
   "axes": [
    "model"
   ],
-  "score": 5.67,
-  "date": "2026-11-04"
- },
- {
-  "key": "2817e766b2135c37",
-  "title": "Sparseal Releases AI-Assisted Retopology App For PC",
-  "url": "https://80.lv/articles/sparseal-releases-ai-assisted-retopology-app-for-pc/",
-  "source": "80lv",
-  "axes": [
-   "game",
-   "image",
-   "threed"
-  ],
-  "score": 4.57,
+  "score": 5.98,
   "date": "2026-11-04"
  },
  {
@@ -124,7 +112,7 @@
    "model",
    "people"
   ],
-  "score": 7.34,
+  "score": 7.23,
   "date": "2026-11-04"
  },
  {
@@ -137,7 +125,7 @@
    "model",
    "people"
   ],
-  "score": 7.19,
+  "score": 6.89,
   "date": "2026-11-04"
  },
  {
@@ -148,29 +136,29 @@
   "axes": [
    "model"
   ],
-  "score": 6.74,
+  "score": 6.83,
   "date": "2026-11-04"
  },
  {
-  "key": "50cbe23a98879edb",
-  "title": "MoviEdit: Long-form Multi-Shot Video Editing Made Easy",
-  "url": "https://huggingface.co/papers/2611.02737",
+  "key": "2b917ca544044e55",
+  "title": "Factorized MLLM Embeddings for Composed Image Retrieval",
+  "url": "https://huggingface.co/papers/2611.05193",
   "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 6.18,
+  "date": "2026-11-04"
+ },
+ {
+  "key": "b1ad12d183ea0b11",
+  "title": "For those missing the old days of video",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xnpbvh/for_those_missing_the_old_days_of_video/",
+  "source": "reddit-stablediffusion",
   "axes": [
    "video"
   ],
-  "score": 6.39,
-  "date": "2026-11-04"
- },
- {
-  "key": "eea43bcd78e563d3",
-  "title": "ND UI Builder: a free, open-source tool to build your own clean control panel for ComfyUI workflows",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xnfvei/nd_ui_builder_a_free_opensource_tool_to_build/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image"
-  ],
-  "score": 6.24,
+  "score": 6.17,
   "date": "2026-11-04"
  },
  {
@@ -182,18 +170,7 @@
    "image",
    "threed"
   ],
-  "score": 6.21,
-  "date": "2026-11-04"
- },
- {
-  "key": "d59870ade841f928",
-  "title": "We will take your RAM",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xni4yd/we_will_take_your_ram/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "threed"
-  ],
-  "score": 6.12,
+  "score": 6.06,
   "date": "2026-11-04"
  },
  {
@@ -205,7 +182,18 @@
    "threed",
    "video"
   ],
-  "score": 5.99,
+  "score": 5.84,
+  "date": "2026-11-04"
+ },
+ {
+  "key": "5925076be602f645",
+  "title": "How to get this specific effect in krea2 turbo",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xnm5a4/how_to_get_this_specific_effect_in_krea2_turbo/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 5.83,
   "date": "2026-11-04"
  }
 ]
