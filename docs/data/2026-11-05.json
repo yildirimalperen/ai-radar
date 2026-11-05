@@ -1,0 +1,232 @@
+[
+ {
+  "key": "8fd011acc6138260",
+  "title": "Kimi K3.1 Pro model weights are out",
+  "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+  "source": "hackernews",
+  "axes": [
+   "model"
+  ],
+  "score": 8.73,
+  "date": "2026-11-05"
+ },
+ {
+  "key": "23da7c1457f64ea0",
+  "title": "Introducing Images 2.6",
+  "url": "https://openai.com/index/introducing-images-2-6",
+  "source": "openai",
+  "axes": [
+   "image",
+   "model"
+  ],
+  "score": 7.69,
+  "date": "2026-11-05"
+ },
+ {
+  "key": "1ddd2b66330e658e",
+  "title": "AI is forcing us to pay off 40 years of technical debt",
+  "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 7.36,
+  "date": "2026-11-05"
+ },
+ {
+  "key": "f1b5cef6380c723c",
+  "title": "From Pixels to Actions - Towards Native Vision-Language-Action Policies",
+  "url": "https://huggingface.co/papers/2611.06918",
+  "source": "hf-papers",
+  "axes": [
+   "people"
+  ],
+  "score": 7.2,
+  "date": "2026-11-05"
+ },
+ {
+  "key": "a407c041dc9cad7b",
+  "title": "Fizgig 9.0.4: Fibo 2.0 training, Z-Image Base, masks from Sam 3.1, Detail crops for styles",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xo18u8/fizgig_904_fibo_20_training_zimage_base_masks/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image",
+   "model"
+  ],
+  "score": 7.15,
+  "date": "2026-11-05"
+ },
+ {
+  "key": "a6b8cec4f6a84773",
+  "title": "PyRUA-DataFarm: LLM Agent as a Cost-Efficient Teleoperator for Real-Ready Robot Data",
+  "url": "https://huggingface.co/papers/2611.05320",
+  "source": "hf-papers",
+  "axes": [
+   "model",
+   "video"
+  ],
+  "score": 7.06,
+  "date": "2026-11-05"
+ },
+ {
+  "key": "33e5d6ca669d8024",
+  "title": "Itch.io Revises AI Content Policies After Removing AI-Generated Games",
+  "url": "https://80.lv/articles/itch-io-revises-ai-content-policies-after-removing-ai-generated-games/",
+  "source": "80lv",
+  "axes": [
+   "game"
+  ],
+  "score": 6.87,
+  "date": "2026-11-05"
+ },
+ {
+  "key": "591cd94de9f9ad3c",
+  "title": "datasette-llm 0.1a10",
+  "url": "https://simonwillison.net/2026/Nov/4/datasette-llm/",
+  "source": "simonwillison",
+  "axes": [
+   "model"
+  ],
+  "score": 6.12,
+  "date": "2026-11-05"
+ },
+ {
+  "key": "85edc3a713c79419",
+  "title": "Sage, Sol, Kitchen, etc...ffs, I just want to grill!",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xo3rl7/sage_sol_kitchen_etcffs_i_just_want_to_grill/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.03,
+  "date": "2026-11-05"
+ },
+ {
+  "key": "19ba939af02e1d93",
+  "title": "Need help in picking the right choice in game development",
+  "url": "https://www.reddit.com/r/gamedev/comments/1xocxe2/need_help_in_picking_the_right_choice_in_game/",
+  "source": "reddit-gamedev",
+  "axes": [
+   "game"
+  ],
+  "score": 5.84,
+  "date": "2026-11-05"
+ },
+ {
+  "key": "4ab51330418a0b6c",
+  "title": "datasette-agent 0.5a0",
+  "url": "https://simonwillison.net/2026/Nov/3/datasette-agent/",
+  "source": "simonwillison",
+  "axes": [
+   "model"
+  ],
+  "score": 5.8,
+  "date": "2026-11-05"
+ },
+ {
+  "key": "65d9d0a59fbd02f2",
+  "title": "Can you make this up? Dev cries about people stealing games via demos, gets exposed for stealing the game himself",
+  "url": "https://www.reddit.com/r/gamedev/comments/1xobbq0/can_you_make_this_up_dev_cries_about_people/",
+  "source": "reddit-gamedev",
+  "axes": [
+   "game"
+  ],
+  "score": 5.77,
+  "date": "2026-11-05"
+ },
+ {
+  "key": "3927009e2427282d",
+  "title": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
+  "url": "https://news.ycombinator.com/item?id=50363461",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 7.03,
+  "date": "2026-11-05"
+ },
+ {
+  "key": "194c516d3daf03f3",
+  "title": "Turns Matter: Advancing Streaming Video RL via Turn-Level Credit",
+  "url": "https://huggingface.co/papers/2611.06728",
+  "source": "hf-papers",
+  "axes": [
+   "video"
+  ],
+  "score": 6.98,
+  "date": "2026-11-05"
+ },
+ {
+  "key": "4736f452d8c0b96c",
+  "title": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux",
+  "url": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 6.63,
+  "date": "2026-11-05"
+ },
+ {
+  "key": "4c49c093aa5d60a8",
+  "title": "GameVerse: A Minute-Scale Gameplay Dataset for Long-Horizon Interactive World Modeling",
+  "url": "https://huggingface.co/papers/2610.37257",
+  "source": "hf-papers",
+  "axes": [
+   "game"
+  ],
+  "score": 6.3,
+  "date": "2026-11-05"
+ },
+ {
+  "key": "2ff42130924750f0",
+  "title": "How you get streamers for your games? ~ Really zero budget",
+  "url": "https://www.reddit.com/r/gamedev/comments/1xob5aj/how_you_get_streamers_for_your_games_really_zero/",
+  "source": "reddit-gamedev",
+  "axes": [
+   "game"
+  ],
+  "score": 5.76,
+  "date": "2026-11-05"
+ },
+ {
+  "key": "94e9a546c29648e9",
+  "title": "AuroraIMG2-100M Releases!",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xnzxr6/auroraimg2100m_releases/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "model"
+  ],
+  "score": 5.28,
+  "date": "2026-11-05"
+ },
+ {
+  "key": "86043e7d28cdac88",
+  "title": "OpenAI to acquire Pierre Computer Company, Inc.",
+  "url": "https://openai.com/index/openai-to-acquire-pierre",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 5.17,
+  "date": "2026-11-05"
+ },
+ {
+  "key": "6341381662ee7712",
+  "title": "Perceptive Humanoid Motion from Simulation",
+  "url": "https://arxiv.org/abs/2611.06908v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "video"
+  ],
+  "score": 5.16,
+  "date": "2026-11-05"
+ }
+]
