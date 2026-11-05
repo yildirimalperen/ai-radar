@@ -1,5 +1,18 @@
 [
  {
+  "key": "699f8fc0295a1b9f",
+  "title": "A thousand fewer paths to root",
+  "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+  "source": "openai",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 9.7,
+  "date": "2026-11-05"
+ },
+ {
   "key": "8fd011acc6138260",
   "title": "Kimi K3.1 Pro model weights are out",
   "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
@@ -7,7 +20,7 @@
   "axes": [
    "model"
   ],
-  "score": 8.73,
+  "score": 7.72,
   "date": "2026-11-05"
  },
  {
@@ -19,7 +32,7 @@
    "image",
    "model"
   ],
-  "score": 7.69,
+  "score": 7.62,
   "date": "2026-11-05"
  },
  {
@@ -32,7 +45,7 @@
    "model",
    "people"
   ],
-  "score": 7.36,
+  "score": 7.26,
   "date": "2026-11-05"
  },
  {
@@ -47,15 +60,92 @@
   "date": "2026-11-05"
  },
  {
-  "key": "a407c041dc9cad7b",
-  "title": "Fizgig 9.0.4: Fibo 2.0 training, Z-Image Base, masks from Sam 3.1, Detail crops for styles",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xo18u8/fizgig_904_fibo_20_training_zimage_base_masks/",
-  "source": "reddit-stablediffusion",
+  "key": "d8bb5ff2dd3c260c",
+  "title": "StreamDuo: A Live Commentator and a Research Agent for Unseen Games",
+  "url": "https://huggingface.co/papers/2611.01120",
+  "source": "hf-papers",
   "axes": [
-   "image",
+   "game",
    "model"
   ],
-  "score": 7.15,
+  "score": 6.89,
+  "date": "2026-11-05"
+ },
+ {
+  "key": "77fc309ba1ec1911",
+  "title": "Krea 2 Turbo - 4 Step LoRA comeback (trained to 133K checkpoint, around 55K more than the 'final' 78K in Sep)",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xohwh5/krea_2_turbo_4_step_lora_comeback_trained_to_133k/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.68,
+  "date": "2026-11-05"
+ },
+ {
+  "key": "33e5d6ca669d8024",
+  "title": "Itch.io Revises AI Content Policies After Removing AI-Generated Games",
+  "url": "https://80.lv/articles/itch-io-revises-ai-content-policies-after-removing-ai-generated-games/",
+  "source": "80lv",
+  "axes": [
+   "game"
+  ],
+  "score": 6.65,
+  "date": "2026-11-05"
+ },
+ {
+  "key": "16bb3ad1ed2c54b2",
+  "title": "I tested Regenerate 2K with MiniMax H3: 14 runs, same seed. More detail, but for real people it either invents flaws or changes the face",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xob7nl/i_tested_regenerate_2k_with_minimax_h3_14_runs/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.61,
+  "date": "2026-11-05"
+ },
+ {
+  "key": "ab056379f0d3e844",
+  "title": "Genie 4: A new generation of world simulation",
+  "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+  "source": "deepmind",
+  "axes": [
+   "video"
+  ],
+  "score": 6.36,
+  "date": "2026-11-05"
+ },
+ {
+  "key": "591cd94de9f9ad3c",
+  "title": "datasette-llm 0.1a10",
+  "url": "https://simonwillison.net/2026/Nov/4/datasette-llm/",
+  "source": "simonwillison",
+  "axes": [
+   "model"
+  ],
+  "score": 6.0,
+  "date": "2026-11-05"
+ },
+ {
+  "key": "7117616949260e96",
+  "title": "OpenAI CEO Sam Altman Responds to Backlash Over His Comments on PC RAM",
+  "url": "https://80.lv/articles/openai-ceo-sam-altman-responds-to-backlash-over-his-comments-on-pc-ram/",
+  "source": "80lv",
+  "axes": [
+   "people"
+  ],
+  "score": 5.06,
+  "date": "2026-11-05"
+ },
+ {
+  "key": "194c516d3daf03f3",
+  "title": "Turns Matter: Advancing Streaming Video RL via Turn-Level Credit",
+  "url": "https://huggingface.co/papers/2611.06728",
+  "source": "hf-papers",
+  "axes": [
+   "video"
+  ],
+  "score": 7.25,
   "date": "2026-11-05"
  },
  {
@@ -67,73 +157,7 @@
    "model",
    "video"
   ],
-  "score": 7.06,
-  "date": "2026-11-05"
- },
- {
-  "key": "33e5d6ca669d8024",
-  "title": "Itch.io Revises AI Content Policies After Removing AI-Generated Games",
-  "url": "https://80.lv/articles/itch-io-revises-ai-content-policies-after-removing-ai-generated-games/",
-  "source": "80lv",
-  "axes": [
-   "game"
-  ],
-  "score": 6.87,
-  "date": "2026-11-05"
- },
- {
-  "key": "591cd94de9f9ad3c",
-  "title": "datasette-llm 0.1a10",
-  "url": "https://simonwillison.net/2026/Nov/4/datasette-llm/",
-  "source": "simonwillison",
-  "axes": [
-   "model"
-  ],
-  "score": 6.12,
-  "date": "2026-11-05"
- },
- {
-  "key": "85edc3a713c79419",
-  "title": "Sage, Sol, Kitchen, etc...ffs, I just want to grill!",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xo3rl7/sage_sol_kitchen_etcffs_i_just_want_to_grill/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image"
-  ],
-  "score": 6.03,
-  "date": "2026-11-05"
- },
- {
-  "key": "19ba939af02e1d93",
-  "title": "Need help in picking the right choice in game development",
-  "url": "https://www.reddit.com/r/gamedev/comments/1xocxe2/need_help_in_picking_the_right_choice_in_game/",
-  "source": "reddit-gamedev",
-  "axes": [
-   "game"
-  ],
-  "score": 5.84,
-  "date": "2026-11-05"
- },
- {
-  "key": "4ab51330418a0b6c",
-  "title": "datasette-agent 0.5a0",
-  "url": "https://simonwillison.net/2026/Nov/3/datasette-agent/",
-  "source": "simonwillison",
-  "axes": [
-   "model"
-  ],
-  "score": 5.8,
-  "date": "2026-11-05"
- },
- {
-  "key": "65d9d0a59fbd02f2",
-  "title": "Can you make this up? Dev cries about people stealing games via demos, gets exposed for stealing the game himself",
-  "url": "https://www.reddit.com/r/gamedev/comments/1xobbq0/can_you_make_this_up_dev_cries_about_people/",
-  "source": "reddit-gamedev",
-  "axes": [
-   "game"
-  ],
-  "score": 5.77,
+  "score": 7.02,
   "date": "2026-11-05"
  },
  {
@@ -146,18 +170,29 @@
    "model",
    "people"
   ],
-  "score": 7.03,
+  "score": 5.92,
   "date": "2026-11-05"
  },
  {
-  "key": "194c516d3daf03f3",
-  "title": "Turns Matter: Advancing Streaming Video RL via Turn-Level Credit",
-  "url": "https://huggingface.co/papers/2611.06728",
-  "source": "hf-papers",
+  "key": "4b7be4e7fab9fcb6",
+  "title": "Gemini 4 Carbon: Our next frontier model",
+  "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+  "source": "deepmind",
   "axes": [
-   "video"
+   "model"
   ],
-  "score": 6.98,
+  "score": 5.92,
+  "date": "2026-11-05"
+ },
+ {
+  "key": "4ab51330418a0b6c",
+  "title": "datasette-agent 0.5a0",
+  "url": "https://simonwillison.net/2026/Nov/3/datasette-agent/",
+  "source": "simonwillison",
+  "axes": [
+   "model"
+  ],
+  "score": 5.73,
   "date": "2026-11-05"
  },
  {
@@ -170,63 +205,30 @@
    "model",
    "people"
   ],
-  "score": 6.63,
+  "score": 5.68,
   "date": "2026-11-05"
  },
  {
-  "key": "4c49c093aa5d60a8",
-  "title": "GameVerse: A Minute-Scale Gameplay Dataset for Long-Horizon Interactive World Modeling",
-  "url": "https://huggingface.co/papers/2610.37257",
-  "source": "hf-papers",
-  "axes": [
-   "game"
-  ],
-  "score": 6.3,
-  "date": "2026-11-05"
- },
- {
-  "key": "2ff42130924750f0",
-  "title": "How you get streamers for your games? ~ Really zero budget",
-  "url": "https://www.reddit.com/r/gamedev/comments/1xob5aj/how_you_get_streamers_for_your_games_really_zero/",
-  "source": "reddit-gamedev",
-  "axes": [
-   "game"
-  ],
-  "score": 5.76,
-  "date": "2026-11-05"
- },
- {
-  "key": "94e9a546c29648e9",
-  "title": "AuroraIMG2-100M Releases!",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xnzxr6/auroraimg2100m_releases/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "model"
-  ],
-  "score": 5.28,
-  "date": "2026-11-05"
- },
- {
-  "key": "86043e7d28cdac88",
-  "title": "OpenAI to acquire Pierre Computer Company, Inc.",
-  "url": "https://openai.com/index/openai-to-acquire-pierre",
+  "key": "e31fe801df11730e",
+  "title": "Setting a new standard for responsible AI infrastructure",
+  "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
   "source": "openai",
   "axes": [
    "model",
    "people"
   ],
-  "score": 5.17,
+  "score": 5.34,
   "date": "2026-11-05"
  },
  {
-  "key": "6341381662ee7712",
-  "title": "Perceptive Humanoid Motion from Simulation",
-  "url": "https://arxiv.org/abs/2611.06908v1",
-  "source": "arxiv-cv",
+  "key": "34a9801071835b65",
+  "title": "Qwen3.8-27B has become unuseable recently",
+  "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xoeeyf/qwen3827b_has_become_unuseable_recently/",
+  "source": "reddit-localllama",
   "axes": [
-   "video"
+   "model"
   ],
-  "score": 5.16,
+  "score": 5.15,
   "date": "2026-11-05"
  }
 ]
