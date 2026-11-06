@@ -1,18 +1,5 @@
 [
  {
-  "key": "699f8fc0295a1b9f",
-  "title": "A thousand fewer paths to root",
-  "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
-  "source": "openai",
-  "axes": [
-   "infra",
-   "model",
-   "people"
-  ],
-  "score": 9.49,
-  "date": "2026-11-06"
- },
- {
   "key": "c0e28dc82c612120",
   "title": "VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding",
   "url": "https://huggingface.co/papers/2611.08449",
@@ -21,6 +8,17 @@
    "image"
   ],
   "score": 8.43,
+  "date": "2026-11-06"
+ },
+ {
+  "key": "2b88f0c8a155cbcf",
+  "title": "TailSteer: Trajectory-Tail Steering for Drift-Resistant Multi-turn Image Editing",
+  "url": "https://huggingface.co/papers/2611.06741",
+  "source": "hf-papers",
+  "axes": [
+   "image"
+  ],
+  "score": 7.71,
   "date": "2026-11-06"
  },
  {
@@ -33,18 +31,99 @@
    "model",
    "people"
   ],
-  "score": 7.63,
+  "score": 7.52,
   "date": "2026-11-06"
  },
  {
-  "key": "2b88f0c8a155cbcf",
-  "title": "TailSteer: Trajectory-Tail Steering for Drift-Resistant Multi-turn Image Editing",
-  "url": "https://huggingface.co/papers/2611.06741",
-  "source": "hf-papers",
+  "key": "fce7c1bfb004ceb8",
+  "title": "Blender's UI and Runtime: Much Faster Than GPUI",
+  "url": "https://github.com/ppmpreetham/BUI",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "threed"
+  ],
+  "score": 6.84,
+  "date": "2026-11-06"
+ },
+ {
+  "key": "143966527fab44c8",
+  "title": "Super Huge Update for Minimax H3 Temporal Spatial Node 🔥🔥🔥",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xp9nbb/super_huge_update_for_minimax_h3_temporal_spatial/",
+  "source": "reddit-stablediffusion",
   "axes": [
    "image"
   ],
-  "score": 6.48,
+  "score": 6.8,
+  "date": "2026-11-06"
+ },
+ {
+  "key": "65accc445bc4d556",
+  "title": "Unity reports \"strongest ever\" Q3 results driven by its AI-powered ad network Vector",
+  "url": "https://www.gamesindustry.biz/unity-reports-strongest-ever-q3-results-driven-by-its-ai-powered-ad-network-vector",
+  "source": "gamesindustry",
+  "axes": [
+   "game"
+  ],
+  "score": 5.72,
+  "date": "2026-11-06"
+ },
+ {
+  "key": "5a88d1dbbb315f66",
+  "title": "Good news bad news…",
+  "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpcl6w/good_news_bad_news/",
+  "source": "reddit-localllama",
+  "axes": [
+   "model"
+  ],
+  "score": 5.7,
+  "date": "2026-11-06"
+ },
+ {
+  "key": "464eb309854d0559",
+  "title": "Latest Open-Source Labs are gutting away cybersecurity and reverse-engineering capabilities",
+  "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xp9jt1/latest_opensource_labs_are_gutting_away/",
+  "source": "reddit-localllama",
+  "axes": [
+   "model"
+  ],
+  "score": 5.58,
+  "date": "2026-11-06"
+ },
+ {
+  "key": "f8af198f4f9dcbff",
+  "title": "The Wizard of Open Weights: Chris Alexiuk Makes AI Easy With Open Models",
+  "url": "https://blogs.nvidia.com/blog/nvidia-life-chris-alexiuk/",
+  "source": "nvidia-genai",
+  "axes": [
+   "model"
+  ],
+  "score": 5.52,
+  "date": "2026-11-06"
+ },
+ {
+  "key": "215aca78406efa82",
+  "title": "WeLM-Image: A Unified Image Generation Model towards Visual Intelligence",
+  "url": "https://huggingface.co/papers/2611.07392",
+  "source": "hf-papers",
+  "axes": [
+   "image",
+   "model"
+  ],
+  "score": 7.55,
+  "date": "2026-11-06"
+ },
+ {
+  "key": "306e5a0523c52171",
+  "title": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
+  "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 6.17,
   "date": "2026-11-06"
  },
  {
@@ -55,7 +134,18 @@
   "axes": [
    "image"
   ],
-  "score": 6.22,
+  "score": 6.04,
+  "date": "2026-11-06"
+ },
+ {
+  "key": "47133fbdfb72d9a2",
+  "title": "SLA: Scaling Spatial-Language-Action Model via Continual Pre-training",
+  "url": "https://huggingface.co/papers/2611.08373",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 6.0,
   "date": "2026-11-06"
  },
  {
@@ -67,73 +157,18 @@
    "image",
    "threed"
   ],
-  "score": 6.04,
+  "score": 5.93,
   "date": "2026-11-06"
  },
  {
-  "key": "f8af198f4f9dcbff",
-  "title": "The Wizard of Open Weights: Chris Alexiuk Makes AI Easy With Open Models",
-  "url": "https://blogs.nvidia.com/blog/nvidia-life-chris-alexiuk/",
-  "source": "nvidia-genai",
+  "key": "917a49d2e26da4c4",
+  "title": "Asking questions to a 0.5b model is hillarious",
+  "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xp8as6/asking_questions_to_a_05b_model_is_hillarious/",
+  "source": "reddit-localllama",
   "axes": [
    "model"
   ],
-  "score": 5.64,
-  "date": "2026-11-06"
- },
- {
-  "key": "042f43fa7255ac92",
-  "title": "Introducing Fuobe, an all in one creative studio built during the comfy challenge and went a bit overboard, working day and night on this. MIT License, Fully Open Source.",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xp0weu/introducing_fuobe_an_all_in_one_creative_studio/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "model"
-  ],
-  "score": 5.45,
-  "date": "2026-11-06"
- },
- {
-  "key": "8a376b474c7491dc",
-  "title": "(update) LTX2.5 motion and consistency FIXED",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xp02du/update_ltx25_motion_and_consistency_fixed/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "video"
-  ],
-  "score": 5.87,
-  "date": "2026-11-06"
- },
- {
-  "key": "fc49b9dd6836ab3b",
-  "title": "RelayVSR- Video Super-Resolution",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xozwa8/relayvsr_video_superresolution/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "video"
-  ],
-  "score": 5.86,
-  "date": "2026-11-06"
- },
- {
-  "key": "81870f5ed70079ba",
-  "title": "Harness-S: Learning from Sibling Harnesses for Generalizable Agent Training",
-  "url": "https://huggingface.co/papers/2611.04277",
-  "source": "hf-papers",
-  "axes": [
-   "model"
-  ],
-  "score": 5.79,
-  "date": "2026-11-06"
- },
- {
-  "key": "ee53b3bcfcaa2eb6",
-  "title": "Random Is Almost Enough? Stable and Low-Cost Benchmark Compression via BestRand",
-  "url": "https://huggingface.co/papers/2611.00883",
-  "source": "hf-papers",
-  "axes": [
-   "model"
-  ],
-  "score": 5.64,
+  "score": 5.53,
   "date": "2026-11-06"
  },
  {
@@ -145,43 +180,19 @@
    "threed",
    "video"
   ],
-  "score": 5.51,
+  "score": 5.37,
   "date": "2026-11-06"
  },
  {
-  "key": "1710126dbc45f31a",
-  "title": "Cult.fit builds operational muscle with Codex",
-  "url": "https://openai.com/index/cultfit-builds-with-codex",
-  "source": "openai",
-  "axes": [
-   "model",
-   "people"
-  ],
-  "score": 5.32,
-  "date": "2026-11-06"
- },
- {
-  "key": "c849706e2ec8c8bc",
-  "title": "Australian universities are creating AI-native graduates",
-  "url": "https://openai.com/index/australian-universities-ai-native-graduates",
-  "source": "openai",
-  "axes": [
-   "model",
-   "people"
-  ],
-  "score": 5.24,
-  "date": "2026-11-06"
- },
- {
-  "key": "27b186590828919b",
-  "title": "Do You Miss the Nights We Spent Crafting Figures? Rethinking Teaser and Framework Figures in the Age of Generative AI",
-  "url": "https://arxiv.org/abs/2611.08486v1",
-  "source": "arxiv-cv",
+  "key": "5008563d4db730e8",
+  "title": "ToyBlocks: A controlled world for robot learning and evaluation",
+  "url": "https://huggingface.co/blog/allenai/toyblocks",
+  "source": "huggingface-blog",
   "axes": [
    "infra",
    "model"
   ],
-  "score": 5.22,
+  "score": 5.3,
   "date": "2026-11-06"
  }
 ]
