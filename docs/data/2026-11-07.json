@@ -1,24 +1,27 @@
 [
  {
-  "key": "9c275af53e3462e3",
-  "title": "Updated hyperflow-h3-flash (4, 6, or 8 steps)",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xq0kuk/updated_hyperflowh3flash_4_6_or_8_steps/",
+  "key": "2e81933b89fb3716",
+  "title": "SCAIL-2 vs MiniMax for Motion Control – RTX 5090",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xq2wze/scail2_vs_minimax_for_motion_control_rtx_5090/",
   "source": "reddit-stablediffusion",
   "axes": [
-   "image"
+   "image",
+   "video"
   ],
-  "score": 6.36,
+  "score": 7.09,
   "date": "2026-11-07"
  },
  {
-  "key": "bfd94b0d091e9ac7",
-  "title": "Measuring how AI agents handle everyday wet-lab science",
-  "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
-  "source": "openai",
+  "key": "b5f4ebe839aa9fc0",
+  "title": "AI is dramatically accelerating AI research",
+  "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
+  "source": "hackernews",
   "axes": [
-   "model"
+   "infra",
+   "model",
+   "people"
   ],
-  "score": 6.33,
+  "score": 6.52,
   "date": "2026-11-07"
  },
  {
@@ -34,9 +37,20 @@
   "date": "2026-11-07"
  },
  {
-  "key": "f48e80cfced61fea",
-  "title": "它是否被严重低估了？",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xpxs3y/它是否被严重低估了/",
+  "key": "bfd94b0d091e9ac7",
+  "title": "Measuring how AI agents handle everyday wet-lab science",
+  "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+  "source": "openai",
+  "axes": [
+   "model"
+  ],
+  "score": 6.26,
+  "date": "2026-11-07"
+ },
+ {
+  "key": "1ca83266007e1c0e",
+  "title": "C++ Desktop Client for ComfyUI",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xq2eei/c_desktop_client_for_comfyui/",
   "source": "reddit-stablediffusion",
   "axes": [
    "image"
@@ -45,15 +59,26 @@
   "date": "2026-11-07"
  },
  {
-  "key": "fce7c1bfb004ceb8",
-  "title": "Blender's UI and Runtime: Much Faster Than GPUI",
-  "url": "https://github.com/ppmpreetham/BUI",
+  "key": "06f9d3a5e42dfc87",
+  "title": "Anthropic IPO buyers see valuation as low as $1.1T",
+  "url": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
   "source": "hackernews",
   "axes": [
-   "infra",
-   "threed"
+   "people"
   ],
-  "score": 5.88,
+  "score": 6.22,
+  "date": "2026-11-07"
+ },
+ {
+  "key": "9189d14cb44b58e3",
+  "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+  "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
+  "source": "deepmind",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 5.95,
   "date": "2026-11-07"
  },
  {
@@ -64,7 +89,7 @@
   "axes": [
    "game"
   ],
-  "score": 5.49,
+  "score": 5.42,
   "date": "2026-11-07"
  },
  {
@@ -76,7 +101,7 @@
    "model",
    "people"
   ],
-  "score": 5.04,
+  "score": 4.95,
   "date": "2026-11-07"
  },
  {
@@ -90,7 +115,7 @@
    "threed",
    "video"
   ],
-  "score": 4.96,
+  "score": 4.79,
   "date": "2026-11-07"
  },
  {
@@ -101,7 +126,40 @@
   "axes": [
    "infra"
   ],
-  "score": 4.78,
+  "score": 4.66,
+  "date": "2026-11-07"
+ },
+ {
+  "key": "aecc65223e9da4a0",
+  "title": "EgoGeneralist: Unifying Egocentric Action-Video Tasks through Video-Native Modeling",
+  "url": "https://arxiv.org/abs/2611.08477v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "video"
+  ],
+  "score": 4.64,
+  "date": "2026-11-07"
+ },
+ {
+  "key": "47fb72433dcd6f33",
+  "title": "TBG ComfyUi Node for Layered Decomposition – RevealLayer",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xq27mf/tbg_comfyui_node_for_layered_decomposition/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.23,
+  "date": "2026-11-07"
+ },
+ {
+  "key": "1b8fd8042730c24d",
+  "title": "p-h3-image 2 step lora is out",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xq1po9/ph3image_2_step_lora_is_out/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.21,
   "date": "2026-11-07"
  },
  {
@@ -114,29 +172,19 @@
    "model",
    "people"
   ],
-  "score": 4.69,
+  "score": 5.91,
   "date": "2026-11-07"
  },
  {
-  "key": "b6099781970ee211",
-  "title": "Some interesting result when test styles on Kroma",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xpw26m/some_interesting_result_when_test_styles_on_kroma/",
-  "source": "reddit-stablediffusion",
+  "key": "fce7c1bfb004ceb8",
+  "title": "Blender's UI and Runtime: Much Faster Than GPUI",
+  "url": "https://github.com/ppmpreetham/BUI",
+  "source": "hackernews",
   "axes": [
-   "image"
-  ],
-  "score": 6.18,
-  "date": "2026-11-07"
- },
- {
-  "key": "72b56e5986e01187",
-  "title": "viggle image swap for multi character swap",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xpyeta/viggle_image_swap_for_multi_character_swap/",
-  "source": "reddit-stablediffusion",
-  "axes": [
+   "infra",
    "threed"
   ],
-  "score": 6.04,
+  "score": 5.85,
   "date": "2026-11-07"
  },
  {
@@ -148,7 +196,7 @@
    "model",
    "people"
   ],
-  "score": 4.71,
+  "score": 4.67,
   "date": "2026-11-07"
  },
  {
@@ -160,18 +208,7 @@
    "model",
    "people"
   ],
-  "score": 4.7,
-  "date": "2026-11-07"
- },
- {
-  "key": "aecc65223e9da4a0",
-  "title": "EgoGeneralist: Unifying Egocentric Action-Video Tasks through Video-Native Modeling",
-  "url": "https://arxiv.org/abs/2611.08477v1",
-  "source": "arxiv-cv",
-  "axes": [
-   "video"
-  ],
-  "score": 4.7,
+  "score": 4.67,
   "date": "2026-11-07"
  },
  {
@@ -182,21 +219,7 @@
   "axes": [
    "video"
   ],
-  "score": 4.67,
-  "date": "2026-11-07"
- },
- {
-  "key": "f659922fdf6883b8",
-  "title": "Halley: A Predictive Control Plane for Optical AI Data Center Networks",
-  "url": "https://huggingface.co/papers/2611.04408",
-  "source": "hf-papers",
-  "axes": [
-   "image",
-   "model",
-   "threed",
-   "video"
-  ],
-  "score": 4.63,
+  "score": 4.62,
   "date": "2026-11-07"
  },
  {
@@ -207,7 +230,7 @@
   "axes": [
    "threed"
   ],
-  "score": 4.63,
+  "score": 4.58,
   "date": "2026-11-07"
  }
 ]
