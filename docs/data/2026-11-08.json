@@ -1,5 +1,30 @@
 [
  {
+  "key": "865863154a2dbb36",
+  "title": "Goodbye Claude, Hello Pi",
+  "url": "https://caleb.software/posts/claude-to-pi.html",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 7.48,
+  "date": "2026-11-08"
+ },
+ {
+  "key": "5b4b208491b3b77c",
+  "title": "ComfyUI Readable Node: an agent skill for turning messy workflows into readable ones",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xqurqs/comfyui_readable_node_an_agent_skill_for_turning/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image",
+   "model"
+  ],
+  "score": 6.96,
+  "date": "2026-11-08"
+ },
+ {
   "key": "4e7aa3fc7ad10381",
   "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
   "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
@@ -9,55 +34,29 @@
    "model",
    "people"
   ],
-  "score": 7.37,
+  "score": 6.92,
   "date": "2026-11-08"
  },
  {
-  "key": "8702ad978d15b445",
-  "title": "The end of Microsoft Research's AI Frontiers group",
-  "url": "https://hunch.net/?p=13764006",
-  "source": "hackernews",
-  "axes": [
-   "infra",
-   "model",
-   "people"
-  ],
-  "score": 7.29,
-  "date": "2026-11-08"
- },
- {
-  "key": "06b44d03a85cf2e7",
-  "title": "Wanted to create a music reactivity project using Unreal and a pre-existing NYC 2016 subway model. I took the model and upscaled every texture to 4k using SeedVR2 and used Krea 2 to add more details and then used Touch Designer for the light reactivity",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xqnfr0/wanted_to_create_a_music_reactivity_project_using/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image",
-   "model"
-  ],
-  "score": 6.85,
-  "date": "2026-11-08"
- },
- {
-  "key": "4685d2f1f71db662",
-  "title": "MOSS-Image 5B now runs fully on a phone NPU (Snapdragon 8 Gen 1 / 8+ Gen 1): ~30 s for 512x768, free app, your own LoRA supported",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xqltcv/mossimage_5b_now_runs_fully_on_a_phone_npu/",
+  "key": "ca23f3f6132ff0d7",
+  "title": "No module named 'llama_ccp'",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xqv88z/no_module_named_llama_ccp/",
   "source": "reddit-stablediffusion",
   "axes": [
    "image"
   ],
-  "score": 6.61,
+  "score": 6.26,
   "date": "2026-11-08"
  },
  {
-  "key": "6cc11434f3cc8b74",
-  "title": "datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages",
-  "url": "https://simonwillison.net/2026/Nov/7/link-rel-next/",
-  "source": "simonwillison",
+  "key": "cadb4a65e5f058f7",
+  "title": "About 250 unknown developers break through every year, same as in 2016. Five times as many try now. In 2015 a game that players liked had a 1 in 3 chance to reach 1,000 reviews. Now it is 1 in 10.",
+  "url": "https://www.reddit.com/r/gamedev/comments/1xqv50d/about_250_unknown_developers_break_through_every/",
+  "source": "reddit-gamedev",
   "axes": [
-   "infra",
-   "model"
+   "game"
   ],
-  "score": 4.96,
+  "score": 5.76,
   "date": "2026-11-08"
  },
  {
@@ -71,19 +70,76 @@
    "threed",
    "video"
   ],
-  "score": 4.92,
+  "score": 4.99,
   "date": "2026-11-08"
  },
  {
-  "key": "4d579565ae497a2f",
-  "title": "How many of you are missing their release date on steam ?",
-  "url": "https://www.reddit.com/r/gamedev/comments/1xqsbqv/how_many_of_you_are_missing_their_release_date_on/",
-  "source": "reddit-gamedev",
+  "key": "6cc11434f3cc8b74",
+  "title": "datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages",
+  "url": "https://simonwillison.net/2026/Nov/7/link-rel-next/",
+  "source": "simonwillison",
   "axes": [
-   "game",
+   "infra",
    "model"
   ],
-  "score": 4.74,
+  "score": 4.81,
+  "date": "2026-11-08"
+ },
+ {
+  "key": "dfd0f0568228e585",
+  "title": "Google AI Releases Elephant-Goldfish Model Plugin for Spec-First Coding",
+  "url": "https://www.marktechpost.com/2026/11/08/google-elephant-goldfish-model-plugin-spec-review-coding-agents/",
+  "source": "marktechpost",
+  "axes": [
+   "model"
+  ],
+  "score": 4.62,
+  "date": "2026-11-08"
+ },
+ {
+  "key": "8702ad978d15b445",
+  "title": "The end of Microsoft Research's AI Frontiers group",
+  "url": "https://hunch.net/?p=13764006",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 6.64,
+  "date": "2026-11-08"
+ },
+ {
+  "key": "d847ae7c4c9c693e",
+  "title": "MOSS Comparison Chart",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xqx0x6/moss_comparison_chart/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "model"
+  ],
+  "score": 5.68,
+  "date": "2026-11-08"
+ },
+ {
+  "key": "a316c010aaa470e6",
+  "title": "MiniMax H3 single frame edit excels at character consistency and identity preservation. Do we really need character LoRAs anymore?",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xqx0jt/minimax_h3_single_frame_edit_excels_at_character/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "threed"
+  ],
+  "score": 4.88,
+  "date": "2026-11-08"
+ },
+ {
+  "key": "e2883c0159fc3ae9",
+  "title": "Which Routing Does Each MoE Model Use? DeepSeek, Qwen, Mixtral, Llama 4, gpt-oss Compared",
+  "url": "https://www.marktechpost.com/2026/11/08/moe-model-routing-comparison/",
+  "source": "marktechpost",
+  "axes": [
+   "model"
+  ],
+  "score": 4.61,
   "date": "2026-11-08"
  },
  {
@@ -95,30 +151,7 @@
    "model",
    "people"
   ],
-  "score": 4.53,
-  "date": "2026-11-08"
- },
- {
-  "key": "83f77911258a2ef7",
-  "title": "LTX 2.5 music video: good character consistency, but mushy motion and facial detail. How would you improve this workflow?",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xqnnlk/ltx_25_music_video_good_character_consistency_but/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "threed",
-   "video"
-  ],
-  "score": 6.18,
-  "date": "2026-11-08"
- },
- {
-  "key": "15321fe0bfd5c1e8",
-  "title": "Viggle Remake MCP now has a ComfyUI worker (int8 + offload). Raw results: what it nails and where it breaks",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xqojjf/viggle_remake_mcp_now_has_a_comfyui_worker_int8/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image"
-  ],
-  "score": 6.17,
+  "score": 4.51,
   "date": "2026-11-08"
  },
  {
@@ -130,19 +163,7 @@
    "model",
    "people"
   ],
-  "score": 4.52,
-  "date": "2026-11-08"
- },
- {
-  "key": "c74614215924f1eb",
-  "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
-  "url": "https://openai.com/index/daybreak-red-aws-govcloud",
-  "source": "openai",
-  "axes": [
-   "model",
-   "people"
-  ],
-  "score": 4.49,
+  "score": 4.51,
   "date": "2026-11-08"
  },
  {
@@ -158,32 +179,9 @@
   "date": "2026-11-08"
  },
  {
-  "key": "e8094145f300ed7e",
-  "title": "Nous Research Releases Arete-27B that Cuts Qwen3.8-27B Propaganda From 22% to 0.9%",
-  "url": "https://www.marktechpost.com/2026/11/07/nous-research-arete-27b-qwen3-8-27b-propaganda-fine-tune/",
-  "source": "marktechpost",
-  "axes": [
-   "model"
-  ],
-  "score": 4.19,
-  "date": "2026-11-08"
- },
- {
   "key": "c7bf4321ce96e481",
   "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
   "url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
-  "source": "huggingface-blog",
-  "axes": [
-   "infra",
-   "model"
-  ],
-  "score": 4.14,
-  "date": "2026-11-08"
- },
- {
-  "key": "830cd621010ba581",
-  "title": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
-  "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
   "source": "huggingface-blog",
   "axes": [
    "infra",
