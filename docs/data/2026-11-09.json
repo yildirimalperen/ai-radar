@@ -7,7 +7,7 @@
   "axes": [
    "people"
   ],
-  "score": 7.86,
+  "score": 7.72,
   "date": "2026-11-09"
  },
  {
@@ -20,7 +20,19 @@
    "model",
    "people"
   ],
-  "score": 7.44,
+  "score": 7.29,
+  "date": "2026-11-09"
+ },
+ {
+  "key": "621bcfcc304d26d2",
+  "title": "See inside your LoRA during training: heatmaps of what it's learned, what it hasn't, and where it's leaking",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xrtwlw/see_inside_your_lora_during_training_heatmaps_of/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image",
+   "model"
+  ],
+  "score": 7.05,
   "date": "2026-11-09"
  },
  {
@@ -32,41 +44,29 @@
    "image",
    "model"
   ],
-  "score": 6.92,
+  "score": 6.94,
   "date": "2026-11-09"
  },
  {
-  "key": "e22b1182569b93f0",
-  "title": "Live-Action + Blender + Wan 2.2 Lora Hybrid Test",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xrdsj8/liveaction_blender_wan_22_lora_hybrid_test/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image",
-   "threed"
-  ],
-  "score": 6.87,
-  "date": "2026-11-09"
- },
- {
-  "key": "c2da6cc187ca5a77",
-  "title": "Open-H3-Regenerate-2K-IC",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xrkcea/openh3regenerate2kic/",
+  "key": "ab917d1d0ed6e114",
+  "title": "Qwen Image 2.1 Texture inpaint and outpaint lora + custom_nodes for ComfyUI",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xrv6ig/qwen_image_21_texture_inpaint_and_outpaint_lora/",
   "source": "reddit-stablediffusion",
   "axes": [
    "image"
   ],
-  "score": 6.64,
+  "score": 6.73,
   "date": "2026-11-09"
  },
  {
-  "key": "203e61e3e0343695",
-  "title": "The Last Mile to the Real World: Agent-Native Primitives as Reusable Building Blocks for Solving Real-World Tasks",
-  "url": "https://huggingface.co/papers/2611.07461",
+  "key": "196f48c4a35cf99c",
+  "title": "EvoWorld: Towards Out-of-Sight World Evolution in Generative Video Models",
+  "url": "https://huggingface.co/papers/2611.06748",
   "source": "hf-papers",
   "axes": [
-   "model"
+   "video"
   ],
-  "score": 5.59,
+  "score": 5.95,
   "date": "2026-11-09"
  },
  {
@@ -82,27 +82,51 @@
   "date": "2026-11-09"
  },
  {
-  "key": "5641fa0869b4c603",
-  "title": "ZeoBench: A Benchmark for Self-Supervised Learning on 3D Zeolite Representations",
-  "url": "https://arxiv.org/abs/2611.09880v1",
-  "source": "arxiv-cv",
-  "axes": [
-   "model",
-   "threed"
-  ],
-  "score": 5.19,
-  "date": "2026-11-09"
- },
- {
-  "key": "5e683132b30918eb",
-  "title": "The Web Is More Than Enough, by Paul Ford",
-  "url": "https://simonwillison.net/2026/Nov/9/hn-50421091/",
-  "source": "simonwillison",
+  "key": "cc57a85ab6a36971",
+  "title": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
+  "url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+  "source": "huggingface-blog",
   "axes": [
    "infra",
    "model"
   ],
-  "score": 5.1,
+  "score": 5.25,
+  "date": "2026-11-09"
+ },
+ {
+  "key": "f02a4f0c3473cf16",
+  "title": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
+  "url": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
+  "source": "huggingface-blog",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 5.14,
+  "date": "2026-11-09"
+ },
+ {
+  "key": "872ad71be3f252ce",
+  "title": "NVIDIA Board Opens Independent Investigation After Reports Its CEO Was Targeted by Foreign Intelligence",
+  "url": "https://80.lv/articles/nvidia-board-opens-investigation-after-foreign-intelligence-reports/",
+  "source": "80lv",
+  "axes": [
+   "people"
+  ],
+  "score": 4.97,
+  "date": "2026-11-09"
+ },
+ {
+  "key": "3dbe03bb4bc98747",
+  "title": "I'm not convinced the AI bubble exists",
+  "url": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 6.78,
   "date": "2026-11-09"
  },
  {
@@ -115,29 +139,18 @@
    "model",
    "people"
   ],
-  "score": 7.03,
-  "date": "2026-11-09"
- },
- {
-  "key": "8b35fc54b03061f1",
-  "title": "New Solution - AnimaEdit: Reference & Instruction Image Editing LoRA",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xrmz20/new_solution_animaedit_reference_instruction/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image"
-  ],
   "score": 6.38,
   "date": "2026-11-09"
  },
  {
-  "key": "a07b87e406eb4ce5",
-  "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
-  "url": "https://github.com/synchopate/llama-modchip",
-  "source": "hackernews",
+  "key": "b671bce5d4c75bac",
+  "title": "Krea2 is King 👑",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xrs8ql/krea2_is_king/",
+  "source": "reddit-stablediffusion",
   "axes": [
-   "infra"
+   "image"
   ],
-  "score": 6.28,
+  "score": 6.29,
   "date": "2026-11-09"
  },
  {
@@ -148,18 +161,42 @@
   "axes": [
    "model"
   ],
-  "score": 5.54,
+  "score": 5.66,
   "date": "2026-11-09"
  },
  {
-  "key": "50438df4616a905f",
-  "title": "Beneath the Surface: What We Overlook When We Talk About Agent Evolution",
-  "url": "https://huggingface.co/papers/2611.07624",
+  "key": "203e61e3e0343695",
+  "title": "The Last Mile to the Real World: Agent-Native Primitives as Reusable Building Blocks for Solving Real-World Tasks",
+  "url": "https://huggingface.co/papers/2611.07461",
   "source": "hf-papers",
   "axes": [
    "model"
   ],
-  "score": 5.53,
+  "score": 5.6,
+  "date": "2026-11-09"
+ },
+ {
+  "key": "5641fa0869b4c603",
+  "title": "ZeoBench: A Benchmark for Self-Supervised Learning on 3D Zeolite Representations",
+  "url": "https://arxiv.org/abs/2611.09880v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "model",
+   "threed"
+  ],
+  "score": 5.15,
+  "date": "2026-11-09"
+ },
+ {
+  "key": "5e683132b30918eb",
+  "title": "The Web Is More Than Enough, by Paul Ford",
+  "url": "https://simonwillison.net/2026/Nov/9/hn-50421091/",
+  "source": "simonwillison",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 4.86,
   "date": "2026-11-09"
  },
  {
@@ -171,32 +208,7 @@
    "infra",
    "model"
   ],
-  "score": 5.1,
-  "date": "2026-11-09"
- },
- {
-  "key": "6edc696f5641b235",
-  "title": "parse_number() as a SQLite extension: C vs Rust",
-  "url": "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/",
-  "source": "simonwillison",
-  "axes": [
-   "infra",
-   "model"
-  ],
-  "score": 4.88,
-  "date": "2026-11-09"
- },
- {
-  "key": "941c11398df7d495",
-  "title": "Korea’s AI Ecosystem Advances and Secures Agentic AI With NVIDIA",
-  "url": "https://blogs.nvidia.com/blog/korea-secure-agentic-ai/",
-  "source": "nvidia-genai",
-  "axes": [
-   "infra",
-   "model",
-   "threed"
-  ],
-  "score": 4.84,
+  "score": 4.86,
   "date": "2026-11-09"
  }
 ]
