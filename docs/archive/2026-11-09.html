@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Radar — 9 Kasım 2026</title>
+<meta name="description" content="Görsel üretimi, oyun üretimi, 3D ve yeni modeller ekseninde günlük brief.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ccircle cx='8' cy='8' r='6.5' fill='none' stroke='%232563eb' stroke-width='1.4'/%3E%3Ccircle cx='8' cy='8' r='2.2' fill='%232563eb'/%3E%3C/svg%3E">
+<style>
+  :root {
+    --bg: #ffffff;
+    --text: #101418;
+    --muted: #6b7280;
+    --faint: #9aa2ad;
+    --rule: #ebedf0;
+    --rule-strong: #d9dde2;
+    --accent: #2563eb;
+    --mark-yes: #16a34a;
+    --mark-no: #9aa2ad;
+    --chip-bg: rgba(16,20,24,.045);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0b0d10;
+      --text: #e7eaee;
+      --muted: #8b93a0;
+      --faint: #667080;
+      --rule: #1c2127;
+      --rule-strong: #2b323a;
+      --accent: #7aa7ff;
+      --mark-yes: #4ade80;
+      --mark-no: #667080;
+      --chip-bg: rgba(255,255,255,.06);
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0b0d10; --text: #e7eaee; --muted: #8b93a0; --faint: #667080;
+    --rule: #1c2127; --rule-strong: #2b323a; --accent: #7aa7ff;
+    --mark-yes: #4ade80; --mark-no: #667080; --chip-bg: rgba(255,255,255,.06);
+  }
+
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 400 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", "Inter",
+          ui-sans-serif, Roboto, "Helvetica Neue", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  .wrap { max-width: 700px; margin: 0 auto; padding: 56px 16px 96px; }
+
+  /* --- başlık --- */
+  .mast { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+  .mast h1 {
+    font-size: 19px; font-weight: 640; letter-spacing: -.015em; margin: 0;
+    display: flex; align-items: center; gap: 9px;
+  }
+  .dot { width: 9px; height: 9px; border-radius: 50%; background: var(--accent); flex: none; }
+  .mast time { color: var(--muted); font-size: 14px; font-variant-numeric: tabular-nums; }
+  .stats {
+    margin-top: 12px; color: var(--faint); font-size: 12.5px;
+    display: flex; flex-wrap: wrap; gap: 4px 16px; font-variant-numeric: tabular-nums;
+  }
+  .stats b { color: var(--muted); font-weight: 600; }
+  .warn { color: #dc2626; }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .warn { color: #f87171; } }
+
+  /* --- araç çubuğu --- */
+  .tools { display: flex; gap: 8px; margin: 26px 0 8px; flex-wrap: wrap; }
+  .tools input, .tools select {
+    font: inherit; font-size: 13.5px; color: var(--text);
+    background: transparent; border: 1px solid var(--rule-strong);
+    border-radius: 9px; padding: 8px 11px; min-width: 0;
+    transition: border-color .15s ease;
+  }
+  .tools input { flex: 1 1 200px; }
+  .tools input:focus, .tools select:focus { outline: none; border-color: var(--accent); }
+  .tools input::placeholder { color: var(--faint); }
+
+  /* --- kategori bölümü --- */
+  section { margin-top: 42px; }
+  .cat {
+    display: flex; align-items: center; gap: 10px; margin: 0 0 4px;
+    font-size: 11.5px; font-weight: 680; letter-spacing: .09em; text-transform: uppercase;
+    color: var(--muted);
+  }
+  .cat::after { content: ""; flex: 1; height: 1px; background: var(--rule); }
+  .cat i { width: 6px; height: 6px; border-radius: 50%; flex: none; }
+  .cat u { text-decoration: none; color: var(--faint); font-weight: 600; letter-spacing: .04em; }
+
+  /* --- madde --- */
+  article { padding: 20px 0; border-bottom: 1px solid var(--rule); }
+  article:last-child { border-bottom: none; }
+  article.hidden { display: none; }
+  article.no { opacity: .38; }
+  h2 { margin: 0; font-size: 16.5px; line-height: 1.42; font-weight: 600; letter-spacing: -.008em; }
+  article.lead h2 { font-size: 20.5px; line-height: 1.34; letter-spacing: -.017em; }
+  h2 a { color: inherit; text-decoration: none; }
+  h2 a:hover { color: var(--accent); }
+  h2 a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 3px; }
+
+  .meta {
+    margin-top: 7px; display: flex; flex-wrap: wrap; align-items: center;
+    gap: 4px 9px; font-size: 12.5px; color: var(--faint);
+  }
+  .meta .sep { color: var(--rule-strong); }
+  .ax { display: inline-flex; align-items: center; gap: 5px; color: var(--muted); }
+  .ax i { width: 5px; height: 5px; border-radius: 50%; flex: none; }
+  .rise {
+    display: inline-flex; align-items: center; gap: 4px; font-weight: 640;
+    color: #d97706; background: rgba(217,119,6,.10); border-radius: 999px;
+    padding: 2px 8px; font-size: 11.5px; letter-spacing: .01em;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) .rise { color: #fbbf24; background: rgba(251,191,36,.12); }
+  }
+  .rise-why { color: var(--faint); font-size: 12px; }
+
+  p.sum {
+    margin: 9px 0 0; color: var(--muted); font-size: 14px; line-height: 1.58;
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+  }
+  article.lead p.sum { -webkit-line-clamp: 3; }
+  p.why {
+    margin: 10px 0 0; font-size: 14px; line-height: 1.55; color: var(--text);
+    padding-left: 12px; border-left: 2px solid var(--accent);
+  }
+
+  .foot { margin-top: 12px; display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+  .marks { display: flex; gap: 2px; }
+  .marks button {
+    font: inherit; font-size: 12.5px; line-height: 1; cursor: pointer;
+    background: transparent; border: 1px solid transparent; border-radius: 7px;
+    padding: 6px 9px; color: var(--faint); transition: all .13s ease;
+  }
+  .marks button:hover { color: var(--text); background: var(--chip-bg); }
+  .marks button[aria-pressed="true"][data-mark="yes"] { color: var(--mark-yes); background: var(--chip-bg); }
+  .marks button[aria-pressed="true"][data-mark="no"] { color: var(--mark-no); background: var(--chip-bg); }
+  .marks button:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+
+  details.parts { font-size: 12px; color: var(--faint); font-variant-numeric: tabular-nums; }
+  details.parts summary { cursor: pointer; list-style: none; padding: 4px 0; }
+  details.parts summary::-webkit-details-marker { display: none; }
+  details.parts summary:hover { color: var(--muted); }
+  details.parts table { border-collapse: collapse; margin: 6px 0 2px; font-size: 11.5px; }
+  details.parts td { padding: 1px 0; }
+  details.parts td:last-child { text-align: right; padding-left: 18px; }
+
+  /* --- kısa kısa --- */
+  .brief li { padding: 9px 0; border-bottom: 1px solid var(--rule); font-size: 14px; line-height: 1.5; }
+  .brief li:last-child { border-bottom: none; }
+  .brief a { color: var(--text); text-decoration: none; }
+  .brief a:hover { color: var(--accent); }
+  .brief span { color: var(--faint); font-size: 12.5px; }
+  ul, ol { list-style: none; margin: 0; padding: 0; }
+
+  .empty { color: var(--faint); font-size: 14px; padding: 36px 0; text-align: center; }
+
+  footer {
+    margin-top: 56px; padding-top: 20px; border-top: 1px solid var(--rule);
+    color: var(--faint); font-size: 12.5px; line-height: 1.8;
+  }
+  footer a { color: var(--muted); text-decoration: none; }
+  footer a:hover { color: var(--accent); }
+  footer nav { display: flex; flex-wrap: wrap; gap: 4px 12px; font-variant-numeric: tabular-nums; }
+  footer nav b { color: var(--text); }
+
+  @media (max-width: 480px) {
+    .wrap { padding: 36px 16px 72px; }
+    article.lead h2 { font-size: 18.5px; }
+  }
+
+  /* --- yan panel: liste sola kayar, hedef sayfa sağdan açılır --- */
+  .shell {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 0fr;
+    transition: grid-template-columns .42s cubic-bezier(.32, .72, 0, 1);
+    min-height: 100vh;
+  }
+  .shell.open { grid-template-columns: minmax(0, 42fr) minmax(0, 58fr); }
+  .shell.open .wrap {
+    margin-left: max(20px, 3vw); margin-right: 0; padding-top: 40px;
+    transition: margin .42s cubic-bezier(.32, .72, 0, 1);
+  }
+  .wrap { transition: margin .42s cubic-bezier(.32, .72, 0, 1); }
+
+  .pane {
+    position: sticky; top: 0; height: 100vh; overflow: hidden;
+    border-left: 1px solid var(--rule); background: var(--bg);
+    display: flex; flex-direction: column;
+    opacity: 0; transform: translateX(28px);
+    transition: opacity .3s ease .08s, transform .42s cubic-bezier(.32, .72, 0, 1);
+  }
+  .shell.open .pane { opacity: 1; transform: none; }
+  .pane[hidden] { display: none; }
+
+  .pane-bar {
+    display: flex; align-items: center; gap: 8px; padding: 12px 14px;
+    border-bottom: 1px solid var(--rule); flex: none; min-height: 54px;
+  }
+  .pane-bar .who { flex: 1; min-width: 0; }
+  .pane-bar .who b { display: block; font-size: 13.5px; font-weight: 600;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .pane-bar .who span { font-size: 11.5px; color: var(--faint); }
+  .pane-bar button, .pane-bar a.btn {
+    font: inherit; font-size: 13px; line-height: 1; cursor: pointer; text-decoration: none;
+    background: transparent; border: 1px solid var(--rule-strong); color: var(--muted);
+    border-radius: 8px; padding: 7px 10px; transition: all .13s ease; flex: none;
+  }
+  .pane-bar button:hover, .pane-bar a.btn:hover { color: var(--accent); border-color: var(--accent); }
+  .pane-bar button:disabled { opacity: .35; cursor: default; }
+  .pane-bar .marks button { border-color: transparent; }
+
+  .pane-body { flex: 1; position: relative; overflow: auto; background: var(--bg); }
+  .pane-body iframe { width: 100%; height: 100%; border: 0; display: block; background: #fff; }
+
+  .preview { max-width: 620px; margin: 0 auto; padding: 48px 28px 64px; }
+  .preview h2 { font-size: 24px; line-height: 1.3; letter-spacing: -.02em; margin: 0 0 12px; }
+  .preview .pmeta { color: var(--faint); font-size: 13px; margin-bottom: 22px; }
+  .preview p { font-size: 15.5px; line-height: 1.7; color: var(--muted); margin: 0 0 16px; }
+  .preview .note {
+    font-size: 12.5px; color: var(--faint); background: var(--chip-bg);
+    border-radius: 9px; padding: 11px 13px; margin-top: 26px; line-height: 1.55;
+  }
+  .preview .go {
+    display: inline-flex; align-items: center; gap: 7px; margin-top: 22px;
+    background: var(--accent); color: #fff; text-decoration: none; font-size: 14.5px;
+    font-weight: 560; border-radius: 10px; padding: 11px 17px;
+  }
+  .preview .go:hover { filter: brightness(1.08); }
+
+  article.active { position: relative; }
+  article.active::before {
+    content: ""; position: absolute; left: -14px; top: 18px; bottom: 18px;
+    width: 2px; border-radius: 2px; background: var(--accent);
+  }
+
+  /* Dar ekranda bölme yerine tam ekran katman. */
+  @media (max-width: 900px) {
+    .shell, .shell.open { grid-template-columns: minmax(0, 1fr); }
+    .shell.open .wrap { margin: 0 auto; }
+    .pane {
+      position: fixed; inset: 0; height: 100dvh; z-index: 50; border-left: 0;
+      transform: translateY(100%); opacity: 1;
+      transition: transform .38s cubic-bezier(.32, .72, 0, 1);
+    }
+    .shell.open .pane { transform: none; }
+    article.active::before { display: none; }
+  }
+  /* Çok dar ekranda başlığa yer açmak için gezinme oklarını gizle. */
+  @media (max-width: 430px) {
+    #pane-prev, #pane-next { display: none; }
+  }
+</style>
+</head>
+<body>
+<div class="shell" id="shell">
+<div class="wrap">
+
+<header>
+  <div class="mast">
+    <h1><span class="dot"></span>AI Radar</h1>
+    <time datetime="2026-11-09">9 Kasım 2026</time>
+  </div>
+  <div class="stats">
+    <span><b>9</b> madde</span>
+    <span><b>27</b>/<b>31</b> kaynak</span>
+    <span><b>194</b> tarandı</span>
+    <span id="precision"></span>
+  </div>
+  <div class="stats"><span class="warn">düşen kaynak: import-ai, reddit-localllama, reddit-aivideo, reddit-gamedev</span></div>
+</header>
+
+<div class="tools">
+  <input type="search" id="q" placeholder="Ara…" autocomplete="off" aria-label="Ara">
+  <select id="axis" aria-label="Eksen"><option value="">Tüm eksenler</option><option value="model">Yeni modeller</option><option value="image">Görsel üretim</option><option value="video">Video üretim</option><option value="game">Oyun üretimi</option><option value="threed">3D / rigging / asset</option><option value="infra">Araç & altyapı</option><option value="people">Kişiler & şirketler</option></select>
+  <select id="scope" aria-label="Kapsam"><option value="today">Bugün</option><option value="all">Tüm arşiv</option></select>
+</div>
+
+<main id="content"><section data-kind="cat"><h3 class="cat"><i style="background:#a855f7"></i>Üretim<u>4</u></h3><article class="lead" data-key="ea904f081e723964" data-axes="image,model" data-hay="longbanana: an expert-verified benchmark for long-context multi-reference image synthesis hf-papers image model" data-url="https://huggingface.co/papers/2611.06856" data-title="LongBanana: An Expert-Verified Benchmark for Long-Context Multi-Reference Image Synthesis" data-source="hf-papers" data-embed="0" data-extract="We introduce LongBanana, to our knowledge the first expert-designed and expert-verified benchmark for long-context multi-reference image synthesis in the age of agent-driven image generation. The task requires retrieving dispersed visual evidence, rejecting distractors, binding entities and relations, and composing one coherent final image from multiple references. LongBanana contains 90 carefully designed tasks organized by a 3-by-3 taxonomy; each task includes about 32 reference images, 20 constraints, and 50 evaluation items, yielding 4,670 expert-specified atomic evaluation items in…"><h2><a href="https://huggingface.co/papers/2611.06856" target="_blank" rel="noopener">LongBanana: An Expert-Verified Benchmark for Long-Context Multi-Reference Image Synthesis</a></h2><div class="meta"><span class="ax"><i style="background:#a855f7"></i>görsel</span><span class="ax"><i style="background:#f59e0b"></i>model</span><span class="sep">·</span><span>hf-papers</span><span class="sep">·</span><span>5 gün önce</span><span class="sep">·</span><span>22 oy</span></div><p class="sum">We introduce LongBanana, to our knowledge the first expert-designed and expert-verified benchmark for long-context multi-reference image synthesis in the age of agent-driven image generation. The task requires retrieving dispersed visual evidence, rejecting distractors, binding entities and relations, and composing one coherent final image from multiple references. LongBanana contains 90 carefully designed tasks organized by a 3-by-3 taxonomy; each task includes about 32 reference images, 20 constraints, and 50 evaluation items, yielding 4,670 expert-specified atomic evaluation items in…</p><div class="foot"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>6.92</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+2.00</td></tr><tr><td>eksen</td><td>+4.24</td></tr><tr><td>sinyal</td><td>+0.56</td></tr><tr><td>tazelik</td><td>+0.06</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr><tr><td>hype</td><td>+0.08</td></tr></table></details></div></article><article class="" data-key="e22b1182569b93f0" data-axes="image,threed" data-hay="live-action + blender + wan 2.2 lora hybrid test reddit-stablediffusion image threed" data-url="https://www.reddit.com/r/StableDiffusion/comments/1xrdsj8/liveaction_blender_wan_22_lora_hybrid_test/" data-title="Live-Action + Blender + Wan 2.2 Lora Hybrid Test" data-source="reddit-stablediffusion" data-embed="0" data-extract="I directed this, composited it in Flame, and did all the ComfyUI/Ai Toolkit stuff that fed into those composites. I was teaching myself the ComfyUI side as I went. It&#x27;s basically a cracked out version of the old MDMZ Wan 2.2 workflow, modified to use a custom LoRA and work on 12-bit Sony Log 3 footage. My buddy designed all the CG animals in Blender, and stills of them were used to train custom LORAs that were then mapped to Sethward&#x27;s live-action face. SammieRoto was used for the keying and paintouts. I&#x27;ve been lurking here a long time and can&#x27;t thank you guys enough for the guidance! Happy…"><h2><a href="https://www.reddit.com/r/StableDiffusion/comments/1xrdsj8/liveaction_blender_wan_22_lora_hybrid_test/" target="_blank" rel="noopener">Live-Action + Blender + Wan 2.2 Lora Hybrid Test</a></h2><div class="meta"><span class="ax"><i style="background:#a855f7"></i>görsel</span><span class="ax"><i style="background:#0ea5e9"></i>3D</span><span class="sep">·</span><span>reddit-stablediffusion</span><span class="sep">·</span><span>9 saat önce</span></div><p class="sum">I directed this, composited it in Flame, and did all the ComfyUI/Ai Toolkit stuff that fed into those composites. I was teaching myself the ComfyUI side as I went. It&#x27;s basically a cracked out version of the old MDMZ Wan 2.2 workflow, modified to use a custom LoRA and work on 12-bit Sony Log 3 footage. My buddy designed all the CG animals in Blender, and stills of them were used to train custom LORAs that were then mapped to Sethward&#x27;s live-action face. SammieRoto was used for the keying and paintouts. I&#x27;ve been lurking here a long time and can&#x27;t thank you guys enough for the guidance! Happy…</p><div class="foot"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>6.87</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+1.50</td></tr><tr><td>eksen</td><td>+4.34</td></tr><tr><td>sinyal</td><td>+0.00</td></tr><tr><td>tazelik</td><td>+1.03</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr><tr><td>hype</td><td>+0.00</td></tr></table></details></div></article><article class="" data-key="c2da6cc187ca5a77" data-axes="image" data-hay="open-h3-regenerate-2k-ic reddit-stablediffusion image" data-url="https://www.reddit.com/r/StableDiffusion/comments/1xrkcea/openh3regenerate2kic/" data-title="Open-H3-Regenerate-2K-IC" data-source="reddit-stablediffusion" data-embed="0" data-extract="https://huggingface.co/Efficient-Large-Model/Open-H3-Regenerate-2K-IC https://github.com/NVlabs/Sana/tree/sol-engine/models/Open-H3-Regenerate-2K/IC New latent upscale model by NVIDIA-labs. Basically, it&#x27;s v2. A few highlights compared to v1: - Face &amp; Text are more consistent with the original video - Use H3 Ref2VA instead of fl2va. - Turbo LoRA, Regenerate LoRA, LMS LoRA are not merged. They also use Hyperflow 8-step LoRA - New samplings: 3, 4, 8 steps. - Fast VAE-v2. The v1 fast VAE has grid artifacts in ComfyUI submitted by /u/fallengt [link] [comments]"><h2><a href="https://www.reddit.com/r/StableDiffusion/comments/1xrkcea/openh3regenerate2kic/" target="_blank" rel="noopener">Open-H3-Regenerate-2K-IC</a></h2><div class="meta"><span class="ax"><i style="background:#a855f7"></i>görsel</span><span class="sep">·</span><span>reddit-stablediffusion</span><span class="sep">·</span><span>4 saat önce</span></div><p class="sum">https://huggingface.co/Efficient-Large-Model/Open-H3-Regenerate-2K-IC https://github.com/NVlabs/Sana/tree/sol-engine/models/Open-H3-Regenerate-2K/IC New latent upscale model by NVIDIA-labs. Basically, it&#x27;s v2. A few highlights compared to v1: - Face &amp; Text are more consistent with the original video - Use H3 Ref2VA instead of fl2va. - Turbo LoRA, Regenerate LoRA, LMS LoRA are not merged. They also use Hyperflow 8-step LoRA - New samplings: 3, 4, 8 steps. - Fast VAE-v2. The v1 fast VAE has grid artifacts in ComfyUI submitted by /u/fallengt [link] [comments]</p><div class="foot"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>6.64</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+1.50</td></tr><tr><td>eksen</td><td>+3.52</td></tr><tr><td>sinyal</td><td>+0.00</td></tr><tr><td>tazelik</td><td>+1.24</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr><tr><td>hype</td><td>+0.38</td></tr></table></details></div></article><article class="" data-key="5641fa0869b4c603" data-axes="model,threed" data-hay="zeobench: a benchmark for self-supervised learning on 3d zeolite representations arxiv-cv model threed" data-url="https://arxiv.org/abs/2611.09880v1" data-title="ZeoBench: A Benchmark for Self-Supervised Learning on 3D Zeolite Representations" data-source="arxiv-cv" data-embed="0" data-extract="Zeolites are an important class of porous crystalline materials with broad applications in gas storage, separations, and catalysis. Although hundreds of thousands of experimentally realized and hypothetical zeolite structures are known, identifying materials optimized for a target application remains challenging because property labels are expensive to obtain and available only for limited structure-molecule pairs. While prior work has demonstrated that 3D neural representations can predict zeolite properties effectively, it remains unclear which representation-learning strategies are most…"><h2><a href="https://arxiv.org/abs/2611.09880v1" target="_blank" rel="noopener">ZeoBench: A Benchmark for Self-Supervised Learning on 3D Zeolite Representations</a></h2><div class="meta"><span class="ax"><i style="background:#f59e0b"></i>model</span><span class="ax"><i style="background:#0ea5e9"></i>3D</span><span class="sep">·</span><span>arxiv-cv</span><span class="sep">·</span><span>3 gün önce</span></div><p class="sum">Zeolites are an important class of porous crystalline materials with broad applications in gas storage, separations, and catalysis. Although hundreds of thousands of experimentally realized and hypothetical zeolite structures are known, identifying materials optimized for a target application remains challenging because property labels are expensive to obtain and available only for limited structure-molecule pairs. While prior work has demonstrated that 3D neural representations can predict zeolite properties effectively, it remains unclear which representation-learning strategies are most…</p><div class="foot"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>5.19</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+1.00</td></tr><tr><td>eksen</td><td>+4.01</td></tr><tr><td>sinyal</td><td>+0.00</td></tr><tr><td>tazelik</td><td>+0.17</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr><tr><td>hype</td><td>+0.00</td></tr></table></details></div></article></section><section data-kind="cat"><h3 class="cat"><i style="background:#f59e0b"></i>Modeller &amp; Araştırma<u>4</u></h3><article class="" data-key="60de12a910f58a37" data-axes="infra,model,people" data-hay="goldman sachs is pulling claude code from its bankers and traders hackernews infra model people" data-url="https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers" data-title="Goldman Sachs is pulling Claude Code from its bankers and traders" data-source="hackernews" data-embed="1" data-extract=""><h2><a href="https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers" target="_blank" rel="noopener">Goldman Sachs is pulling Claude Code from its bankers and traders</a></h2><div class="meta"><span class="rise">↑ yükselişte</span><span class="rise-why">50 oy/saat</span><span class="ax"><i style="background:#64748b"></i>araç</span><span class="ax"><i style="background:#f59e0b"></i>model</span><span class="ax"><i style="background:#f97316"></i>şirket</span><span class="sep">·</span><span>hackernews</span><span class="sep">·</span><span>16 saat önce</span><span class="sep">·</span><span>776 oy</span></div><div class="foot"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>7.44</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+1.50</td></tr><tr><td>eksen</td><td>+1.43</td></tr><tr><td>sinyal</td><td>+1.18</td></tr><tr><td>tazelik</td><td>+0.83</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr><tr><td>hype</td><td>+2.50</td></tr></table></details></div></article><article class="" data-key="203e61e3e0343695" data-axes="model" data-hay="the last mile to the real world: agent-native primitives as reusable building blocks for solving real-world tasks hf-papers model" data-url="https://huggingface.co/papers/2611.07461" data-title="The Last Mile to the Real World: Agent-Native Primitives as Reusable Building Blocks for Solving Real-World Tasks" data-source="hf-papers" data-embed="0" data-extract="How can an agent handle a real-world task end to end? Frontier models with their own harnesses still fall short on real-world benchmarks: on Terminal-Bench 4.0, GPT-5.6 Sol with Codex resolves 37.3% of the tasks and Claude Opus 5 with Claude Code 51.8%. These tasks fail at the step from reaching a resource to applying it, which we call the last mile to the real world. Existing approaches put the resource within reach but leave the competence to apply it with the caller, so each harness rebuilds that competence. We introduce agent-native primitives, reusable units that equip a resource with a…"><h2><a href="https://huggingface.co/papers/2611.07461" target="_blank" rel="noopener">The Last Mile to the Real World: Agent-Native Primitives as Reusable Building Blocks for Solving Real-World Tasks</a></h2><div class="meta"><span class="ax"><i style="background:#f59e0b"></i>model</span><span class="sep">·</span><span>hf-papers</span><span class="sep">·</span><span>5 gün önce</span><span class="sep">·</span><span>25 oy</span></div><p class="sum">How can an agent handle a real-world task end to end? Frontier models with their own harnesses still fall short on real-world benchmarks: on Terminal-Bench 4.0, GPT-5.6 Sol with Codex resolves 37.3% of the tasks and Claude Opus 5 with Claude Code 51.8%. These tasks fail at the step from reaching a resource to applying it, which we call the last mile to the real world. Existing approaches put the resource within reach but leave the competence to apply it with the caller, so each harness rebuilds that competence. We introduce agent-native primitives, reusable units that equip a resource with a…</p><div class="foot"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>5.59</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+2.00</td></tr><tr><td>eksen</td><td>+2.86</td></tr><tr><td>sinyal</td><td>+0.58</td></tr><tr><td>tazelik</td><td>+0.06</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr><tr><td>hype</td><td>+0.10</td></tr></table></details></div></article><article class="" data-key="a333ec27e73c5ec4" data-axes="model,people" data-hay="the latest ai news we announced in october 2026 google-ai model people" data-url="https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/" data-title="The latest AI news we announced in October 2026" data-source="google-ai" data-embed="1" data-extract="Animated carousel of images from AI posts in October"><h2><a href="https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/" target="_blank" rel="noopener">The latest AI news we announced in October 2026</a></h2><div class="meta"><span class="ax"><i style="background:#f59e0b"></i>model</span><span class="ax"><i style="background:#f97316"></i>şirket</span><span class="sep">·</span><span>google-ai</span><span class="sep">·</span><span>7 gün önce</span></div><p class="sum">Animated carousel of images from AI posts in October</p><div class="foot"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>5.27</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+2.50</td></tr><tr><td>eksen</td><td>+1.43</td></tr><tr><td>sinyal</td><td>+0.00</td></tr><tr><td>tazelik</td><td>+0.06</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr><tr><td>hype</td><td>+1.28</td></tr></table></details></div></article><article class="" data-key="5e683132b30918eb" data-axes="infra,model" data-hay="the web is more than enough, by paul ford simonwillison infra model" data-url="https://simonwillison.net/2026/Nov/9/hn-50421091/" data-title="The Web Is More Than Enough, by Paul Ford" data-source="simonwillison" data-embed="1" data-extract="My comment on The Web Is More Than Enough, by Paul Ford — Hacker News. OK, this comment convinced me to give that a shot. Here&#x27;s a thing I made in Three.js this morning - a Nudibranch themed Faberge Egg: https://static.simonwillison.net/static/2026/Hidden-Reef-Egg... (77KB) I just asked Claude (Opus 5.5 Medium running in regular Claude Chat) to port that to Vanilla JS, in the same thread where it had built it, and got this: https://static.simonwillison.net/static/2026/Hidden-Reef-Egg... (98KB) They aren&#x27;t identical - you can see what Claude said about that in the transcript (I don&#x27;t fully…"><h2><a href="https://simonwillison.net/2026/Nov/9/hn-50421091/" target="_blank" rel="noopener">The Web Is More Than Enough, by Paul Ford</a></h2><div class="meta"><span class="ax"><i style="background:#64748b"></i>araç</span><span class="ax"><i style="background:#f59e0b"></i>model</span><span class="sep">·</span><span>simonwillison</span><span class="sep">·</span><span>5 saat önce</span></div><p class="sum">My comment on The Web Is More Than Enough, by Paul Ford — Hacker News. OK, this comment convinced me to give that a shot. Here&#x27;s a thing I made in Three.js this morning - a Nudibranch themed Faberge Egg: https://static.simonwillison.net/static/2026/Hidden-Reef-Egg... (77KB) I just asked Claude (Opus 5.5 Medium running in regular Claude Chat) to port that to Vanilla JS, in the same thread where it had built it, and got this: https://static.simonwillison.net/static/2026/Hidden-Reef-Egg... (98KB) They aren&#x27;t identical - you can see what Claude said about that in the transcript (I don&#x27;t fully…</p><div class="foot"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>5.10</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+2.50</td></tr><tr><td>eksen</td><td>+1.43</td></tr><tr><td>sinyal</td><td>+0.00</td></tr><tr><td>tazelik</td><td>+1.17</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr><tr><td>hype</td><td>+0.00</td></tr></table></details></div></article></section><section data-kind="cat"><h3 class="cat"><i style="background:#64748b"></i>Ekosistem<u>1</u></h3><article class="" data-key="bbce9bb9697ac8eb" data-axes="people" data-hay="nvidia ceo jensen huang&#x27;s letter to staff about affair hackernews people" data-url="https://nvidianews.nvidia.com/news/a-message-to-our-company" data-title="Nvidia CEO Jensen Huang&#x27;s letter to staff about affair" data-source="hackernews" data-embed="1" data-extract=""><h2><a href="https://nvidianews.nvidia.com/news/a-message-to-our-company" target="_blank" rel="noopener">Nvidia CEO Jensen Huang&#x27;s letter to staff about affair</a></h2><div class="meta"><span class="rise">↑ yükselişte</span><span class="rise-why">58 oy/saat</span><span class="ax"><i style="background:#f97316"></i>şirket</span><span class="sep">·</span><span>hackernews</span><span class="sep">·</span><span>12 saat önce</span><span class="sep">·</span><span>669 oy</span></div><div class="foot"><div class="marks"><button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button></div><details class="parts"><summary>7.86</summary><table><tr><td>corroboration</td><td>+0.00</td></tr><tr><td>kaynak</td><td>+1.50</td></tr><tr><td>eksen</td><td>+1.76</td></tr><tr><td>sinyal</td><td>+1.15</td></tr><tr><td>tazelik</td><td>+0.95</td></tr><tr><td>capraz_kaynak</td><td>+0.00</td></tr><tr><td>gurultu_cezasi</td><td>+0.00</td></tr><tr><td>hype</td><td>+2.50</td></tr></table></details></div></article></section><section data-kind="brief"><h3 class="cat"><i style="background:var(--rule-strong)"></i>Kısa kısa<u>8</u></h3><ul class="brief"><li><a href="https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors" target="_blank" rel="noopener">Statement from Nvidia board of directors</a> <span>· hackernews</span></li><li><a href="https://www.reddit.com/r/StableDiffusion/comments/1xrmz20/new_solution_animaedit_reference_instruction/" target="_blank" rel="noopener">New Solution - AnimaEdit: Reference &amp; Instruction Image Editing LoRA</a> <span>· reddit-stablediffusion</span></li><li><a href="https://github.com/synchopate/llama-modchip" target="_blank" rel="noopener">Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU</a> <span>· hackernews</span></li><li><a href="https://huggingface.co/papers/2611.03953" target="_blank" rel="noopener">P^2-MOPD: Accelerating Multi-Teacher On-Policy Distillation via Parameter Priors</a> <span>· hf-papers</span></li><li><a href="https://huggingface.co/papers/2611.07624" target="_blank" rel="noopener">Beneath the Surface: What We Overlook When We Talk About Agent Evolution</a> <span>· hf-papers</span></li><li><a href="https://simonwillison.net/2026/Nov/9/details-summary/" target="_blank" rel="noopener">Hide your slop PR descriptions behind</a> <span>· simonwillison</span></li><li><a href="https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/" target="_blank" rel="noopener">parse_number() as a SQLite extension: C vs Rust</a> <span>· simonwillison</span></li><li><a href="https://blogs.nvidia.com/blog/korea-secure-agentic-ai/" target="_blank" rel="noopener">Korea’s AI Ecosystem Advances and Secures Agentic AI With NVIDIA</a> <span>· nvidia-genai</span></li></ul></section></main>
+<div id="flat" hidden></div>
+<div class="empty" id="empty" hidden>Eşleşen madde yok.</div>
+
+<footer>
+  <nav><b>9 Kasım 2026</b> <a href="2026-11-08.html">8 Kasım 2026</a> <a href="2026-11-07.html">7 Kasım 2026</a> <a href="2026-11-06.html">6 Kasım 2026</a> <a href="2026-11-05.html">5 Kasım 2026</a> <a href="2026-11-04.html">4 Kasım 2026</a> <a href="2026-11-03.html">3 Kasım 2026</a> <a href="2026-11-02.html">2 Kasım 2026</a> <a href="2026-11-01.html">1 Kasım 2026</a> <a href="2026-10-31.html">31 Ekim 2026</a></nav>
+  <div style="margin-top:10px">
+    2026-11-09 09:55 UTC · işaretler yalnız bu tarayıcıda saklanır ·
+    <a href="#" id="reset">sıfırla</a>
+  </div>
+</footer>
+
+</div>
+
+<aside class="pane" id="pane" hidden aria-label="Okuma paneli">
+  <div class="pane-bar">
+    <button id="pane-close" title="Kapat (Esc)" aria-label="Kapat">✕</button>
+    <div class="who"><b id="pane-title"></b><span id="pane-source"></span></div>
+    <div class="marks" id="pane-marks">
+      <button data-mark="yes">✓</button><button data-mark="no">✗</button>
+    </div>
+    <button id="pane-prev" title="Önceki (←)" aria-label="Önceki">‹</button>
+    <button id="pane-next" title="Sonraki (→)" aria-label="Sonraki">›</button>
+    <a class="btn" id="pane-open" href="#" target="_blank" rel="noopener" title="Yeni sekmede aç">↗</a>
+  </div>
+  <div class="pane-body" id="pane-body"></div>
+</aside>
+
+</div>
+
+<script>
+const AXIS_COLOR = {"image": "#a855f7", "video": "#ec4899", "game": "#22c55e", "threed": "#0ea5e9", "model": "#f59e0b", "infra": "#64748b", "people": "#f97316"};
+const AXIS_SHORT = {"image": "görsel", "video": "video", "game": "oyun", "threed": "3D", "model": "model", "infra": "araç", "people": "şirket"};
+
+const store = {
+  read() { try { return JSON.parse(localStorage.getItem("radar.marks") || "{}"); } catch (e) { return {}; } },
+  write(v) { try { localStorage.setItem("radar.marks", JSON.stringify(v)); } catch (e) {} }
+};
+
+function renderPrecision() {
+  const vals = Object.values(store.read());
+  const el = document.getElementById("precision");
+  if (!vals.length) { el.textContent = ""; return; }
+  const yes = vals.filter(v => v === "yes").length;
+  el.innerHTML = "faydalı <b>%" + Math.round(100 * yes / vals.length) + "</b> (" + yes + "/" + vals.length + ")";
+}
+
+function wireMarks(root) {
+  const marks = store.read();
+  root.querySelectorAll("article").forEach(card => {
+    const key = card.dataset.key;
+    if (marks[key] === "no") card.classList.add("no");
+    card.querySelectorAll(".marks button").forEach(btn => {
+      btn.setAttribute("aria-pressed", String(marks[key] === btn.dataset.mark));
+      btn.onclick = () => {
+        const m = store.read();
+        const val = btn.dataset.mark;
+        if (m[key] === val) { delete m[key]; } else { m[key] = val; }
+        store.write(m);
+        card.classList.toggle("no", m[key] === "no");
+        card.querySelectorAll(".marks button").forEach(b =>
+          b.setAttribute("aria-pressed", String(m[key] === b.dataset.mark)));
+        renderPrecision();
+      };
+    });
+  });
+}
+
+let archive = null;
+async function loadArchive() {
+  if (!archive) {
+    try { archive = await (await fetch("../data/index.json")).json(); }
+    catch (e) { archive = { items: [] }; }
+  }
+  return archive;
+}
+
+function flatRow(it) {
+  const ax = (it.axes || []).slice(0, 2).map(a =>
+    '<span class="ax"><i style="background:' + (AXIS_COLOR[a] || "#64748b") + '"></i>' +
+    (AXIS_SHORT[a] || a) + "</span>").join("");
+  return '<article data-key="' + it.key + '">' +
+    '<h2><a href="' + it.url + '" target="_blank" rel="noopener">' + it.title + "</a></h2>" +
+    '<div class="meta">' + ax + '<span class="sep">·</span><span>' + it.source +
+    '</span><span class="sep">·</span><span>' + (it.date || "") + "</span></div>" +
+    '<div class="foot"><div class="marks">' +
+    '<button data-mark="yes">✓ faydalı</button><button data-mark="no">✗ değil</button>' +
+    "</div></div></article>";
+}
+
+async function applyFilter() {
+  const q = document.getElementById("q").value.trim().toLowerCase();
+  const axis = document.getElementById("axis").value;
+  const scope = document.getElementById("scope").value;
+  const content = document.getElementById("content");
+  const flat = document.getElementById("flat");
+  const empty = document.getElementById("empty");
+
+  if (scope === "all") {
+    const data = await loadArchive();
+    const rows = data.items.filter(it =>
+      (!q || (it.title + " " + it.source + " " + (it.axes || []).join(" ")).toLowerCase().includes(q)) &&
+      (!axis || (it.axes || []).includes(axis)));
+    content.hidden = true;
+    flat.hidden = false;
+    flat.innerHTML = rows.slice(0, 200).map(flatRow).join("");
+    wireMarks(flat);
+    empty.hidden = rows.length > 0;
+    return;
+  }
+
+  flat.hidden = true;
+  content.hidden = false;
+  let shown = 0;
+  content.querySelectorAll("article").forEach(card => {
+    const ok = (!q || (card.dataset.hay || "").includes(q)) &&
+               (!axis || (card.dataset.axes || "").split(",").includes(axis));
+    card.classList.toggle("hidden", !ok);
+    if (ok) shown++;
+  });
+  // Tüm maddeleri gizlenen bölüm başlığı ortada kalmasın.
+  content.querySelectorAll("section").forEach(sec => {
+    const live = sec.querySelectorAll("article:not(.hidden)").length;
+    const briefHit = !q && !axis;
+    sec.hidden = sec.dataset.kind === "brief" ? !briefHit : live === 0;
+  });
+  empty.hidden = shown > 0;
+}
+
+["q", "axis", "scope"].forEach(id =>
+  document.getElementById(id).addEventListener(id === "q" ? "input" : "change", applyFilter));
+
+document.getElementById("reset").addEventListener("click", e => {
+  e.preventDefault();
+  store.write({});
+  document.querySelectorAll("article").forEach(c => c.classList.remove("no"));
+  document.querySelectorAll(".marks button").forEach(b => b.setAttribute("aria-pressed", "false"));
+  renderPrecision();
+});
+
+// --- yan panel -------------------------------------------------------------
+const shell = document.getElementById("shell");
+const pane = document.getElementById("pane");
+const paneBody = document.getElementById("pane-body");
+let current = null;
+
+function paneList() {
+  const flat = document.getElementById("flat");
+  const root = flat.hidden ? document.getElementById("content") : flat;
+  return [...root.querySelectorAll("article")].filter(a => !a.classList.contains("hidden"));
+}
+
+function esc(t) {
+  const d = document.createElement("div"); d.textContent = t || ""; return d.innerHTML;
+}
+
+function paneMarkup(card) {
+  const url = card.dataset.url;
+  if (card.dataset.embed === "1") {
+    return '<iframe src="' + esc(url) + '" title="' + esc(card.dataset.title) +
+      '" referrerpolicy="no-referrer" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>';
+  }
+  return '<div class="preview">' +
+    "<h2>" + esc(card.dataset.title) + "</h2>" +
+    '<div class="pmeta">' + esc(card.dataset.source) + "</div>" +
+    (card.dataset.extract ? "<p>" + esc(card.dataset.extract) + "</p>" : "") +
+    '<a class="go" href="' + esc(url) + '" target="_blank" rel="noopener">Sitede aç ↗</a>' +
+    '<div class="note">Bu kaynak, sayfasının başka bir sitede gömülmesine izin vermiyor ' +
+    "(X-Frame-Options), bu yüzden burada tam metin gösterilemiyor.</div></div>";
+}
+
+function syncPaneMarks(key) {
+  const marks = store.read();
+  document.querySelectorAll("#pane-marks button").forEach(b =>
+    b.setAttribute("aria-pressed", String(marks[key] === b.dataset.mark)));
+}
+
+function openPane(card) {
+  current = card;
+  document.querySelectorAll("article.active").forEach(a => a.classList.remove("active"));
+  card.classList.add("active");
+
+  document.getElementById("pane-title").textContent = card.dataset.title;
+  document.getElementById("pane-source").textContent =
+    card.dataset.source + (card.dataset.embed === "1" ? "" : " · önizleme");
+  document.getElementById("pane-open").href = card.dataset.url;
+  paneBody.innerHTML = paneMarkup(card);
+  paneBody.scrollTop = 0;
+  syncPaneMarks(card.dataset.key);
+
+  const list = paneList();
+  const at = list.indexOf(card);
+  document.getElementById("pane-prev").disabled = at <= 0;
+  document.getElementById("pane-next").disabled = at < 0 || at >= list.length - 1;
+
+  pane.hidden = false;
+  requestAnimationFrame(() => shell.classList.add("open"));
+}
+
+function closePane() {
+  shell.classList.remove("open");
+  document.querySelectorAll("article.active").forEach(a => a.classList.remove("active"));
+  current = null;
+  setTimeout(() => {
+    if (!shell.classList.contains("open")) { pane.hidden = true; paneBody.innerHTML = ""; }
+  }, 420);
+}
+
+function step(delta) {
+  if (!current) return;
+  const list = paneList();
+  const next = list[list.indexOf(current) + delta];
+  if (next) { openPane(next); next.scrollIntoView({ block: "nearest", behavior: "smooth" }); }
+}
+
+// Başlık linkleri panelde açılır; cmd/ctrl/shift/orta tık normal davranışında kalır.
+document.addEventListener("click", e => {
+  const link = e.target.closest("article h2 a");
+  if (!link || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+  const card = link.closest("article");
+  if (!card || !card.dataset.url) return;
+  e.preventDefault();
+  openPane(card);
+});
+
+document.getElementById("pane-close").onclick = closePane;
+document.getElementById("pane-prev").onclick = () => step(-1);
+document.getElementById("pane-next").onclick = () => step(1);
+document.querySelectorAll("#pane-marks button").forEach(btn => {
+  btn.onclick = () => {
+    if (!current) return;
+    const key = current.dataset.key;
+    const m = store.read();
+    if (m[key] === btn.dataset.mark) { delete m[key]; } else { m[key] = btn.dataset.mark; }
+    store.write(m);
+    current.classList.toggle("no", m[key] === "no");
+    current.querySelectorAll(".marks button").forEach(b =>
+      b.setAttribute("aria-pressed", String(m[key] === b.dataset.mark)));
+    syncPaneMarks(key);
+    renderPrecision();
+  };
+});
+
+document.addEventListener("keydown", e => {
+  if (!current) return;
+  if (e.key === "Escape") { closePane(); }
+  else if (e.key === "ArrowRight") { e.preventDefault(); step(1); }
+  else if (e.key === "ArrowLeft") { e.preventDefault(); step(-1); }
+});
+
+wireMarks(document);
+renderPrecision();
+</script>
+</body>
+</html>

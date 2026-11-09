@@ -1,0 +1,202 @@
+[
+ {
+  "key": "bbce9bb9697ac8eb",
+  "title": "Nvidia CEO Jensen Huang's letter to staff about affair",
+  "url": "https://nvidianews.nvidia.com/news/a-message-to-our-company",
+  "source": "hackernews",
+  "axes": [
+   "people"
+  ],
+  "score": 7.86,
+  "date": "2026-11-09"
+ },
+ {
+  "key": "60de12a910f58a37",
+  "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+  "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 7.44,
+  "date": "2026-11-09"
+ },
+ {
+  "key": "ea904f081e723964",
+  "title": "LongBanana: An Expert-Verified Benchmark for Long-Context Multi-Reference Image Synthesis",
+  "url": "https://huggingface.co/papers/2611.06856",
+  "source": "hf-papers",
+  "axes": [
+   "image",
+   "model"
+  ],
+  "score": 6.92,
+  "date": "2026-11-09"
+ },
+ {
+  "key": "e22b1182569b93f0",
+  "title": "Live-Action + Blender + Wan 2.2 Lora Hybrid Test",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xrdsj8/liveaction_blender_wan_22_lora_hybrid_test/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image",
+   "threed"
+  ],
+  "score": 6.87,
+  "date": "2026-11-09"
+ },
+ {
+  "key": "c2da6cc187ca5a77",
+  "title": "Open-H3-Regenerate-2K-IC",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xrkcea/openh3regenerate2kic/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.64,
+  "date": "2026-11-09"
+ },
+ {
+  "key": "203e61e3e0343695",
+  "title": "The Last Mile to the Real World: Agent-Native Primitives as Reusable Building Blocks for Solving Real-World Tasks",
+  "url": "https://huggingface.co/papers/2611.07461",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 5.59,
+  "date": "2026-11-09"
+ },
+ {
+  "key": "a333ec27e73c5ec4",
+  "title": "The latest AI news we announced in October 2026",
+  "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
+  "source": "google-ai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 5.27,
+  "date": "2026-11-09"
+ },
+ {
+  "key": "5641fa0869b4c603",
+  "title": "ZeoBench: A Benchmark for Self-Supervised Learning on 3D Zeolite Representations",
+  "url": "https://arxiv.org/abs/2611.09880v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "model",
+   "threed"
+  ],
+  "score": 5.19,
+  "date": "2026-11-09"
+ },
+ {
+  "key": "5e683132b30918eb",
+  "title": "The Web Is More Than Enough, by Paul Ford",
+  "url": "https://simonwillison.net/2026/Nov/9/hn-50421091/",
+  "source": "simonwillison",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 5.1,
+  "date": "2026-11-09"
+ },
+ {
+  "key": "36aa372f270917a7",
+  "title": "Statement from Nvidia board of directors",
+  "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 7.03,
+  "date": "2026-11-09"
+ },
+ {
+  "key": "8b35fc54b03061f1",
+  "title": "New Solution - AnimaEdit: Reference & Instruction Image Editing LoRA",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xrmz20/new_solution_animaedit_reference_instruction/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.38,
+  "date": "2026-11-09"
+ },
+ {
+  "key": "a07b87e406eb4ce5",
+  "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+  "url": "https://github.com/synchopate/llama-modchip",
+  "source": "hackernews",
+  "axes": [
+   "infra"
+  ],
+  "score": 6.28,
+  "date": "2026-11-09"
+ },
+ {
+  "key": "d23193e846e0a47e",
+  "title": "P^2-MOPD: Accelerating Multi-Teacher On-Policy Distillation via Parameter Priors",
+  "url": "https://huggingface.co/papers/2611.03953",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 5.54,
+  "date": "2026-11-09"
+ },
+ {
+  "key": "50438df4616a905f",
+  "title": "Beneath the Surface: What We Overlook When We Talk About Agent Evolution",
+  "url": "https://huggingface.co/papers/2611.07624",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 5.53,
+  "date": "2026-11-09"
+ },
+ {
+  "key": "970eca1e8d504d81",
+  "title": "Hide your slop PR descriptions behind",
+  "url": "https://simonwillison.net/2026/Nov/9/details-summary/",
+  "source": "simonwillison",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 5.1,
+  "date": "2026-11-09"
+ },
+ {
+  "key": "6edc696f5641b235",
+  "title": "parse_number() as a SQLite extension: C vs Rust",
+  "url": "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/",
+  "source": "simonwillison",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 4.88,
+  "date": "2026-11-09"
+ },
+ {
+  "key": "941c11398df7d495",
+  "title": "Korea’s AI Ecosystem Advances and Secures Agentic AI With NVIDIA",
+  "url": "https://blogs.nvidia.com/blog/korea-secure-agentic-ai/",
+  "source": "nvidia-genai",
+  "axes": [
+   "infra",
+   "model",
+   "threed"
+  ],
+  "score": 4.84,
+  "date": "2026-11-09"
+ }
+]
