@@ -1,0 +1,222 @@
+[
+ {
+  "key": "3fb4e56c2e716206",
+  "title": "Claude Fable 5.2 and Mythos 5.2",
+  "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 8.7,
+  "date": "2026-11-10"
+ },
+ {
+  "key": "2772d4283b62a6f6",
+  "title": "Introducing Our Smallest, Most Efficient Model: Muse Ember",
+  "url": "https://simonwillison.net/2026/Nov/10/muse-ember/",
+  "source": "simonwillison",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 7.14,
+  "date": "2026-11-10"
+ },
+ {
+  "key": "cbe3a418661d131c",
+  "title": "Google Gemini routes personal Drive files and emails to human annotators",
+  "url": "https://github.com/thisisme6598/gemini_files/",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 7.07,
+  "date": "2026-11-10"
+ },
+ {
+  "key": "57c05c922733afcb",
+  "title": "ComfyUI Quant Benchmark: 10 GPUs, 15 models, and 467 runs comparing int8 ConvRot, nvfp4, w4a8, and fp8 against bf16. Real numbers on what fits, what drifts, and why turbo LoRAs break on quants.",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xsgva6/comfyui_quant_benchmark_10_gpus_15_models_and_467/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image",
+   "model"
+  ],
+  "score": 7.03,
+  "date": "2026-11-10"
+ },
+ {
+  "key": "5658363e22b6be52",
+  "title": "Learning Heterogeneous Tactile Representation for General Dexterous Manipulation",
+  "url": "https://huggingface.co/papers/2611.12806",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 6.9,
+  "date": "2026-11-10"
+ },
+ {
+  "key": "bfa3fd415c0fb22f",
+  "title": "Unreal Engine 5.9 Preview Is Out & It Was Built With AI",
+  "url": "https://80.lv/articles/unreal-engine-5-9-preview-is-out-it-was-built-with-ai/",
+  "source": "80lv",
+  "axes": [
+   "game"
+  ],
+  "score": 6.85,
+  "date": "2026-11-10"
+ },
+ {
+  "key": "3ab6ee25c9096fff",
+  "title": "MOSS-Image-SFT control LoRAs — pose, depth, canny and the rest",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xsh4xq/mossimagesft_control_loras_pose_depth_canny_and/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.73,
+  "date": "2026-11-10"
+ },
+ {
+  "key": "c2add89caf7f1f73",
+  "title": "Reframe: Observation-Aligned Multi-Teacher On-Policy Distillation for Agentic Visual Reasoning",
+  "url": "https://arxiv.org/abs/2611.12886v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "image"
+  ],
+  "score": 5.37,
+  "date": "2026-11-10"
+ },
+ {
+  "key": "9782a664c8885cc8",
+  "title": "Explicit LOD-Conditioned Anisotropic Filtering for Neural Texture Compression",
+  "url": "https://arxiv.org/abs/2611.12650v1",
+  "source": "arxiv-gr",
+  "axes": [
+   "image"
+  ],
+  "score": 5.3,
+  "date": "2026-11-10"
+ },
+ {
+  "key": "77218a6e64a46391",
+  "title": "ArtStation Adds AI Declarations & Default AI Filtering for Artwork",
+  "url": "https://80.lv/articles/artstation-adds-ai-declarations-default-ai-filtering-for-artwork/",
+  "source": "80lv",
+  "axes": [
+   "game",
+   "image",
+   "threed"
+  ],
+  "score": 5.01,
+  "date": "2026-11-10"
+ },
+ {
+  "key": "5600e90880356619",
+  "title": "LowRAM: Low-Rank Keys and Amortised Values for Composable KV Cache Compression at Test-Time",
+  "url": "https://huggingface.co/papers/2611.07025",
+  "source": "hf-papers",
+  "axes": [
+   "infra"
+  ],
+  "score": 4.74,
+  "date": "2026-11-10"
+ },
+ {
+  "key": "2d21b67e21876697",
+  "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+  "url": "https://openai.com/index/control-room",
+  "source": "openai",
+  "axes": [
+   "model"
+  ],
+  "score": 6.56,
+  "date": "2026-11-10"
+ },
+ {
+  "key": "659a6e78c1a0b346",
+  "title": "WorldFoundry: Towards Unified Infrastructure for World Intelligence",
+  "url": "https://huggingface.co/papers/2611.10771",
+  "source": "hf-papers",
+  "axes": [
+   "video"
+  ],
+  "score": 6.29,
+  "date": "2026-11-10"
+ },
+ {
+  "key": "2ae8139cc40d5ae5",
+  "title": "Closing the AI guidance gap in education",
+  "url": "https://openai.com/index/closing-ai-guidance-gap-education",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 5.79,
+  "date": "2026-11-10"
+ },
+ {
+  "key": "6f81175955e376be",
+  "title": "MOSS = Masterpiece of Open Source Software",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xsa2e2/moss_masterpiece_of_open_source_software/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "model"
+  ],
+  "score": 5.42,
+  "date": "2026-11-10"
+ },
+ {
+  "key": "617851755eabf1be",
+  "title": "Grasping the Future: Joint 3D Hand-Object Forecasting From Internet Videos",
+  "url": "https://arxiv.org/abs/2611.12879v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "threed"
+  ],
+  "score": 5.15,
+  "date": "2026-11-10"
+ },
+ {
+  "key": "fbf88380eeb14d97",
+  "title": "Yonkers Rises",
+  "url": "https://simonwillison.net/2026/Nov/10/yonkers-rises/",
+  "source": "simonwillison",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 5.07,
+  "date": "2026-11-10"
+ },
+ {
+  "key": "932a9480e34f6486",
+  "title": "Mitigating SM-Level Load Imbalance in 3D Gaussian Splatting on GPUs",
+  "url": "https://arxiv.org/abs/2611.12319v1",
+  "source": "arxiv-gr",
+  "axes": [
+   "threed"
+  ],
+  "score": 4.99,
+  "date": "2026-11-10"
+ },
+ {
+  "key": "717b39dfa1c35203",
+  "title": "Locating the source of a mysterious beep with Claude",
+  "url": "https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
+  "source": "simonwillison",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 4.93,
+  "date": "2026-11-10"
+ }
+]
