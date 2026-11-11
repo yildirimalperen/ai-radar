@@ -7,7 +7,30 @@
   "axes": [
    "model"
   ],
-  "score": 8.65,
+  "score": 8.72,
+  "date": "2026-11-11"
+ },
+ {
+  "key": "54649a239fd78bb1",
+  "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
+  "url": "https://github.com/GoogleChrome/modern-web-guidance",
+  "source": "hackernews",
+  "axes": [
+   "model"
+  ],
+  "score": 7.94,
+  "date": "2026-11-11"
+ },
+ {
+  "key": "7f88ba417ef0148e",
+  "title": "Few-Step Streaming Video Generation via Condition Shifting",
+  "url": "https://huggingface.co/papers/2611.14033",
+  "source": "hf-papers",
+  "axes": [
+   "model",
+   "video"
+  ],
+  "score": 7.37,
   "date": "2026-11-11"
  },
  {
@@ -20,7 +43,7 @@
    "model",
    "people"
   ],
-  "score": 7.45,
+  "score": 7.25,
   "date": "2026-11-11"
  },
  {
@@ -31,40 +54,7 @@
   "axes": [
    "image"
   ],
-  "score": 6.84,
-  "date": "2026-11-11"
- },
- {
-  "key": "6ad9054e2769525a",
-  "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
-  "url": "https://huggingface.co/blog/qvac/botpsy",
-  "source": "huggingface-blog",
-  "axes": [
-   "model"
-  ],
-  "score": 6.56,
-  "date": "2026-11-11"
- },
- {
-  "key": "92cbd532e5dd721a",
-  "title": "Introducing Businesses in ChatGPT",
-  "url": "https://openai.com/index/introducing-businesses-chatgpt",
-  "source": "openai",
-  "axes": [
-   "model"
-  ],
-  "score": 6.5,
-  "date": "2026-11-11"
- },
- {
-  "key": "a95a8a00f364ab2f",
-  "title": "DexForesight: Grounding Dexterous Policies with Implicit Spatial Foresight",
-  "url": "https://huggingface.co/papers/2611.11166",
-  "source": "hf-papers",
-  "axes": [
-   "video"
-  ],
-  "score": 6.5,
+  "score": 6.65,
   "date": "2026-11-11"
  },
  {
@@ -75,40 +65,30 @@
   "axes": [
    "image"
   ],
-  "score": 6.49,
+  "score": 6.48,
   "date": "2026-11-11"
  },
  {
-  "key": "dac66a51dfa7e086",
-  "title": "Amazed by the generation speed of MiniMax H3-Image.",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xt50cj/amazed_by_the_generation_speed_of_minimax_h3image/",
-  "source": "reddit-stablediffusion",
+  "key": "92cbd532e5dd721a",
+  "title": "Introducing Businesses in ChatGPT",
+  "url": "https://openai.com/index/introducing-businesses-chatgpt",
+  "source": "openai",
   "axes": [
-   "video"
+   "model"
   ],
-  "score": 6.47,
+  "score": 6.4,
   "date": "2026-11-11"
  },
  {
-  "key": "a319912f76b7dcb7",
-  "title": "Fable 5.2 one-shotted my nephew's dream game",
-  "url": "https://notesbylex.com/fable-5-2-one-shotted-my-nephews-dream-game",
-  "source": "hackernews",
+  "key": "f1f09836bb9482f1",
+  "title": "Measuring Robustness and Efficiency in a Connectome-Constrained Fly Visual System Model: Linking an Adversarial and a Perceptual Illusion",
+  "url": "https://arxiv.org/abs/2611.14498v1",
+  "source": "arxiv-cv",
   "axes": [
-   "game"
+   "image",
+   "model"
   ],
-  "score": 5.94,
-  "date": "2026-11-11"
- },
- {
-  "key": "bac82d442645aece",
-  "title": "Game of Thrones but more blood magic, full 17m film in profile",
-  "url": "https://www.reddit.com/r/aivideo/comments/1xt9fnf/game_of_thrones_but_more_blood_magic_full_17m/",
-  "source": "reddit-aivideo",
-  "axes": [
-   "game"
-  ],
-  "score": 5.74,
+  "score": 5.96,
   "date": "2026-11-11"
  },
  {
@@ -120,7 +100,7 @@
    "game",
    "video"
   ],
-  "score": 5.5,
+  "score": 5.43,
   "date": "2026-11-11"
  },
  {
@@ -131,18 +111,29 @@
   "axes": [
    "game"
   ],
-  "score": 5.42,
+  "score": 5.21,
   "date": "2026-11-11"
  },
  {
-  "key": "2006f8333f1e6384",
-  "title": "Anthropic Launches Claude Fable 5.2 and Mythos 5.2: Same Model, Different Safeguards",
-  "url": "https://www.marktechpost.com/2026/11/10/anthropic-claude-fable-5-2-mythos-5-2-release/",
-  "source": "marktechpost",
+  "key": "3877aa7a8758163c",
+  "title": "Last Week (Month) in AI #347 - Nvidia's spy, Anthropic's $1.4T IPO, AI's blue wave",
+  "url": "https://lastweekin.ai/p/last-week-month-in-ai-347-nvidias",
+  "source": "last-week-in-ai",
   "axes": [
-   "model"
+   "people"
   ],
-  "score": 6.38,
+  "score": 5.14,
+  "date": "2026-11-11"
+ },
+ {
+  "key": "385086a58182a058",
+  "title": "The indie game community is in disarray over AI and Big Walk",
+  "url": "https://www.theverge.com/games/1030994/big-walk-independent-games-festival-igf-ai",
+  "source": "verge-ai",
+  "axes": [
+   "game"
+  ],
+  "score": 4.71,
   "date": "2026-11-11"
  },
  {
@@ -155,7 +146,29 @@
    "model",
    "people"
   ],
-  "score": 6.34,
+  "score": 6.6,
+  "date": "2026-11-11"
+ },
+ {
+  "key": "a95a8a00f364ab2f",
+  "title": "DexForesight: Grounding Dexterous Policies with Implicit Spatial Foresight",
+  "url": "https://huggingface.co/papers/2611.11166",
+  "source": "hf-papers",
+  "axes": [
+   "video"
+  ],
+  "score": 6.42,
+  "date": "2026-11-11"
+ },
+ {
+  "key": "6ad9054e2769525a",
+  "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+  "url": "https://huggingface.co/blog/qvac/botpsy",
+  "source": "huggingface-blog",
+  "axes": [
+   "model"
+  ],
+  "score": 6.37,
   "date": "2026-11-11"
  },
  {
@@ -170,26 +183,14 @@
   "date": "2026-11-11"
  },
  {
-  "key": "f1f09836bb9482f1",
-  "title": "Measuring Robustness and Efficiency in a Connectome-Constrained Fly Visual System Model: Linking an Adversarial and a Perceptual Illusion",
-  "url": "https://arxiv.org/abs/2611.14498v1",
-  "source": "arxiv-cv",
+  "key": "2006f8333f1e6384",
+  "title": "Anthropic Launches Claude Fable 5.2 and Mythos 5.2: Same Model, Different Safeguards",
+  "url": "https://www.marktechpost.com/2026/11/10/anthropic-claude-fable-5-2-mythos-5-2-release/",
+  "source": "marktechpost",
   "axes": [
-   "image",
    "model"
   ],
-  "score": 6.09,
-  "date": "2026-11-11"
- },
- {
-  "key": "8778145fd19a5489",
-  "title": "New node H3-FaceRefine-Plus - 2x face details on small and medium faces",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xt4spw/new_node_h3facerefineplus_2x_face_details_on/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image"
-  ],
-  "score": 6.09,
+  "score": 6.26,
   "date": "2026-11-11"
  },
  {
@@ -213,7 +214,7 @@
    "model",
    "video"
   ],
-  "score": 5.83,
+  "score": 5.62,
   "date": "2026-11-11"
  },
  {
@@ -225,7 +226,7 @@
    "model",
    "people"
   ],
-  "score": 5.76,
+  "score": 5.55,
   "date": "2026-11-11"
  }
 ]
