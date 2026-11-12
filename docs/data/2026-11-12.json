@@ -1,0 +1,213 @@
+[
+ {
+  "key": "3420db888673b830",
+  "title": "Gemini Decisions API",
+  "url": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/",
+  "source": "simonwillison",
+  "axes": [
+   "infra"
+  ],
+  "score": 10.2,
+  "date": "2026-11-12"
+ },
+ {
+  "key": "191d2e6424c778a8",
+  "title": "Nvidia is preparing to oust Jensen Huang",
+  "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 7.61,
+  "date": "2026-11-12"
+ },
+ {
+  "key": "016a2dcc02324ae6",
+  "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+  "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 7.4,
+  "date": "2026-11-12"
+ },
+ {
+  "key": "1f7e1482d119ed8c",
+  "title": "Creators Developed Playable Worlds, VR Games, & Digital Pets for Tripo AI's First 3D World Hackathon",
+  "url": "https://80.lv/articles/creators-developed-playable-worlds-vr-games-digital-pets-for-tripo-ai-s-first-3d-world-hackathon/",
+  "source": "80lv",
+  "axes": [
+   "game",
+   "threed"
+  ],
+  "score": 7.22,
+  "date": "2026-11-12"
+ },
+ {
+  "key": "c3d41f9c82f15936",
+  "title": "Anthropic's IPO roadshow video",
+  "url": "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/",
+  "source": "simonwillison",
+  "axes": [
+   "people",
+   "video"
+  ],
+  "score": 6.99,
+  "date": "2026-11-12"
+ },
+ {
+  "key": "82184c5b24fba65c",
+  "title": "Minimax-H3-Image 2 step LORA is out",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xu7gs2/minimaxh3image_2_step_lora_is_out/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.95,
+  "date": "2026-11-12"
+ },
+ {
+  "key": "f9304d2611c83909",
+  "title": "Native 100 megapixel (no upscaling) Minimax H3 Image Generation on 5090 @ 240 seconds.",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xu3dum/native_100_megapixel_no_upscaling_minimax_h3/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.78,
+  "date": "2026-11-12"
+ },
+ {
+  "key": "3ade2ba81edb80aa",
+  "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+  "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+  "source": "google-ai",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 6.68,
+  "date": "2026-11-12"
+ },
+ {
+  "key": "dfed9b026365de72",
+  "title": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
+  "url": "https://huggingface.co/blog/token-pooling",
+  "source": "huggingface-blog",
+  "axes": [
+   "model"
+  ],
+  "score": 5.81,
+  "date": "2026-11-12"
+ },
+ {
+  "key": "e48d3c8adc9b5d4f",
+  "title": "Deformable Texture Maps: Compiling Dynamic Microgeometry into Neural Textures",
+  "url": "https://arxiv.org/abs/2611.13677v1",
+  "source": "arxiv-gr",
+  "axes": [
+   "image"
+  ],
+  "score": 4.78,
+  "date": "2026-11-12"
+ },
+ {
+  "key": "bd52fac7d4a19271",
+  "title": "Free simple Workflow Realistic 1Girl Minimax H3 Image",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xu2szr/free_simple_workflow_realistic_1girl_minimax_h3/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.76,
+  "date": "2026-11-12"
+ },
+ {
+  "key": "c6a01b0c3c700227",
+  "title": "SteerDistill: Quantizing LLM Agents via Closed-Loop Teacher Steering",
+  "url": "https://huggingface.co/papers/2611.13410",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 5.73,
+  "date": "2026-11-12"
+ },
+ {
+  "key": "fc1aa76fbf52d236",
+  "title": "One Table, Many Queries: Benchmarking Generalist Tabular Models Across Generation, Imputation, and Prediction",
+  "url": "https://huggingface.co/papers/2611.13001",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 5.69,
+  "date": "2026-11-12"
+ },
+ {
+  "key": "cfc71a2f7af992e7",
+  "title": "My AI agents found an unmapped Maya site?",
+  "url": "https://pietromiotti.com/latest/maya-site",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 5.53,
+  "date": "2026-11-12"
+ },
+ {
+  "key": "9797b53ba6f6d231",
+  "title": "Apple has new Mac app coming to make running local AI models easy",
+  "url": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 5.26,
+  "date": "2026-11-12"
+ },
+ {
+  "key": "b6a5d1d136d2c0a6",
+  "title": "Tried MiniMax H3 Image with some surreal prompts. It handled them better than I expected.",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xu1bpt/tried_minimax_h3_image_with_some_surreal_prompts/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 4.96,
+  "date": "2026-11-12"
+ },
+ {
+  "key": "46b84858ecf556e0",
+  "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
+  "url": "https://openai.com/index/jiostar-vijay-seshadri",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 4.88,
+  "date": "2026-11-12"
+ },
+ {
+  "key": "5d6b4b329f6813ee",
+  "title": "aws-emulator",
+  "url": "https://simonwillison.net/2026/Nov/11/aws-emulator/",
+  "source": "simonwillison",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 4.85,
+  "date": "2026-11-12"
+ }
+]
