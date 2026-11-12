@@ -7,7 +7,18 @@
   "axes": [
    "infra"
   ],
-  "score": 10.2,
+  "score": 10.06,
+  "date": "2026-11-12"
+ },
+ {
+  "key": "cbc18cf4d4bd0c4d",
+  "title": "NVIDIA Announces CEO Transition",
+  "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+  "source": "hackernews",
+  "axes": [
+   "people"
+  ],
+  "score": 8.3,
   "date": "2026-11-12"
  },
  {
@@ -20,7 +31,108 @@
    "model",
    "people"
   ],
-  "score": 7.61,
+  "score": 7.48,
+  "date": "2026-11-12"
+ },
+ {
+  "key": "c3d41f9c82f15936",
+  "title": "Anthropic's IPO roadshow video",
+  "url": "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/",
+  "source": "simonwillison",
+  "axes": [
+   "people",
+   "video"
+  ],
+  "score": 6.86,
+  "date": "2026-11-12"
+ },
+ {
+  "key": "82184c5b24fba65c",
+  "title": "Minimax-H3-Image 2 step LORA is out",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xu7gs2/minimaxh3image_2_step_lora_is_out/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.72,
+  "date": "2026-11-12"
+ },
+ {
+  "key": "3ade2ba81edb80aa",
+  "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+  "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+  "source": "google-ai",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 6.54,
+  "date": "2026-11-12"
+ },
+ {
+  "key": "62707aa3722e70bc",
+  "title": "Tencent Launches AI Gaming Companions That Watch You Play & Offer Advice",
+  "url": "https://80.lv/articles/tencent-launches-ai-gaming-companions-that-watch-you-play-offer-advice/",
+  "source": "80lv",
+  "axes": [
+   "model"
+  ],
+  "score": 6.21,
+  "date": "2026-11-12"
+ },
+ {
+  "key": "919da50dc725109d",
+  "title": "stopped fighting long video gens, 5s chunks + last frame works way better for me",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xu866f/stopped_fighting_long_video_gens_5s_chunks_last/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "video"
+  ],
+  "score": 5.93,
+  "date": "2026-11-12"
+ },
+ {
+  "key": "73a336edccf64a86",
+  "title": "Game Dev VM",
+  "url": "https://www.reddit.com/r/gamedev/comments/1xuf5am/game_dev_vm/",
+  "source": "reddit-gamedev",
+  "axes": [
+   "game"
+  ],
+  "score": 5.9,
+  "date": "2026-11-12"
+ },
+ {
+  "key": "4a6c407f56de6668",
+  "title": "Question about Godot / GameMaker on Pop!_OS",
+  "url": "https://www.reddit.com/r/gamedev/comments/1xudhs9/question_about_godot_gamemaker_on_pop_os/",
+  "source": "reddit-gamedev",
+  "axes": [
+   "game"
+  ],
+  "score": 5.85,
+  "date": "2026-11-12"
+ },
+ {
+  "key": "725ed5037650f631",
+  "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
+  "url": "https://huggingface.co/blog/3d-lora-finetuning",
+  "source": "huggingface-blog",
+  "axes": [
+   "threed"
+  ],
+  "score": 5.83,
+  "date": "2026-11-12"
+ },
+ {
+  "key": "dfed9b026365de72",
+  "title": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
+  "url": "https://huggingface.co/blog/token-pooling",
+  "source": "huggingface-blog",
+  "axes": [
+   "model"
+  ],
+  "score": 5.73,
   "date": "2026-11-12"
  },
  {
@@ -33,98 +145,18 @@
    "model",
    "people"
   ],
-  "score": 7.4,
+  "score": 6.83,
   "date": "2026-11-12"
  },
  {
-  "key": "1f7e1482d119ed8c",
-  "title": "Creators Developed Playable Worlds, VR Games, & Digital Pets for Tripo AI's First 3D World Hackathon",
-  "url": "https://80.lv/articles/creators-developed-playable-worlds-vr-games-digital-pets-for-tripo-ai-s-first-3d-world-hackathon/",
-  "source": "80lv",
+  "key": "421c292ff36e79f6",
+  "title": "My first Steam demo, two weeks in: 835 downloads, 44 players, 47 wishlists. All my numbers from Steam, itch, Game Jolt, Unity Play, ~$110 of ads and ~155 creator emails",
+  "url": "https://www.reddit.com/r/gamedev/comments/1xudb3x/my_first_steam_demo_two_weeks_in_835_downloads_44/",
+  "source": "reddit-gamedev",
   "axes": [
-   "game",
-   "threed"
+   "game"
   ],
-  "score": 7.22,
-  "date": "2026-11-12"
- },
- {
-  "key": "c3d41f9c82f15936",
-  "title": "Anthropic's IPO roadshow video",
-  "url": "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/",
-  "source": "simonwillison",
-  "axes": [
-   "people",
-   "video"
-  ],
-  "score": 6.99,
-  "date": "2026-11-12"
- },
- {
-  "key": "82184c5b24fba65c",
-  "title": "Minimax-H3-Image 2 step LORA is out",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xu7gs2/minimaxh3image_2_step_lora_is_out/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image"
-  ],
-  "score": 6.95,
-  "date": "2026-11-12"
- },
- {
-  "key": "f9304d2611c83909",
-  "title": "Native 100 megapixel (no upscaling) Minimax H3 Image Generation on 5090 @ 240 seconds.",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xu3dum/native_100_megapixel_no_upscaling_minimax_h3/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image"
-  ],
-  "score": 6.78,
-  "date": "2026-11-12"
- },
- {
-  "key": "3ade2ba81edb80aa",
-  "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
-  "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
-  "source": "google-ai",
-  "axes": [
-   "infra",
-   "model"
-  ],
-  "score": 6.68,
-  "date": "2026-11-12"
- },
- {
-  "key": "dfed9b026365de72",
-  "title": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
-  "url": "https://huggingface.co/blog/token-pooling",
-  "source": "huggingface-blog",
-  "axes": [
-   "model"
-  ],
-  "score": 5.81,
-  "date": "2026-11-12"
- },
- {
-  "key": "e48d3c8adc9b5d4f",
-  "title": "Deformable Texture Maps: Compiling Dynamic Microgeometry into Neural Textures",
-  "url": "https://arxiv.org/abs/2611.13677v1",
-  "source": "arxiv-gr",
-  "axes": [
-   "image"
-  ],
-  "score": 4.78,
-  "date": "2026-11-12"
- },
- {
-  "key": "bd52fac7d4a19271",
-  "title": "Free simple Workflow Realistic 1Girl Minimax H3 Image",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xu2szr/free_simple_workflow_realistic_1girl_minimax_h3/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image"
-  ],
-  "score": 6.76,
+  "score": 5.84,
   "date": "2026-11-12"
  },
  {
@@ -135,7 +167,7 @@
   "axes": [
    "model"
   ],
-  "score": 5.73,
+  "score": 5.71,
   "date": "2026-11-12"
  },
  {
@@ -150,25 +182,23 @@
   "date": "2026-11-12"
  },
  {
-  "key": "cfc71a2f7af992e7",
-  "title": "My AI agents found an unmapped Maya site?",
-  "url": "https://pietromiotti.com/latest/maya-site",
-  "source": "hackernews",
+  "key": "bba83e39a538d5b9",
+  "title": "Holiday Extras is rethinking what it can build with Codex",
+  "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
+  "source": "openai",
   "axes": [
-   "infra",
    "model",
    "people"
   ],
-  "score": 5.53,
+  "score": 5.57,
   "date": "2026-11-12"
  },
  {
-  "key": "9797b53ba6f6d231",
-  "title": "Apple has new Mac app coming to make running local AI models easy",
-  "url": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/",
-  "source": "hackernews",
+  "key": "84bf2843c70faa50",
+  "title": "Supporting research on AI and children’s safety",
+  "url": "https://openai.com/index/children-first-declaration",
+  "source": "openai",
   "axes": [
-   "infra",
    "model",
    "people"
   ],
@@ -176,38 +206,25 @@
   "date": "2026-11-12"
  },
  {
-  "key": "b6a5d1d136d2c0a6",
-  "title": "Tried MiniMax H3 Image with some surreal prompts. It handled them better than I expected.",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xu1bpt/tried_minimax_h3_image_with_some_surreal_prompts/",
+  "key": "e0e549ed09cff990",
+  "title": "Testing multi-object reference layouts with MiniMax H3-Image",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xucyj0/testing_multiobject_reference_layouts_with/",
   "source": "reddit-stablediffusion",
   "axes": [
    "image"
   ],
-  "score": 4.96,
+  "score": 5.17,
   "date": "2026-11-12"
  },
  {
-  "key": "46b84858ecf556e0",
-  "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
-  "url": "https://openai.com/index/jiostar-vijay-seshadri",
-  "source": "openai",
+  "key": "f24661b5e91089a7",
+  "title": "BREAKING: NVIDIA Announces New CEO as Jensen Huang Resigns",
+  "url": "https://80.lv/articles/breaking-nvidia-announces-new-ceo-as-jensen-huang-resigns/",
+  "source": "80lv",
   "axes": [
-   "model",
    "people"
   ],
-  "score": 4.88,
-  "date": "2026-11-12"
- },
- {
-  "key": "5d6b4b329f6813ee",
-  "title": "aws-emulator",
-  "url": "https://simonwillison.net/2026/Nov/11/aws-emulator/",
-  "source": "simonwillison",
-  "axes": [
-   "infra",
-   "model"
-  ],
-  "score": 4.85,
+  "score": 5.13,
   "date": "2026-11-12"
  }
 ]
