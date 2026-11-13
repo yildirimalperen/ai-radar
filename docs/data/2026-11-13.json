@@ -1,5 +1,16 @@
 [
  {
+  "key": "f3a8c5718fcc63ab",
+  "title": "Introducing Gemini 4 Hydrogen",
+  "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+  "source": "deepmind",
+  "axes": [
+   "model"
+  ],
+  "score": 8.68,
+  "date": "2026-11-13"
+ },
+ {
   "key": "5ac607a78a8021dc",
   "title": "Nvidia employees petition to bring back Jensen Huang",
   "url": "https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/",
@@ -9,18 +20,7 @@
    "model",
    "people"
   ],
-  "score": 7.65,
-  "date": "2026-11-13"
- },
- {
-  "key": "ae518b662c6d042d",
-  "title": "Anthropic IPO",
-  "url": "https://ipo.anthropic.com/us/",
-  "source": "hackernews",
-  "axes": [
-   "people"
-  ],
-  "score": 7.11,
+  "score": 7.51,
   "date": "2026-11-13"
  },
  {
@@ -32,7 +32,7 @@
    "model",
    "video"
   ],
-  "score": 6.94,
+  "score": 6.99,
   "date": "2026-11-13"
  },
  {
@@ -44,18 +44,29 @@
    "model",
    "video"
   ],
-  "score": 6.91,
+  "score": 6.94,
   "date": "2026-11-13"
  },
  {
-  "key": "dd0a540a3ac82469",
-  "title": "I got MiniMax H3-Image running on a MacBook air with just ~3GB memory and almost no speed loss",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xuyirz/i_got_minimax_h3image_running_on_a_macbook_air/",
-  "source": "reddit-stablediffusion",
+  "key": "ae518b662c6d042d",
+  "title": "Anthropic IPO",
+  "url": "https://ipo.anthropic.com/us/",
+  "source": "hackernews",
   "axes": [
-   "image"
+   "people"
   ],
-  "score": 6.8,
+  "score": 6.88,
+  "date": "2026-11-13"
+ },
+ {
+  "key": "3924518e14c3ee56",
+  "title": "GDC 2026 Survey: 55% of Developers Consider AI's Impact on Games Negative",
+  "url": "https://80.lv/articles/gdc-2026-survey-55-of-developers-consider-ai-s-impact-on-games-negative/",
+  "source": "80lv",
+  "axes": [
+   "game"
+  ],
+  "score": 6.7,
   "date": "2026-11-13"
  },
  {
@@ -67,7 +78,7 @@
    "model",
    "people"
   ],
-  "score": 6.67,
+  "score": 6.54,
   "date": "2026-11-13"
  },
  {
@@ -78,7 +89,7 @@
   "axes": [
    "model"
   ],
-  "score": 6.22,
+  "score": 6.08,
   "date": "2026-11-13"
  },
  {
@@ -90,19 +101,19 @@
    "image",
    "video"
   ],
-  "score": 6.2,
+  "score": 6.07,
   "date": "2026-11-13"
  },
  {
-  "key": "6e90e6f8aa4381e6",
-  "title": "\"It's about giving more great games a chance\" – Why Launchable thinks it can help more independent studios reach the market with its shared success model",
-  "url": "https://www.gamesindustry.biz/its-about-giving-more-great-games-a-chance-why-launchable-thinks-it-can-help-more-independent-studios-reach-the-market-with-its-shared-success-model",
-  "source": "gamesindustry",
+  "key": "f96487b0c84283dd",
+  "title": "Consistent Video-to-Video Translation via Explicit Correspondences",
+  "url": "https://arxiv.org/abs/2611.17298v1",
+  "source": "arxiv-gr",
   "axes": [
-   "game",
-   "model"
+   "model",
+   "video"
   ],
-  "score": 6.01,
+  "score": 5.73,
   "date": "2026-11-13"
  },
  {
@@ -113,30 +124,7 @@
   "axes": [
    "game"
   ],
-  "score": 5.32,
-  "date": "2026-11-13"
- },
- {
-  "key": "fbb454a6f65ffbb3",
-  "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
-  "url": "https://openai.com/business/customer-stories/amplitude",
-  "source": "openai",
-  "axes": [
-   "model",
-   "people"
-  ],
-  "score": 5.32,
-  "date": "2026-11-13"
- },
- {
-  "key": "83151cde451a62cb",
-  "title": "More game developers are starting to use generative AI",
-  "url": "https://www.theverge.com/games/1032085/gdc-festival-of-gaming-annual-survey-ai-layoffs",
-  "source": "verge-ai",
-  "axes": [
-   "game"
-  ],
-  "score": 4.82,
+  "score": 5.19,
   "date": "2026-11-13"
  },
  {
@@ -149,7 +137,7 @@
    "model",
    "people"
   ],
-  "score": 7.17,
+  "score": 6.99,
   "date": "2026-11-13"
  },
  {
@@ -162,7 +150,7 @@
    "model",
    "people"
   ],
-  "score": 7.09,
+  "score": 6.93,
   "date": "2026-11-13"
  },
  {
@@ -173,7 +161,7 @@
   "axes": [
    "video"
   ],
-  "score": 6.5,
+  "score": 6.53,
   "date": "2026-11-13"
  },
  {
@@ -184,19 +172,7 @@
   "axes": [
    "image"
   ],
-  "score": 6.33,
-  "date": "2026-11-13"
- },
- {
-  "key": "f96487b0c84283dd",
-  "title": "Consistent Video-to-Video Translation via Explicit Correspondences",
-  "url": "https://arxiv.org/abs/2611.17298v1",
-  "source": "arxiv-gr",
-  "axes": [
-   "model",
-   "video"
-  ],
-  "score": 5.87,
+  "score": 6.34,
   "date": "2026-11-13"
  },
  {
@@ -208,7 +184,19 @@
    "infra",
    "threed"
   ],
-  "score": 5.48,
+  "score": 5.37,
+  "date": "2026-11-13"
+ },
+ {
+  "key": "fdb4354c243c714b",
+  "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+  "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+  "source": "huggingface-blog",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 5.29,
   "date": "2026-11-13"
  },
  {
@@ -219,18 +207,18 @@
   "axes": [
    "image"
   ],
-  "score": 5.38,
+  "score": 5.24,
   "date": "2026-11-13"
  },
  {
-  "key": "99178f2cea72b5a8",
-  "title": "K2V: Generative Keyframing For Physically Plausible Video Generation",
-  "url": "https://arxiv.org/abs/2611.17324v1",
-  "source": "arxiv-cv",
+  "key": "49069ecd9a6a96e4",
+  "title": "Neural Render Proxies for Interactive and Differentiable Lighting",
+  "url": "https://arxiv.org/abs/2611.17185v1",
+  "source": "arxiv-gr",
   "axes": [
-   "video"
+   "image"
   ],
-  "score": 5.16,
+  "score": 5.21,
   "date": "2026-11-13"
  }
 ]
