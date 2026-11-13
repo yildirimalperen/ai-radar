@@ -1,0 +1,236 @@
+[
+ {
+  "key": "5ac607a78a8021dc",
+  "title": "Nvidia employees petition to bring back Jensen Huang",
+  "url": "https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 7.65,
+  "date": "2026-11-13"
+ },
+ {
+  "key": "ae518b662c6d042d",
+  "title": "Anthropic IPO",
+  "url": "https://ipo.anthropic.com/us/",
+  "source": "hackernews",
+  "axes": [
+   "people"
+  ],
+  "score": 7.11,
+  "date": "2026-11-13"
+ },
+ {
+  "key": "e3d870692c5c8f78",
+  "title": "Duo: A Reciprocal World Model for Full-Duplex Interaction",
+  "url": "https://huggingface.co/papers/2611.15131",
+  "source": "hf-papers",
+  "axes": [
+   "model",
+   "video"
+  ],
+  "score": 6.94,
+  "date": "2026-11-13"
+ },
+ {
+  "key": "11af14864b094956",
+  "title": "BirdDreams: Joint Perspective and BEV Video Generation for a Plausible, Reactive Driving World Model",
+  "url": "https://huggingface.co/papers/2611.14815",
+  "source": "hf-papers",
+  "axes": [
+   "model",
+   "video"
+  ],
+  "score": 6.91,
+  "date": "2026-11-13"
+ },
+ {
+  "key": "dd0a540a3ac82469",
+  "title": "I got MiniMax H3-Image running on a MacBook air with just ~3GB memory and almost no speed loss",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xuyirz/i_got_minimax_h3image_running_on_a_macbook_air/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.8,
+  "date": "2026-11-13"
+ },
+ {
+  "key": "6926b29799c480c2",
+  "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+  "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+  "source": "google-ai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 6.67,
+  "date": "2026-11-13"
+ },
+ {
+  "key": "9278e8d9bce893c2",
+  "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+  "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+  "source": "huggingface-blog",
+  "axes": [
+   "model"
+  ],
+  "score": 6.22,
+  "date": "2026-11-13"
+ },
+ {
+  "key": "57573a6cf91dea03",
+  "title": "Back to Pixels: Lifting Latent Video Diffusion into Pixel Space",
+  "url": "https://arxiv.org/abs/2611.17336v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "image",
+   "video"
+  ],
+  "score": 6.2,
+  "date": "2026-11-13"
+ },
+ {
+  "key": "6e90e6f8aa4381e6",
+  "title": "\"It's about giving more great games a chance\" – Why Launchable thinks it can help more independent studios reach the market with its shared success model",
+  "url": "https://www.gamesindustry.biz/its-about-giving-more-great-games-a-chance-why-launchable-thinks-it-can-help-more-independent-studios-reach-the-market-with-its-shared-success-model",
+  "source": "gamesindustry",
+  "axes": [
+   "game",
+   "model"
+  ],
+  "score": 6.01,
+  "date": "2026-11-13"
+ },
+ {
+  "key": "474c23d50636c4df",
+  "title": "GDC State of the Game Industry report: 40% of developers are using generative AI for work",
+  "url": "https://www.gamesindustry.biz/gdc-state-of-the-game-industry-report-40-of-developers-are-using-generative-ai-for-work",
+  "source": "gamesindustry",
+  "axes": [
+   "game"
+  ],
+  "score": 5.32,
+  "date": "2026-11-13"
+ },
+ {
+  "key": "fbb454a6f65ffbb3",
+  "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+  "url": "https://openai.com/business/customer-stories/amplitude",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 5.32,
+  "date": "2026-11-13"
+ },
+ {
+  "key": "83151cde451a62cb",
+  "title": "More game developers are starting to use generative AI",
+  "url": "https://www.theverge.com/games/1032085/gdc-festival-of-gaming-annual-survey-ai-layoffs",
+  "source": "verge-ai",
+  "axes": [
+   "game"
+  ],
+  "score": 4.82,
+  "date": "2026-11-13"
+ },
+ {
+  "key": "3d905b97b2864488",
+  "title": "Gemini 4 Hydrogen",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 7.17,
+  "date": "2026-11-13"
+ },
+ {
+  "key": "0ef251bd06acfd1a",
+  "title": "Gemini 4 Hydrogen and Orchestrator",
+  "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 7.09,
+  "date": "2026-11-13"
+ },
+ {
+  "key": "c58e55ff0295b906",
+  "title": "PhysLoop: Harnessing LLMs' Physics Awareness for Self-Improving Video Generation Models",
+  "url": "https://huggingface.co/papers/2611.16748",
+  "source": "hf-papers",
+  "axes": [
+   "video"
+  ],
+  "score": 6.5,
+  "date": "2026-11-13"
+ },
+ {
+  "key": "31e33d7cb0cb9384",
+  "title": "G-STAR: Group-Scaled Token Capacity for Deeply Compressed Autoregressive Generation",
+  "url": "https://huggingface.co/papers/2611.13004",
+  "source": "hf-papers",
+  "axes": [
+   "image"
+  ],
+  "score": 6.33,
+  "date": "2026-11-13"
+ },
+ {
+  "key": "f96487b0c84283dd",
+  "title": "Consistent Video-to-Video Translation via Explicit Correspondences",
+  "url": "https://arxiv.org/abs/2611.17298v1",
+  "source": "arxiv-gr",
+  "axes": [
+   "model",
+   "video"
+  ],
+  "score": 5.87,
+  "date": "2026-11-13"
+ },
+ {
+  "key": "6dcb7e764399b16c",
+  "title": "Sprint3D: Accelerating End-to-End 3D Asset Generation through Pipeline Optimization",
+  "url": "https://arxiv.org/abs/2611.16701v1",
+  "source": "arxiv-gr",
+  "axes": [
+   "infra",
+   "threed"
+  ],
+  "score": 5.48,
+  "date": "2026-11-13"
+ },
+ {
+  "key": "df5c35c6b7840cc5",
+  "title": "ProtoVis-Nav: Prototypical Visual Imagination for Visual-Spatial Aligned UAV Navigation",
+  "url": "https://arxiv.org/abs/2611.17330v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "image"
+  ],
+  "score": 5.38,
+  "date": "2026-11-13"
+ },
+ {
+  "key": "99178f2cea72b5a8",
+  "title": "K2V: Generative Keyframing For Physically Plausible Video Generation",
+  "url": "https://arxiv.org/abs/2611.17324v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "video"
+  ],
+  "score": 5.16,
+  "date": "2026-11-13"
+ }
+]
