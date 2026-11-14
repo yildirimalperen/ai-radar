@@ -1,0 +1,189 @@
+[
+ {
+  "key": "f3a8c5718fcc63ab",
+  "title": "Introducing Gemini 4 Hydrogen",
+  "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+  "source": "deepmind",
+  "axes": [
+   "model"
+  ],
+  "score": 8.36,
+  "date": "2026-11-14"
+ },
+ {
+  "key": "a6f2937370366118",
+  "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
+  "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 7.67,
+  "date": "2026-11-14"
+ },
+ {
+  "key": "0f0703f3e2650cc4",
+  "title": "Jonathan Blow – If AI solved coding, why is my software still the same? [video]",
+  "url": "https://www.youtube.com/watch?v=IRK8h67ol7Q",
+  "source": "hackernews",
+  "axes": [
+   "video"
+  ],
+  "score": 7.35,
+  "date": "2026-11-14"
+ },
+ {
+  "key": "edcf2a230d3bc41e",
+  "title": "MinimaxH3 Visual Film Language = Voice Performance",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xvulin/minimaxh3_visual_film_language_voice_performance/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.87,
+  "date": "2026-11-14"
+ },
+ {
+  "key": "4295ebcbedfb350b",
+  "title": "One of the biggest challenges in LoRA training is the issue of LoRA weight. Adjusting it—increasing it to 1.1 or decreasing it to 0.9—introduces another variable. Furthermore, there are now new nodes that allow for increasing the weight of specific words",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xvoh0a/one_of_the_biggest_challenges_in_lora_training_is/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image",
+   "model"
+  ],
+  "score": 6.79,
+  "date": "2026-11-14"
+ },
+ {
+  "key": "e1440b380825b6f4",
+  "title": "Introducing ChatGPT Wallet",
+  "url": "https://openai.com/index/introducing-chatgpt-wallet",
+  "source": "openai",
+  "axes": [
+   "model"
+  ],
+  "score": 6.63,
+  "date": "2026-11-14"
+ },
+ {
+  "key": "6a79587d69aa28b1",
+  "title": "Open Vision Banana: A Fully Open Recipe for Generative Visual Perception",
+  "url": "https://huggingface.co/papers/2611.15844",
+  "source": "hf-papers",
+  "axes": [
+   "image"
+  ],
+  "score": 6.37,
+  "date": "2026-11-14"
+ },
+ {
+  "key": "6926b29799c480c2",
+  "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+  "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+  "source": "google-ai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 6.22,
+  "date": "2026-11-14"
+ },
+ {
+  "key": "2dd20a277ea6f201",
+  "title": "MOSS AnyPaint: arbitrary-mask inpainting and outpainting in one LoRA",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xvt03y/moss_anypaint_arbitrarymask_inpainting_and/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.21,
+  "date": "2026-11-14"
+ },
+ {
+  "key": "9c65ea21f42d428c",
+  "title": "SO-Arena: Benchmarking the Capability Spectrum and Reliability of System One Models",
+  "url": "https://huggingface.co/papers/2611.15777",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 6.12,
+  "date": "2026-11-14"
+ },
+ {
+  "key": "78606a6520534617",
+  "title": "AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems",
+  "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 6.08,
+  "date": "2026-11-14"
+ },
+ {
+  "key": "dfa57ac5ed70adb4",
+  "title": "$11.4M in Nvidia hardware vanishes during shipment from CA to TX",
+  "url": "https://www.freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 6.05,
+  "date": "2026-11-14"
+ },
+ {
+  "key": "88611a6668fd983f",
+  "title": "Do Minimax H3 videos LoRA work on Minimax H3 Image?",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xvr272/do_minimax_h3_videos_lora_work_on_minimax_h3_image/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image",
+   "video"
+  ],
+  "score": 5.77,
+  "date": "2026-11-14"
+ },
+ {
+  "key": "f7f88c656d878cbe",
+  "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+  "url": "https://openai.com/business/customer-stories/shield",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 5.04,
+  "date": "2026-11-14"
+ },
+ {
+  "key": "f8af198f4f9dcbff",
+  "title": "The Wizard of Open Weights: Chris Alexiuk Makes AI Easy With Open Models",
+  "url": "https://blogs.nvidia.com/blog/nvidia-life-chris-alexiuk/",
+  "source": "nvidia-genai",
+  "axes": [
+   "model"
+  ],
+  "score": 4.92,
+  "date": "2026-11-14"
+ },
+ {
+  "key": "52e635304bb4dbeb",
+  "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+  "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+  "source": "huggingface-blog",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 4.78,
+  "date": "2026-11-14"
+ }
+]
