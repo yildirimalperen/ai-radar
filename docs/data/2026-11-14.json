@@ -7,7 +7,19 @@
   "axes": [
    "model"
   ],
-  "score": 8.36,
+  "score": 8.3,
+  "date": "2026-11-14"
+ },
+ {
+  "key": "9eccb899d0f431b7",
+  "title": "MiniMax-H3-Image-Character-Swap lora",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xvz8m9/minimaxh3imagecharacterswap_lora/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image",
+   "threed"
+  ],
+  "score": 7.69,
   "date": "2026-11-14"
  },
  {
@@ -20,7 +32,7 @@
    "model",
    "people"
   ],
-  "score": 7.67,
+  "score": 7.58,
   "date": "2026-11-14"
  },
  {
@@ -31,30 +43,18 @@
   "axes": [
    "video"
   ],
-  "score": 7.35,
+  "score": 7.51,
   "date": "2026-11-14"
  },
  {
-  "key": "edcf2a230d3bc41e",
-  "title": "MinimaxH3 Visual Film Language = Voice Performance",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xvulin/minimaxh3_visual_film_language_voice_performance/",
+  "key": "eba934f4c7fafa59",
+  "title": "I want to apologize... MiniMax-H3-Image",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xw0eb6/i_want_to_apologize_minimaxh3image/",
   "source": "reddit-stablediffusion",
   "axes": [
    "image"
   ],
-  "score": 6.87,
-  "date": "2026-11-14"
- },
- {
-  "key": "4295ebcbedfb350b",
-  "title": "One of the biggest challenges in LoRA training is the issue of LoRA weight. Adjusting it—increasing it to 1.1 or decreasing it to 0.9—introduces another variable. Furthermore, there are now new nodes that allow for increasing the weight of specific words",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xvoh0a/one_of_the_biggest_challenges_in_lora_training_is/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image",
-   "model"
-  ],
-  "score": 6.79,
+  "score": 6.92,
   "date": "2026-11-14"
  },
  {
@@ -65,7 +65,7 @@
   "axes": [
    "model"
   ],
-  "score": 6.63,
+  "score": 6.51,
   "date": "2026-11-14"
  },
  {
@@ -76,7 +76,7 @@
   "axes": [
    "image"
   ],
-  "score": 6.37,
+  "score": 6.35,
   "date": "2026-11-14"
  },
  {
@@ -88,18 +88,18 @@
    "model",
    "people"
   ],
-  "score": 6.22,
+  "score": 6.17,
   "date": "2026-11-14"
  },
  {
-  "key": "2dd20a277ea6f201",
-  "title": "MOSS AnyPaint: arbitrary-mask inpainting and outpainting in one LoRA",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xvt03y/moss_anypaint_arbitrarymask_inpainting_and/",
+  "key": "edcf2a230d3bc41e",
+  "title": "MinimaxH3 Visual Film Language = Voice Performance",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xvulin/minimaxh3_visual_film_language_voice_performance/",
   "source": "reddit-stablediffusion",
   "axes": [
    "image"
   ],
-  "score": 6.21,
+  "score": 6.69,
   "date": "2026-11-14"
  },
  {
@@ -110,7 +110,18 @@
   "axes": [
    "model"
   ],
-  "score": 6.12,
+  "score": 6.1,
+  "date": "2026-11-14"
+ },
+ {
+  "key": "2dd20a277ea6f201",
+  "title": "MOSS AnyPaint: arbitrary-mask inpainting and outpainting in one LoRA",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xvt03y/moss_anypaint_arbitrarymask_inpainting_and/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.04,
   "date": "2026-11-14"
  },
  {
@@ -123,7 +134,7 @@
    "model",
    "people"
   ],
-  "score": 6.08,
+  "score": 5.95,
   "date": "2026-11-14"
  },
  {
@@ -136,19 +147,19 @@
    "model",
    "people"
   ],
-  "score": 6.05,
+  "score": 5.91,
   "date": "2026-11-14"
  },
  {
-  "key": "88611a6668fd983f",
-  "title": "Do Minimax H3 videos LoRA work on Minimax H3 Image?",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xvr272/do_minimax_h3_videos_lora_work_on_minimax_h3_image/",
-  "source": "reddit-stablediffusion",
+  "key": "9189d14cb44b58e3",
+  "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+  "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
+  "source": "deepmind",
   "axes": [
-   "image",
-   "video"
+   "model",
+   "people"
   ],
-  "score": 5.77,
+  "score": 5.69,
   "date": "2026-11-14"
  },
  {
@@ -160,7 +171,7 @@
    "model",
    "people"
   ],
-  "score": 5.04,
+  "score": 4.95,
   "date": "2026-11-14"
  },
  {
@@ -172,18 +183,6 @@
    "model"
   ],
   "score": 4.92,
-  "date": "2026-11-14"
- },
- {
-  "key": "52e635304bb4dbeb",
-  "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
-  "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
-  "source": "huggingface-blog",
-  "axes": [
-   "infra",
-   "model"
-  ],
-  "score": 4.78,
   "date": "2026-11-14"
  }
 ]
