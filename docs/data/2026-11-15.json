@@ -1,5 +1,16 @@
 [
  {
+  "key": "f3a8c5718fcc63ab",
+  "title": "Introducing Gemini 4 Hydrogen",
+  "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+  "source": "deepmind",
+  "axes": [
+   "model"
+  ],
+  "score": 8.12,
+  "date": "2026-11-15"
+ },
+ {
   "key": "11e833be64588d90",
   "title": "Nvidia deliberately kept GPU prices high through circular financing deals",
   "url": "https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html",
@@ -7,18 +18,7 @@
   "axes": [
    "infra"
   ],
-  "score": 7.71,
-  "date": "2026-11-15"
- },
- {
-  "key": "8bde451eaed145b9",
-  "title": "Minimax H3 image using using u/luciferianism666's system prompt (prompt expander)",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xwo95l/minimax_h3_image_using_using_uluciferianism666s/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image"
-  ],
-  "score": 6.87,
+  "score": 7.68,
   "date": "2026-11-15"
  },
  {
@@ -31,19 +31,18 @@
    "model",
    "people"
   ],
-  "score": 6.69,
+  "score": 7.1,
   "date": "2026-11-15"
  },
  {
-  "key": "cba61d380d277387",
-  "title": "I need a local character swap model.",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xwidas/i_need_a_local_character_swap_model/",
+  "key": "8bde451eaed145b9",
+  "title": "Minimax H3 image using using u/luciferianism666's system prompt (prompt expander)",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xwo95l/minimax_h3_image_using_using_uluciferianism666s/",
   "source": "reddit-stablediffusion",
   "axes": [
-   "model",
-   "threed"
+   "image"
   ],
-  "score": 6.57,
+  "score": 6.69,
   "date": "2026-11-15"
  },
  {
@@ -54,7 +53,7 @@
   "axes": [
    "model"
   ],
-  "score": 6.38,
+  "score": 6.23,
   "date": "2026-11-15"
  },
  {
@@ -66,29 +65,18 @@
    "model",
    "people"
   ],
-  "score": 6.01,
+  "score": 5.98,
   "date": "2026-11-15"
  },
  {
-  "key": "a06581cc66751e7c",
-  "title": "Doing market Research for a Uni Project",
-  "url": "https://www.reddit.com/r/gamedev/comments/1xwpvgi/doing_market_research_for_a_uni_project/",
-  "source": "reddit-gamedev",
+  "key": "310f7905b9b5e91c",
+  "title": "If Minimax H3 Image can do 16MP why testing on 1girl? Let's go straight to 16girls!",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xwvd4f/if_minimax_h3_image_can_do_16mp_why_testing_on/",
+  "source": "reddit-stablediffusion",
   "axes": [
-   "game"
+   "image"
   ],
-  "score": 5.85,
-  "date": "2026-11-15"
- },
- {
-  "key": "0d7760f83fc114dd",
-  "title": "Learning godot",
-  "url": "https://www.reddit.com/r/gamedev/comments/1xwpg06/learning_godot/",
-  "source": "reddit-gamedev",
-  "axes": [
-   "game"
-  ],
-  "score": 5.83,
+  "score": 5.21,
   "date": "2026-11-15"
  },
  {
@@ -102,7 +90,77 @@
    "threed",
    "video"
   ],
-  "score": 4.63,
+  "score": 4.61,
+  "date": "2026-11-15"
+ },
+ {
+  "key": "f10a2f05a8571765",
+  "title": "Ropedia Xperience 2: A Gold Standard for Scaling Physical AI Environments and Behaviors",
+  "url": "https://huggingface.co/papers/2611.17060",
+  "source": "hf-papers",
+  "axes": [
+   "image",
+   "model",
+   "threed",
+   "video"
+  ],
+  "score": 4.56,
+  "date": "2026-11-15"
+ },
+ {
+  "key": "a54fce75235c0ac8",
+  "title": "Understanding Positional Embeddings in Modern LLMs",
+  "url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
+  "source": "ahead-of-ai",
+  "axes": [
+   "model"
+  ],
+  "score": 5.23,
+  "date": "2026-11-15"
+ },
+ {
+  "key": "c5c3890847bb077f",
+  "title": "Physics understanding of MiniMax H3, Part 2",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xwulg7/physics_understanding_of_minimax_h3_part_2/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 5.18,
+  "date": "2026-11-15"
+ },
+ {
+  "key": "8180322451f557ec",
+  "title": "Bland Launches Tofu-1, a Full-Duplex Speech-to-Speech Model for Calls",
+  "url": "https://www.marktechpost.com/2026/11/15/bland-tofu-1-full-duplex-speech-to-speech-model/",
+  "source": "marktechpost",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 5.07,
+  "date": "2026-11-15"
+ },
+ {
+  "key": "c990bfe4fa510676",
+  "title": "KDE: The documentary [video]",
+  "url": "https://tube.kockatoo.org/w/fFinNHfanLT7aBEb2B8y4c",
+  "source": "hackernews",
+  "axes": [
+   "video"
+  ],
+  "score": 4.95,
+  "date": "2026-11-15"
+ },
+ {
+  "key": "2ff7e57a08814656",
+  "title": "Minimax h3 image edit",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xwo2xh/minimax_h3_image_edit/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 4.92,
   "date": "2026-11-15"
  },
  {
@@ -114,59 +172,14 @@
    "model",
    "people"
   ],
-  "score": 4.57,
+  "score": 4.55,
   "date": "2026-11-15"
  },
  {
-  "key": "09dd56300ee9d144",
-  "title": "I've upgraded Fooocus and added modern features for SDXL",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xwjqln/ive_upgraded_fooocus_and_added_modern_features/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "image"
-  ],
-  "score": 6.11,
-  "date": "2026-11-15"
- },
- {
-  "key": "5ac54ce26c447af9",
-  "title": "Not for the faint of hearts",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xwlmkw/not_for_the_faint_of_hearts/",
-  "source": "reddit-stablediffusion",
-  "axes": [
-   "threed"
-  ],
-  "score": 5.96,
-  "date": "2026-11-15"
- },
- {
-  "key": "a810c72edae6350b",
-  "title": "I compared 1,430 Steam demos with the full games that came after them. How many reviews the demo got tells you how big the launch will be, and nothing about whether players will like the game. The demo's score tells you that, even with 10 reviews.",
-  "url": "https://www.reddit.com/r/gamedev/comments/1xwoqs9/i_compared_1430_steam_demos_with_the_full_games/",
-  "source": "reddit-gamedev",
-  "axes": [
-   "game"
-  ],
-  "score": 5.8,
-  "date": "2026-11-15"
- },
- {
-  "key": "740929c6a58214c0",
-  "title": "PIM: A Physical Intuition Model for Low-Latency Prediction of Object Interaction Outcomes",
-  "url": "https://arxiv.org/abs/2611.16673v1",
-  "source": "arxiv-gr",
-  "axes": [
-   "infra",
-   "model"
-  ],
-  "score": 4.49,
-  "date": "2026-11-15"
- },
- {
-  "key": "9f89f40adef002c9",
-  "title": "Import AI 480: Self-sustaining space economies; AI for science progress, and Meta builds perfect hands for a superintelligence",
-  "url": "https://importai.substack.com/p/import-ai-480-self-sustaining-space",
-  "source": "import-ai",
+  "key": "1a38edebe8e09a8f",
+  "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+  "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+  "source": "deepmind",
   "axes": [
    "model",
    "people"
@@ -175,38 +188,15 @@
   "date": "2026-11-15"
  },
  {
-  "key": "e41b758175ea81ce",
-  "title": "XYBench: Helping with the problem behind the question",
-  "url": "https://huggingface.co/blog/allenai/xybench",
-  "source": "huggingface-blog",
-  "axes": [
-   "infra",
-   "model"
-  ],
-  "score": 4.29,
-  "date": "2026-11-15"
- },
- {
-  "key": "26d025ebc26124b5",
-  "title": "AI agent startup LangChain hits $3B valuation",
-  "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
-  "source": "techcrunch-ai",
+  "key": "a7dd2e722435df89",
+  "title": "Gemini 4 Carbon is now available",
+  "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+  "source": "deepmind",
   "axes": [
    "model",
    "people"
   ],
-  "score": 4.2,
-  "date": "2026-11-15"
- },
- {
-  "key": "5f27233733e7b5e5",
-  "title": "How to protect your IP against the army of AI clones",
-  "url": "https://www.gamesindustry.biz/how-to-protect-your-ip-against-the-army-of-ai-clones",
-  "source": "gamesindustry",
-  "axes": [
-   "game"
-  ],
-  "score": 4.06,
+  "score": 4.49,
   "date": "2026-11-15"
  }
 ]
