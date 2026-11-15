@@ -1,0 +1,212 @@
+[
+ {
+  "key": "11e833be64588d90",
+  "title": "Nvidia deliberately kept GPU prices high through circular financing deals",
+  "url": "https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html",
+  "source": "hackernews",
+  "axes": [
+   "infra"
+  ],
+  "score": 7.71,
+  "date": "2026-11-15"
+ },
+ {
+  "key": "8bde451eaed145b9",
+  "title": "Minimax H3 image using using u/luciferianism666's system prompt (prompt expander)",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xwo95l/minimax_h3_image_using_using_uluciferianism666s/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.87,
+  "date": "2026-11-15"
+ },
+ {
+  "key": "a6f2937370366118",
+  "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
+  "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 6.69,
+  "date": "2026-11-15"
+ },
+ {
+  "key": "cba61d380d277387",
+  "title": "I need a local character swap model.",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xwidas/i_need_a_local_character_swap_model/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "model",
+   "threed"
+  ],
+  "score": 6.57,
+  "date": "2026-11-15"
+ },
+ {
+  "key": "bbc2f2325fa1bbd9",
+  "title": "datasette-llm 0.1a11",
+  "url": "https://simonwillison.net/2026/Nov/14/datasette-llm/",
+  "source": "simonwillison",
+  "axes": [
+   "model"
+  ],
+  "score": 6.38,
+  "date": "2026-11-15"
+ },
+ {
+  "key": "6926b29799c480c2",
+  "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+  "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+  "source": "google-ai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 6.01,
+  "date": "2026-11-15"
+ },
+ {
+  "key": "a06581cc66751e7c",
+  "title": "Doing market Research for a Uni Project",
+  "url": "https://www.reddit.com/r/gamedev/comments/1xwpvgi/doing_market_research_for_a_uni_project/",
+  "source": "reddit-gamedev",
+  "axes": [
+   "game"
+  ],
+  "score": 5.85,
+  "date": "2026-11-15"
+ },
+ {
+  "key": "0d7760f83fc114dd",
+  "title": "Learning godot",
+  "url": "https://www.reddit.com/r/gamedev/comments/1xwpg06/learning_godot/",
+  "source": "reddit-gamedev",
+  "axes": [
+   "game"
+  ],
+  "score": 5.83,
+  "date": "2026-11-15"
+ },
+ {
+  "key": "431af9d62c7e540c",
+  "title": "Actor, Judge, or Teacher? Understanding Decision Models in Long-Horizon Agents",
+  "url": "https://huggingface.co/papers/2611.17167",
+  "source": "hf-papers",
+  "axes": [
+   "image",
+   "model",
+   "threed",
+   "video"
+  ],
+  "score": 4.63,
+  "date": "2026-11-15"
+ },
+ {
+  "key": "3d376432f806909a",
+  "title": "Gondola doubles revenue as its team builds more with Codex",
+  "url": "https://openai.com/business/customer-stories/gondola",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 4.57,
+  "date": "2026-11-15"
+ },
+ {
+  "key": "09dd56300ee9d144",
+  "title": "I've upgraded Fooocus and added modern features for SDXL",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xwjqln/ive_upgraded_fooocus_and_added_modern_features/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.11,
+  "date": "2026-11-15"
+ },
+ {
+  "key": "5ac54ce26c447af9",
+  "title": "Not for the faint of hearts",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xwlmkw/not_for_the_faint_of_hearts/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "threed"
+  ],
+  "score": 5.96,
+  "date": "2026-11-15"
+ },
+ {
+  "key": "a810c72edae6350b",
+  "title": "I compared 1,430 Steam demos with the full games that came after them. How many reviews the demo got tells you how big the launch will be, and nothing about whether players will like the game. The demo's score tells you that, even with 10 reviews.",
+  "url": "https://www.reddit.com/r/gamedev/comments/1xwoqs9/i_compared_1430_steam_demos_with_the_full_games/",
+  "source": "reddit-gamedev",
+  "axes": [
+   "game"
+  ],
+  "score": 5.8,
+  "date": "2026-11-15"
+ },
+ {
+  "key": "740929c6a58214c0",
+  "title": "PIM: A Physical Intuition Model for Low-Latency Prediction of Object Interaction Outcomes",
+  "url": "https://arxiv.org/abs/2611.16673v1",
+  "source": "arxiv-gr",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 4.49,
+  "date": "2026-11-15"
+ },
+ {
+  "key": "9f89f40adef002c9",
+  "title": "Import AI 480: Self-sustaining space economies; AI for science progress, and Meta builds perfect hands for a superintelligence",
+  "url": "https://importai.substack.com/p/import-ai-480-self-sustaining-space",
+  "source": "import-ai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 4.49,
+  "date": "2026-11-15"
+ },
+ {
+  "key": "e41b758175ea81ce",
+  "title": "XYBench: Helping with the problem behind the question",
+  "url": "https://huggingface.co/blog/allenai/xybench",
+  "source": "huggingface-blog",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 4.29,
+  "date": "2026-11-15"
+ },
+ {
+  "key": "26d025ebc26124b5",
+  "title": "AI agent startup LangChain hits $3B valuation",
+  "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+  "source": "techcrunch-ai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 4.2,
+  "date": "2026-11-15"
+ },
+ {
+  "key": "5f27233733e7b5e5",
+  "title": "How to protect your IP against the army of AI clones",
+  "url": "https://www.gamesindustry.biz/how-to-protect-your-ip-against-the-army-of-ai-clones",
+  "source": "gamesindustry",
+  "axes": [
+   "game"
+  ],
+  "score": 4.06,
+  "date": "2026-11-15"
+ }
+]
