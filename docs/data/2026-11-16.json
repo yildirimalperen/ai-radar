@@ -1,0 +1,199 @@
+[
+ {
+  "key": "f3a8c5718fcc63ab",
+  "title": "Introducing Gemini 4 Hydrogen",
+  "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+  "source": "deepmind",
+  "axes": [
+   "model"
+  ],
+  "score": 8.05,
+  "date": "2026-11-16"
+ },
+ {
+  "key": "74061f58661037aa",
+  "title": "All AI-generated code should be Open Source",
+  "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 7.42,
+  "date": "2026-11-16"
+ },
+ {
+  "key": "5d7301f1e086f860",
+  "title": "Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-Time Game Agent",
+  "url": "https://huggingface.co/papers/2611.18397",
+  "source": "hf-papers",
+  "axes": [
+   "game",
+   "model"
+  ],
+  "score": 7.34,
+  "date": "2026-11-16"
+ },
+ {
+  "key": "65321f50dd0a6838",
+  "title": "VibePrevisBench: Evaluating Agentic Coding for 4D Scene Generation in Blender",
+  "url": "https://huggingface.co/papers/2611.15789",
+  "source": "hf-papers",
+  "axes": [
+   "model",
+   "threed",
+   "video"
+  ],
+  "score": 7.11,
+  "date": "2026-11-16"
+ },
+ {
+  "key": "488a9854e81837ae",
+  "title": "ComfyUI MiniMax H3 Image Conditioning Plus",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xxk01j/comfyui_minimax_h3_image_conditioning_plus/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.94,
+  "date": "2026-11-16"
+ },
+ {
+  "key": "724f74322acd2913",
+  "title": "A step toward defining the Standard Model on a lattice",
+  "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+  "source": "openai",
+  "axes": [
+   "model"
+  ],
+  "score": 6.8,
+  "date": "2026-11-16"
+ },
+ {
+  "key": "dff7c5b6ded348b3",
+  "title": "State of the Sub - 1M Members Reached!",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xxehp8/state_of_the_sub_1m_members_reached/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.13,
+  "date": "2026-11-16"
+ },
+ {
+  "key": "6926b29799c480c2",
+  "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+  "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+  "source": "google-ai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 5.92,
+  "date": "2026-11-16"
+ },
+ {
+  "key": "33f99314dcd2bf3d",
+  "title": "JVT: Just Video Transformer makes pixel-space video diffusion simple",
+  "url": "https://arxiv.org/abs/2611.18549v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "image",
+   "video"
+  ],
+  "score": 5.52,
+  "date": "2026-11-16"
+ },
+ {
+  "key": "d135c6e05880f35e",
+  "title": "Envisioning Agentic Robotics: A New Era of Robotic Systems",
+  "url": "https://huggingface.co/papers/2611.18359",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 5.98,
+  "date": "2026-11-16"
+ },
+ {
+  "key": "6a089c26051bff46",
+  "title": "datasette-agent 0.6a0",
+  "url": "https://simonwillison.net/2026/Nov/15/datasette-agent/",
+  "source": "simonwillison",
+  "axes": [
+   "model"
+  ],
+  "score": 5.87,
+  "date": "2026-11-16"
+ },
+ {
+  "key": "f54e54bbd43cbc34",
+  "title": "MMFlash: Faster Speculative Decoding for Vision-Language Models",
+  "url": "https://huggingface.co/papers/2611.18482",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 5.64,
+  "date": "2026-11-16"
+ },
+ {
+  "key": "12a7d303e232e114",
+  "title": "H3 Image - Model Preview Override vae from KJ",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xxflum/h3_image_model_preview_override_vae_from_kj/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "model"
+  ],
+  "score": 5.51,
+  "date": "2026-11-16"
+ },
+ {
+  "key": "c4761de56eb3a165",
+  "title": "Our new blog for science",
+  "url": "https://openai.com/index/our-new-blog-for-science",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 5.37,
+  "date": "2026-11-16"
+ },
+ {
+  "key": "a467a0ece77129b7",
+  "title": "Hark Releases Handoff², a 2x Faster Computer-Use Agent for Hark Pro",
+  "url": "https://www.marktechpost.com/2026/11/16/hark-handoff-2-computer-use-agent-2x-faster/",
+  "source": "marktechpost",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 5.22,
+  "date": "2026-11-16"
+ },
+ {
+  "key": "e7a2a8713e1eeba0",
+  "title": "Combining LTX audio nodes with Minimax H3",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xxjvdk/combining_ltx_audio_nodes_with_minimax_h3/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 5.18,
+  "date": "2026-11-16"
+ },
+ {
+  "key": "594c975b5551b0b3",
+  "title": "Restoring Diversity in Distilled Image and Video Generators by Probing Activations",
+  "url": "https://arxiv.org/abs/2611.18550v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "infra",
+   "video"
+  ],
+  "score": 4.97,
+  "date": "2026-11-16"
+ }
+]
