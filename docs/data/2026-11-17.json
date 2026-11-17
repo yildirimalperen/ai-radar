@@ -1,25 +1,25 @@
 [
  {
-  "key": "f3a8c5718fcc63ab",
-  "title": "Introducing Gemini 4 Hydrogen",
-  "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
-  "source": "deepmind",
+  "key": "a5b7d99058cce673",
+  "title": "Introducing OpenAI for Chile",
+  "url": "https://openai.com/index/introducing-openai-for-chile",
+  "source": "openai",
   "axes": [
    "model"
   ],
-  "score": 8.04,
+  "score": 6.67,
   "date": "2026-11-17"
  },
  {
-  "key": "45d7784f5de9c05e",
-  "title": "Posewright: A Simple program to pose figures for img2img generations",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xyd6gl/posewright_a_simple_program_to_pose_figures_for/",
-  "source": "reddit-stablediffusion",
+  "key": "77e2be60dab2741a",
+  "title": "Video Game Trailer Feedback",
+  "url": "https://www.reddit.com/r/gamedev/comments/1xyllpp/video_game_trailer_feedback/",
+  "source": "reddit-gamedev",
   "axes": [
-   "image",
-   "threed"
+   "game",
+   "video"
   ],
-  "score": 7.05,
+  "score": 6.65,
   "date": "2026-11-17"
  },
  {
@@ -30,7 +30,7 @@
   "axes": [
    "image"
   ],
-  "score": 6.86,
+  "score": 6.64,
   "date": "2026-11-17"
  },
  {
@@ -43,7 +43,7 @@
    "people",
    "threed"
   ],
-  "score": 6.7,
+  "score": 6.47,
   "date": "2026-11-17"
  },
  {
@@ -54,7 +54,40 @@
   "axes": [
    "model"
   ],
-  "score": 6.29,
+  "score": 6.43,
+  "date": "2026-11-17"
+ },
+ {
+  "key": "db01bf48be9c7a91",
+  "title": "Has anyone tried the Krea2TextEncoder for reference-based gens? (some recent results)",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xyixro/has_anyone_tried_the_krea2textencoder_for/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.24,
+  "date": "2026-11-17"
+ },
+ {
+  "key": "206a78598d280d64",
+  "title": "ScaleVLA: Scaling Vision-Language-Action Models to 552 Billion Parameters",
+  "url": "https://huggingface.co/papers/2611.21607",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 6.2,
+  "date": "2026-11-17"
+ },
+ {
+  "key": "94e744553078c6a0",
+  "title": "This Is the Skin of a Secret Service Agent, Bella: James Bond Has a New Face",
+  "url": "https://80.lv/articles/this-is-the-skin-of-a-secret-service-agent-bella-james-bond-has-a-new-face/",
+  "source": "80lv",
+  "axes": [
+   "model"
+  ],
+  "score": 6.04,
   "date": "2026-11-17"
  },
  {
@@ -66,7 +99,18 @@
    "image",
    "model"
   ],
-  "score": 6.06,
+  "score": 5.92,
+  "date": "2026-11-17"
+ },
+ {
+  "key": "347154a9ba3e7e17",
+  "title": "IWGB Game Workers Union leads manifesto on generative AI use in the industry",
+  "url": "https://www.gamesindustry.biz/iwgb-game-workers-union-leads-manifesto-on-generative-ai-use-in-the-industry",
+  "source": "gamesindustry",
+  "axes": [
+   "game"
+  ],
+  "score": 5.83,
   "date": "2026-11-17"
  },
  {
@@ -77,7 +121,40 @@
   "axes": [
    "game"
   ],
-  "score": 6.0,
+  "score": 5.83,
+  "date": "2026-11-17"
+ },
+ {
+  "key": "62067a80f0640930",
+  "title": "How Revolut raises ambition without lowering the bar",
+  "url": "https://openai.com/business/customer-stories/revolut",
+  "source": "openai",
+  "axes": [
+   "people"
+  ],
+  "score": 5.26,
+  "date": "2026-11-17"
+ },
+ {
+  "key": "91a75e6078d26ab5",
+  "title": "Btw PAN2 native on Comfy now",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xyis6a/btw_pan2_native_on_comfy_now/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "video"
+  ],
+  "score": 6.01,
+  "date": "2026-11-17"
+ },
+ {
+  "key": "c496963085c0e478",
+  "title": "SWE-CoWork: Benchmarking Coding Agents as Digital Employees in Organizations",
+  "url": "https://huggingface.co/papers/2611.20218",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 5.92,
   "date": "2026-11-17"
  },
  {
@@ -100,51 +177,32 @@
   "axes": [
    "model"
   ],
-  "score": 5.8,
+  "score": 5.72,
   "date": "2026-11-17"
  },
  {
-  "key": "62067a80f0640930",
-  "title": "How Revolut raises ambition without lowering the bar",
-  "url": "https://openai.com/business/customer-stories/revolut",
-  "source": "openai",
+  "key": "2270c545df6a6af5",
+  "title": "Sage S2.1 Flash Technical Report",
+  "url": "https://huggingface.co/papers/2611.21072",
+  "source": "hf-papers",
   "axes": [
-   "people"
-  ],
-  "score": 5.36,
-  "date": "2026-11-17"
- },
- {
-  "key": "dba5ebcc67b15a37",
-  "title": "ViRA: Toward Ultra-High-Resolution Visual Agents via Cross-Input Relative Policy Optimization",
-  "url": "https://arxiv.org/abs/2611.21605v1",
-  "source": "arxiv-cv",
-  "axes": [
-   "image"
-  ],
-  "score": 5.35,
-  "date": "2026-11-17"
- },
- {
-  "key": "571299ee45728293",
-  "title": "RelayVSR 4x video upscale test",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xya9bn/relayvsr_4x_video_upscale_test/",
-  "source": "reddit-stablediffusion",
-  "axes": [
+   "image",
+   "model",
+   "threed",
    "video"
   ],
-  "score": 6.51,
+  "score": 5.59,
   "date": "2026-11-17"
  },
  {
-  "key": "c496963085c0e478",
-  "title": "SWE-CoWork: Benchmarking Coding Agents as Digital Employees in Organizations",
-  "url": "https://huggingface.co/papers/2611.20218",
-  "source": "hf-papers",
+  "key": "db7ac1220fdc520e",
+  "title": "Google Cloud launches Gemini for healthcare.",
+  "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
+  "source": "google-ai",
   "axes": [
    "model"
   ],
-  "score": 5.79,
+  "score": 5.42,
   "date": "2026-11-17"
  },
  {
@@ -156,67 +214,18 @@
    "model",
    "people"
   ],
-  "score": 5.41,
+  "score": 5.24,
   "date": "2026-11-17"
  },
  {
-  "key": "af3aa4f65fbd3c32",
-  "title": "K2-Horizon: A Frontier Fleet of Open Source Language Models",
-  "url": "https://huggingface.co/papers/2611.21003",
-  "source": "hf-papers",
-  "axes": [
-   "image",
-   "model",
-   "threed",
-   "video"
-  ],
-  "score": 5.29,
-  "date": "2026-11-17"
- },
- {
-  "key": "bb4f73f37fa477f9",
-  "title": "Broadening access to AI for scientists",
-  "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
-  "source": "openai",
-  "axes": [
-   "model",
-   "people"
-  ],
-  "score": 5.2,
-  "date": "2026-11-17"
- },
- {
-  "key": "26e58476cd8829aa",
-  "title": "Import AI 481: AI sub-contractors; a wet lab for AI; and subterfuge during development",
-  "url": "https://importai.substack.com/p/import-ai-481-ai-sub-contractors",
-  "source": "import-ai",
-  "axes": [
-   "model",
-   "people"
-  ],
-  "score": 5.13,
-  "date": "2026-11-17"
- },
- {
-  "key": "9663238269d742b6",
-  "title": "MiniMax H3 Image - Morrigan",
-  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xy8p5i/minimax_h3_image_morrigan/",
-  "source": "reddit-stablediffusion",
+  "key": "dba5ebcc67b15a37",
+  "title": "ViRA: Toward Ultra-High-Resolution Visual Agents via Cross-Input Relative Policy Optimization",
+  "url": "https://arxiv.org/abs/2611.21605v1",
+  "source": "arxiv-cv",
   "axes": [
    "image"
   ],
-  "score": 4.92,
-  "date": "2026-11-17"
- },
- {
-  "key": "19157d00ba7796a2",
-  "title": "Sarvam Launches Sarvam Token Factory: Bringing India-Hosted Inference to 8 Open Models",
-  "url": "https://www.marktechpost.com/2026/11/17/sarvam-token-factory-india-inference-platform/",
-  "source": "marktechpost",
-  "axes": [
-   "model"
-  ],
-  "score": 4.71,
+  "score": 5.2,
   "date": "2026-11-17"
  }
 ]
