@@ -1,0 +1,222 @@
+[
+ {
+  "key": "f3a8c5718fcc63ab",
+  "title": "Introducing Gemini 4 Hydrogen",
+  "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+  "source": "deepmind",
+  "axes": [
+   "model"
+  ],
+  "score": 8.04,
+  "date": "2026-11-17"
+ },
+ {
+  "key": "45d7784f5de9c05e",
+  "title": "Posewright: A Simple program to pose figures for img2img generations",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xyd6gl/posewright_a_simple_program_to_pose_figures_for/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image",
+   "threed"
+  ],
+  "score": 7.05,
+  "date": "2026-11-17"
+ },
+ {
+  "key": "4d6cf0b27dab4703",
+  "title": "vid upscalers: RelayVSR (5x render speed) vs Starlight (more details)",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xydt2j/vid_upscalers_relayvsr_5x_render_speed_vs/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 6.86,
+  "date": "2026-11-17"
+ },
+ {
+  "key": "9e63adbc6fff5ab2",
+  "title": "Unity acquires 3D asset creator Synty Studios; artist-created content to be integrated into AI game-creation platform Unity Spark",
+  "url": "https://www.gamesindustry.biz/unity-acquires-3d-asset-creator-synty-studios-artist-created-content-to-be-integrated-into-ai-game-creation-platform-unity-spark",
+  "source": "gamesindustry",
+  "axes": [
+   "game",
+   "people",
+   "threed"
+  ],
+  "score": 6.7,
+  "date": "2026-11-17"
+ },
+ {
+  "key": "cbf3cb1dccc66abd",
+  "title": "InclusionMed: Benchmarking AI for Inclusive Healthcare",
+  "url": "https://huggingface.co/papers/2611.21218",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 6.29,
+  "date": "2026-11-17"
+ },
+ {
+  "key": "0f6baeead00496ac",
+  "title": "FaceJev: Direct Visual Decisions for Face Forgery Detection",
+  "url": "https://arxiv.org/abs/2611.21604v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "image",
+   "model"
+  ],
+  "score": 6.06,
+  "date": "2026-11-17"
+ },
+ {
+  "key": "4a8a16366d847ba2",
+  "title": "The Unity CLI 1.0 is here!",
+  "url": "https://unity.com/the-unity-cli-1.0-is-here",
+  "source": "unity",
+  "axes": [
+   "game"
+  ],
+  "score": 6.0,
+  "date": "2026-11-17"
+ },
+ {
+  "key": "6926b29799c480c2",
+  "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+  "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+  "source": "google-ai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 5.9,
+  "date": "2026-11-17"
+ },
+ {
+  "key": "36c7456e879ffb54",
+  "title": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
+  "url": "https://huggingface.co/blog/openrouter",
+  "source": "huggingface-blog",
+  "axes": [
+   "model"
+  ],
+  "score": 5.8,
+  "date": "2026-11-17"
+ },
+ {
+  "key": "62067a80f0640930",
+  "title": "How Revolut raises ambition without lowering the bar",
+  "url": "https://openai.com/business/customer-stories/revolut",
+  "source": "openai",
+  "axes": [
+   "people"
+  ],
+  "score": 5.36,
+  "date": "2026-11-17"
+ },
+ {
+  "key": "dba5ebcc67b15a37",
+  "title": "ViRA: Toward Ultra-High-Resolution Visual Agents via Cross-Input Relative Policy Optimization",
+  "url": "https://arxiv.org/abs/2611.21605v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "image"
+  ],
+  "score": 5.35,
+  "date": "2026-11-17"
+ },
+ {
+  "key": "571299ee45728293",
+  "title": "RelayVSR 4x video upscale test",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xya9bn/relayvsr_4x_video_upscale_test/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "video"
+  ],
+  "score": 6.51,
+  "date": "2026-11-17"
+ },
+ {
+  "key": "c496963085c0e478",
+  "title": "SWE-CoWork: Benchmarking Coding Agents as Digital Employees in Organizations",
+  "url": "https://huggingface.co/papers/2611.20218",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 5.79,
+  "date": "2026-11-17"
+ },
+ {
+  "key": "833aaecc6788427b",
+  "title": "Strengthening NATO and allied cyber defenses with AI",
+  "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 5.41,
+  "date": "2026-11-17"
+ },
+ {
+  "key": "af3aa4f65fbd3c32",
+  "title": "K2-Horizon: A Frontier Fleet of Open Source Language Models",
+  "url": "https://huggingface.co/papers/2611.21003",
+  "source": "hf-papers",
+  "axes": [
+   "image",
+   "model",
+   "threed",
+   "video"
+  ],
+  "score": 5.29,
+  "date": "2026-11-17"
+ },
+ {
+  "key": "bb4f73f37fa477f9",
+  "title": "Broadening access to AI for scientists",
+  "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 5.2,
+  "date": "2026-11-17"
+ },
+ {
+  "key": "26e58476cd8829aa",
+  "title": "Import AI 481: AI sub-contractors; a wet lab for AI; and subterfuge during development",
+  "url": "https://importai.substack.com/p/import-ai-481-ai-sub-contractors",
+  "source": "import-ai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 5.13,
+  "date": "2026-11-17"
+ },
+ {
+  "key": "9663238269d742b6",
+  "title": "MiniMax H3 Image - Morrigan",
+  "url": "https://www.reddit.com/r/StableDiffusion/comments/1xy8p5i/minimax_h3_image_morrigan/",
+  "source": "reddit-stablediffusion",
+  "axes": [
+   "image"
+  ],
+  "score": 4.92,
+  "date": "2026-11-17"
+ },
+ {
+  "key": "19157d00ba7796a2",
+  "title": "Sarvam Launches Sarvam Token Factory: Bringing India-Hosted Inference to 8 Open Models",
+  "url": "https://www.marktechpost.com/2026/11/17/sarvam-token-factory-india-inference-platform/",
+  "source": "marktechpost",
+  "axes": [
+   "model"
+  ],
+  "score": 4.71,
+  "date": "2026-11-17"
+ }
+]
