@@ -1,0 +1,215 @@
+[
+ {
+  "key": "74f7bfae4ad81687",
+  "title": "GPT‑6.2 Astra and GPT‑6.2 Sol",
+  "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+  "source": "simonwillison",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 9.85,
+  "date": "2026-11-18"
+ },
+ {
+  "key": "556c50516342698e",
+  "title": "Introducing GPT-6.2 Astra and Sol",
+  "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+  "source": "openai",
+  "axes": [
+   "model"
+  ],
+  "score": 8.81,
+  "date": "2026-11-18"
+ },
+ {
+  "key": "f3a8c5718fcc63ab",
+  "title": "Introducing Gemini 4 Hydrogen",
+  "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+  "source": "deepmind",
+  "axes": [
+   "model"
+  ],
+  "score": 8.04,
+  "date": "2026-11-18"
+ },
+ {
+  "key": "85871a8dc72a95a0",
+  "title": "TeleChat to Xing4: Advancing Frontier Agentic Models on Domestic Chips and Frameworks",
+  "url": "https://huggingface.co/papers/2611.22115",
+  "source": "hf-papers",
+  "axes": [
+   "image",
+   "model",
+   "threed",
+   "video"
+  ],
+  "score": 7.06,
+  "date": "2026-11-18"
+ },
+ {
+  "key": "06ed57a2bca23275",
+  "title": "Google's AI answers reducing search traffic by 40%",
+  "url": "https://revscope.co/blog/search-seo-geo-2026/",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 6.78,
+  "date": "2026-11-18"
+ },
+ {
+  "key": "4c1628488ddd1da2",
+  "title": "Jensen Huang Says He Is Willing To Return As NVIDIA CEO",
+  "url": "https://80.lv/articles/jensen-huang-says-he-is-willing-to-return-as-nvidia-ceo/",
+  "source": "80lv",
+  "axes": [
+   "people"
+  ],
+  "score": 6.31,
+  "date": "2026-11-18"
+ },
+ {
+  "key": "e6213dbc990dbb6e",
+  "title": "Beyond Answering: Learning to Speak First and Act in Streaming Video",
+  "url": "https://huggingface.co/papers/2611.17048",
+  "source": "hf-papers",
+  "axes": [
+   "video"
+  ],
+  "score": 6.13,
+  "date": "2026-11-18"
+ },
+ {
+  "key": "64d072528fdd78c6",
+  "title": "ReTouchGS: Ultralight Render-free Aesthetic Color Enhancement and Transfer for 3D Gaussian Splatting",
+  "url": "https://arxiv.org/abs/2611.23054v1",
+  "source": "arxiv-gr",
+  "axes": [
+   "image",
+   "threed"
+  ],
+  "score": 6.13,
+  "date": "2026-11-18"
+ },
+ {
+  "key": "9981e78d62a078fe",
+  "title": "Multimodal Masked Diffusion Autoencoder for Modeling Impaired Driving",
+  "url": "https://arxiv.org/abs/2611.23211v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "image",
+   "model"
+  ],
+  "score": 6.07,
+  "date": "2026-11-18"
+ },
+ {
+  "key": "21a34c97422f56f3",
+  "title": "Interviewed at a YC startup, found out they used my LinkedIn without permission",
+  "url": "https://reddit.com/r/recruitinghell/comments/1xyr6ml/interviewed_at_a_yc_startup_spent_30_hours/",
+  "source": "hackernews",
+  "axes": [
+   "people"
+  ],
+  "score": 4.0,
+  "date": "2026-11-18"
+ },
+ {
+  "key": "24605a916bd2a1ce",
+  "title": "Introducing ChatGPT for Sales",
+  "url": "https://openai.com/index/introducing-chatgpt-for-sales",
+  "source": "openai",
+  "axes": [
+   "model"
+  ],
+  "score": 6.44,
+  "date": "2026-11-18"
+ },
+ {
+  "key": "3b45f74958be1288",
+  "title": "ForceHarness: Turning Force into Action and Physics for Frozen Frontier Models",
+  "url": "https://huggingface.co/papers/2611.21099",
+  "source": "hf-papers",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 6.38,
+  "date": "2026-11-18"
+ },
+ {
+  "key": "7fb9c13b306af814",
+  "title": "Nvidia stopped disclosing Singapore sales as revenues hit $104B",
+  "url": "https://www.ft.com/content/dbde7a30-548c-4f9d-a4be-7898a0c24dcf",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 6.3,
+  "date": "2026-11-18"
+ },
+ {
+  "key": "c6f46af1dbeed665",
+  "title": "AscendGYM: A Cost-Aware Kernel Optimization Benchmark for Real-World Workloads on Ascend NPUs",
+  "url": "https://huggingface.co/papers/2611.17621",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 5.98,
+  "date": "2026-11-18"
+ },
+ {
+  "key": "1c2869cc95af2431",
+  "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+  "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+  "source": "deepmind",
+  "axes": [
+   "model"
+  ],
+  "score": 5.92,
+  "date": "2026-11-18"
+ },
+ {
+  "key": "6926b29799c480c2",
+  "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+  "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+  "source": "google-ai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 5.9,
+  "date": "2026-11-18"
+ },
+ {
+  "key": "85ea4517dfd62e30",
+  "title": "FastFrames: Video Generation at Interactive Latency",
+  "url": "https://arxiv.org/abs/2611.23226v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "infra",
+   "video"
+  ],
+  "score": 5.63,
+  "date": "2026-11-18"
+ },
+ {
+  "key": "825b9228becd3fda",
+  "title": "Cross3DGS: Unified Vulkan-Based 3D Gaussian Splatting Training from Workstations to Mobile Devices",
+  "url": "https://arxiv.org/abs/2611.22240v1",
+  "source": "arxiv-gr",
+  "axes": [
+   "model",
+   "threed"
+  ],
+  "score": 5.55,
+  "date": "2026-11-18"
+ }
+]
