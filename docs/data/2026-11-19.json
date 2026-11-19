@@ -1,5 +1,16 @@
 [
  {
+  "key": "88a82722726dfb37",
+  "title": "Introducing Gemini 4 Neon",
+  "url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
+  "source": "deepmind",
+  "axes": [
+   "model"
+  ],
+  "score": 8.74,
+  "date": "2026-11-19"
+ },
+ {
   "key": "556c50516342698e",
   "title": "Introducing GPT-6.2 Astra and Sol",
   "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
@@ -7,7 +18,31 @@
   "axes": [
    "model"
   ],
-  "score": 8.37,
+  "score": 8.3,
+  "date": "2026-11-19"
+ },
+ {
+  "key": "f3a8c5718fcc63ab",
+  "title": "Introducing Gemini 4 Hydrogen",
+  "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+  "source": "deepmind",
+  "axes": [
+   "model"
+  ],
+  "score": 8.04,
+  "date": "2026-11-19"
+ },
+ {
+  "key": "ea240fb4841f109f",
+  "title": "Former Take-Two CEO Believes Attitudes Toward AI In Video Games Will Improve",
+  "url": "https://80.lv/articles/former-take-two-ceo-believes-attitudes-toward-ai-in-video-games-will-improve/",
+  "source": "80lv",
+  "axes": [
+   "game",
+   "people",
+   "video"
+  ],
+  "score": 7.52,
   "date": "2026-11-19"
  },
  {
@@ -19,7 +54,40 @@
    "game",
    "image"
   ],
-  "score": 7.56,
+  "score": 7.49,
+  "date": "2026-11-19"
+ },
+ {
+  "key": "9b2ab0acb8815eb9",
+  "title": "Jeveration: System One Models Now Generate",
+  "url": "https://huggingface.co/papers/2611.24738",
+  "source": "hf-papers",
+  "axes": [
+   "image"
+  ],
+  "score": 7.22,
+  "date": "2026-11-19"
+ },
+ {
+  "key": "45720383803e71d9",
+  "title": "Managing frontier AI risk: From training to deployment",
+  "url": "https://openai.com/index/managing-frontier-ai-risk",
+  "source": "openai",
+  "axes": [
+   "model"
+  ],
+  "score": 6.31,
+  "date": "2026-11-19"
+ },
+ {
+  "key": "a46b5231c60859f4",
+  "title": "New LoRA Adapter Lifts Qwen3.8 Coding Success From 39% to 65%",
+  "url": "https://www.marktechpost.com/2026/11/18/hugging-face-qwen3-8-27b-pi-adapted-lora/",
+  "source": "marktechpost",
+  "axes": [
+   "image"
+  ],
+  "score": 4.65,
   "date": "2026-11-19"
  },
  {
@@ -32,18 +100,7 @@
    "model",
    "people"
   ],
-  "score": 7.53,
-  "date": "2026-11-19"
- },
- {
-  "key": "9b2ab0acb8815eb9",
-  "title": "Jeveration: System One Models Now Generate",
-  "url": "https://huggingface.co/papers/2611.24738",
-  "source": "hf-papers",
-  "axes": [
-   "image"
-  ],
-  "score": 7.05,
+  "score": 7.4,
   "date": "2026-11-19"
  },
  {
@@ -54,87 +111,7 @@
   "axes": [
    "model"
   ],
-  "score": 6.51,
-  "date": "2026-11-19"
- },
- {
-  "key": "45720383803e71d9",
-  "title": "Managing frontier AI risk: From training to deployment",
-  "url": "https://openai.com/index/managing-frontier-ai-risk",
-  "source": "openai",
-  "axes": [
-   "model"
-  ],
-  "score": 6.4,
-  "date": "2026-11-19"
- },
- {
-  "key": "7781afc49aa46aaf",
-  "title": "Probing Physics in Motion Diffusion Models Against Their Own Estimate",
-  "url": "https://arxiv.org/abs/2611.24423v1",
-  "source": "arxiv-gr",
-  "axes": [
-   "image",
-   "video"
-  ],
-  "score": 6.05,
-  "date": "2026-11-19"
- },
- {
-  "key": "b75524fcf063810f",
-  "title": "UltraTex: Aligning Physical Knowledge for High-Fidelity PBR Texture Generation",
-  "url": "https://arxiv.org/abs/2611.24941v1",
-  "source": "arxiv-cv",
-  "axes": [
-   "image"
-  ],
-  "score": 5.36,
-  "date": "2026-11-19"
- },
- {
-  "key": "ea6e34149714ab28",
-  "title": "Unified Law for Visual Tasks (The Four Laws of Computer Vision)",
-  "url": "https://arxiv.org/abs/2611.24917v1",
-  "source": "arxiv-cv",
-  "axes": [
-   "image"
-  ],
-  "score": 5.35,
-  "date": "2026-11-19"
- },
- {
-  "key": "8df43163c29e32c9",
-  "title": "NVIDIA Expands RTX Spark Lineup With Compact Desktops for Developers, Creators, and AI Enthusiasts",
-  "url": "https://80.lv/articles/nvidia-expands-rtx-spark-lineup-with-compact-desktops-for-developers-creators-and-ai-enthusiasts/",
-  "source": "80lv",
-  "axes": [
-   "game",
-   "image",
-   "threed"
-  ],
-  "score": 4.55,
-  "date": "2026-11-19"
- },
- {
-  "key": "6a09abee561e242f",
-  "title": "WorldRuler: Interactive World Modeling under Configurable Rules",
-  "url": "https://huggingface.co/papers/2611.24869",
-  "source": "hf-papers",
-  "axes": [
-   "game"
-  ],
-  "score": 6.54,
-  "date": "2026-11-19"
- },
- {
-  "key": "3372641b6bc3aa39",
-  "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
-  "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
-  "source": "huggingface-blog",
-  "axes": [
-   "model"
-  ],
-  "score": 6.22,
+  "score": 6.3,
   "date": "2026-11-19"
  },
  {
@@ -145,7 +122,29 @@
   "axes": [
    "video"
   ],
-  "score": 6.0,
+  "score": 6.08,
+  "date": "2026-11-19"
+ },
+ {
+  "key": "3372641b6bc3aa39",
+  "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
+  "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+  "source": "huggingface-blog",
+  "axes": [
+   "model"
+  ],
+  "score": 6.08,
+  "date": "2026-11-19"
+ },
+ {
+  "key": "08dba75951cf2e5a",
+  "title": "HINT-WAM: Hindsight-Informed Training for World Action Models",
+  "url": "https://huggingface.co/papers/2611.24789",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 5.93,
   "date": "2026-11-19"
  },
  {
@@ -173,37 +172,16 @@
   "date": "2026-11-19"
  },
  {
-  "key": "0cd6e40b1ea428f4",
-  "title": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
-  "url": "https://huggingface.co/blog/moe-expert-streaming",
-  "source": "huggingface-blog",
+  "key": "4bb8ea77cd228395",
+  "title": "Anthropic prices initial public offering",
+  "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+  "source": "hackernews",
   "axes": [
-   "model"
-  ],
-  "score": 5.8,
-  "date": "2026-11-19"
- },
- {
-  "key": "5afb1a80bc433df9",
-  "title": "The Silent Consensus",
-  "url": "https://openai.com/index/the-silent-consensus",
-  "source": "openai",
-  "axes": [
+   "infra",
    "model",
    "people"
   ],
-  "score": 5.05,
-  "date": "2026-11-19"
- },
- {
-  "key": "cc9c31db7239d09d",
-  "title": "GramStatTexNet: Efficient, Interpretable, and Neuro-Inspired Texture Analysis-by-Synthesis",
-  "url": "https://arxiv.org/abs/2611.23755v1",
-  "source": "arxiv-gr",
-  "axes": [
-   "image"
-  ],
-  "score": 5.01,
+  "score": 5.87,
   "date": "2026-11-19"
  }
 ]
