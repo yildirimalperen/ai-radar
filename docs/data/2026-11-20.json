@@ -1,0 +1,229 @@
+[
+ {
+  "key": "2171b4c8b10b792e",
+  "title": "Anthropic’s Nasdaq debut",
+  "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 7.46,
+  "date": "2026-11-20"
+ },
+ {
+  "key": "6dcee9f5b1095ad3",
+  "title": "HiUni: Harmonizing Understanding and Generation in Shared Visual Space",
+  "url": "https://huggingface.co/papers/2611.26107",
+  "source": "hf-papers",
+  "axes": [
+   "image",
+   "model"
+  ],
+  "score": 7.41,
+  "date": "2026-11-20"
+ },
+ {
+  "key": "7849f39dd6acd13f",
+  "title": "WeMM-Video: Pushing the Frontiers of Open-Source Omni-Modal Video Understanding",
+  "url": "https://huggingface.co/papers/2611.26409",
+  "source": "hf-papers",
+  "axes": [
+   "model",
+   "video"
+  ],
+  "score": 7.37,
+  "date": "2026-11-20"
+ },
+ {
+  "key": "ca4e8328f47f931f",
+  "title": "Introducing Tool Retrieval in the Gemini API",
+  "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+  "source": "google-ai",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 6.67,
+  "date": "2026-11-20"
+ },
+ {
+  "key": "536ec7446d763b0e",
+  "title": "Fuck Your AI Safeguards",
+  "url": "https://ounapuu.ee/posts/2026/11/19/unsafeguards/",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 6.61,
+  "date": "2026-11-20"
+ },
+ {
+  "key": "03d28c7766430e9b",
+  "title": "One Prior, Two Dynamics: Repurposing Video Diffusion Transformers for Self-Supervised Latent Action Learning",
+  "url": "https://arxiv.org/abs/2611.26617v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "image",
+   "video"
+  ],
+  "score": 6.19,
+  "date": "2026-11-20"
+ },
+ {
+  "key": "2a289950ae7d700e",
+  "title": "PlayCraft: Designing Engaging Games from Agent Play Experience",
+  "url": "https://arxiv.org/abs/2611.26624v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "game",
+   "model"
+  ],
+  "score": 6.08,
+  "date": "2026-11-20"
+ },
+ {
+  "key": "b7bd3ff18b5f5176",
+  "title": "ContextRenderer: Dynamic-Context Video Generation for Interactive Game Worlds",
+  "url": "https://arxiv.org/abs/2611.25838v1",
+  "source": "arxiv-gr",
+  "axes": [
+   "game",
+   "video"
+  ],
+  "score": 5.97,
+  "date": "2026-11-20"
+ },
+ {
+  "key": "fb24e5450268152d",
+  "title": "Google DeepMind Releases Gemini 4 Neon: 1M Context, #1 on AA Coding Agent Index",
+  "url": "https://www.marktechpost.com/2026/11/18/google-gemini-4-neon-release/",
+  "source": "marktechpost",
+  "axes": [
+   "model"
+  ],
+  "score": 5.83,
+  "date": "2026-11-20"
+ },
+ {
+  "key": "c366758c4a35429e",
+  "title": "NVIDIA RTX Spark Compact Desktops Out Now",
+  "url": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now/",
+  "source": "nvidia-genai",
+  "axes": [
+   "video"
+  ],
+  "score": 5.62,
+  "date": "2026-11-20"
+ },
+ {
+  "key": "358797818c01a380",
+  "title": "Walter Isaacson on curiosity and creativity in the AI age.",
+  "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/",
+  "source": "google-ai",
+  "axes": [
+   "people"
+  ],
+  "score": 5.05,
+  "date": "2026-11-20"
+ },
+ {
+  "key": "4d0f0bf4e3053cd1",
+  "title": "EgoCaptioner: Towards Comprehensive and Fine-Grained Egocentric Video Captioning",
+  "url": "https://huggingface.co/papers/2611.26380",
+  "source": "hf-papers",
+  "axes": [
+   "model",
+   "video"
+  ],
+  "score": 7.17,
+  "date": "2026-11-20"
+ },
+ {
+  "key": "104428cf47492a93",
+  "title": "WeVisForensics: Self-Evolving Agent for Omni AI-Generated Video Detection",
+  "url": "https://huggingface.co/papers/2611.21373",
+  "source": "hf-papers",
+  "axes": [
+   "model",
+   "video"
+  ],
+  "score": 6.81,
+  "date": "2026-11-20"
+ },
+ {
+  "key": "5fe229325662e8fc",
+  "title": "Claude solves two open problems in the physics of black holes",
+  "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 6.54,
+  "date": "2026-11-20"
+ },
+ {
+  "key": "237c3abb02583a5b",
+  "title": "RL Post-Training in Diffusion Transformers Is Activation Steering",
+  "url": "https://arxiv.org/abs/2611.26627v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "image",
+   "model"
+  ],
+  "score": 6.08,
+  "date": "2026-11-20"
+ },
+ {
+  "key": "6926b29799c480c2",
+  "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+  "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+  "source": "google-ai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 5.9,
+  "date": "2026-11-20"
+ },
+ {
+  "key": "0b39d674f308741f",
+  "title": "SceneAnything: Agentic Reconstruction of Large-Scale Mesh Scenes from a Single Video",
+  "url": "https://arxiv.org/abs/2611.25340v1",
+  "source": "arxiv-gr",
+  "axes": [
+   "threed",
+   "video"
+  ],
+  "score": 5.6,
+  "date": "2026-11-20"
+ },
+ {
+  "key": "52adc013cee7112b",
+  "title": "Posterior Matching Distillation",
+  "url": "https://arxiv.org/abs/2611.26629v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "video"
+  ],
+  "score": 5.14,
+  "date": "2026-11-20"
+ },
+ {
+  "key": "2ccae9e889184e18",
+  "title": "Token fraud is here and it’s BAD (YouTube)",
+  "url": "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/",
+  "source": "simonwillison",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 5.03,
+  "date": "2026-11-20"
+ }
+]
