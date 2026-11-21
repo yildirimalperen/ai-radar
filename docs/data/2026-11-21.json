@@ -1,0 +1,212 @@
+[
+ {
+  "key": "88a82722726dfb37",
+  "title": "Introducing Gemini 4 Neon",
+  "url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
+  "source": "deepmind",
+  "axes": [
+   "model"
+  ],
+  "score": 8.17,
+  "date": "2026-11-21"
+ },
+ {
+  "key": "f3a8c5718fcc63ab",
+  "title": "Introducing Gemini 4 Hydrogen",
+  "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+  "source": "deepmind",
+  "axes": [
+   "model"
+  ],
+  "score": 8.04,
+  "date": "2026-11-21"
+ },
+ {
+  "key": "f83c1eb384fa84bb",
+  "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+  "url": "https://openai.com/business/customer-stories/hebbia",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 6.73,
+  "date": "2026-11-21"
+ },
+ {
+  "key": "4f1aabe327347621",
+  "title": "Where 3D meets the real world: highlights from Unity Industry Summit Munich 2026",
+  "url": "https://unity.com/blog/unity-industry-summit-munich-2026-recap",
+  "source": "unity",
+  "axes": [
+   "game",
+   "threed"
+  ],
+  "score": 6.3,
+  "date": "2026-11-21"
+ },
+ {
+  "key": "878878a44a3ac1e1",
+  "title": "Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and Mind-Action Composition in Robotic Manipulation",
+  "url": "https://huggingface.co/papers/2611.26444",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 6.03,
+  "date": "2026-11-21"
+ },
+ {
+  "key": "e533de39adabf8b4",
+  "title": "Phone or computer? How to plan your video game controls",
+  "url": "https://unity.com/blog/video-game-controls-phone-or-computer",
+  "source": "unity",
+  "axes": [
+   "game",
+   "video"
+  ],
+  "score": 5.5,
+  "date": "2026-11-21"
+ },
+ {
+  "key": "cf73f0d18161af85",
+  "title": "Last Week in AI #348 - IPO->Correction, new GPTs and Geminis, Nvidia’s Fate",
+  "url": "https://lastweekin.ai/p/last-week-in-ai-348-ipo-correction",
+  "source": "last-week-in-ai",
+  "axes": [
+   "people"
+  ],
+  "score": 5.1,
+  "date": "2026-11-21"
+ },
+ {
+  "key": "e43a78a347236352",
+  "title": "Depth Pro 2: Sharp and Temporally Consistent Metric Monocular Depth",
+  "url": "https://huggingface.co/papers/2611.26603",
+  "source": "hf-papers",
+  "axes": [
+   "image",
+   "model",
+   "threed",
+   "video"
+  ],
+  "score": 4.71,
+  "date": "2026-11-21"
+ },
+ {
+  "key": "fe197f39ea400330",
+  "title": "ScaleWorld: High-Resolution World Generation through Shared Prediction and Refinement",
+  "url": "https://arxiv.org/abs/2611.26615v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "video"
+  ],
+  "score": 4.68,
+  "date": "2026-11-21"
+ },
+ {
+  "key": "2e4bc7c0dc6d682d",
+  "title": "I'll never buy Framework hardware again",
+  "url": "https://poolp.org/posts/2026-11-20/ill-never-buy-framework-hardware-again/",
+  "source": "hackernews",
+  "axes": [
+   "infra"
+  ],
+  "score": 3.13,
+  "date": "2026-11-21"
+ },
+ {
+  "key": "f698f0187dc55fa5",
+  "title": "Probing the \"Conscious\" Mind: Selective Access and Global Workspace in Vision-Language Models",
+  "url": "https://huggingface.co/papers/2611.26590",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 5.97,
+  "date": "2026-11-21"
+ },
+ {
+  "key": "6926b29799c480c2",
+  "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+  "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+  "source": "google-ai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 5.9,
+  "date": "2026-11-21"
+ },
+ {
+  "key": "d24b5a09cb4f8cfc",
+  "title": "TuringSpace: Grounding Spatial Intelligence in Action with Interactive CAPTCHAs",
+  "url": "https://huggingface.co/papers/2611.25387",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 5.75,
+  "date": "2026-11-21"
+ },
+ {
+  "key": "f2dcf8d7b12fe385",
+  "title": "Restricting AI agents in mobile operating systems platforms from capturing data",
+  "url": "https://signal.org/blog/protecting-your-privacy/",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 5.54,
+  "date": "2026-11-21"
+ },
+ {
+  "key": "c697d04db95305ac",
+  "title": "Combatting adversarial distillation",
+  "url": "https://openai.com/index/combatting-adversarial-distillation",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 5.06,
+  "date": "2026-11-21"
+ },
+ {
+  "key": "06f8cfd0570a7521",
+  "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+  "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 4.7,
+  "date": "2026-11-21"
+ },
+ {
+  "key": "9de8563793f7a0ca",
+  "title": "Genie 4 is now available",
+  "url": "https://deepmind.google/blog/genie-4-is-now-available/",
+  "source": "deepmind",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 4.6,
+  "date": "2026-11-21"
+ },
+ {
+  "key": "018c177eb3356acc",
+  "title": "Baseten Releases Bison-1 and Groundhog-1, Topping Decision Model Index",
+  "url": "https://www.marktechpost.com/2026/11/20/baseten-bison-1-groundhog-1-gemma-4-decision-models/",
+  "source": "marktechpost",
+  "axes": [
+   "model"
+  ],
+  "score": 4.51,
+  "date": "2026-11-21"
+ }
+]
