@@ -1,0 +1,146 @@
+[
+ {
+  "key": "88a82722726dfb37",
+  "title": "Introducing Gemini 4 Neon",
+  "url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
+  "source": "deepmind",
+  "axes": [
+   "model"
+  ],
+  "score": 8.06,
+  "date": "2026-11-22"
+ },
+ {
+  "key": "f3a8c5718fcc63ab",
+  "title": "Introducing Gemini 4 Hydrogen",
+  "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+  "source": "deepmind",
+  "axes": [
+   "model"
+  ],
+  "score": 8.04,
+  "date": "2026-11-22"
+ },
+ {
+  "key": "f83c1eb384fa84bb",
+  "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+  "url": "https://openai.com/business/customer-stories/hebbia",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 6.48,
+  "date": "2026-11-22"
+ },
+ {
+  "key": "faa5b204f0b8ddf5",
+  "title": "Muru",
+  "url": "https://simonwillison.net/2026/Nov/21/muru/",
+  "source": "simonwillison",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 4.93,
+  "date": "2026-11-22"
+ },
+ {
+  "key": "6926b29799c480c2",
+  "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+  "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+  "source": "google-ai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 5.9,
+  "date": "2026-11-22"
+ },
+ {
+  "key": "9b15b18e96d81af2",
+  "title": "Explore the Codex Security Plugin",
+  "url": "https://openai.com/business/learn/codex-security-plugin-demo",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 4.52,
+  "date": "2026-11-22"
+ },
+ {
+  "key": "7546ab2bd381bbdf",
+  "title": "See PR scans in action",
+  "url": "https://openai.com/business/learn/pr-scans-demo",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 4.52,
+  "date": "2026-11-22"
+ },
+ {
+  "key": "ec9b98c5450d7036",
+  "title": "ZeroVLN: Learning to Navigate without Supervised Fine-Tuning of the VLM Brain",
+  "url": "https://huggingface.co/papers/2611.26414",
+  "source": "hf-papers",
+  "axes": [
+   "image",
+   "model",
+   "threed",
+   "video"
+  ],
+  "score": 4.5,
+  "date": "2026-11-22"
+ },
+ {
+  "key": "8136aab14c7d8fb2",
+  "title": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
+  "url": "https://huggingface.co/blog/inkling2mini",
+  "source": "huggingface-blog",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 4.13,
+  "date": "2026-11-22"
+ },
+ {
+  "key": "384b155fcd1e9ded",
+  "title": "PostgreSQL 19 Released",
+  "url": "https://simonwillison.net/2026/Nov/19/postgresql-19/",
+  "source": "simonwillison",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 4.11,
+  "date": "2026-11-22"
+ },
+ {
+  "key": "e18a2ab1410ad102",
+  "title": "Why your fine-tuning job takes longer than the FLOPs say",
+  "url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+  "source": "huggingface-blog",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 4.01,
+  "date": "2026-11-22"
+ },
+ {
+  "key": "fcdb43884f02a88f",
+  "title": "datasette-arrows 0.1a0",
+  "url": "https://simonwillison.net/2026/Nov/18/datasette-arrows/",
+  "source": "simonwillison",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 4.0,
+  "date": "2026-11-22"
+ }
+]
