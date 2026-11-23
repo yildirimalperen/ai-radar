@@ -9,7 +9,29 @@
    "model",
    "people"
   ],
-  "score": 9.7,
+  "score": 9.62,
+  "date": "2026-11-23"
+ },
+ {
+  "key": "6f82b361eaf0faca",
+  "title": "Jensen Huang Reinstated as Nvidia CEO",
+  "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+  "source": "hackernews",
+  "axes": [
+   "people"
+  ],
+  "score": 8.27,
+  "date": "2026-11-23"
+ },
+ {
+  "key": "bc6d9b122533b3c4",
+  "title": "Nvidia Reinstates Jensen Huang as CEO",
+  "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
+  "source": "hackernews",
+  "axes": [
+   "people"
+  ],
+  "score": 8.19,
   "date": "2026-11-23"
  },
  {
@@ -24,18 +46,6 @@
   "date": "2026-11-23"
  },
  {
-  "key": "3a6d36109f259c34",
-  "title": "Unreal Engine 6 Will Not Include Blueprints & Gameplay Framework",
-  "url": "https://80.lv/articles/unreal-engine-6-will-not-include-blueprints-gameplay-framework/",
-  "source": "80lv",
-  "axes": [
-   "game",
-   "infra"
-  ],
-  "score": 7.38,
-  "date": "2026-11-23"
- },
- {
   "key": "d99f032ee9aeca43",
   "title": "Non-penetrating World Models",
   "url": "https://huggingface.co/papers/2611.27963",
@@ -43,20 +53,53 @@
   "axes": [
    "model"
   ],
-  "score": 7.02,
+  "score": 7.05,
   "date": "2026-11-23"
  },
  {
-  "key": "6d5b92494766651e",
-  "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
-  "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
-  "source": "hackernews",
+  "key": "e0f6220bb9b3ceda",
+  "title": "Ubisoft Established a New Studio Focusing on AI-Driven Games",
+  "url": "https://80.lv/articles/ubisoft-established-a-new-studio-focusing-on-ai-driven-games/",
+  "source": "80lv",
   "axes": [
-   "infra",
+   "game"
+  ],
+  "score": 6.65,
+  "date": "2026-11-23"
+ },
+ {
+  "key": "f58fce4d4b634349",
+  "title": "Real-time 3D with Unity Industry: What to vibe code with Unity CLI and when to rely on the foundational infrastructure",
+  "url": "https://unity.com/blog/ai-vibe-coding-vs-buying-managed-infrastructure",
+  "source": "unity",
+  "axes": [
+   "game",
+   "threed"
+  ],
+  "score": 6.59,
+  "date": "2026-11-23"
+ },
+ {
+  "key": "f83c1eb384fa84bb",
+  "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+  "url": "https://openai.com/business/customer-stories/hebbia",
+  "source": "openai",
+  "axes": [
    "model",
    "people"
   ],
-  "score": 6.93,
+  "score": 6.35,
+  "date": "2026-11-23"
+ },
+ {
+  "key": "beee2c06164b30f3",
+  "title": "Activision files patent for neural network to train NPCs from in-game voice chat",
+  "url": "https://www.gamesindustry.biz/activision-files-patent-for-neural-network-to-train-npcs-from-in-game-voice-chat",
+  "source": "gamesindustry",
+  "axes": [
+   "game"
+  ],
+  "score": 5.76,
   "date": "2026-11-23"
  },
  {
@@ -68,18 +111,18 @@
    "threed",
    "video"
   ],
-  "score": 5.2,
+  "score": 5.18,
   "date": "2026-11-23"
  },
  {
-  "key": "b73023ca3cbf70b3",
-  "title": "Claude Maker Anthropic Opens 34% Above IPO Price on Nasdaq",
-  "url": "https://80.lv/articles/claude-maker-anthropic-opens-34-above-ipo-price-on-nasdaq/",
+  "key": "3cb016cba712aacf",
+  "title": "Jensen Huang Returns as NVIDIA's CEO",
+  "url": "https://80.lv/articles/jensen-huang-returns-as-nvidia-s-ceo/",
   "source": "80lv",
   "axes": [
    "people"
   ],
-  "score": 5.12,
+  "score": 5.04,
   "date": "2026-11-23"
  },
  {
@@ -93,43 +136,20 @@
    "threed",
    "video"
   ],
-  "score": 4.94,
+  "score": 4.97,
   "date": "2026-11-23"
  },
  {
-  "key": "4fac601cb4c347cc",
-  "title": "Augmentation of cardiovascular flow measurements with generative diffusion models",
-  "url": "https://arxiv.org/abs/2611.27917v1",
-  "source": "arxiv-cv",
-  "axes": [
-   "image"
-  ],
-  "score": 4.68,
-  "date": "2026-11-23"
- },
- {
-  "key": "f83c1eb384fa84bb",
-  "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
-  "url": "https://openai.com/business/customer-stories/hebbia",
-  "source": "openai",
-  "axes": [
-   "model",
-   "people"
-  ],
-  "score": 6.37,
-  "date": "2026-11-23"
- },
- {
-  "key": "097edc17d8d60732",
-  "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
-  "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+  "key": "9237e34e5d0d953f",
+  "title": "GLM-5.4: Toward generalized coding with our first loop transformer",
+  "url": "https://z.ai/blog/glm-5.4",
   "source": "hackernews",
   "axes": [
    "infra",
    "model",
    "people"
   ],
-  "score": 6.34,
+  "score": 6.25,
   "date": "2026-11-23"
  },
  {
@@ -140,7 +160,19 @@
   "axes": [
    "model"
   ],
-  "score": 5.9,
+  "score": 5.91,
+  "date": "2026-11-23"
+ },
+ {
+  "key": "953eef188336e0fd",
+  "title": "Finding faster quantum algorithms with agents and formal verification",
+  "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+  "source": "deepmind",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 5.75,
   "date": "2026-11-23"
  },
  {
@@ -151,54 +183,56 @@
   "axes": [
    "model"
   ],
-  "score": 5.52,
+  "score": 5.51,
   "date": "2026-11-23"
  },
  {
-  "key": "44792634d2094f99",
-  "title": "Select Styling Specimens",
-  "url": "https://simonwillison.net/2026/Nov/22/select-styling/",
-  "source": "simonwillison",
+  "key": "512784899a2a2cac",
+  "title": "NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance",
+  "url": "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin/",
+  "source": "nvidia-genai",
   "axes": [
    "infra",
    "model"
   ],
-  "score": 4.78,
+  "score": 5.41,
   "date": "2026-11-23"
  },
  {
-  "key": "bc1ce4053c46342e",
-  "title": "Deploying Daybreak Red",
-  "url": "https://openai.com/business/learn/deploying-daybreak-red",
-  "source": "openai",
+  "key": "e08dd0683d6306b3",
+  "title": "RoboTrack: Point tracking for real-world robotic manipulation",
+  "url": "https://huggingface.co/blog/allenai/robotrack",
+  "source": "huggingface-blog",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 5.27,
+  "date": "2026-11-23"
+ },
+ {
+  "key": "764b7351b3d5829f",
+  "title": "A more tailored Google Search that’s uniquely yours",
+  "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+  "source": "google-ai",
   "axes": [
    "model",
    "people"
   ],
-  "score": 4.49,
+  "score": 5.25,
   "date": "2026-11-23"
  },
  {
-  "key": "3d61ad31adbacfaf",
-  "title": "ParaBMG: A Parallel Block Multigrid Framework for Large-Scale Evolving Sparse Systems on Unstructured Meshes",
-  "url": "https://arxiv.org/abs/2611.27396v1",
-  "source": "arxiv-gr",
+  "key": "6d5b92494766651e",
+  "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
+  "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+  "source": "hackernews",
   "axes": [
    "infra",
-   "model"
+   "model",
+   "people"
   ],
-  "score": 4.48,
-  "date": "2026-11-23"
- },
- {
-  "key": "faf7d62c110b1c6c",
-  "title": "DiTraR: Diverse Scorers and Transcript-Guided Re-ranking for Video Corpus Moment Retrieval",
-  "url": "https://arxiv.org/abs/2611.27931v1",
-  "source": "arxiv-cv",
-  "axes": [
-   "video"
-  ],
-  "score": 4.46,
+  "score": 4.94,
   "date": "2026-11-23"
  }
 ]
