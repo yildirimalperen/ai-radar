@@ -1,0 +1,204 @@
+[
+ {
+  "key": "aa3d0f2e97dc37b6",
+  "title": "Perplexity and Intelligence",
+  "url": "https://openai.com/index/perplexity-and-intelligence",
+  "source": "openai",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 9.7,
+  "date": "2026-11-23"
+ },
+ {
+  "key": "88a82722726dfb37",
+  "title": "Introducing Gemini 4 Neon",
+  "url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
+  "source": "deepmind",
+  "axes": [
+   "model"
+  ],
+  "score": 8.04,
+  "date": "2026-11-23"
+ },
+ {
+  "key": "3a6d36109f259c34",
+  "title": "Unreal Engine 6 Will Not Include Blueprints & Gameplay Framework",
+  "url": "https://80.lv/articles/unreal-engine-6-will-not-include-blueprints-gameplay-framework/",
+  "source": "80lv",
+  "axes": [
+   "game",
+   "infra"
+  ],
+  "score": 7.38,
+  "date": "2026-11-23"
+ },
+ {
+  "key": "d99f032ee9aeca43",
+  "title": "Non-penetrating World Models",
+  "url": "https://huggingface.co/papers/2611.27963",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 7.02,
+  "date": "2026-11-23"
+ },
+ {
+  "key": "6d5b92494766651e",
+  "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
+  "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 6.93,
+  "date": "2026-11-23"
+ },
+ {
+  "key": "f2ad4ae5450c67fc",
+  "title": "CADENCE:Temporally Coherent Whole-Body Human Mesh Recovery that Preserves Expressive Hand Motion",
+  "url": "https://arxiv.org/abs/2611.26783v1",
+  "source": "arxiv-gr",
+  "axes": [
+   "threed",
+   "video"
+  ],
+  "score": 5.2,
+  "date": "2026-11-23"
+ },
+ {
+  "key": "b73023ca3cbf70b3",
+  "title": "Claude Maker Anthropic Opens 34% Above IPO Price on Nasdaq",
+  "url": "https://80.lv/articles/claude-maker-anthropic-opens-34-above-ipo-price-on-nasdaq/",
+  "source": "80lv",
+  "axes": [
+   "people"
+  ],
+  "score": 5.12,
+  "date": "2026-11-23"
+ },
+ {
+  "key": "594e8e69deda8f8c",
+  "title": "cmHC: Balancing Stream Mixing in Hyper-Connections via Geometric Contraction",
+  "url": "https://huggingface.co/papers/2611.27193",
+  "source": "hf-papers",
+  "axes": [
+   "image",
+   "model",
+   "threed",
+   "video"
+  ],
+  "score": 4.94,
+  "date": "2026-11-23"
+ },
+ {
+  "key": "4fac601cb4c347cc",
+  "title": "Augmentation of cardiovascular flow measurements with generative diffusion models",
+  "url": "https://arxiv.org/abs/2611.27917v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "image"
+  ],
+  "score": 4.68,
+  "date": "2026-11-23"
+ },
+ {
+  "key": "f83c1eb384fa84bb",
+  "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+  "url": "https://openai.com/business/customer-stories/hebbia",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 6.37,
+  "date": "2026-11-23"
+ },
+ {
+  "key": "097edc17d8d60732",
+  "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+  "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 6.34,
+  "date": "2026-11-23"
+ },
+ {
+  "key": "410cf6d7149319d7",
+  "title": "Clover-35B-A3B-Preview Technical Report",
+  "url": "https://huggingface.co/papers/2611.24636",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 5.9,
+  "date": "2026-11-23"
+ },
+ {
+  "key": "dbc9b0d56eeb63d8",
+  "title": "Training Vision Models for LLM-Driven Weight-Space Programming",
+  "url": "https://huggingface.co/papers/2611.26408",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 5.52,
+  "date": "2026-11-23"
+ },
+ {
+  "key": "44792634d2094f99",
+  "title": "Select Styling Specimens",
+  "url": "https://simonwillison.net/2026/Nov/22/select-styling/",
+  "source": "simonwillison",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 4.78,
+  "date": "2026-11-23"
+ },
+ {
+  "key": "bc1ce4053c46342e",
+  "title": "Deploying Daybreak Red",
+  "url": "https://openai.com/business/learn/deploying-daybreak-red",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 4.49,
+  "date": "2026-11-23"
+ },
+ {
+  "key": "3d61ad31adbacfaf",
+  "title": "ParaBMG: A Parallel Block Multigrid Framework for Large-Scale Evolving Sparse Systems on Unstructured Meshes",
+  "url": "https://arxiv.org/abs/2611.27396v1",
+  "source": "arxiv-gr",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 4.48,
+  "date": "2026-11-23"
+ },
+ {
+  "key": "faf7d62c110b1c6c",
+  "title": "DiTraR: Diverse Scorers and Transcript-Guided Re-ranking for Video Corpus Moment Retrieval",
+  "url": "https://arxiv.org/abs/2611.27931v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "video"
+  ],
+  "score": 4.46,
+  "date": "2026-11-23"
+ }
+]
