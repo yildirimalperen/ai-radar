@@ -9,7 +9,29 @@
    "model",
    "people"
   ],
-  "score": 9.79,
+  "score": 9.63,
+  "date": "2026-11-24"
+ },
+ {
+  "key": "897db4bc282b2802",
+  "title": "LLM agents work for their parent companies, not for you",
+  "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
+  "source": "hackernews",
+  "axes": [
+   "model"
+  ],
+  "score": 9.17,
+  "date": "2026-11-24"
+ },
+ {
+  "key": "88a82722726dfb37",
+  "title": "Introducing Gemini 4 Neon",
+  "url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
+  "source": "deepmind",
+  "axes": [
+   "model"
+  ],
+  "score": 8.04,
   "date": "2026-11-24"
  },
  {
@@ -20,30 +42,31 @@
   "axes": [
    "people"
   ],
-  "score": 7.81,
+  "score": 7.71,
   "date": "2026-11-24"
  },
  {
-  "key": "3d6b3476418cc20f",
-  "title": "WorldLeague: Benchmarking Physical Agency",
-  "url": "https://huggingface.co/papers/2611.30989",
+  "key": "59811cf97838f556",
+  "title": "ViDiHand2: Unifying Video Diffusion Priors and Hand Geometry for 3D Hand Motion Reconstruction in the Wild",
+  "url": "https://huggingface.co/papers/2611.30597",
   "source": "hf-papers",
   "axes": [
-   "model",
-   "threed"
+   "image",
+   "threed",
+   "video"
   ],
-  "score": 7.36,
+  "score": 7.35,
   "date": "2026-11-24"
  },
  {
-  "key": "6f82b361eaf0faca",
-  "title": "Jensen Huang Reinstated as Nvidia CEO",
-  "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
-  "source": "hackernews",
+  "key": "e190b5e87306691a",
+  "title": "How Gemini is changing the game for Golden State's organization and fans.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
+  "source": "google-ai",
   "axes": [
-   "people"
+   "game"
   ],
-  "score": 7.31,
+  "score": 7.32,
   "date": "2026-11-24"
  },
  {
@@ -55,18 +78,20 @@
    "image",
    "video"
   ],
-  "score": 7.11,
+  "score": 7.16,
   "date": "2026-11-24"
  },
  {
-  "key": "723b7adb470b76f2",
-  "title": "datasette-agent 0.7a1",
-  "url": "https://simonwillison.net/2026/Nov/24/datasette-agent/",
-  "source": "simonwillison",
+  "key": "40c9b190f4f50aa3",
+  "title": "How To Model & Texture PS1-Style Character In Blender",
+  "url": "https://80.lv/articles/how-to-model-texture-ps1-style-character-in-blender/",
+  "source": "80lv",
   "axes": [
-   "model"
+   "image",
+   "model",
+   "threed"
   ],
-  "score": 6.4,
+  "score": 6.82,
   "date": "2026-11-24"
  },
  {
@@ -90,19 +115,18 @@
    "image",
    "threed"
   ],
-  "score": 6.1,
+  "score": 5.97,
   "date": "2026-11-24"
  },
  {
-  "key": "58c5fba2fe90490d",
-  "title": "Lyris: Layout-Guided Long Video Generation with Persistent 3D Memory",
-  "url": "https://arxiv.org/abs/2611.31239v1",
-  "source": "arxiv-cv",
+  "key": "d9896cbdbdc84714",
+  "title": "Access Asset Store and AI Generators using the Unity CLI",
+  "url": "https://unity.com/blog/unity-asset-store-ai-generators-coding-agents",
+  "source": "unity",
   "axes": [
-   "threed",
-   "video"
+   "game"
   ],
-  "score": 5.9,
+  "score": 5.36,
   "date": "2026-11-24"
  },
  {
@@ -113,19 +137,18 @@
   "axes": [
    "game"
   ],
-  "score": 5.35,
+  "score": 5.21,
   "date": "2026-11-24"
  },
  {
-  "key": "5bf4d3473b8e3505",
-  "title": "OpenAI and Cisco introduce Shirudo",
-  "url": "https://openai.com/index/introducing-shirudo",
-  "source": "openai",
+  "key": "6f82b361eaf0faca",
+  "title": "Jensen Huang Reinstated as Nvidia CEO",
+  "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+  "source": "hackernews",
   "axes": [
-   "model",
    "people"
   ],
-  "score": 5.27,
+  "score": 6.81,
   "date": "2026-11-24"
  },
  {
@@ -137,7 +160,7 @@
    "model",
    "people"
   ],
-  "score": 6.9,
+  "score": 6.77,
   "date": "2026-11-24"
  },
  {
@@ -148,7 +171,18 @@
   "axes": [
    "model"
   ],
-  "score": 6.84,
+  "score": 6.73,
+  "date": "2026-11-24"
+ },
+ {
+  "key": "723b7adb470b76f2",
+  "title": "datasette-agent 0.7a1",
+  "url": "https://simonwillison.net/2026/Nov/24/datasette-agent/",
+  "source": "simonwillison",
+  "axes": [
+   "model"
+  ],
+  "score": 6.22,
   "date": "2026-11-24"
  },
  {
@@ -159,65 +193,43 @@
   "axes": [
    "model"
   ],
-  "score": 6.21,
+  "score": 6.07,
   "date": "2026-11-24"
  },
  {
-  "key": "de59e442e70927dd",
-  "title": "Learning the Next Best Move with Visual Diffusion Models",
-  "url": "https://arxiv.org/abs/2611.30879v1",
-  "source": "arxiv-gr",
+  "key": "58c5fba2fe90490d",
+  "title": "Lyris: Layout-Guided Long Video Generation with Persistent 3D Memory",
+  "url": "https://arxiv.org/abs/2611.31239v1",
+  "source": "arxiv-cv",
   "axes": [
-   "image"
+   "threed",
+   "video"
   ],
-  "score": 5.22,
+  "score": 5.77,
   "date": "2026-11-24"
  },
  {
-  "key": "cdb442304c92cf3c",
-  "title": "DiffSimp: Differentiable Mesh Simplification for Gradient-Based Low-Poly Modeling",
-  "url": "https://arxiv.org/abs/2611.31018v1",
-  "source": "arxiv-gr",
-  "axes": [
-   "threed"
-  ],
-  "score": 5.03,
-  "date": "2026-11-24"
- },
- {
-  "key": "53b31e0def21869c",
-  "title": "datasette-charts 0.2a0",
-  "url": "https://simonwillison.net/2026/Nov/24/datasette-charts/",
-  "source": "simonwillison",
+  "key": "fd916c41c134b9f8",
+  "title": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
+  "url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
+  "source": "huggingface-blog",
   "axes": [
    "infra",
    "model"
   ],
-  "score": 5.0,
+  "score": 5.25,
   "date": "2026-11-24"
  },
  {
-  "key": "276a0bb78f497a73",
-  "title": "Connected intelligence for in-house legal",
-  "url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+  "key": "5bf4d3473b8e3505",
+  "title": "OpenAI and Cisco introduce Shirudo",
+  "url": "https://openai.com/index/introducing-shirudo",
   "source": "openai",
   "axes": [
    "model",
    "people"
   ],
-  "score": 4.97,
-  "date": "2026-11-24"
- },
- {
-  "key": "d9b84878c9547baa",
-  "title": "Richpanel helps companies automate 50% of support in 30 days",
-  "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
-  "source": "openai",
-  "axes": [
-   "model",
-   "people"
-  ],
-  "score": 4.97,
+  "score": 5.12,
   "date": "2026-11-24"
  }
 ]
