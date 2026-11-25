@@ -1,5 +1,18 @@
 [
  {
+  "key": "7d9478f3b58b546e",
+  "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+  "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+  "source": "openai",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 9.7,
+  "date": "2026-11-25"
+ },
+ {
   "key": "897db4bc282b2802",
   "title": "LLM agents work for their parent companies, not for you",
   "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
@@ -7,30 +20,29 @@
   "axes": [
    "model"
   ],
-  "score": 8.73,
+  "score": 8.62,
   "date": "2026-11-25"
  },
  {
-  "key": "7d9478f3b58b546e",
-  "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
-  "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
-  "source": "openai",
-  "axes": [
-   "model",
-   "people"
-  ],
-  "score": 6.94,
-  "date": "2026-11-25"
- },
- {
-  "key": "3ca8690d98a6d86c",
-  "title": "An Indic Voice Agent with CUGA",
-  "url": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
-  "source": "huggingface-blog",
+  "key": "88a82722726dfb37",
+  "title": "Introducing Gemini 4 Neon",
+  "url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
+  "source": "deepmind",
   "axes": [
    "model"
   ],
-  "score": 6.71,
+  "score": 8.04,
+  "date": "2026-11-25"
+ },
+ {
+  "key": "2801a159fd3b44da",
+  "title": "Nemotron-Labs-VisualCreation: Pixel as Code for Agentic Visual Creation",
+  "url": "https://huggingface.co/papers/2611.31358",
+  "source": "hf-papers",
+  "axes": [
+   "image"
+  ],
+  "score": 6.88,
   "date": "2026-11-25"
  },
  {
@@ -41,7 +53,91 @@
   "axes": [
    "threed"
   ],
-  "score": 6.6,
+  "score": 6.5,
+  "date": "2026-11-25"
+ },
+ {
+  "key": "3ca8690d98a6d86c",
+  "title": "An Indic Voice Agent with CUGA",
+  "url": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
+  "source": "huggingface-blog",
+  "axes": [
+   "model"
+  ],
+  "score": 6.46,
+  "date": "2026-11-25"
+ },
+ {
+  "key": "3904edfde632d988",
+  "title": "Anthropic breaks below $83 IPO price",
+  "url": "https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading",
+  "source": "hackernews",
+  "axes": [
+   "people"
+  ],
+  "score": 5.94,
+  "date": "2026-11-25"
+ },
+ {
+  "key": "fc32b11f376102d9",
+  "title": "Spectrify: Framework for Hyperspectral Image Generation Using Computer Graphics",
+  "url": "https://arxiv.org/abs/2611.33042v1",
+  "source": "arxiv-gr",
+  "axes": [
+   "image",
+   "infra"
+  ],
+  "score": 5.65,
+  "date": "2026-11-25"
+ },
+ {
+  "key": "ee029590bb09d699",
+  "title": "State AGs fight Character.AI’s plan to auction off users’ private chats",
+  "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
+  "source": "techcrunch-ai",
+  "axes": [
+   "threed"
+  ],
+  "score": 5.2,
+  "date": "2026-11-25"
+ },
+ {
+  "key": "4890888a866b07cf",
+  "title": "Microsoft Declares \"Code Red\" After 24-Hour-Long Outage",
+  "url": "https://80.lv/articles/microsoft-declares-code-red-after-24-hour-long-outage/",
+  "source": "80lv",
+  "axes": [
+   "game",
+   "image",
+   "threed"
+  ],
+  "score": 4.91,
+  "date": "2026-11-25"
+ },
+ {
+  "key": "a174f0510e9f2874",
+  "title": "Models Can Communicate via Inference Servers Despite Being Sandboxed",
+  "url": "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 6.72,
+  "date": "2026-11-25"
+ },
+ {
+  "key": "fd9079fde31225dc",
+  "title": "PenGPT: A Generative Transformer for Handwriting and Sketches",
+  "url": "https://greydanus.github.io/2026/11/12/pengpt/",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 6.36,
   "date": "2026-11-25"
  },
  {
@@ -57,67 +153,6 @@
   "date": "2026-11-25"
  },
  {
-  "key": "3904edfde632d988",
-  "title": "Anthropic breaks below $83 IPO price",
-  "url": "https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading",
-  "source": "hackernews",
-  "axes": [
-   "people"
-  ],
-  "score": 6.12,
-  "date": "2026-11-25"
- },
- {
-  "key": "fc32b11f376102d9",
-  "title": "Spectrify: Framework for Hyperspectral Image Generation Using Computer Graphics",
-  "url": "https://arxiv.org/abs/2611.33042v1",
-  "source": "arxiv-gr",
-  "axes": [
-   "image",
-   "infra"
-  ],
-  "score": 5.79,
-  "date": "2026-11-25"
- },
- {
-  "key": "e11d004f0033c910",
-  "title": "Lazy Agents Answer Against Their Own Beliefs: Reinforcement Learning with Verifiable Beliefs Teaches Them to Act on What They Believe",
-  "url": "https://huggingface.co/papers/2611.32884",
-  "source": "hf-papers",
-  "axes": [
-   "image",
-   "model",
-   "threed",
-   "video"
-  ],
-  "score": 5.35,
-  "date": "2026-11-25"
- },
- {
-  "key": "b1abab192800a37e",
-  "title": "Read My Lips: Context-aware Lip Reading Using Language and Audio-Visual Models",
-  "url": "https://arxiv.org/abs/2611.33117v1",
-  "source": "arxiv-gr",
-  "axes": [
-   "image"
-  ],
-  "score": 5.32,
-  "date": "2026-11-25"
- },
- {
-  "key": "a64bd7d64bab7ed1",
-  "title": "NVIDIA Releases Driver That Fixes SSD-Wearing Bug",
-  "url": "https://80.lv/articles/nvidia-releases-driver-that-fixes-ssd-wearing-bug/",
-  "source": "80lv",
-  "axes": [
-   "game",
-   "image",
-   "threed"
-  ],
-  "score": 5.13,
-  "date": "2026-11-25"
- },
- {
   "key": "16466eed404c36a1",
   "title": "Three LLM inflection points in twelve months",
   "url": "https://simonwillison.net/2026/Nov/24/llm-inflection-points/",
@@ -125,7 +160,18 @@
   "axes": [
    "model"
   ],
-  "score": 6.29,
+  "score": 6.11,
+  "date": "2026-11-25"
+ },
+ {
+  "key": "73bb164bb2a698b8",
+  "title": "Embodied AI Fails the Mirror Test: How a Simple Mirror Breaks Robot Policies",
+  "url": "https://huggingface.co/papers/2611.33010",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 6.0,
   "date": "2026-11-25"
  },
  {
@@ -136,77 +182,30 @@
   "axes": [
    "model"
   ],
-  "score": 5.91,
+  "score": 5.94,
   "date": "2026-11-25"
  },
  {
-  "key": "1a96c6a4d9d76041",
-  "title": "Antom 3-in-1 Transformer: A Payment Foundation Model",
-  "url": "https://huggingface.co/papers/2611.25403",
-  "source": "hf-papers",
-  "axes": [
-   "model"
-  ],
-  "score": 5.84,
-  "date": "2026-11-25"
- },
- {
-  "key": "71d88b520ee2a39d",
-  "title": "Tidal bans AI-generated music",
-  "url": "https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924/",
-  "source": "hackernews",
-  "axes": [
-   "infra",
-   "model",
-   "people"
-  ],
-  "score": 5.74,
-  "date": "2026-11-25"
- },
- {
-  "key": "b39edff1fec34bb3",
-  "title": "MESSI: Multi-Expert Soccer Skill Integration for Physics-Based Character Control",
-  "url": "https://arxiv.org/abs/2611.33011v1",
+  "key": "b1abab192800a37e",
+  "title": "Read My Lips: Context-aware Lip Reading Using Language and Audio-Visual Models",
+  "url": "https://arxiv.org/abs/2611.33117v1",
   "source": "arxiv-gr",
   "axes": [
-   "threed"
+   "image"
   ],
-  "score": 5.07,
+  "score": 5.17,
   "date": "2026-11-25"
  },
  {
-  "key": "28ef2939236388e7",
-  "title": "Searching for distant planets with Astra",
-  "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
-  "source": "openai",
+  "key": "bb933584dbc211e0",
+  "title": "From spectrum to structure: Identifying molecules with Mass Spec Skills for Google Antigravity",
+  "url": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/",
+  "source": "deepmind",
   "axes": [
    "model",
    "people"
   ],
-  "score": 5.05,
-  "date": "2026-11-25"
- },
- {
-  "key": "337c16c903f80c84",
-  "title": "ByteDance Researchers Open-Sources Laminar, an Async Reinforcement Learning RL Post-Training Framework",
-  "url": "https://www.marktechpost.com/2026/11/24/bytedance-seed-laminar-async-rl-post-training-framework/",
-  "source": "marktechpost",
-  "axes": [
-   "infra",
-   "model"
-  ],
-  "score": 5.01,
-  "date": "2026-11-25"
- },
- {
-  "key": "570fb1b7d1a4c008",
-  "title": "Video Models are Excellent Motion Models",
-  "url": "https://arxiv.org/abs/2611.32432v1",
-  "source": "arxiv-gr",
-  "axes": [
-   "video"
-  ],
-  "score": 4.93,
+  "score": 4.97,
   "date": "2026-11-25"
  }
 ]
