@@ -1,0 +1,187 @@
+[
+ {
+  "key": "6140c26518f8fc63",
+  "title": "Improving and Expanding Video Editing Capabilities Without Videos",
+  "url": "https://huggingface.co/papers/2611.34941",
+  "source": "hf-papers",
+  "axes": [
+   "image",
+   "video"
+  ],
+  "score": 8.93,
+  "date": "2026-11-26"
+ },
+ {
+  "key": "9b24c5f44177dc1d",
+  "title": "Much shorter version of GRH Lean verification from Anthropic",
+  "url": "https://github.com/lsernau/grh-lean",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 7.42,
+  "date": "2026-11-26"
+ },
+ {
+  "key": "9732abce9d91d35d",
+  "title": "The New York Times warns photographers not to update Photoshop over AI features",
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 7.02,
+  "date": "2026-11-26"
+ },
+ {
+  "key": "ecaf3f9c718efe09",
+  "title": "VibeVideoAgent: Closing the Perceptual Loop for Code-Driven Video Generation",
+  "url": "https://huggingface.co/papers/2611.34237",
+  "source": "hf-papers",
+  "axes": [
+   "video"
+  ],
+  "score": 6.88,
+  "date": "2026-11-26"
+ },
+ {
+  "key": "7d9478f3b58b546e",
+  "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+  "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 6.58,
+  "date": "2026-11-26"
+ },
+ {
+  "key": "f83c1eb384fa84bb",
+  "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+  "url": "https://openai.com/business/customer-stories/hebbia",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 6.34,
+  "date": "2026-11-26"
+ },
+ {
+  "key": "c6eba73fd6d98c1b",
+  "title": "A Mesh for Every Moment",
+  "url": "https://arxiv.org/abs/2611.34939v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "threed"
+  ],
+  "score": 6.32,
+  "date": "2026-11-26"
+ },
+ {
+  "key": "756109e5dee529e1",
+  "title": "AnyCam: Anything Can Represent Camera for Video Generation",
+  "url": "https://arxiv.org/abs/2611.34944v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "model",
+   "video"
+  ],
+  "score": 5.84,
+  "date": "2026-11-26"
+ },
+ {
+  "key": "da8a13be33dcb676",
+  "title": "Real2SimLab: A Unified Platform for Real-to-Simulation Transfer",
+  "url": "https://huggingface.co/papers/2611.34849",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 6.88,
+  "date": "2026-11-26"
+ },
+ {
+  "key": "3ee5f165431f4d7c",
+  "title": "HOG-WAM: Improving Visual Robustness through Future Gradient Prediction",
+  "url": "https://huggingface.co/papers/2611.34811",
+  "source": "hf-papers",
+  "axes": [
+   "image"
+  ],
+  "score": 6.64,
+  "date": "2026-11-26"
+ },
+ {
+  "key": "3372641b6bc3aa39",
+  "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
+  "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+  "source": "huggingface-blog",
+  "axes": [
+   "model"
+  ],
+  "score": 5.42,
+  "date": "2026-11-26"
+ },
+ {
+  "key": "1a5e8ab3ce6b1cd4",
+  "title": "Tracking Any Point with Agentic Visual Reasoning",
+  "url": "https://arxiv.org/abs/2611.34943v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "image"
+  ],
+  "score": 5.34,
+  "date": "2026-11-26"
+ },
+ {
+  "key": "842b77497c90106e",
+  "title": "42 state AGs are trying to stop Character.AI from selling users’ chats",
+  "url": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
+  "source": "verge-ai",
+  "axes": [
+   "threed"
+  ],
+  "score": 5.15,
+  "date": "2026-11-26"
+ },
+ {
+  "key": "ecb8888393c03a41",
+  "title": "LuxAvatar: Real-Time Relightable Head Avatars via Causal Neural Shading of 3D Intrinsic Proxies",
+  "url": "https://arxiv.org/abs/2611.34940v1",
+  "source": "arxiv-cv",
+  "axes": [
+   "threed"
+  ],
+  "score": 5.12,
+  "date": "2026-11-26"
+ },
+ {
+  "key": "ff11af3330de7f52",
+  "title": "sqlite3_rsync: Database Remote-Copy Tool For SQLite",
+  "url": "https://simonwillison.net/2026/Nov/26/sqlite3-rsync/",
+  "source": "simonwillison",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 5.12,
+  "date": "2026-11-26"
+ },
+ {
+  "key": "028c2dcf39a7499b",
+  "title": "What a Drop Reveals: Sim-to-Real Material Estimation for Deformable Objects from Video",
+  "url": "https://arxiv.org/abs/2611.34894v1",
+  "source": "arxiv-gr",
+  "axes": [
+   "video"
+  ],
+  "score": 5.12,
+  "date": "2026-11-26"
+ }
+]
