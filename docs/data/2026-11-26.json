@@ -1,5 +1,18 @@
 [
  {
+  "key": "a90003fd4469aed2",
+  "title": "The New York Times warns photographers not to update Photoshop over AI features",
+  "url": "https://simonwillison.net/2026/Nov/26/hn-50651685/",
+  "source": "simonwillison",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 9.68,
+  "date": "2026-11-26"
+ },
+ {
   "key": "6140c26518f8fc63",
   "title": "Improving and Expanding Video Editing Capabilities Without Videos",
   "url": "https://huggingface.co/papers/2611.34941",
@@ -8,7 +21,31 @@
    "image",
    "video"
   ],
-  "score": 8.93,
+  "score": 8.86,
+  "date": "2026-11-26"
+ },
+ {
+  "key": "88a82722726dfb37",
+  "title": "Introducing Gemini 4 Neon",
+  "url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
+  "source": "deepmind",
+  "axes": [
+   "model"
+  ],
+  "score": 8.04,
+  "date": "2026-11-26"
+ },
+ {
+  "key": "7b90e9840f45a719",
+  "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
+  "url": "https://twitter.com/thsottiaux/status/2125784147889393806",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 7.39,
   "date": "2026-11-26"
  },
  {
@@ -21,55 +58,18 @@
    "model",
    "people"
   ],
-  "score": 7.42,
+  "score": 6.92,
   "date": "2026-11-26"
  },
  {
-  "key": "9732abce9d91d35d",
-  "title": "The New York Times warns photographers not to update Photoshop over AI features",
-  "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
-  "source": "hackernews",
-  "axes": [
-   "infra",
-   "model",
-   "people"
-  ],
-  "score": 7.02,
-  "date": "2026-11-26"
- },
- {
-  "key": "ecaf3f9c718efe09",
-  "title": "VibeVideoAgent: Closing the Perceptual Loop for Code-Driven Video Generation",
-  "url": "https://huggingface.co/papers/2611.34237",
+  "key": "3c0905933546d5fc",
+  "title": "Playfulness as Feedback for Agentic Game Development",
+  "url": "https://huggingface.co/papers/2611.33457",
   "source": "hf-papers",
   "axes": [
-   "video"
+   "game"
   ],
-  "score": 6.88,
-  "date": "2026-11-26"
- },
- {
-  "key": "7d9478f3b58b546e",
-  "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
-  "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
-  "source": "openai",
-  "axes": [
-   "model",
-   "people"
-  ],
-  "score": 6.58,
-  "date": "2026-11-26"
- },
- {
-  "key": "f83c1eb384fa84bb",
-  "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
-  "url": "https://openai.com/business/customer-stories/hebbia",
-  "source": "openai",
-  "axes": [
-   "model",
-   "people"
-  ],
-  "score": 6.34,
+  "score": 6.28,
   "date": "2026-11-26"
  },
  {
@@ -80,7 +80,7 @@
   "axes": [
    "threed"
   ],
-  "score": 6.32,
+  "score": 6.17,
   "date": "2026-11-26"
  },
  {
@@ -92,7 +92,29 @@
    "model",
    "video"
   ],
-  "score": 5.84,
+  "score": 5.68,
+  "date": "2026-11-26"
+ },
+ {
+  "key": "9a4b2797f8489470",
+  "title": "As Anthropic IPOs, Grand Theft Auto VI proves why efficiency isn’t a virtue",
+  "url": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
+  "source": "techcrunch-ai",
+  "axes": [
+   "game"
+  ],
+  "score": 5.36,
+  "date": "2026-11-26"
+ },
+ {
+  "key": "028c2dcf39a7499b",
+  "title": "What a Drop Reveals: Sim-to-Real Material Estimation for Deformable Objects from Video",
+  "url": "https://arxiv.org/abs/2611.34894v1",
+  "source": "arxiv-gr",
+  "axes": [
+   "video"
+  ],
+  "score": 4.96,
   "date": "2026-11-26"
  },
  {
@@ -114,18 +136,53 @@
   "axes": [
    "image"
   ],
-  "score": 6.64,
+  "score": 6.57,
   "date": "2026-11-26"
  },
  {
-  "key": "3372641b6bc3aa39",
-  "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
-  "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+  "key": "7d9478f3b58b546e",
+  "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+  "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 6.53,
+  "date": "2026-11-26"
+ },
+ {
+  "key": "54ef3c0d1fd39609",
+  "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+  "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
   "source": "huggingface-blog",
   "axes": [
    "model"
   ],
-  "score": 5.42,
+  "score": 6.52,
+  "date": "2026-11-26"
+ },
+ {
+  "key": "f83c1eb384fa84bb",
+  "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+  "url": "https://openai.com/business/customer-stories/hebbia",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 6.34,
+  "date": "2026-11-26"
+ },
+ {
+  "key": "9d5b6cce607cbf2b",
+  "title": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
+  "url": "https://huggingface.co/blog/training-swarms",
+  "source": "huggingface-blog",
+  "axes": [
+   "model"
+  ],
+  "score": 5.35,
   "date": "2026-11-26"
  },
  {
@@ -136,18 +193,7 @@
   "axes": [
    "image"
   ],
-  "score": 5.34,
-  "date": "2026-11-26"
- },
- {
-  "key": "842b77497c90106e",
-  "title": "42 state AGs are trying to stop Character.AI from selling users’ chats",
-  "url": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
-  "source": "verge-ai",
-  "axes": [
-   "threed"
-  ],
-  "score": 5.15,
+  "score": 5.18,
   "date": "2026-11-26"
  },
  {
@@ -158,30 +204,7 @@
   "axes": [
    "threed"
   ],
-  "score": 5.12,
-  "date": "2026-11-26"
- },
- {
-  "key": "ff11af3330de7f52",
-  "title": "sqlite3_rsync: Database Remote-Copy Tool For SQLite",
-  "url": "https://simonwillison.net/2026/Nov/26/sqlite3-rsync/",
-  "source": "simonwillison",
-  "axes": [
-   "infra",
-   "model"
-  ],
-  "score": 5.12,
-  "date": "2026-11-26"
- },
- {
-  "key": "028c2dcf39a7499b",
-  "title": "What a Drop Reveals: Sim-to-Real Material Estimation for Deformable Objects from Video",
-  "url": "https://arxiv.org/abs/2611.34894v1",
-  "source": "arxiv-gr",
-  "axes": [
-   "video"
-  ],
-  "score": 5.12,
+  "score": 4.96,
   "date": "2026-11-26"
  }
 ]
