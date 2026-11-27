@@ -1,0 +1,202 @@
+[
+ {
+  "key": "a90003fd4469aed2",
+  "title": "The New York Times warns photographers not to update Photoshop over AI features",
+  "url": "https://simonwillison.net/2026/Nov/26/hn-50651685/",
+  "source": "simonwillison",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 9.3,
+  "date": "2026-11-27"
+ },
+ {
+  "key": "26401af9256bccf3",
+  "title": "AI made self-hosting fun again",
+  "url": "https://janlukas.blog/posts/ai-self-hosting",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 8.7,
+  "date": "2026-11-27"
+ },
+ {
+  "key": "88a82722726dfb37",
+  "title": "Introducing Gemini 4 Neon",
+  "url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
+  "source": "deepmind",
+  "axes": [
+   "model"
+  ],
+  "score": 8.04,
+  "date": "2026-11-27"
+ },
+ {
+  "key": "7b90e9840f45a719",
+  "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
+  "url": "https://twitter.com/thsottiaux/status/2125784147889393806",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 6.95,
+  "date": "2026-11-27"
+ },
+ {
+  "key": "df9026c9799104f2",
+  "title": "StateWeaver: Multi-Agent Coordination of Story-State Transitions for Long-Horizon Video Generation",
+  "url": "https://huggingface.co/papers/2611.34290",
+  "source": "hf-papers",
+  "axes": [
+   "model",
+   "video"
+  ],
+  "score": 6.88,
+  "date": "2026-11-27"
+ },
+ {
+  "key": "dbad4469e2ba4e48",
+  "title": "ProxyGenBench: Benchmarking Proxy-Guided Video Generation",
+  "url": "https://huggingface.co/papers/2611.34457",
+  "source": "hf-papers",
+  "axes": [
+   "video"
+  ],
+  "score": 6.33,
+  "date": "2026-11-27"
+ },
+ {
+  "key": "c366758c4a35429e",
+  "title": "NVIDIA RTX Spark Compact Desktops Out Now",
+  "url": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now/",
+  "source": "nvidia-genai",
+  "axes": [
+   "video"
+  ],
+  "score": 5.36,
+  "date": "2026-11-27"
+ },
+ {
+  "key": "37cbd82a0ea2ea90",
+  "title": "Ubisoft Says Generative AI Isn't Mandatory for Developers",
+  "url": "https://80.lv/articles/ubisoft-says-generative-ai-isn-t-mandatory-for-developers/",
+  "source": "80lv",
+  "axes": [
+   "game",
+   "image",
+   "threed"
+  ],
+  "score": 5.12,
+  "date": "2026-11-27"
+ },
+ {
+  "key": "2694a233dca61436",
+  "title": "FoundSurface: Feedforward Ray-Based 3D Scene Surface Reconstruction from Unposed Images",
+  "url": "https://arxiv.org/abs/2611.34128v1",
+  "source": "arxiv-gr",
+  "axes": [
+   "threed"
+  ],
+  "score": 4.58,
+  "date": "2026-11-27"
+ },
+ {
+  "key": "9e65c4d8bc1f420f",
+  "title": "OS-Omni: Benchmarking Generalist Computer-Using Agents on Long-Horizon Workflows Across Platforms",
+  "url": "https://huggingface.co/papers/2611.34232",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 6.44,
+  "date": "2026-11-27"
+ },
+ {
+  "key": "7d9478f3b58b546e",
+  "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+  "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 6.42,
+  "date": "2026-11-27"
+ },
+ {
+  "key": "f83c1eb384fa84bb",
+  "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+  "url": "https://openai.com/business/customer-stories/hebbia",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 6.34,
+  "date": "2026-11-27"
+ },
+ {
+  "key": "7036666180ca1d9e",
+  "title": "Entangle: Scaling Human-Video In-Context World-Action Models across Unseen Tasks and Contexts",
+  "url": "https://huggingface.co/papers/2611.28732",
+  "source": "hf-papers",
+  "axes": [
+   "video"
+  ],
+  "score": 6.25,
+  "date": "2026-11-27"
+ },
+ {
+  "key": "1fd42acc0249f207",
+  "title": "Import AI 482: Huawei kernel benchmarks; airborne drone detection; and a national lab's AI science benchmark",
+  "url": "https://importai.substack.com/p/import-ai-482-huawei-kernel-benchmarks",
+  "source": "import-ai",
+  "axes": [
+   "model"
+  ],
+  "score": 5.92,
+  "date": "2026-11-27"
+ },
+ {
+  "key": "ca4e8328f47f931f",
+  "title": "Introducing Tool Retrieval in the Gemini API",
+  "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+  "source": "google-ai",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 5.91,
+  "date": "2026-11-27"
+ },
+ {
+  "key": "346279b5737bf6fc",
+  "title": "Recreating the Scale Model Look of a Rally Diorama in Houdini",
+  "url": "https://80.lv/articles/recreating-the-scale-model-look-of-a-rally-diorama-in-houdini/",
+  "source": "80lv",
+  "axes": [
+   "model"
+  ],
+  "score": 5.68,
+  "date": "2026-11-27"
+ },
+ {
+  "key": "dd5b14f065b46c5b",
+  "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
+  "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+  "source": "huggingface-blog",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 4.45,
+  "date": "2026-11-27"
+ }
+]
