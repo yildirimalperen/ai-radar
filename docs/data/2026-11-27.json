@@ -1,52 +1,27 @@
 [
  {
-  "key": "a90003fd4469aed2",
-  "title": "The New York Times warns photographers not to update Photoshop over AI features",
-  "url": "https://simonwillison.net/2026/Nov/26/hn-50651685/",
-  "source": "simonwillison",
-  "axes": [
-   "infra",
-   "model",
-   "people"
-  ],
-  "score": 9.3,
-  "date": "2026-11-27"
- },
- {
-  "key": "26401af9256bccf3",
-  "title": "AI made self-hosting fun again",
-  "url": "https://janlukas.blog/posts/ai-self-hosting",
+  "key": "4856d210f9eff68b",
+  "title": "The group chat where your AI talks behind your back",
+  "url": "https://construct22.com/",
   "source": "hackernews",
   "axes": [
    "infra",
    "model",
    "people"
   ],
-  "score": 8.7,
+  "score": 7.54,
   "date": "2026-11-27"
  },
  {
-  "key": "88a82722726dfb37",
-  "title": "Introducing Gemini 4 Neon",
-  "url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
-  "source": "deepmind",
+  "key": "80d0948b06880b7c",
+  "title": "Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video Models",
+  "url": "https://huggingface.co/papers/2611.34813",
+  "source": "hf-papers",
   "axes": [
-   "model"
+   "image",
+   "video"
   ],
-  "score": 8.04,
-  "date": "2026-11-27"
- },
- {
-  "key": "7b90e9840f45a719",
-  "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
-  "url": "https://twitter.com/thsottiaux/status/2125784147889393806",
-  "source": "hackernews",
-  "axes": [
-   "infra",
-   "model",
-   "people"
-  ],
-  "score": 6.95,
+  "score": 7.31,
   "date": "2026-11-27"
  },
  {
@@ -58,18 +33,55 @@
    "model",
    "video"
   ],
-  "score": 6.88,
+  "score": 6.86,
   "date": "2026-11-27"
  },
  {
-  "key": "dbad4469e2ba4e48",
-  "title": "ProxyGenBench: Benchmarking Proxy-Guided Video Generation",
-  "url": "https://huggingface.co/papers/2611.34457",
-  "source": "hf-papers",
+  "key": "7d9478f3b58b546e",
+  "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+  "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+  "source": "openai",
   "axes": [
-   "video"
+   "model",
+   "people"
   ],
-  "score": 6.33,
+  "score": 6.39,
+  "date": "2026-11-27"
+ },
+ {
+  "key": "f9d66f51c682152d",
+  "title": "Mastered receives funding to support training for games studios in West of England",
+  "url": "https://www.gamesindustry.biz/mastered-receives-funding-to-support-training-for-games-studios-in-west-of-england",
+  "source": "gamesindustry",
+  "axes": [
+   "game",
+   "model"
+  ],
+  "score": 6.38,
+  "date": "2026-11-27"
+ },
+ {
+  "key": "f83c1eb384fa84bb",
+  "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+  "url": "https://openai.com/business/customer-stories/hebbia",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 6.34,
+  "date": "2026-11-27"
+ },
+ {
+  "key": "a19faa613e7452a1",
+  "title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+  "url": "https://huggingface.co/blog/video-trainium3",
+  "source": "huggingface-blog",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 6.0,
   "date": "2026-11-27"
  },
  {
@@ -93,7 +105,7 @@
    "image",
    "threed"
   ],
-  "score": 5.12,
+  "score": 4.88,
   "date": "2026-11-27"
  },
  {
@@ -104,7 +116,44 @@
   "axes": [
    "threed"
   ],
-  "score": 4.58,
+  "score": 4.53,
+  "date": "2026-11-27"
+ },
+ {
+  "key": "063533630dd47cd3",
+  "title": "Hard Drive pricing has gotten bad",
+  "url": "https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/",
+  "source": "hackernews",
+  "axes": [
+   "infra"
+  ],
+  "score": 3.91,
+  "date": "2026-11-27"
+ },
+ {
+  "key": "26401af9256bccf3",
+  "title": "AI made self-hosting fun again",
+  "url": "https://janlukas.blog/posts/ai-self-hosting",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 7.38,
+  "date": "2026-11-27"
+ },
+ {
+  "key": "7b90e9840f45a719",
+  "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
+  "url": "https://twitter.com/thsottiaux/status/2125784147889393806",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 6.86,
   "date": "2026-11-27"
  },
  {
@@ -115,53 +164,18 @@
   "axes": [
    "model"
   ],
-  "score": 6.44,
+  "score": 6.4,
   "date": "2026-11-27"
  },
  {
-  "key": "7d9478f3b58b546e",
-  "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
-  "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
-  "source": "openai",
-  "axes": [
-   "model",
-   "people"
-  ],
-  "score": 6.42,
-  "date": "2026-11-27"
- },
- {
-  "key": "f83c1eb384fa84bb",
-  "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
-  "url": "https://openai.com/business/customer-stories/hebbia",
-  "source": "openai",
-  "axes": [
-   "model",
-   "people"
-  ],
-  "score": 6.34,
-  "date": "2026-11-27"
- },
- {
-  "key": "7036666180ca1d9e",
-  "title": "Entangle: Scaling Human-Video In-Context World-Action Models across Unseen Tasks and Contexts",
-  "url": "https://huggingface.co/papers/2611.28732",
+  "key": "dbad4469e2ba4e48",
+  "title": "ProxyGenBench: Benchmarking Proxy-Guided Video Generation",
+  "url": "https://huggingface.co/papers/2611.34457",
   "source": "hf-papers",
   "axes": [
    "video"
   ],
-  "score": 6.25,
-  "date": "2026-11-27"
- },
- {
-  "key": "1fd42acc0249f207",
-  "title": "Import AI 482: Huawei kernel benchmarks; airborne drone detection; and a national lab's AI science benchmark",
-  "url": "https://importai.substack.com/p/import-ai-482-huawei-kernel-benchmarks",
-  "source": "import-ai",
-  "axes": [
-   "model"
-  ],
-  "score": 5.92,
+  "score": 6.29,
   "date": "2026-11-27"
  },
  {
@@ -177,14 +191,27 @@
   "date": "2026-11-27"
  },
  {
-  "key": "346279b5737bf6fc",
-  "title": "Recreating the Scale Model Look of a Rally Diorama in Houdini",
-  "url": "https://80.lv/articles/recreating-the-scale-model-look-of-a-rally-diorama-in-houdini/",
-  "source": "80lv",
+  "key": "7473f8498c222b7f",
+  "title": "How Intentful uses dots to make more time for growth",
+  "url": "https://openai.com/business/customer-stories/intentful-dots",
+  "source": "openai",
   "axes": [
-   "model"
+   "model",
+   "people"
   ],
-  "score": 5.68,
+  "score": 4.5,
+  "date": "2026-11-27"
+ },
+ {
+  "key": "fc16149ca30325dc",
+  "title": "How iFood scales coding agents across 15,000 repositories",
+  "url": "https://openai.com/business/customer-stories/ifood",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 4.5,
   "date": "2026-11-27"
  },
  {
@@ -196,7 +223,7 @@
    "infra",
    "model"
   ],
-  "score": 4.45,
+  "score": 4.35,
   "date": "2026-11-27"
  }
 ]
