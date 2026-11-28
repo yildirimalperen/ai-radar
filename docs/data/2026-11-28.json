@@ -7,7 +7,7 @@
   "axes": [
    "model"
   ],
-  "score": 8.88,
+  "score": 8.77,
   "date": "2026-11-28"
  },
  {
@@ -22,21 +22,22 @@
   "date": "2026-11-28"
  },
  {
-  "key": "7d9478f3b58b546e",
-  "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
-  "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
-  "source": "openai",
+  "key": "efff57683c5ff901",
+  "title": "Michael Nielsen took down his book on neural nets",
+  "url": "https://neuralnetworksanddeeplearning.com/",
+  "source": "hackernews",
   "axes": [
+   "infra",
    "model",
    "people"
   ],
-  "score": 6.34,
+  "score": 7.28,
   "date": "2026-11-28"
  },
  {
-  "key": "f83c1eb384fa84bb",
-  "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
-  "url": "https://openai.com/business/customer-stories/hebbia",
+  "key": "7d9478f3b58b546e",
+  "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+  "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
   "source": "openai",
   "axes": [
    "model",
@@ -56,31 +57,7 @@
    "threed",
    "video"
   ],
-  "score": 5.33,
-  "date": "2026-11-28"
- },
- {
-  "key": "03427b5f581ed1ce",
-  "title": "Show HN: bouncemarket – a live prediction market game for a bouncing ball",
-  "url": "https://bouncemarket.minhanhday.com/",
-  "source": "hackernews",
-  "axes": [
-   "game"
-  ],
-  "score": 4.98,
-  "date": "2026-11-28"
- },
- {
-  "key": "efff57683c5ff901",
-  "title": "Michael Nielsen took down his book on neural nets",
-  "url": "https://neuralnetworksanddeeplearning.com/",
-  "source": "hackernews",
-  "axes": [
-   "infra",
-   "model",
-   "people"
-  ],
-  "score": 7.39,
+  "score": 5.29,
   "date": "2026-11-28"
  },
  {
@@ -93,7 +70,32 @@
    "model",
    "people"
   ],
-  "score": 7.08,
+  "score": 6.73,
+  "date": "2026-11-28"
+ },
+ {
+  "key": "4856d210f9eff68b",
+  "title": "Group chat where your AI talks behind your back",
+  "url": "https://construct22.com/",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 6.35,
+  "date": "2026-11-28"
+ },
+ {
+  "key": "f83c1eb384fa84bb",
+  "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+  "url": "https://openai.com/business/customer-stories/hebbia",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 6.34,
   "date": "2026-11-28"
  },
  {
@@ -115,7 +117,7 @@
   "axes": [
    "model"
   ],
-  "score": 5.62,
+  "score": 5.61,
   "date": "2026-11-28"
  },
  {
@@ -127,7 +129,7 @@
    "infra",
    "model"
   ],
-  "score": 4.91,
+  "score": 4.75,
   "date": "2026-11-28"
  },
  {
@@ -138,25 +140,13 @@
   "axes": [
    "model"
   ],
-  "score": 4.72,
+  "score": 4.5,
   "date": "2026-11-28"
  },
  {
   "key": "87a30c08023afbbb",
   "title": "Clay helps sales teams win with Codex and ChatGPT",
   "url": "https://openai.com/business/customer-stories/clay-plugins-openai",
-  "source": "openai",
-  "axes": [
-   "model",
-   "people"
-  ],
-  "score": 4.49,
-  "date": "2026-11-28"
- },
- {
-  "key": "c697d04db95305ac",
-  "title": "Combatting adversarial distillation",
-  "url": "https://openai.com/index/combatting-adversarial-distillation",
   "source": "openai",
   "axes": [
    "model",
