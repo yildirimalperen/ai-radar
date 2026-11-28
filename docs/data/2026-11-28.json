@@ -1,0 +1,168 @@
+[
+ {
+  "key": "6ca964399f19cde2",
+  "title": "Google's DeepCrossAttention achieves comparable model quality up to 3x faster",
+  "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
+  "source": "hackernews",
+  "axes": [
+   "model"
+  ],
+  "score": 8.88,
+  "date": "2026-11-28"
+ },
+ {
+  "key": "88a82722726dfb37",
+  "title": "Introducing Gemini 4 Neon",
+  "url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
+  "source": "deepmind",
+  "axes": [
+   "model"
+  ],
+  "score": 8.04,
+  "date": "2026-11-28"
+ },
+ {
+  "key": "7d9478f3b58b546e",
+  "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+  "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 6.34,
+  "date": "2026-11-28"
+ },
+ {
+  "key": "f83c1eb384fa84bb",
+  "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+  "url": "https://openai.com/business/customer-stories/hebbia",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 6.34,
+  "date": "2026-11-28"
+ },
+ {
+  "key": "2f9e3de07f056f2e",
+  "title": "Stable Gated DeltaNet-2: Understanding and Mitigating Recurrent State Instability",
+  "url": "https://huggingface.co/papers/2611.34051",
+  "source": "hf-papers",
+  "axes": [
+   "image",
+   "model",
+   "threed",
+   "video"
+  ],
+  "score": 5.33,
+  "date": "2026-11-28"
+ },
+ {
+  "key": "03427b5f581ed1ce",
+  "title": "Show HN: bouncemarket – a live prediction market game for a bouncing ball",
+  "url": "https://bouncemarket.minhanhday.com/",
+  "source": "hackernews",
+  "axes": [
+   "game"
+  ],
+  "score": 4.98,
+  "date": "2026-11-28"
+ },
+ {
+  "key": "efff57683c5ff901",
+  "title": "Michael Nielsen took down his book on neural nets",
+  "url": "https://neuralnetworksanddeeplearning.com/",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 7.39,
+  "date": "2026-11-28"
+ },
+ {
+  "key": "26401af9256bccf3",
+  "title": "AI made self-hosting fun again",
+  "url": "https://janlukas.blog/posts/ai-self-hosting",
+  "source": "hackernews",
+  "axes": [
+   "infra",
+   "model",
+   "people"
+  ],
+  "score": 7.08,
+  "date": "2026-11-28"
+ },
+ {
+  "key": "98feed26daa77a25",
+  "title": "What a Forecasting Leaderboard Can Establish: Resolution Reporting for Zero-Shot Time-Series Models",
+  "url": "https://huggingface.co/papers/2611.31619",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 5.82,
+  "date": "2026-11-28"
+ },
+ {
+  "key": "b215109483e8cc00",
+  "title": "DRBench Pro: A Knowledge-Centric Benchmark for Professional Deep Research Agents",
+  "url": "https://huggingface.co/papers/2611.34852",
+  "source": "hf-papers",
+  "axes": [
+   "model"
+  ],
+  "score": 5.62,
+  "date": "2026-11-28"
+ },
+ {
+  "key": "6c105979f86742b7",
+  "title": "datasette-charts 0.4a0",
+  "url": "https://simonwillison.net/2026/Nov/27/datasette-charts/",
+  "source": "simonwillison",
+  "axes": [
+   "infra",
+   "model"
+  ],
+  "score": 4.91,
+  "date": "2026-11-28"
+ },
+ {
+  "key": "a984eddb51c699d4",
+  "title": "Ant Group Releases LingSante-3.1-flash: An Open-Weight MoE Model with 560B Total Parameters and 25B Activations per Token",
+  "url": "https://www.marktechpost.com/2026/11/28/ant-group-lingsante-3-1-flash-open-source-medical-ai/",
+  "source": "marktechpost",
+  "axes": [
+   "model"
+  ],
+  "score": 4.72,
+  "date": "2026-11-28"
+ },
+ {
+  "key": "87a30c08023afbbb",
+  "title": "Clay helps sales teams win with Codex and ChatGPT",
+  "url": "https://openai.com/business/customer-stories/clay-plugins-openai",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 4.49,
+  "date": "2026-11-28"
+ },
+ {
+  "key": "c697d04db95305ac",
+  "title": "Combatting adversarial distillation",
+  "url": "https://openai.com/index/combatting-adversarial-distillation",
+  "source": "openai",
+  "axes": [
+   "model",
+   "people"
+  ],
+  "score": 4.49,
+  "date": "2026-11-28"
+ }
+]
